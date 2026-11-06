@@ -8,16 +8,17 @@
    "from": "Aladdin",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Aladdin",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/aladdin.webp",
    "credit": {
-    "author": "Dick Thomas Johnson from Tokyo, Japan",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Comic_Market_96_Day_1_Cosplayers_(48600210856).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Aladdin_%28character%29"
    }
   },
   {
@@ -26,16 +27,17 @@
    "from": "Frozen",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Frozen",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/anna.webp",
    "credit": {
-    "author": "RyC - Behind The Lens from San Francisco, United States of America",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Frozen%27s_anna_cosplay_(14049776308).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Anna"
    }
   },
   {
@@ -44,16 +46,17 @@
    "from": "The Little Mermaid",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "The Little Mermaid",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/ariel.webp",
    "credit": {
-    "author": "Mooshuu",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_The_Little_Mermaid_in_Wondercon_2016.jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Ariel"
    }
   },
   {
@@ -62,16 +65,18 @@
    "from": "Barbie",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Barbie",
    "tags": [
     "character",
     "toy"
    ],
+   "actor": "Margot Robbie",
    "img": "img/barbie.webp",
    "credit": {
-    "author": "SpiritedMichelle",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Barbie_cosplay_at_Fan_Expo_Denver_2026.jpg"
+    "author": "Warner Bros. / Mattel",
+    "license": "© owner, fan use",
+    "source": "https://barbie.fandom.com/wiki/Barbie_%28Margot_Robbie%29"
    }
   },
   {
@@ -80,16 +85,18 @@
    "from": "DC",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Ben Affleck",
    "img": "img/batman.webp",
    "credit": {
-    "author": "Super Festivals from Ft. Lauderdale, USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Batman_at_Florida_Supercon_2013_(9364594115).jpg"
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Batman"
    }
   },
   {
@@ -98,16 +105,17 @@
    "from": "Beauty and the Beast",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Beauty and the Beast",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/belle.webp",
    "credit": {
-    "author": "LX-Designs from SF Bay Area, CA",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Belle_from_Beauty_and_the_Beast_at_FanimeCon_2023_(53055820329).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Belle"
    }
   },
   {
@@ -116,16 +124,18 @@
    "from": "Marvel",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Scarlett Johansson",
    "img": "img/black-widow.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Black_Widow_at_Brussels_Comic_Con_2019_(40335692413).jpg"
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Natasha_Romanoff"
    }
   },
   {
@@ -134,10 +144,18 @@
    "from": "Monsters, Inc.",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Monsters, Inc.",
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/boo.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Boo"
+   }
   },
   {
    "id": "buzz-lightyear",
@@ -145,16 +163,17 @@
    "from": "Toy Story",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/buzz-lightyear.webp",
    "credit": {
-    "author": "Gage Skidmore from Peoria, AZ, United States of America",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Buzz_Lightyear_%26_Dark_Phoenix_cosplayers_(16026088891).jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Buzz_Lightyear"
    }
   },
   {
@@ -163,16 +182,18 @@
    "from": "Marvel",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Chris Evans",
    "img": "img/captain-america.webp",
    "credit": {
-    "author": "randychiu",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Captain_America_cosplay_o.jpg"
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Steve_Rogers"
    }
   },
   {
@@ -181,16 +202,18 @@
    "from": "Marvel",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Brie Larson",
    "img": "img/captain-marvel.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Captain_Marvel_at_Brussels_Comic_Con_2019_(46577264804).jpg"
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Captain_Marvel"
    }
   },
   {
@@ -199,16 +222,17 @@
    "from": "Cinderella",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Cinderella",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/cinderella.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Belle_and_Cinderella_at_Japan_Expo_2016_(28208407151).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Cinderella_%28character%29"
    }
   },
   {
@@ -217,6 +241,8 @@
    "from": "Star Wars",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
    "tags": [
     "character",
     "scifi",
@@ -224,10 +250,29 @@
    ],
    "img": "img/darth-vader.webp",
    "credit": {
-    "author": "Lunchbox Photography",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Mesa_Thinkin%27_Annie_Gots_Tired_of_Mesa_Ramblin!_Darth_Vader_Cosplay_at_Star_Wars_Celebration_V.jpg"
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Darth_Vader"
+   }
+  },
+  {
+   "id": "deadpool",
+   "name": "Deadpool",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "tags": [
+    "character",
+    "superhero"
+   ],
+   "actor": "Ryan Reynolds",
+   "img": "img/deadpool.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Deadpool"
    }
   },
   {
@@ -236,10 +281,18 @@
    "from": "Shrek",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
    "tags": [
     "character",
     "dreamworks"
-   ]
+   ],
+   "img": "img/donkey.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://shrek.fandom.com/wiki/Donkey"
+   }
   },
   {
    "id": "dora",
@@ -247,6 +300,8 @@
    "from": "Dora the Explorer",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Dora the Explorer",
    "tags": [
     "character",
     "tv",
@@ -254,10 +309,9 @@
    ],
    "img": "img/dora.webp",
    "credit": {
-    "author": "US Census Bureau",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Children_Count_Too_Awareness_Campaign_Launches_(4421979349).jpg"
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://dora.fandom.com/wiki/Dora_M%C3%A1rquez"
    }
   },
   {
@@ -266,10 +320,18 @@
    "from": "Finding Nemo",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Finding Nemo",
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/dory.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Dory"
+   }
   },
   {
    "id": "dumbledore",
@@ -277,16 +339,18 @@
    "from": "Harry Potter",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
    "tags": [
     "character",
     "fantasy"
    ],
+   "actor": "Michael Gambon",
    "img": "img/dumbledore.webp",
    "credit": {
-    "author": "acca-67",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Lucca_comics_%26_games_2013_(cosplay_of_Dumbledore).jpg"
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"
    }
   },
   {
@@ -295,16 +359,17 @@
    "from": "The Incredibles",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/edna-mode.webp",
    "credit": {
-    "author": "Rose Abrams",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:DH25_cosplay_07.jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Edna_Mode"
    }
   },
   {
@@ -313,16 +378,17 @@
    "from": "The Incredibles",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/elastigirl.webp",
    "credit": {
-    "author": "Mooshuu from San Diego",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:SDCC_2015-4935_(19409150150).jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Elastigirl"
    }
   },
   {
@@ -331,16 +397,18 @@
    "from": "Stranger Things",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
    "tags": [
     "character",
     "tv"
    ],
+   "actor": "Millie Bobby Brown",
    "img": "img/eleven.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:2023-07-15_10-37-25_ILCE-7C_DSCHP2575_(53055265652).jpg"
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Eleven"
    }
   },
   {
@@ -349,16 +417,18 @@
    "from": "Legally Blonde",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Legally Blonde",
    "tags": [
     "character",
     "comedy"
    ],
+   "actor": "Reese Witherspoon",
    "img": "img/elle-woods.webp",
    "credit": {
-    "author": "Eva Rinaldi",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cameron_Daddo,_Lucy_Durack_(8008139163).jpg"
+    "author": "MGM",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Elle_Woods"
    }
   },
   {
@@ -367,16 +437,17 @@
    "from": "Frozen",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Frozen",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/elsa.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Elsa_at_Japan_Expo_2016_(27778679323).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Elsa"
    }
   },
   {
@@ -385,16 +456,37 @@
    "from": "Tangled",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Tangled",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/flynn-rider.webp",
    "credit": {
-    "author": "Gage Skidmore",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Flynn_Rider_%26_Rapunzel_cosplayers_at_WonderCon_2025.jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Flynn_Rider"
+   }
+  },
+  {
+   "id": "forrest-gump",
+   "name": "Forrest Gump",
+   "from": "Forrest Gump",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Forrest Gump",
+   "tags": [
+    "character",
+    "drama"
+   ],
+   "actor": "Tom Hanks",
+   "img": "img/forrest-gump.webp",
+   "credit": {
+    "author": "Paramount Pictures",
+    "license": "© owner, fan use",
+    "source": "https://forrestgump.fandom.com/wiki/Forrest_Gump"
    }
   },
   {
@@ -403,16 +495,18 @@
    "from": "The Lord of the Rings",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
    "tags": [
     "character",
     "fantasy"
    ],
+   "actor": "Ian McKellen",
    "img": "img/gandalf.webp",
    "credit": {
-    "author": "Roger Murmann from Eppertshausen, Deutschland",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:MCM_2013_-_Gandalf_(8979307760).jpg"
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://lotr.fandom.com/wiki/Gandalf"
    }
   },
   {
@@ -421,16 +515,17 @@
    "from": "Aladdin",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Aladdin",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/genie.webp",
    "credit": {
-    "author": "玄史生",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplayer_of_the_Genie,_Aladdin_at_BIO5_20180505.jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Genie"
    }
   },
   {
@@ -439,17 +534,19 @@
    "from": "DC",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
    "tags": [
     "character",
     "superhero",
     "villain"
    ],
+   "actor": "Margot Robbie",
    "img": "img/harley-quinn.webp",
    "credit": {
-    "author": "Super Festivals from Ft. Lauderdale, USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Harley_Quinn_at_Florida_Supercon_2013_(9367401796).jpg"
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Harley_Quinn"
    }
   },
   {
@@ -458,16 +555,18 @@
    "from": "Harry Potter",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
    "tags": [
     "character",
     "fantasy"
    ],
+   "actor": "Daniel Radcliffe",
    "img": "img/harry-potter.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Harry_Potter_at_Brussels_Comic_Con_2022_(51957083366).jpg"
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Harry_Potter"
    }
   },
   {
@@ -476,16 +575,18 @@
    "from": "Harry Potter",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
    "tags": [
     "character",
     "fantasy"
    ],
+   "actor": "Emma Watson",
    "img": "img/hermione-granger.webp",
    "credit": {
-    "author": "蔡沅珅",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplayers_of_Hermione_Granger_and_Ron_Weasley_20180519a.jpg"
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Hermione_Granger"
    }
   },
   {
@@ -494,6 +595,8 @@
    "from": "The Simpsons",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
    "tags": [
     "character",
     "tv",
@@ -501,10 +604,9 @@
    ],
    "img": "img/homer-simpson.webp",
    "credit": {
-    "author": "Chongkian",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Homer_Simpson_at_Comic_Fiesta_2022.jpg"
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Homer_Simpson"
    }
   },
   {
@@ -513,16 +615,18 @@
    "from": "Marvel",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Mark Ruffalo",
    "img": "img/hulk.webp",
    "credit": {
-    "author": "Annette Wamser from Elk Grove, USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Big_Wow_2013_-_Avengers_(8845878144).jpg"
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Hulk"
    }
   },
   {
@@ -531,16 +635,38 @@
    "from": "Marvel",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Robert Downey Jr.",
    "img": "img/iron-man.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Iron_Man_and_War_Machine_at_Brussels_Comic_Con_2019_(46735972724).jpg"
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Iron_Man"
+   }
+  },
+  {
+   "id": "jack-dawson",
+   "name": "Jack Dawson",
+   "from": "Titanic",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Titanic",
+   "tags": [
+    "character",
+    "drama"
+   ],
+   "actor": "Leonardo DiCaprio",
+   "img": "img/jack-dawson.webp",
+   "credit": {
+    "author": "Paramount / 20th Century",
+    "license": "© owner, fan use",
+    "source": "https://jamescameronstitanic.fandom.com/wiki/Jack_Dawson"
    }
   },
   {
@@ -549,16 +675,18 @@
    "from": "Pirates of the Caribbean",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Pirates of the Caribbean",
    "tags": [
     "character",
     "action"
    ],
+   "actor": "Johnny Depp",
    "img": "img/jack-sparrow.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Jack_Sparrow_at_Made_in_Asia_2022_(52106129637).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://pirates.fandom.com/wiki/Jack_Sparrow"
    }
   },
   {
@@ -567,16 +695,17 @@
    "from": "Aladdin",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Aladdin",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/jasmine.webp",
    "credit": {
-    "author": "Dick Thomas Johnson from Tokyo, Japan",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Comic_Market_96_Day_1_Cosplayers_(48600210856).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Jasmine"
    }
   },
   {
@@ -585,16 +714,57 @@
    "from": "Toy Story",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/jessie.webp",
    "credit": {
-    "author": "greyloch from Washington, DC, area, U.S.A.",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Toy_Story%27s_Jessie_(9417280661).jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Jessie"
+   }
+  },
+  {
+   "id": "joel-miller",
+   "name": "Joel Miller",
+   "from": "The Last of Us",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Last of Us",
+   "tags": [
+    "character",
+    "tv"
+   ],
+   "actor": "Pedro Pascal",
+   "img": "img/joel-miller.webp",
+   "credit": {
+    "author": "HBO",
+    "license": "© owner, fan use",
+    "source": "https://thelastofus.fandom.com/wiki/Joel_Miller_%28HBO_series%29"
+   }
+  },
+  {
+   "id": "john-wick",
+   "name": "John Wick",
+   "from": "John Wick",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "John Wick",
+   "tags": [
+    "character",
+    "action"
+   ],
+   "actor": "Keanu Reeves",
+   "img": "img/john-wick.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://johnwick.fandom.com/wiki/John_Wick"
    }
   },
   {
@@ -603,16 +773,17 @@
    "from": "Inside Out",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Inside Out",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/joy.webp",
    "credit": {
-    "author": "Miguel Discart / Kiri Karma",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Japan_Expo_2024_-_Cosplay_of_Joy.jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Joy"
    }
   },
   {
@@ -621,16 +792,17 @@
    "from": "Zootopia",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Zootopia",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/judy-hopps.webp",
    "credit": {
-    "author": "Thomas Bresson",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:2019-02-02_12-00-07_Necronomi%E2%80%99Con.jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Judy_Hopps"
    }
   },
   {
@@ -639,10 +811,19 @@
    "from": "The Hunger Games",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
    "tags": [
     "character",
     "action"
-   ]
+   ],
+   "actor": "Jennifer Lawrence",
+   "img": "img/katniss-everdeen.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Katniss_Everdeen"
+   }
   },
   {
    "id": "kermit-the-frog",
@@ -650,16 +831,17 @@
    "from": "The Muppets",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "The Muppets",
    "tags": [
     "character",
     "tv"
    ],
    "img": "img/kermit-the-frog.webp",
    "credit": {
-    "author": "Staff Sgt. Jason Colbert",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Tops_in_Blue_120605-F-VX940-541_(cropped).jpg"
+    "author": "Disney / The Muppets Studio",
+    "license": "© owner, fan use",
+    "source": "https://muppet.fandom.com/wiki/Kermit_the_Frog"
    }
   },
   {
@@ -668,16 +850,17 @@
    "from": "Cars",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Cars",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/lightning-mcqueen.webp",
    "credit": {
-    "author": "Julien Chatelain from Paris, France",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Flash_McQueen_(8077593536).jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Lightning_McQueen"
    }
   },
   {
@@ -686,11 +869,19 @@
    "from": "The Simpsons",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
    "tags": [
     "character",
     "tv",
     "cartoon"
-   ]
+   ],
+   "img": "img/lisa-simpson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Lisa_Simpson"
+   }
   },
   {
    "id": "luigi",
@@ -698,16 +889,17 @@
    "from": "Super Mario",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
    "tags": [
     "character",
     "game"
    ],
    "img": "img/luigi.webp",
    "credit": {
-    "author": "Oliver Ayala",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:SDCC_15_-_Super_Mario_(19338350073).jpg"
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://www.mariowiki.com/Luigi"
    }
   },
   {
@@ -716,16 +908,18 @@
    "from": "Star Wars",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
    "tags": [
     "character",
     "scifi"
    ],
+   "actor": "Mark Hamill",
    "img": "img/luke-skywalker.webp",
    "credit": {
-    "author": "Rhododendrites",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_at_NYCC_(60245).jpg"
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Luke_Skywalker"
    }
   },
   {
@@ -734,6 +928,8 @@
    "from": "Sleeping Beauty",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Sleeping Beauty",
    "tags": [
     "character",
     "disney",
@@ -741,10 +937,9 @@
    ],
    "img": "img/maleficent.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Maleficent_at_Made_in_Asia_2019_(32764137197).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Maleficent"
    }
   },
   {
@@ -753,6 +948,8 @@
    "from": "The Simpsons",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
    "tags": [
     "character",
     "tv",
@@ -760,10 +957,9 @@
    ],
    "img": "img/marge-simpson.webp",
    "credit": {
-    "author": "tr.robinson",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Knit_Marge_Simpson_Cosplay_at_Dragon_Con_2014.jpg"
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Marge_Simpson"
    }
   },
   {
@@ -772,16 +968,37 @@
    "from": "Super Mario",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
    "tags": [
     "character",
     "game"
    ],
    "img": "img/mario.webp",
    "credit": {
-    "author": "Oliver Ayala",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:SDCC_15_-_Super_Mario_(19338350073).jpg"
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://www.mariowiki.com/Mario"
+   }
+  },
+  {
+   "id": "maui",
+   "name": "Maui",
+   "from": "Moana",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Moana",
+   "tags": [
+    "character",
+    "disney"
+   ],
+   "actor": "Dwayne Johnson",
+   "img": "img/maui.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Maui"
    }
   },
   {
@@ -790,16 +1007,38 @@
    "from": "Brave",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Brave",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/merida.webp",
    "credit": {
-    "author": "stupid systemus",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Otakon_2013_-_Merida_Cosplayer.jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Merida"
+   }
+  },
+  {
+   "id": "mia-thermopolis",
+   "name": "Mia Thermopolis",
+   "from": "The Princess Diaries",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Princess Diaries",
+   "tags": [
+    "character",
+    "disney",
+    "comedy"
+   ],
+   "actor": "Anne Hathaway",
+   "img": "img/mia-thermopolis.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://princessdiaries.fandom.com/wiki/Mia_Thermopolis"
    }
   },
   {
@@ -808,16 +1047,17 @@
    "from": "Monsters, Inc.",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Monsters, Inc.",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/mike-wazowski.webp",
    "credit": {
-    "author": "Pasquake",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:This_Particular_%22Mike_Wazowski_Costume%22_Cosplay_Was_Quite_Popular_Among_Cosplay_Photographers_Who_Were_At_Comicon_Napoli%F0%9F%87%AE%F0%9F%87%B9%F0%9F%98%88%F0%9F%91%81%EF%B8%8F.jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mike_Wazowski"
    }
   },
   {
@@ -826,16 +1066,17 @@
    "from": "Despicable Me",
    "gender": "x",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
    "tags": [
     "character",
     "cartoon"
    ],
    "img": "img/minions.webp",
    "credit": {
-    "author": "The Conmunity - Pop Culture Geek from Los Angeles, CA, USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:WonderCon_2011_-_Despicable_Me_Minions_with_a_Harley_Quinn_style_costume_(5593343405).jpg"
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Minions"
    }
   },
   {
@@ -844,16 +1085,17 @@
    "from": "Disney",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/minnie-mouse.webp",
    "credit": {
-    "author": "Marnie Joyce from New York City, USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:C2E2_2013_-_Minnie_Mouse_(8702699976).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Minnie_Mouse"
    }
   },
   {
@@ -862,16 +1104,37 @@
    "from": "Encanto",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Encanto",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/mirabel.webp",
    "credit": {
-    "author": "Stéphane Gallay from Laconnex, Switzerland",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Destination_Tokyo_2022_(52510356878).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mirabel_Madrigal"
+   }
+  },
+  {
+   "id": "miranda-priestly",
+   "name": "Miranda Priestly",
+   "from": "The Devil Wears Prada",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Devil Wears Prada",
+   "tags": [
+    "character",
+    "comedy"
+   ],
+   "actor": "Meryl Streep",
+   "img": "img/miranda-priestly.webp",
+   "credit": {
+    "author": "20th Century Studios",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Miranda_Priestly"
    }
   },
   {
@@ -880,16 +1143,17 @@
    "from": "Moana",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Moana",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/moana.webp",
    "credit": {
-    "author": "Joshua David Vega",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Moana_Disney_Parks.jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Moana_%28character%29"
    }
   },
   {
@@ -898,16 +1162,17 @@
    "from": "Mulan",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Mulan",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/mulan.webp",
    "credit": {
-    "author": "Stefan Schubert",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Fa_Mulan_(8270731832).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Fa_Mulan"
    }
   },
   {
@@ -916,16 +1181,17 @@
    "from": "Frozen",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Frozen",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/olaf.webp",
    "credit": {
-    "author": "Andrew Milligan sumo",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Olaf_the_Snowman,_Hamburg,_Germany_(48828338602).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Olaf"
    }
   },
   {
@@ -934,6 +1200,8 @@
    "from": "SpongeBob SquarePants",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
    "tags": [
     "character",
     "tv",
@@ -941,10 +1209,9 @@
    ],
    "img": "img/patrick-star.webp",
    "credit": {
-    "author": "Banej",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Patrick_Star.jpg"
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Patrick_Star"
    }
   },
   {
@@ -953,16 +1220,37 @@
    "from": "Pokémon",
    "gender": "x",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
    "tags": [
     "character",
     "game"
    ],
    "img": "img/pikachu.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Pikachu_at_Japan_Expo_2016_(28383865665).jpg"
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Pikachu"
+   }
+  },
+  {
+   "id": "po",
+   "name": "Po",
+   "from": "Kung Fu Panda",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kung Fu Panda",
+   "tags": [
+    "character",
+    "dreamworks"
+   ],
+   "actor": "Jack Black",
+   "img": "img/po.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://kungfupanda.fandom.com/wiki/Po"
    }
   },
   {
@@ -971,16 +1259,17 @@
    "from": "Shrek",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
    "tags": [
     "character",
     "dreamworks"
    ],
    "img": "img/princess-fiona.webp",
    "credit": {
-    "author": "Super Festivals from Ft. Lauderdale, USA",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_at_Animate_Raleigh_2026_-_timx3856_(55264813460).jpg"
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://shrek.fandom.com/wiki/Fiona"
    }
   },
   {
@@ -989,16 +1278,18 @@
    "from": "Star Wars",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
    "tags": [
     "character",
     "scifi"
    ],
+   "actor": "Carrie Fisher",
    "img": "img/princess-leia.webp",
    "credit": {
-    "author": "Tabercil from Canadian",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_at_the_2011_Fan_Expo_Canada_(6134623778).jpg"
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Princess_Leia"
    }
   },
   {
@@ -1007,16 +1298,38 @@
    "from": "Super Mario",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
    "tags": [
     "character",
     "game"
    ],
    "img": "img/princess-peach.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Princess_Peach_at_Japan_Expo_2016_(28261757326).jpg"
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://www.mariowiki.com/Princess_Peach"
+   }
+  },
+  {
+   "id": "rachel-green",
+   "name": "Rachel Green",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "tags": [
+    "character",
+    "tv",
+    "comedy"
+   ],
+   "actor": "Jennifer Aniston",
+   "img": "img/rachel-green.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Rachel_Greene"
    }
   },
   {
@@ -1025,16 +1338,37 @@
    "from": "Tangled",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Tangled",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/rapunzel.webp",
    "credit": {
-    "author": "SpiritedMichelle",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Tangled_cosplay_at_Fan_Expo_Denver_2026.jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Rapunzel"
+   }
+  },
+  {
+   "id": "red-redding",
+   "name": "Red Redding",
+   "from": "The Shawshank Redemption",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Shawshank Redemption",
+   "tags": [
+    "character",
+    "drama"
+   ],
+   "actor": "Morgan Freeman",
+   "img": "img/red-redding.webp",
+   "credit": {
+    "author": "Columbia Pictures",
+    "license": "© owner, fan use",
+    "source": "https://shawshank.fandom.com/wiki/Ellis_Boyd_%27Red%27_Redding"
    }
   },
   {
@@ -1043,16 +1377,38 @@
    "from": "Star Wars",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
    "tags": [
     "character",
     "scifi"
    ],
+   "actor": "Daisy Ridley",
    "img": "img/rey.webp",
    "credit": {
-    "author": "Oliver Ayala",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Balboa_Cosplay_Meetup_-_Cosplay_of_Rey_6.jpg"
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Rey_Skywalker"
+   }
+  },
+  {
+   "id": "rue-bennett",
+   "name": "Rue Bennett",
+   "from": "Euphoria",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Euphoria",
+   "tags": [
+    "character",
+    "tv"
+   ],
+   "actor": "Zendaya",
+   "img": "img/rue-bennett.webp",
+   "credit": {
+    "author": "HBO",
+    "license": "© owner, fan use",
+    "source": "https://euphoria.fandom.com/wiki/Rue_Bennett"
    }
   },
   {
@@ -1061,6 +1417,8 @@
    "from": "Scooby-Doo",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
    "tags": [
     "character",
     "tv",
@@ -1068,10 +1426,9 @@
    ],
    "img": "img/scooby-doo.webp",
    "credit": {
-    "author": "Miguel Discart from Bruxelles, Belgique",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:2014-04-04_21-09-38_NEX-6_7753_DxO_(13910617101).jpg"
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Scooby-Doo"
    }
   },
   {
@@ -1080,16 +1437,17 @@
    "from": "Shrek",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
    "tags": [
     "character",
     "dreamworks"
    ],
    "img": "img/shrek.webp",
    "credit": {
-    "author": "GabboT",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Toronto_2015_-_Shrek_(16723895657).jpg"
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://shrek.fandom.com/wiki/Shrek_%28character%29"
    }
   },
   {
@@ -1098,10 +1456,18 @@
    "from": "The Lion King",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "The Lion King",
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/simba.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Simba"
+   }
   },
   {
    "id": "sonic",
@@ -1109,16 +1475,17 @@
    "from": "Sonic the Hedgehog",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Sonic the Hedgehog",
    "tags": [
     "character",
     "game"
    ],
    "img": "img/sonic.webp",
    "credit": {
-    "author": "GabboT",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:WW_Chicago_2011_-_Sonic_the_Hedgehog.jpg"
+    "author": "Sega",
+    "license": "© owner, fan use",
+    "source": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog"
    }
   },
   {
@@ -1127,16 +1494,18 @@
    "from": "Marvel",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Tom Holland",
    "img": "img/spider-man.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Spider-Man_at_Brussels_Comic_Con_2019_(40335908293).jpg"
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Spider-Man"
    }
   },
   {
@@ -1145,6 +1514,8 @@
    "from": "SpongeBob SquarePants",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
    "tags": [
     "character",
     "tv",
@@ -1152,10 +1523,9 @@
    ],
    "img": "img/spongebob.webp",
    "credit": {
-    "author": "Tomasz Molina",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:SpongeBob_SquarePants_in_Warsaw.jpg"
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_%28character%29"
    }
   },
   {
@@ -1164,16 +1534,17 @@
    "from": "Lilo & Stitch",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Lilo & Stitch",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/stitch.webp",
    "credit": {
-    "author": "Gage Skidmore from Peoria, AZ, United States of America",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Stitch_cosplayer_(38331310596).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Stitch"
    }
   },
   {
@@ -1182,16 +1553,17 @@
    "from": "Monsters, Inc.",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Monsters, Inc.",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/sulley.webp",
    "credit": {
-    "author": "Tehsigo Eternamente (J Mondragon) from USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:LBCC_2014_-_Monsters_Inc_(15238905429).jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/James_P._Sullivan"
    }
   },
   {
@@ -1200,16 +1572,17 @@
    "from": "DC",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "DC",
    "tags": [
     "character",
     "superhero"
    ],
    "img": "img/superman.webp",
    "credit": {
-    "author": "Super Festivals from Ft. Lauderdale, USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Superman_at_Florida_Supercon_2013_(9359693687).jpg"
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Superman"
    }
   },
   {
@@ -1218,17 +1591,19 @@
    "from": "Marvel",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
    "tags": [
     "character",
     "superhero",
     "villain"
    ],
+   "actor": "Josh Brolin",
    "img": "img/thanos.webp",
    "credit": {
-    "author": "Miguel Discart & Kiri Karma",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Comiccon_Brussels_2023_-_Cosplay_of_Nebula_and_Thanos.jpg"
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Thanos"
    }
   },
   {
@@ -1237,17 +1612,19 @@
    "from": "DC",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
    "tags": [
     "character",
     "superhero",
     "villain"
    ],
+   "actor": "Heath Ledger",
    "img": "img/the-joker.webp",
    "credit": {
-    "author": "Miguel Discart / Kiri Karma",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Japan_Expo_2024_-_Cosplay_of_Joker.jpg"
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Joker_%28The_Dark_Knight%29"
    }
   },
   {
@@ -1256,16 +1633,18 @@
    "from": "Marvel",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Chris Hemsworth",
    "img": "img/thor.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Thor_(Marvel)_at_Made_in_Asia_2022_(52104540946).jpg"
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Thor"
    }
   },
   {
@@ -1274,16 +1653,17 @@
    "from": "The Princess and the Frog",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "The Princess and the Frog",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/tiana.webp",
    "credit": {
-    "author": "greyloch from Washington, DC, area, U.S.A.",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Princess_Tiana_(17685618576).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Tiana"
    }
   },
   {
@@ -1292,6 +1672,8 @@
    "from": "The Little Mermaid",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "The Little Mermaid",
    "tags": [
     "character",
     "disney",
@@ -1299,10 +1681,9 @@
    ],
    "img": "img/ursula.webp",
    "credit": {
-    "author": "William Tung from USA",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:WonderCon_2015_-_Ursula_(16862048360).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Ursula"
    }
   },
   {
@@ -1311,6 +1692,8 @@
    "from": "Scooby-Doo",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
    "tags": [
     "character",
     "tv",
@@ -1318,10 +1701,9 @@
    ],
    "img": "img/velma.webp",
    "credit": {
-    "author": "Stéphane Gallay",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Destination_Tokyo_2024_-_Scooby-Doo_Cosplayers.jpg"
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Velma_Dinkley"
    }
   },
   {
@@ -1330,17 +1712,19 @@
    "from": "Harry Potter",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
    "tags": [
     "character",
     "fantasy",
     "villain"
    ],
+   "actor": "Ralph Fiennes",
    "img": "img/voldemort.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Lord_Voldemort_at_Brussels_Comic_Con_2019_(40510881853).jpg"
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Tom_Riddle"
    }
   },
   {
@@ -1349,16 +1733,18 @@
    "from": "Wednesday",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Wednesday",
    "tags": [
     "character",
     "tv"
    ],
+   "actor": "Jenna Ortega",
    "img": "img/wednesday-addams.webp",
    "credit": {
-    "author": "Mooshuu",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Wondercon_2016-4395.jpg"
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://addamsfamily.fandom.com/wiki/Wednesday_Addams/2022"
    }
   },
   {
@@ -1367,16 +1753,18 @@
    "from": "DC",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Gal Gadot",
    "img": "img/wonder-woman.webp",
    "credit": {
-    "author": "Super Festivals from Ft. Lauderdale, USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_(9358432921).jpg"
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Wonder_Woman"
    }
   },
   {
@@ -1385,16 +1773,17 @@
    "from": "Toy Story",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
    "tags": [
     "character",
     "pixar"
    ],
    "img": "img/woody.webp",
    "credit": {
-    "author": "Michael Ocampo from United States",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Woody_with_Lenny,_Fanime_2015_(18147694431).jpg"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Woody"
    }
   },
   {
@@ -1403,16 +1792,18 @@
    "from": "Star Wars",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
    "tags": [
     "character",
     "scifi"
    ],
+   "actor": "Frank Oz",
    "img": "img/yoda.webp",
    "credit": {
-    "author": "Thomas Bresson",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:2021-10-31_11-10-20_sf-connexion-Colmar.jpg"
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Yoda"
    }
   }
  ]

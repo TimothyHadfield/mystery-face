@@ -17,7 +17,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Alice_par_John_Tenniel_30.png"
    },
    "gender": "f",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Alice in Wonderland"
   },
   {
    "id": "american-gothic-farmer",
@@ -50,7 +52,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Betty_Boop_-_Is_My_Palm_Read_(1933).webp"
    },
    "gender": "f",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Betty Boop"
   },
   {
    "id": "casper-the-friendly-ghost",
@@ -66,7 +70,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Casper_the_Friendly_Ghost_52.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Casper the Friendly Ghost"
   },
   {
    "id": "cheshire-cat",
@@ -83,7 +89,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cheshire_Cat_Tenniel.png"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Alice in Wonderland"
   },
   {
    "id": "count-orlok",
@@ -100,7 +108,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Max_Schreck_as_Count_Orlok_in_Nosferatu_%E2%80%93_Eine_Symphonie_des_Grauens_(1922).jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Count Orlok"
   },
   {
    "id": "dorothy",
@@ -117,7 +127,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Dorothy_Gale_with_silver_shoes.jpg"
    },
    "gender": "f",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Wizard of Oz"
   },
   {
    "id": "felix-the-cat",
@@ -133,7 +145,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Felix_the_Cat_(comic_strip)_(FIXED).png"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Felix the Cat"
   },
   {
    "id": "frankenstein-s-monster",
@@ -150,7 +164,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Frankenstein1910still1.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Frankenstein's Monster"
   },
   {
    "id": "girl-with-a-pearl-earring",
@@ -184,7 +200,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Denslow%27s_Humpty_Dumpty_pg_1.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Alice in Wonderland"
   },
   {
    "id": "koko-the-clown",
@@ -200,7 +218,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Koko_the_Clown.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Out of the Inkwell"
   },
   {
    "id": "krazy-kat",
@@ -216,7 +236,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Krazy_Kat_1.png"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Krazy Kat"
   },
   {
    "id": "mad-hatter",
@@ -233,7 +255,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:MadlHatterByTenniel.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Alice in Wonderland"
   },
   {
    "id": "mickey-mouse",
@@ -249,7 +273,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mickey_Mouse_-_Steamboat_Willie_(1928).jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse"
   },
   {
    "id": "mona-lisa",
@@ -282,7 +308,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Olive_Oyl_rolling_up_punch.png"
    },
    "gender": "f",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Popeye"
   },
   {
    "id": "oswald-the-lucky-rabbit",
@@ -298,7 +326,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Oswald_the_Lucky_Rabbit_-_Feb_1928_UW.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Oswald the Lucky Rabbit"
   },
   {
    "id": "peter-rabbit",
@@ -315,7 +345,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:PeterRabbit1.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Peter Rabbit"
   },
   {
    "id": "piglet",
@@ -331,7 +363,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Piglet_EHShepard.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Winnie-the-Pooh"
   },
   {
    "id": "pinocchio",
@@ -348,7 +382,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Pinocchio.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pinocchio"
   },
   {
    "id": "popeye",
@@ -364,7 +400,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Popeye_transparent.png"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Popeye"
   },
   {
    "id": "rosie-the-riveter",
@@ -381,7 +419,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:We_Can_Do_It!.jpg"
    },
    "gender": "f",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rosie the Riveter"
   },
   {
    "id": "santa-claus",
@@ -397,7 +437,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Merry_Old_Santa_Claus_by_Thomas_Nast.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Santa Claus"
   },
   {
    "id": "sherlock-holmes",
@@ -414,7 +456,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sherlock_Holmes_by_Sidney_Paget-Cropped.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sherlock Holmes"
   },
   {
    "id": "the-cowardly-lion",
@@ -431,7 +475,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cowardly_Lion.png"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Wizard of Oz"
   },
   {
    "id": "the-scarecrow",
@@ -448,7 +494,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Wizard_of_Oz_scarecrow_detail.png"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Wizard of Oz"
   },
   {
    "id": "the-scream",
@@ -481,7 +529,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:YellowKid.jpeg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Yellow Kid"
   },
   {
    "id": "uncle-sam",
@@ -498,7 +548,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Uncle_Sam_(pointing_finger).png"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Uncle Sam"
   },
   {
    "id": "winnie-the-pooh",
@@ -514,7 +566,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Winnie_The_Pooh_Classic.jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Winnie-the-Pooh"
   }
  ]
 }

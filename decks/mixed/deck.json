@@ -53,21 +53,36 @@
    "kind": "history"
   },
   {
-   "id": "alice",
-   "name": "Alice",
-   "img": "img/alice.webp",
+   "id": "alex-morgan",
+   "name": "Alex Morgan",
+   "img": "img/alex-morgan.webp",
    "tags": [
-    "cartoon",
-    "book"
+    "sports"
    ],
    "credit": {
-    "author": "John Tenniel",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Alice_par_John_Tenniel_30.png"
+    "author": "Jamie Smed",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alex_Morgan_May19.jpg"
    },
    "gender": "f",
-   "kind": "character"
+   "kind": "sports"
+  },
+  {
+   "id": "alexandria-ocasio-cortez",
+   "name": "Alexandria Ocasio-Cortez",
+   "img": "img/alexandria-ocasio-cortez.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Franmarie Metzler; U.S. House Office of Photography",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexandria_Ocasio-Cortez_Official_Portrait.jpg"
+   },
+   "gender": "f",
+   "kind": "politics"
   },
   {
    "id": "amelia-earhart",
@@ -100,6 +115,25 @@
    },
    "gender": "f",
    "kind": "music"
+  },
+  {
+   "id": "ariel",
+   "name": "Ariel",
+   "from": "The Little Mermaid",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Little Mermaid",
+   "tags": [
+    "character",
+    "disney"
+   ],
+   "img": "img/ariel.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Ariel"
+   }
   },
   {
    "id": "bad-bunny",
@@ -140,17 +174,35 @@
    "from": "Barbie",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Barbie",
    "tags": [
     "character",
     "toy"
    ],
+   "actor": "Margot Robbie",
    "img": "img/barbie.webp",
    "credit": {
-    "author": "SpiritedMichelle",
+    "author": "Warner Bros. / Mattel",
+    "license": "© owner, fan use",
+    "source": "https://barbie.fandom.com/wiki/Barbie_%28Margot_Robbie%29"
+   }
+  },
+  {
+   "id": "bernie-sanders",
+   "name": "Bernie Sanders",
+   "img": "img/bernie-sanders.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Anderseidesvik",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Barbie_cosplay_at_Fan_Expo_Denver_2026.jpg"
-   }
+    "source": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders_February_2026_(cropped).jpg"
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "betty-boop",
@@ -166,23 +218,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Betty_Boop_-_Is_My_Palm_Read_(1933).webp"
    },
    "gender": "f",
-   "kind": "character"
-  },
-  {
-   "id": "betty-white",
-   "name": "Betty White",
-   "img": "img/betty-white.webp",
-   "tags": [
-    "tv"
-   ],
-   "credit": {
-    "author": "Alan Light",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Betty_White_1988_Emmy_Awards_(cropped_2).jpg"
-   },
-   "gender": "f",
-   "kind": "tv"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Betty Boop"
   },
   {
    "id": "beyonce",
@@ -282,6 +320,22 @@
    "kind": "sports"
   },
   {
+   "id": "condoleezza-rice",
+   "name": "Condoleezza Rice",
+   "img": "img/condoleezza-rice.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Condoleezza_Rice_cropped.jpg"
+   },
+   "gender": "f",
+   "kind": "politics"
+  },
+  {
    "id": "cristiano-ronaldo",
    "name": "Cristiano Ronaldo",
    "img": "img/cristiano-ronaldo.webp",
@@ -296,6 +350,46 @@
    },
    "gender": "m",
    "kind": "sports"
+  },
+  {
+   "id": "darth-vader",
+   "name": "Darth Vader",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "tags": [
+    "character",
+    "scifi",
+    "villain"
+   ],
+   "img": "img/darth-vader.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Darth_Vader"
+   }
+  },
+  {
+   "id": "deadpool",
+   "name": "Deadpool",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "tags": [
+    "character",
+    "superhero"
+   ],
+   "actor": "Ryan Reynolds",
+   "img": "img/deadpool.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Deadpool"
+   }
   },
   {
    "id": "dolly-parton",
@@ -331,37 +425,23 @@
    "kind": "politics"
   },
   {
-   "id": "dorothy",
-   "name": "Dorothy",
-   "img": "img/dorothy.webp",
-   "tags": [
-    "cartoon",
-    "book"
-   ],
-   "credit": {
-    "author": "Unknown",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Dorothy_Gale_with_silver_shoes.jpg"
-   },
+   "id": "dory",
+   "name": "Dory",
+   "from": "Finding Nemo",
    "gender": "f",
-   "kind": "character"
-  },
-  {
-   "id": "dwayne-johnson",
-   "name": "Dwayne Johnson",
-   "img": "img/dwayne-johnson.webp",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Finding Nemo",
    "tags": [
-    "actor"
+    "character",
+    "pixar"
    ],
+   "img": "img/dory.webp",
    "credit": {
-    "author": "Harald Krichel",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Dwayne_Johnson-1764_(4x5_cropped_with_moderate_headroom).jpg"
-   },
-   "gender": "m",
-   "kind": "actor"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Dory"
+   }
   },
   {
    "id": "ed-sheeran",
@@ -380,6 +460,26 @@
    "kind": "music"
   },
   {
+   "id": "eleven",
+   "name": "Eleven",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "tags": [
+    "character",
+    "tv"
+   ],
+   "actor": "Millie Bobby Brown",
+   "img": "img/eleven.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Eleven"
+   }
+  },
+  {
    "id": "elizabeth-ii",
    "name": "Elizabeth II",
    "img": "img/elizabeth-ii.webp",
@@ -396,21 +496,42 @@
    "kind": "history"
   },
   {
+   "id": "elle-woods",
+   "name": "Elle Woods",
+   "from": "Legally Blonde",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Legally Blonde",
+   "tags": [
+    "character",
+    "comedy"
+   ],
+   "actor": "Reese Witherspoon",
+   "img": "img/elle-woods.webp",
+   "credit": {
+    "author": "MGM",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Elle_Woods"
+   }
+  },
+  {
    "id": "elsa",
    "name": "Elsa",
    "from": "Frozen",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Frozen",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/elsa.webp",
    "credit": {
-    "author": "Miguel Discart",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Elsa_at_Japan_Expo_2016_(27778679323).jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Elsa"
    }
   },
   {
@@ -430,55 +551,24 @@
    "kind": "music"
   },
   {
-   "id": "emma-watson",
-   "name": "Emma Watson",
-   "img": "img/emma-watson.webp",
-   "tags": [
-    "actor"
-   ],
-   "credit": {
-    "author": "Georges Biard",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Emma_Watson_2013.jpg"
-   },
-   "gender": "f",
-   "kind": "actor"
-  },
-  {
-   "id": "flynn-rider",
-   "name": "Flynn Rider",
-   "from": "Tangled",
+   "id": "forrest-gump",
+   "name": "Forrest Gump",
+   "from": "Forrest Gump",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Forrest Gump",
    "tags": [
     "character",
-    "disney"
+    "drama"
    ],
-   "img": "img/flynn-rider.webp",
+   "actor": "Tom Hanks",
+   "img": "img/forrest-gump.webp",
    "credit": {
-    "author": "Gage Skidmore",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Flynn_Rider_%26_Rapunzel_cosplayers_at_WonderCon_2025.jpg"
+    "author": "Paramount Pictures",
+    "license": "© owner, fan use",
+    "source": "https://forrestgump.fandom.com/wiki/Forrest_Gump"
    }
-  },
-  {
-   "id": "fred-rogers",
-   "name": "Fred Rogers",
-   "img": "img/fred-rogers.webp",
-   "tags": [
-    "history",
-    "tv"
-   ],
-   "credit": {
-    "author": "Family Communications, Inc.",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Fred-Rogers_1988_(full)_(cropped).jpg"
-   },
-   "gender": "m",
-   "kind": "tv"
   },
   {
    "id": "frida-kahlo",
@@ -495,6 +585,43 @@
    },
    "gender": "f",
    "kind": "art"
+  },
+  {
+   "id": "gandalf",
+   "name": "Gandalf",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "tags": [
+    "character",
+    "fantasy"
+   ],
+   "actor": "Ian McKellen",
+   "img": "img/gandalf.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://lotr.fandom.com/wiki/Gandalf"
+   }
+  },
+  {
+   "id": "george-w-bush",
+   "name": "George W. Bush",
+   "img": "img/george-w-bush.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Eric Draper",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George-W-Bush.jpeg"
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "george-washington",
@@ -530,20 +657,45 @@
    "kind": "tv"
   },
   {
-   "id": "harry-styles",
-   "name": "Harry Styles",
-   "img": "img/harry-styles.webp",
+   "id": "harley-quinn",
+   "name": "Harley Quinn",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
    "tags": [
-    "music"
+    "character",
+    "superhero",
+    "villain"
    ],
+   "actor": "Margot Robbie",
+   "img": "img/harley-quinn.webp",
    "credit": {
-    "author": "Raph_PH",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:HarryStylesWembley170623_(65_of_93)_(52982678051)_(cropped_2).jpg"
-   },
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Harley_Quinn"
+   }
+  },
+  {
+   "id": "harry-potter",
+   "name": "Harry Potter",
+   "from": "Harry Potter",
    "gender": "m",
-   "kind": "music"
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "tags": [
+    "character",
+    "fantasy"
+   ],
+   "actor": "Daniel Radcliffe",
+   "img": "img/harry-potter.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Harry_Potter"
+   }
   },
   {
    "id": "hermione-granger",
@@ -551,81 +703,131 @@
    "from": "Harry Potter",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
    "tags": [
     "character",
     "fantasy"
    ],
+   "actor": "Emma Watson",
    "img": "img/hermione-granger.webp",
    "credit": {
-    "author": "蔡沅珅",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplayers_of_Hermione_Granger_and_Ron_Weasley_20180519a.jpg"
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Hermione_Granger"
    }
   },
   {
-   "id": "jack-black",
-   "name": "Jack Black",
-   "img": "img/jack-black.webp",
+   "id": "hillary-clinton",
+   "name": "Hillary Clinton",
+   "img": "img/hillary-clinton.webp",
    "tags": [
-    "actor"
+    "politics"
    ],
    "credit": {
-    "author": "Raph_PH",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:TenaciousDO2160623_(38_of_62)_Jack_Black.jpg"
-   },
-   "gender": "m",
-   "kind": "actor"
-  },
-  {
-   "id": "jackie-chan",
-   "name": "Jackie Chan",
-   "img": "img/jackie-chan.webp",
-   "tags": [
-    "actor"
-   ],
-   "credit": {
-    "author": "Segolene Liger",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg"
-   },
-   "gender": "m",
-   "kind": "actor"
-  },
-  {
-   "id": "jenna-ortega",
-   "name": "Jenna Ortega",
-   "img": "img/jenna-ortega.webp",
-   "tags": [
-    "actor"
-   ],
-   "credit": {
-    "author": "Harald Krichel",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Jenna_Ortega-63799_(cropped).jpg"
+    "author": "U.S. Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "politics"
   },
   {
-   "id": "jennifer-lawrence",
-   "name": "Jennifer Lawrence",
-   "img": "img/jennifer-lawrence.webp",
+   "id": "homer-simpson",
+   "name": "Homer Simpson",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
    "tags": [
-    "actor"
+    "character",
+    "tv",
+    "cartoon"
+   ],
+   "img": "img/homer-simpson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Homer_Simpson"
+   }
+  },
+  {
+   "id": "iron-man",
+   "name": "Iron Man",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "tags": [
+    "character",
+    "superhero"
+   ],
+   "actor": "Robert Downey Jr.",
+   "img": "img/iron-man.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Iron_Man"
+   }
+  },
+  {
+   "id": "jack-dawson",
+   "name": "Jack Dawson",
+   "from": "Titanic",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Titanic",
+   "tags": [
+    "character",
+    "drama"
+   ],
+   "actor": "Leonardo DiCaprio",
+   "img": "img/jack-dawson.webp",
+   "credit": {
+    "author": "Paramount / 20th Century",
+    "license": "© owner, fan use",
+    "source": "https://jamescameronstitanic.fandom.com/wiki/Jack_Dawson"
+   }
+  },
+  {
+   "id": "jack-sparrow",
+   "name": "Jack Sparrow",
+   "from": "Pirates of the Caribbean",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Pirates of the Caribbean",
+   "tags": [
+    "character",
+    "action"
+   ],
+   "actor": "Johnny Depp",
+   "img": "img/jack-sparrow.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://pirates.fandom.com/wiki/Jack_Sparrow"
+   }
+  },
+  {
+   "id": "jd-vance",
+   "name": "JD Vance",
+   "img": "img/jd-vance.webp",
+   "tags": [
+    "politics"
    ],
    "credit": {
-    "author": "Ciné Zooms 2",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Lawrence,_Cannes_Film_Festival_2025.jpg"
+    "author": "Emily J. Higgins",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg"
    },
-   "gender": "f",
-   "kind": "actor"
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "joe-biden",
@@ -645,6 +847,65 @@
    "kind": "politics"
   },
   {
+   "id": "joel-miller",
+   "name": "Joel Miller",
+   "from": "The Last of Us",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Last of Us",
+   "tags": [
+    "character",
+    "tv"
+   ],
+   "actor": "Pedro Pascal",
+   "img": "img/joel-miller.webp",
+   "credit": {
+    "author": "HBO",
+    "license": "© owner, fan use",
+    "source": "https://thelastofus.fandom.com/wiki/Joel_Miller_%28HBO_series%29"
+   }
+  },
+  {
+   "id": "john-wick",
+   "name": "John Wick",
+   "from": "John Wick",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "John Wick",
+   "tags": [
+    "character",
+    "action"
+   ],
+   "actor": "Keanu Reeves",
+   "img": "img/john-wick.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://johnwick.fandom.com/wiki/John_Wick"
+   }
+  },
+  {
+   "id": "judy-hopps",
+   "name": "Judy Hopps",
+   "from": "Zootopia",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Zootopia",
+   "tags": [
+    "character",
+    "disney"
+   ],
+   "img": "img/judy-hopps.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Judy_Hopps"
+   }
+  },
+  {
    "id": "kamala-harris",
    "name": "Kamala Harris",
    "img": "img/kamala-harris.webp",
@@ -661,20 +922,40 @@
    "kind": "politics"
   },
   {
-   "id": "keanu-reeves",
-   "name": "Keanu Reeves",
-   "img": "img/keanu-reeves.webp",
+   "id": "katie-ledecky",
+   "name": "Katie Ledecky",
+   "img": "img/katie-ledecky.webp",
    "tags": [
-    "actor"
+    "sports"
    ],
    "credit": {
-    "author": "Gabriel Hutchinson",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Keanu_Reeves_at_TIFF_2025_02_(Cropped).jpg"
+    "author": "Mledecky",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Katie_Ledecky_at_the_2023_Golden_Goggle_Awards_(cropped).jpg"
    },
-   "gender": "m",
-   "kind": "actor"
+   "gender": "f",
+   "kind": "sports"
+  },
+  {
+   "id": "katniss-everdeen",
+   "name": "Katniss Everdeen",
+   "from": "The Hunger Games",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "tags": [
+    "character",
+    "action"
+   ],
+   "actor": "Jennifer Lawrence",
+   "img": "img/katniss-everdeen.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Katniss_Everdeen"
+   }
   },
   {
    "id": "lady-gaga",
@@ -709,20 +990,20 @@
    "kind": "sports"
   },
   {
-   "id": "leonardo-dicaprio",
-   "name": "Leonardo DiCaprio",
-   "img": "img/leonardo-dicaprio.webp",
+   "id": "lindsey-vonn",
+   "name": "Lindsey Vonn",
+   "img": "img/lindsey-vonn.webp",
    "tags": [
-    "actor"
+    "sports"
    ],
    "credit": {
-    "author": "Raph_PH",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:LeoPTABFI191125-28_(cropped).jpg"
+    "author": "Barcex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Lindsey_Vonn_-_240422_181204_(cropped).jpg"
    },
-   "gender": "m",
-   "kind": "actor"
+   "gender": "f",
+   "kind": "sports"
   },
   {
    "id": "lionel-messi",
@@ -741,20 +1022,24 @@
    "kind": "sports"
   },
   {
-   "id": "margot-robbie",
-   "name": "Margot Robbie",
-   "img": "img/margot-robbie.webp",
-   "tags": [
-    "actor"
-   ],
-   "credit": {
-    "author": "Ondine Goat",
-    "license": "CC0",
-    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "source": "https://commons.wikimedia.org/wiki/File:Margot_Robbie_Wuthering_Heights_premiere_(cropped).jpg"
-   },
+   "id": "marge-simpson",
+   "name": "Marge Simpson",
+   "from": "The Simpsons",
    "gender": "f",
-   "kind": "actor"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "tv",
+    "cartoon"
+   ],
+   "img": "img/marge-simpson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Marge_Simpson"
+   }
   },
   {
    "id": "marie-curie",
@@ -774,21 +1059,23 @@
    "kind": "history"
   },
   {
-   "id": "marilyn-monroe",
-   "name": "Marilyn Monroe",
-   "img": "img/marilyn-monroe.webp",
+   "id": "mario",
+   "name": "Mario",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
    "tags": [
-    "history",
-    "actor"
+    "character",
+    "game"
    ],
+   "img": "img/mario.webp",
    "credit": {
-    "author": "Bert Parry",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Monroecirca1953.jpg"
-   },
-   "gender": "f",
-   "kind": "actor"
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://www.mariowiki.com/Mario"
+   }
   },
   {
    "id": "martin-luther-king-jr",
@@ -807,20 +1094,45 @@
    "kind": "history"
   },
   {
-   "id": "meryl-streep",
-   "name": "Meryl Streep",
-   "img": "img/meryl-streep.webp",
+   "id": "maui",
+   "name": "Maui",
+   "from": "Moana",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Moana",
    "tags": [
-    "actor"
+    "character",
+    "disney"
    ],
+   "actor": "Dwayne Johnson",
+   "img": "img/maui.webp",
    "credit": {
-    "author": "Ministry of culture, sports and Tourism- Lee Jeong-woo",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_(cropped1).jpg"
-   },
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Maui"
+   }
+  },
+  {
+   "id": "mia-thermopolis",
+   "name": "Mia Thermopolis",
+   "from": "The Princess Diaries",
    "gender": "f",
-   "kind": "actor"
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Princess Diaries",
+   "tags": [
+    "character",
+    "disney",
+    "comedy"
+   ],
+   "actor": "Anne Hathaway",
+   "img": "img/mia-thermopolis.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://princessdiaries.fandom.com/wiki/Mia_Thermopolis"
+   }
   },
   {
    "id": "michael-jordan",
@@ -868,7 +1180,64 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mickey_Mouse_-_Steamboat_Willie_(1928).jpg"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse"
+  },
+  {
+   "id": "mike-wazowski",
+   "name": "Mike Wazowski",
+   "from": "Monsters, Inc.",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Monsters, Inc.",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "img": "img/mike-wazowski.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mike_Wazowski"
+   }
+  },
+  {
+   "id": "miranda-priestly",
+   "name": "Miranda Priestly",
+   "from": "The Devil Wears Prada",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Devil Wears Prada",
+   "tags": [
+    "character",
+    "comedy"
+   ],
+   "actor": "Meryl Streep",
+   "img": "img/miranda-priestly.webp",
+   "credit": {
+    "author": "20th Century Studios",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Miranda_Priestly"
+   }
+  },
+  {
+   "id": "mitt-romney",
+   "name": "Mitt Romney",
+   "img": "img/mitt-romney.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "United States Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitt_Romney_official_US_Senate_portrait.jpg"
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "moana",
@@ -876,16 +1245,17 @@
    "from": "Moana",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Moana",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/moana.webp",
    "credit": {
-    "author": "Joshua David Vega",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Moana_Disney_Parks.jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Moana_%28character%29"
    }
   },
   {
@@ -906,22 +1276,6 @@
    "kind": "art"
   },
   {
-   "id": "morgan-freeman",
-   "name": "Morgan Freeman",
-   "img": "img/morgan-freeman.webp",
-   "tags": [
-    "actor"
-   ],
-   "credit": {
-    "author": "U.S. Secretary of Defense",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_(cropped).jpg"
-   },
-   "gender": "m",
-   "kind": "actor"
-  },
-  {
    "id": "mrbeast",
    "name": "MrBeast",
    "img": "img/mrbeast.webp",
@@ -938,36 +1292,55 @@
    "kind": "internet"
   },
   {
-   "id": "olive-oyl",
-   "name": "Olive Oyl",
-   "img": "img/olive-oyl.webp",
-   "tags": [
-    "cartoon"
-   ],
-   "credit": {
-    "author": "E. C. Segar",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "source": "https://commons.wikimedia.org/wiki/File:Olive_Oyl_rolling_up_punch.png"
-   },
+   "id": "mulan",
+   "name": "Mulan",
+   "from": "Mulan",
    "gender": "f",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mulan",
+   "tags": [
+    "character",
+    "disney"
+   ],
+   "img": "img/mulan.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Fa_Mulan"
+   }
   },
   {
-   "id": "olivia-rodrigo",
-   "name": "Olivia Rodrigo",
-   "img": "img/olivia-rodrigo.webp",
+   "id": "nancy-pelosi",
+   "name": "Nancy Pelosi",
+   "img": "img/nancy-pelosi.webp",
    "tags": [
-    "music"
+    "politics"
    ],
    "credit": {
-    "author": "Raph_PH",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Glasto2025-546_(cropped)_2.jpg"
+    "author": "John Harrington",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg"
    },
    "gender": "f",
-   "kind": "music"
+   "kind": "politics"
+  },
+  {
+   "id": "naomi-osaka",
+   "name": "Naomi Osaka",
+   "img": "img/naomi-osaka.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "Hameltion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Naomi_Osaka_(2025_DC_Open)_01_(cropped).jpg"
+   },
+   "gender": "f",
+   "kind": "sports"
   },
   {
    "id": "oprah-winfrey",
@@ -986,36 +1359,59 @@
    "kind": "tv"
   },
   {
-   "id": "pedro-pascal",
-   "name": "Pedro Pascal",
-   "img": "img/pedro-pascal.webp",
+   "id": "patrick-mahomes",
+   "name": "Patrick Mahomes",
+   "img": "img/patrick-mahomes.webp",
    "tags": [
-    "actor"
+    "sports"
    ],
    "credit": {
-    "author": "Bryan Berlin",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg"
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Patrick_Mahomes_(51615475056).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "sports"
   },
   {
-   "id": "pokimane",
-   "name": "Pokimane",
-   "img": "img/pokimane.webp",
+   "id": "pikachu",
+   "name": "Pikachu",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
    "tags": [
-    "internet"
+    "character",
+    "game"
    ],
+   "img": "img/pikachu.webp",
    "credit": {
-    "author": "Hey B*tch! Highlights",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Pokimane_2019.jpg"
-   },
-   "gender": "f",
-   "kind": "internet"
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Pikachu"
+   }
+  },
+  {
+   "id": "po",
+   "name": "Po",
+   "from": "Kung Fu Panda",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kung Fu Panda",
+   "tags": [
+    "character",
+    "dreamworks"
+   ],
+   "actor": "Jack Black",
+   "img": "img/po.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://kungfupanda.fandom.com/wiki/Po"
+   }
   },
   {
    "id": "popeye",
@@ -1031,7 +1427,88 @@
     "source": "https://commons.wikimedia.org/wiki/File:Popeye_transparent.png"
    },
    "gender": "m",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Popeye"
+  },
+  {
+   "id": "princess-fiona",
+   "name": "Princess Fiona",
+   "from": "Shrek",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks"
+   ],
+   "img": "img/princess-fiona.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://shrek.fandom.com/wiki/Fiona"
+   }
+  },
+  {
+   "id": "princess-leia",
+   "name": "Princess Leia",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "tags": [
+    "character",
+    "scifi"
+   ],
+   "actor": "Carrie Fisher",
+   "img": "img/princess-leia.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://en.wikipedia.org/wiki/Princess_Leia"
+   }
+  },
+  {
+   "id": "princess-peach",
+   "name": "Princess Peach",
+   "from": "Super Mario",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "game"
+   ],
+   "img": "img/princess-peach.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://www.mariowiki.com/Princess_Peach"
+   }
+  },
+  {
+   "id": "rachel-green",
+   "name": "Rachel Green",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "tags": [
+    "character",
+    "tv",
+    "comedy"
+   ],
+   "actor": "Jennifer Aniston",
+   "img": "img/rachel-green.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Rachel_Greene"
+   }
   },
   {
    "id": "rapunzel",
@@ -1039,16 +1516,37 @@
    "from": "Tangled",
    "gender": "f",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Tangled",
    "tags": [
     "character",
     "disney"
    ],
    "img": "img/rapunzel.webp",
    "credit": {
-    "author": "SpiritedMichelle",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Tangled_cosplay_at_Fan_Expo_Denver_2026.jpg"
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Rapunzel"
+   }
+  },
+  {
+   "id": "red-redding",
+   "name": "Red Redding",
+   "from": "The Shawshank Redemption",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Shawshank Redemption",
+   "tags": [
+    "character",
+    "drama"
+   ],
+   "actor": "Morgan Freeman",
+   "img": "img/red-redding.webp",
+   "credit": {
+    "author": "Columbia Pictures",
+    "license": "© owner, fan use",
+    "source": "https://shawshank.fandom.com/wiki/Ellis_Boyd_%27Red%27_Redding"
    }
   },
   {
@@ -1068,6 +1566,22 @@
    "kind": "music"
   },
   {
+   "id": "ronda-rousey",
+   "name": "Ronda Rousey",
+   "img": "img/ronda-rousey.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "Shared Account",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rousey_HOF_2018_(cropped).jpg"
+   },
+   "gender": "f",
+   "kind": "sports"
+  },
+  {
    "id": "rosa-parks",
    "name": "Rosa Parks",
    "img": "img/rosa-parks.webp",
@@ -1084,36 +1598,44 @@
    "kind": "history"
   },
   {
-   "id": "ryan-reynolds",
-   "name": "Ryan Reynolds",
-   "img": "img/ryan-reynolds.webp",
+   "id": "rue-bennett",
+   "name": "Rue Bennett",
+   "from": "Euphoria",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Euphoria",
    "tags": [
-    "actor"
+    "character",
+    "tv"
    ],
+   "actor": "Zendaya",
+   "img": "img/rue-bennett.webp",
    "credit": {
-    "author": "Dick Thomas Johnson from Tokyo, Japan",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_(cropped).jpg"
-   },
-   "gender": "m",
-   "kind": "actor"
+    "author": "HBO",
+    "license": "© owner, fan use",
+    "source": "https://euphoria.fandom.com/wiki/Rue_Bennett"
+   }
   },
   {
-   "id": "sabrina-carpenter",
-   "name": "Sabrina Carpenter",
-   "img": "img/sabrina-carpenter.webp",
+   "id": "scooby-doo",
+   "name": "Scooby-Doo",
+   "from": "Scooby-Doo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
    "tags": [
-    "music"
+    "character",
+    "tv",
+    "cartoon"
    ],
+   "img": "img/scooby-doo.webp",
    "credit": {
-    "author": "Raph_PH",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Sabrina_Carpenter_-_O2_Arena_2025_-_086_(cropped_2).jpg"
-   },
-   "gender": "f",
-   "kind": "music"
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Scooby-Doo"
+   }
   },
   {
    "id": "serena-williams",
@@ -1127,6 +1649,22 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Serena-Smiling-2020.png"
+   },
+   "gender": "f",
+   "kind": "sports"
+  },
+  {
+   "id": "sha-carri-richardson",
+   "name": "Sha'Carri Richardson",
+   "img": "img/sha-carri-richardson.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "jenaragon94",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sha%27Carri_Richardson_15555_(sq_cropped).jpg"
    },
    "gender": "f",
    "kind": "sports"
@@ -1153,16 +1691,36 @@
    "from": "Shrek",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
    "tags": [
     "character",
     "dreamworks"
    ],
    "img": "img/shrek.webp",
    "credit": {
-    "author": "GabboT",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Toronto_2015_-_Shrek_(16723895657).jpg"
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://shrek.fandom.com/wiki/Shrek_%28character%29"
+   }
+  },
+  {
+   "id": "simba",
+   "name": "Simba",
+   "from": "The Lion King",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Lion King",
+   "tags": [
+    "character",
+    "disney"
+   ],
+   "img": "img/simba.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Simba"
    }
   },
   {
@@ -1203,6 +1761,8 @@
    "from": "SpongeBob SquarePants",
    "gender": "m",
    "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
    "tags": [
     "character",
     "tv",
@@ -1210,10 +1770,9 @@
    ],
    "img": "img/spongebob.webp",
    "credit": {
-    "author": "Tomasz Molina",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:SpongeBob_SquarePants_in_Warsaw.jpg"
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_%28character%29"
    }
   },
   {
@@ -1231,6 +1790,25 @@
    },
    "gender": "m",
    "kind": "sports"
+  },
+  {
+   "id": "stitch",
+   "name": "Stitch",
+   "from": "Lilo & Stitch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Lilo & Stitch",
+   "tags": [
+    "character",
+    "disney"
+   ],
+   "img": "img/stitch.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Stitch"
+   }
   },
   {
    "id": "taylor-swift",
@@ -1254,18 +1832,55 @@
    "from": "Marvel",
    "gender": "m",
    "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
    "tags": [
     "character",
     "superhero",
     "villain"
    ],
+   "actor": "Josh Brolin",
    "img": "img/thanos.webp",
    "credit": {
-    "author": "Miguel Discart & Kiri Karma",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Comiccon_Brussels_2023_-_Cosplay_of_Nebula_and_Thanos.jpg"
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Thanos"
    }
+  },
+  {
+   "id": "tiana",
+   "name": "Tiana",
+   "from": "The Princess and the Frog",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Princess and the Frog",
+   "tags": [
+    "character",
+    "disney"
+   ],
+   "img": "img/tiana.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Tiana"
+   }
+  },
+  {
+   "id": "tiger-woods",
+   "name": "Tiger Woods",
+   "img": "img/tiger-woods.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg"
+   },
+   "gender": "m",
+   "kind": "sports"
   },
   {
    "id": "tom-brady",
@@ -1284,38 +1899,6 @@
    "kind": "sports"
   },
   {
-   "id": "tom-hanks",
-   "name": "Tom Hanks",
-   "img": "img/tom-hanks.webp",
-   "tags": [
-    "actor"
-   ],
-   "credit": {
-    "author": "Raph_PH",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:TomHanksPrincEdw031223_(11_of_41)_(cropped).jpg"
-   },
-   "gender": "m",
-   "kind": "actor"
-  },
-  {
-   "id": "tom-holland",
-   "name": "Tom Holland",
-   "img": "img/tom-holland.webp",
-   "tags": [
-    "actor"
-   ],
-   "credit": {
-    "author": "PhilipRomano",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:TomHolland-byPhilipRomano.jpg"
-   },
-   "gender": "m",
-   "kind": "actor"
-  },
-  {
    "id": "usain-bolt",
    "name": "Usain Bolt",
    "img": "img/usain-bolt.webp",
@@ -1332,38 +1915,83 @@
    "kind": "sports"
   },
   {
+   "id": "velma",
+   "name": "Velma",
+   "from": "Scooby-Doo",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
+   "tags": [
+    "character",
+    "tv",
+    "cartoon"
+   ],
+   "img": "img/velma.webp",
+   "credit": {
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Velma_Dinkley"
+   }
+  },
+  {
+   "id": "wednesday-addams",
+   "name": "Wednesday Addams",
+   "from": "Wednesday",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Wednesday",
+   "tags": [
+    "character",
+    "tv"
+   ],
+   "actor": "Jenna Ortega",
+   "img": "img/wednesday-addams.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://addamsfamily.fandom.com/wiki/Wednesday_Addams/2022"
+   }
+  },
+  {
    "id": "wonder-woman",
    "name": "Wonder Woman",
    "from": "DC",
    "gender": "f",
    "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
    "tags": [
     "character",
     "superhero"
    ],
+   "actor": "Gal Gadot",
    "img": "img/wonder-woman.webp",
    "credit": {
-    "author": "Super Festivals from Ft. Lauderdale, USA",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_(9358432921).jpg"
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Wonder_Woman"
    }
   },
   {
-   "id": "zendaya",
-   "name": "Zendaya",
-   "img": "img/zendaya.webp",
+   "id": "woody",
+   "name": "Woody",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
    "tags": [
-    "actor"
+    "character",
+    "pixar"
    ],
+   "img": "img/woody.webp",
    "credit": {
-    "author": "PhilipRomano",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Zendaya-byPhilipRomano.jpg"
-   },
-   "gender": "f",
-   "kind": "actor"
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Woody"
+   }
   }
  ]
 }

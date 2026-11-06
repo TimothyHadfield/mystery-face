@@ -4,17 +4,17 @@ Mystery Face is an original game. It is not affiliated with Hasbro or with any p
 
 ## Card pictures
 
-Every card picture in `decks/` comes from **Wikimedia Commons** and uses a free licence:
+The pictures of real people and of the "Cartoons & Classics" cards come from **Wikimedia Commons** and use a free licence:
 
 | Licence | Cards |
 |---|---|
-| Public domain | 123 |
-| CC BY-SA (2.0 / 3.0 / 4.0) | 151 |
-| CC BY (2.0 / 3.0 / 4.0) | 116 |
-| CC0 | 10 |
+| Public domain | 121 |
+| CC BY-SA (2.0 / 3.0 / 4.0) | 105 |
+| CC BY (2.0 / 3.0 / 4.0) | 91 |
+| CC0 | 9 |
 | UK Open Government Licence 3.0 (CC BY compatible) | 2 |
 
-That is 402 distinct pictures. No non-free or fair-use files are used. Each picture was cropped to the face and resized to 256×256 WebP. Nothing else was changed.
+That is 328 distinct Commons pictures. The 92 "Movie characters" pictures are not free: they are the studios' own character images (see below). Each picture was cropped to the face and resized to 256×256 WebP. Nothing else was changed.
 
 **The full list of authors, licences and source pages, one line per picture, is in [decks/credits.txt](decks/credits.txt).** The same details are stored with every card in `decks/<deck>/deck.json` under `credit` (`author`, `license`, `licenseUrl`, `source`).
 
@@ -28,8 +28,8 @@ Licence texts:
 
 Cartoon and storybook characters ("Cartoons & Classics") use only artwork that is in the public domain in the US, such as the 1928 *Steamboat Willie* frame, the 1929 *Thimble Theatre* Popeye strip, E. H. Shepard's 1926 Winnie-the-Pooh drawings, Tenniel's *Alice* drawings and Denslow's *Oz* drawings. Some character names are still trademarks of their owners. They are used here only to name the picture.
 
-The "Movie characters" deck uses **no film stills or studio artwork**. Its pictures are freely licensed Commons photos of fans (cosplayers) and costumed performers dressed as the character, credited like every other card. The few characters with no suitable free photo show only the character's name and the film or show it comes from. Character names are used only to identify the character; the cosplayers and photographers are not affiliated with the studios. The Mixed stars deck uses some of these cards too.
+The "Movie characters" deck shows **the studios' own character images**: official renders, film or show stills and poster crops, taken from each character's page on Wikipedia or its fan wiki (Fandom, MarioWiki). Live-action characters are shown as played in the film or show. These images are © their owners (Disney, Pixar, Marvel Studios, Lucasfilm, Warner Bros., DreamWorks, Nintendo, Netflix, HBO and the other studios named in [decks/credits.txt](decks/credits.txt)) and are used here for fan play only. This game is not affiliated with or endorsed by any of them. Each card's `credit` names the studio and the page the image came from. The Mixed stars deck uses some of these cards too, and shows actors as a role they play rather than as themselves.
 
 ## How the decks are built
 
-`tools/deck-people.txt` lists who is in each deck. `tools/deck-fetch.py` looks up each picture on Commons and keeps only free licences. `tools/deck-build.py` finds the face with OpenCV's YuNet face detector and crops and compresses it. `tools/deck-meta.py` then adds each card's gender and kind, writes the Movie characters deck (keeping its cosplay pictures, which were picked and checked by eye one by one) and picks the balanced Mixed stars deck. `tools/deck-credits.py` writes `decks/credits.txt`.
+`tools/deck-people.txt` lists who is in each deck. `tools/deck-fetch.py` looks up each picture on Commons and keeps only free licences. `tools/deck-build.py` finds the face with OpenCV's YuNet face detector and crops and compresses it. `tools/deck-meta.py` then adds each card's gender and kind (plus franchise, live/animated and actor for characters), writes the Movie characters deck (keeping its pictures, which were picked, cropped and checked by eye one by one; the script never replaces them) and picks the balanced Mixed stars deck. `tools/deck-credits.py` writes `decks/credits.txt`.

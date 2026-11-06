@@ -15,7 +15,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Blip"
   },
   {
    "id": "s02",
@@ -30,7 +32,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Zorg"
   },
   {
    "id": "s03",
@@ -45,7 +49,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mabel"
   },
   {
    "id": "s04",
@@ -60,7 +66,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Quill"
   },
   {
    "id": "s05",
@@ -75,7 +83,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Nimbus"
   },
   {
    "id": "s06",
@@ -90,7 +100,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pip"
   },
   {
    "id": "s07",
@@ -105,7 +117,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Torva"
   },
   {
    "id": "s08",
@@ -120,7 +134,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ozzy"
   },
   {
    "id": "s09",
@@ -135,7 +151,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fennel"
   },
   {
    "id": "s10",
@@ -150,7 +168,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rook"
   },
   {
    "id": "s11",
@@ -165,7 +185,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Juniper"
   },
   {
    "id": "s12",
@@ -180,7 +202,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sprocket"
   },
   {
    "id": "s13",
@@ -195,7 +219,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dot"
   },
   {
    "id": "s14",
@@ -210,7 +236,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Wexley"
   },
   {
    "id": "s15",
@@ -225,7 +253,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Bramble"
   },
   {
    "id": "s16",
@@ -240,7 +270,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kip"
   },
   {
    "id": "s17",
@@ -255,7 +287,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Lumen"
   },
   {
    "id": "s18",
@@ -270,7 +304,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Gus"
   },
   {
    "id": "s19",
@@ -285,7 +321,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tansy"
   },
   {
    "id": "s20",
@@ -300,7 +338,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Orbit"
   },
   {
    "id": "s21",
@@ -315,7 +355,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pell"
   },
   {
    "id": "s22",
@@ -330,7 +372,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Cobble"
   },
   {
    "id": "s23",
@@ -345,7 +389,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Wren"
   },
   {
    "id": "s24",
@@ -360,7 +406,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Doodle"
   },
   {
    "id": "s25",
@@ -375,7 +423,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mortimer"
   },
   {
    "id": "s26",
@@ -390,7 +440,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Zinnia"
   },
   {
    "id": "s27",
@@ -405,7 +457,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Biscuit"
   },
   {
    "id": "s28",
@@ -420,7 +474,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Flint"
   },
   {
    "id": "s29",
@@ -435,7 +491,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hazel"
   },
   {
    "id": "s30",
@@ -450,7 +508,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pogo"
   },
   {
    "id": "s31",
@@ -465,7 +525,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rumi"
   },
   {
    "id": "s32",
@@ -480,7 +542,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sable"
   },
   {
    "id": "s33",
@@ -495,7 +559,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tock"
   },
   {
    "id": "s34",
@@ -510,7 +576,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Umber"
   },
   {
    "id": "s35",
@@ -525,7 +593,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Vale"
   },
   {
    "id": "s36",
@@ -540,7 +610,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Widget"
   },
   {
    "id": "s37",
@@ -555,7 +627,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Yarrow"
   },
   {
    "id": "s38",
@@ -570,7 +644,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ziggy"
   },
   {
    "id": "s39",
@@ -585,7 +661,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Moss"
   },
   {
    "id": "s40",
@@ -600,7 +678,9 @@
     "source": "tools/make-sample-deck.mjs"
    },
    "gender": "x",
-   "kind": "character"
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Echo"
   }
  ]
 }
