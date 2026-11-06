@@ -1,0 +1,1047 @@
+{
+ "id": "history",
+ "title": "History & Politics",
+ "people": [
+  {
+   "id": "abraham-lincoln",
+   "name": "Abraham Lincoln",
+   "img": "img/abraham-lincoln.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Alexander Gardner",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+   }
+  },
+  {
+   "id": "albert-einstein",
+   "name": "Albert Einstein",
+   "img": "img/albert-einstein.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "Oren Jack Turner",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
+   }
+  },
+  {
+   "id": "alexander-hamilton",
+   "name": "Alexander Hamilton",
+   "img": "img/alexander-hamilton.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "John Trumbull / Giuseppe Ceracchi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexander_Hamilton_(NPG).jpg"
+   }
+  },
+  {
+   "id": "alexandria-ocasio-cortez",
+   "name": "Alexandria Ocasio-Cortez",
+   "img": "img/alexandria-ocasio-cortez.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Franmarie Metzler; U.S. House Office of Photography",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexandria_Ocasio-Cortez_Official_Portrait.jpg"
+   }
+  },
+  {
+   "id": "amelia-earhart",
+   "name": "Amelia Earhart",
+   "img": "img/amelia-earhart.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Underwood & Underwood (active 1880 – c. 1950)[1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
+   }
+  },
+  {
+   "id": "audrey-hepburn",
+   "name": "Audrey Hepburn",
+   "img": "img/audrey-hepburn.webp",
+   "tags": [
+    "history",
+    "actor"
+   ],
+   "credit": {
+    "author": "Bud Fraker (1916-2002) [1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:AudreyKHepburn.jpg"
+   }
+  },
+  {
+   "id": "barack-obama",
+   "name": "Barack Obama",
+   "img": "img/barack-obama.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Official White House Photo by Pete Souza",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg"
+   }
+  },
+  {
+   "id": "benjamin-franklin",
+   "name": "Benjamin Franklin",
+   "img": "img/benjamin-franklin.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Joseph-Siffred Duplessis",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "bernie-sanders",
+   "name": "Bernie Sanders",
+   "img": "img/bernie-sanders.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Anderseidesvik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders_February_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bill-clinton",
+   "name": "Bill Clinton",
+   "img": "img/bill-clinton.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Bob McNeely, The White House[1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Clinton.jpg"
+   }
+  },
+  {
+   "id": "bill-gates",
+   "name": "Bill Gates",
+   "img": "img/bill-gates.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Bogdan Hoyaux / European Union",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg"
+   }
+  },
+  {
+   "id": "bob-ross",
+   "name": "Bob Ross",
+   "img": "img/bob-ross.webp",
+   "tags": [
+    "history",
+    "tv"
+   ],
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob_Ross_publicity_photo_(c._1982)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "charles-darwin",
+   "name": "Charles Darwin",
+   "img": "img/charles-darwin.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "Charles_Darwin_seated.jpg: Henry Maull (1829–1914) and John Fox (1832–1907) (Maull & Fox) [3] derivative work: Beao",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg"
+   }
+  },
+  {
+   "id": "charlie-chaplin",
+   "name": "Charlie Chaplin",
+   "img": "img/charlie-chaplin.webp",
+   "tags": [
+    "history",
+    "actor"
+   ],
+   "credit": {
+    "author": "Strauss-Peyton Studio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg"
+   }
+  },
+  {
+   "id": "condoleezza-rice",
+   "name": "Condoleezza Rice",
+   "img": "img/condoleezza-rice.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Condoleezza_Rice_cropped.jpg"
+   }
+  },
+  {
+   "id": "diana-princess-of-wales",
+   "name": "Diana, Princess of Wales",
+   "img": "img/diana-princess-of-wales.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA (Archived link)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Diana,_Princess_of_Wales_1997_(2).jpg"
+   }
+  },
+  {
+   "id": "donald-trump",
+   "name": "Donald Trump",
+   "img": "img/donald-trump.webp",
+   "tags": [
+    "politics",
+    "president"
+   ],
+   "credit": {
+    "author": "Daniel Torok",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg"
+   }
+  },
+  {
+   "id": "dwight-d-eisenhower",
+   "name": "Dwight D. Eisenhower",
+   "img": "img/dwight-d-eisenhower.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959.jpg"
+   }
+  },
+  {
+   "id": "eleanor-roosevelt",
+   "name": "Eleanor Roosevelt",
+   "img": "img/eleanor-roosevelt.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "FDR Presidential Library & Museum",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_at_the_United_Nations,_circa_1946-1947_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "elizabeth-ii",
+   "name": "Elizabeth II",
+   "img": "img/elizabeth-ii.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Donald McKague",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg"
+   }
+  },
+  {
+   "id": "ernest-hemingway",
+   "name": "Ernest Hemingway",
+   "img": "img/ernest-hemingway.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Lloyd Arnold",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg"
+   }
+  },
+  {
+   "id": "franklin-d-roosevelt",
+   "name": "Franklin D. Roosevelt",
+   "img": "img/franklin-d-roosevelt.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Leon Perskie",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg"
+   }
+  },
+  {
+   "id": "fred-rogers",
+   "name": "Fred Rogers",
+   "img": "img/fred-rogers.webp",
+   "tags": [
+    "history",
+    "tv"
+   ],
+   "credit": {
+    "author": "Family Communications, Inc.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Fred-Rogers_1988_(full)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "frederick-douglass",
+   "name": "Frederick Douglass",
+   "img": "img/frederick-douglass.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "George Kendall Warren",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frederick_Douglass_(circa_1879)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "frida-kahlo",
+   "name": "Frida Kahlo",
+   "img": "img/frida-kahlo.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Guillermo Kahlo",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg"
+   }
+  },
+  {
+   "id": "george-h-w-bush",
+   "name": "George H. W. Bush",
+   "img": "img/george-h-w-bush.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "David Valdez",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_H._W._Bush_presidential_portrait_(cropped)_(2).jpg"
+   }
+  },
+  {
+   "id": "george-w-bush",
+   "name": "George W. Bush",
+   "img": "img/george-w-bush.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Eric Draper",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George-W-Bush.jpeg"
+   }
+  },
+  {
+   "id": "george-washington",
+   "name": "George Washington",
+   "img": "img/george-washington.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
+   }
+  },
+  {
+   "id": "harriet-tubman",
+   "name": "Harriet Tubman",
+   "img": "img/harriet-tubman.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Powelson, Benjamin F. 1823 - 1885",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg"
+   }
+  },
+  {
+   "id": "harry-s-truman",
+   "name": "Harry S. Truman",
+   "img": "img/harry-s-truman.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "National Archives and Records Administration. Office of Presidential Libraries. Harry S. Truman Library.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:TRUMAN_58-766-06_(cropped).jpg"
+   }
+  },
+  {
+   "id": "helen-keller",
+   "name": "Helen Keller",
+   "img": "img/helen-keller.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Helen_Keller_(circa_1904).jpg"
+   }
+  },
+  {
+   "id": "hillary-clinton",
+   "name": "Hillary Clinton",
+   "img": "img/hillary-clinton.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "U.S. Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg"
+   }
+  },
+  {
+   "id": "isaac-newton",
+   "name": "Isaac Newton",
+   "img": "img/isaac-newton.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "Godfrey Kneller",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg"
+   }
+  },
+  {
+   "id": "jane-goodall",
+   "name": "Jane Goodall",
+   "img": "img/jane-goodall.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "U.S. Department of State from United States",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department%27s_Global_Health_Diplomacy_Director_Jordan_in_Washington_(22365513310)_(2)_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "jd-vance",
+   "name": "JD Vance",
+   "img": "img/jd-vance.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Emily J. Higgins",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg"
+   }
+  },
+  {
+   "id": "jimmy-carter",
+   "name": "Jimmy Carter",
+   "img": "img/jimmy-carter.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Department of Defense. Department of the Navy. Naval Photographic Center",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "joe-biden",
+   "name": "Joe Biden",
+   "img": "img/joe-biden.webp",
+   "tags": [
+    "politics",
+    "president"
+   ],
+   "credit": {
+    "author": "Adam Schultz",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg"
+   }
+  },
+  {
+   "id": "john-f-kennedy",
+   "name": "John F. Kennedy",
+   "img": "img/john-f-kennedy.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Cecil W. Stoughton",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg"
+   }
+  },
+  {
+   "id": "john-mccain",
+   "name": "John McCain",
+   "img": "img/john-mccain.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "United States Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_McCain_official_portrait_2009_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "kamala-harris",
+   "name": "Kamala Harris",
+   "img": "img/kamala-harris.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Lawrence Jackson",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait.jpg"
+   }
+  },
+  {
+   "id": "leonardo-da-vinci",
+   "name": "Leonardo da Vinci",
+   "img": "img/leonardo-da-vinci.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Attributed to Francesco Melzi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo_(colour_correction).png"
+   }
+  },
+  {
+   "id": "ludwig-van-beethoven",
+   "name": "Ludwig van Beethoven",
+   "img": "img/ludwig-van-beethoven.webp",
+   "tags": [
+    "history",
+    "music"
+   ],
+   "credit": {
+    "author": "Joseph Karl Stieler",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
+   }
+  },
+  {
+   "id": "mahatma-gandhi",
+   "name": "Mahatma Gandhi",
+   "img": "img/mahatma-gandhi.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Elliott & Fry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg"
+   }
+  },
+  {
+   "id": "marco-rubio",
+   "name": "Marco Rubio",
+   "img": "img/marco-rubio.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "U.S. Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Secretary_Marco_Rubio_(cropped)(2).jpg"
+   }
+  },
+  {
+   "id": "marie-curie",
+   "name": "Marie Curie",
+   "img": "img/marie-curie.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "Henri Manuel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg"
+   }
+  },
+  {
+   "id": "marilyn-monroe",
+   "name": "Marilyn Monroe",
+   "img": "img/marilyn-monroe.webp",
+   "tags": [
+    "history",
+    "actor"
+   ],
+   "credit": {
+    "author": "Bert Parry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Monroecirca1953.jpg"
+   }
+  },
+  {
+   "id": "mark-twain",
+   "name": "Mark Twain",
+   "img": "img/mark-twain.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "A.F. Bradley, New York",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "martin-luther-king-jr",
+   "name": "Martin Luther King Jr.",
+   "img": "img/martin-luther-king-jr.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Yoichi Okamoto",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
+   }
+  },
+  {
+   "id": "michelle-obama",
+   "name": "Michelle Obama",
+   "img": "img/michelle-obama.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Official White House Photo by Chuck Kennedy",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Michelle_Obama_2013_official_portrait.jpg"
+   }
+  },
+  {
+   "id": "mike-pence",
+   "name": "Mike Pence",
+   "img": "img/mike-pence.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "D. Myles Cullen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mike_Pence_official_Vice_Presidential_portrait.jpg"
+   }
+  },
+  {
+   "id": "mitt-romney",
+   "name": "Mitt Romney",
+   "img": "img/mitt-romney.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "United States Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitt_Romney_official_US_Senate_portrait.jpg"
+   }
+  },
+  {
+   "id": "mother-teresa",
+   "name": "Mother Teresa",
+   "img": "img/mother-teresa.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mother_Teresa_1.jpg"
+   }
+  },
+  {
+   "id": "nancy-pelosi",
+   "name": "Nancy Pelosi",
+   "img": "img/nancy-pelosi.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "John Harrington",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg"
+   }
+  },
+  {
+   "id": "neil-armstrong",
+   "name": "Neil Armstrong",
+   "img": "img/neil-armstrong.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg"
+   }
+  },
+  {
+   "id": "nelson-mandela",
+   "name": "Nelson Mandela",
+   "img": "img/nelson-mandela.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg"
+   }
+  },
+  {
+   "id": "nikola-tesla",
+   "name": "Nikola Tesla",
+   "img": "img/nikola-tesla.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "Napoleon Sarony",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg"
+   }
+  },
+  {
+   "id": "ronald-reagan",
+   "name": "Ronald Reagan",
+   "img": "img/ronald-reagan.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Michael Evans",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg"
+   }
+  },
+  {
+   "id": "rosa-parks",
+   "name": "Rosa Parks",
+   "img": "img/rosa-parks.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks,_November_1956_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ruth-bader-ginsburg",
+   "name": "Ruth Bader Ginsburg",
+   "img": "img/ruth-bader-ginsburg.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Supreme Court of the United States, Photographer: Steve Petteway [1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_2016_portrait.jpg"
+   }
+  },
+  {
+   "id": "sally-ride",
+   "name": "Sally Ride",
+   "img": "img/sally-ride.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "NASA; retouched by Coffeeandcrumbs",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sally_Ride_(1984).jpg"
+   }
+  },
+  {
+   "id": "stephen-hawking",
+   "name": "Stephen Hawking",
+   "img": "img/stephen-hawking.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_Hawking.StarChild.jpg"
+   }
+  },
+  {
+   "id": "steve-jobs",
+   "name": "Steve Jobs",
+   "img": "img/steve-jobs.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Matthew Yohe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_6).jpg"
+   }
+  },
+  {
+   "id": "susan-b-anthony",
+   "name": "Susan B. Anthony",
+   "img": "img/susan-b-anthony.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:SB_Anthony_from_RoRaWW.jpg"
+   }
+  },
+  {
+   "id": "ted-cruz",
+   "name": "Ted Cruz",
+   "img": "img/ted-cruz.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "U.S. Senate Photographic Studio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ted_Cruz_official_116th_portrait_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "theodore-roosevelt",
+   "name": "Theodore Roosevelt",
+   "img": "img/theodore-roosevelt.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros_(4x5_cropped)_(3).jpg"
+   }
+  },
+  {
+   "id": "thomas-edison",
+   "name": "Thomas Edison",
+   "img": "img/thomas-edison.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
+   }
+  },
+  {
+   "id": "thomas-jefferson",
+   "name": "Thomas Jefferson",
+   "img": "img/thomas-jefferson.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Rembrandt Peale",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg"
+   }
+  },
+  {
+   "id": "vincent-van-gogh",
+   "name": "Vincent van Gogh",
+   "img": "img/vincent-van-gogh.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Vincent van Gogh",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg"
+   }
+  },
+  {
+   "id": "walt-disney",
+   "name": "Walt Disney",
+   "img": "img/walt-disney.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Boy Scouts of America",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG"
+   }
+  },
+  {
+   "id": "william-shakespeare",
+   "name": "William Shakespeare",
+   "img": "img/william-shakespeare.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Attributed to John Taylor",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Shakespeare_by_John_Taylor,_edited.jpg"
+   }
+  },
+  {
+   "id": "winston-churchill",
+   "name": "Winston Churchill",
+   "img": "img/winston-churchill.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Flickr: Sir Winston Churchill",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg"
+   }
+  },
+  {
+   "id": "wolfgang-amadeus-mozart",
+   "name": "Wolfgang Amadeus Mozart",
+   "img": "img/wolfgang-amadeus-mozart.webp",
+   "tags": [
+    "history",
+    "music"
+   ],
+   "credit": {
+    "author": "Johann Nepomuk della Croce",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
+   }
+  }
+ ]
+}

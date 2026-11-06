@@ -1,0 +1,1016 @@
+{
+ "id": "mixed",
+ "title": "Mixed stars",
+ "people": [
+  {
+   "id": "abraham-lincoln",
+   "name": "Abraham Lincoln",
+   "img": "img/abraham-lincoln.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Alexander Gardner",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+   }
+  },
+  {
+   "id": "albert-einstein",
+   "name": "Albert Einstein",
+   "img": "img/albert-einstein.webp",
+   "tags": [
+    "history",
+    "science"
+   ],
+   "credit": {
+    "author": "Oren Jack Turner",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
+   }
+  },
+  {
+   "id": "ariana-grande",
+   "name": "Ariana Grande",
+   "img": "img/ariana-grande.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Barbie Simons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ariana_Grande_promoting_Wicked_(2024).jpg"
+   }
+  },
+  {
+   "id": "barack-obama",
+   "name": "Barack Obama",
+   "img": "img/barack-obama.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Official White House Photo by Pete Souza",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg"
+   }
+  },
+  {
+   "id": "bernie-sanders",
+   "name": "Bernie Sanders",
+   "img": "img/bernie-sanders.webp",
+   "tags": [
+    "politics"
+   ],
+   "credit": {
+    "author": "Anderseidesvik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders_February_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "beyonce",
+   "name": "Beyoncé",
+   "img": "img/beyonce.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg"
+   }
+  },
+  {
+   "id": "billie-eilish",
+   "name": "Billie Eilish",
+   "img": "img/billie-eilish.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BillieEilishO2140725-39_-_54665577407_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bob-ross",
+   "name": "Bob Ross",
+   "img": "img/bob-ross.webp",
+   "tags": [
+    "history",
+    "tv"
+   ],
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob_Ross_publicity_photo_(c._1982)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bruno-mars",
+   "name": "Bruno Mars",
+   "img": "img/bruno-mars.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "slgckgc",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BrunoMars24KMagicWorldTourLive_(cropped).jpg"
+   }
+  },
+  {
+   "id": "cristiano-ronaldo",
+   "name": "Cristiano Ronaldo",
+   "img": "img/cristiano-ronaldo.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
+   }
+  },
+  {
+   "id": "danny-devito",
+   "name": "Danny DeVito",
+   "img": "img/danny-devito.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Danny_DeVito_cropped_and_edited_for_brightness.jpg"
+   }
+  },
+  {
+   "id": "denzel-washington",
+   "name": "Denzel Washington",
+   "img": "img/denzel-washington.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg"
+   }
+  },
+  {
+   "id": "dolly-parton",
+   "name": "Dolly Parton",
+   "img": "img/dolly-parton.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "David Gahr",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Young-Dolly-Parton_(higher_quality_scan)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "donald-trump",
+   "name": "Donald Trump",
+   "img": "img/donald-trump.webp",
+   "tags": [
+    "politics",
+    "president"
+   ],
+   "credit": {
+    "author": "Daniel Torok",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg"
+   }
+  },
+  {
+   "id": "dwayne-johnson",
+   "name": "Dwayne Johnson",
+   "img": "img/dwayne-johnson.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dwayne_Johnson-1764_(4x5_cropped_with_moderate_headroom).jpg"
+   }
+  },
+  {
+   "id": "ed-sheeran",
+   "name": "Ed Sheeran",
+   "img": "img/ed-sheeran.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Number 10",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran_2022_(3x4_crop).jpg"
+   }
+  },
+  {
+   "id": "elizabeth-ii",
+   "name": "Elizabeth II",
+   "img": "img/elizabeth-ii.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Donald McKague",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg"
+   }
+  },
+  {
+   "id": "elton-john",
+   "name": "Elton John",
+   "img": "img/elton-john.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:EltonDocBFILFF101024_(4_of_17)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "emma-watson",
+   "name": "Emma Watson",
+   "img": "img/emma-watson.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Georges Biard",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emma_Watson_2013.jpg"
+   }
+  },
+  {
+   "id": "felix-the-cat",
+   "name": "Felix the Cat",
+   "img": "img/felix-the-cat.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Legends of the kwikwi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Felix_the_Cat_(comic_strip)_(FIXED).png"
+   }
+  },
+  {
+   "id": "fred-rogers",
+   "name": "Fred Rogers",
+   "img": "img/fred-rogers.webp",
+   "tags": [
+    "history",
+    "tv"
+   ],
+   "credit": {
+    "author": "Family Communications, Inc.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Fred-Rogers_1988_(full)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "george-washington",
+   "name": "George Washington",
+   "img": "img/george-washington.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
+   }
+  },
+  {
+   "id": "gordon-ramsay",
+   "name": "Gordon Ramsay",
+   "img": "img/gordon-ramsay.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Dave Pullig",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gordon_Ramsay_(cropped).jpg"
+   }
+  },
+  {
+   "id": "guy-fieri",
+   "name": "Guy Fieri",
+   "img": "img/guy-fieri.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Big Red Liquors",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Guy_Fieri_June_2023.png"
+   }
+  },
+  {
+   "id": "harry-styles",
+   "name": "Harry Styles",
+   "img": "img/harry-styles.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HarryStylesWembley170623_(65_of_93)_(52982678051)_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "jack-black",
+   "name": "Jack Black",
+   "img": "img/jack-black.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TenaciousDO2160623_(38_of_62)_Jack_Black.jpg"
+   }
+  },
+  {
+   "id": "jackie-chan",
+   "name": "Jackie Chan",
+   "img": "img/jackie-chan.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Segolene Liger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg"
+   }
+  },
+  {
+   "id": "jason-momoa",
+   "name": "Jason Momoa",
+   "img": "img/jason-momoa.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jason_Momoa_(43055621224)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "joe-biden",
+   "name": "Joe Biden",
+   "img": "img/joe-biden.webp",
+   "tags": [
+    "politics",
+    "president"
+   ],
+   "credit": {
+    "author": "Adam Schultz",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg"
+   }
+  },
+  {
+   "id": "john-f-kennedy",
+   "name": "John F. Kennedy",
+   "img": "img/john-f-kennedy.webp",
+   "tags": [
+    "history",
+    "president"
+   ],
+   "credit": {
+    "author": "Cecil W. Stoughton",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg"
+   }
+  },
+  {
+   "id": "keanu-reeves",
+   "name": "Keanu Reeves",
+   "img": "img/keanu-reeves.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Keanu_Reeves_at_TIFF_2025_02_(Cropped).jpg"
+   }
+  },
+  {
+   "id": "lady-gaga",
+   "name": "Lady Gaga",
+   "img": "img/lady-gaga.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Carlos M. Vazquez II",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_at_Joe_Biden%27s_inauguration_(cropped_5).jpg"
+   }
+  },
+  {
+   "id": "lebron-james",
+   "name": "LeBron James",
+   "img": "img/lebron-james.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped2).jpg"
+   }
+  },
+  {
+   "id": "leonardo-dicaprio",
+   "name": "Leonardo DiCaprio",
+   "img": "img/leonardo-dicaprio.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LeoPTABFI191125-28_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lionel-messi",
+   "name": "Lionel Messi",
+   "img": "img/lionel-messi.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
+   }
+  },
+  {
+   "id": "margot-robbie",
+   "name": "Margot Robbie",
+   "img": "img/margot-robbie.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Ondine Goat",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Margot_Robbie_Wuthering_Heights_premiere_(cropped).jpg"
+   }
+  },
+  {
+   "id": "marilyn-monroe",
+   "name": "Marilyn Monroe",
+   "img": "img/marilyn-monroe.webp",
+   "tags": [
+    "history",
+    "actor"
+   ],
+   "credit": {
+    "author": "Bert Parry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Monroecirca1953.jpg"
+   }
+  },
+  {
+   "id": "martin-luther-king-jr",
+   "name": "Martin Luther King Jr.",
+   "img": "img/martin-luther-king-jr.webp",
+   "tags": [
+    "history"
+   ],
+   "credit": {
+    "author": "Yoichi Okamoto",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
+   }
+  },
+  {
+   "id": "meryl-streep",
+   "name": "Meryl Streep",
+   "img": "img/meryl-streep.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Ministry of culture, sports and Tourism- Lee Jeong-woo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_(cropped1).jpg"
+   }
+  },
+  {
+   "id": "michael-jordan",
+   "name": "Michael Jordan",
+   "img": "img/michael-jordan.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "Zach Catanzareti Photo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Michael_jordan_admad_rashad_(51276390562)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "mickey-mouse",
+   "name": "Mickey Mouse",
+   "img": "img/mickey-mouse.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Walt Disney / Ub Iwerks",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mickey_Mouse_-_Steamboat_Willie_(1928).jpg"
+   }
+  },
+  {
+   "id": "mona-lisa",
+   "name": "Mona Lisa",
+   "img": "img/mona-lisa.webp",
+   "tags": [
+    "cartoon",
+    "art"
+   ],
+   "credit": {
+    "author": "Leonardo da Vinci",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_natural_color.jpg"
+   }
+  },
+  {
+   "id": "morgan-freeman",
+   "name": "Morgan Freeman",
+   "img": "img/morgan-freeman.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "U.S. Secretary of Defense",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_(cropped).jpg"
+   }
+  },
+  {
+   "id": "mrbeast",
+   "name": "MrBeast",
+   "img": "img/mrbeast.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Tyren Redd",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MrBeast_in_2026_(cropped_4).png"
+   }
+  },
+  {
+   "id": "muhammad-ali",
+   "name": "Muhammad Ali",
+   "img": "img/muhammad-ali.webp",
+   "tags": [
+    "sports",
+    "history"
+   ],
+   "credit": {
+    "author": "Ira Rosenberg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg"
+   }
+  },
+  {
+   "id": "oprah-winfrey",
+   "name": "Oprah Winfrey",
+   "img": "img/oprah-winfrey.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "US Embassy South Africa",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg"
+   }
+  },
+  {
+   "id": "pedro-pascal",
+   "name": "Pedro Pascal",
+   "img": "img/pedro-pascal.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg"
+   }
+  },
+  {
+   "id": "pinocchio",
+   "name": "Pinocchio",
+   "img": "img/pinocchio.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "Enrico Mazzanti (1852-1910)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pinocchio.jpg"
+   }
+  },
+  {
+   "id": "popeye",
+   "name": "Popeye",
+   "img": "img/popeye.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Bela Zaboly for King Features Syndicate, Inc.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Popeye_transparent.png"
+   }
+  },
+  {
+   "id": "post-malone",
+   "name": "Post Malone",
+   "img": "img/post-malone.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Post_Malone_2018.jpg"
+   }
+  },
+  {
+   "id": "rihanna",
+   "name": "Rihanna",
+   "img": "img/rihanna.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "SIGMA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rihanna_Fenty_2018.png"
+   }
+  },
+  {
+   "id": "robert-downey-jr",
+   "name": "Robert Downey Jr.",
+   "img": "img/robert-downey-jr.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RobertDowneyJr-byPhilipRomano7_(cropped).jpg"
+   }
+  },
+  {
+   "id": "rosie-the-riveter",
+   "name": "Rosie the Riveter",
+   "img": "img/rosie-the-riveter.webp",
+   "tags": [
+    "cartoon",
+    "history"
+   ],
+   "credit": {
+    "author": "J. Howard Miller (1898–1985), artist employed by Westinghouse, poster used by the War Production Co-ordinating Committee",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:We_Can_Do_It!.jpg"
+   }
+  },
+  {
+   "id": "ryan-reynolds",
+   "name": "Ryan Reynolds",
+   "img": "img/ryan-reynolds.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Dick Thomas Johnson from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_(cropped).jpg"
+   }
+  },
+  {
+   "id": "santa-claus",
+   "name": "Santa Claus",
+   "img": "img/santa-claus.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Thomas Nast",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Merry_Old_Santa_Claus_by_Thomas_Nast.jpg"
+   }
+  },
+  {
+   "id": "serena-williams",
+   "name": "Serena Williams",
+   "img": "img/serena-williams.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "AndrewHenkelman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Serena-Smiling-2020.png"
+   }
+  },
+  {
+   "id": "shaquille-o-neal",
+   "name": "Shaquille O'Neal",
+   "img": "img/shaquille-o-neal.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "TechCrunch",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_2023_-_Day_1_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sherlock-holmes",
+   "name": "Sherlock Holmes",
+   "img": "img/sherlock-holmes.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "Sidney Paget 1860-1908",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sherlock_Holmes_by_Sidney_Paget-Cropped.jpg"
+   }
+  },
+  {
+   "id": "shohei-ohtani",
+   "name": "Shohei Ohtani",
+   "img": "img/shohei-ohtani.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dodgers_at_Nationals_(53677192000)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "simone-biles",
+   "name": "Simone Biles",
+   "img": "img/simone-biles.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "Ocoudis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg"
+   }
+  },
+  {
+   "id": "snoop-dogg",
+   "name": "Snoop Dogg",
+   "img": "img/snoop-dogg.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Diego Serrano",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Snoop_Dogg,_WrestleMania_XL_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "stephen-curry",
+   "name": "Stephen Curry",
+   "img": "img/stephen-curry.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "El Viejas God",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_Curry_30.jpg"
+   }
+  },
+  {
+   "id": "steve-carell",
+   "name": "Steve Carell",
+   "img": "img/steve-carell.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Carell_-_The_40-Year-Old-Virgin.jpg"
+   }
+  },
+  {
+   "id": "taylor-swift",
+   "name": "Taylor Swift",
+   "img": "img/taylor-swift.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "iHeartRadioCA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png"
+   }
+  },
+  {
+   "id": "tom-brady",
+   "name": "Tom Brady",
+   "img": "img/tom-brady.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "Barcex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tom-hanks",
+   "name": "Tom Hanks",
+   "img": "img/tom-hanks.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TomHanksPrincEdw031223_(11_of_41)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tom-holland",
+   "name": "Tom Holland",
+   "img": "img/tom-holland.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TomHolland-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "uncle-sam",
+   "name": "Uncle Sam",
+   "img": "img/uncle-sam.webp",
+   "tags": [
+    "cartoon",
+    "history"
+   ],
+   "credit": {
+    "author": "Jeanot derivative work: Ju gatsu mikka (^o^) appelez moi Ju (^o^)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Uncle_Sam_(pointing_finger).png"
+   }
+  },
+  {
+   "id": "usain-bolt",
+   "name": "Usain Bolt",
+   "img": "img/usain-bolt.webp",
+   "tags": [
+    "sports"
+   ],
+   "credit": {
+    "author": "Samsung Belgium",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_with_NX300-3.jpg"
+   }
+  },
+  {
+   "id": "winnie-the-pooh",
+   "name": "Winnie-the-Pooh",
+   "img": "img/winnie-the-pooh.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Alan Alexander Milne",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Winnie_The_Pooh_Classic.jpg"
+   }
+  },
+  {
+   "id": "zendaya",
+   "name": "Zendaya",
+   "img": "img/zendaya.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zendaya-byPhilipRomano.jpg"
+   }
+  }
+ ]
+}

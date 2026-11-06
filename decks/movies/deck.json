@@ -1,0 +1,1281 @@
+{
+ "id": "movies",
+ "title": "Movies, TV & Internet",
+ "people": [
+  {
+   "id": "adam-sandler",
+   "name": "Adam Sandler",
+   "img": "img/adam-sandler.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_(3x4).jpg"
+   }
+  },
+  {
+   "id": "alex-trebek",
+   "name": "Alex Trebek",
+   "img": "img/alex-trebek.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "The Peabody Awards",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alex_Trebek_at_the_71st_Annual_Peabody_Awards_(cropped).jpg"
+   }
+  },
+  {
+   "id": "anne-hathaway",
+   "name": "Anne Hathaway",
+   "img": "img/anne-hathaway.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AnneHathaway-byPhilipRomano-Crop.jpg"
+   }
+  },
+  {
+   "id": "arnold-schwarzenegger",
+   "name": "Arnold Schwarzenegger",
+   "img": "img/arnold-schwarzenegger.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Bernhard Holub",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg"
+   }
+  },
+  {
+   "id": "awkwafina",
+   "name": "Awkwafina",
+   "img": "img/awkwafina.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Awkwafina_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "benedict-cumberbatch",
+   "name": "Benedict Cumberbatch",
+   "img": "img/benedict-cumberbatch.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Benedict_Cumberbatch-67555.jpg"
+   }
+  },
+  {
+   "id": "betty-white",
+   "name": "Betty White",
+   "img": "img/betty-white.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Alan Light",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Betty_White_1988_Emmy_Awards_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "bill-nye",
+   "name": "Bill Nye",
+   "img": "img/bill-nye.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Montclair Film Festival",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Nye_2017.jpg"
+   }
+  },
+  {
+   "id": "brad-pitt",
+   "name": "Brad Pitt",
+   "img": "img/brad-pitt.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brad_Pitt-69858.jpg"
+   }
+  },
+  {
+   "id": "casey-neistat",
+   "name": "Casey Neistat",
+   "img": "img/casey-neistat.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Tessa Bury",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Casey_Neistat.jpg"
+   }
+  },
+  {
+   "id": "chris-evans",
+   "name": "Chris Evans",
+   "img": "img/chris-evans.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Sara Komatsu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Evans_at_the_2025_Toronto_International_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "chris-hemsworth",
+   "name": "Chris Hemsworth",
+   "img": "img/chris-hemsworth.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Hemsworth_-_Crime_101.jpg"
+   }
+  },
+  {
+   "id": "chris-pratt",
+   "name": "Chris Pratt",
+   "img": "img/chris-pratt.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Dick Thomas Johnson from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "cillian-murphy",
+   "name": "Cillian Murphy",
+   "img": "img/cillian-murphy.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Netflix",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_(cropped).jpg"
+   }
+  },
+  {
+   "id": "conan-o-brien",
+   "name": "Conan O'Brien",
+   "img": "img/conan-o-brien.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Conan_O%27Brien_2025.jpg"
+   }
+  },
+  {
+   "id": "daniel-radcliffe",
+   "name": "Daniel Radcliffe",
+   "img": "img/daniel-radcliffe.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Philip Romano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DanielRadcliffe.jpg"
+   }
+  },
+  {
+   "id": "danny-devito",
+   "name": "Danny DeVito",
+   "img": "img/danny-devito.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Danny_DeVito_cropped_and_edited_for_brightness.jpg"
+   }
+  },
+  {
+   "id": "david-attenborough",
+   "name": "David Attenborough",
+   "img": "img/david-attenborough.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "https://www.flickr.com/photos/ukgov/",
+    "license": "OGL 3",
+    "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+    "source": "https://commons.wikimedia.org/wiki/File:David_Attenborough_in_2025.jpg"
+   }
+  },
+  {
+   "id": "denzel-washington",
+   "name": "Denzel Washington",
+   "img": "img/denzel-washington.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg"
+   }
+  },
+  {
+   "id": "dwayne-johnson",
+   "name": "Dwayne Johnson",
+   "img": "img/dwayne-johnson.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dwayne_Johnson-1764_(4x5_cropped_with_moderate_headroom).jpg"
+   }
+  },
+  {
+   "id": "emma-chamberlain",
+   "name": "Emma Chamberlain",
+   "img": "img/emma-chamberlain.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "John Park",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emma_Chamberlain_for_Chamberlain_Coffee,_2020_(1).png"
+   }
+  },
+  {
+   "id": "emma-stone",
+   "name": "Emma Stone",
+   "img": "img/emma-stone.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emma_Stone_at_the_2025_Venice_Film_Festival-6313_(cropped).jpg"
+   }
+  },
+  {
+   "id": "emma-watson",
+   "name": "Emma Watson",
+   "img": "img/emma-watson.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Georges Biard",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emma_Watson_2013.jpg"
+   }
+  },
+  {
+   "id": "florence-pugh",
+   "name": "Florence Pugh",
+   "img": "img/florence-pugh.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Marlene Landu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Florence_Pugh_2026.jpg"
+   }
+  },
+  {
+   "id": "gal-gadot",
+   "name": "Gal Gadot",
+   "img": "img/gal-gadot.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gal_Gadot_by_Gage_Skidmore_3.jpg"
+   }
+  },
+  {
+   "id": "gordon-ramsay",
+   "name": "Gordon Ramsay",
+   "img": "img/gordon-ramsay.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Dave Pullig",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gordon_Ramsay_(cropped).jpg"
+   }
+  },
+  {
+   "id": "guy-fieri",
+   "name": "Guy Fieri",
+   "img": "img/guy-fieri.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Big Red Liquors",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Guy_Fieri_June_2023.png"
+   }
+  },
+  {
+   "id": "hank-green",
+   "name": "Hank Green",
+   "img": "img/hank-green.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Tessa Bury",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hank_Green_Headshot_(cropped).jpg"
+   }
+  },
+  {
+   "id": "harrison-ford",
+   "name": "Harrison Ford",
+   "img": "img/harrison-ford.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Harrison_Ford_-_Televerse_2025-03.jpg"
+   }
+  },
+  {
+   "id": "henry-cavill",
+   "name": "Henry Cavill",
+   "img": "img/henry-cavill.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Henry_Cavill_(48417913146)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "hugh-jackman",
+   "name": "Hugh Jackman",
+   "img": "img/hugh-jackman.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hugh_Jackman_by_Gage_Skidmore_3.jpg"
+   }
+  },
+  {
+   "id": "idris-elba",
+   "name": "Idris Elba",
+   "img": "img/idris-elba.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Idris_Elba_A_House_of_Dynamite-21_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jack-black",
+   "name": "Jack Black",
+   "img": "img/jack-black.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TenaciousDO2160623_(38_of_62)_Jack_Black.jpg"
+   }
+  },
+  {
+   "id": "jackie-chan",
+   "name": "Jackie Chan",
+   "img": "img/jackie-chan.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Segolene Liger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg"
+   }
+  },
+  {
+   "id": "jason-momoa",
+   "name": "Jason Momoa",
+   "img": "img/jason-momoa.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jason_Momoa_(43055621224)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jeff-goldblum",
+   "name": "Jeff Goldblum",
+   "img": "img/jeff-goldblum.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jeff_Goldblum_by_Gage_Skidmore_3.jpg"
+   }
+  },
+  {
+   "id": "jenna-ortega",
+   "name": "Jenna Ortega",
+   "img": "img/jenna-ortega.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jenna_Ortega-63799_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jennifer-aniston",
+   "name": "Jennifer Aniston",
+   "img": "img/jennifer-aniston.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Angela George",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JenniferAnistonHWoFFeb2012.jpg"
+   }
+  },
+  {
+   "id": "jennifer-lawrence",
+   "name": "Jennifer Lawrence",
+   "img": "img/jennifer-lawrence.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Ciné Zooms 2",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Lawrence,_Cannes_Film_Festival_2025.jpg"
+   }
+  },
+  {
+   "id": "jim-carrey",
+   "name": "Jim Carrey",
+   "img": "img/jim-carrey.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Ian Smith from London, England",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jim_Carrey_2008.jpg"
+   }
+  },
+  {
+   "id": "jimmy-fallon",
+   "name": "Jimmy Fallon",
+   "img": "img/jimmy-fallon.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Fallon-TTL_4575_(11046141004)_(5x7_cropped_and_rotated).jpg"
+   }
+  },
+  {
+   "id": "jimmy-kimmel",
+   "name": "Jimmy Kimmel",
+   "img": "img/jimmy-kimmel.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Erin Scott",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Kimmel_June_2022.jpg"
+   }
+  },
+  {
+   "id": "john-cena",
+   "name": "John Cena",
+   "img": "img/john-cena.webp",
+   "tags": [
+    "actor",
+    "sports"
+   ],
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Cena_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "julia-roberts",
+   "name": "Julia Roberts",
+   "img": "img/julia-roberts.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Julia_Roberts_2025.jpg"
+   }
+  },
+  {
+   "id": "keanu-reeves",
+   "name": "Keanu Reeves",
+   "img": "img/keanu-reeves.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Keanu_Reeves_at_TIFF_2025_02_(Cropped).jpg"
+   }
+  },
+  {
+   "id": "kevin-hart",
+   "name": "Kevin Hart",
+   "img": "img/kevin-hart.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kevin_Hart_2014_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "kristen-stewart",
+   "name": "Kristen Stewart",
+   "img": "img/kristen-stewart.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kristen_Stewart_at_WWD_Style_Awards_2026.jpg"
+   }
+  },
+  {
+   "id": "leonardo-dicaprio",
+   "name": "Leonardo DiCaprio",
+   "img": "img/leonardo-dicaprio.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LeoPTABFI191125-28_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lilly-singh",
+   "name": "Lilly Singh",
+   "img": "img/lilly-singh.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Jay Dixit",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2024-03-08_SXSW-2024_Variety-comedy-awards_04707_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lucy-liu",
+   "name": "Lucy Liu",
+   "img": "img/lucy-liu.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lucy_Liu_Rosemead-13_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lupita-nyong-o",
+   "name": "Lupita Nyong'o",
+   "img": "img/lupita-nyong-o.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LupitaNyongo-byPhilipRomano3.jpg"
+   }
+  },
+  {
+   "id": "margot-robbie",
+   "name": "Margot Robbie",
+   "img": "img/margot-robbie.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Ondine Goat",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Margot_Robbie_Wuthering_Heights_premiere_(cropped).jpg"
+   }
+  },
+  {
+   "id": "mark-rober",
+   "name": "Mark Rober",
+   "img": "img/mark-rober.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Newhcrossaint",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mark_Rober-_Close.png"
+   }
+  },
+  {
+   "id": "mark-ruffalo",
+   "name": "Mark Ruffalo",
+   "img": "img/mark-ruffalo.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mark_Ruffalo_(36201774756)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "markiplier",
+   "name": "Markiplier",
+   "img": "img/markiplier.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Ethan Nestor",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Markiplier_in_Markiplier_Covered_Me_In_His_Glue_at_01_15.png"
+   }
+  },
+  {
+   "id": "marques-brownlee",
+   "name": "Marques Brownlee",
+   "img": "img/marques-brownlee.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Marques Brownlee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marques_Brownlee_cropped.jpg"
+   }
+  },
+  {
+   "id": "martha-stewart",
+   "name": "Martha Stewart",
+   "img": "img/martha-stewart.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Martha_Stewart_(48926315347)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "matt-damon",
+   "name": "Matt Damon",
+   "img": "img/matt-damon.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MattDamon-byPhilipRomano2.jpg"
+   }
+  },
+  {
+   "id": "meryl-streep",
+   "name": "Meryl Streep",
+   "img": "img/meryl-streep.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Ministry of culture, sports and Tourism- Lee Jeong-woo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_(cropped1).jpg"
+   }
+  },
+  {
+   "id": "michelle-yeoh",
+   "name": "Michelle Yeoh",
+   "img": "img/michelle-yeoh.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Michelle_Yeoh-2268.jpg"
+   }
+  },
+  {
+   "id": "millie-bobby-brown",
+   "name": "Millie Bobby Brown",
+   "img": "img/millie-bobby-brown.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "TheWrap",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Millie_Bobby_Brown_2025_(1).png"
+   }
+  },
+  {
+   "id": "morgan-freeman",
+   "name": "Morgan Freeman",
+   "img": "img/morgan-freeman.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "U.S. Secretary of Defense",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_(cropped).jpg"
+   }
+  },
+  {
+   "id": "mrbeast",
+   "name": "MrBeast",
+   "img": "img/mrbeast.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Tyren Redd",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MrBeast_in_2026_(cropped_4).png"
+   }
+  },
+  {
+   "id": "natalie-portman",
+   "name": "Natalie Portman",
+   "img": "img/natalie-portman.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NataliePortman.jpg"
+   }
+  },
+  {
+   "id": "neil-degrasse-tyson",
+   "name": "Neil deGrasse Tyson",
+   "img": "img/neil-degrasse-tyson.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Neil_DeGrasse_Tyson_(2023).jpg"
+   }
+  },
+  {
+   "id": "nicolas-cage",
+   "name": "Nicolas Cage",
+   "img": "img/nicolas-cage.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg"
+   }
+  },
+  {
+   "id": "ninja",
+   "name": "Ninja",
+   "img": "img/ninja.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "State Farm",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Krystalogy,_Jess,_Ninja,_and_Typical_Gamer_relaxing_in_the_State_Farm_Gamerhood_(52899874282)_(3x4_cropped_on_Ninja_and_rotated).jpg"
+   }
+  },
+  {
+   "id": "oprah-winfrey",
+   "name": "Oprah Winfrey",
+   "img": "img/oprah-winfrey.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "US Embassy South Africa",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg"
+   }
+  },
+  {
+   "id": "paul-rudd",
+   "name": "Paul Rudd",
+   "img": "img/paul-rudd.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Rudd_at_the_2026_New_York_Film_Festival-003.jpg"
+   }
+  },
+  {
+   "id": "pedro-pascal",
+   "name": "Pedro Pascal",
+   "img": "img/pedro-pascal.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg"
+   }
+  },
+  {
+   "id": "pewdiepie",
+   "name": "PewDiePie",
+   "img": "img/pewdiepie.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Cold Ones Clips",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pewdiepie_head_shot.jpg"
+   }
+  },
+  {
+   "id": "pokimane",
+   "name": "Pokimane",
+   "img": "img/pokimane.webp",
+   "tags": [
+    "internet"
+   ],
+   "credit": {
+    "author": "Hey B*tch! Highlights",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pokimane_2019.jpg"
+   }
+  },
+  {
+   "id": "robert-downey-jr",
+   "name": "Robert Downey Jr.",
+   "img": "img/robert-downey-jr.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RobertDowneyJr-byPhilipRomano7_(cropped).jpg"
+   }
+  },
+  {
+   "id": "robert-pattinson",
+   "name": "Robert Pattinson",
+   "img": "img/robert-pattinson.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Pattinson_Venice_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "rupert-grint",
+   "name": "Rupert Grint",
+   "img": "img/rupert-grint.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "User:Celestinesucess",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Rupert_Grint_at_Berlin_Film_Festival_2026,_(P1230675)_(cropped2).jpg"
+   }
+  },
+  {
+   "id": "ryan-gosling",
+   "name": "Ryan Gosling",
+   "img": "img/ryan-gosling.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Elen Nivrae from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ryan_Gosling_(16437257783)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ryan-reynolds",
+   "name": "Ryan Reynolds",
+   "img": "img/ryan-reynolds.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Dick Thomas Johnson from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_(cropped).jpg"
+   }
+  },
+  {
+   "id": "samuel-l-jackson",
+   "name": "Samuel L. Jackson",
+   "img": "img/samuel-l-jackson.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Philip Romano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SamuelLJackson.jpg"
+   }
+  },
+  {
+   "id": "sandra-bullock",
+   "name": "Sandra Bullock",
+   "img": "img/sandra-bullock.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg"
+   }
+  },
+  {
+   "id": "scarlett-johansson",
+   "name": "Scarlett Johansson",
+   "img": "img/scarlett-johansson.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scarlett_Johansson-8588.jpg"
+   }
+  },
+  {
+   "id": "sofia-vergara",
+   "name": "Sofía Vergara",
+   "img": "img/sofia-vergara.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg"
+   }
+  },
+  {
+   "id": "stephen-colbert",
+   "name": "Stephen Colbert",
+   "img": "img/stephen-colbert.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_Colbert_2025.jpg"
+   }
+  },
+  {
+   "id": "steve-carell",
+   "name": "Steve Carell",
+   "img": "img/steve-carell.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Carell_-_The_40-Year-Old-Virgin.jpg"
+   }
+  },
+  {
+   "id": "steve-harvey",
+   "name": "Steve Harvey",
+   "img": "img/steve-harvey.webp",
+   "tags": [
+    "tv"
+   ],
+   "credit": {
+    "author": "Angela George",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SteveHarveyHWOFMay2013_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sylvester-stallone",
+   "name": "Sylvester Stallone",
+   "img": "img/sylvester-stallone.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:P20251206DT-0472_(3x4_cropped_on_Stallone_with_moderate_headroom).jpg"
+   }
+  },
+  {
+   "id": "timothee-chalamet",
+   "name": "Timothée Chalamet",
+   "img": "img/timothee-chalamet.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Timoth%C3%A9e_Chalamet-63482_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tom-hanks",
+   "name": "Tom Hanks",
+   "img": "img/tom-hanks.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TomHanksPrincEdw031223_(11_of_41)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tom-holland",
+   "name": "Tom Holland",
+   "img": "img/tom-holland.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TomHolland-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "viola-davis",
+   "name": "Viola Davis",
+   "img": "img/viola-davis.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Maryland GovPics",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Viola_Davis_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "will-ferrell",
+   "name": "Will Ferrell",
+   "img": "img/will-ferrell.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "Adam Chitayat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Will_Ferrell_at_the_2024_Toronto_International_Film_Festival_5_(cropped).jpg"
+   }
+  },
+  {
+   "id": "zendaya",
+   "name": "Zendaya",
+   "img": "img/zendaya.webp",
+   "tags": [
+    "actor"
+   ],
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zendaya-byPhilipRomano.jpg"
+   }
+  }
+ ]
+}

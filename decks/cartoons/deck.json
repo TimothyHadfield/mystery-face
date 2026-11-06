@@ -1,0 +1,458 @@
+{
+ "id": "cartoons",
+ "title": "Cartoons & Classics",
+ "people": [
+  {
+   "id": "alice",
+   "name": "Alice",
+   "img": "img/alice.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "John Tenniel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alice_par_John_Tenniel_30.png"
+   }
+  },
+  {
+   "id": "american-gothic-farmer",
+   "name": "American Gothic Farmer",
+   "img": "img/american-gothic-farmer.webp",
+   "tags": [
+    "cartoon",
+    "art"
+   ],
+   "credit": {
+    "author": "Grant Wood",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Grant_Wood_-_American_Gothic.jpeg"
+   }
+  },
+  {
+   "id": "betty-boop",
+   "name": "Betty Boop",
+   "img": "img/betty-boop.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Betty_Boop_-_Is_My_Palm_Read_(1933).webp"
+   }
+  },
+  {
+   "id": "casper-the-friendly-ghost",
+   "name": "Casper the Friendly Ghost",
+   "img": "img/casper-the-friendly-ghost.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Harvey Comics - Unknown artist",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Casper_the_Friendly_Ghost_52.jpg"
+   }
+  },
+  {
+   "id": "cheshire-cat",
+   "name": "Cheshire Cat",
+   "img": "img/cheshire-cat.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "John Tenniel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cheshire_Cat_Tenniel.png"
+   }
+  },
+  {
+   "id": "count-orlok",
+   "name": "Count Orlok",
+   "img": "img/count-orlok.webp",
+   "tags": [
+    "cartoon",
+    "movie"
+   ],
+   "credit": {
+    "author": "F. W. Murnau",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Max_Schreck_as_Count_Orlok_in_Nosferatu_%E2%80%93_Eine_Symphonie_des_Grauens_(1922).jpg"
+   }
+  },
+  {
+   "id": "dorothy",
+   "name": "Dorothy",
+   "img": "img/dorothy.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dorothy_Gale_with_silver_shoes.jpg"
+   }
+  },
+  {
+   "id": "felix-the-cat",
+   "name": "Felix the Cat",
+   "img": "img/felix-the-cat.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Legends of the kwikwi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Felix_the_Cat_(comic_strip)_(FIXED).png"
+   }
+  },
+  {
+   "id": "frankenstein-s-monster",
+   "name": "Frankenstein's Monster",
+   "img": "img/frankenstein-s-monster.webp",
+   "tags": [
+    "cartoon",
+    "movie"
+   ],
+   "credit": {
+    "author": "J. Searle Dawley",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frankenstein1910still1.jpg"
+   }
+  },
+  {
+   "id": "girl-with-a-pearl-earring",
+   "name": "Girl with a Pearl Earring",
+   "img": "img/girl-with-a-pearl-earring.webp",
+   "tags": [
+    "cartoon",
+    "art"
+   ],
+   "credit": {
+    "author": "Johannes Vermeer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Meisje_met_de_parel.jpg"
+   }
+  },
+  {
+   "id": "humpty-dumpty",
+   "name": "Humpty Dumpty",
+   "img": "img/humpty-dumpty.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "Denslow's_Humpty_Dumpty.djvu: W. W. Denslow derivative work: Theornamentalist",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Denslow%27s_Humpty_Dumpty_pg_1.jpg"
+   }
+  },
+  {
+   "id": "koko-the-clown",
+   "name": "Koko the Clown",
+   "img": "img/koko-the-clown.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Max Fleischer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Koko_the_Clown.jpg"
+   }
+  },
+  {
+   "id": "krazy-kat",
+   "name": "Krazy Kat",
+   "img": "img/krazy-kat.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "George Herriman",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Krazy_Kat_1.png"
+   }
+  },
+  {
+   "id": "mad-hatter",
+   "name": "Mad Hatter",
+   "img": "img/mad-hatter.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "John Tenniel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:MadlHatterByTenniel.jpg"
+   }
+  },
+  {
+   "id": "mickey-mouse",
+   "name": "Mickey Mouse",
+   "img": "img/mickey-mouse.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Walt Disney / Ub Iwerks",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mickey_Mouse_-_Steamboat_Willie_(1928).jpg"
+   }
+  },
+  {
+   "id": "mona-lisa",
+   "name": "Mona Lisa",
+   "img": "img/mona-lisa.webp",
+   "tags": [
+    "cartoon",
+    "art"
+   ],
+   "credit": {
+    "author": "Leonardo da Vinci",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_natural_color.jpg"
+   }
+  },
+  {
+   "id": "olive-oyl",
+   "name": "Olive Oyl",
+   "img": "img/olive-oyl.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "E. C. Segar",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Olive_Oyl_rolling_up_punch.png"
+   }
+  },
+  {
+   "id": "oswald-the-lucky-rabbit",
+   "name": "Oswald the Lucky Rabbit",
+   "img": "img/oswald-the-lucky-rabbit.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Oswald_the_Lucky_Rabbit_-_Feb_1928_UW.jpg"
+   }
+  },
+  {
+   "id": "peter-rabbit",
+   "name": "Peter Rabbit",
+   "img": "img/peter-rabbit.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "Beatrix Potter",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:PeterRabbit1.jpg"
+   }
+  },
+  {
+   "id": "piglet",
+   "name": "Piglet",
+   "img": "img/piglet.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "E. H. Shepard",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Piglet_EHShepard.jpg"
+   }
+  },
+  {
+   "id": "pinocchio",
+   "name": "Pinocchio",
+   "img": "img/pinocchio.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "Enrico Mazzanti (1852-1910)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pinocchio.jpg"
+   }
+  },
+  {
+   "id": "popeye",
+   "name": "Popeye",
+   "img": "img/popeye.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Bela Zaboly for King Features Syndicate, Inc.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Popeye_transparent.png"
+   }
+  },
+  {
+   "id": "rosie-the-riveter",
+   "name": "Rosie the Riveter",
+   "img": "img/rosie-the-riveter.webp",
+   "tags": [
+    "cartoon",
+    "history"
+   ],
+   "credit": {
+    "author": "J. Howard Miller (1898–1985), artist employed by Westinghouse, poster used by the War Production Co-ordinating Committee",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:We_Can_Do_It!.jpg"
+   }
+  },
+  {
+   "id": "santa-claus",
+   "name": "Santa Claus",
+   "img": "img/santa-claus.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Thomas Nast",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Merry_Old_Santa_Claus_by_Thomas_Nast.jpg"
+   }
+  },
+  {
+   "id": "sherlock-holmes",
+   "name": "Sherlock Holmes",
+   "img": "img/sherlock-holmes.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "Sidney Paget 1860-1908",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sherlock_Holmes_by_Sidney_Paget-Cropped.jpg"
+   }
+  },
+  {
+   "id": "the-cowardly-lion",
+   "name": "The Cowardly Lion",
+   "img": "img/the-cowardly-lion.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "William Wallace Denslow",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cowardly_Lion.png"
+   }
+  },
+  {
+   "id": "the-scarecrow",
+   "name": "The Scarecrow",
+   "img": "img/the-scarecrow.webp",
+   "tags": [
+    "cartoon",
+    "book"
+   ],
+   "credit": {
+    "author": "W. W. Denslow",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Wizard_of_Oz_scarecrow_detail.png"
+   }
+  },
+  {
+   "id": "the-scream",
+   "name": "The Scream",
+   "img": "img/the-scream.webp",
+   "tags": [
+    "cartoon",
+    "art"
+   ],
+   "credit": {
+    "author": "Edvard Munch",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Edvard-Munch-The-Scream.jpg"
+   }
+  },
+  {
+   "id": "the-yellow-kid",
+   "name": "The Yellow Kid",
+   "img": "img/the-yellow-kid.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Richard Felton Outcault",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:YellowKid.jpeg"
+   }
+  },
+  {
+   "id": "uncle-sam",
+   "name": "Uncle Sam",
+   "img": "img/uncle-sam.webp",
+   "tags": [
+    "cartoon",
+    "history"
+   ],
+   "credit": {
+    "author": "Jeanot derivative work: Ju gatsu mikka (^o^) appelez moi Ju (^o^)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Uncle_Sam_(pointing_finger).png"
+   }
+  },
+  {
+   "id": "winnie-the-pooh",
+   "name": "Winnie-the-Pooh",
+   "img": "img/winnie-the-pooh.webp",
+   "tags": [
+    "cartoon"
+   ],
+   "credit": {
+    "author": "Alan Alexander Milne",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Winnie_The_Pooh_Classic.jpg"
+   }
+  }
+ ]
+}

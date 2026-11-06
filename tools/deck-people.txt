@@ -1,0 +1,341 @@
+# Mystery Face celebrity list. One person per line:
+#   deck | Wikipedia title | tags (comma) | * = also in the "Mixed stars" deck | file=<Commons file> | crop=x,y,side
+# decks: movies, music, sports, history, cartoons.  Shown name = title without "(...)".
+# file= picks a Commons file instead of the Wikipedia lead image; crop= is a manual
+# square crop (left, top as fractions of width/height; side as a fraction of width).
+# Politicians: both parties, balanced. Skipped on purpose: people with major
+# criminal/abuse controversies, dictators, and anyone under 18.
+# Cartoons: only public-domain images on Commons (pre-1930 films/strips, old book art).
+
+movies | Tom Hanks | actor | *
+movies | Leonardo DiCaprio | actor | *
+movies | Brad Pitt | actor |
+movies | Denzel Washington | actor | *
+movies | Morgan Freeman | actor | *
+movies | Samuel L. Jackson | actor |
+movies | Dwayne Johnson | actor | *
+movies | Keanu Reeves | actor | *
+movies | Robert Downey Jr. | actor | *
+movies | Chris Hemsworth | actor |
+movies | Chris Evans (actor) | actor |
+movies | Chris Pratt | actor |
+movies | Ryan Reynolds | actor | *
+movies | Ryan Gosling | actor |
+movies | Zendaya | actor | *
+movies | Tom Holland | actor | *
+movies | Timothée Chalamet | actor |
+movies | Margot Robbie | actor | *
+movies | Scarlett Johansson | actor |
+movies | Jennifer Lawrence | actor |
+movies | Emma Stone | actor |
+movies | Meryl Streep | actor | *
+movies | Julia Roberts | actor |
+movies | Sandra Bullock | actor |
+movies | Viola Davis | actor |
+movies | Lupita Nyong'o | actor |
+movies | Jackie Chan | actor | *
+movies | Lucy Liu | actor |
+movies | Awkwafina | actor |
+movies | Michelle Yeoh | actor |
+movies | Anne Hathaway | actor |
+movies | Natalie Portman | actor |
+movies | Gal Gadot | actor |
+movies | Jason Momoa | actor | *
+movies | Idris Elba | actor |
+movies | Pedro Pascal | actor | *
+movies | Kevin Hart | actor |
+movies | Jack Black | actor | *
+movies | Jim Carrey | actor |
+movies | Adam Sandler | actor |
+movies | Will Ferrell | actor |
+movies | Steve Carell | actor | *
+movies | Harrison Ford | actor |
+movies | Arnold Schwarzenegger | actor |
+movies | Sylvester Stallone | actor |
+movies | Daniel Radcliffe | actor |
+movies | Emma Watson | actor | *
+movies | Rupert Grint | actor |
+movies | Benedict Cumberbatch | actor |
+movies | Hugh Jackman | actor |
+movies | Mark Ruffalo | actor |
+movies | Jennifer Aniston | actor |
+movies | Sofía Vergara | actor |
+movies | Danny DeVito | actor | *
+movies | Jeff Goldblum | actor |
+movies | Nicolas Cage | actor |
+movies | Matt Damon | actor |
+movies | Paul Rudd | actor |
+movies | Jenna Ortega | actor |
+movies | Florence Pugh | actor |
+movies | Millie Bobby Brown | actor |
+movies | Henry Cavill | actor |
+movies | Cillian Murphy | actor |
+movies | Robert Pattinson | actor |
+movies | Kristen Stewart | actor |
+movies | Oprah Winfrey | tv | *
+movies | Jimmy Fallon | tv |
+movies | Jimmy Kimmel | tv |
+movies | Stephen Colbert | tv |
+movies | Conan O'Brien | tv |
+movies | Gordon Ramsay | tv | *
+movies | Steve Harvey | tv |
+movies | Guy Fieri | tv | *
+movies | Martha Stewart | tv |
+movies | Bill Nye | tv |
+movies | Neil deGrasse Tyson | tv |
+movies | David Attenborough | tv |
+movies | Alex Trebek | tv |
+movies | Betty White | tv |
+movies | MrBeast | internet | *
+movies | PewDiePie | internet |
+movies | Marques Brownlee | internet |
+movies | Markiplier | internet |
+movies | Emma Chamberlain | internet |
+movies | Pokimane | internet | | file=Pokimane 2019.jpg
+movies | Ninja (gamer) | internet |
+movies | Casey Neistat | internet |
+movies | Mark Rober | internet |
+movies | Lilly Singh | internet |
+movies | Hank Green | internet |
+movies | John Cena | actor,sports |
+
+music | Taylor Swift | music | *
+music | Beyoncé | music | *
+music | Rihanna | music | *
+music | Lady Gaga | music | *
+music | Ariana Grande | music | *
+music | Billie Eilish | music | *
+music | Olivia Rodrigo | music |
+music | Dua Lipa | music |
+music | Adele | music |
+music | Ed Sheeran | music | *
+music | Harry Styles | music | *
+music | Bruno Mars | music | *
+music | Justin Bieber | music |
+music | The Weeknd | music |
+music | Drake (musician) | music |
+music | Kendrick Lamar | music |
+music | Post Malone | music | * | file=Post Malone 2018.jpg
+music | Bad Bunny | music |
+music | Shakira | music |
+music | Jennifer Lopez | music |
+music | Katy Perry | music |
+music | Miley Cyrus | music |
+music | Selena Gomez | music,actor |
+music | Doja Cat | music |
+music | Lizzo | music |
+music | SZA | music |
+music | Snoop Dogg | music | *
+music | Eminem | music |
+music | Elton John | music | *
+music | Paul McCartney | music |
+music | Mick Jagger | music |
+music | Dolly Parton | music | *
+music | Willie Nelson | music |
+music | Garth Brooks | music |
+music | Luke Combs | music |
+music | Shania Twain | music |
+music | Stevie Wonder | music |
+music | Freddie Mercury | music |
+music | Elvis Presley | music,history |
+music | John Lennon | music,history |
+music | Bob Marley | music |
+music | Prince (musician) | music |
+music | Madonna | music |
+music | Cher | music | | file=Cher in 2019 cropped.jpg | crop=0.42,0.33,0.32
+music | Pharrell Williams | music |
+music | Lil Nas X | music |
+music | Sabrina Carpenter | music |
+music | Chappell Roan | music |
+music | Bruce Springsteen | music |
+music | Ozzy Osbourne | music |
+music | Jon Bon Jovi | music |
+music | Dan Reynolds | music |
+music | Alicia Keys | music |
+music | Usher (musician) | music |
+music | Nicki Minaj | music |
+music | Cardi B | music |
+music | Louis Armstrong | music,history |
+music | Johnny Cash | music |
+music | Frank Sinatra | music,history |
+music | Whitney Houston | music |
+music | Aretha Franklin | music |
+music | Kelly Clarkson | music,tv |
+music | Pitbull (rapper) | music |
+music | Jason Derulo | music |
+music | Lorde | music |
+music | Hozier (musician) | music | | file=Hozier 2015 01 (cropped).jpg
+music | Billy Joel | music |
+music | Ringo Starr | music |
+music | Tina Turner | music |
+music | Ice Cube | music,actor |
+
+sports | LeBron James | sports | *
+sports | Stephen Curry | sports | *
+sports | Michael Jordan | sports | *
+sports | Kobe Bryant | sports |
+sports | Shaquille O'Neal | sports | *
+sports | Serena Williams | sports | *
+sports | Venus Williams | sports |
+sports | Tom Brady | sports | *
+sports | Patrick Mahomes | sports |
+sports | Travis Kelce | sports |
+sports | Simone Biles | sports | *
+sports | Usain Bolt | sports | * | file=Usain Bolt with NX300-3.jpg
+sports | Michael Phelps | sports |
+sports | Lionel Messi | sports | *
+sports | Cristiano Ronaldo | sports | *
+sports | Neymar | sports |
+sports | Kylian Mbappé | sports |
+sports | David Beckham | sports |
+sports | Megan Rapinoe | sports |
+sports | Alex Morgan | sports |
+sports | Tiger Woods | sports |
+sports | Roger Federer | sports |
+sports | Rafael Nadal | sports |
+sports | Novak Djokovic | sports |
+sports | Naomi Osaka | sports |
+sports | Coco Gauff | sports |
+sports | Shohei Ohtani | sports | *
+sports | Derek Jeter | sports |
+sports | Wayne Gretzky | sports |
+sports | Muhammad Ali | sports,history | *
+sports | Kevin Durant | sports |
+sports | Giannis Antetokounmpo | sports |
+sports | Caitlin Clark | sports |
+sports | Peyton Manning | sports |
+sports | Lewis Hamilton | sports |
+sports | Dale Earnhardt Jr. | sports |
+sports | Ronda Rousey | sports |
+sports | Lindsey Vonn | sports |
+sports | Shaun White | sports |
+sports | Tony Hawk | sports |
+sports | Aaron Judge | sports |
+sports | Jackie Robinson | sports,history | | crop=0.42,0.20,0.28
+sports | Babe Ruth | sports,history |
+sports | Pelé | sports,history |
+sports | Kareem Abdul-Jabbar | sports |
+sports | Magic Johnson | sports |
+sports | Victor Wembanyama | sports |
+sports | Nikola Jokić | sports |
+sports | Sue Bird | sports |
+sports | Bryce Harper | sports |
+sports | Arnold Palmer | sports,history |
+sports | Jerry Rice | sports |
+sports | Joe Montana | sports |
+sports | Ichiro Suzuki | sports |
+sports | Yao Ming | sports |
+sports | Dirk Nowitzki | sports |
+sports | Steve Young | sports |
+sports | Bo Jackson | sports |
+sports | Billie Jean King | sports |
+sports | Mia Hamm | sports | | file=Mia Hamm 2010 cropped.jpg
+sports | Kristi Yamaguchi | sports |
+sports | Katie Ledecky | sports |
+sports | Sha'Carri Richardson | sports | | file=Sha'Carri Richardson 15555 (sq cropped).jpg
+sports | Karl Malone | sports |
+
+history | George Washington | history,president | *
+history | Abraham Lincoln | history,president | *
+history | Thomas Jefferson | history,president |
+history | Theodore Roosevelt | history,president |
+history | Franklin D. Roosevelt | history,president |
+history | John F. Kennedy | history,president | *
+history | Ronald Reagan | history,president |
+history | Barack Obama | history,president | *
+history | Bill Clinton | history,president |
+history | George W. Bush | history,president |
+history | Jimmy Carter | history,president |
+history | Albert Einstein | history,science | *
+history | Marie Curie | history,science |
+history | Martin Luther King Jr. | history | *
+history | Rosa Parks | history |
+history | Harriet Tubman | history |
+history | Frederick Douglass | history |
+history | Benjamin Franklin | history |
+history | Thomas Edison | history,science |
+history | Nikola Tesla | history,science |
+history | Isaac Newton | history,science |
+history | Charles Darwin | history,science |
+history | Mahatma Gandhi | history |
+history | Nelson Mandela | history |
+history | Mother Teresa | history |
+history | Elizabeth II | history | *
+history | Diana, Princess of Wales | history |
+history | Winston Churchill | history |
+history | Amelia Earhart | history |
+history | Neil Armstrong | history,science |
+history | Steve Jobs | history |
+history | Bill Gates | history |
+history | Walt Disney | history |
+history | Marilyn Monroe | history,actor | *
+history | Audrey Hepburn | history,actor |
+history | Charlie Chaplin | history,actor |
+history | Frida Kahlo | history |
+history | Vincent van Gogh | history |
+history | William Shakespeare | history |
+history | Helen Keller | history |
+history | Susan B. Anthony | history |
+history | Eleanor Roosevelt | history |
+history | Sally Ride | history,science |
+history | Jane Goodall | history,science |
+history | Stephen Hawking | history,science |
+history | Mark Twain | history |
+history | Ernest Hemingway | history |
+history | Ruth Bader Ginsburg | history |
+history | Alexander Hamilton | history |
+history | Wolfgang Amadeus Mozart | history,music |
+history | Ludwig van Beethoven | history,music |
+history | Leonardo da Vinci | history |
+history | Fred Rogers | history,tv | *
+history | Bob Ross | history,tv | *
+history | Harry S. Truman | history,president |
+history | Dwight D. Eisenhower | history,president |
+history | George H. W. Bush | history,president |
+history | Donald Trump | politics,president | *
+history | Joe Biden | politics,president | *
+history | Kamala Harris | politics |
+history | Mike Pence | politics |
+history | JD Vance | politics |
+history | Hillary Clinton | politics |
+history | Bernie Sanders | politics | *
+history | Alexandria Ocasio-Cortez | politics |
+history | Nancy Pelosi | politics |
+history | Mitt Romney | politics |
+history | Ted Cruz | politics |
+history | Marco Rubio | politics |
+history | John McCain | politics |
+history | Condoleezza Rice | politics |
+history | Michelle Obama | politics |
+
+cartoons | Mickey Mouse | cartoon | * | file=Mickey Mouse - Steamboat Willie (1928).jpg | crop=0.62,0.42,0.32
+cartoons | Popeye | cartoon | * | file=Popeye transparent.png | crop=0.81,0.15,0.27
+cartoons | Olive Oyl | cartoon | | file=Olive Oyl rolling up punch.png | crop=0.35,0.26,0.24
+cartoons | Winnie-the-Pooh | cartoon | * | file=Winnie The Pooh Classic.jpg | crop=0.43,0.19,0.45
+cartoons | Piglet | cartoon | | file=Piglet EHShepard.jpg | crop=0.53,0.22,0.2
+cartoons | Felix the Cat | cartoon | * | file=Felix the Cat (comic strip) (FIXED).png | crop=0.53,0.27,0.55
+cartoons | Betty Boop | cartoon | | file=Betty Boop - Is My Palm Read (1933).webp | crop=0.44,0.33,0.24
+cartoons | Casper the Friendly Ghost | cartoon | | file=Casper the Friendly Ghost 52.jpg | crop=0.70,0.41,0.36
+cartoons | Alice (Wonderland) | cartoon,book | | file=Alice par John Tenniel 30.png | crop=0.46,0.15,0.2
+cartoons | Mad Hatter | cartoon,book | | file=MadlHatterByTenniel.jpg
+cartoons | Cheshire Cat | cartoon,book | | file=Cheshire Cat Tenniel.png | crop=0.2,0.5,0.4
+cartoons | Peter Rabbit | cartoon,book | | file=PeterRabbit1.jpg | crop=0.53,0.2,0.25
+cartoons | The Scarecrow (Oz) | cartoon,book | | file=Wizard of Oz scarecrow detail.png | crop=0.5,0.2,0.35
+cartoons | The Cowardly Lion | cartoon,book | | file=Cowardly Lion.png | crop=0.5,0.21,0.40
+cartoons | Dorothy (Oz) | cartoon,book | | file=Dorothy Gale with silver shoes.jpg
+cartoons | Pinocchio | cartoon,book | * | file=Pinocchio.jpg | crop=0.42,0.2,0.2
+cartoons | Sherlock Holmes | cartoon,book | * | file=Portrait of Sherlock Holmes by Sidney Paget-Cropped.jpg
+cartoons | Uncle Sam | cartoon,history | * | file=Uncle Sam (pointing finger).png
+cartoons | Rosie the Riveter | cartoon,history | * | file=We Can Do It!.jpg
+cartoons | Santa Claus | cartoon | * | file=Merry Old Santa Claus by Thomas Nast.jpg
+cartoons | The Yellow Kid | cartoon | | file=YellowKid.jpeg
+cartoons | Koko the Clown | cartoon | | file=Koko the Clown.jpg | crop=0.47,0.14,0.22
+cartoons | Krazy Kat | cartoon | | file=Krazy Kat 1.png | crop=0.2,0.18,0.25
+cartoons | Oswald the Lucky Rabbit | cartoon | | file=Oswald the Lucky Rabbit - Feb 1928 UW.jpg | crop=0.75,0.55,0.30
+cartoons | Humpty Dumpty | cartoon,book | | file=Denslow's Humpty Dumpty pg 1.jpg | crop=0.43,0.42,0.45
+cartoons | Count Orlok (Nosferatu) | cartoon,movie | | file=Max Schreck as Count Orlok in Nosferatu – Eine Symphonie des Grauens (1922).jpg
+cartoons | Frankenstein's Monster | cartoon,movie | | file=Frankenstein1910still1.jpg
+cartoons | Mona Lisa | cartoon,art | * | file=Mona Lisa, by Leonardo da Vinci, from C2RMF natural color.jpg
+cartoons | Girl with a Pearl Earring | cartoon,art | | file=Meisje met de parel.jpg
+cartoons | American Gothic Farmer | cartoon,art | | file=Grant Wood - American Gothic.jpeg
+cartoons | The Scream | cartoon,art | | file=Edvard-Munch-The-Scream.jpg | crop=0.525,0.58,0.13
