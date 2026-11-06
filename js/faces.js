@@ -32,6 +32,8 @@ export function loadDeck(id) {
     const people = (j.people || []).filter((p) => p && p.id && p.name).map((p) => ({
       id: String(p.id), name: String(p.name), img: p.img ? `decks/${id}/${p.img}` : null,
       tags: Array.isArray(p.tags) ? p.tags.map((t) => String(t).toLowerCase()) : [], credit: p.credit || null,
+      from: p.from ? String(p.from).slice(0, 40) : '',
+      gender: /^[fmx]$/.test(p.gender) ? p.gender : 'x', kind: /^[a-z0-9-]{1,24}$/.test(p.kind) ? p.kind : '',
     }));
     const d = { id, title: j.title || id, people, byId: new Map(people.map((p) => [p.id, p])) };
     DECKS.set(id, d); loading.delete(id);
@@ -65,6 +67,31 @@ export function poolFor(deckIds, tags) {
   return out;
 }
 
+// Balanced dealing needs each deck person's gender + kind. Decks without the fields yet: kind from the
+// tags (else the deck), gender unknown ('x').
+const TAG_KIND = { actor: 'actor', movie: 'actor', music: 'music', sports: 'sports', politics: 'politics', president: 'politics',
+  history: 'history', science: 'history', book: 'history', tv: 'tv', internet: 'internet', cartoon: 'character', character: 'character', art: 'art' };
+/** One person, whatever deck: lower case, no accents, letters and digits only ("Beyoncé" = "beyonce"). */
+export const nameKey = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 60);
+/** { faceId: "gender|kind|namekey" } for the engine's balanced, one-copy-per-person deal. */
+export function metaFor(ids, custom) {
+  const out = {};
+  for (const id of ids) {
+    if (id.startsWith('c/')) {   // the player's own people, mixed into a deck
+      const cp = custom && custom.people.find((p) => 'c/' + p.id === id);
+      const nm = cp ? cp.name || '' : face(id).name;
+      out[id] = 'x|custom' + (!nm || /^Unnamed \d+$/.test(nm) ? '' : '|' + nameKey(nm));
+      continue;
+    }
+    const [d, pid] = id.split('/');
+    const x = deck(d) && deck(d).byId.get(pid);
+    if (!x) continue;
+    const k = x.kind || (x.tags.map((t) => TAG_KIND[t]).find(Boolean)) || d.toLowerCase().replace(/[^a-z0-9-]/g, '').slice(0, 24);
+    out[id] = x.gender + '|' + k + '|' + nameKey(x.name);
+  }
+  return out;
+}
+
 // ------------------------------------------------------------------ custom people
 let CUSTOM = null;   // the current game's custom set: { title, people: [{ id, name, img }] }
 export function useCustom(set) { CUSTOM = set || null; }
@@ -93,7 +120,7 @@ export function face(id) {
   }
   const [d, p] = id.split('/');
   const x = deck(d) && deck(d).byId.get(p);
-  return x ? { id, name: x.name, img: x.img, tags: x.tags, credit: x.credit, kind: 'deck' } : { id, name: '…', img: null, tags: [], kind: 'deck' };
+  return x ? { id, name: x.name, img: x.img, tags: x.tags, credit: x.credit, from: x.from, kind: 'deck' } : { id, name: '…', img: null, tags: [], kind: 'deck' };
 }
 
 export function initials(name) {
@@ -108,6 +135,8 @@ export function hue(name) {
 /** The picture part of a tile: the photo, or a name tile (initials on a colour) when there is none / it fails. */
 export function picHTML(f) {
   const ini = esc(initials(f.name));
+  // deck people with no picture (name-only decks): the full name, plus where they're from
+  if (!f.img && typeof f.from === 'string') return `<span class="nt full" style="--h:${hue(f.name)}"><b>${esc(f.name)}</b>${f.from ? `<small>${esc(f.from)}</small>` : ''}</span>`;
   const nt = `<span class="nt" style="--h:${hue(f.name)}">${ini}</span>`;
   if (!f.img) return nt;
   return `${nt}<img src="${esc(f.img)}" alt="" draggable="false" decoding="async" onerror="this.remove()">`;

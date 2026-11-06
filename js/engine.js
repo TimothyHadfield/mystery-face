@@ -72,14 +72,81 @@ export function rng32(seed) {
 // ------------------------------------------------------------------ helpers
 const other = (seat) => 1 - seat;
 const fail = (m) => { throw new Error(m); };
+const ID_RE = /^[A-Za-z0-9_.-]{1,40}\/[A-Za-z0-9_.-]{1,60}$/;
+function cleanIds(a) { return Array.isArray(a) ? Array.from(new Set(a.map(String).filter((x) => ID_RE.test(x)))).slice(-600) : []; }
+function cleanMeta(m, pool) {
+  if (!m || typeof m !== 'object') return null;
+  const out = {};
+  for (const id of pool) if (typeof m[id] === 'string' && /^[fmx]\|[a-z0-9-]{0,24}(\|[a-z0-9]{0,60})?$/.test(m[id])) out[id] = m[id];
+  return Object.keys(out).length ? out : null;
+}
 function shuffle(a, rng) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rng() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
+// ------------------------------------------------------------------ balanced dealing
+// s.meta = { faceId: "g|kind" } (g = f/m/x) when the page knows it; s.avoid = face ids a player said
+// they don't know (never dealt again while enough others exist). Tim, 2026-11-06: "I want the
+// characters to be a better distribution ... Track the people that user clicks I don't know and don't
+// give it to them again."
+const KIND_CAP = 0.3, CUSTOM_SHARE = 0.35;
+// meta = "g|kind|namekey": namekey (normalised name) stops the same person showing twice when two
+// decks both hold them (Mixed stars copies people from the others; custom people can share a name).
+const metaOf = (s, id) => { const m = s.meta && s.meta[id]; const [g, k, nk] = String(m || 'x|').split('|'); return { g: g || 'x', k: k || '', nk: nk || id }; };
+const personOf = (s, id) => metaOf(s, id).nk;
+/** Shuffled ids with each person kept once (the first copy). */
+function onePerPerson(s, ids) { const seen = new Set(); return ids.filter((id) => { const p = personOf(s, id); if (seen.has(p)) return false; seen.add(p); return true; }); }
+/** From shuffled ids, take n spread over kinds (round-robin, no kind over ~30%) and genders (~even f/m). */
+export function pickBalanced(ids, n, meta) {
+  if (!meta) return { board: ids.slice(0, n), rest: ids.slice(n) };
+  const s = { meta };
+  const byKind = new Map();
+  for (const id of ids) { const k = metaOf(s, id).k; if (!byKind.has(k)) byKind.set(k, []); byKind.get(k).push(id); }
+  const cap = Math.max(1, Math.ceil(n * KIND_CAP)), half = Math.ceil(n / 2);
+  const kc = new Map(), gc = { f: 0, m: 0, x: 0 }, taken = new Set(), board = [];
+  const take = (id) => { const m = metaOf(s, id); board.push(id); taken.add(id); kc.set(m.k, (kc.get(m.k) || 0) + 1); gc[m.g in gc ? m.g : 'x']++; };
+  // the player's own people mixed into a deck (kind "custom") come first, up to ~35% of the board:
+  // Tim, 2026-11-06: "they should have a higher chance of being included in it than the rest"
+  const own = byKind.get('custom');
+  if (own) { const want = Math.min(own.length, Math.ceil(n * CUSTOM_SHARE)); own.splice(0, want).forEach(take); byKind.delete('custom'); }
+  for (let progress = true; board.length < n && progress;) {
+    progress = false;
+    for (const [k, b] of byKind) {
+      if (board.length >= n) break;
+      if ((kc.get(k) || 0) >= cap || !b.length) continue;
+      const want = gc.f <= gc.m ? 'f' : 'm';
+      let j = b.findIndex((id) => metaOf(s, id).g === want);
+      if (j < 0) j = b.findIndex((id) => { const g = metaOf(s, id).g; return g !== 'f' && g !== 'm' || gc[g] < half; });
+      if (j < 0) continue;
+      take(b.splice(j, 1)[0]); progress = true;
+    }
+  }
+  for (const id of ids) { if (board.length >= n) break; if (!taken.has(id)) take(id); }   // too few to balance: fill
+  return { board, rest: ids.filter((id) => !taken.has(id)) };
+}
+/** The spare that best replaces a face: same gender + kind, then same gender, then same kind, then any. */
+function bestSpare(s, out) {
+  const avoid = new Set(s.avoid || []);
+  const avoidP = new Set([...avoid].map((id) => personOf(s, id)));
+  const onBoard = new Set(s.board.map((id) => personOf(s, id)));   // never a second copy of anyone showing
+  const ok = s.spareIds.map((id, j) => [id, j]).filter(([id]) => !avoid.has(id) && !avoidP.has(personOf(s, id)) && !onBoard.has(personOf(s, id)));
+  if (!ok.length) return -1;
+  if (!s.meta) return ok[0][1];
+  const m = metaOf(s, out);
+  const tests = [(x) => x.g === m.g && x.k === m.k, (x) => x.g === m.g && m.g !== 'x', (x) => x.k === m.k];
+  for (const t of tests) { const hit = ok.find(([id]) => t(metaOf(s, id))); if (hit) return hit[1]; }
+  return ok[0][1];
+}
+
 function deal(s, rng) {
-  const ids = shuffle(s.pool.slice(), rng);
+  const avoid = new Set(s.avoid || []);
+  const avoidP = new Set([...avoid].map((id) => personOf(s, id)));
+  const known = s.pool.filter((id) => !avoid.has(id) && !avoidP.has(personOf(s, id)));
+  const ids = onePerPerson(s, shuffle((onePerPerson(s, known).length >= s.n ? known : s.pool).slice(), rng));
   const n = Math.min(s.n, ids.length);
-  s.board = ids.slice(0, n);
-  s.spareIds = ids.slice(n);
+  const pick = pickBalanced(ids, n, s.meta);
+  s.board = shuffle(pick.board, rng);   // picked in kind order: mix the seats
+  s.spareIds = pick.rest;
   s.spare = s.spareIds.length;
+  s.fresh = [];
   s.ready = [false, false];
   s.commits = [null, null];
   s.reveals = [null, null];
@@ -108,6 +175,7 @@ export const game = {
       v: VERSION, round: 1, n: Math.max(2, Math.min(40, o.n | 0 || 24)),
       maxLives: o.lives === 3 ? 3 : 1, first: o.first === 1 ? 1 : 0, custom: !!o.custom,
       pool, score: [0, 0], gone: null, reason: '',
+      meta: cleanMeta(o.meta, pool), avoid: cleanIds(o.avoid),
     };
     deal(s, rng);
     return s;
@@ -140,9 +208,19 @@ export const game = {
       case 'dunno': {
         if (a.t === 'ready') { s.ready[seat] = true; if (s.ready[0] && s.ready[1]) s.phase = 'pick'; break; }
         if (a.t !== 'swap' || !Array.isArray(a.idx)) fail('Pick faces to swap, or Ready.');
+        // a.avoid: this player's remembered don't-knows (sent once a round); a.quiet: no highlight
+        if (a.avoid) s.avoid = cleanIds((s.avoid || []).concat(cleanIds(a.avoid)));
         const idx = Array.from(new Set(a.idx.map(Number))).filter((i) => Number.isInteger(i) && i >= 0 && i < s.board.length);
-        for (const i of idx) { if (!s.spareIds.length) break; s.board[i] = s.spareIds.shift(); }
+        const swapped = [];
+        s.avoid = cleanIds((s.avoid || []).concat(idx.map((i) => s.board[i])));   // never back this game
+        for (const i of idx) {
+          const j = bestSpare(s, s.board[i]);
+          if (j < 0) break;
+          s.board[i] = s.spareIds.splice(j, 1)[0]; swapped.push(i);
+        }
         s.spare = s.spareIds.length;
+        if (!swapped.length) { if (a.ready) s.ready[seat] = true; break; }
+        if (!a.quiet) s.fresh = swapped;
         s.ready = [false, false]; // new faces: both look again
         if (a.ready) s.ready[seat] = true;
         break;
@@ -220,7 +298,7 @@ export const game = {
   },
 
   publicView(s) {
-    const { pool, spareIds, ...pub } = s;
+    const { pool, spareIds, meta, avoid, ...pub } = s;
     return pub;
   },
   privateView() { return null; },

@@ -35,6 +35,16 @@ const secKey = (code, round) => `mystery-face:sec:${code}:${round}`;
 const flipKey = (code, round) => `mystery-face:flip:${code}:${round}`;
 const lsGet = (k) => { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } };
 const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+// Faces this player said they don't know (deck people only), never dealt to them again. Kept on this
+// device only: the account's Firestore rules allow just the saved-sets docs, so an account copy would
+// need a rules change.
+const DUNNO_KEY = 'mystery-face:dunno';
+const dunnoList = () => { const a = lsGet(DUNNO_KEY); return Array.isArray(a) ? a.filter((x) => typeof x === 'string') : []; };
+function addDunno(ids) {
+  const add = ids.filter((id) => id && !id.startsWith('c/'));
+  if (!add.length) return;
+  lsSet(DUNNO_KEY, Array.from(new Set(dunnoList().concat(add))).slice(-500));
+}
 
 // ui-only state
 const U = { marks: new Set(), pickSel: -1, guessing: false, guessSel: -1, peek: false, lastRec: '', lastAuto: '', timerKey: '', timerAt: 0, timerRang: false, sheet: false, busy: false, joinCode: '', online: null, snap: null, zoom: null };
@@ -127,7 +137,21 @@ function sourcePool() {
   }
   const decks = (S.src.decks || []).filter((d) => FC.deck(d));
   const tags = (S.src.tags || []).filter((t) => FC.tagCounts(decks).some((x) => x.tag === t));
-  return { ids: FC.poolFor(decks, tags), set: null, title: decks.map((d) => FC.deck(d).title).join(' + ') };
+  const ids = FC.poolFor(decks, tags);
+  // Mixed stars also deals the player's own people (Your people), favoured by the deal
+  const mix = decks.includes('mixed') ? ownPeople() : null;
+  if (mix) ids.push(...mix.people.map((p) => 'c/' + p.id));
+  return { ids, set: null, mix, title: decks.map((d) => FC.deck(d).title).join(' + ') };
+}
+/** Every custom person on this device/account (up to 20, picked at random), as one set: { title, people } */
+function ownPeople() {
+  const seen = new Set(), people = [];
+  for (const s of PPL.allSets()) {
+    const names = FC.displayNames(s.people);
+    s.people.forEach((p, i) => { if (!seen.has(p.id)) { seen.add(p.id); people.push({ id: p.id, name: p.name || names[i], img: p.img || null }); } });
+  }
+  if (!people.length) return null;
+  return { title: 'Your people', people: people.sort(() => Math.random() - 0.5).slice(0, 20) };
 }
 function playWithSet(id) {
   S.src = { kind: 'set', id, decks: S.src.decks || [], tags: [] };
@@ -143,7 +167,7 @@ function G() {
   }
   const sn = U.snap;
   if (U.online && sn && sn.status === 'playing' || (sn && sn.status === 'finished' && sn.pub)) {
-    return { kind: 'online', pub: sn.pub, names: sn.seats.map((s, i) => (i === sn.mySeat ? 'You' : (s.name || 'Friend').replace(/ \(computer\)$/, ''))), me: sn.mySeat, toAct: sn.toAct || [], custom: (sn.options && sn.options.custom) || null, snap: sn };
+    return { kind: 'online', pub: sn.pub, names: sn.seats.map((s, i) => (i === sn.mySeat ? 'You' : (s.name || 'Friend').replace(/ \(computer\)$/, ''))), me: sn.mySeat, toAct: sn.toAct || [], custom: (sn.options && (sn.options.custom || sn.options.mixCustom)) || null, snap: sn };
   }
   return null;
 }
@@ -214,8 +238,8 @@ function recordOnce(key, pub, mySeat) {
 function newLocal() {
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
-  const custom = src.set ? { title: src.set.title, people: src.set.people } : null;
-  const opts = { pool: src.ids, n: S.n, lives: S.lives, first: Math.random() < 0.5 ? 0 : 1, custom: !!custom };
+  const custom = src.set ? { title: src.set.title, people: src.set.people } : src.mix || null;
+  const opts = { pool: src.ids, n: S.n, lives: S.lives, first: Math.random() < 0.5 ? 0 : 1, custom: !!src.set, meta: src.set ? null : FC.metaFor(src.ids, src.mix), avoid: src.set ? [] : dunnoList() };
   const st = game.setup(2, opts, Math.random);
   S.play = { kind: 'local', id: Date.now().toString(36), state: st, custom, secrets: [null, null], flips: [{}, {}], view: st.first, pick: null };
   FC.useCustom(custom);
@@ -245,7 +269,8 @@ async function createRoom() {
   if (PF && !PF.name) PF.setName(S.name);
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
-  let options = { pool: src.ids, n: S.n, lives: S.lives, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title };
+  // each player's don't-knows reach the host as a quiet swap when the round starts (autoAvoid)
+  let options = { pool: src.ids, n: S.n, lives: S.lives, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title, meta: src.set ? null : FC.metaFor(src.ids, src.mix) };
   if (src.set) {
     // only the faces this board needs travel with the room (the room doc must stay under 1 MiB)
     const ppl = src.set.people.slice().sort(() => Math.random() - 0.5).slice(0, S.n);
@@ -253,6 +278,11 @@ async function createRoom() {
     options.pool = options.custom.people.map((p) => 'c/' + p.id);
     options.custom_ = true;
     if (JSON.stringify(options).length > 700000) return toast('This set is too big to share. Use fewer photos.');
+  }
+  // Mixed stars + the host's own people (the guest's aren't shared before the game starts)
+  if (src.mix) {
+    options.mixCustom = src.mix;
+    if (JSON.stringify(options).length > 700000) return toast('Your people are too big to share. Use fewer photos.');
   }
   options = Object.assign(options, { custom: options.custom, n: S.n });
   U.busy = true;
@@ -298,19 +328,35 @@ function onSnap(snap) {
   const was = U.snap;
   U.snap = snap;
   if (snap.status === 'closed' || snap.status === 'left') { U.snap = null; prevPub = null; FC.useCustom(null); toast(snap.status === 'closed' ? 'Room closed' : 'You left the room'); renderAll(); return; }
-  FC.useCustom(snap.options && snap.options.custom || null);
+  FC.useCustom(snap.options && (snap.options.custom || snap.options.mixCustom) || null);
   const pub = snap.pub;
   if (pub) {
     FC.ensureFor(pub.board).then(() => { if (U.snap === snap) renderPlay(); });
     sounds(prevPub, pub, snap.mySeat);
     if (prevPub && (prevPub.round !== pub.round)) { U.marks.clear(); U.pickSel = -1; U.guessing = false; }
     auto(snap);
+    autoAvoid(snap);
     if (pub.phase === 'over' && pub.winner !== null) recordOnce('online:' + snap.code + ':' + pub.round, pub, snap.mySeat);
     if (game.isOver(pub) && pub.gone !== snap.mySeat && (!prevPub || !game.isOver(prevPub))) toast(`${(snap.seats[pub.gone] || {}).name ? 'Your friend' : 'Your friend'} left the game.`);
   }
   if (!was || was.status !== snap.status) U.marks.clear();
   prevPub = pub || null;
   renderAll();
+}
+// Online: once a round, tell the host this player's remembered don't-knows; any already on the board
+// are swapped out quietly (no highlight), and none of them is dealt again this game.
+function autoAvoid(snap) {
+  const pub = snap.pub, me = snap.mySeat;
+  if (!pub || pub.phase !== 'dunno' || pub.custom || pub.ready[me] || !(snap.toAct || []).includes(me)) return;
+  const key = snap.code + ':' + pub.round;
+  if (U.lastAvoid === key) return;
+  const list = dunnoList();
+  if (!list.length) return;
+  U.lastAvoid = key;
+  const mine = new Set(list);
+  const idx = pub.board.map((id, i) => (mine.has(id) ? i : -1)).filter((i) => i >= 0);
+  idx.forEach((i) => U.marks.delete(i));
+  U.online.act({ t: 'swap', idx, avoid: list, quiet: true }).catch(() => { U.lastAvoid = ''; });
 }
 // Our phone answers "was that my face?" and shows its face at the end, from the secret saved at the pick.
 function auto(snap) {
@@ -365,9 +411,9 @@ function renderHome(el) {
     const dk = FC.deck(d.id);
     if (!dk) continue;
     const kinds = FC.tagCounts([d.id]).slice(0, 3).map((t) => KIT.tagLabel(t.tag)).join(', ');
-    cards.push(`<button class="src${srcKey === 'deck:' + d.id ? ' on' : ''}" data-act="src" data-k="deck" data-v="${esc(d.id)}">${deckMosaic(dk.people.slice(0, 4).map((p) => ({ name: p.name, img: p.img })))}<b>${esc(dk.title)}</b><span>${dk.people.length} · ${esc(kinds)}</span></button>`);
+    cards.push(`<button class="src${srcKey === 'deck:' + d.id ? ' on' : ''}" data-act="src" data-k="deck" data-v="${esc(d.id)}">${deckMosaic(dk.people.slice(0, 4).map((p) => ({ name: p.name, img: p.img, from: p.from })))}<b>${esc(dk.title)}</b><span>${dk.people.length} · ${esc(kinds)}</span></button>`);
   }
-  if (allDecks.length > 1) cards.push(`<button class="src${srcKey === 'deck:' + allDecks.join('+') ? ' on' : ''}" data-act="src" data-k="mix">${deckMosaic(allDecks.slice(0, 4).map((d) => { const p = FC.deck(d).people[0]; return { name: p.name, img: p.img }; }))}<b>Mix</b><span>All decks</span></button>`);
+  if (allDecks.length > 1) cards.push(`<button class="src${srcKey === 'deck:' + allDecks.join('+') ? ' on' : ''}" data-act="src" data-k="mix">${deckMosaic(allDecks.slice(0, 4).map((d) => { const p = FC.deck(d).people[0]; return { name: p.name, img: p.img, from: p.from }; }))}<b>Mix</b><span>All decks</span></button>`);
   for (const s of sets) cards.push(`<button class="src${srcKey === 'set:' + s.id ? ' on' : ''}" data-act="src" data-k="set" data-v="${esc(s.id)}">${deckMosaic(s.people.slice(0, 4).map((p, i) => ({ name: FC.displayNames(s.people)[i], img: p.img })))}<b>${esc(s.title)}</b><span>${s.people.length} · yours</span></button>`);
   cards.push(`<button class="src add" data-act="newset"><span class="mosaic plus">+</span><b>Your people</b><span>Photos or names</span></button>`);
   const tags = S.src.kind === 'deck' ? FC.tagCounts(S.src.decks || []) : [];
@@ -447,10 +493,11 @@ function stepFor(g) {
       const mine = L ? true : !p.ready[g.me];
       const nMarked = U.marks.size;
       const waitTxt = L ? '' : p.ready[opp] ? `${esc(N[opp])} is ready.` : `${esc(N[opp])} is looking…`;
+      const fresh = mine && (p.fresh || []).length;
       return {
-        text: mine ? `<b>Don't know someone?</b> Tap them, then Swap.` : `Waiting for ${esc(N[opp])}…`,
+        text: mine ? (fresh ? `<b>New faces are lit up.</b> Don't know one? Tap it, then Swap.` : `<b>Don't know someone?</b> Tap them, then Swap.`) : `Waiting for ${esc(N[opp])}…`,
         sub: mine ? `${p.spare} spare face${p.spare === 1 ? '' : 's'} left. ${waitTxt}` : '',
-        dock: mine ? `<button class="btn" data-act="swap" ${nMarked && p.spare ? '' : 'disabled'}>Swap${nMarked ? ' ' + nMarked : ''}</button><button class="btn main" data-act="ready">${L ? 'We know them all' : 'Ready'}</button>` : '',
+        dock: mine ? `<button class="btn" data-act="swap" ${nMarked && p.spare ? '' : 'disabled'}>${nMarked ? `Swap ${nMarked} marked` : 'Swap marked'}</button><button class="btn main" data-act="ready">${L ? 'We know them all' : 'Ready'}</button>` : '',
       };
     }
     case 'pick': {
@@ -549,12 +596,15 @@ function boardHTML(g, seat, st, dim) {
   const flips = playing ? flipsOf(g, seat) : {};
   const sec = L ? secretOf(g, seat) : null;
   const guessing = st.guessing && (!L || st.board === seat);
+  // after a swap: the new faces lit up, the rest dimmed, until Ready
+  const fresh = p.phase === 'dunno' && (L || !p.ready[g.me]) && (p.fresh || []).length ? new Set(p.fresh) : null;
   const tiles = p.board.map((id, i) => {
     const f = FC.face(id);
     const down = flips[i] !== undefined;
     const cls = ['face'];
     if (down) cls.push('down');
     if (p.phase === 'dunno' && U.marks.has(i)) cls.push('marked');
+    if (fresh) cls.push(fresh.has(i) ? 'fresh' : 'stale');
     if (st.picking && U.pickSel === i) cls.push('sel');
     if (guessing && U.guessSel === i) cls.push('sel');
     if (!L && p.phase !== 'dunno' && lsGet(secKey(g.snap.code, p.round))?.face === id) cls.push('mine');
@@ -571,7 +621,7 @@ function askDock(g) {
   const onBoard = new Set();
   for (const id of p.board) for (const t of FC.face(id).tags) onBoard.add(t);
   const tagChips = tags.filter((t) => onBoard.has(t.tag)).slice(0, 8).map((t) => `<button class="chip" data-act="chip" data-tag="${esc(t.tag)}">${esc(KIT.tagQuestion(t.tag))}</button>`);
-  const looks = g.custom && g.custom.people.every((x) => !x.img) ? [] : KIT.LOOKS;
+  const looks = p.custom && g.custom && g.custom.people.every((x) => !x.img) ? [] : KIT.LOOKS;
   return `<div class="askrow"><input id="qIn" maxlength="120" placeholder="Type a yes/no question" autocomplete="off" enterkeyhint="send" aria-label="Your question"><button class="btn main" data-act="ask">Ask</button></div>
     <div class="chips qchips">${tagChips.join('')}${looks.map((l) => `<button class="chip" data-act="chip">${esc(l)}</button>`).join('')}</div>
     <div class="row guessrow"><button class="btn small" data-act="guess">Make a final guess instead</button></div>`;
@@ -691,7 +741,7 @@ function creditsSheet() {
   const rows = [];
   for (const d of FC.deckIndex()) {
     const dk = FC.deck(d.id); if (!dk) continue;
-    rows.push(`<h4>${esc(dk.title)}</h4><ul class="credits">${dk.people.map((p) => { const c = p.credit || {}; return `<li><b>${esc(p.name)}</b>: ${esc(c.author || 'unknown')}${c.license ? ', ' + esc(c.license) : ''}${c.source && /^https?:/.test(c.source) ? ` · <a href="${esc(c.source)}" target="_blank" rel="noopener">source</a>` : ''}</li>`; }).join('')}</ul>`);
+    rows.push(`<h4>${esc(dk.title)}</h4><ul class="credits">${dk.people.filter((p) => p.img).map((p) => { const c = p.credit || {}; return `<li><b>${esc(p.name)}</b>: ${esc(c.author || 'unknown')}${c.license ? ', ' + esc(c.license) : ''}${c.source && /^https?:/.test(c.source) ? ` · <a href="${esc(c.source)}" target="_blank" rel="noopener">source</a>` : ''}</li>`; }).join('')}</ul>`);
   }
   sheet(`<h3>Photo credits</h3><div class="scrollbox">${rows.join('') || '<p class="muted">No decks loaded.</p>'}</div><div class="row end"><button class="btn main" data-act="sheetx">Close</button></div>`, { wide: true });
 }
@@ -773,7 +823,7 @@ document.addEventListener('click', async (ev) => {
     case 'timer': S.timer = +v; save(); renderAll(); break;
     case 'view': S.play.view = +v; save(); renderPlay(); break;
     case 'tile': onTile(g, +b.dataset.seat, +b.dataset.i, b); break;
-    case 'swap': if (g) { const idx = [...U.marks]; U.marks.clear(); if (await send(g.kind === 'local' ? g.toAct[0] : g.me, { t: 'swap', idx })) FX.play('shuffle'); renderAll(); } break;
+    case 'swap': if (g) { const idx = [...U.marks]; U.marks.clear(); addDunno(idx.map((i) => g.pub.board[i])); if (await send(g.kind === 'local' ? g.toAct[0] : g.me, { t: 'swap', idx })) FX.play('shuffle'); renderAll(); } break;
     case 'ready':
       if (!g) break;
       U.marks.clear();
