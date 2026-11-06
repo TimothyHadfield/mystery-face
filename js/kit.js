@@ -6,7 +6,6 @@ const ex = (c) => (c.last && c.last.extra) || {};
 export const ACHIEVEMENTS = [
   { id: 'first', title: 'First win', desc: 'Win an online game', test: (c) => c.stats.wins >= 1 },
   { id: 'sharp', title: 'Sharp eye', desc: 'Win after asking 3 questions or fewer', test: (c) => won(c) && ex(c).asked <= 3 },
-  { id: 'clutch', title: 'Last life', desc: 'Win with 3 lives after two wrong guesses', test: (c) => won(c) && ex(c).livesLeft === 1 && ex(c).maxLives === 3 },
   { id: 'own', title: 'Home crowd', desc: 'Play a game with your own people', test: (c) => !!ex(c).custom },
   { id: 'big', title: 'Full house', desc: 'Win on a 30-face board', test: (c) => won(c) && ex(c).n >= 30 },
   { id: 'streak', title: 'Hat trick', desc: 'Win 3 in a row', test: (c) => c.stats.bestStreak >= 3 },
@@ -45,11 +44,11 @@ export function rules() {
         <p class="tip">Your pick is locked with a code when you choose it and checked when the round ends, so nobody can switch faces halfway.</p>` },
       { id: 'turn', short: 'Turns', title: 'A turn', html: `<ol><li>You <b>ask</b> one yes/no question, like "Glasses?". Type it, or tap a quick question.</li>
         <li>The other player <b>answers</b>: Yes, No or Not sure.</li>
-        <li>You <b>flip down</b> every face the answer rules out (tap a face; tap again to stand it back up), then tap <b>Done</b>.</li>
+        <li>You <b>flip down</b> every face the answer rules out (tap a face; tap again to stand it back up), then tap <b>Next</b>: it's their turn straight away.</li>
         <li>Now the other player asks, you answer, they flip. And so on.</li></ol>
         <p class="tip">Your flips are yours alone: the other player only sees how many faces you have left.</p>` },
-      { id: 'guess', short: 'Guessing', title: 'Guessing', html: `<p>On your turn you can make a final guess instead of asking (or after flipping, instead of Done). Tap <b>Guess</b>, then the face.</p>
-        <ul><li>Right: you win the round.</li><li>Wrong: you lose the round. With <b>3 lives</b> (Settings) a wrong guess costs a life and the turn passes.</li></ul>` },
+      { id: 'guess', short: 'Guessing', title: 'Guessing', html: `<p>On your turn you either ask a question <b>or</b> guess. Tap <b>Guess</b>, then the face: the guess is checked straight away.</p>
+        <ul><li>Right: you win the round.</li><li>Wrong: that face gets a red X on your board (it can't be flipped or guessed again) and the turn passes.</li></ul>` },
       { id: 'end', short: 'End', title: 'End of the round', html: `<p>Both faces are shown, every pick is checked against its lock, and the whole question log is listed. If a "kind" question (like "Are they an actor?") was answered against the face's kind, the review points it out.</p>
         <p><b>Play again</b> keeps the score and the deck, deals new faces, and the other player starts.</p>` },
       { id: 'same', short: 'Same screen', title: 'Same screen', html: `<p>Two players at one phone or laptop. Ask and answer out loud; the screen says whose step it is.</p>

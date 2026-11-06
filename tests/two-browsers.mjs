@@ -134,12 +134,32 @@ for (let k = 0; k < 3; k++) {
 const s2 = await snap(A);
 console.log(`PASS 3 turns in strict order; log has ${s2.pub.log.length} entries; left = ${s2.pub.left.join("/")}`);
 
-// ---- the player to ask makes a right final guess
-const g = s2.pub.turn, gp = P[g];
+// ---- a wrong guess: red X on the guesser's board, no loss, the turn passes (tap = guess, no confirm)
+const g = s2.pub.turn, gp = P[g], op = P[1 - g];
 const target = g === 0 ? secB.face : secA.face;
+const wrongI = await gp.evaluate((t) => [...document.querySelectorAll('.face:not(.down)')].map((e) => +e.dataset.i).find((i) => window.__mf.U.snap.pub.board[i] !== t), target);
+await gp.click('[data-act="guess"]');
+await gp.click(`.face[data-i="${wrongI}"]`);
+await until(gp, (t) => { const s = window.__mf.U.snap; return s.pub.phase === "ask" && s.pub.turn === t; }, 1 - g);
+await gp.waitForSelector(`.face.wrong[data-i="${wrongI}"]`, T);
+const sw = await snap(gp);
+if (sw.pub.winner !== null || sw.pub.xed[g][0] !== sw.pub.board[wrongI]) fail("wrong guess didn't just X the face: " + JSON.stringify(sw.pub.xed));
+console.log("PASS wrong guess: red X on that face, nobody lost, turn passed");
+await shot(gp, "online-wrong-x");
+// ---- Back: the other player asks, the answerer presses Back -> the question is undone on both phones
+const logN = sw.pub.log.length;
+await op.fill("#qIn", "Hat?"); await op.click('[data-act="ask"]');
+await phaseIs(gp, "answer");
+await gp.click('[data-act="back"]');
+await until(op, (n) => { const s = window.__mf.U.snap; return s.pub.phase === "ask" && s.pub.log.length === n; }, logN);
+console.log("PASS Back undid the question on both phones");
+await op.fill("#qIn", "Hat?"); await op.click('[data-act="ask"]');
+await phaseIs(gp, "answer"); await gp.click('[data-act="answer"][data-v="no"]');
+await phaseIs(op, "flip"); await op.click('[data-act="done"]');
+await until(gp, (t) => { const s = window.__mf.U.snap; return s.pub.phase === "ask" && s.pub.turn === t; }, g);
+// ---- right guess: one tap
 await gp.click('[data-act="guess"]');
 await gp.click(`.face[data-i="${s2.pub.board.indexOf(target)}"]`);
-await gp.click('[data-act="guessgo"]');
 await phaseIs(A, "over"); await phaseIs(B, "over");
 const s3 = await snap(B);
 if (s3.pub.winner !== g) fail("wrong winner " + s3.pub.winner);

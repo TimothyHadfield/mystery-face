@@ -2,7 +2,9 @@
 // through the shared js/online.js, for online rooms (the host's browser runs apply()).
 //
 // Turn order (Tim, 2026-11-06): "user 1 asks a question, user 2 answers, user 1 flips people,
-// user 2 asks a question, and continue." A final guess replaces asking (or ends a turn after flipping).
+// user 2 asks a question, and continue." On your turn you ask OR guess (Tim, 2026-11-06). A wrong guess
+// doesn't lose: that face gets a red X on the guesser's board (s.xed[seat]), can't be guessed again,
+// and the turn passes.
 //
 // SECRETS NEVER ENTER THE STATE. Each player locks in their face with commitOf(face, salt) (SHA-256)
 // at the pick; the face and salt stay on that player's phone. When someone guesses, the guessed
@@ -11,11 +13,12 @@
 // state, but the full state holds no secret.
 //
 // Phases: dunno (both mark faces they don't know -> swapped; both press Ready) -> pick (both lock in)
-//   -> ask -> answer -> flip -> ask ... ; guess -> verdict -> (reveal -> over) or (lives left: next turn)
+//   -> ask -> answer -> flip -> ask ... ; ask: guess -> verdict -> right: reveal -> over / wrong: X, next turn
 //   over: both press Play again -> a new round, the other player starts. quit: a player left.
 
 export const VERSION = 1;
 export const Q_MAX = 120;
+const HIST_MAX = 40;   // Back steps kept in the state (each ~1-3 KB; the room doc stays far under 1 MiB)
 export const ANSWERS = ['yes', 'no', 'unsure'];
 
 // ------------------------------------------------------------------ SHA-256 (sync, UTF-8)
@@ -86,7 +89,7 @@ function deal(s, rng) {
   s.again = [false, false];
   s.log = [];
   s.left = [n, n];
-  s.lives = [s.maxLives, s.maxLives];
+  s.xed = [[], []];
   s.turn = s.first;
   s.pending = null;
   s.winner = null;
@@ -99,14 +102,14 @@ export const game = {
   id: 'mystery-face',
   minSeats: 2, maxSeats: 2,
 
-  /** options: { pool: [faceId...], n: 16|24|30, lives: 1|3, first: 0|1, custom: bool } */
+  /** options: { pool: [faceId...], n: 16|24|30, first: 0|1, custom: bool } */
   setup(nSeats, options, rng) {
     const o = options || {};
     const pool = Array.from(new Set((o.pool || []).map(String))).slice(0, 2000);
     if (pool.length < 2) fail('Not enough faces.');
     const s = {
       v: VERSION, round: 1, n: Math.max(2, Math.min(40, o.n | 0 || 24)),
-      maxLives: o.lives === 3 ? 3 : 1, first: o.first === 1 ? 1 : 0, custom: !!o.custom,
+      first: o.first === 1 ? 1 : 0, custom: !!o.custom,
       pool, score: [0, 0], gone: null, reason: '',
     };
     deal(s, rng);
@@ -129,6 +132,21 @@ export const game = {
 
   apply(s, seat, a, rng) {
     if (!a || typeof a !== 'object') fail('No move.');
+    // Back (Tim, 2026-11-06: "goes back to the previous action no matter what it is"): any seat that may act
+    // can roll the shared state back one move. Automatic steps (verdict, reveal) are skipped over.
+    if (a.t === 'undo') {
+      const h = s.hist || [];
+      let prev = h.pop();
+      while (prev && (prev.phase === 'verdict' || prev.phase === 'reveal') && h.length) prev = h.pop();
+      if (!prev || prev.phase === 'verdict' || prev.phase === 'reveal') fail('Nothing to undo.');
+      return Object.assign(prev, { pool: s.pool, hist: h, spareIds: prev.spareIds || s.spareIds });
+    }
+    if (a.t !== 'quit') {
+      const { pool, hist, spareIds, ...snap } = s;
+      if (s.phase === 'dunno') snap.spareIds = spareIds;   // only swaps use the spares
+      s.hist = (hist || []).concat([JSON.parse(JSON.stringify(snap))]).slice(-HIST_MAX);
+      if (snap.spareIds) while (s.hist.length > 1 && JSON.stringify(s.hist).length > 300000) s.hist.shift();
+    }
     if (a.t === 'quit') {
       s.gone = seat; s.reason = 'left';
       if (s.winner === null && s.phase !== 'over') s.winner = other(seat);
@@ -172,8 +190,7 @@ export const game = {
         break;
       }
       case 'flip': {
-        if (a.t === 'guess') return guess(s, seat, a);
-        if (a.t !== 'done') fail('Flip faces, then Done.');
+        if (a.t !== 'done') fail('Flip faces, then Next.');
         const left = Number(a.left);
         if (Number.isInteger(left) && left >= 0 && left <= s.board.length) s.left[seat] = left;
         s.turn = other(seat); s.phase = 'ask';
@@ -185,10 +202,7 @@ export const game = {
         s.log.push({ by: p.by, guess: p.face, ok: a.ok });
         s.pending = null;
         if (a.ok) { s.winner = p.by; s.reason = 'guessed'; }
-        else {
-          s.lives[p.by]--;
-          if (s.lives[p.by] <= 0) { s.winner = other(p.by); s.reason = 'wrong'; }
-        }
+        else s.xed[p.by].push(p.face);   // wrong: a red X on the guesser's board, the game goes on
         if (s.winner !== null) { s.score[s.winner]++; s.phase = 'reveal'; }
         else { s.turn = other(p.by); s.phase = 'ask'; }
         break;
@@ -220,7 +234,8 @@ export const game = {
   },
 
   publicView(s) {
-    const { pool, spareIds, ...pub } = s;
+    const { pool, spareIds, hist, ...pub } = s;
+    pub.undo = (hist || []).filter((h) => h.phase !== 'verdict' && h.phase !== 'reveal').length;
     return pub;
   },
   privateView() { return null; },
@@ -232,6 +247,7 @@ export const game = {
 function guess(s, seat, a) {
   const face = String(a.face || '');
   if (!s.board.includes(face)) fail('Guess a face on the board.');
+  if (s.xed[seat].includes(face)) fail('You already guessed them.');
   s.pending = { by: seat, face };
   s.phase = 'verdict';
   return s;
