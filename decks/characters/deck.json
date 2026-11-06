@@ -11,7 +11,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/aladdin.webp",
+   "credit": {
+    "author": "Dick Thomas Johnson from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Comic_Market_96_Day_1_Cosplayers_(48600210856).jpg"
+   }
   },
   {
    "id": "anna",
@@ -22,7 +29,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/anna.webp",
+   "credit": {
+    "author": "RyC - Behind The Lens from San Francisco, United States of America",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Frozen%27s_anna_cosplay_(14049776308).jpg"
+   }
   },
   {
    "id": "ariel",
@@ -33,7 +47,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/ariel.webp",
+   "credit": {
+    "author": "Mooshuu",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_The_Little_Mermaid_in_Wondercon_2016.jpg"
+   }
   },
   {
    "id": "barbie",
@@ -44,7 +65,14 @@
    "tags": [
     "character",
     "toy"
-   ]
+   ],
+   "img": "img/barbie.webp",
+   "credit": {
+    "author": "SpiritedMichelle",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barbie_cosplay_at_Fan_Expo_Denver_2026.jpg"
+   }
   },
   {
    "id": "batman",
@@ -55,7 +83,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/batman.webp",
+   "credit": {
+    "author": "Super Festivals from Ft. Lauderdale, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Batman_at_Florida_Supercon_2013_(9364594115).jpg"
+   }
   },
   {
    "id": "belle",
@@ -66,7 +101,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/belle.webp",
+   "credit": {
+    "author": "LX-Designs from SF Bay Area, CA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Belle_from_Beauty_and_the_Beast_at_FanimeCon_2023_(53055820329).jpg"
+   }
   },
   {
    "id": "black-widow",
@@ -77,7 +119,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/black-widow.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Black_Widow_at_Brussels_Comic_Con_2019_(40335692413).jpg"
+   }
   },
   {
    "id": "boo",
@@ -99,7 +148,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/buzz-lightyear.webp",
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Buzz_Lightyear_%26_Dark_Phoenix_cosplayers_(16026088891).jpg"
+   }
   },
   {
    "id": "captain-america",
@@ -110,7 +166,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/captain-america.webp",
+   "credit": {
+    "author": "randychiu",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Captain_America_cosplay_o.jpg"
+   }
   },
   {
    "id": "captain-marvel",
@@ -121,7 +184,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/captain-marvel.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Captain_Marvel_at_Brussels_Comic_Con_2019_(46577264804).jpg"
+   }
   },
   {
    "id": "cinderella",
@@ -132,7 +202,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/cinderella.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Belle_and_Cinderella_at_Japan_Expo_2016_(28208407151).jpg"
+   }
   },
   {
    "id": "darth-vader",
@@ -144,7 +221,14 @@
     "character",
     "scifi",
     "villain"
-   ]
+   ],
+   "img": "img/darth-vader.webp",
+   "credit": {
+    "author": "Lunchbox Photography",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mesa_Thinkin%27_Annie_Gots_Tired_of_Mesa_Ramblin!_Darth_Vader_Cosplay_at_Star_Wars_Celebration_V.jpg"
+   }
   },
   {
    "id": "donkey",
@@ -167,7 +251,14 @@
     "character",
     "tv",
     "kids"
-   ]
+   ],
+   "img": "img/dora.webp",
+   "credit": {
+    "author": "US Census Bureau",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Children_Count_Too_Awareness_Campaign_Launches_(4421979349).jpg"
+   }
   },
   {
    "id": "dory",
@@ -189,7 +280,14 @@
    "tags": [
     "character",
     "fantasy"
-   ]
+   ],
+   "img": "img/dumbledore.webp",
+   "credit": {
+    "author": "acca-67",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lucca_comics_%26_games_2013_(cosplay_of_Dumbledore).jpg"
+   }
   },
   {
    "id": "edna-mode",
@@ -200,7 +298,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/edna-mode.webp",
+   "credit": {
+    "author": "Rose Abrams",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DH25_cosplay_07.jpg"
+   }
   },
   {
    "id": "elastigirl",
@@ -211,7 +316,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/elastigirl.webp",
+   "credit": {
+    "author": "Mooshuu from San Diego",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SDCC_2015-4935_(19409150150).jpg"
+   }
   },
   {
    "id": "eleven",
@@ -222,7 +334,14 @@
    "tags": [
     "character",
     "tv"
-   ]
+   ],
+   "img": "img/eleven.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-07-15_10-37-25_ILCE-7C_DSCHP2575_(53055265652).jpg"
+   }
   },
   {
    "id": "elle-woods",
@@ -233,7 +352,14 @@
    "tags": [
     "character",
     "comedy"
-   ]
+   ],
+   "img": "img/elle-woods.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cameron_Daddo,_Lucy_Durack_(8008139163).jpg"
+   }
   },
   {
    "id": "elsa",
@@ -244,7 +370,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/elsa.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Elsa_at_Japan_Expo_2016_(27778679323).jpg"
+   }
   },
   {
    "id": "flynn-rider",
@@ -255,7 +388,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/flynn-rider.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flynn_Rider_%26_Rapunzel_cosplayers_at_WonderCon_2025.jpg"
+   }
   },
   {
    "id": "gandalf",
@@ -266,7 +406,14 @@
    "tags": [
     "character",
     "fantasy"
-   ]
+   ],
+   "img": "img/gandalf.webp",
+   "credit": {
+    "author": "Roger Murmann from Eppertshausen, Deutschland",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MCM_2013_-_Gandalf_(8979307760).jpg"
+   }
   },
   {
    "id": "genie",
@@ -277,7 +424,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/genie.webp",
+   "credit": {
+    "author": "玄史生",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplayer_of_the_Genie,_Aladdin_at_BIO5_20180505.jpg"
+   }
   },
   {
    "id": "harley-quinn",
@@ -289,7 +443,14 @@
     "character",
     "superhero",
     "villain"
-   ]
+   ],
+   "img": "img/harley-quinn.webp",
+   "credit": {
+    "author": "Super Festivals from Ft. Lauderdale, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Harley_Quinn_at_Florida_Supercon_2013_(9367401796).jpg"
+   }
   },
   {
    "id": "harry-potter",
@@ -300,7 +461,14 @@
    "tags": [
     "character",
     "fantasy"
-   ]
+   ],
+   "img": "img/harry-potter.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Harry_Potter_at_Brussels_Comic_Con_2022_(51957083366).jpg"
+   }
   },
   {
    "id": "hermione-granger",
@@ -311,7 +479,14 @@
    "tags": [
     "character",
     "fantasy"
-   ]
+   ],
+   "img": "img/hermione-granger.webp",
+   "credit": {
+    "author": "蔡沅珅",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplayers_of_Hermione_Granger_and_Ron_Weasley_20180519a.jpg"
+   }
   },
   {
    "id": "homer-simpson",
@@ -323,7 +498,14 @@
     "character",
     "tv",
     "cartoon"
-   ]
+   ],
+   "img": "img/homer-simpson.webp",
+   "credit": {
+    "author": "Chongkian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Homer_Simpson_at_Comic_Fiesta_2022.jpg"
+   }
   },
   {
    "id": "hulk",
@@ -334,7 +516,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/hulk.webp",
+   "credit": {
+    "author": "Annette Wamser from Elk Grove, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Big_Wow_2013_-_Avengers_(8845878144).jpg"
+   }
   },
   {
    "id": "iron-man",
@@ -345,7 +534,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/iron-man.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Iron_Man_and_War_Machine_at_Brussels_Comic_Con_2019_(46735972724).jpg"
+   }
   },
   {
    "id": "jack-sparrow",
@@ -356,7 +552,14 @@
    "tags": [
     "character",
     "action"
-   ]
+   ],
+   "img": "img/jack-sparrow.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Jack_Sparrow_at_Made_in_Asia_2022_(52106129637).jpg"
+   }
   },
   {
    "id": "jasmine",
@@ -367,7 +570,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/jasmine.webp",
+   "credit": {
+    "author": "Dick Thomas Johnson from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Comic_Market_96_Day_1_Cosplayers_(48600210856).jpg"
+   }
   },
   {
    "id": "jessie",
@@ -378,7 +588,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/jessie.webp",
+   "credit": {
+    "author": "greyloch from Washington, DC, area, U.S.A.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toy_Story%27s_Jessie_(9417280661).jpg"
+   }
   },
   {
    "id": "joy",
@@ -389,7 +606,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/joy.webp",
+   "credit": {
+    "author": "Miguel Discart / Kiri Karma",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Japan_Expo_2024_-_Cosplay_of_Joy.jpg"
+   }
   },
   {
    "id": "judy-hopps",
@@ -400,7 +624,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/judy-hopps.webp",
+   "credit": {
+    "author": "Thomas Bresson",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2019-02-02_12-00-07_Necronomi%E2%80%99Con.jpg"
+   }
   },
   {
    "id": "katniss-everdeen",
@@ -422,7 +653,14 @@
    "tags": [
     "character",
     "tv"
-   ]
+   ],
+   "img": "img/kermit-the-frog.webp",
+   "credit": {
+    "author": "Staff Sgt. Jason Colbert",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tops_in_Blue_120605-F-VX940-541_(cropped).jpg"
+   }
   },
   {
    "id": "lightning-mcqueen",
@@ -433,7 +671,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/lightning-mcqueen.webp",
+   "credit": {
+    "author": "Julien Chatelain from Paris, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flash_McQueen_(8077593536).jpg"
+   }
   },
   {
    "id": "lisa-simpson",
@@ -456,7 +701,14 @@
    "tags": [
     "character",
     "game"
-   ]
+   ],
+   "img": "img/luigi.webp",
+   "credit": {
+    "author": "Oliver Ayala",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SDCC_15_-_Super_Mario_(19338350073).jpg"
+   }
   },
   {
    "id": "luke-skywalker",
@@ -467,7 +719,14 @@
    "tags": [
     "character",
     "scifi"
-   ]
+   ],
+   "img": "img/luke-skywalker.webp",
+   "credit": {
+    "author": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_at_NYCC_(60245).jpg"
+   }
   },
   {
    "id": "maleficent",
@@ -479,7 +738,14 @@
     "character",
     "disney",
     "villain"
-   ]
+   ],
+   "img": "img/maleficent.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Maleficent_at_Made_in_Asia_2019_(32764137197).jpg"
+   }
   },
   {
    "id": "marge-simpson",
@@ -491,7 +757,14 @@
     "character",
     "tv",
     "cartoon"
-   ]
+   ],
+   "img": "img/marge-simpson.webp",
+   "credit": {
+    "author": "tr.robinson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Knit_Marge_Simpson_Cosplay_at_Dragon_Con_2014.jpg"
+   }
   },
   {
    "id": "mario",
@@ -502,7 +775,14 @@
    "tags": [
     "character",
     "game"
-   ]
+   ],
+   "img": "img/mario.webp",
+   "credit": {
+    "author": "Oliver Ayala",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SDCC_15_-_Super_Mario_(19338350073).jpg"
+   }
   },
   {
    "id": "merida",
@@ -513,7 +793,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/merida.webp",
+   "credit": {
+    "author": "stupid systemus",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Otakon_2013_-_Merida_Cosplayer.jpg"
+   }
   },
   {
    "id": "mike-wazowski",
@@ -524,7 +811,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/mike-wazowski.webp",
+   "credit": {
+    "author": "Pasquake",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:This_Particular_%22Mike_Wazowski_Costume%22_Cosplay_Was_Quite_Popular_Among_Cosplay_Photographers_Who_Were_At_Comicon_Napoli%F0%9F%87%AE%F0%9F%87%B9%F0%9F%98%88%F0%9F%91%81%EF%B8%8F.jpg"
+   }
   },
   {
    "id": "minions",
@@ -535,7 +829,14 @@
    "tags": [
     "character",
     "cartoon"
-   ]
+   ],
+   "img": "img/minions.webp",
+   "credit": {
+    "author": "The Conmunity - Pop Culture Geek from Los Angeles, CA, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WonderCon_2011_-_Despicable_Me_Minions_with_a_Harley_Quinn_style_costume_(5593343405).jpg"
+   }
   },
   {
    "id": "minnie-mouse",
@@ -546,7 +847,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/minnie-mouse.webp",
+   "credit": {
+    "author": "Marnie Joyce from New York City, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:C2E2_2013_-_Minnie_Mouse_(8702699976).jpg"
+   }
   },
   {
    "id": "mirabel",
@@ -557,7 +865,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/mirabel.webp",
+   "credit": {
+    "author": "Stéphane Gallay from Laconnex, Switzerland",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Destination_Tokyo_2022_(52510356878).jpg"
+   }
   },
   {
    "id": "moana",
@@ -568,7 +883,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/moana.webp",
+   "credit": {
+    "author": "Joshua David Vega",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Moana_Disney_Parks.jpg"
+   }
   },
   {
    "id": "mulan",
@@ -579,7 +901,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/mulan.webp",
+   "credit": {
+    "author": "Stefan Schubert",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fa_Mulan_(8270731832).jpg"
+   }
   },
   {
    "id": "olaf",
@@ -590,7 +919,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/olaf.webp",
+   "credit": {
+    "author": "Andrew Milligan sumo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Olaf_the_Snowman,_Hamburg,_Germany_(48828338602).jpg"
+   }
   },
   {
    "id": "patrick-star",
@@ -602,7 +938,14 @@
     "character",
     "tv",
     "cartoon"
-   ]
+   ],
+   "img": "img/patrick-star.webp",
+   "credit": {
+    "author": "Banej",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Patrick_Star.jpg"
+   }
   },
   {
    "id": "pikachu",
@@ -613,7 +956,14 @@
    "tags": [
     "character",
     "game"
-   ]
+   ],
+   "img": "img/pikachu.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Pikachu_at_Japan_Expo_2016_(28383865665).jpg"
+   }
   },
   {
    "id": "princess-fiona",
@@ -624,7 +974,14 @@
    "tags": [
     "character",
     "dreamworks"
-   ]
+   ],
+   "img": "img/princess-fiona.webp",
+   "credit": {
+    "author": "Super Festivals from Ft. Lauderdale, USA",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_at_Animate_Raleigh_2026_-_timx3856_(55264813460).jpg"
+   }
   },
   {
    "id": "princess-leia",
@@ -635,7 +992,14 @@
    "tags": [
     "character",
     "scifi"
-   ]
+   ],
+   "img": "img/princess-leia.webp",
+   "credit": {
+    "author": "Tabercil from Canadian",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_at_the_2011_Fan_Expo_Canada_(6134623778).jpg"
+   }
   },
   {
    "id": "princess-peach",
@@ -646,7 +1010,14 @@
    "tags": [
     "character",
     "game"
-   ]
+   ],
+   "img": "img/princess-peach.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Princess_Peach_at_Japan_Expo_2016_(28261757326).jpg"
+   }
   },
   {
    "id": "rapunzel",
@@ -657,7 +1028,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/rapunzel.webp",
+   "credit": {
+    "author": "SpiritedMichelle",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tangled_cosplay_at_Fan_Expo_Denver_2026.jpg"
+   }
   },
   {
    "id": "rey",
@@ -668,7 +1046,14 @@
    "tags": [
     "character",
     "scifi"
-   ]
+   ],
+   "img": "img/rey.webp",
+   "credit": {
+    "author": "Oliver Ayala",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Balboa_Cosplay_Meetup_-_Cosplay_of_Rey_6.jpg"
+   }
   },
   {
    "id": "scooby-doo",
@@ -680,7 +1065,14 @@
     "character",
     "tv",
     "cartoon"
-   ]
+   ],
+   "img": "img/scooby-doo.webp",
+   "credit": {
+    "author": "Miguel Discart from Bruxelles, Belgique",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2014-04-04_21-09-38_NEX-6_7753_DxO_(13910617101).jpg"
+   }
   },
   {
    "id": "shrek",
@@ -691,7 +1083,14 @@
    "tags": [
     "character",
     "dreamworks"
-   ]
+   ],
+   "img": "img/shrek.webp",
+   "credit": {
+    "author": "GabboT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toronto_2015_-_Shrek_(16723895657).jpg"
+   }
   },
   {
    "id": "simba",
@@ -713,7 +1112,14 @@
    "tags": [
     "character",
     "game"
-   ]
+   ],
+   "img": "img/sonic.webp",
+   "credit": {
+    "author": "GabboT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WW_Chicago_2011_-_Sonic_the_Hedgehog.jpg"
+   }
   },
   {
    "id": "spider-man",
@@ -724,7 +1130,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/spider-man.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Spider-Man_at_Brussels_Comic_Con_2019_(40335908293).jpg"
+   }
   },
   {
    "id": "spongebob",
@@ -736,7 +1149,14 @@
     "character",
     "tv",
     "cartoon"
-   ]
+   ],
+   "img": "img/spongebob.webp",
+   "credit": {
+    "author": "Tomasz Molina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SpongeBob_SquarePants_in_Warsaw.jpg"
+   }
   },
   {
    "id": "stitch",
@@ -747,7 +1167,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/stitch.webp",
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stitch_cosplayer_(38331310596).jpg"
+   }
   },
   {
    "id": "sulley",
@@ -758,7 +1185,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/sulley.webp",
+   "credit": {
+    "author": "Tehsigo Eternamente (J Mondragon) from USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LBCC_2014_-_Monsters_Inc_(15238905429).jpg"
+   }
   },
   {
    "id": "superman",
@@ -769,7 +1203,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/superman.webp",
+   "credit": {
+    "author": "Super Festivals from Ft. Lauderdale, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Superman_at_Florida_Supercon_2013_(9359693687).jpg"
+   }
   },
   {
    "id": "thanos",
@@ -781,7 +1222,14 @@
     "character",
     "superhero",
     "villain"
-   ]
+   ],
+   "img": "img/thanos.webp",
+   "credit": {
+    "author": "Miguel Discart & Kiri Karma",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Comiccon_Brussels_2023_-_Cosplay_of_Nebula_and_Thanos.jpg"
+   }
   },
   {
    "id": "the-joker",
@@ -793,7 +1241,14 @@
     "character",
     "superhero",
     "villain"
-   ]
+   ],
+   "img": "img/the-joker.webp",
+   "credit": {
+    "author": "Miguel Discart / Kiri Karma",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Japan_Expo_2024_-_Cosplay_of_Joker.jpg"
+   }
   },
   {
    "id": "thor",
@@ -804,7 +1259,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/thor.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Thor_(Marvel)_at_Made_in_Asia_2022_(52104540946).jpg"
+   }
   },
   {
    "id": "tiana",
@@ -815,7 +1277,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/tiana.webp",
+   "credit": {
+    "author": "greyloch from Washington, DC, area, U.S.A.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Princess_Tiana_(17685618576).jpg"
+   }
   },
   {
    "id": "ursula",
@@ -827,7 +1296,14 @@
     "character",
     "disney",
     "villain"
-   ]
+   ],
+   "img": "img/ursula.webp",
+   "credit": {
+    "author": "William Tung from USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WonderCon_2015_-_Ursula_(16862048360).jpg"
+   }
   },
   {
    "id": "velma",
@@ -839,7 +1315,14 @@
     "character",
     "tv",
     "cartoon"
-   ]
+   ],
+   "img": "img/velma.webp",
+   "credit": {
+    "author": "Stéphane Gallay",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Destination_Tokyo_2024_-_Scooby-Doo_Cosplayers.jpg"
+   }
   },
   {
    "id": "voldemort",
@@ -851,7 +1334,14 @@
     "character",
     "fantasy",
     "villain"
-   ]
+   ],
+   "img": "img/voldemort.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Lord_Voldemort_at_Brussels_Comic_Con_2019_(40510881853).jpg"
+   }
   },
   {
    "id": "wednesday-addams",
@@ -862,7 +1352,14 @@
    "tags": [
     "character",
     "tv"
-   ]
+   ],
+   "img": "img/wednesday-addams.webp",
+   "credit": {
+    "author": "Mooshuu",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wondercon_2016-4395.jpg"
+   }
   },
   {
    "id": "wonder-woman",
@@ -873,7 +1370,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/wonder-woman.webp",
+   "credit": {
+    "author": "Super Festivals from Ft. Lauderdale, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_(9358432921).jpg"
+   }
   },
   {
    "id": "woody",
@@ -884,7 +1388,14 @@
    "tags": [
     "character",
     "pixar"
-   ]
+   ],
+   "img": "img/woody.webp",
+   "credit": {
+    "author": "Michael Ocampo from United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Woody_with_Lenny,_Fanime_2015_(18147694431).jpg"
+   }
   },
   {
    "id": "yoda",
@@ -895,7 +1406,14 @@
    "tags": [
     "character",
     "scifi"
-   ]
+   ],
+   "img": "img/yoda.webp",
+   "credit": {
+    "author": "Thomas Bresson",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2021-10-31_11-10-20_sf-connexion-Colmar.jpg"
+   }
   }
  ]
 }

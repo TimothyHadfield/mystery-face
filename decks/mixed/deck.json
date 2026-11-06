@@ -143,7 +143,14 @@
    "tags": [
     "character",
     "toy"
-   ]
+   ],
+   "img": "img/barbie.webp",
+   "credit": {
+    "author": "SpiritedMichelle",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barbie_cosplay_at_Fan_Expo_Denver_2026.jpg"
+   }
   },
   {
    "id": "betty-boop",
@@ -397,7 +404,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/elsa.webp",
+   "credit": {
+    "author": "Miguel Discart",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Elsa_at_Japan_Expo_2016_(27778679323).jpg"
+   }
   },
   {
    "id": "elton-john",
@@ -440,7 +454,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/flynn-rider.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flynn_Rider_%26_Rapunzel_cosplayers_at_WonderCon_2025.jpg"
+   }
   },
   {
    "id": "fred-rogers",
@@ -533,7 +554,14 @@
    "tags": [
     "character",
     "fantasy"
-   ]
+   ],
+   "img": "img/hermione-granger.webp",
+   "credit": {
+    "author": "蔡沅珅",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplayers_of_Hermione_Granger_and_Ron_Weasley_20180519a.jpg"
+   }
   },
   {
    "id": "jack-black",
@@ -851,7 +879,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/moana.webp",
+   "credit": {
+    "author": "Joshua David Vega",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Moana_Disney_Parks.jpg"
+   }
   },
   {
    "id": "mona-lisa",
@@ -1007,7 +1042,14 @@
    "tags": [
     "character",
     "disney"
-   ]
+   ],
+   "img": "img/rapunzel.webp",
+   "credit": {
+    "author": "SpiritedMichelle",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tangled_cosplay_at_Fan_Expo_Denver_2026.jpg"
+   }
   },
   {
    "id": "rihanna",
@@ -1114,7 +1156,14 @@
    "tags": [
     "character",
     "dreamworks"
-   ]
+   ],
+   "img": "img/shrek.webp",
+   "credit": {
+    "author": "GabboT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toronto_2015_-_Shrek_(16723895657).jpg"
+   }
   },
   {
    "id": "simone-biles",
@@ -1158,7 +1207,14 @@
     "character",
     "tv",
     "cartoon"
-   ]
+   ],
+   "img": "img/spongebob.webp",
+   "credit": {
+    "author": "Tomasz Molina",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SpongeBob_SquarePants_in_Warsaw.jpg"
+   }
   },
   {
    "id": "stephen-curry",
@@ -1202,7 +1258,14 @@
     "character",
     "superhero",
     "villain"
-   ]
+   ],
+   "img": "img/thanos.webp",
+   "credit": {
+    "author": "Miguel Discart & Kiri Karma",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Comiccon_Brussels_2023_-_Cosplay_of_Nebula_and_Thanos.jpg"
+   }
   },
   {
    "id": "tom-brady",
@@ -1277,7 +1340,14 @@
    "tags": [
     "character",
     "superhero"
-   ]
+   ],
+   "img": "img/wonder-woman.webp",
+   "credit": {
+    "author": "Super Festivals from Ft. Lauderdale, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cosplay_of_Wonder_Woman_at_Florida_Supercon_2013_(9358432921).jpg"
+   }
   },
   {
    "id": "zendaya",

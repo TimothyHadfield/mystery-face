@@ -1,5 +1,6 @@
 """Step 4 (after deck-build.py): add "gender" and "kind" to every card, write the
-"Movie characters" deck (name tiles, no pictures: the characters are copyrighted),
+"Movie characters" deck (name + film; free-licence cosplay photos already in
+decks/characters/ are kept, the rest stay name tiles),
 and rebuild "Mixed stars" as a balanced mix (about half women, actors <= 25%,
 politics <= 15%, about 20% characters). Then run deck-credits.py.
 
@@ -46,7 +47,7 @@ KIND = {
     "the-scream": "art",
 }
 
-# Movie characters deck: (name, from, gender, tags). Name tiles only, no images.
+# Movie characters deck: (name, from, gender, tags). Pictures (cosplay photos) are kept from the existing deck.json.
 CHARACTERS = [
     # women
     ("Elsa", "Frozen", "f", "disney"), ("Anna", "Frozen", "f", "disney"), ("Moana", "Moana", "f", "disney"),
@@ -185,10 +186,16 @@ def main():
     unknown = [i for i in FEMALE | NO_GENDER | set(KIND) if not any(k[1] == i for k in by)]
     assert not unknown, unknown
 
+    # keep pictures already added to character cards (cosplay photos, see CREDITS.md)
+    cpath = os.path.join(DECKS, "characters", "deck.json")
+    old = {p["id"]: p for p in json.load(open(cpath, encoding="utf-8"))["people"]} if os.path.exists(cpath) else {}
     chars = []
     for name, src, g, tags in CHARACTERS:
         p = {"id": slug(name), "name": name, "from": src, "gender": g, "kind": "character",
              "tags": ["character"] + tags.split(",")}
+        o = old.get(p["id"], {})
+        if o.get("img") and os.path.exists(os.path.join(DECKS, "characters", o["img"])):
+            p["img"], p["credit"] = o["img"], o["credit"]
         chars.append(p)
         by[("characters", p["id"])] = p
     ids = [p["id"] for p in chars]
