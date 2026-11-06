@@ -77,79 +77,249 @@ const other = (seat) => 1 - seat;
 const fail = (m) => { throw new Error(m); };
 const ID_RE = /^[A-Za-z0-9_.-]{1,40}\/[A-Za-z0-9_.-]{1,60}$/;
 function cleanIds(a) { return Array.isArray(a) ? Array.from(new Set(a.map(String).filter((x) => ID_RE.test(x)))).slice(-600) : []; }
+// meta = "gender|kind|namekey|sub|franchise|actor" (the last three optional; older pages send only 2-3 parts)
+const META_RE = /^[fmx]\|[a-z0-9-]{0,24}(\|[a-z0-9-]{0,60}){0,4}$/;
 function cleanMeta(m, pool) {
   if (!m || typeof m !== 'object') return null;
   const out = {};
-  for (const id of pool) if (typeof m[id] === 'string' && /^[fmx]\|[a-z0-9-]{0,24}(\|[a-z0-9]{0,60})?$/.test(m[id])) out[id] = m[id];
+  for (const id of pool) if (typeof m[id] === 'string' && META_RE.test(m[id])) out[id] = m[id];
   return Object.keys(out).length ? out : null;
 }
 function shuffle(a, rng) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rng() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
+// ------------------------------------------------------------------ face memory
+// Tim, 2026-11-06: "Remember all charactors on a users account as either known, don't know, or unused. We
+// want to reuse the characters that are known, and not the charactors that are unknown, while still filling
+// charactors that are unused ... Also remember how many games it's been since a charactor has been used".
+// Stored (localStorage + the account): { v: 1, g: games so far, k: { faceId: game no. last on a board },
+// u: { faceId: game no. it was marked don't-know } }. A face in neither is unused. gamesSince = g - k[id].
+// For a deal the page sends the short form { k: ["faceId~gamesSince", ...], u: [faceId, ...] }.
+export const MEM_MAX = 5000;
+const MEM_ID = /^(c|[A-Za-z0-9_.-]{1,40})\/[A-Za-z0-9_.-]{1,60}$/;
+function memTrim(m) {   // over MEM_MAX: forget the known faces seen longest ago (unknown ones are kept)
+  const ks = Object.keys(m.k);
+  const over = ks.length + Object.keys(m.u).length - MEM_MAX;
+  if (over > 0) ks.sort((a, b) => m.k[a] - m.k[b]).slice(0, over).forEach((id) => delete m.k[id]);
+  return m;
+}
+export function memClean(x) {
+  const o = x && typeof x === 'object' ? x : {};
+  const g = Math.max(0, Math.min(1e7, Math.floor(Number(o.g)) || 0));
+  const part = (p) => { const out = {}; if (p && typeof p === 'object') for (const [id, v] of Object.entries(p)) { const n = Math.floor(Number(v)); if (MEM_ID.test(id) && n >= 0 && n <= g) out[id] = n; } return out; };
+  const k = part(o.k), u = part(o.u);
+  for (const id in u) delete k[id];
+  return memTrim({ v: 1, g, k, u });
+}
+/** The player marked these as don't-know (custom people never are: they made them). */
+export function memMarkUnknown(m, ids) {
+  const x = memClean(m);
+  for (const id of ids || []) if (MEM_ID.test(id) && !id.startsWith('c/')) { x.u[id] = x.g; delete x.k[id]; }
+  return memTrim(x);
+}
+/** One more game: every face left on the board after the don't-know phase is known, seen 0 games ago. */
+export function memRecord(m, board) {
+  const x = memClean(m);
+  x.g++;
+  for (const id of board || []) if (MEM_ID.test(id)) { x.k[id] = x.g; delete x.u[id]; }
+  return memTrim(x);
+}
+/** Device + account memory: union; unknown wins over known; the most recent sighting is kept. */
+export function memMerge(a, b) {
+  const A = memClean(a), B = memClean(b), g = Math.max(A.g, B.g);
+  const out = { v: 1, g, k: {}, u: {} };
+  for (const M of [A, B]) for (const id in M.u) out.u[id] = Math.max(out.u[id] ?? 0, g - (M.g - M.u[id]));
+  for (const M of [A, B]) for (const id in M.k) if (!(id in out.u)) out.k[id] = Math.max(out.k[id] ?? 0, g - (M.g - M.k[id]));
+  return memTrim(out);
+}
+/** The short form a deal needs, only for the faces in `ids` (all when null). */
+export function memForDeal(m, ids) {
+  const x = memClean(m), want = ids ? new Set(ids) : null;
+  const k = [], u = [];
+  for (const id in x.k) if (!want || want.has(id)) k.push(id + '~' + (x.g - x.k[id]));
+  for (const id in x.u) if (!want || want.has(id)) u.push(id);
+  return { k, u };
+}
+// In the state: s.mems[seat] = { k: { faceId: gamesSince }, u: [faceId] } (seat 0 from the options, each
+// seat's own from its first swap of a round), s.marks[seat] = faces that seat swapped out this round.
+function cleanDM(dm, pool) {
+  if (!dm || typeof dm !== 'object') return null;
+  const k = {}, u = [];
+  for (const e of Array.isArray(dm.k) ? dm.k.slice(0, MEM_MAX) : []) { const r = /^(.{3,101})~(\d{1,7})$/.exec(String(e)); if (r && pool.has(r[1])) k[r[1]] = +r[2]; }
+  for (const x of Array.isArray(dm.u) ? dm.u.slice(0, MEM_MAX) : []) { const id = String(x); if (pool.has(id) && !id.startsWith('c/')) { u.push(id); delete k[id]; } }
+  return { k, u };
+}
+/** Both players' memories as one: unknown to either = left out; known = known to both (newest sighting). */
+function dealMem(s) {
+  const ms = (s.mems || []).filter(Boolean);
+  if (!ms.length) return null;
+  const unknown = new Set(ms.flatMap((m) => m.u));
+  const known = new Map();
+  for (const id in ms[0].k) if (!unknown.has(id) && ms.every((m) => id in m.k)) known.set(id, Math.min(...ms.map((m) => m.k[id])));
+  return { unknown, known };
+}
+/** End of the don't-know phase (once a round): what each seat kept is known, what it swapped out is not. */
+function ageMems(s) {
+  if (!s.mems || s.memRound === s.round) return;
+  s.memRound = s.round;
+  s.mems.forEach((m, seat) => {
+    if (!m) return;
+    const marked = new Set((s.marks && s.marks[seat]) || []);
+    for (const id in m.k) m.k[id]++;
+    for (const id of s.board) if (!marked.has(id)) { m.k[id] = 0; m.u = m.u.filter((x) => x !== id); }
+    for (const id of marked) if (!id.startsWith('c/') && s.pool.includes(id)) { delete m.k[id]; if (!m.u.includes(id)) m.u.push(id); }
+  });
+}
+
 // ------------------------------------------------------------------ balanced dealing
-// s.meta = { faceId: "g|kind" } (g = f/m/x) when the page knows it; s.avoid = face ids a player said
-// they don't know (never dealt again while enough others exist). Tim, 2026-11-06: "I want the
-// characters to be a better distribution ... Track the people that user clicks I don't know and don't
-// give it to them again."
-const KIND_CAP = 0.3, CUSTOM_SHARE = 0.35;
-// meta = "g|kind|namekey": namekey (normalised name) stops the same person showing twice when two
-// decks both hold them (Mixed stars copies people from the others; custom people can share a name).
-const metaOf = (s, id) => { const m = s.meta && s.meta[id]; const [g, k, nk] = String(m || 'x|').split('|'); return { g: g || 'x', k: k || '', nk: nk || id }; };
+// s.meta = { faceId: "g|kind|namekey|sub|franchise|actor" } when the page knows it; s.avoid = face ids a
+// player said they don't know this game. Tim, 2026-11-06: "I want the characters to be a better
+// distribution ... Track the people that user clicks I don't know and don't give it to them again."
+// And (Mixed stars): "make sure the mixed game has a good distribution of movie characters, actors,
+// athletes, polititians, and custom characters while avoiding anyone too similar."
+const KIND_CAP = 0.3, CUSTOM_SHARE = 0.35, NEW_SHARE = 0.3;
+// Mixed stars, by share of the board; everything else (actors, music, history, TV, internet, art) is "rest"
+const MIX_SHARE = { character: 0.42, sports: 0.17, politics: 0.12, custom: 0.17 };
+const MIX_SHARE_SOLO = { character: 0.45, sports: 0.2, politics: 0.13 };   // no custom people
+// namekey (normalised name) stops the same person showing twice when two decks both hold them (Mixed
+// stars copies people from the others; custom people can share a name). actor: a character played by
+// someone (that someone's namekey), so neither a second role nor the actor's own card joins them.
+const metaOf = (s, id) => {
+  const m = s.meta && s.meta[id];
+  const [g, k, nk, sub, fr, ac] = String(m || 'x|').split('|');
+  return { g: g || 'x', k: k || '', nk: nk || id, sub: sub || '', fr: fr || '', ac: ac || '' };
+};
 const personOf = (s, id) => metaOf(s, id).nk;
 /** Shuffled ids with each person kept once (the first copy). */
 function onePerPerson(s, ids) { const seen = new Set(); return ids.filter((id) => { const p = personOf(s, id); if (seen.has(p)) return false; seen.add(p); return true; }); }
-/** From shuffled ids, take n spread over kinds (round-robin, no kind over ~30%) and genders (~even f/m). */
-export function pickBalanced(ids, n, meta) {
-  if (!meta) return { board: ids.slice(0, n), rest: ids.slice(n) };
-  const s = { meta };
-  const byKind = new Map();
-  for (const id of ids) { const k = metaOf(s, id).k; if (!byKind.has(k)) byKind.set(k, []); byKind.get(k).push(id); }
-  const cap = Math.max(1, Math.ceil(n * KIND_CAP)), half = Math.ceil(n / 2);
-  const kc = new Map(), gc = { f: 0, m: 0, x: 0 }, taken = new Set(), board = [];
-  const take = (id) => { const m = metaOf(s, id); board.push(id); taken.add(id); kc.set(m.k, (kc.get(m.k) || 0) + 1); gc[m.g in gc ? m.g : 'x']++; };
-  // the player's own people mixed into a deck (kind "custom") come first, up to ~35% of the board:
-  // Tim, 2026-11-06: "they should have a higher chance of being included in it than the rest"
-  const own = byKind.get('custom');
-  if (own) { const want = Math.min(own.length, Math.ceil(n * CUSTOM_SHARE)); own.splice(0, want).forEach(take); byKind.delete('custom'); }
-  for (let progress = true; board.length < n && progress;) {
-    progress = false;
-    for (const [k, b] of byKind) {
-      if (board.length >= n) break;
-      if ((kc.get(k) || 0) >= cap || !b.length) continue;
-      const want = gc.f <= gc.m ? 'f' : 'm';
-      let j = b.findIndex((id) => metaOf(s, id).g === want);
-      if (j < 0) j = b.findIndex((id) => { const g = metaOf(s, id).g; return g !== 'f' && g !== 'm' || gc[g] < half; });
-      if (j < 0) continue;
-      take(b.splice(j, 1)[0]); progress = true;
-    }
+function pickW(list, w, rng) {
+  let tot = 0; for (const id of list) tot += w(id);
+  let r = rng() * tot;
+  for (const id of list) { r -= w(id); if (r < 0) return id; }
+  return list[list.length - 1];
+}
+/**
+ * From shuffled ids, take n: spread over kinds (Mixed stars: by MIX_SHARE; else no kind over ~30%, the
+ * player's own people up to ~35%), about even women/men, ~30% never-seen faces when a memory is given
+ * (known ones weighted by games since last seen), at most 1 per franchise and never the same actor twice.
+ * opt: { mixed, mem: { known: Map(id -> gamesSince), unknown: Set }, rng }
+ */
+export function pickBalanced(ids, n, meta, opt = {}) {
+  if (!meta && !opt.mem) return { board: ids.slice(0, n), rest: ids.slice(n) };
+  const s = { meta }, rng = opt.rng || Math.random, mem = opt.mem || null, mixed = !!opt.mixed && !!meta;
+  const M = new Map(ids.map((id) => [id, metaOf(s, id)]));
+  const groupOf = (m) => (!meta ? '' : mixed ? (m.k in MIX_SHARE ? m.k : 'rest') : m.k);
+  const groups = new Map();
+  for (const id of ids) { const gk = groupOf(M.get(id)); if (!groups.has(gk)) groups.set(gk, []); groups.get(gk).push(id); }
+  const target = new Map();
+  if (mixed) {
+    const share = groups.has('custom') ? MIX_SHARE : MIX_SHARE_SOLO;
+    const rest = 1 - Object.values(share).reduce((a, b) => a + b, 0);
+    for (const gk of groups.keys()) target.set(gk, Math.max(1, Math.round(n * (gk === 'rest' ? rest : share[gk] || 0))));
+  } else {
+    for (const gk of groups.keys()) target.set(gk, Math.max(1, Math.ceil(n * (gk === 'custom' ? CUSTOM_SHARE : KIND_CAP))));
   }
-  for (const id of ids) { if (board.length >= n) break; if (!taken.has(id)) take(id); }   // too few to balance: fill
+  const isNew = (id) => !!mem && !mem.known.has(id);
+  const w = (id) => (mem && mem.known.has(id) ? Math.pow(1 + mem.known.get(id), 1.5) : 1) * (M.get(id).k === 'custom' ? 1.5 : 1);
+  const board = [], taken = new Set(), used = new Set(), fr = new Map(), have = new Map(), gc = { f: 0, m: 0, x: 0 }, spread = new Map();
+  let fresh = 0;
+  const spreadKey = (m) => (mixed ? (m.k === 'character' ? 'c:' + m.sub : 'k:' + m.k) : '');
+  const take = (id) => {
+    const m = M.get(id);
+    board.push(id); taken.add(id); used.add(m.nk); if (m.ac) used.add(m.ac);
+    if (m.fr) fr.set(m.fr, (fr.get(m.fr) || 0) + 1);
+    const gk = groupOf(m); have.set(gk, (have.get(gk) || 0) + 1);
+    gc[m.g in gc ? m.g : 'x']++; if (isNew(id)) fresh++;
+    const sk = spreadKey(m); spread.set(sk, (spread.get(sk) || 0) + 1);
+  };
+  const free = (id, frMax) => {
+    if (taken.has(id)) return false;
+    const m = M.get(id);
+    if (used.has(m.nk) || (m.ac && used.has(m.ac))) return false;
+    return !m.fr || (fr.get(m.fr) || 0) < frMax;
+  };
+  // one face from a list: soft wishes dropped one by one (gender, then known/new), then weighted
+  const choose = (list, frMax) => {
+    let c = list.filter((id) => free(id, frMax));
+    if (!c.length) return null;
+    const wantG = gc.f <= gc.m ? 'f' : 'm';
+    const wantNew = mem ? fresh < NEW_SHARE * (board.length + 1) : null;
+    const tiers = [
+      (id) => (wantNew === null || isNew(id) === wantNew) && M.get(id).g === wantG,
+      (id) => wantNew === null || isNew(id) === wantNew,
+      (id) => M.get(id).g === wantG,
+    ];
+    for (const t of tiers) { const x = c.filter(t); if (x.length) { c = x; break; } }
+    if (mixed) {   // spread inside a group: animated/live characters, and the kinds in "rest"
+      const lo = Math.min(...c.map((id) => spread.get(spreadKey(M.get(id))) || 0));
+      c = c.filter((id) => (spread.get(spreadKey(M.get(id))) || 0) === lo);
+    }
+    return pickW(c, w, rng);
+  };
+  // fill the group furthest below its share first
+  const done = new Set();
+  while (board.length < n) {
+    const order = [...groups.keys()].filter((gk) => !done.has(gk)).sort((a, b) => {
+      const fa = (have.get(a) || 0) / target.get(a), fb = (have.get(b) || 0) / target.get(b);
+      return (fa >= 1) - (fb >= 1) || fa - fb;
+    });
+    if (!order.length) break;
+    const gk = order[0];
+    if (!mixed && (have.get(gk) || 0) >= target.get(gk)) break;   // every kind at its cap: fill below
+    const id = choose(groups.get(gk), 1);
+    if (id) take(id); else done.add(gk);
+  }
+  // too few to keep every rule: a 2nd card of a franchise, then anything not the same person/actor
+  for (const frMax of [1, 2, Infinity]) while (board.length < n) { const id = choose(ids, frMax); if (!id) break; take(id); }
+  for (const id of ids) { if (board.length >= n) break; if (!taken.has(id) && !used.has(M.get(id).nk)) take(id); }
   return { board, rest: ids.filter((id) => !taken.has(id)) };
 }
-/** The spare that best replaces a face: same gender + kind, then same gender, then same kind, then any. */
-function bestSpare(s, out) {
+/** Faces this game must not deal: don't-knows marked this game, plus either player's remembered ones. */
+function avoidOf(s, dm) {
   const avoid = new Set(s.avoid || []);
-  const avoidP = new Set([...avoid].map((id) => personOf(s, id)));
-  const onBoard = new Set(s.board.map((id) => personOf(s, id)));   // never a second copy of anyone showing
-  const ok = s.spareIds.map((id, j) => [id, j]).filter(([id]) => !avoid.has(id) && !avoidP.has(personOf(s, id)) && !onBoard.has(personOf(s, id)));
+  if (dm) for (const id of dm.unknown) avoid.add(id);
+  return { avoid, avoidP: new Set([...avoid].map((id) => personOf(s, id))) };
+}
+/** The spare that best replaces a face: no look-alike, same gender + kind, then same gender, then same kind, then any; known first. */
+function bestSpare(s, out) {
+  const dm = dealMem(s);
+  const { avoid, avoidP } = avoidOf(s, dm);
+  const used = new Set();   // never a second copy of anyone showing, nor a second role of an actor
+  const frOn = new Set();
+  for (const id of s.board) { const m = metaOf(s, id); used.add(m.nk); if (m.ac) used.add(m.ac); if (id !== out && m.fr) frOn.add(m.fr); }
+  const ok = s.spareIds.map((id, j) => [id, j]).filter(([id]) => {
+    const m = metaOf(s, id);
+    return !avoid.has(id) && !avoidP.has(m.nk) && !used.has(m.nk) && !(m.ac && used.has(m.ac));
+  });
   if (!ok.length) return -1;
-  if (!s.meta) return ok[0][1];
+  if (!s.meta && !dm) return ok[0][1];
+  const score = ([id]) => (dm && dm.known.has(id) ? 1 + dm.known.get(id) : 0);
+  const best = (list) => list.reduce((a, b) => (score(b) > score(a) ? b : a))[1];
+  const noFr = ok.filter(([id]) => !frOn.has(metaOf(s, id).fr));
   const m = metaOf(s, out);
-  const tests = [(x) => x.g === m.g && x.k === m.k, (x) => x.g === m.g && m.g !== 'x', (x) => x.k === m.k];
-  for (const t of tests) { const hit = ok.find(([id]) => t(metaOf(s, id))); if (hit) return hit[1]; }
+  const tests = [(x) => x.g === m.g && x.k === m.k, (x) => x.g === m.g && m.g !== 'x', (x) => x.k === m.k, () => true];
+  for (const list of [noFr, ok]) for (const t of tests) { const hit = list.filter(([id]) => t(metaOf(s, id))); if (hit.length) return best(hit); }
   return ok[0][1];
 }
 
 function deal(s, rng) {
-  const avoid = new Set(s.avoid || []);
-  const avoidP = new Set([...avoid].map((id) => personOf(s, id)));
-  const known = s.pool.filter((id) => !avoid.has(id) && !avoidP.has(personOf(s, id)));
-  const ids = onePerPerson(s, shuffle((onePerPerson(s, known).length >= s.n ? known : s.pool).slice(), rng));
-  const n = Math.min(s.n, ids.length);
-  const pick = pickBalanced(ids, n, s.meta);
+  const dm = dealMem(s);
+  const { avoid, avoidP } = avoidOf(s, dm);
+  const ok = s.pool.filter((id) => !avoid.has(id) && !avoidP.has(personOf(s, id)));
+  const ids = onePerPerson(s, shuffle(ok.slice(), rng));
+  const pick = pickBalanced(ids, s.n, s.meta, { mixed: s.mixed, mem: dm, rng });
+  // too few faces they know: top up from the avoided ones (only when the board can't be filled otherwise)
+  if (pick.board.length < s.n) {
+    const have = new Set(pick.board.concat(pick.rest).map((id) => personOf(s, id)));
+    const extra = onePerPerson(s, shuffle(s.pool.filter((id) => !have.has(personOf(s, id))), rng));
+    pick.board.push(...extra.splice(0, s.n - pick.board.length));
+    pick.rest.push(...extra);
+  }
+  const n = pick.board.length;
   s.board = shuffle(pick.board, rng);   // picked in kind order: mix the seats
   s.spareIds = pick.rest;
   s.spare = s.spareIds.length;
   s.fresh = [];
+  s.marks = [[], []];
   s.ready = [false, false];
   s.commits = [null, null];
   s.reveals = [null, null];
@@ -178,8 +348,11 @@ export const game = {
       v: VERSION, round: 1, n: Math.max(2, Math.min(40, o.n | 0 || 24)),
       first: o.first === 1 ? 1 : 0, custom: !!o.custom,
       pool, score: [0, 0], gone: null, reason: '',
-      meta: cleanMeta(o.meta, pool), avoid: cleanIds(o.avoid),
+      meta: cleanMeta(o.meta, pool), avoid: cleanIds(o.avoid), mixed: !!o.mixed,
     };
+    // o.mem: the starting player's face memory (memForDeal); the other seat's arrives with its first swap
+    const dm = cleanDM(o.mem, new Set(pool));
+    if (dm) s.mems = [dm, null];
     deal(s, rng);
     return s;
   },
@@ -207,10 +380,13 @@ export const game = {
       let prev = h.pop();
       while (prev && (prev.phase === 'verdict' || prev.phase === 'reveal') && h.length) prev = h.pop();
       if (!prev || prev.phase === 'verdict' || prev.phase === 'reveal') fail('Nothing to undo.');
-      return Object.assign(prev, { pool: s.pool, meta: s.meta, hist: h, spareIds: prev.spareIds || s.spareIds });
+      const back = Object.assign(prev, { pool: s.pool, meta: s.meta, hist: h, spareIds: prev.spareIds || s.spareIds });
+      if (s.mems) Object.assign(back, { mems: s.mems, memRound: s.memRound });   // memory only moves forward
+      return back;
     }
     if (a.t !== 'quit') {
-      const { pool, hist, spareIds, meta, ...snap } = s;   // meta never changes: keep it out of the copies
+      // meta never changes, and the memories only move forward: keep them out of the copies
+      const { pool, hist, spareIds, meta, mems, memRound, ...snap } = s;
       if (s.phase === 'dunno') snap.spareIds = spareIds;   // only swaps use the spares
       s.hist = (hist || []).concat([JSON.parse(JSON.stringify(snap))]).slice(-HIST_MAX);
       if (snap.spareIds) while (s.hist.length > 1 && JSON.stringify(s.hist).length > 300000) s.hist.shift();
@@ -224,20 +400,29 @@ export const game = {
     }
     switch (s.phase) {
       case 'dunno': {
-        if (a.t === 'ready') { s.ready[seat] = true; if (s.ready[0] && s.ready[1]) s.phase = 'pick'; break; }
+        // both ready: the memories learn what each kept (known) and swapped out (unknown)
+        const toPick = () => { if (s.ready[0] && s.ready[1]) { ageMems(s); s.phase = 'pick'; } };
+        if (a.t === 'ready') { s.ready[seat] = true; toPick(); break; }
         if (a.t !== 'swap' || !Array.isArray(a.idx)) fail('Pick faces to swap, or Ready.');
-        // a.avoid: this player's remembered don't-knows (sent once a round); a.quiet: no highlight
+        // a.avoid: this player's remembered don't-knows (sent once a round); a.quiet: no highlight;
+        // a.seen: this player's face memory (memForDeal), used from the next deal on
         if (a.avoid) s.avoid = cleanIds((s.avoid || []).concat(cleanIds(a.avoid)));
+        if (a.seen && seat >= 0 && seat <= 1) {
+          const dm = cleanDM(a.seen, new Set(s.pool));
+          if (dm) { s.mems = s.mems || [null, null]; s.mems[seat] = dm; }
+        }
         const idx = Array.from(new Set(a.idx.map(Number))).filter((i) => Number.isInteger(i) && i >= 0 && i < s.board.length);
         const swapped = [];
         s.avoid = cleanIds((s.avoid || []).concat(idx.map((i) => s.board[i])));   // never back this game
+        s.marks = s.marks || [[], []];
+        if (seat >= 0 && seat <= 1) s.marks[seat] = Array.from(new Set(s.marks[seat].concat(idx.map((i) => s.board[i])))).slice(-200);
         for (const i of idx) {
           const j = bestSpare(s, s.board[i]);
           if (j < 0) break;
           s.board[i] = s.spareIds.splice(j, 1)[0]; swapped.push(i);
         }
         s.spare = s.spareIds.length;
-        if (!swapped.length) { if (a.ready) s.ready[seat] = true; break; }
+        if (!swapped.length) { if (a.ready) { s.ready[seat] = true; toPick(); } break; }
         if (!a.quiet) s.fresh = swapped;
         s.ready = [false, false]; // new faces: both look again
         if (a.ready) s.ready[seat] = true;
@@ -319,7 +504,7 @@ export const game = {
   },
 
   publicView(s) {
-    const { pool, spareIds, meta, avoid, hist, ...pub } = s;
+    const { pool, spareIds, meta, avoid, hist, mems, memRound, marks, ...pub } = s;
     pub.undo = (hist || []).filter((h) => h.phase !== 'verdict' && h.phase !== 'reveal').length;
     return pub;
   },

@@ -3,7 +3,7 @@
 // Tim, 2026-11-06: "This game will be online only with another real person ... make a in-person
 // varient where both boards are shown on the same computer and one user looks away while they pick".
 import './fx.js';
-import { game, commitOf, makeSalt, checkReview } from './engine.js';
+import { game, commitOf, makeSalt, checkReview, memClean, memMarkUnknown, memRecord, memMerge, memForDeal } from './engine.js';
 import * as FC from './faces.js';
 import * as KIT from './kit.js';
 import * as PPL from './people.js';
@@ -35,15 +35,38 @@ const secKey = (code, round) => `mystery-face:sec:${code}:${round}`;
 const flipKey = (code, round) => `mystery-face:flip:${code}:${round}`;
 const lsGet = (k) => { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } };
 const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
-// Faces this player said they don't know (deck people only), never dealt to them again. Kept on this
-// device only: the account's Firestore rules allow just the saved-sets docs, so an account copy would
-// need a rules change.
+// Face memory (Tim, 2026-11-06): every face is known / don't-know / unused, plus games since it was last
+// on a board (engine.js memClean). Always on this device; when signed in, also on the account
+// (account.js "_memory" doc), merged at sign-in. The old don't-know list (mystery-face:dunno) is read in once.
+const MEM_KEY = 'mystery-face:memory';
 const DUNNO_KEY = 'mystery-face:dunno';
-const dunnoList = () => { const a = lsGet(DUNNO_KEY); return Array.isArray(a) ? a.filter((x) => typeof x === 'string') : []; };
-function addDunno(ids) {
-  const add = ids.filter((id) => id && !id.startsWith('c/'));
-  if (!add.length) return;
-  lsSet(DUNNO_KEY, Array.from(new Set(dunnoList().concat(add))).slice(-500));
+let MEM = memClean(lsGet(MEM_KEY));
+(() => {
+  if (MEM.g || Object.keys(MEM.u).length) return;
+  const old = lsGet(DUNNO_KEY);
+  if (Array.isArray(old) && old.length) { MEM = memMarkUnknown(MEM, old.filter((x) => typeof x === 'string')); lsSet(MEM_KEY, MEM); }
+})();
+let memSaveT = null;
+function setMem(m) {
+  MEM = m; lsSet(MEM_KEY, MEM);
+  if (!ACCT.user()) return;
+  clearTimeout(memSaveT); memSaveT = setTimeout(() => ACCT.saveMemory(MEM), 1500);
+}
+function addDunno(ids) { const add = ids.filter((id) => id && !id.startsWith('c/')); if (add.length) setMem(memMarkUnknown(MEM, add)); }
+const dunnoList = () => Object.keys(MEM.u);
+/** End of the don't-know phase, once per round: everything left on the board is known. */
+function recordMem(key, board) {
+  if (lsGet('mystery-face:memrec') === key) return;
+  lsSet('mystery-face:memrec', key);
+  setMem(memRecord(MEM, board));
+}
+/** Sign-in: device + account memory, merged, saved to both. */
+async function syncMem() {
+  const r = await ACCT.loadMemory();
+  if (!r.ok) return;
+  const merged = memMerge(MEM, r.mem);
+  MEM = merged; lsSet(MEM_KEY, MEM);
+  if (JSON.stringify(memClean(r.mem)) !== JSON.stringify(merged)) ACCT.saveMemory(merged);
 }
 
 // ui-only state
@@ -74,7 +97,12 @@ const acctCtx = {
   user: ACCT.user, listSets: ACCT.listSets, saveSet: ACCT.saveSet, deleteSet: ACCT.deleteSet,
 };
 PPL.initPeople({ $, toast, sheet, closeSheet, render: () => renderAll(), acct: acctCtx, playWithSet, FX });
-ACCT.onChange((u) => { renderAcctBtn(); PPL.onAccount(u); if (U.online && !inRoom()) U.online = null; });
+let memUid = null;
+ACCT.onChange((u) => {
+  renderAcctBtn(); PPL.onAccount(u); if (U.online && !inRoom()) U.online = null;
+  if (u && u.uid !== memUid) syncMem();
+  memUid = u ? u.uid : null;
+});
 
 function renderAcctBtn() {
   const u = ACCT.user();
@@ -141,7 +169,7 @@ function sourcePool() {
   // Mixed stars also deals the player's own people (Your people), favoured by the deal
   const mix = decks.includes('mixed') ? ownPeople() : null;
   if (mix) ids.push(...mix.people.map((p) => 'c/' + p.id));
-  return { ids, set: null, mix, title: decks.map((d) => FC.deck(d).title).join(' + ') };
+  return { ids, set: null, mix, mixed: decks.includes('mixed'), title: decks.map((d) => FC.deck(d).title).join(' + ') };
 }
 /** Every custom person on this device/account (up to 20, picked at random), as one set: { title, people } */
 function ownPeople() {
@@ -239,7 +267,7 @@ function newLocal() {
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
   const custom = src.set ? { title: src.set.title, people: src.set.people } : src.mix || null;
-  const opts = { pool: src.ids, n: S.n, first: Math.random() < 0.5 ? 0 : 1, custom: !!src.set, meta: src.set ? null : FC.metaFor(src.ids, src.mix), avoid: src.set ? [] : dunnoList() };
+  const opts = { pool: src.ids, n: S.n, first: Math.random() < 0.5 ? 0 : 1, custom: !!src.set, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, mem: src.set ? null : memForDeal(MEM, src.ids) };
   const st = game.setup(2, opts, Math.random);
   S.play = { kind: 'local', id: Date.now().toString(36), state: st, custom, secrets: [null, null], flips: [{}, {}], view: st.first, pick: null };
   FC.useCustom(custom);
@@ -270,7 +298,7 @@ async function createRoom() {
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
   // each player's don't-knows reach the host as a quiet swap when the round starts (autoAvoid)
-  let options = { pool: src.ids, n: S.n, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title, meta: src.set ? null : FC.metaFor(src.ids, src.mix) };
+  let options = { pool: src.ids, n: S.n, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, mem: src.set ? null : memForDeal(MEM, src.ids) };
   if (src.set) {
     // only the faces this board needs travel with the room (the room doc must stay under 1 MiB)
     const ppl = src.set.people.slice().sort(() => Math.random() - 0.5).slice(0, S.n);
@@ -336,6 +364,7 @@ function onSnap(snap) {
     if (prevPub && (prevPub.round !== pub.round)) { U.marks.clear(); U.pickSel = -1; U.guessing = false; }
     auto(snap);
     autoAvoid(snap);
+    memOnline(snap);
     if (pub.phase === 'over' && pub.winner !== null) recordOnce('online:' + snap.code + ':' + pub.round, pub, snap.mySeat);
     if (game.isOver(pub) && pub.gone !== snap.mySeat && (!prevPub || !game.isOver(prevPub))) toast(`${(snap.seats[pub.gone] || {}).name ? 'Your friend' : 'Your friend'} left the game.`);
   }
@@ -351,13 +380,25 @@ function autoAvoid(snap) {
   if (!pub || pub.phase !== 'dunno' || pub.custom || pub.ready[me] || !(snap.toAct || []).includes(me)) return;
   const key = snap.code + ':' + pub.round;
   if (U.lastAvoid === key) return;
+  // the memory goes along (only for the decks on this board): the next deals use both players' memories
+  const decks = new Set(pub.board.map((id) => id.split('/')[0]));
+  const seen = memForDeal(MEM, null);
+  seen.k = seen.k.filter((e) => decks.has(e.split('/')[0]));
+  seen.u = seen.u.filter((id) => decks.has(id.split('/')[0]));
   const list = dunnoList();
-  if (!list.length) return;
+  if (!list.length && !seen.k.length) return;
   U.lastAvoid = key;
   const mine = new Set(list);
   const idx = pub.board.map((id, i) => (mine.has(id) ? i : -1)).filter((i) => i >= 0);
   idx.forEach((i) => U.marks.delete(i));
-  U.online.act({ t: 'swap', idx, avoid: list, quiet: true }).catch(() => { U.lastAvoid = ''; });
+  U.online.act({ t: 'swap', idx, avoid: list.slice(-600), seen, quiet: true }).catch(() => { U.lastAvoid = ''; });
+}
+// The don't-know phase is over (both ready): whatever is on the board now is known to this player.
+function memOnline(snap) {
+  const pub = snap.pub;
+  if (!pub || pub.custom || pub.phase !== 'pick') return;
+  if (!prevPub || prevPub.round !== pub.round || prevPub.phase !== 'dunno') return;
+  recordMem('online:' + snap.code + ':' + pub.round, pub.board);
 }
 // Our phone answers "was that my face?" and shows its face at the end, from the secret saved at the pick.
 function auto(snap) {
@@ -409,7 +450,7 @@ function renderTop() {
 const LOCAL_SNAP_ACTS = new Set(['swap', 'ready', 'pickstart', 'random', 'lockin', 'asked', 'answer', 'done', 'again']);
 function snapStr() {
   const st = S.play.state;
-  const { pool, hist, spareIds, ...rest } = st;
+  const { pool, hist, spareIds, mems, memRound, ...rest } = st;   // the memory only moves forward
   if (st.phase === 'dunno') rest.spareIds = spareIds;
   return JSON.stringify({ state: rest, secrets: S.play.secrets, flips: S.play.flips, pick: S.play.pick ?? null, view: S.play.view, marks: [...U.marks], pickSel: U.pickSel });
 }
@@ -443,6 +484,7 @@ async function goBack(g) {
     const o = JSON.parse(h.pop());
     const cur = S.play.state;
     S.play.state = Object.assign(o.state, { pool: cur.pool, spareIds: o.state.spareIds || cur.spareIds });
+    if (cur.mems) Object.assign(S.play.state, { mems: cur.mems, memRound: cur.memRound });
     Object.assign(S.play, { secrets: o.secrets, flips: o.flips, pick: o.pick, view: o.view });
     U.marks = new Set(o.marks); U.pickSel = o.pickSel;
     FX.play('tap'); save(); renderAll(); return;
@@ -890,7 +932,12 @@ document.addEventListener('click', async (ev) => {
     case 'ready':
       if (!g) break;
       U.marks.clear();
-      if (g.kind === 'local') { for (const s of g.toAct) await send(s, { t: 'ready' }); S.play.pick = null; save(); renderAll(); }
+      if (g.kind === 'local') {
+        for (const s of g.toAct) await send(s, { t: 'ready' });
+        const st = S.play.state;
+        if (st.phase === 'pick' && !st.custom) recordMem('local:' + S.play.id + ':' + st.round, st.board);
+        S.play.pick = null; save(); renderAll();
+      }
       else send(g.me, { t: 'ready' });
       break;
     case 'pickstart': S.play.pick = +v; U.pickSel = -1; save(); renderAll(); break;

@@ -34,6 +34,9 @@ export function loadDeck(id) {
       tags: Array.isArray(p.tags) ? p.tags.map((t) => String(t).toLowerCase()) : [], credit: p.credit || null,
       from: p.from ? String(p.from).slice(0, 40) : '',
       gender: /^[fmx]$/.test(p.gender) ? p.gender : 'x', kind: /^[a-z0-9-]{1,24}$/.test(p.kind) ? p.kind : '',
+      // look-alike checks (optional; decks without them still work): characters' sub (animated|live),
+      // franchise (one card per franchise on a board) and actor (never two roles of one actor)
+      sub: /^[a-z0-9-]{1,24}$/.test(p.sub) ? p.sub : '', franchise: p.franchise ? String(p.franchise).slice(0, 80) : '', actor: p.actor ? String(p.actor).slice(0, 80) : '',
     }));
     const d = { id, title: j.title || id, people, byId: new Map(people.map((p) => [p.id, p])) };
     DECKS.set(id, d); loading.delete(id);
@@ -73,7 +76,7 @@ const TAG_KIND = { actor: 'actor', movie: 'actor', music: 'music', sports: 'spor
   history: 'history', science: 'history', book: 'history', tv: 'tv', internet: 'internet', cartoon: 'character', character: 'character', art: 'art' };
 /** One person, whatever deck: lower case, no accents, letters and digits only ("Beyoncé" = "beyonce"). */
 export const nameKey = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 60);
-/** { faceId: "gender|kind|namekey" } for the engine's balanced, one-copy-per-person deal. */
+/** { faceId: "gender|kind|namekey|sub|franchise|actor" } for the engine's balanced, one-copy-per-person deal. */
 export function metaFor(ids, custom) {
   const out = {};
   for (const id of ids) {
@@ -87,7 +90,8 @@ export function metaFor(ids, custom) {
     const x = deck(d) && deck(d).byId.get(pid);
     if (!x) continue;
     const k = x.kind || (x.tags.map((t) => TAG_KIND[t]).find(Boolean)) || d.toLowerCase().replace(/[^a-z0-9-]/g, '').slice(0, 24);
-    out[id] = x.gender + '|' + k + '|' + nameKey(x.name);
+    const tail = x.sub || x.franchise || x.actor ? '|' + x.sub + '|' + nameKey(x.franchise) + '|' + nameKey(x.actor) : '';
+    out[id] = x.gender + '|' + k + '|' + nameKey(x.name) + tail;
   }
   return out;
 }

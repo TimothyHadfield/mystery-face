@@ -137,7 +137,7 @@ export async function listSets() {
   const u = user(); if (!u) return { ok: false, message: 'Not signed in.' };
   try {
     const snap = await M.F.getDocs(setsCol(u.uid));
-    return { ok: true, sets: snap.docs.map((d) => cleanSet(Object.assign({}, d.data(), { id: d.id }))) };
+    return { ok: true, sets: snap.docs.filter((d) => d.id !== MEM_DOC).map((d) => cleanSet(Object.assign({}, d.data(), { id: d.id }))) };
   } catch (e) { return { ok: false, message: 'Couldn\'t load your people. Check your connection.' }; }
 }
 
@@ -151,6 +151,29 @@ export async function saveSet(set) {
     await M.F.setDoc(setDoc(u.uid, s.id), { title: s.title, people: s.people, updatedAt: s.updatedAt });
     return { ok: true };
   } catch (e) { return { ok: false, message: 'Couldn\'t save to your account. It\'s kept on this device.' }; }
+}
+
+// ------------------------------------------------------------------ face memory on the account
+// Tim, 2026-11-06: "Remember all charactors on a users account as either known, don't know, or unused."
+// It rides in the saved-sets folder the rules already allow (no rules change): one doc "_memory" whose
+// `people` list holds a single string, the memory as JSON (engine.js memClean: { v, g, k, u }, ~30 chars
+// a face, capped at 5000 faces, so ~150 KB at most). listSets skips it.
+const MEM_DOC = '_memory';
+export async function loadMemory() {
+  const u = user(); if (!u) return { ok: false };
+  try {
+    const snap = await M.F.getDoc(setDoc(u.uid, MEM_DOC));
+    if (!snap.exists()) return { ok: true, mem: null };
+    const p = snap.data().people;
+    return { ok: true, mem: JSON.parse(Array.isArray(p) && typeof p[0] === 'string' ? p[0] : 'null') };
+  } catch (e) { return { ok: false }; }
+}
+export async function saveMemory(mem) {
+  const u = user(); if (!u) return { ok: false };
+  const json = JSON.stringify(mem);
+  if (json.length > SET_MAX_CHARS) return { ok: false };
+  try { await M.F.setDoc(setDoc(u.uid, MEM_DOC), { title: 'memory', people: [json], updatedAt: Date.now() }); return { ok: true }; }
+  catch (e) { return { ok: false }; }
 }
 
 export async function deleteSet(id) {
