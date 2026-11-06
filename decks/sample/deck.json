@@ -13,7 +13,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s02",
@@ -26,7 +28,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s03",
@@ -39,7 +43,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s04",
@@ -52,7 +58,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s05",
@@ -65,7 +73,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s06",
@@ -78,7 +88,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s07",
@@ -91,7 +103,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s08",
@@ -104,7 +118,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s09",
@@ -117,7 +133,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s10",
@@ -130,7 +148,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s11",
@@ -143,7 +163,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s12",
@@ -156,7 +178,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s13",
@@ -169,7 +193,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s14",
@@ -182,7 +208,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s15",
@@ -195,7 +223,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s16",
@@ -208,7 +238,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s17",
@@ -221,7 +253,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s18",
@@ -234,7 +268,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s19",
@@ -247,7 +283,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s20",
@@ -260,7 +298,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s21",
@@ -273,7 +313,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s22",
@@ -286,7 +328,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s23",
@@ -299,7 +343,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s24",
@@ -312,7 +358,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s25",
@@ -325,7 +373,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s26",
@@ -338,7 +388,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s27",
@@ -351,7 +403,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s28",
@@ -364,7 +418,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s29",
@@ -377,7 +433,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s30",
@@ -390,7 +448,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s31",
@@ -403,7 +463,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s32",
@@ -416,7 +478,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s33",
@@ -429,7 +493,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s34",
@@ -442,7 +508,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s35",
@@ -455,7 +523,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s36",
@@ -468,7 +538,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s37",
@@ -481,7 +553,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s38",
@@ -494,7 +568,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s39",
@@ -507,7 +583,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   },
   {
    "id": "s40",
@@ -520,7 +598,9 @@
     "author": "Mystery Face (generated shapes)",
     "license": "CC0",
     "source": "tools/make-sample-deck.mjs"
-   }
+   },
+   "gender": "x",
+   "kind": "character"
   }
  ]
 }

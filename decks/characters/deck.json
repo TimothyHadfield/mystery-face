@@ -1,0 +1,901 @@
+{
+ "id": "characters",
+ "title": "Movie characters",
+ "people": [
+  {
+   "id": "aladdin",
+   "name": "Aladdin",
+   "from": "Aladdin",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "anna",
+   "name": "Anna",
+   "from": "Frozen",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "ariel",
+   "name": "Ariel",
+   "from": "The Little Mermaid",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "barbie",
+   "name": "Barbie",
+   "from": "Barbie",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "toy"
+   ]
+  },
+  {
+   "id": "batman",
+   "name": "Batman",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "belle",
+   "name": "Belle",
+   "from": "Beauty and the Beast",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "black-widow",
+   "name": "Black Widow",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "boo",
+   "name": "Boo",
+   "from": "Monsters, Inc.",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "buzz-lightyear",
+   "name": "Buzz Lightyear",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "captain-america",
+   "name": "Captain America",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "captain-marvel",
+   "name": "Captain Marvel",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "cinderella",
+   "name": "Cinderella",
+   "from": "Cinderella",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "darth-vader",
+   "name": "Darth Vader",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "scifi",
+    "villain"
+   ]
+  },
+  {
+   "id": "donkey",
+   "name": "Donkey",
+   "from": "Shrek",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "dreamworks"
+   ]
+  },
+  {
+   "id": "dora",
+   "name": "Dora",
+   "from": "Dora the Explorer",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv",
+    "kids"
+   ]
+  },
+  {
+   "id": "dory",
+   "name": "Dory",
+   "from": "Finding Nemo",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "dumbledore",
+   "name": "Dumbledore",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "fantasy"
+   ]
+  },
+  {
+   "id": "edna-mode",
+   "name": "Edna Mode",
+   "from": "The Incredibles",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "elastigirl",
+   "name": "Elastigirl",
+   "from": "The Incredibles",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "eleven",
+   "name": "Eleven",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv"
+   ]
+  },
+  {
+   "id": "elle-woods",
+   "name": "Elle Woods",
+   "from": "Legally Blonde",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "comedy"
+   ]
+  },
+  {
+   "id": "elsa",
+   "name": "Elsa",
+   "from": "Frozen",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "flynn-rider",
+   "name": "Flynn Rider",
+   "from": "Tangled",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "gandalf",
+   "name": "Gandalf",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "fantasy"
+   ]
+  },
+  {
+   "id": "genie",
+   "name": "Genie",
+   "from": "Aladdin",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "harley-quinn",
+   "name": "Harley Quinn",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero",
+    "villain"
+   ]
+  },
+  {
+   "id": "harry-potter",
+   "name": "Harry Potter",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "fantasy"
+   ]
+  },
+  {
+   "id": "hermione-granger",
+   "name": "Hermione Granger",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "fantasy"
+   ]
+  },
+  {
+   "id": "homer-simpson",
+   "name": "Homer Simpson",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "hulk",
+   "name": "Hulk",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "iron-man",
+   "name": "Iron Man",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "jack-sparrow",
+   "name": "Jack Sparrow",
+   "from": "Pirates of the Caribbean",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "action"
+   ]
+  },
+  {
+   "id": "jasmine",
+   "name": "Jasmine",
+   "from": "Aladdin",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "jessie",
+   "name": "Jessie",
+   "from": "Toy Story",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "joy",
+   "name": "Joy",
+   "from": "Inside Out",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "judy-hopps",
+   "name": "Judy Hopps",
+   "from": "Zootopia",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "katniss-everdeen",
+   "name": "Katniss Everdeen",
+   "from": "The Hunger Games",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "action"
+   ]
+  },
+  {
+   "id": "kermit-the-frog",
+   "name": "Kermit the Frog",
+   "from": "The Muppets",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv"
+   ]
+  },
+  {
+   "id": "lightning-mcqueen",
+   "name": "Lightning McQueen",
+   "from": "Cars",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "lisa-simpson",
+   "name": "Lisa Simpson",
+   "from": "The Simpsons",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "luigi",
+   "name": "Luigi",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "game"
+   ]
+  },
+  {
+   "id": "luke-skywalker",
+   "name": "Luke Skywalker",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "scifi"
+   ]
+  },
+  {
+   "id": "maleficent",
+   "name": "Maleficent",
+   "from": "Sleeping Beauty",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney",
+    "villain"
+   ]
+  },
+  {
+   "id": "marge-simpson",
+   "name": "Marge Simpson",
+   "from": "The Simpsons",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "mario",
+   "name": "Mario",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "game"
+   ]
+  },
+  {
+   "id": "merida",
+   "name": "Merida",
+   "from": "Brave",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "mike-wazowski",
+   "name": "Mike Wazowski",
+   "from": "Monsters, Inc.",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "minions",
+   "name": "Minions",
+   "from": "Despicable Me",
+   "gender": "x",
+   "kind": "character",
+   "tags": [
+    "character",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "minnie-mouse",
+   "name": "Minnie Mouse",
+   "from": "Disney",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "mirabel",
+   "name": "Mirabel",
+   "from": "Encanto",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "moana",
+   "name": "Moana",
+   "from": "Moana",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "mulan",
+   "name": "Mulan",
+   "from": "Mulan",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "olaf",
+   "name": "Olaf",
+   "from": "Frozen",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "patrick-star",
+   "name": "Patrick Star",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "pikachu",
+   "name": "Pikachu",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "tags": [
+    "character",
+    "game"
+   ]
+  },
+  {
+   "id": "princess-fiona",
+   "name": "Princess Fiona",
+   "from": "Shrek",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "dreamworks"
+   ]
+  },
+  {
+   "id": "princess-leia",
+   "name": "Princess Leia",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "scifi"
+   ]
+  },
+  {
+   "id": "princess-peach",
+   "name": "Princess Peach",
+   "from": "Super Mario",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "game"
+   ]
+  },
+  {
+   "id": "rapunzel",
+   "name": "Rapunzel",
+   "from": "Tangled",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "rey",
+   "name": "Rey",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "scifi"
+   ]
+  },
+  {
+   "id": "scooby-doo",
+   "name": "Scooby-Doo",
+   "from": "Scooby-Doo",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "shrek",
+   "name": "Shrek",
+   "from": "Shrek",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "dreamworks"
+   ]
+  },
+  {
+   "id": "simba",
+   "name": "Simba",
+   "from": "The Lion King",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "sonic",
+   "name": "Sonic",
+   "from": "Sonic the Hedgehog",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "game"
+   ]
+  },
+  {
+   "id": "spider-man",
+   "name": "Spider-Man",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "spongebob",
+   "name": "SpongeBob",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "stitch",
+   "name": "Stitch",
+   "from": "Lilo & Stitch",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "sulley",
+   "name": "Sulley",
+   "from": "Monsters, Inc.",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "superman",
+   "name": "Superman",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "thanos",
+   "name": "Thanos",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero",
+    "villain"
+   ]
+  },
+  {
+   "id": "the-joker",
+   "name": "The Joker",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero",
+    "villain"
+   ]
+  },
+  {
+   "id": "thor",
+   "name": "Thor",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "tiana",
+   "name": "Tiana",
+   "from": "The Princess and the Frog",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney"
+   ]
+  },
+  {
+   "id": "ursula",
+   "name": "Ursula",
+   "from": "The Little Mermaid",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "disney",
+    "villain"
+   ]
+  },
+  {
+   "id": "velma",
+   "name": "Velma",
+   "from": "Scooby-Doo",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv",
+    "cartoon"
+   ]
+  },
+  {
+   "id": "voldemort",
+   "name": "Voldemort",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "fantasy",
+    "villain"
+   ]
+  },
+  {
+   "id": "wednesday-addams",
+   "name": "Wednesday Addams",
+   "from": "Wednesday",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "tv"
+   ]
+  },
+  {
+   "id": "wonder-woman",
+   "name": "Wonder Woman",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "tags": [
+    "character",
+    "superhero"
+   ]
+  },
+  {
+   "id": "woody",
+   "name": "Woody",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "pixar"
+   ]
+  },
+  {
+   "id": "yoda",
+   "name": "Yoda",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "tags": [
+    "character",
+    "scifi"
+   ]
+  }
+ ]
+}

@@ -28,6 +28,8 @@ Licence texts:
 
 Cartoon and storybook characters ("Cartoons & Classics") use only artwork that is in the public domain in the US, such as the 1928 *Steamboat Willie* frame, the 1929 *Thimble Theatre* Popeye strip, E. H. Shepard's 1926 Winnie-the-Pooh drawings, Tenniel's *Alice* drawings and Denslow's *Oz* drawings. Some character names are still trademarks of their owners. They are used here only to name the picture.
 
+The "Movie characters" deck has **no pictures**: those characters belong to their studios, so each card shows only the character's name and the film or show it comes from. The names are used only to identify the character. The Mixed stars deck uses some of these name cards too.
+
 ## How the decks are built
 
-`tools/deck-people.txt` lists who is in each deck. `tools/deck-fetch.py` looks up each picture on Commons and keeps only free licences. `tools/deck-build.py` finds the face with OpenCV's YuNet face detector and crops and compresses it. `tools/deck-credits.py` writes `decks/credits.txt`.
+`tools/deck-people.txt` lists who is in each deck. `tools/deck-fetch.py` looks up each picture on Commons and keeps only free licences. `tools/deck-build.py` finds the face with OpenCV's YuNet face detector and crops and compresses it. `tools/deck-meta.py` then adds each card's gender and kind, writes the Movie characters deck and picks the balanced Mixed stars deck. `tools/deck-credits.py` writes `decks/credits.txt`.

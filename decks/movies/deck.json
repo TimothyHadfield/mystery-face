@@ -14,7 +14,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_(3x4).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "alex-trebek",
@@ -28,7 +30,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Alex_Trebek_at_the_71st_Annual_Peabody_Awards_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "anne-hathaway",
@@ -42,7 +46,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:AnneHathaway-byPhilipRomano-Crop.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "arnold-schwarzenegger",
@@ -56,7 +62,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "awkwafina",
@@ -70,7 +78,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Awkwafina_by_Gage_Skidmore.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "benedict-cumberbatch",
@@ -84,7 +94,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Benedict_Cumberbatch-67555.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "betty-white",
@@ -98,7 +110,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Betty_White_1988_Emmy_Awards_(cropped_2).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "tv"
   },
   {
    "id": "bill-nye",
@@ -112,7 +126,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Bill_Nye_2017.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "brad-pitt",
@@ -126,7 +142,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Brad_Pitt-69858.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "casey-neistat",
@@ -140,7 +158,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Casey_Neistat.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "internet"
   },
   {
    "id": "chris-evans",
@@ -154,7 +174,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Chris_Evans_at_the_2025_Toronto_International_Film_Festival_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "chris-hemsworth",
@@ -168,7 +190,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Chris_Hemsworth_-_Crime_101.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "chris-pratt",
@@ -182,7 +206,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_(3x4_cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "cillian-murphy",
@@ -196,7 +222,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "conan-o-brien",
@@ -210,7 +238,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Conan_O%27Brien_2025.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "daniel-radcliffe",
@@ -224,7 +254,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:DanielRadcliffe.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "danny-devito",
@@ -238,7 +270,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Danny_DeVito_cropped_and_edited_for_brightness.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "david-attenborough",
@@ -252,7 +286,9 @@
     "license": "OGL 3",
     "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
     "source": "https://commons.wikimedia.org/wiki/File:David_Attenborough_in_2025.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "denzel-washington",
@@ -266,7 +302,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "dwayne-johnson",
@@ -280,7 +318,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Dwayne_Johnson-1764_(4x5_cropped_with_moderate_headroom).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "emma-chamberlain",
@@ -294,7 +334,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Emma_Chamberlain_for_Chamberlain_Coffee,_2020_(1).png"
-   }
+   },
+   "gender": "f",
+   "kind": "internet"
   },
   {
    "id": "emma-stone",
@@ -308,7 +350,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Emma_Stone_at_the_2025_Venice_Film_Festival-6313_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "emma-watson",
@@ -322,7 +366,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Emma_Watson_2013.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "florence-pugh",
@@ -336,7 +382,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Florence_Pugh_2026.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "gal-gadot",
@@ -350,7 +398,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Gal_Gadot_by_Gage_Skidmore_3.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "gordon-ramsay",
@@ -364,7 +414,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Gordon_Ramsay_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "guy-fieri",
@@ -378,7 +430,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Guy_Fieri_June_2023.png"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "hank-green",
@@ -392,7 +446,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Hank_Green_Headshot_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "internet"
   },
   {
    "id": "harrison-ford",
@@ -406,7 +462,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Harrison_Ford_-_Televerse_2025-03.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "henry-cavill",
@@ -420,7 +478,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Henry_Cavill_(48417913146)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "hugh-jackman",
@@ -434,7 +494,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Hugh_Jackman_by_Gage_Skidmore_3.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "idris-elba",
@@ -448,7 +510,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Idris_Elba_A_House_of_Dynamite-21_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "jack-black",
@@ -462,7 +526,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:TenaciousDO2160623_(38_of_62)_Jack_Black.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "jackie-chan",
@@ -476,7 +542,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "jason-momoa",
@@ -490,7 +558,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jason_Momoa_(43055621224)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "jeff-goldblum",
@@ -504,7 +574,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jeff_Goldblum_by_Gage_Skidmore_3.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "jenna-ortega",
@@ -518,7 +590,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jenna_Ortega-63799_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "jennifer-aniston",
@@ -532,7 +606,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:JenniferAnistonHWoFFeb2012.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "jennifer-lawrence",
@@ -546,7 +622,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Lawrence,_Cannes_Film_Festival_2025.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "jim-carrey",
@@ -560,7 +638,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jim_Carrey_2008.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "jimmy-fallon",
@@ -574,7 +654,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Fallon-TTL_4575_(11046141004)_(5x7_cropped_and_rotated).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "jimmy-kimmel",
@@ -588,7 +670,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Kimmel_June_2022.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "john-cena",
@@ -603,7 +687,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:John_Cena_by_Gage_Skidmore.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "julia-roberts",
@@ -617,7 +703,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Julia_Roberts_2025.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "keanu-reeves",
@@ -631,7 +719,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Keanu_Reeves_at_TIFF_2025_02_(Cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "kevin-hart",
@@ -645,7 +735,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kevin_Hart_2014_(cropped_2).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "kristen-stewart",
@@ -659,7 +751,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Kristen_Stewart_at_WWD_Style_Awards_2026.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "leonardo-dicaprio",
@@ -673,7 +767,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:LeoPTABFI191125-28_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "lilly-singh",
@@ -687,7 +783,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:2024-03-08_SXSW-2024_Variety-comedy-awards_04707_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "internet"
   },
   {
    "id": "lucy-liu",
@@ -701,7 +799,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Lucy_Liu_Rosemead-13_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "lupita-nyong-o",
@@ -715,7 +815,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:LupitaNyongo-byPhilipRomano3.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "margot-robbie",
@@ -729,7 +831,9 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Margot_Robbie_Wuthering_Heights_premiere_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "mark-rober",
@@ -743,7 +847,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Mark_Rober-_Close.png"
-   }
+   },
+   "gender": "m",
+   "kind": "internet"
   },
   {
    "id": "mark-ruffalo",
@@ -757,7 +863,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Mark_Ruffalo_(36201774756)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "markiplier",
@@ -771,7 +879,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Markiplier_in_Markiplier_Covered_Me_In_His_Glue_at_01_15.png"
-   }
+   },
+   "gender": "m",
+   "kind": "internet"
   },
   {
    "id": "marques-brownlee",
@@ -785,7 +895,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Marques_Brownlee_cropped.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "internet"
   },
   {
    "id": "martha-stewart",
@@ -799,7 +911,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Martha_Stewart_(48926315347)_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "tv"
   },
   {
    "id": "matt-damon",
@@ -813,7 +927,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:MattDamon-byPhilipRomano2.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "meryl-streep",
@@ -827,7 +943,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_(cropped1).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "michelle-yeoh",
@@ -841,7 +959,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Michelle_Yeoh-2268.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "millie-bobby-brown",
@@ -855,7 +975,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Millie_Bobby_Brown_2025_(1).png"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "morgan-freeman",
@@ -869,7 +991,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "mrbeast",
@@ -883,7 +1007,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:MrBeast_in_2026_(cropped_4).png"
-   }
+   },
+   "gender": "m",
+   "kind": "internet"
   },
   {
    "id": "natalie-portman",
@@ -897,7 +1023,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:NataliePortman.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "neil-degrasse-tyson",
@@ -911,7 +1039,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Neil_DeGrasse_Tyson_(2023).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "nicolas-cage",
@@ -925,7 +1055,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "ninja",
@@ -939,7 +1071,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Krystalogy,_Jess,_Ninja,_and_Typical_Gamer_relaxing_in_the_State_Farm_Gamerhood_(52899874282)_(3x4_cropped_on_Ninja_and_rotated).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "internet"
   },
   {
    "id": "oprah-winfrey",
@@ -953,7 +1087,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "tv"
   },
   {
    "id": "paul-rudd",
@@ -967,7 +1103,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Paul_Rudd_at_the_2026_New_York_Film_Festival-003.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "pedro-pascal",
@@ -981,7 +1119,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "pewdiepie",
@@ -995,7 +1135,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pewdiepie_head_shot.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "internet"
   },
   {
    "id": "pokimane",
@@ -1009,7 +1151,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pokimane_2019.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "internet"
   },
   {
    "id": "robert-downey-jr",
@@ -1023,7 +1167,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:RobertDowneyJr-byPhilipRomano7_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "robert-pattinson",
@@ -1037,7 +1183,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Robert_Pattinson_Venice_Film_Festival_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "rupert-grint",
@@ -1051,7 +1199,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Rupert_Grint_at_Berlin_Film_Festival_2026,_(P1230675)_(cropped2).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "ryan-gosling",
@@ -1065,7 +1215,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Ryan_Gosling_(16437257783)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "ryan-reynolds",
@@ -1079,7 +1231,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "samuel-l-jackson",
@@ -1093,7 +1247,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:SamuelLJackson.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "sandra-bullock",
@@ -1107,7 +1263,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "scarlett-johansson",
@@ -1121,7 +1279,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Scarlett_Johansson-8588.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "sofia-vergara",
@@ -1135,7 +1295,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "stephen-colbert",
@@ -1149,7 +1311,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Stephen_Colbert_2025.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "steve-carell",
@@ -1163,7 +1327,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Steve_Carell_-_The_40-Year-Old-Virgin.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "steve-harvey",
@@ -1177,7 +1343,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:SteveHarveyHWOFMay2013_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "sylvester-stallone",
@@ -1191,7 +1359,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:P20251206DT-0472_(3x4_cropped_on_Stallone_with_moderate_headroom).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "timothee-chalamet",
@@ -1205,7 +1375,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Timoth%C3%A9e_Chalamet-63482_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "tom-hanks",
@@ -1219,7 +1391,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:TomHanksPrincEdw031223_(11_of_41)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "tom-holland",
@@ -1233,7 +1407,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:TomHolland-byPhilipRomano.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "viola-davis",
@@ -1247,7 +1423,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Viola_Davis_2026_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "will-ferrell",
@@ -1261,7 +1439,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Will_Ferrell_at_the_2024_Toronto_International_Film_Festival_5_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "zendaya",
@@ -1275,7 +1455,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Zendaya-byPhilipRomano.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   }
  ]
 }

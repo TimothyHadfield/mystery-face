@@ -15,9 +15,11 @@ for d in idx:
     if d["id"] == "mixed":
         continue  # every Mixed card is a copy of a card in one of the themed decks
     deck = json.load(open(os.path.join(ROOT, "decks", d["id"], "deck.json"), encoding="utf-8"))
+    if not any(p.get("img") for p in deck["people"]):
+        continue  # name-tile deck (Movie characters): no pictures to credit
     print("\n## %s (%d)\n" % (deck["title"], len(deck["people"])))
     for p in deck["people"]:
-        if p["id"] in seen:
+        if p["id"] in seen or not p.get("img"):  # name tiles have no picture
             continue
         seen.add(p["id"])
         c = p["credit"]

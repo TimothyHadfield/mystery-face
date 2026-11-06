@@ -14,7 +14,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "alicia-keys",
@@ -28,7 +30,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Alicia_Keys_(2025).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "aretha-franklin",
@@ -42,7 +46,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Aretha_Franklin_1968.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "ariana-grande",
@@ -56,7 +62,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Ariana_Grande_promoting_Wicked_(2024).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "bad-bunny",
@@ -70,7 +78,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Bad_Bunny_2019_by_Glenn_Francis_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "beyonce",
@@ -84,7 +94,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "billie-eilish",
@@ -98,7 +110,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:BillieEilishO2140725-39_-_54665577407_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "billy-joel",
@@ -112,7 +126,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:BillyJoelHydeP070723_(57_of_112)_(53031688782)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "bob-marley",
@@ -126,7 +142,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Bob_Marley_circa_1976_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "bruce-springsteen",
@@ -140,7 +158,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Bruce_Springsteen_Springsteen-79_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "bruno-mars",
@@ -154,7 +174,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:BrunoMars24KMagicWorldTourLive_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "cardi-b",
@@ -168,7 +190,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Cardi_B_at_2026_Essence_Festival_of_Culture_02_(cropped)_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "chappell-roan",
@@ -182,7 +206,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:ChappellRoanRockES200825-198_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "cher",
@@ -196,7 +222,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Cher_in_2019_cropped.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "dan-reynolds",
@@ -210,7 +238,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:DanReynolds_2017-10-03_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "doja-cat",
@@ -224,7 +254,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Doja_Cat_x_Amazon1.1_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "dolly-parton",
@@ -238,7 +270,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Young-Dolly-Parton_(higher_quality_scan)_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "drake",
@@ -252,7 +286,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Drake_at_The_Carter_Effect_2017_(36818935200)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "dua-lipa",
@@ -266,7 +302,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Dua_Lipa-69798_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "ed-sheeran",
@@ -280,7 +318,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran_2022_(3x4_crop).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "elton-john",
@@ -294,7 +334,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:EltonDocBFILFF101024_(4_of_17)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "elvis-presley",
@@ -309,7 +351,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "eminem",
@@ -323,7 +367,9 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Eminem_2021_Color_Corrected.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "frank-sinatra",
@@ -338,7 +384,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Frank_Sinatra_(1957_studio_portrait_close-up).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "freddie-mercury",
@@ -352,7 +400,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "garth-brooks",
@@ -366,7 +416,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Garth_Brooks_KCHD_2022.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "harry-styles",
@@ -380,7 +432,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:HarryStylesWembley170623_(65_of_93)_(52982678051)_(cropped_2).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "hozier",
@@ -394,7 +448,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Hozier_2015_01_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "ice-cube",
@@ -409,7 +465,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Ice_Cube_September_2025.png"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "jason-derulo",
@@ -423,7 +481,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jason_Derulo_2.0.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "jennifer-lopez",
@@ -437,7 +497,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_(cropped_3).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "john-lennon",
@@ -452,7 +514,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_(color)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "johnny-cash",
@@ -466,7 +530,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Johnny_Cash_1977.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "jon-bon-jovi",
@@ -480,7 +546,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:NEG_0062-2_(54119957209).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "justin-bieber",
@@ -494,7 +562,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:P20260719DT-1213_President_Donald_J._Trump_and_First_Lady_Melania_Trump_attend_the_FIFA_World_Cup_Final_(cropped_2).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "katy-perry",
@@ -508,7 +578,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Katy_Perry_2026_Tribeca_Film_Festival_(cropped_1).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "kelly-clarkson",
@@ -523,7 +595,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Kelly_Clarkson_2018_DoD_Warrior_Games_Opening_Ceremony_14_-_Cropped_01.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "kendrick-lamar",
@@ -537,7 +611,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-144_(cropped)_desaturated.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "lady-gaga",
@@ -551,7 +627,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_at_Joe_Biden%27s_inauguration_(cropped_5).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "lil-nas-x",
@@ -565,7 +643,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Lil_Nas_X_Talks_About_Gaining_His_Father%27s_Acceptance,_Growing_Up_in_Atlanta,_%26_FINDING_HIMSELF_7-32_screenshot_(headshot).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "lizzo",
@@ -579,7 +659,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Lizzo_September_2025.png"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "lorde",
@@ -593,7 +675,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Lorde_Glasto2025-9_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "louis-armstrong",
@@ -608,7 +692,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_in_Color_(restored).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "luke-combs",
@@ -622,7 +708,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Luke_Combs_interview.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "madonna",
@@ -636,7 +724,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:MadonnaO2171023_(97_of_133)_(53269593787)_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "mick-jagger",
@@ -650,7 +740,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:RStonesHydePark030722_(49_of_125)_(52193656268)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "miley-cyrus",
@@ -664,7 +756,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Miley_Cyrus_Primavera19_-226_(48986293772)_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "nicki-minaj",
@@ -678,7 +772,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Nicki_Minaj_(55022495106)_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "olivia-rodrigo",
@@ -692,7 +788,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Glasto2025-546_(cropped)_2.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "ozzy-osbourne",
@@ -706,7 +804,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Ozzy_Osbourne_in_1970_(medium-sized_crop).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "paul-mccartney",
@@ -720,7 +820,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:MaccaLyricsRFH051121_(15_of_18)_(updated)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "pharrell-williams",
@@ -734,7 +836,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pharrell_Williams_2024_(54133384149).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "pitbull",
@@ -748,7 +852,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Pitbull_(52703405994)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "post-malone",
@@ -762,7 +868,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Post_Malone_2018.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "prince",
@@ -776,7 +884,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Prince_promo_picture_(1988;_cropped_and_retouched).png"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "rihanna",
@@ -790,7 +900,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Rihanna_Fenty_2018.png"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "ringo-starr",
@@ -804,7 +916,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:ARTIST_INTERVIEW_-_Ringo_Starr_(Former_the_Beatles)_exclusive_interview_0-14_screenshot_(portrait_crop).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "sabrina-carpenter",
@@ -818,7 +932,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Sabrina_Carpenter_-_O2_Arena_2025_-_086_(cropped_2).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "selena-gomez",
@@ -833,7 +949,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "shakira",
@@ -847,7 +965,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "shania-twain",
@@ -861,7 +981,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Shania_Twain_Glaston2024_2806_300624_(22_of_173)_(53838020769)_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "snoop-dogg",
@@ -875,7 +997,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Snoop_Dogg,_WrestleMania_XL_(cropped)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "stevie-wonder",
@@ -889,7 +1013,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:SWonderBSTHyde060719-72_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "sza",
@@ -903,7 +1029,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-19_-_54683179509_(cropped)_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "taylor-swift",
@@ -917,7 +1045,9 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "the-weeknd",
@@ -931,7 +1061,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:The_Weeknd_Portrait_by_Brian_Ziff.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "tina-turner",
@@ -945,7 +1077,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Tina_Turner_Breaks_All_the_Rules.png"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "usher",
@@ -959,7 +1093,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Usher_Milan_2026.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "whitney-houston",
@@ -973,7 +1109,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Whitney_Houston_(cropped3).JPEG"
-   }
+   },
+   "gender": "f",
+   "kind": "music"
   },
   {
    "id": "willie-nelson",
@@ -987,7 +1125,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Willie_Nelson_(Retouched).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   }
  ]
 }

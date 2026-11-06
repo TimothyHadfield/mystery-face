@@ -15,7 +15,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "albert-einstein",
@@ -30,7 +32,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "alexander-hamilton",
@@ -44,7 +48,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Alexander_Hamilton_(NPG).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "alexandria-ocasio-cortez",
@@ -58,7 +64,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Alexandria_Ocasio-Cortez_Official_Portrait.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "politics"
   },
   {
    "id": "amelia-earhart",
@@ -72,7 +80,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "audrey-hepburn",
@@ -87,7 +97,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:AudreyKHepburn.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "barack-obama",
@@ -102,7 +114,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "benjamin-franklin",
@@ -116,7 +130,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "bernie-sanders",
@@ -130,7 +146,9 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders_February_2026_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "bill-clinton",
@@ -145,7 +163,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Bill_Clinton.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "bill-gates",
@@ -159,7 +179,9 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "bob-ross",
@@ -174,7 +196,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Bob_Ross_publicity_photo_(c._1982)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "charles-darwin",
@@ -189,7 +213,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "charlie-chaplin",
@@ -204,7 +230,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "actor"
   },
   {
    "id": "condoleezza-rice",
@@ -218,7 +246,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Condoleezza_Rice_cropped.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "politics"
   },
   {
    "id": "diana-princess-of-wales",
@@ -232,7 +262,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Diana,_Princess_of_Wales_1997_(2).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "donald-trump",
@@ -247,7 +279,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "dwight-d-eisenhower",
@@ -262,7 +296,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "eleanor-roosevelt",
@@ -276,7 +312,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_at_the_United_Nations,_circa_1946-1947_(3x4_cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "elizabeth-ii",
@@ -290,7 +328,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "ernest-hemingway",
@@ -304,7 +344,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "franklin-d-roosevelt",
@@ -319,7 +361,9 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "fred-rogers",
@@ -334,7 +378,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Fred-Rogers_1988_(full)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "tv"
   },
   {
    "id": "frederick-douglass",
@@ -348,7 +394,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Frederick_Douglass_(circa_1879)_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "frida-kahlo",
@@ -362,7 +410,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "art"
   },
   {
    "id": "george-h-w-bush",
@@ -377,7 +427,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:George_H._W._Bush_presidential_portrait_(cropped)_(2).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "george-w-bush",
@@ -392,7 +444,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:George-W-Bush.jpeg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "george-washington",
@@ -407,7 +461,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "harriet-tubman",
@@ -421,7 +477,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "harry-s-truman",
@@ -436,7 +494,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:TRUMAN_58-766-06_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "helen-keller",
@@ -450,7 +510,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Helen_Keller_(circa_1904).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "hillary-clinton",
@@ -464,7 +526,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "politics"
   },
   {
    "id": "isaac-newton",
@@ -479,7 +543,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "jane-goodall",
@@ -494,7 +560,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department%27s_Global_Health_Diplomacy_Director_Jordan_in_Washington_(22365513310)_(2)_(cropped_2).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "jd-vance",
@@ -508,7 +576,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "jimmy-carter",
@@ -523,7 +593,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "joe-biden",
@@ -538,7 +610,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "john-f-kennedy",
@@ -553,7 +627,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "john-mccain",
@@ -567,7 +643,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:John_McCain_official_portrait_2009_(3x4_cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "kamala-harris",
@@ -581,7 +659,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "politics"
   },
   {
    "id": "leonardo-da-vinci",
@@ -595,7 +675,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo_(colour_correction).png"
-   }
+   },
+   "gender": "m",
+   "kind": "art"
   },
   {
    "id": "ludwig-van-beethoven",
@@ -610,7 +692,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   },
   {
    "id": "mahatma-gandhi",
@@ -624,7 +708,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "marco-rubio",
@@ -638,7 +724,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Secretary_Marco_Rubio_(cropped)(2).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "marie-curie",
@@ -653,7 +741,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "marilyn-monroe",
@@ -668,7 +758,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Monroecirca1953.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "actor"
   },
   {
    "id": "mark-twain",
@@ -682,7 +774,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley_(cropped_2).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "martin-luther-king-jr",
@@ -696,7 +790,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "michelle-obama",
@@ -710,7 +806,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Michelle_Obama_2013_official_portrait.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "politics"
   },
   {
    "id": "mike-pence",
@@ -724,7 +822,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Mike_Pence_official_Vice_Presidential_portrait.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "mitt-romney",
@@ -738,7 +838,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Mitt_Romney_official_US_Senate_portrait.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "mother-teresa",
@@ -752,7 +854,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Mother_Teresa_1.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "nancy-pelosi",
@@ -766,7 +870,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "politics"
   },
   {
    "id": "neil-armstrong",
@@ -781,7 +887,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Neil_Armstrong_pose.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "nelson-mandela",
@@ -795,7 +903,9 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "nikola-tesla",
@@ -810,7 +920,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "ronald-reagan",
@@ -825,7 +937,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "rosa-parks",
@@ -839,7 +953,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks,_November_1956_(cropped).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "ruth-bader-ginsburg",
@@ -853,7 +969,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_2016_portrait.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "sally-ride",
@@ -868,7 +986,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Sally_Ride_(1984).jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "stephen-hawking",
@@ -883,7 +1003,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Stephen_Hawking.StarChild.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "steve-jobs",
@@ -897,7 +1019,9 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_6).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "susan-b-anthony",
@@ -911,7 +1035,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:SB_Anthony_from_RoRaWW.jpg"
-   }
+   },
+   "gender": "f",
+   "kind": "history"
   },
   {
    "id": "ted-cruz",
@@ -925,7 +1051,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Ted_Cruz_official_116th_portrait_(3x4_cropped).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "politics"
   },
   {
    "id": "theodore-roosevelt",
@@ -940,7 +1068,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros_(4x5_cropped)_(3).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "thomas-edison",
@@ -955,7 +1085,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "thomas-jefferson",
@@ -970,7 +1102,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "vincent-van-gogh",
@@ -984,7 +1118,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "art"
   },
   {
    "id": "walt-disney",
@@ -998,7 +1134,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "william-shakespeare",
@@ -1012,7 +1150,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:William_Shakespeare_by_John_Taylor,_edited.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "winston-churchill",
@@ -1026,7 +1166,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "history"
   },
   {
    "id": "wolfgang-amadeus-mozart",
@@ -1041,7 +1183,9 @@
     "license": "Public domain",
     "licenseUrl": "",
     "source": "https://commons.wikimedia.org/wiki/File:The_Mozart_Family_-_Wolfgang_Amadeus_Mozart_headshot.jpg"
-   }
+   },
+   "gender": "m",
+   "kind": "music"
   }
  ]
 }

@@ -2,12 +2,17 @@
  {
   "id": "mixed",
   "title": "Mixed stars",
-  "count": 71
+  "count": 83
  },
  {
   "id": "movies",
   "title": "Movies, TV & Internet",
   "count": 91
+ },
+ {
+  "id": "characters",
+  "title": "Movie characters",
+  "count": 80
  },
  {
   "id": "music",
