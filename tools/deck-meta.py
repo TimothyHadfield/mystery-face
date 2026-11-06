@@ -1,8 +1,11 @@
 """Step 4 (after deck-build.py): add "gender" and "kind" to every card, write the
-"Movie characters" deck (name + film; free-licence cosplay photos already in
-decks/characters/ are kept, the rest stay name tiles),
-and rebuild "Mixed stars" as a balanced mix (about half women, actors <= 25%,
-politics <= 15%, about 20% characters). Then run deck-credits.py.
+"Movie characters" deck (name + film + franchise + sub live/animated (+ actor);
+its pictures are the studios' character images, picked and cropped by hand and
+already in decks/characters/img/: this script NEVER fetches or overwrites them,
+it only keeps the img + credit already in deck.json),
+and rebuild "Mixed stars" as a balanced mix (~45% characters, actors shown as a
+role they play, ~18% athletes, ~12% politicians, about half women, <= 3 per
+franchise). Then run deck-credits.py.
 
 Usage: python -I tools/deck-meta.py      (idempotent; reads and rewrites decks/)
 gender: f / m / x (x = no clear gender).  kind: actor, music, sports, politics,
@@ -47,8 +50,15 @@ KIND = {
     "the-scream": "art",
 }
 
-# Movie characters deck: (name, from, gender, tags). Pictures (cosplay photos) are kept from the existing deck.json.
+# Movie characters deck: (name, from, gender, tags). Pictures are kept from the existing deck.json.
 CHARACTERS = [
+    # actors shown as a role they play (Mixed uses these instead of the actor's own photo)
+    ("Miranda Priestly", "The Devil Wears Prada", "f", "comedy"), ("Rue Bennett", "Euphoria", "f", "tv"),
+    ("Rachel Green", "Friends", "f", "tv,comedy"), ("Mia Thermopolis", "The Princess Diaries", "f", "disney,comedy"),
+    ("John Wick", "John Wick", "m", "action"), ("Forrest Gump", "Forrest Gump", "m", "drama"),
+    ("Jack Dawson", "Titanic", "m", "drama"), ("Joel Miller", "The Last of Us", "m", "tv"),
+    ("Deadpool", "Marvel", "m", "superhero"), ("Red Redding", "The Shawshank Redemption", "m", "drama"),
+    ("Maui", "Moana", "m", "disney"), ("Po", "Kung Fu Panda", "m", "dreamworks"),
     # women
     ("Elsa", "Frozen", "f", "disney"), ("Anna", "Frozen", "f", "disney"), ("Moana", "Moana", "f", "disney"),
     ("Rapunzel", "Tangled", "f", "disney"), ("Mulan", "Mulan", "f", "disney"),
@@ -94,40 +104,97 @@ CHARACTERS = [
     ("Minions", "Despicable Me", "x", "cartoon"), ("Pikachu", "Pokémon", "x", "game"),
 ]
 
-# Mixed stars: (source deck, id). Name tiles come from "characters".
+# Live-action (or puppet) characters: id -> actor ("" = no single actor to name). The rest are animated/drawn.
+LIVE = {
+    "black-widow": "Scarlett Johansson", "wonder-woman": "Gal Gadot", "captain-marvel": "Brie Larson",
+    "harley-quinn": "Margot Robbie", "hermione-granger": "Emma Watson", "princess-leia": "Carrie Fisher",
+    "rey": "Daisy Ridley", "katniss-everdeen": "Jennifer Lawrence", "wednesday-addams": "Jenna Ortega",
+    "eleven": "Millie Bobby Brown", "barbie": "Margot Robbie", "elle-woods": "Reese Witherspoon",
+    "thanos": "Josh Brolin", "iron-man": "Robert Downey Jr.", "spider-man": "Tom Holland",
+    "captain-america": "Chris Evans", "thor": "Chris Hemsworth", "hulk": "Mark Ruffalo", "batman": "Ben Affleck",
+    "the-joker": "Heath Ledger", "harry-potter": "Daniel Radcliffe", "dumbledore": "Michael Gambon",
+    "voldemort": "Ralph Fiennes", "gandalf": "Ian McKellen", "darth-vader": "", "yoda": "Frank Oz",
+    "luke-skywalker": "Mark Hamill", "jack-sparrow": "Johnny Depp", "kermit-the-frog": "",
+    "miranda-priestly": "Meryl Streep", "rue-bennett": "Zendaya", "rachel-green": "Jennifer Aniston",
+    "mia-thermopolis": "Anne Hathaway", "john-wick": "Keanu Reeves", "forrest-gump": "Tom Hanks",
+    "jack-dawson": "Leonardo DiCaprio", "joel-miller": "Pedro Pascal", "deadpool": "Ryan Reynolds",
+    "red-redding": "Morgan Freeman",
+}
+VOICE = {"maui": "Dwayne Johnson", "po": "Jack Black"}  # animated roles of actors from the actors deck
+
+# franchise (so a board can avoid two from the same world); default = "from"
+FRANCHISE = {
+    "minnie-mouse": "Mickey Mouse", "mickey-mouse": "Mickey Mouse", "popeye": "Popeye", "olive-oyl": "Popeye",
+    "alice": "Alice in Wonderland", "cheshire-cat": "Alice in Wonderland", "mad-hatter": "Alice in Wonderland",
+    "humpty-dumpty": "Alice in Wonderland",
+    "dorothy": "The Wizard of Oz", "the-cowardly-lion": "The Wizard of Oz", "the-scarecrow": "The Wizard of Oz",
+    "winnie-the-pooh": "Winnie-the-Pooh", "piglet": "Winnie-the-Pooh", "koko-the-clown": "Out of the Inkwell",
+}
+
+# studio credited for each franchise's character pictures (default Disney)
+STUDIO = {
+    "Toy Story": "Disney / Pixar", "Brave": "Disney / Pixar", "Finding Nemo": "Disney / Pixar",
+    "Inside Out": "Disney / Pixar", "The Incredibles": "Disney / Pixar", "Monsters, Inc.": "Disney / Pixar",
+    "Cars": "Disney / Pixar", "Marvel": "Marvel Studios", "Star Wars": "Lucasfilm",
+    "Harry Potter": "Warner Bros.", "DC": "Warner Bros. / DC", "The Lord of the Rings": "New Line Cinema",
+    "Barbie": "Warner Bros. / Mattel", "Scooby-Doo": "Warner Bros. / Hanna-Barbera", "Friends": "Warner Bros. Television",
+    "Shrek": "DreamWorks Animation", "Kung Fu Panda": "DreamWorks Animation", "The Hunger Games": "Lionsgate",
+    "John Wick": "Lionsgate", "Wednesday": "Netflix", "Stranger Things": "Netflix", "Legally Blonde": "MGM",
+    "Super Mario": "Nintendo", "Pokémon": "The Pokémon Company / Nintendo", "Dora the Explorer": "Nickelodeon",
+    "SpongeBob SquarePants": "Nickelodeon", "The Simpsons": "20th Television / Gracie Films",
+    "Sonic the Hedgehog": "Sega", "Despicable Me": "Illumination", "The Devil Wears Prada": "20th Century Studios",
+    "Euphoria": "HBO", "The Last of Us": "HBO", "Forrest Gump": "Paramount Pictures",
+    "Titanic": "Paramount / 20th Century", "The Shawshank Redemption": "Columbia Pictures",
+    "The Muppets": "Disney / The Muppets Studio",
+}
+
+# Mixed stars: (source deck, id). Actors appear only as a role they play (from the characters deck).
 MIXED = [
-    # women (real)
-    ("music", "taylor-swift"), ("music", "beyonce"), ("music", "rihanna"), ("music", "ariana-grande"),
-    ("music", "billie-eilish"), ("music", "lady-gaga"), ("music", "dolly-parton"), ("music", "adele"),
-    ("music", "sabrina-carpenter"), ("music", "olivia-rodrigo"),
-    ("movies", "zendaya"), ("movies", "margot-robbie"), ("movies", "meryl-streep"), ("movies", "emma-watson"),
-    ("movies", "jenna-ortega"), ("movies", "jennifer-lawrence"),
+    # characters, women: animated
+    ("characters", "elsa"), ("characters", "moana"), ("characters", "rapunzel"), ("characters", "ariel"),
+    ("characters", "mulan"), ("characters", "tiana"), ("characters", "judy-hopps"),
+    ("characters", "princess-fiona"), ("characters", "dory"), ("characters", "marge-simpson"),
+    ("characters", "velma"), ("characters", "princess-peach"), ("cartoons", "betty-boop"),
+    # characters, women: live action
+    ("characters", "hermione-granger"), ("characters", "wonder-woman"), ("characters", "barbie"),
+    ("characters", "katniss-everdeen"), ("characters", "wednesday-addams"), ("characters", "princess-leia"),
+    ("characters", "eleven"), ("characters", "elle-woods"), ("characters", "miranda-priestly"),
+    ("characters", "rue-bennett"), ("characters", "rachel-green"), ("characters", "mia-thermopolis"),
+    ("characters", "harley-quinn"),
+    # characters, men: animated
+    ("characters", "shrek"), ("characters", "stitch"), ("characters", "woody"), ("characters", "spongebob"),
+    ("characters", "homer-simpson"), ("characters", "mario"), ("characters", "pikachu"), ("characters", "simba"),
+    ("characters", "mike-wazowski"), ("characters", "maui"), ("characters", "po"), ("characters", "scooby-doo"),
+    ("cartoons", "mickey-mouse"), ("cartoons", "popeye"),
+    # characters, men: live action
+    ("characters", "thanos"), ("characters", "harry-potter"), ("characters", "darth-vader"),
+    ("characters", "jack-sparrow"), ("characters", "gandalf"), ("characters", "iron-man"),
+    ("characters", "john-wick"), ("characters", "forrest-gump"), ("characters", "jack-dawson"),
+    ("characters", "joel-miller"), ("characters", "deadpool"), ("characters", "red-redding"),
+    # athletes
     ("sports", "serena-williams"), ("sports", "simone-biles"), ("sports", "caitlin-clark"), ("sports", "coco-gauff"),
-    ("movies", "oprah-winfrey"), ("movies", "betty-white"), ("movies", "pokimane"),
-    ("history", "elizabeth-ii"), ("history", "marie-curie"), ("history", "amelia-earhart"),
-    ("history", "rosa-parks"), ("history", "frida-kahlo"), ("history", "marilyn-monroe"),
-    ("history", "michelle-obama"), ("history", "kamala-harris"),
-    # men (real)
-    ("music", "ed-sheeran"), ("music", "bruno-mars"), ("music", "harry-styles"), ("music", "snoop-dogg"),
-    ("music", "elton-john"), ("music", "bad-bunny"),
-    ("movies", "dwayne-johnson"), ("movies", "tom-hanks"), ("movies", "keanu-reeves"), ("movies", "pedro-pascal"),
-    ("movies", "ryan-reynolds"), ("movies", "jack-black"), ("movies", "morgan-freeman"),
-    ("movies", "leonardo-dicaprio"), ("movies", "tom-holland"), ("movies", "jackie-chan"),
+    ("sports", "naomi-osaka"), ("sports", "alex-morgan"), ("sports", "katie-ledecky"), ("sports", "lindsey-vonn"),
+    ("sports", "sha-carri-richardson"), ("sports", "ronda-rousey"),
     ("sports", "lebron-james"), ("sports", "lionel-messi"), ("sports", "cristiano-ronaldo"),
     ("sports", "michael-jordan"), ("sports", "shohei-ohtani"), ("sports", "stephen-curry"),
-    ("sports", "tom-brady"), ("sports", "usain-bolt"),
-    ("movies", "mrbeast"), ("movies", "gordon-ramsay"), ("history", "bob-ross"), ("history", "fred-rogers"),
-    ("history", "abraham-lincoln"), ("history", "albert-einstein"), ("history", "martin-luther-king-jr"),
-    ("history", "george-washington"),
+    ("sports", "tom-brady"), ("sports", "usain-bolt"), ("sports", "tiger-woods"), ("sports", "patrick-mahomes"),
+    # politicians (both parties)
+    ("history", "kamala-harris"), ("history", "michelle-obama"), ("history", "alexandria-ocasio-cortez"),
+    ("history", "hillary-clinton"), ("history", "nancy-pelosi"), ("history", "condoleezza-rice"),
     ("history", "barack-obama"), ("history", "donald-trump"), ("history", "joe-biden"),
-    # characters and art with public-domain pictures
-    ("cartoons", "mickey-mouse"), ("cartoons", "popeye"), ("cartoons", "betty-boop"), ("cartoons", "alice"),
-    ("cartoons", "dorothy"), ("cartoons", "olive-oyl"), ("cartoons", "mona-lisa"),
-    # name tiles
-    ("characters", "elsa"), ("characters", "moana"), ("characters", "rapunzel"),
-    ("characters", "hermione-granger"), ("characters", "wonder-woman"), ("characters", "barbie"),
-    ("characters", "shrek"), ("characters", "thanos"), ("characters", "flynn-rider"), ("characters", "spongebob"),
+    ("history", "bernie-sanders"), ("history", "george-w-bush"), ("history", "mitt-romney"), ("history", "jd-vance"),
+    # music
+    ("music", "taylor-swift"), ("music", "beyonce"), ("music", "rihanna"), ("music", "ariana-grande"),
+    ("music", "billie-eilish"), ("music", "lady-gaga"), ("music", "dolly-parton"), ("music", "adele"),
+    ("music", "ed-sheeran"), ("music", "bruno-mars"), ("music", "snoop-dogg"), ("music", "elton-john"),
+    ("music", "bad-bunny"),
+    # history, art, TV and internet
+    ("history", "marie-curie"), ("history", "amelia-earhart"), ("history", "rosa-parks"), ("history", "elizabeth-ii"),
+    ("history", "frida-kahlo"), ("cartoons", "mona-lisa"), ("movies", "oprah-winfrey"),
+    ("history", "abraham-lincoln"), ("history", "albert-einstein"), ("history", "martin-luther-king-jr"),
+    ("history", "george-washington"), ("history", "bob-ross"), ("movies", "mrbeast"), ("movies", "gordon-ramsay"),
 ]
+MAX_PER_FRANCHISE = 3
 
 INDEX = [
     ("mixed", "Mixed stars"), ("movies", "Movies, TV & Internet"), ("characters", "Movie characters"),
@@ -181,19 +248,26 @@ def main():
         for p in deck["people"]:
             p["gender"] = gender_of(d, p)
             p["kind"] = kind_of(d, p)
+            if p["kind"] == "character":
+                p["sub"] = "animated"
+                p["franchise"] = FRANCHISE.get(p["id"], p["name"])
             by[(d, p["id"])] = p
         save(d, deck)
     unknown = [i for i in FEMALE | NO_GENDER | set(KIND) if not any(k[1] == i for k in by)]
     assert not unknown, unknown
 
-    # keep pictures already added to character cards (cosplay photos, see CREDITS.md)
+    # keep the pictures already on character cards (studio images, see CREDITS.md); never touch the files
     cpath = os.path.join(DECKS, "characters", "deck.json")
     old = {p["id"]: p for p in json.load(open(cpath, encoding="utf-8"))["people"]} if os.path.exists(cpath) else {}
     chars = []
     for name, src, g, tags in CHARACTERS:
-        p = {"id": slug(name), "name": name, "from": src, "gender": g, "kind": "character",
+        i = slug(name)
+        p = {"id": i, "name": name, "from": src, "gender": g, "kind": "character",
+             "sub": "live" if i in LIVE else "animated", "franchise": FRANCHISE.get(i, src),
              "tags": ["character"] + tags.split(",")}
-        o = old.get(p["id"], {})
+        if LIVE.get(i) or VOICE.get(i):
+            p["actor"] = LIVE.get(i) or VOICE[i]
+        o = old.get(i, {})
         if o.get("img") and os.path.exists(os.path.join(DECKS, "characters", o["img"])):
             p["img"], p["credit"] = o["img"], o["credit"]
         chars.append(p)
@@ -214,6 +288,9 @@ def main():
             shutil.copyfile(os.path.join(DECKS, d, p["img"]), os.path.join(DECKS, "mixed", p["img"]))
         mixed.append(p)
     assert len({p["id"] for p in mixed}) == len(mixed)
+    assert not [p["id"] for p in mixed if p["kind"] == "actor"], "Mixed shows actors as their roles"
+    fr = collections.Counter(p["franchise"] for p in mixed if p.get("franchise"))
+    assert max(fr.values()) <= MAX_PER_FRANCHISE, fr.most_common(3)
     mixed.sort(key=lambda p: p["name"].lower())
     save("mixed", {"id": "mixed", "title": "Mixed stars", "people": mixed})
 
