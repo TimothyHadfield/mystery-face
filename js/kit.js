@@ -51,7 +51,7 @@ export function rules() {
         <ul><li>Right: you win the round.</li><li>Wrong: that face gets a red X on your board (it can't be flipped or guessed again) and the turn passes.</li></ul>` },
       { id: 'end', short: 'End', title: 'End of the round', html: `<p>Both faces are shown, every pick is checked against its lock, and the whole question log is listed. If a "kind" question (like "Are they an actor?") was answered against the face's kind, the review points it out.</p>
         <p><b>Play again</b> keeps the score and the deck, deals new faces, and the other player starts.</p>` },
-      { id: 'same', short: 'Same screen', title: 'Same screen', html: `<p>Two players at one phone or laptop. Ask and answer out loud; the screen says whose step it is.</p>
+      { id: 'same', short: 'Same screen', title: 'Same screen', html: `<p>Two players at one phone or laptop. Ask and answer out loud, flip the faces it rules out, then tap <b>Asked</b>: it's the other player's turn.</p>
         <ul><li>When picking, the other player looks away. Your face is then hidden: press and hold <b>Your face</b> to peek.</li>
         <li>Each player has their own board. On a phone switch with <b>Player 1 / Player 2</b>; on a laptop they sit side by side.</li></ul>` },
       { id: 'people', short: 'Your people', title: 'Your own people', html: `<p>In <b>People</b>, make a set from photos (or just names: they show as coloured name tiles). Photos are cut square and made small on your phone before they're saved.</p>

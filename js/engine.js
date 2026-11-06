@@ -258,6 +258,13 @@ export const game = {
         const e = { by: seat, q };
         if (a.tag && typeof a.tag === 'string' && /^[a-z0-9-]{1,24}$/.test(a.tag)) e.tag = a.tag;
         s.log.push(e);
+        // Same screen (Tim, 2026-11-06): asked and answered out loud, the asker flips, then "Asked" passes the turn
+        if (a.aloud && a.pass) {
+          const left = Number(a.left);
+          if (Number.isInteger(left) && left >= 0 && left <= s.board.length) s.left[seat] = left;
+          s.turn = other(seat);
+          break;
+        }
         s.phase = 'answer';
         break;
       }

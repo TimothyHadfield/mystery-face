@@ -571,7 +571,7 @@ function stepFor(g) {
     case 'ask': {
       const t = p.turn;
       if (U.guessing && meAct(t)) return guessStep(g, t);
-      if (L) return { text: `<b>${N[t]}:</b> ask a yes/no question out loud`, dock: `<button class="btn" data-act="guess">Guess</button><button class="btn main" data-act="asked">Asked</button>`, board: t };
+      if (L) return { text: `<b>${N[t]}:</b> ask out loud, flip faces, then Asked`, sub: 'Or tap Guess to name their face.', dock: `<button class="btn" data-act="guess">Guess</button><button class="btn main" data-act="asked">Asked · ${leftCount(g, t)} left</button>`, board: t, flipping: true };
       if (t !== g.me) return { text: `${esc(N[t])} is asking…`, sub: q && q.a ? `Last: ${esc(nm(q.by))} asked ${qtxt}: ${ANS[q.a]}` : '' };
       return { text: '<b>Your turn:</b> ask a yes/no question', ask: true, dock: '' };
     }
@@ -896,7 +896,7 @@ document.addEventListener('click', async (ev) => {
     case 'pickstart': S.play.pick = +v; U.pickSel = -1; save(); renderAll(); break;
     case 'random': if (g) { U.pickSel = Math.floor(Math.random() * g.pub.board.length); renderAll(); } break;
     case 'lockin': lockIn(g); break;
-    case 'asked': if (g) send(g.pub.turn, { t: 'ask', q: '', aloud: true }); break;
+    case 'asked': if (g) { const t = g.pub.turn; send(t, { t: 'ask', q: '', aloud: true, pass: g.kind === 'local', left: leftCount(g, t) }); } break;
     case 'chip': { const inp = $('#qIn'); if (inp) { inp.value = b.textContent.trim(); inp.dataset.tag = b.dataset.tag || ''; inp.focus(); } break; }
     case 'ask': askNow(g); break;
     case 'answer': if (g) send(g.kind === 'local' ? other(g.pub.turn) : g.me, { t: 'answer', a: v }); break;
@@ -958,6 +958,7 @@ function onTile(g, seat, i, el) {
   // update the counts without rebuilding the board
   const left = leftCount(g, seat);
   document.querySelectorAll('[data-act="done"]').forEach((d) => { d.textContent = `Next · ${left} left`; });
+  document.querySelectorAll('[data-act="asked"]').forEach((d) => { d.textContent = `Asked · ${left} left`; });
   renderTop();
   if (L) { const sw = document.querySelector(`.pswitch [data-v="${seat}"]`); if (sw) sw.textContent = sw.textContent.replace(/\d+ left/, left + ' left'); }
 }

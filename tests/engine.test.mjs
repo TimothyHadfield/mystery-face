@@ -29,6 +29,14 @@ test('sha256 matches known vectors', () => {
   assert.equal(sha256('Zoë'), sha256('Zoë')); // utf-8
 });
 
+test('same screen: "Asked" after flipping passes the turn with no answer or Next step', () => {
+  let { s } = toPlay();
+  s = act(s, 0, { t: 'ask', q: '', aloud: true, pass: true, left: 17 });
+  assert.equal(s.phase, 'ask');
+  assert.equal(s.turn, 1);
+  assert.equal(s.left[0], 17);
+});
+
 test('setup deals n distinct faces from the pool, starts in the "don\'t know" phase', () => {
   const s = game.setup(2, opts(), R(), []);
   assert.equal(s.board.length, 24);
