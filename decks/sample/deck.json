@@ -1,0 +1,526 @@
+{
+ "id": "sample",
+ "title": "Sample shapes",
+ "people": [
+  {
+   "id": "s01",
+   "name": "Blip",
+   "img": "img/s01.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s02",
+   "name": "Zorg",
+   "img": "img/s02.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s03",
+   "name": "Mabel",
+   "img": "img/s03.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s04",
+   "name": "Quill",
+   "img": "img/s04.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s05",
+   "name": "Nimbus",
+   "img": "img/s05.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s06",
+   "name": "Pip",
+   "img": "img/s06.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s07",
+   "name": "Torva",
+   "img": "img/s07.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s08",
+   "name": "Ozzy",
+   "img": "img/s08.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s09",
+   "name": "Fennel",
+   "img": "img/s09.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s10",
+   "name": "Rook",
+   "img": "img/s10.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s11",
+   "name": "Juniper",
+   "img": "img/s11.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s12",
+   "name": "Sprocket",
+   "img": "img/s12.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s13",
+   "name": "Dot",
+   "img": "img/s13.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s14",
+   "name": "Wexley",
+   "img": "img/s14.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s15",
+   "name": "Bramble",
+   "img": "img/s15.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s16",
+   "name": "Kip",
+   "img": "img/s16.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s17",
+   "name": "Lumen",
+   "img": "img/s17.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s18",
+   "name": "Gus",
+   "img": "img/s18.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s19",
+   "name": "Tansy",
+   "img": "img/s19.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s20",
+   "name": "Orbit",
+   "img": "img/s20.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s21",
+   "name": "Pell",
+   "img": "img/s21.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s22",
+   "name": "Cobble",
+   "img": "img/s22.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s23",
+   "name": "Wren",
+   "img": "img/s23.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s24",
+   "name": "Doodle",
+   "img": "img/s24.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s25",
+   "name": "Mortimer",
+   "img": "img/s25.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s26",
+   "name": "Zinnia",
+   "img": "img/s26.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s27",
+   "name": "Biscuit",
+   "img": "img/s27.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s28",
+   "name": "Flint",
+   "img": "img/s28.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s29",
+   "name": "Hazel",
+   "img": "img/s29.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s30",
+   "name": "Pogo",
+   "img": "img/s30.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s31",
+   "name": "Rumi",
+   "img": "img/s31.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s32",
+   "name": "Sable",
+   "img": "img/s32.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s33",
+   "name": "Tock",
+   "img": "img/s33.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s34",
+   "name": "Umber",
+   "img": "img/s34.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s35",
+   "name": "Vale",
+   "img": "img/s35.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s36",
+   "name": "Widget",
+   "img": "img/s36.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s37",
+   "name": "Yarrow",
+   "img": "img/s37.webp",
+   "tags": [
+    "robot"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s38",
+   "name": "Ziggy",
+   "img": "img/s38.webp",
+   "tags": [
+    "monster"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s39",
+   "name": "Moss",
+   "img": "img/s39.webp",
+   "tags": [
+    "alien"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  },
+  {
+   "id": "s40",
+   "name": "Echo",
+   "img": "img/s40.webp",
+   "tags": [
+    "blob"
+   ],
+   "credit": {
+    "author": "Mystery Face (generated shapes)",
+    "license": "CC0",
+    "source": "tools/make-sample-deck.mjs"
+   }
+  }
+ ]
+}

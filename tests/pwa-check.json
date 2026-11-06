@@ -1,0 +1,10 @@
+{
+  "repo": "mystery-face",
+  "ready": "!!document.querySelector('#tab-play.on') && !!(document.querySelector('[data-act=create]') || document.querySelector('#tab-play .board'))",
+  "play": [
+    "(async () => { const w = ms => new Promise(r => setTimeout(r, ms)); const st = () => JSON.parse(localStorage.getItem('mystery-face:v1') || '{}').play; if (!st()) { for (let i = 0; i < 100 && !document.querySelector('.srcs .src.on'); i++) await w(100); document.querySelector('[data-act=mode][data-v=local]').click(); await w(50); document.querySelector('[data-act=startlocal]').click(); } for (let i = 0; i < 50 && !document.querySelector('[data-act=ready]'); i++) await w(100); const r = document.querySelector('[data-act=ready]'); if (r) r.click(); window.__p0 = st().state.phase; })()"
+  ],
+  "played": "(() => { const p = JSON.parse(localStorage.getItem('mystery-face:v1') || '{}').play; return !!p && p.state.phase === 'pick'; })()",
+  "safe": "document.querySelector('.tabs [data-tab=settings]').click()",
+  "debug": "JSON.stringify((() => { const p = JSON.parse(localStorage.getItem('mystery-face:v1') || '{}').play; return p ? { phase: p.state.phase, p0: window.__p0 } : null; })())"
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mystery Face</title>
+<meta name="description" content="Ask yes/no questions and flip faces to find your friend's mystery face. Online with a friend or on one screen; famous faces or your own people.">
+<meta name="theme-color" content="#0f1117">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Mystery Face">
+<link rel="stylesheet" href="css/table.css?v=1">
+<link rel="stylesheet" href="css/style.css?v=1">
+<link rel="stylesheet" href="css/profile.css?v=1">
+<link rel="stylesheet" href="css/coach.css?v=1">
+</head>
+<body>
+<div id="app">
+  <header class="top">
+    <a class="back" href="../" aria-label="All games"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></a>
+    <div class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="3" width="26" height="26" rx="6" fill="#2b3550"/><circle cx="16" cy="13" r="6" fill="#f0b354"/><path d="M6 29c1.5-6 5.5-9 10-9s8.5 3 10 9" fill="#f0b354"/><text x="16" y="16.5" text-anchor="middle" font-size="8.5" font-weight="800" fill="#2b3550" font-family="system-ui,sans-serif">?</text></svg>
+      <span>Mystery Face</span>
+    </div>
+    <div id="topInfo"></div>
+    <button id="acctBtn" class="acct" aria-label="Account"></button>
+  </header>
+
+  <main>
+    <section id="tab-play" class="tab"></section>
+    <section id="tab-people" class="tab"></section>
+    <section id="tab-settings" class="tab"></section>
+  </main>
+
+  <nav class="tabs" id="tabs" aria-label="Sections">
+    <button data-tab="play" aria-label="Play"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="5" height="7" rx="1"/><rect x="9.5" y="4" width="5" height="7" rx="1"/><rect x="16" y="4" width="5" height="7" rx="1"/><rect x="3" y="13" width="5" height="7" rx="1"/><path d="M9.5 18.5h5M16 18.5h5" /></svg>Play</button>
+    <button data-tab="people" aria-label="People"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-4 3.4-6 6.5-6s5.7 2 6.5 6"/><circle cx="17" cy="9" r="2.6"/><path d="M16.5 14c2.6 0 4.4 1.7 5 4.6"/></svg>People</button>
+    <button data-tab="settings" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></svg>Settings</button>
+  </nav>
+</div>
+<div id="layer"></div>
+<input type="file" id="filePick" accept="image/*" multiple hidden>
+<input type="file" id="jsonPick" accept="application/json,.json" hidden>
+<script src="js/table.js?v=1"></script>
+<script src="js/coach.js?v=1"></script>
+<script src="js/profile.js?v=1"></script>
+<script src="js/pwa.js?v=1" data-version="1" defer></script>
+<script type="module" src="js/app.js?v=1"></script>
+</body>
+</html>

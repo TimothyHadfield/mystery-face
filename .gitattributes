@@ -1,0 +1,13 @@
+# shared byte-for-byte copies of the kits: never convert line endings
+js/table.js -text
+css/table.css -text
+js/fx.js -text
+js/coach.js -text
+css/coach.css -text
+js/profile.js -text
+css/profile.css -text
+js/pwa.js -text
+sw.js -text
+tools/make-icons.mjs -text
+tools/pwa-check.mjs -text
+js/online.js -text
