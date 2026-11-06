@@ -176,6 +176,12 @@ main { min-height: 0; position: relative; }
 .face .xmark::after { transform: translate(-50%, -50%) rotate(-45deg); }
 .face.down .ph { filter: grayscale(1) brightness(.38); }
 .face.down .xmark { display: block; }
+/* a wrong guess: red X, locked (can't be flipped or guessed again) */
+.face.wrong .xmark { display: block; }
+.face.wrong .xmark::before, .face.wrong .xmark::after { background: #ef4444; height: 4px; }
+.face.wrong .ph { filter: brightness(.55); }
+.face.wrong .nm { color: #ef4444; text-decoration: line-through; }
+#topInfo .navbtns { display: flex; gap: 6px; flex: none; }
 .face.down .nm { color: #5d6377; text-decoration: line-through; }
 .face.flipping .ph { animation: flipit .28s ease; }
 @keyframes flipit { 0% { transform: rotateY(0); } 50% { transform: rotateY(90deg); } 100% { transform: rotateY(0); } }

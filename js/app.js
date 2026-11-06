@@ -47,7 +47,7 @@ function addDunno(ids) {
 }
 
 // ui-only state
-const U = { marks: new Set(), pickSel: -1, guessing: false, guessSel: -1, peek: false, lastRec: '', lastAuto: '', timerKey: '', timerAt: 0, timerRang: false, sheet: false, busy: false, joinCode: '', online: null, snap: null, zoom: null };
+const U = { marks: new Set(), pickSel: -1, guessing: false, guessSel: -1, peek: false, lastRec: '', lastAuto: '', timerKey: '', timerAt: 0, timerRang: false, sheet: false, busy: false, joinCode: '', online: null, snap: null, zoom: null, oflips: [], home: false };
 
 // ------------------------------------------------------------------ kits
 FX.init({ game: 'mystery-face', accent: '#f0b354', clickSelector: 'button:not(.face)' });
@@ -229,7 +229,7 @@ function recordOnce(key, pub, mySeat) {
   if (mySeat === null) { PF.recordResult({ mode: 'friends', won: null, extra: { custom, n: pub.board.length } }); return; }
   if (pub.reason === 'left' && pub.gone === mySeat) return;
   const asked = pub.log.filter((e) => e.by === mySeat && !('guess' in e)).length;
-  const r = PF.recordResult({ mode: 'online', won: pub.winner === mySeat, extra: { asked, custom, n: pub.board.length, livesLeft: pub.lives[mySeat], maxLives: pub.maxLives } });
+  const r = PF.recordResult({ mode: 'online', won: pub.winner === mySeat, extra: { asked, custom, n: pub.board.length } });
   if (r && pub.winner === mySeat) FX.celebrate({ kind: 'win', colors: ['#f0b354', '#6ea8fe', '#4ade80'] });
   else FX.celebrate({ kind: 'lose' });
 }
@@ -239,7 +239,7 @@ function newLocal() {
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
   const custom = src.set ? { title: src.set.title, people: src.set.people } : src.mix || null;
-  const opts = { pool: src.ids, n: S.n, lives: S.lives, first: Math.random() < 0.5 ? 0 : 1, custom: !!src.set, meta: src.set ? null : FC.metaFor(src.ids, src.mix), avoid: src.set ? [] : dunnoList() };
+  const opts = { pool: src.ids, n: S.n, first: Math.random() < 0.5 ? 0 : 1, custom: !!src.set, meta: src.set ? null : FC.metaFor(src.ids, src.mix), avoid: src.set ? [] : dunnoList() };
   const st = game.setup(2, opts, Math.random);
   S.play = { kind: 'local', id: Date.now().toString(36), state: st, custom, secrets: [null, null], flips: [{}, {}], view: st.first, pick: null };
   FC.useCustom(custom);
@@ -270,7 +270,7 @@ async function createRoom() {
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
   // each player's don't-knows reach the host as a quiet swap when the round starts (autoAvoid)
-  let options = { pool: src.ids, n: S.n, lives: S.lives, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title, meta: src.set ? null : FC.metaFor(src.ids, src.mix) };
+  let options = { pool: src.ids, n: S.n, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title, meta: src.set ? null : FC.metaFor(src.ids, src.mix) };
   if (src.set) {
     // only the faces this board needs travel with the room (the room doc must stay under 1 MiB)
     const ppl = src.set.people.slice().sort(() => Math.random() - 0.5).slice(0, S.n);
@@ -340,6 +340,7 @@ function onSnap(snap) {
     if (game.isOver(pub) && pub.gone !== snap.mySeat && (!prevPub || !game.isOver(prevPub))) toast(`${(snap.seats[pub.gone] || {}).name ? 'Your friend' : 'Your friend'} left the game.`);
   }
   if (!was || was.status !== snap.status) U.marks.clear();
+  if (pub && prevPub && (pub.undo || 0) < (prevPub.undo || 0)) { U.lastAuto = ''; U.guessing = false; }   // someone pressed Back
   prevPub = pub || null;
   renderAll();
 }
@@ -396,8 +397,62 @@ function renderAll() {
 function renderTop() {
   const g = G();
   const el = $('#topInfo');
-  if (g && g.pub && g.pub.score) el.innerHTML = `<span class="score" title="Score">${esc(g.names[0])} <b>${g.pub.score[0]}</b>–<b>${g.pub.score[1]}</b> ${esc(g.names[1])}</span>`;
-  else el.innerHTML = '';
+  const showGame = g && g.pub && g.pub.score && !(g.kind === 'local' && U.home);
+  const score = showGame ? `<span class="score" title="Score">${esc(g.names[0])} <b>${g.pub.score[0]}</b>–<b>${g.pub.score[1]}</b> ${esc(g.names[1])}</span>` : '';
+  // Back + Home (Tim, 2026-11-06): on every in-game screen, top right
+  const inRoomNow = U.online && U.snap && U.snap.status && U.snap.status !== 'none';
+  const nav = (showGame || inRoomNow) && S.tab === 'play' ? `<span class="navbtns"><button class="btn small icon" data-act="back" aria-label="Back: undo the last action" ${canBack(g) ? '' : 'disabled'}><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14L4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 010 11H11"/></svg></button><button class="btn small icon" data-act="home" aria-label="Home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg></button></span>` : '';
+  el.innerHTML = score + nav;
+}
+
+// ---- Back: undo the previous action, whatever it was
+const LOCAL_SNAP_ACTS = new Set(['swap', 'ready', 'pickstart', 'random', 'lockin', 'asked', 'answer', 'done', 'again']);
+function snapStr() {
+  const st = S.play.state;
+  const { pool, hist, spareIds, ...rest } = st;
+  if (st.phase === 'dunno') rest.spareIds = spareIds;
+  return JSON.stringify({ state: rest, secrets: S.play.secrets, flips: S.play.flips, pick: S.play.pick ?? null, view: S.play.view, marks: [...U.marks], pickSel: U.pickSel });
+}
+function localSnap() {
+  if (!S.play || S.play.kind !== 'local') return;
+  const snap = snapStr();
+  const h = S.play.hist || (S.play.hist = []);
+  if (h[h.length - 1] !== snap) h.push(snap);
+  if (h.length > 60) h.splice(0, h.length - 60);
+}
+const flipKey2 = (p) => p.round + ':' + p.phase + ':' + p.log.length + ':' + p.turn;
+function canBack(g) {
+  if (!g || !g.pub) return false;
+  if (U.guessing) return true;
+  if (g.kind === 'local') return !!(S.play.hist && S.play.hist.length);
+  const p = g.pub;
+  if (game.isOver(p)) return false;
+  const top = U.oflips[U.oflips.length - 1];
+  if (top && top.key === flipKey2(p)) return true;
+  if ((p.phase === 'dunno' && U.marks.size) || (p.phase === 'pick' && U.pickSel >= 0)) return true;
+  return g.toAct.includes(g.me) && p.undo > 0;
+}
+async function goBack(g) {
+  if (!g) return;
+  if (U.guessing) { U.guessing = false; return renderAll(); }
+  if (g.kind === 'local') {
+    const h = S.play.hist || [];
+    const now = snapStr();
+    while (h.length && h[h.length - 1] === now) h.pop();   // a tap that changed nothing
+    if (!h.length) return;
+    const o = JSON.parse(h.pop());
+    const cur = S.play.state;
+    S.play.state = Object.assign(o.state, { pool: cur.pool, spareIds: o.state.spareIds || cur.spareIds });
+    Object.assign(S.play, { secrets: o.secrets, flips: o.flips, pick: o.pick, view: o.view });
+    U.marks = new Set(o.marks); U.pickSel = o.pickSel;
+    FX.play('tap'); save(); renderAll(); return;
+  }
+  const p = g.pub;
+  const top = U.oflips[U.oflips.length - 1];
+  if (top && top.key === flipKey2(p)) { U.oflips.pop(); setFlips(g, g.me, top.flips); FX.play('cardFlip'); return renderAll(); }
+  if (p.phase === 'dunno' && U.marks.size) { U.marks.delete([...U.marks].pop()); return renderAll(); }
+  if (p.phase === 'pick' && U.pickSel >= 0) { U.pickSel = -1; return renderAll(); }
+  if (await send(g.me, { t: 'undo' })) FX.play('tap');
 }
 
 // ---- Play: home (no game)
@@ -422,6 +477,7 @@ function renderHome(el) {
   const online = S.mode === 'online';
   const name = S.name || (PF && PF.name) || '';
   el.innerHTML = `<div class="pane home">
+    ${S.play && S.play.kind === 'local' ? '<div class="row"><button class="btn main grow" data-act="resume">Resume same-screen game</button></div>' : ''}
     <div class="seg modes"><button data-act="mode" data-v="online" class="${online ? 'on' : ''}">Online with a friend</button><button data-act="mode" data-v="local" class="${online ? '' : 'on'}">Same screen</button></div>
     <div class="lbl">Faces</div>
     <div class="srcs">${DECKS_READY ? cards.join('') : '<span class="muted small">Loading faces…</span>'}</div>
@@ -455,7 +511,7 @@ function renderLobby(el, sn) {
     <div class="big-code">${esc(sn.code)}</div>
     <div class="row center"><button class="btn" data-act="sharelink">Share link</button></div>
     <div class="plates"><span class="plate"><i class="dot on"></i>${esc(sn.seats[sn.mySeat].name)} (you)</span><span class="plate${here ? '' : ' wait'}"><i class="dot${here && friend.online ? ' on' : ''}"></i>${here ? esc(friend.name) : 'Waiting for a friend…'}</span></div>
-    <p class="muted small">${esc(o.custom ? o.custom.title : o.title || '')} · ${Math.min(o.n || 24, (o.pool || []).length)} faces${o.lives === 3 ? ' · 3 lives' : ''}${o.timer ? ` · ${o.timer}s turns` : ''}</p>
+    <p class="muted small">${esc(o.custom ? o.custom.title : o.title || '')} · ${Math.min(o.n || 24, (o.pool || []).length)} faces${o.timer ? ` · ${o.timer}s turns` : ''}</p>
     <div class="row center">${sn.isHost ? `<button class="btn main" data-act="ostart" ${here ? '' : 'disabled'}>Start</button>` : '<span class="muted">Waiting for the host to start…</span>'}<button class="btn" data-act="leave">Leave</button></div>
   </div>`;
 }
@@ -467,7 +523,7 @@ function renderPlay() {
   const sn = U.snap;
   if (U.online && sn && sn.status !== 'playing' && sn.status !== 'finished') return renderLobby(el, sn);
   const g = G();
-  if (!g) return renderHome(el);
+  if (!g || (g.kind === 'local' && U.home)) return renderHome(el);
   if (g.kind === 'online' && !g.pub) return renderLobby(el, sn);
   renderGame(el, g);
 }
@@ -530,9 +586,9 @@ function stepFor(g) {
       const left = leftCount(g, t);
       if (U.guessing && meAct(t)) return guessStep(g, t);
       const said = q && q.a ? `${L ? N[other(t)] : esc(N[other(t)])} said <b>${ANS[q.a]}</b>${q.q ? ` to ${qtxt}` : ''}.` : '';
-      if (L) return { text: `<b>${N[t]}:</b> flip faces down, then Done`, sub: said, dock: `<button class="btn" data-act="guess">Guess</button><button class="btn main" data-act="done">Done · ${left} left</button>`, board: t, flipping: true };
+      if (L) return { text: `<b>${N[t]}:</b> flip faces down, then Next`, sub: said, dock: `<button class="btn main" data-act="done">Next · ${left} left</button>`, board: t, flipping: true };
       if (t !== g.me) return { text: `${esc(N[t])} is flipping faces…`, sub: q ? `You said ${ANS[q.a] || ''} to ${qtxt}` : '' };
-      return { text: said || 'Flip faces down', sub: 'Tap faces it can\'t be, then Done.', dock: `<button class="btn" data-act="guess">Guess</button><button class="btn main" data-act="done">Done · ${left} left</button>`, flipping: true };
+      return { text: said || 'Flip faces down', sub: 'Tap faces it can\'t be, then Next.', dock: `<button class="btn main" data-act="done">Next · ${left} left</button>`, flipping: true };
     }
     case 'verdict': {
       const by = p.pending.by;
@@ -546,12 +602,13 @@ function stepFor(g) {
 }
 function guessStep(g, t) {
   const p = g.pub;
-  const sel = U.guessSel >= 0 ? FC.face(p.board[U.guessSel]).name : '';
-  const lives = p.maxLives > 1 ? ` You have ${p.lives[t]} ${p.lives[t] === 1 ? 'life' : 'lives'}.` : ' A wrong guess loses.';
-  return { text: '<b>Final guess:</b> tap who you think it is', sub: lives, dock: `<button class="btn" data-act="guessx">Cancel</button><button class="btn main danger-ish" data-act="guessgo" ${U.guessSel >= 0 ? '' : 'disabled'}>${sel ? 'Guess ' + esc(sel) : 'Guess'}</button>`, guessing: true, board: t };
+  return { text: '<b>Guess:</b> tap who you think it is', sub: 'Wrong: they get a red X and the turn passes.', dock: `<button class="btn" data-act="guessx">Cancel</button>`, guessing: true, board: t };
 }
 const answerBtns = () => `<button class="btn ans" data-act="answer" data-v="yes">Yes</button><button class="btn ans" data-act="answer" data-v="no">No</button><button class="btn ans" data-act="answer" data-v="unsure">Not sure</button>`;
-function leftCount(g, seat) { const f = flipsOf(g, seat); return g.pub.board.length - Object.keys(f).filter((k) => +k < g.pub.board.length).length; }
+function leftCount(g, seat) {
+  const f = flipsOf(g, seat), b = g.pub.board, x = (g.pub.xed && g.pub.xed[seat]) || [];
+  return b.filter((id, i) => f[i] === undefined && !x.includes(id)).length;
+}
 
 function renderGame(el, g) {
   const p = g.pub;
@@ -566,7 +623,7 @@ function renderGame(el, g) {
   const view = L ? (S.play.view ?? 0) : g.me;
   const timer = timerHTML(g);
   const opp = L ? null : other(g.me);
-  const oppLine = !L && playing ? `<span class="oppline"><i class="dot${g.snap.seats[opp] && g.snap.seats[opp].online ? ' on' : ''}"></i>${esc(g.names[opp])} · ${p.left[opp]} left${p.maxLives > 1 ? ' · ' + '♥'.repeat(Math.max(0, p.lives[opp])) : ''}</span>` : '';
+  const oppLine = !L && playing ? `<span class="oppline"><i class="dot${g.snap.seats[opp] && g.snap.seats[opp].online ? ' on' : ''}"></i>${esc(g.names[opp])} · ${p.left[opp]} left</span>` : '';
   const away = !L && g.snap.seats[opp] && g.snap.seats[opp].kind === 'human' && !g.snap.seats[opp].online && g.toAct.includes(opp);
   el.innerHTML = `<div class="game ${L ? 'local' : 'online'} ph-${p.phase}${over ? ' is-over' : ''}">
     <div class="prompt">
@@ -574,7 +631,7 @@ function renderGame(el, g) {
       <div class="ptext"><div class="pmain">${st.text || ''}</div>${st.sub || away ? `<div class="psub">${away ? `<b class="warn">${esc(g.names[opp])} seems away.</b> ` : ''}${st.sub || ''}</div>` : ''}</div>
       <div class="pside">${timer}${oppLine}<button class="btn small icon" data-act="log" aria-label="Question log"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 5h14M5 10h14M5 15h9M5 20h6"/></svg><span class="lc">${p.log.length}</span></button><button class="btn small icon" data-act="menu" aria-label="Game menu"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg></button></div>
     </div>
-    ${L && playing ? `<div class="seg pswitch">${seats.map((s) => `<button data-act="view" data-v="${s}" class="${view === s ? 'on' : ''}${(st.board === s) ? ' act' : ''}">${g.names[s]}${p.maxLives > 1 ? ' ' + '♥'.repeat(Math.max(0, p.lives[s])) : ''} · ${leftCount(g, s)} left</button>`).join('')}</div>` : ''}
+    ${L && playing ? `<div class="seg pswitch">${seats.map((s) => `<button data-act="view" data-v="${s}" class="${view === s ? 'on' : ''}${(st.board === s) ? ' act' : ''}">${g.names[s]} · ${leftCount(g, s)} left</button>`).join('')}</div>` : ''}
     <div class="boards${L && playing ? ' two' : ''}">${(L && playing ? seats : [L ? view : g.me]).map((s) => boardHTML(g, s, st, L && playing && s !== view)).join('')}</div>
     ${over ? '' : `<div class="dock${st.ask ? ' askdock' : ''}${st.dock || st.ask ? '' : ' quiet'}">${st.ask ? askDock(g) : st.dock || ''}</div>`}
     ${st.cover ? `<div class="cover"><div><svg viewBox="0 0 48 48" width="56" height="56" aria-hidden="true"><path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24z" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="24" cy="24" r="6" fill="currentColor"/><path d="M8 40L40 8" stroke="currentColor" stroke-width="3"/></svg><h2>${esc(st.cover.title)}</h2><p>${esc(st.cover.text)}</p><button class="btn main big" data-act="${st.cover.act}" data-v="${st.cover.v}">${esc(st.cover.btn)}</button></div></div>` : ''}
@@ -602,7 +659,8 @@ function boardHTML(g, seat, st, dim) {
     const f = FC.face(id);
     const down = flips[i] !== undefined;
     const cls = ['face'];
-    if (down) cls.push('down');
+    if (playing && p.xed && p.xed[seat] && p.xed[seat].includes(id)) cls.push('wrong');
+    else if (down) cls.push('down');
     if (p.phase === 'dunno' && U.marks.has(i)) cls.push('marked');
     if (fresh) cls.push(fresh.has(i) ? 'fresh' : 'stale');
     if (st.picking && U.pickSel === i) cls.push('sel');
@@ -624,7 +682,7 @@ function askDock(g) {
   const looks = p.custom && g.custom && g.custom.people.every((x) => !x.img) ? [] : KIT.LOOKS;
   return `<div class="askrow"><input id="qIn" maxlength="120" placeholder="Type a yes/no question" autocomplete="off" enterkeyhint="send" aria-label="Your question"><button class="btn main" data-act="ask">Ask</button></div>
     <div class="chips qchips">${tagChips.join('')}${looks.map((l) => `<button class="chip" data-act="chip">${esc(l)}</button>`).join('')}</div>
-    <div class="row guessrow"><button class="btn small" data-act="guess">Make a final guess instead</button></div>`;
+    <div class="row guessrow"><button class="btn small" data-act="guess">Guess instead</button></div>`;
 }
 
 // advisory turn timer (Settings): counts the current step on every phone; nothing happens at 0
@@ -727,7 +785,6 @@ function renderSettings() {
   el.innerHTML = `<div class="pane settings">
     <h3>Game</h3>
     <div class="set-row"><span>Names under faces</span><label class="switch"><input type="checkbox" data-set="names" ${S.names ? 'checked' : ''}><span></span></label></div>
-    <div class="set-row"><span>Wrong guess <button class="q" data-act="help" data-v="lives" aria-label="About lives">?</button></span><div class="seg"><button data-act="lives" data-v="1" class="${S.lives === 1 ? 'on' : ''}">Loses</button><button data-act="lives" data-v="3" class="${S.lives === 3 ? 'on' : ''}">3 lives</button></div></div>
     <div class="set-row"><span>Turn timer <button class="q" data-act="help" data-v="timer" aria-label="About the timer">?</button></span><div class="seg">${[0, 60, 90, 120].map((v) => `<button data-act="timer" data-v="${v}" class="${S.timer === v ? 'on' : ''}">${v ? v + 's' : 'Off'}</button>`).join('')}</div></div>
     <div class="row wrap"><button class="btn" data-act="rules">Rules</button>${PF ? `<button class="btn pf-open" data-act="mystats">${PF.avatarSVG(PF.avatar, 20)}My stats</button>` : ''}<button class="btn" data-act="account">${u ? 'Account' : 'Sign in'}</button></div>
     <h3>Sound &amp; effects</h3><div id="fxSet"></div>
@@ -772,7 +829,10 @@ document.addEventListener('click', async (ev) => {
   if (b.dataset.pp) { await PPL.onClick(b); return; }
   const a = b.dataset.act, v = b.dataset.v;
   const g = G();
+  if (g && g.kind === 'local' && LOCAL_SNAP_ACTS.has(a)) localSnap();
   switch (a) {
+    case 'back': goBack(g); break;
+    case 'resume': U.home = false; renderAll(); break;
     case 'sheetx': closeSheet(); break;
     case 'account': accountSheet('in'); break;
     case 'acct-in': accountSheet('in'); break;
@@ -795,7 +855,7 @@ document.addEventListener('click', async (ev) => {
     case 'newset': S.tab = 'people'; save(); await PPL.onClick(Object.assign(document.createElement('button'), { dataset: { pp: 'new' } })); break;
     case 'tag': { const t = S.src.tags || []; S.src.tags = t.includes(v) ? t.filter((x) => x !== v) : t.concat(v); save(); renderAll(); break; }
     case 'size': S.n = +v; save(); renderAll(); break;
-    case 'startlocal': newLocal(); break;
+    case 'startlocal': U.home = false; newLocal(); break;
     case 'create': createRoom(); break;
     case 'join': joinRoom(); break;
     case 'ostart': {
@@ -804,7 +864,11 @@ document.addEventListener('click', async (ev) => {
       if (!r.ok) toast(r.message);
       break;
     }
+    case 'home':   // same screen: home with a Resume button; online: Home leaves the room (asks first mid-game)
+      if (!U.online || !U.snap) { U.home = true; U.guessing = false; renderAll(); break; }
+      // falls through
     case 'leave': case 'leaveask':
+      if (!U.online) break;
       if (a === 'leaveask' || (g && g.pub && !['over'].includes(g.pub.phase) && !game.isOver(g.pub))) {
         sheet(`<h3>Leave the room?</h3><p class="muted">${g && g.pub && g.pub.phase !== 'over' ? 'The game ends and your friend wins this round.' : 'Your friend stays in the room.'}</p><div class="row end"><button class="btn" data-act="sheetx">Stay</button><button class="btn main danger" data-act="leave2">Leave</button></div>`);
       } else leaveRoom();
@@ -818,8 +882,7 @@ document.addEventListener('click', async (ev) => {
     case 'rules': closeSheet(); COACH.rules(KIT.rules()); break;
     case 'mystats': PF && PF.openPanel(); break;
     case 'credits': creditsSheet(); break;
-    case 'help': toast(v === 'lives' ? 'With 3 lives a wrong guess costs a life and the turn passes.' : 'A countdown for each step, on both screens. Nothing happens at 0: it\'s a nudge.'); break;
-    case 'lives': S.lives = +v; save(); renderAll(); break;
+    case 'help': toast('A countdown for each step, on both screens. Nothing happens at 0: it\'s a nudge.'); break;
     case 'timer': S.timer = +v; save(); renderAll(); break;
     case 'view': S.play.view = +v; save(); renderPlay(); break;
     case 'tile': onTile(g, +b.dataset.seat, +b.dataset.i, b); break;
@@ -840,7 +903,6 @@ document.addEventListener('click', async (ev) => {
     case 'done': if (g) { const t = g.pub.turn; send(t, { t: 'done', left: leftCount(g, t) }); } break;
     case 'guess': U.guessing = true; U.guessSel = -1; renderPlay(); break;
     case 'guessx': U.guessing = false; renderPlay(); break;
-    case 'guessgo': if (g && U.guessSel >= 0) { const t = g.pub.turn; const face = g.pub.board[U.guessSel]; U.guessing = false; FX.play('drumroll'); await send(t, { t: 'guess', face }); renderAll(); } break;
     case 'verdict': if (g) send(g.me, { t: 'verdict', ok: v === '1' }); break;
     case 'again': if (g) { if (g.kind === 'local') { await send(0, { t: 'again' }); await send(1, { t: 'again' }); S.play.secrets = [null, null]; S.play.flips = [{}, {}]; S.play.pick = null; save(); FX.play('shuffle'); renderAll(); } else send(g.me, { t: 'again' }); } break;
     case 'zoomme': zoomMe(g); break;
@@ -859,6 +921,7 @@ document.addEventListener('keydown', (e) => {
 function onTile(g, seat, i, el) {
   if (!g) return;
   const p = g.pub, L = g.kind === 'local';
+  if (L) localSnap();
   if (p.phase === 'dunno') {
     if (!L && p.ready[g.me]) return;
     U.marks.has(i) ? U.marks.delete(i) : U.marks.add(i);
@@ -869,11 +932,21 @@ function onTile(g, seat, i, el) {
     U.pickSel = U.pickSel === i ? -1 : i; FX.play('tap'); renderPlay(); return;
   }
   if (p.phase === 'over' || game.isOver(p)) return;
-  if (U.guessing && (L ? seat === p.turn : true)) { U.guessSel = U.guessSel === i ? -1 : i; renderPlay(); return; }
+  const xed = (p.xed && p.xed[seat]) || [];
+  if (U.guessing && (L ? seat === p.turn : true)) {
+    // tap = the guess (no confirm step); crossed-out and flipped-down faces can't be guessed
+    if (xed.includes(p.board[i])) return toast('Already guessed wrong');
+    if (flipsOf(g, seat)[i] !== undefined) return toast('Flipped down: stand them back up to guess them');
+    U.guessing = false; FX.play('drumroll');
+    send(L ? p.turn : g.me, { t: 'guess', face: p.board[i] }).then(() => renderAll());
+    return;
+  }
+  if (xed.includes(p.board[i])) return toast('Guessed wrong: they stay crossed out');
   // flipping: your own board, any time (it's private); same screen: only the board of the player who's flipping
   if (L && seat !== p.turn) { S.play.view = seat; return toast(`${g.names[p.turn]} is flipping now. Switch back to flip.`); }
   const f = Object.assign({}, flipsOf(g, seat));
   if (f[i] !== undefined) delete f[i]; else f[i] = turnNo(p);
+  if (L) localSnap(); else U.oflips.push({ key: flipKey2(p), flips: flipsOf(g, seat) });
   setFlips(g, seat, f);
   FX.play('cardFlip');
   const btn = el.closest('.face');
@@ -884,7 +957,8 @@ function onTile(g, seat, i, el) {
   }
   // update the counts without rebuilding the board
   const left = leftCount(g, seat);
-  document.querySelectorAll('[data-act="done"]').forEach((d) => { d.textContent = `Done · ${left} left`; });
+  document.querySelectorAll('[data-act="done"]').forEach((d) => { d.textContent = `Next · ${left} left`; });
+  renderTop();
   if (L) { const sw = document.querySelector(`.pswitch [data-v="${seat}"]`); if (sw) sw.textContent = sw.textContent.replace(/\d+ left/, left + ' left'); }
 }
 
