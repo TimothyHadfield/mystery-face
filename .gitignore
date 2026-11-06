@@ -2,3 +2,6 @@
 __pycache__/
 node_modules/
 *.pyc
+
+firebase-debug.log
+test-account.local.txt
