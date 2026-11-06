@@ -1,0 +1,993 @@
+{
+ "id": "music",
+ "title": "Music",
+ "people": [
+  {
+   "id": "adele",
+   "name": "Adele",
+   "img": "img/adele.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Marc E.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg"
+   }
+  },
+  {
+   "id": "alicia-keys",
+   "name": "Alicia Keys",
+   "img": "img/alicia-keys.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alicia_Keys_(2025).jpg"
+   }
+  },
+  {
+   "id": "aretha-franklin",
+   "name": "Aretha Franklin",
+   "img": "img/aretha-franklin.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Atlantic Records (Life time: Published before 1978 without a copyright notice)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Aretha_Franklin_1968.jpg"
+   }
+  },
+  {
+   "id": "ariana-grande",
+   "name": "Ariana Grande",
+   "img": "img/ariana-grande.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Barbie Simons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ariana_Grande_promoting_Wicked_(2024).jpg"
+   }
+  },
+  {
+   "id": "bad-bunny",
+   "name": "Bad Bunny",
+   "img": "img/bad-bunny.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bad_Bunny_2019_by_Glenn_Francis_(cropped).jpg"
+   }
+  },
+  {
+   "id": "beyonce",
+   "name": "Beyoncé",
+   "img": "img/beyonce.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg"
+   }
+  },
+  {
+   "id": "billie-eilish",
+   "name": "Billie Eilish",
+   "img": "img/billie-eilish.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BillieEilishO2140725-39_-_54665577407_(cropped).jpg"
+   }
+  },
+  {
+   "id": "billy-joel",
+   "name": "Billy Joel",
+   "img": "img/billy-joel.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BillyJoelHydeP070723_(57_of_112)_(53031688782)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bob-marley",
+   "name": "Bob Marley",
+   "img": "img/bob-marley.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Not credited",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob_Marley_circa_1976_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bruce-springsteen",
+   "name": "Bruce Springsteen",
+   "img": "img/bruce-springsteen.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bruce_Springsteen_Springsteen-79_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bruno-mars",
+   "name": "Bruno Mars",
+   "img": "img/bruno-mars.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "slgckgc",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BrunoMars24KMagicWorldTourLive_(cropped).jpg"
+   }
+  },
+  {
+   "id": "cardi-b",
+   "name": "Cardi B",
+   "img": "img/cardi-b.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Runawaymo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cardi_B_at_2026_Essence_Festival_of_Culture_02_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "chappell-roan",
+   "name": "Chappell Roan",
+   "img": "img/chappell-roan.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ChappellRoanRockES200825-198_(cropped).jpg"
+   }
+  },
+  {
+   "id": "cher",
+   "name": "Cher",
+   "img": "img/cher.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cher_in_2019_cropped.jpg"
+   }
+  },
+  {
+   "id": "dan-reynolds",
+   "name": "Dan Reynolds",
+   "img": "img/dan-reynolds.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Davidwbaker",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DanReynolds_2017-10-03_(cropped).jpg"
+   }
+  },
+  {
+   "id": "doja-cat",
+   "name": "Doja Cat",
+   "img": "img/doja-cat.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Nate the Director",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Doja_Cat_x_Amazon1.1_(cropped).jpg"
+   }
+  },
+  {
+   "id": "dolly-parton",
+   "name": "Dolly Parton",
+   "img": "img/dolly-parton.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "David Gahr",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Young-Dolly-Parton_(higher_quality_scan)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "drake",
+   "name": "Drake",
+   "img": "img/drake.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "GabboT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Drake_at_The_Carter_Effect_2017_(36818935200)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "dua-lipa",
+   "name": "Dua Lipa",
+   "img": "img/dua-lipa.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dua_Lipa-69798_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ed-sheeran",
+   "name": "Ed Sheeran",
+   "img": "img/ed-sheeran.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Number 10",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran_2022_(3x4_crop).jpg"
+   }
+  },
+  {
+   "id": "elton-john",
+   "name": "Elton John",
+   "img": "img/elton-john.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:EltonDocBFILFF101024_(4_of_17)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "elvis-presley",
+   "name": "Elvis Presley",
+   "img": "img/elvis-presley.webp",
+   "tags": [
+    "music",
+    "history"
+   ],
+   "credit": {
+    "author": "Metro-Goldwyn-Mayer, Inc. Reproduction Number: LC-USZ6-2067 Location: NYWTS -- BIOG",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
+   }
+  },
+  {
+   "id": "eminem",
+   "name": "Eminem",
+   "img": "img/eminem.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Brendan_linden",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Eminem_2021_Color_Corrected.jpg"
+   }
+  },
+  {
+   "id": "frank-sinatra",
+   "name": "Frank Sinatra",
+   "img": "img/frank-sinatra.webp",
+   "tags": [
+    "music",
+    "history"
+   ],
+   "credit": {
+    "author": "Photograph by Capitol Records, per a credit found in the 1959 edition of the International Celebrity Register at page 696. No known source credits an individual photographer.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frank_Sinatra_(1957_studio_portrait_close-up).jpg"
+   }
+  },
+  {
+   "id": "freddie-mercury",
+   "name": "Freddie Mercury",
+   "img": "img/freddie-mercury.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Carl Lender",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg"
+   }
+  },
+  {
+   "id": "garth-brooks",
+   "name": "Garth Brooks",
+   "img": "img/garth-brooks.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "U.S. Department of State from United States",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Garth_Brooks_KCHD_2022.jpg"
+   }
+  },
+  {
+   "id": "harry-styles",
+   "name": "Harry Styles",
+   "img": "img/harry-styles.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HarryStylesWembley170623_(65_of_93)_(52982678051)_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "hozier",
+   "name": "Hozier",
+   "img": "img/hozier.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Kayla Johnson from Seattle, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hozier_2015_01_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ice-cube",
+   "name": "Ice Cube",
+   "img": "img/ice-cube.webp",
+   "tags": [
+    "music",
+    "actor"
+   ],
+   "credit": {
+    "author": "MILLION DOLLAZ WORTH OF GAME",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ice_Cube_September_2025.png"
+   }
+  },
+  {
+   "id": "jason-derulo",
+   "name": "Jason Derulo",
+   "img": "img/jason-derulo.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Amy Martin Photography",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jason_Derulo_2.0.jpg"
+   }
+  },
+  {
+   "id": "jennifer-lopez",
+   "name": "Jennifer Lopez",
+   "img": "img/jennifer-lopez.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Everwest",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_(cropped_3).jpg"
+   }
+  },
+  {
+   "id": "john-lennon",
+   "name": "John Lennon",
+   "img": "img/john-lennon.webp",
+   "tags": [
+    "music",
+    "history"
+   ],
+   "credit": {
+    "author": "Bob Gruen; Distributed by Capitol Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_(color)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "johnny-cash",
+   "name": "Johnny Cash",
+   "img": "img/johnny-cash.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "CBS Television",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Johnny_Cash_1977.jpg"
+   }
+  },
+  {
+   "id": "jon-bon-jovi",
+   "name": "Jon Bon Jovi",
+   "img": "img/jon-bon-jovi.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NEG_0062-2_(54119957209).jpg"
+   }
+  },
+  {
+   "id": "justin-bieber",
+   "name": "Justin Bieber",
+   "img": "img/justin-bieber.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Daniel Torok",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:P20260719DT-1213_President_Donald_J._Trump_and_First_Lady_Melania_Trump_attend_the_FIFA_World_Cup_Final_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "katy-perry",
+   "name": "Katy Perry",
+   "img": "img/katy-perry.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Katy_Perry_2026_Tribeca_Film_Festival_(cropped_1).jpg"
+   }
+  },
+  {
+   "id": "kelly-clarkson",
+   "name": "Kelly Clarkson",
+   "img": "img/kelly-clarkson.webp",
+   "tags": [
+    "music",
+    "tv"
+   ],
+   "credit": {
+    "author": "Stephen Schester/Carlin Leslie",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kelly_Clarkson_2018_DoD_Warrior_Games_Opening_Ceremony_14_-_Cropped_01.jpg"
+   }
+  },
+  {
+   "id": "kendrick-lamar",
+   "name": "Kendrick Lamar",
+   "img": "img/kendrick-lamar.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-144_(cropped)_desaturated.jpg"
+   }
+  },
+  {
+   "id": "lady-gaga",
+   "name": "Lady Gaga",
+   "img": "img/lady-gaga.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Carlos M. Vazquez II",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_at_Joe_Biden%27s_inauguration_(cropped_5).jpg"
+   }
+  },
+  {
+   "id": "lil-nas-x",
+   "name": "Lil Nas X",
+   "img": "img/lil-nas-x.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "HOTSPOTATL",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lil_Nas_X_Talks_About_Gaining_His_Father%27s_Acceptance,_Growing_Up_in_Atlanta,_%26_FINDING_HIMSELF_7-32_screenshot_(headshot).jpg"
+   }
+  },
+  {
+   "id": "lizzo",
+   "name": "Lizzo",
+   "img": "img/lizzo.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "MILLION DOLLAZ WORTH OF GAME",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lizzo_September_2025.png"
+   }
+  },
+  {
+   "id": "lorde",
+   "name": "Lorde",
+   "img": "img/lorde.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lorde_Glasto2025-9_(cropped).jpg"
+   }
+  },
+  {
+   "id": "louis-armstrong",
+   "name": "Louis Armstrong",
+   "img": "img/louis-armstrong.webp",
+   "tags": [
+    "music",
+    "history"
+   ],
+   "credit": {
+    "author": "Harry Warnecke / Gus Schoenbaechler",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Louis_Armstrong_in_Color_(restored).jpg"
+   }
+  },
+  {
+   "id": "luke-combs",
+   "name": "Luke Combs",
+   "img": "img/luke-combs.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "David Bergman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Luke_Combs_interview.jpg"
+   }
+  },
+  {
+   "id": "madonna",
+   "name": "Madonna",
+   "img": "img/madonna.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MadonnaO2171023_(97_of_133)_(53269593787)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "mick-jagger",
+   "name": "Mick Jagger",
+   "img": "img/mick-jagger.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RStonesHydePark030722_(49_of_125)_(52193656268)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "miley-cyrus",
+   "name": "Miley Cyrus",
+   "img": "img/miley-cyrus.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raphael Pour-Hashemi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Miley_Cyrus_Primavera19_-226_(48986293772)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "nicki-minaj",
+   "name": "Nicki Minaj",
+   "img": "img/nicki-minaj.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicki_Minaj_(55022495106)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "olivia-rodrigo",
+   "name": "Olivia Rodrigo",
+   "img": "img/olivia-rodrigo.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glasto2025-546_(cropped)_2.jpg"
+   }
+  },
+  {
+   "id": "ozzy-osbourne",
+   "name": "Ozzy Osbourne",
+   "img": "img/ozzy-osbourne.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Warner Bros. Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ozzy_Osbourne_in_1970_(medium-sized_crop).jpg"
+   }
+  },
+  {
+   "id": "paul-mccartney",
+   "name": "Paul McCartney",
+   "img": "img/paul-mccartney.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MaccaLyricsRFH051121_(15_of_18)_(updated)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "pharrell-williams",
+   "name": "Pharrell Williams",
+   "img": "img/pharrell-williams.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Web Summit/Ramsey Cardy/Sportsfile",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pharrell_Williams_2024_(54133384149).jpg"
+   }
+  },
+  {
+   "id": "pitbull",
+   "name": "Pitbull",
+   "img": "img/pitbull.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Zach Catanzareti Photo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pitbull_(52703405994)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "post-malone",
+   "name": "Post Malone",
+   "img": "img/post-malone.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Post_Malone_2018.jpg"
+   }
+  },
+  {
+   "id": "prince",
+   "name": "Prince",
+   "img": "img/prince.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Unknown authorUnknown author, based on File:Prince promo picture (1988; cropped).png",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Prince_promo_picture_(1988;_cropped_and_retouched).png"
+   }
+  },
+  {
+   "id": "rihanna",
+   "name": "Rihanna",
+   "img": "img/rihanna.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "SIGMA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rihanna_Fenty_2018.png"
+   }
+  },
+  {
+   "id": "ringo-starr",
+   "name": "Ringo Starr",
+   "img": "img/ringo-starr.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "dearMoon",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ARTIST_INTERVIEW_-_Ringo_Starr_(Former_the_Beatles)_exclusive_interview_0-14_screenshot_(portrait_crop).jpg"
+   }
+  },
+  {
+   "id": "sabrina-carpenter",
+   "name": "Sabrina Carpenter",
+   "img": "img/sabrina-carpenter.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sabrina_Carpenter_-_O2_Arena_2025_-_086_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "selena-gomez",
+   "name": "Selena Gomez",
+   "img": "img/selena-gomez.webp",
+   "tags": [
+    "music",
+    "actor"
+   ],
+   "credit": {
+    "author": "Frank Sun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_(cropped).jpg"
+   }
+  },
+  {
+   "id": "shakira",
+   "name": "Shakira",
+   "img": "img/shakira.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Junta de Andalucía",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg"
+   }
+  },
+  {
+   "id": "shania-twain",
+   "name": "Shania Twain",
+   "img": "img/shania-twain.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shania_Twain_Glaston2024_2806_300624_(22_of_173)_(53838020769)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "snoop-dogg",
+   "name": "Snoop Dogg",
+   "img": "img/snoop-dogg.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Diego Serrano",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Snoop_Dogg,_WrestleMania_XL_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "stevie-wonder",
+   "name": "Stevie Wonder",
+   "img": "img/stevie-wonder.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SWonderBSTHyde060719-72_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sza",
+   "name": "SZA",
+   "img": "img/sza.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-19_-_54683179509_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "taylor-swift",
+   "name": "Taylor Swift",
+   "img": "img/taylor-swift.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "iHeartRadioCA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png"
+   }
+  },
+  {
+   "id": "the-weeknd",
+   "name": "The Weeknd",
+   "img": "img/the-weeknd.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "Brian Ziff",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Weeknd_Portrait_by_Brian_Ziff.jpg"
+   }
+  },
+  {
+   "id": "tina-turner",
+   "name": "Tina Turner",
+   "img": "img/tina-turner.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "HBO",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tina_Turner_Breaks_All_the_Rules.png"
+   }
+  },
+  {
+   "id": "usher",
+   "name": "Usher",
+   "img": "img/usher.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "US Embassy Italy",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Usher_Milan_2026.jpg"
+   }
+  },
+  {
+   "id": "whitney-houston",
+   "name": "Whitney Houston",
+   "img": "img/whitney-houston.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "PH2 Mark Kettenhofen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Whitney_Houston_(cropped3).JPEG"
+   }
+  },
+  {
+   "id": "willie-nelson",
+   "name": "Willie Nelson",
+   "img": "img/willie-nelson.webp",
+   "tags": [
+    "music"
+   ],
+   "credit": {
+    "author": "John Mathew Smith & www.celebrity-photos.com",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Willie_Nelson_(Retouched).jpg"
+   }
+  }
+ ]
+}
