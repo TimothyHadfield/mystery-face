@@ -316,7 +316,9 @@ function bestSpare(s, out) {
  * Custom people ("c/...") go with Mixed stars. A deck too small for its share leaves the rest to the others.
  */
 export function pickByDeck(ids, n, meta, opt = {}) {
-  const deckOf = (id) => (id.startsWith('c/') ? 'mixed' : id.split('/')[0]);
+  // opt.groups: { faceId: 'set:<id>' } puts a "Your people" set in its own category (Tim, 2026-11-06)
+  const g = opt.groups || {};
+  const deckOf = (id) => g[id] || (id.startsWith('c/') ? 'mixed' : id.split('/')[0]);
   const decks = [...new Set(ids.map(deckOf))];
   if (decks.length < 2) return pickBalanced(ids, n, meta, opt);
   const rng = opt.rng || Math.random, s = { meta };
@@ -343,7 +345,7 @@ function deal(s, rng) {
   const { avoid, avoidP } = avoidOf(s, dm);
   const ok = s.pool.filter((id) => !avoid.has(id) && !avoidP.has(personOf(s, id)));
   const ids = onePerPerson(s, shuffle(ok.slice(), rng));
-  const pick = (s.byDeck ? pickByDeck : pickBalanced)(ids, s.n, s.meta, { mixed: s.mixed, mem: dm, rng });
+  const pick = (s.byDeck ? pickByDeck : pickBalanced)(ids, s.n, s.meta, { mixed: s.mixed, mem: dm, rng, groups: s.groups });
   // too few faces they know: top up from the avoided ones (only when the board can't be filled otherwise)
   if (pick.board.length < s.n) {
     const have = new Set(pick.board.concat(pick.rest).map((id) => personOf(s, id)));
@@ -388,6 +390,11 @@ export const game = {
       meta: cleanMeta(o.meta, pool), avoid: cleanIds(o.avoid), mixed: !!o.mixed,
     };
     if (o.byDeck) s.byDeck = true;
+    if (o.groups && typeof o.groups === 'object') {   // { 'c/<id>': 'set:<id>' }: each picked set is its own category
+      const gr = {};
+      for (const id of pool) if (id.startsWith('c/') && /^set:[\w-]{1,40}$/.test(String(o.groups[id] || ''))) gr[id] = o.groups[id];
+      if (Object.keys(gr).length) s.groups = gr;
+    }
     // o.mem: the starting player's face memory (memForDeal); the other seat's arrives with its first swap
     const dm = cleanDM(o.mem, new Set(pool));
     if (dm) s.mems = [dm, null];
