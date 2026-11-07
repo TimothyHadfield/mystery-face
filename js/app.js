@@ -697,6 +697,15 @@ function myFaceChip(g, seat) {
   return `<button class="mychip" data-act="zoomme" aria-label="Your face: ${esc(f.name)}"><span class="ph">${FC.picHTML(f)}</span><em>${esc(f.name)}</em></button>`;
 }
 
+// Small red X marks (Tim, 2026-11-06): "the first click on a character makes a red X at the bottom of the
+// picture and the second click puts the big grey X across the whole thing. If on another turn you click the
+// same character a second X is placed ... 3 total Xs can be placed on a charactor before the big grey X".
+// Kept with the flips as f.x = { index: [count, log length when last marked] }.
+const MARKS_MAX = 3;
+const pmarksHTML = (flips, i) => {
+  const n = (flips && flips.x && flips.x[i] && flips.x[i][0]) || 0;
+  return n ? `<span class="pmarks" aria-hidden="true">${'<b>✕</b>'.repeat(n)}</span>` : '';
+};
 function boardHTML(g, seat, st, dim) {
   const p = g.pub, L = g.kind === 'local';
   const playing = !['dunno', 'pick'].includes(p.phase);
@@ -717,7 +726,7 @@ function boardHTML(g, seat, st, dim) {
     if (guessing && U.guessSel === i) cls.push('sel');
     if (!L && p.phase !== 'dunno' && lsGet(secKey(g.snap.code, p.round))?.face === id) cls.push('mine');
     return `<button class="${cls.join(' ')}" data-act="tile" data-seat="${seat}" data-i="${i}" aria-label="${esc(f.name)}${down ? ' (flipped down)' : ''}" aria-pressed="${down}">
-      <span class="ph">${FC.picHTML(f)}<i class="xmark" aria-hidden="true"></i></span>${S.names ? `<span class="nm">${esc(f.name)}</span>` : ''}</button>`;
+      <span class="ph">${FC.picHTML(f)}<i class="xmark" aria-hidden="true"></i>${pmarksHTML(flips, i)}</span>${S.names ? `<span class="nm">${esc(f.name)}</span>` : ''}</button>`;
   }).join('');
   const peek = L && playing ? `<button class="peek" data-act="peek" data-seat="${seat}" aria-label="${esc(g.names[seat])}'s face: press and hold to peek"><span class="ph">${sec ? FC.picHTML(FC.face(sec.face)) : ''}</span><span class="pk-cover"><b>?</b></span><em>${esc(g.names[seat])}'s face <span>hold</span></em></button>` : '';
   return `<div class="boardbox${dim ? ' other' : ''}" data-seat="${seat}">${L && playing ? `<div class="bhead"><b>${esc(g.names[seat])}</b>${peek}</div>` : ''}<div class="board${S.names ? ' names' : ''}" style="--n:${p.board.length}">${tiles}</div></div>`;
@@ -1016,15 +1025,22 @@ function onTile(g, seat, i, el) {
   // flipping: your own board, any time (it's private); same screen: only the board of the player who's flipping
   if (L && seat !== p.turn) { S.play.view = seat; return toast(`${g.names[p.turn]} is flipping now. Switch back to flip.`); }
   const f = Object.assign({}, flipsOf(g, seat));
-  if (f[i] !== undefined) delete f[i]; else f[i] = turnNo(p);
+  f.x = Object.assign({}, f.x || {});
+  const T = p.log.length, mk = f.x[i] || [0, -1];
+  let small = false;
+  if (f[i] !== undefined) delete f[i];                                     // grey X: stand back up (small Xs stay)
+  else if (mk[1] === T || mk[0] >= MARKS_MAX) f[i] = turnNo(p);            // 2nd tap this turn, or 3 Xs already
+  else { f.x[i] = [mk[0] + 1, T]; small = true; }                          // a small red X for this turn
   if (L) localSnap(); else U.oflips.push({ key: flipKey2(p), flips: flipsOf(g, seat) });
   setFlips(g, seat, f);
-  FX.play('cardFlip');
+  FX.play(small ? 'tap' : 'cardFlip');
   const btn = el.closest('.face');
   if (btn) {
     btn.classList.toggle('down', f[i] !== undefined);
     btn.setAttribute('aria-pressed', f[i] !== undefined);
-    btn.classList.remove('flipping'); void btn.offsetWidth; btn.classList.add('flipping');
+    const ph = btn.querySelector('.ph');
+    if (ph) { ph.querySelector('.pmarks')?.remove(); ph.insertAdjacentHTML('beforeend', pmarksHTML(f, i)); }
+    if (!small) { btn.classList.remove('flipping'); void btn.offsetWidth; btn.classList.add('flipping'); }
   }
   // update the counts without rebuilding the board
   const left = leftCount(g, seat);
