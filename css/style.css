@@ -272,6 +272,8 @@ main { min-height: 0; position: relative; }
 .playrow { position: sticky; bottom: 0; padding: 8px 0 0; background: linear-gradient(transparent, var(--bg) 40%); }
 .person .bigpic { position: relative; width: 140px; aspect-ratio: 1; margin: 0 auto 4px; border-radius: 12px; overflow: hidden; container-type: inline-size; }
 .person .bigpic img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.person .bigpic .editpic { position: absolute; right: 6px; bottom: 6px; z-index: 1; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+.framer .repick { text-align: center; margin: 10px 0 0; }
 /* framing a photo: drag / pinch inside the square; the ring shows where the face should sit */
 .framer h3 { margin-bottom: 8px; }
 .framer .frame { position: relative; width: min(300px, 78vw, 52dvh); aspect-ratio: 1; margin: 0 auto; border-radius: 12px; overflow: hidden; background: #000; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; cursor: grab; overscroll-behavior: contain; }

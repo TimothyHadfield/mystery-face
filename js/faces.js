@@ -197,6 +197,55 @@ export function cropRect(v, w, h, F) {
   return { sx: Math.min(Math.max(0, -v.x / k), w - s), sy: Math.min(Math.max(0, -v.y / k), h - s), s };
 }
 
+/** The view that shows a saved square again (Edit reopens the framer where it was left); default if none. */
+export function cropFromRect(rect, w, h, F) {
+  if (!rect || !(rect.s > 0)) return cropStart(w, h, F);
+  const k = F / rect.s;
+  return cropClamp({ z: Math.min(w, h) / rect.s, x: -rect.sx * k, y: -rect.sy * k }, w, h, F);
+}
+
+// ------------------------------------------------------------------ originals (this device only, for Edit)
+// Tim, 2026-11-06: "with the custom characters, make an edit button on the photo which allows you to
+// resize and fit the picture." The 128px square can't be zoomed out, so a larger copy of the picked
+// photo (+ its framing) is kept in IndexedDB, keyed by person id. Not synced: the account doc stays small.
+export const ORIGINAL_PX = 1024;
+export function originalSize(w, h) {
+  const r = Math.min(1, ORIGINAL_PX / Math.max(w, h));
+  return { w: Math.round(w * r), h: Math.round(h * r), r };
+}
+/** Picture + its framing -> { blob, rect } in the kept copy's pixels (JPEG 0.8, long side <= 1024). */
+export function originalBlob(img, rect) {
+  const { w, h, r } = originalSize(img.naturalWidth, img.naturalHeight);
+  const c = document.createElement('canvas'); c.width = w; c.height = h;
+  const g = c.getContext('2d'); g.imageSmoothingQuality = 'high';
+  g.drawImage(img, 0, 0, w, h);
+  return new Promise((res) => c.toBlob((blob) => res(blob ? { blob, rect: rect ? { sx: rect.sx * r, sy: rect.sy * r, s: rect.s * r } : null } : null), 'image/jpeg', 0.8));
+}
+// Stored as bytes, not a Blob: WebKit's IndexedDB refuses Blobs in some builds (measured 2026-11-06:
+// Playwright WebKit put({ blob }) -> error; private Safari has had the same bug).
+const toRow = async (v) => ({ buf: await v.blob.arrayBuffer(), type: v.blob.type || 'image/jpeg', rect: v.rect || null });
+const fromRow = (o) => (o && o.buf ? { blob: new Blob([o.buf], { type: o.type || 'image/jpeg' }), rect: o.rect || null } : null);
+let dbp = null;
+function db() {
+  if (!dbp) dbp = new Promise((res, rej) => {
+    const q = indexedDB.open('mystery-face', 1);
+    q.onupgradeneeded = () => q.result.createObjectStore('originals');
+    q.onsuccess = () => res(q.result); q.onerror = () => rej(q.error);
+  }).catch((e) => { dbp = null; throw e; });
+  return dbp;
+}
+async function tx(mode, fn) {
+  const d = await db();
+  return new Promise((res, rej) => {
+    const t = d.transaction('originals', mode); const q = fn(t.objectStore('originals'));
+    t.oncomplete = () => res(q && q.result); t.onerror = () => rej(t.error); t.onabort = () => rej(t.error);
+  });
+}
+/** Never throw: a missing original only means Edit falls back to the 128px square. */
+export const originalGet = (id) => tx('readonly', (s) => s.get(id)).then(fromRow).catch(() => null);
+export const originalPut = async (id, v) => { if (!v || !v.blob) return null; try { const row = await toRow(v); return await tx('readwrite', (s) => s.put(row, id)); } catch (e) { return null; } };
+export const originalDel = (ids) => tx('readwrite', (s) => { for (const id of [].concat(ids)) s.delete(id); }).catch(() => null);
+
 export function squareDataURL(img, w, h, rect) {
   const { sx, sy, s } = rect || cropRect(cropStart(w, h, 100), w, h, 100);
   const c = document.createElement('canvas'); c.width = c.height = PHOTO_PX;
