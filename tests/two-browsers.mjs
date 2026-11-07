@@ -134,6 +134,16 @@ for (let k = 0; k < 3; k++) {
 const s2 = await snap(A);
 console.log(`PASS 3 turns in strict order; log has ${s2.pub.log.length} entries; left = ${s2.pub.left.join("/")}`);
 
+// ---- refresh mid-game (Tim, 2026-11-06): both phones reload and carry on where they were
+const flipsBefore = await A.evaluate((c) => localStorage.getItem(`mystery-face:flip:${c}:1`), code);
+await A.reload(); await B.reload();
+await phaseIs(A, "ask"); await phaseIs(B, "ask");
+const s2r = await snap(A);
+if (JSON.stringify(s2r.pub.board) !== JSON.stringify(s2.pub.board) || s2r.pub.log.length !== s2.pub.log.length || s2r.pub.turn !== s2.pub.turn) fail("the game changed after a refresh");
+if ((await A.evaluate((c) => localStorage.getItem(`mystery-face:flip:${c}:1`), code)) !== flipsBefore) fail("Alice's flips were lost on refresh");
+if (!(await A.$('.face.down, .face .pmarks'))) fail("Alice's marked faces don't show after refresh");
+console.log("PASS refresh mid-game: both phones back in the same game, same turn, flips kept");
+
 // ---- a wrong guess: red X on the guesser's board, no loss, the turn passes (tap = guess, no confirm)
 const g = s2.pub.turn, gp = P[g], op = P[1 - g];
 const target = g === 0 ? secB.face : secA.face;

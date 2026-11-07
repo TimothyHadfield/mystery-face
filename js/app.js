@@ -568,12 +568,28 @@ function renderLobby(el, sn) {
 }
 
 // ---- Play: the game
+// Refresh mid-game (Tim, 2026-11-06: "make sure the game is saved and you can continue right back where you
+// were"): the game itself is already saved; this keeps the half-done taps too (don't-know marks, the face
+// picked but not locked in, Guess mode), tied to the game, round and step they belong to.
+const UI_KEY = 'mystery-face:ui';
+let uiBoot = lsGet(UI_KEY);
+const uiId = (g) => `${g.kind === 'local' ? 'L' + S.play.id : 'O' + g.snap.code}:${g.pub.round}:${g.pub.phase}:${g.kind === 'local' && g.pub.phase === 'pick' ? S.play.pick : ''}:${g.pub.log ? g.pub.log.length : 0}`;
+function keepUI(g) {
+  if (!g || !g.pub) return;
+  const id = uiId(g);
+  if (uiBoot) {
+    if (uiBoot.id === id) { U.marks = new Set(uiBoot.marks || []); U.pickSel = uiBoot.pickSel ?? -1; U.guessing = !!uiBoot.guessing; }
+    uiBoot = null;
+  }
+  lsSet(UI_KEY, { id, marks: [...U.marks], pickSel: U.pickSel, guessing: U.guessing });
+}
 function renderPlay() {
   const el = $('#tab-play');
   if (S.tab !== 'play') return;
   const sn = U.snap;
   if (U.online && sn && sn.status !== 'playing' && sn.status !== 'finished') return renderLobby(el, sn);
   const g = G();
+  if (g && !(g.kind === 'local' && U.home)) keepUI(g);
   if (!g || (g.kind === 'local' && U.home)) return renderHome(el);
   if (g.kind === 'online' && !g.pub) return renderLobby(el, sn);
   renderGame(el, g);
