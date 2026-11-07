@@ -16,6 +16,7 @@ First version: online with a friend + same screen, celebrity decks (builder B, p
 | Custom people + accounts | done; Google + email sign-in; sets saved per account |
 | Decks | `decks/sample/` placeholder only; real decks come from builder B |
 | Face memory + smarter Mixed deal | done on branch v4-memory (2026-11-06): known/unknown/unused + games since, per device + account `_memory` doc; Mixed shares, franchise/actor caps; 12 new tests |
+| Sort faces | done on branch v5-sort (2026-11-06): "Sort faces · N new" link by the Faces label opens `js/sorter.js`; ←/→ keys, buttons, swipe; undo; unused first, one card per person; then re-check don't-knows; 4 new tests |
 | PWA | 18/18 with a deck index present (17/18 while `decks/index.json` is missing: 404 noise) |
 | Live | not deployed (manager merges) |
 
@@ -44,10 +45,12 @@ First version: online with a friend + same screen, celebrity decks (builder B, p
 
 - Face memory: `mystery-face:memory` in localStorage, and on the account as `games/mystery-face/users/{uid}/sets/_memory` (people = [one JSON string]); the existing rules allow it (emulator-checked), no rules change. Merge at sign-in: union, unknown wins, newest sighting kept (smallest games-since).
 - Deal: unknown faces never dealt unless the board can't fill; ~70% known (weight (1+gamesSince)^1.5) / ~30% unused. Mixed stars: characters 42%, sports 17%, politics 12%, custom 17% (without custom 45/20/13), rest = actors/music/history/TV/internet/art; 1 per franchise, never one actor twice.
+- Sort faces Know = `k[id] = 0` (memMarkKnown; real sightings are game 1+): the deal reads it as max(g, 20) games unused, so it's dealt soon; merge keeps 0. Don't know = memMarkUnknown. All copies of a person (same name key) are marked.
 - Online: host's memory goes in the room options; each player's arrives with the quiet swap at each round's start (`seen`); the host engine ages both at the end of each don't-know phase for the rematch deal.
 
 ## NOT verified
 - Account memory sync in a real signed-in browser (only the rules were emulator-checked; the code path load/merge/save ran nowhere live).
+- Sort faces: real finger swipe on an iPhone (only synthetic pointer events in WebKit); account sync of sorted faces signed in.
 - Old cached app builds would show the `_memory` doc as a junk set "memory" until they update.
 - Google sign-in popup (needs a real Google account in a real browser); email sign-in verified.
 - Real iPhone (only WebKit headless); real Safari photo picking/camera.

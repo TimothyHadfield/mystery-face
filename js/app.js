@@ -8,6 +8,7 @@ import * as FC from './faces.js';
 import * as KIT from './kit.js';
 import * as PPL from './people.js';
 import * as ACCT from './account.js';
+import * as SORT from './sorter.js';
 
 const BUILD = '2026-11-06.1';
 const ONLINE_JS = './online.js?v=a3d0418b';
@@ -50,8 +51,15 @@ let memSaveT = null;
 function setMem(m) {
   MEM = m; lsSet(MEM_KEY, MEM);
   if (!ACCT.user()) return;
-  clearTimeout(memSaveT); memSaveT = setTimeout(() => ACCT.saveMemory(MEM), 1500);
+  clearTimeout(memSaveT); memSaveT = setTimeout(flushMem, 1500);
 }
+/** Send a waiting memory save to the account now (Sort faces closing, the page going to the background). */
+function flushMem() {
+  if (!memSaveT) return;
+  clearTimeout(memSaveT); memSaveT = null;
+  if (ACCT.user()) ACCT.saveMemory(MEM);
+}
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flushMem(); });
 function addDunno(ids) { const add = ids.filter((id) => id && !id.startsWith('c/')); if (add.length) setMem(memMarkUnknown(MEM, add)); }
 const dunnoList = () => Object.keys(MEM.u);
 /** End of the don't-know phase, once per round: everything left on the board is known. */
@@ -521,7 +529,7 @@ function renderHome(el) {
   el.innerHTML = `<div class="pane home">
     ${S.play && S.play.kind === 'local' ? '<div class="row"><button class="btn main grow" data-act="resume">Resume same-screen game</button></div>' : ''}
     <div class="seg modes"><button data-act="mode" data-v="online" class="${online ? 'on' : ''}">Online with a friend</button><button data-act="mode" data-v="local" class="${online ? '' : 'on'}">Same screen</button></div>
-    <div class="lbl">Faces</div>
+    <div class="lblrow"><span class="lbl inl">Faces</span>${DECKS_READY && FC.deckIndex().some((d) => d.id !== 'sample' && FC.deck(d.id)) ? `<button class="link small" data-act="sort">${(() => { const nn = SORT.newCount(MEM); return nn ? `Sort faces · ${nn} new` : 'Sort faces'; })()}</button>` : ''}</div>
     <div class="srcs">${DECKS_READY ? cards.join('') : '<span class="muted small">Loading faces…</span>'}</div>
     ${tags.length > 1 ? `<div class="chips tags">${tags.slice(0, 14).map((t) => `<button class="chip${(S.src.tags || []).includes(t.tag) ? ' on' : ''}" data-act="tag" data-v="${esc(t.tag)}">${esc(KIT.tagLabel(t.tag))} <span>${t.n}</span></button>`).join('')}</div>` : ''}
     <div class="row sizes"><span class="lbl inl">Board</span><div class="seg">${[16, 24, 30].map((v) => `<button data-act="size" data-v="${v}" class="${S.n === v ? 'on' : ''}">${v}</button>`).join('')}</div>
@@ -894,6 +902,7 @@ document.addEventListener('click', async (ev) => {
       else if (b.dataset.k === 'mix') S.src = { kind: 'deck', decks: FC.deckIndex().filter((d) => FC.deck(d.id)).map((d) => d.id), tags: [] };
       else S.src = { kind: 'deck', decks: [v], tags: [] };
       save(); renderAll(); break;
+    case 'sort': SORT.openSorter({ getMem: () => MEM, setMem, flushMem, FX, onClose: () => renderAll() }); break;
     case 'newset': S.tab = 'people'; save(); await PPL.onClick(Object.assign(document.createElement('button'), { dataset: { pp: 'new' } })); break;
     case 'tag': { const t = S.src.tags || []; S.src.tags = t.includes(v) ? t.filter((x) => x !== v) : t.concat(v); save(); renderAll(); break; }
     case 'size': S.n = +v; save(); renderAll(); break;

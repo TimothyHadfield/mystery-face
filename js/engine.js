@@ -116,6 +116,14 @@ export function memMarkUnknown(m, ids) {
   for (const id of ids || []) if (MEM_ID.test(id) && !id.startsWith('c/')) { x.u[id] = x.g; delete x.k[id]; }
   return memTrim(x);
 }
+/** "Sort faces" Know: known but never on a board, stored as k[id] = 0 (a real sighting is game 1 or later),
+ *  so the deal treats it as long unused (SORTED_AGE). A face already seen in a game keeps its sighting. */
+export const SORTED_AGE = 20;
+export function memMarkKnown(m, ids) {
+  const x = memClean(m);
+  for (const id of ids || []) if (MEM_ID.test(id) && !id.startsWith('c/')) { delete x.u[id]; if (!(id in x.k)) x.k[id] = 0; }
+  return memTrim(x);
+}
 /** One more game: every face left on the board after the don't-know phase is known, seen 0 games ago. */
 export function memRecord(m, board) {
   const x = memClean(m);
@@ -128,14 +136,14 @@ export function memMerge(a, b) {
   const A = memClean(a), B = memClean(b), g = Math.max(A.g, B.g);
   const out = { v: 1, g, k: {}, u: {} };
   for (const M of [A, B]) for (const id in M.u) out.u[id] = Math.max(out.u[id] ?? 0, g - (M.g - M.u[id]));
-  for (const M of [A, B]) for (const id in M.k) if (!(id in out.u)) out.k[id] = Math.max(out.k[id] ?? 0, g - (M.g - M.k[id]));
+  for (const M of [A, B]) for (const id in M.k) if (!(id in out.u)) out.k[id] = Math.max(out.k[id] ?? 0, M.k[id] === 0 ? 0 : g - (M.g - M.k[id]));   // 0 = sorted, never on a board
   return memTrim(out);
 }
 /** The short form a deal needs, only for the faces in `ids` (all when null). */
 export function memForDeal(m, ids) {
   const x = memClean(m), want = ids ? new Set(ids) : null;
   const k = [], u = [];
-  for (const id in x.k) if (!want || want.has(id)) k.push(id + '~' + (x.g - x.k[id]));
+  for (const id in x.k) if (!want || want.has(id)) k.push(id + '~' + (x.k[id] === 0 ? Math.max(x.g, SORTED_AGE) : x.g - x.k[id]));
   for (const id in x.u) if (!want || want.has(id)) u.push(id);
   return { k, u };
 }
