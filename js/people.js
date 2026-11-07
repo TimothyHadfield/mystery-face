@@ -2,7 +2,7 @@
 // player's account (js/account.js -> Firestore), so they show up on any device.
 // Tim, 2026-11-06: "If the user makes a custome person without a name then also allow them to add
 // their name in later if they need." A nameless person shows as "Unnamed <n>" until named.
-import { esc, face, picHTML, displayNames, loadPhoto, squareDataURL, cropStart, cropPan, cropZoom, cropRect, CROP_ZMAX, cleanSet, newId, SET_MAX_PEOPLE } from './faces.js';
+import { esc, face, picHTML, displayNames, loadPhoto, squareDataURL, cropFromRect, cropPan, cropZoom, cropRect, CROP_ZMAX, cleanSet, originalBlob, originalGet, originalPut, originalDel, newId, SET_MAX_PEOPLE } from './faces.js';
 
 const LOCAL = 'mystery-face:sets';
 const cacheKey = (uid) => 'mystery-face:acct-sets:' + uid;
@@ -126,7 +126,7 @@ function personSheet(set, i) {
   const p = set.people[i];
   const nm = displayNames(set.people)[i];
   X.sheet(`<div class="person">
-    <div class="bigpic">${picHTML({ name: nm, img: p.img })}</div>
+    <div class="bigpic">${picHTML({ name: nm, img: p.img })}${p.img ? `<button class="btn small icon editpic" data-pp="editphoto" data-i="${i}" aria-label="Edit photo" title="Edit photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16v4z"/><path d="M13.5 6.5l4 4"/></svg></button>` : ''}</div>
     <label class="field"><span class="small muted">Name</span><input id="pName" value="${esc(p.name)}" maxlength="40" placeholder="${esc(nm)}" autocomplete="off" enterkeyhint="done"></label>
     <div class="row"><button class="btn small" data-pp="photo1" data-i="${i}">${p.img ? 'Change photo' : 'Add photo'}</button>${p.img ? `<button class="btn small" data-pp="nophoto" data-i="${i}">Remove photo</button>` : ''}<button class="btn small danger" data-pp="delperson" data-i="${i}">Delete</button></div>
     <div class="row end"><button class="btn main" data-pp="savename" data-i="${i}">Done</button></div></div>`);
@@ -136,14 +136,16 @@ function personSheet(set, i) {
 // Tim, 2026-11-06: "when you set a picture for a custom character, allow the user to adjust the picture
 // so their face is centered and large in the picture." Drag to move, pinch / slider / wheel to zoom.
 let framing = null;   // { done(result) } while the framing sheet is open
-/** Show the framing sheet for one picture. Resolves { sx, sy, s } (picture px) or null (cancelled). */
-function framePhoto(img, step) {
+/** Show the framing sheet for one picture. Resolves { sx, sy, s } (picture px) or null (cancelled).
+ *  opts.rect: open at this square (Edit); opts.repick: person index, shows "Pick a new photo" (no original kept). */
+function framePhoto(img, step, opts = {}) {
   const w = img.naturalWidth, h = img.naturalHeight;
   return new Promise((resolve) => {
     X.sheet(`<div class="framer">
       <h3>Centre the face${step ? ` <span class="muted small">${step}</span>` : ''}</h3>
       <div class="frame" id="frame"><span class="guide"></span></div>
       <input type="range" id="frameZoom" min="1" max="${CROP_ZMAX}" step="0.01" value="1" aria-label="Zoom">
+      ${opts.repick != null ? `<p class="small muted repick">Only the small copy is on this device. <button class="link" data-pp="framepick" data-i="${opts.repick}">Pick a new photo</button> for full quality.</p>` : ''}
       <div class="row end"><button class="btn" data-pp="framecancel">Cancel</button><button class="btn main" data-pp="frameok">Use photo</button></div></div>`);
     const fr = document.getElementById('frame'), zs = document.getElementById('frameZoom');
     const veil = document.querySelector('#layer .veil');
@@ -151,7 +153,7 @@ function framePhoto(img, step) {
     const im = img;   // the decoded picture itself (its blob URL is already released)
     im.alt = ''; im.draggable = false; im.id = 'frameImg';
     fr.prepend(im);
-    let F = fr.clientWidth || 280, v = cropStart(w, h, F);
+    let F = fr.clientWidth || 280, v = cropFromRect(opts.rect, w, h, F);
     const draw = () => {
       const k = F / Math.min(w, h) * v.z;
       im.style.width = w * k + 'px'; im.style.height = h * k + 'px';
@@ -197,11 +199,35 @@ function framePhoto(img, step) {
 }
 
 let pending = null;   // what the file picker is for: { kind: 'add' } | { kind: 'one', i }
-/** Load, frame and shrink one picked file: data URL, null (cancelled), or throws a plain message. */
-async function framedPhoto(file, step) {
+/** Load, frame and shrink one picked file: data URL, null (cancelled), or throws a plain message.
+ *  Also keeps a larger copy of the photo on this device under the person's id, for Edit. */
+async function framedPhoto(file, step, personId) {
   const img = await loadPhoto(file);
   const rect = await framePhoto(img, step);
-  return rect ? squareDataURL(img, img.naturalWidth, img.naturalHeight, rect) : null;
+  if (!rect) return null;
+  const d = squareDataURL(img, img.naturalWidth, img.naturalHeight, rect);
+  await originalBlob(img, rect).then((o) => originalPut(personId, o)).catch(() => null);
+  return d;
+}
+/** Edit: reframe a person's photo from the kept original, else from the saved 128px square. */
+async function editPhoto(set, i) {
+  const p = set.people[i];
+  if (!p || !p.img) return;
+  const orig = await originalGet(p.id);
+  let img = null;
+  if (orig && orig.blob) { try { img = await loadPhoto(orig.blob); } catch (e) { img = null; } }
+  const full = !!img;
+  if (!img) img = await new Promise((res) => { const im = new Image(); im.onload = () => res(im); im.onerror = () => res(null); im.src = p.img; });
+  if (!img) return X.toast('That picture couldn\'t be opened.');
+  const rect = await framePhoto(img, '', full ? { rect: orig.rect } : { repick: i });
+  if (!rect) { if (!pending) X.closeSheet(); return; }   // cancelled (not "Pick a new photo", whose picker is open)
+  const s = getSet(set.id);
+  const q = s && s.people.find((x) => x.id === p.id);
+  if (!q) { X.closeSheet(); return; }
+  q.img = squareDataURL(img, img.naturalWidth, img.naturalHeight, rect);
+  if (full) originalPut(p.id, { blob: orig.blob, rect });
+  putSet(s);
+  X.closeSheet(); X.render();
 }
 async function onFiles(files) {
   const set = getSet(view.set);
@@ -209,12 +235,14 @@ async function onFiles(files) {
   const job = pending; pending = null;
   let added = 0, bad = '';
   if (job && job.kind === 'one') {
-    try { const d = await framedPhoto(files[0]); if (d) { set.people[job.i].img = d; added = 1; } } catch (e) { bad = e.message; }
+    const p = set.people[job.i];
+    try { const d = p && await framedPhoto(files[0], '', p.id); if (d) { p.img = d; added = 1; } } catch (e) { bad = e.message; }
   } else {
     const list = files.slice(0, Math.max(0, SET_MAX_PEOPLE - set.people.length));
     if (list.length < files.length) bad = `A set holds up to ${SET_MAX_PEOPLE} people.`;
     for (let n = 0; n < list.length; n++) {
-      try { const d = await framedPhoto(list[n], list.length > 1 ? `${n + 1} of ${list.length}` : ''); if (d) { set.people.push({ id: newId('p'), name: '', img: d }); added++; } }
+      const id = newId('p');
+      try { const d = await framedPhoto(list[n], list.length > 1 ? `${n + 1} of ${list.length}` : '', id); if (d) { set.people.push({ id, name: '', img: d }); added++; } }
       catch (e) { bad = e.message; }
     }
   }
@@ -267,6 +295,11 @@ export async function onClick(b) {
     case 'play': X.playWithSet(b.dataset.id); return true;
     case 'import': { const inp = document.getElementById('jsonPick'); inp.value = ''; inp.onchange = () => inp.files[0] && onImport(inp.files[0]); inp.click(); return true; }
     case 'addphotos': { pending = { kind: 'add' }; const inp = document.getElementById('filePick'); inp.multiple = true; inp.value = ''; inp.onchange = () => onFiles([...inp.files]); inp.click(); return true; }
+    case 'editphoto': if (set) await editPhoto(set, +b.dataset.i); return true;
+    case 'framepick':   // "Pick a new photo" inside the framer: drop this edit, open the picker (same tap)
+      if (framing) framing.done(false);
+      X.closeSheet();
+      // falls through
     case 'photo1': { pending = { kind: 'one', i: +b.dataset.i }; const inp = document.getElementById('filePick'); inp.multiple = false; inp.value = ''; inp.onchange = () => onFiles([...inp.files]); inp.click(); return true; }
     case 'addnames':
       X.sheet(`<h3>Add names</h3><p class="muted small">One name per line. They show as name tiles; you can add photos later.</p>
@@ -294,8 +327,8 @@ export async function onClick(b) {
       set.people[i].name = (document.getElementById('pName')?.value || '').replace(/\s+/g, ' ').trim().slice(0, 40);
       putSet(set); X.closeSheet(); X.render(); return true;
     }
-    case 'nophoto': if (set) { set.people[+b.dataset.i].img = null; putSet(set); X.closeSheet(); X.render(); } return true;
-    case 'delperson': if (set) { set.people.splice(+b.dataset.i, 1); putSet(set); X.closeSheet(); X.render(); } return true;
+    case 'nophoto': if (set) { const p = set.people[+b.dataset.i]; originalDel(p.id); p.img = null; putSet(set); X.closeSheet(); X.render(); } return true;
+    case 'delperson': if (set) { const [p] = set.people.splice(+b.dataset.i, 1); if (p) originalDel(p.id); putSet(set); X.closeSheet(); X.render(); } return true;
     case 'more':
       if (!set) return true;
       X.sheet(`<h3>${esc(set.title)}</h3><div class="col">
@@ -317,7 +350,7 @@ export async function onClick(b) {
       X.sheet(`<h3>Delete "${esc(set.title)}"?</h3><p class="muted">${set.people.length} people${set.where === 'account' ? ', from your account on every device' : ''}. This can't be undone.</p>
         <div class="row end"><button class="btn" data-pp="close">Keep</button><button class="btn main danger" data-pp="delset2">Delete</button></div>`);
       return true;
-    case 'delset2': if (set) { await removeSet(set); view.set = null; X.closeSheet(); X.render(); } return true;
+    case 'delset2': if (set) { await removeSet(set); originalDel(set.people.map((p) => p.id)); view.set = null; X.closeSheet(); X.render(); } return true;
   }
   return false;
 }
