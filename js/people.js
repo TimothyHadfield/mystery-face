@@ -2,7 +2,7 @@
 // player's account (js/account.js -> Firestore), so they show up on any device.
 // Tim, 2026-11-06: "If the user makes a custome person without a name then also allow them to add
 // their name in later if they need." A nameless person shows as "Unnamed <n>" until named.
-import { esc, face, picHTML, displayNames, shrinkPhoto, cleanSet, newId, SET_MAX_PEOPLE } from './faces.js';
+import { esc, face, picHTML, displayNames, loadPhoto, squareDataURL, cropStart, cropPan, cropZoom, cropRect, CROP_ZMAX, cleanSet, newId, SET_MAX_PEOPLE } from './faces.js';
 
 const LOCAL = 'mystery-face:sets';
 const cacheKey = (uid) => 'mystery-face:acct-sets:' + uid;
@@ -132,18 +132,89 @@ function personSheet(set, i) {
     <div class="row end"><button class="btn main" data-pp="savename" data-i="${i}">Done</button></div></div>`);
 }
 
+// ------------------------------------------------------------------ framing a photo
+// Tim, 2026-11-06: "when you set a picture for a custom character, allow the user to adjust the picture
+// so their face is centered and large in the picture." Drag to move, pinch / slider / wheel to zoom.
+let framing = null;   // { done(result) } while the framing sheet is open
+/** Show the framing sheet for one picture. Resolves { sx, sy, s } (picture px) or null (cancelled). */
+function framePhoto(img, step) {
+  const w = img.naturalWidth, h = img.naturalHeight;
+  return new Promise((resolve) => {
+    X.sheet(`<div class="framer">
+      <h3>Centre the face${step ? ` <span class="muted small">${step}</span>` : ''}</h3>
+      <div class="frame" id="frame"><span class="guide"></span></div>
+      <input type="range" id="frameZoom" min="1" max="${CROP_ZMAX}" step="0.01" value="1" aria-label="Zoom">
+      <div class="row end"><button class="btn" data-pp="framecancel">Cancel</button><button class="btn main" data-pp="frameok">Use photo</button></div></div>`);
+    const fr = document.getElementById('frame'), zs = document.getElementById('frameZoom');
+    const veil = document.querySelector('#layer .veil');
+    if (veil) { delete veil.dataset.act; veil.dataset.pp = 'framecancel'; }
+    const im = img;   // the decoded picture itself (its blob URL is already released)
+    im.alt = ''; im.draggable = false; im.id = 'frameImg';
+    fr.prepend(im);
+    let F = fr.clientWidth || 280, v = cropStart(w, h, F);
+    const draw = () => {
+      const k = F / Math.min(w, h) * v.z;
+      im.style.width = w * k + 'px'; im.style.height = h * k + 'px';
+      im.style.transform = `translate(${v.x}px, ${v.y}px)`;
+      zs.value = v.z;
+    };
+    draw();
+    const pts = new Map();
+    let last = null;   // { x, y, d } midpoint + finger distance of the previous move
+    const local = (e) => { const r = fr.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; };
+    const gesture = () => {
+      const p = [...pts.values()];
+      if (p.length === 1) return { x: p[0].x, y: p[0].y, d: 0 };
+      return { x: (p[0].x + p[1].x) / 2, y: (p[0].y + p[1].y) / 2, d: Math.hypot(p[0].x - p[1].x, p[0].y - p[1].y) };
+    };
+    fr.addEventListener('pointerdown', (e) => { e.preventDefault(); try { fr.setPointerCapture(e.pointerId); } catch (x) { /* not a live pointer */ } pts.set(e.pointerId, local(e)); last = gesture(); });
+    fr.addEventListener('pointermove', (e) => {
+      if (!pts.has(e.pointerId)) return;
+      pts.set(e.pointerId, local(e));
+      const g = gesture();
+      if (last && g.d && last.d) v = cropZoom(v, v.z * g.d / last.d, g.x, g.y, w, h, F);
+      if (last) v = cropPan(v, g.x - last.x, g.y - last.y, w, h, F);
+      last = g; draw();
+    });
+    const up = (e) => { pts.delete(e.pointerId); last = pts.size ? gesture() : null; };
+    fr.addEventListener('pointerup', up); fr.addEventListener('pointercancel', up);
+    fr.addEventListener('wheel', (e) => { e.preventDefault(); const p = local(e); v = cropZoom(v, v.z * Math.exp(-e.deltaY / 400), p.x, p.y, w, h, F); draw(); }, { passive: false });
+    fr.addEventListener('gesturestart', (e) => e.preventDefault());   // Safari: no page zoom on pinch
+    zs.addEventListener('input', () => { v = cropZoom(v, +zs.value, F / 2, F / 2, w, h, F); draw(); });
+    // the sheet closed some other way (Esc, a tab tap): count it as Cancel
+    const layer = document.getElementById('layer');
+    const mo = new MutationObserver(() => { if (!fr.isConnected) done(null); });
+    mo.observe(layer, { childList: true });
+    const done = (ok) => {
+      if (!framing) return;
+      framing = null; mo.disconnect();
+      const F2 = fr.clientWidth || F;   // frame resized (phone turned): same view, rescaled
+      if (ok && F2 !== F) { const r = F2 / F; v = { z: v.z, x: v.x * r, y: v.y * r }; F = F2; }
+      resolve(ok ? cropRect(v, w, h, F) : null);
+    };
+    framing = { done };
+  });
+}
+
 let pending = null;   // what the file picker is for: { kind: 'add' } | { kind: 'one', i }
+/** Load, frame and shrink one picked file: data URL, null (cancelled), or throws a plain message. */
+async function framedPhoto(file, step) {
+  const img = await loadPhoto(file);
+  const rect = await framePhoto(img, step);
+  return rect ? squareDataURL(img, img.naturalWidth, img.naturalHeight, rect) : null;
+}
 async function onFiles(files) {
   const set = getSet(view.set);
   if (!set || !files.length) return;
   const job = pending; pending = null;
   let added = 0, bad = '';
   if (job && job.kind === 'one') {
-    try { set.people[job.i].img = await shrinkPhoto(files[0]); added = 1; } catch (e) { bad = e.message; }
+    try { const d = await framedPhoto(files[0]); if (d) { set.people[job.i].img = d; added = 1; } } catch (e) { bad = e.message; }
   } else {
-    for (const f of files) {
-      if (set.people.length >= SET_MAX_PEOPLE) { bad = `A set holds up to ${SET_MAX_PEOPLE} people.`; break; }
-      try { set.people.push({ id: newId('p'), name: '', img: await shrinkPhoto(f) }); added++; }
+    const list = files.slice(0, Math.max(0, SET_MAX_PEOPLE - set.people.length));
+    if (list.length < files.length) bad = `A set holds up to ${SET_MAX_PEOPLE} people.`;
+    for (let n = 0; n < list.length; n++) {
+      try { const d = await framedPhoto(list[n], list.length > 1 ? `${n + 1} of ${list.length}` : ''); if (d) { set.people.push({ id: newId('p'), name: '', img: d }); added++; } }
       catch (e) { bad = e.message; }
     }
   }
@@ -185,6 +256,7 @@ export async function onClick(b) {
   const set = view.set ? getSet(view.set) : null;
   switch (a) {
     case 'close': X.closeSheet(); return true;
+    case 'frameok': case 'framecancel': if (framing) framing.done(a === 'frameok'); return true;
     case 'moveall': await moveAll(); return true;
     case 'new': {
       const s = putSet({ id: newId('s'), title: 'My people', people: [], where: uid ? 'account' : 'device' }, { now: true });

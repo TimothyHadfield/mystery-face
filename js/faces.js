@@ -151,24 +151,62 @@ export const PHOTO_PX = 128;
 export const PHOTO_MAX_CHARS = 14000;   // ~10 KB of image as a data URL
 export const UPLOAD_MAX_BYTES = 20 * 1024 * 1024;
 
-/** File -> small square data URL (WebP where the browser can make it, else JPEG). Throws a plain message. */
-export async function shrinkPhoto(file) {
+/** File -> a decoded <img> (the browser applies the iPhone's EXIF rotation: naturalWidth/Height and
+ *  drawImage are already upright in Safari 13.1+ and Chrome 81+). Throws a plain message. */
+export async function loadPhoto(file) {
   if (!file || !/^image\//.test(file.type || 'image/')) throw new Error('That isn\'t a picture.');
   if (file.size > UPLOAD_MAX_BYTES) throw new Error('That picture is too big (over 20 MB).');
   const url = URL.createObjectURL(file);
   try {
     const img = await new Promise((res, rej) => { const i = new Image(); i.onload = () => res(i); i.onerror = () => rej(new Error('That picture couldn\'t be opened.')); i.src = url; });
-    return squareDataURL(img, img.naturalWidth, img.naturalHeight);
+    if (img.decode) await img.decode().catch(() => {});
+    return img;
   } finally { URL.revokeObjectURL(url); }
 }
-export function squareDataURL(img, w, h) {
-  const s = Math.min(w, h);
-  const sx = (w - s) / 2;
-  const sy = h > w ? (h - s) * 0.25 : 0;   // portrait photos: faces sit in the upper part
+/** File -> small square data URL (WebP where the browser can make it, else JPEG). Throws a plain message. */
+export async function shrinkPhoto(file) {
+  const img = await loadPhoto(file);
+  return squareDataURL(img, img.naturalWidth, img.naturalHeight);
+}
+
+// Framing (drag / pinch / zoom): the view is { z, x, y } for a square frame F px wide. z = zoom over
+// "cover" (1 = the short side fills the frame); x, y = the picture's top-left corner in frame px (<= 0).
+export const CROP_ZMAX = 5;
+const coverK = (w, h, F) => F / Math.min(w, h);
+function cropClamp(v, w, h, F) {
+  const z = Math.min(CROP_ZMAX, Math.max(1, Number(v.z) || 1));
+  const k = coverK(w, h, F) * z;
+  return { z, x: Math.min(0, Math.max(F - w * k, v.x)), y: Math.min(0, Math.max(F - h * k, v.y)) };
+}
+/** Default: covers the frame, centred; portrait photos sit a little high (faces are in the upper part). */
+export function cropStart(w, h, F) {
+  const k = coverK(w, h, F);
+  return cropClamp({ z: 1, x: (F - w * k) / 2, y: h > w ? -(h * k - F) * 0.25 : (F - h * k) / 2 }, w, h, F);
+}
+export const cropPan = (v, dx, dy, w, h, F) => cropClamp({ z: v.z, x: v.x + dx, y: v.y + dy }, w, h, F);
+/** Zoom to z, keeping the picture point under frame pixel (px, py) where it is. */
+export function cropZoom(v, z, px, py, w, h, F) {
+  const z2 = Math.min(CROP_ZMAX, Math.max(1, z));
+  const r = z2 / v.z;
+  return cropClamp({ z: z2, x: px - (px - v.x) * r, y: py - (py - v.y) * r }, w, h, F);
+}
+/** The square of the original picture the frame shows: { sx, sy, s } in picture pixels. */
+export function cropRect(v, w, h, F) {
+  const k = coverK(w, h, F) * v.z;
+  const s = Math.min(F / k, w, h);
+  return { sx: Math.min(Math.max(0, -v.x / k), w - s), sy: Math.min(Math.max(0, -v.y / k), h - s), s };
+}
+
+export function squareDataURL(img, w, h, rect) {
+  const { sx, sy, s } = rect || cropRect(cropStart(w, h, 100), w, h, 100);
   const c = document.createElement('canvas'); c.width = c.height = PHOTO_PX;
   const g = c.getContext('2d');
   g.imageSmoothingQuality = 'high';
-  g.drawImage(img, sx, sy, s, s, 0, 0, PHOTO_PX, PHOTO_PX);
+  // The whole picture, shifted and scaled so the square lands on the canvas. Not the 9-argument
+  // drawImage(img, sx, sy, s, s, ...): WebKit reads that source square from the UNROTATED iPhone photo
+  // (measured 2026-11-06, Playwright WebKit, EXIF orientation 6); the 5-argument form is upright everywhere.
+  const t = PHOTO_PX / s;
+  g.drawImage(img, -sx * t, -sy * t, w * t, h * t);
   let out = '';
   for (const q of [0.78, 0.65, 0.5, 0.38]) {
     out = c.toDataURL('image/webp', q);
