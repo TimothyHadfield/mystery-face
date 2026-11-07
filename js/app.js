@@ -872,6 +872,21 @@ function menuSheet() {
 }
 
 // ------------------------------------------------------------------ taps
+// Top-left ← (Tim, 2026-11-06): from a game or any other tab it goes to the Mystery Face menu;
+// only from the menu itself does it leave for the games Hub.
+document.querySelector('header .back')?.addEventListener('click', (ev) => {
+  const g = G();
+  const atMenu = S.tab === 'play' && (!g || (g.kind === 'local' && U.home));
+  if (atMenu) return;
+  ev.preventDefault();
+  closeSheet();
+  if (S.tab !== 'play') { S.tab = 'play'; save(); }
+  if (g && !(g.kind === 'local' && U.home)) {
+    const b = Object.assign(document.createElement('button'), { hidden: true });
+    b.dataset.act = 'home';
+    document.body.appendChild(b); b.click(); b.remove();   // same as the ⌂ button (online asks before leaving)
+  } else renderAll();
+});
 document.addEventListener('click', async (ev) => {
   const b = ev.target.closest('[data-act],[data-pp],[data-tab]');
   if (!b || b.disabled) return;
