@@ -309,12 +309,41 @@ function bestSpare(s, out) {
   return ok[0][1];
 }
 
+/**
+ * Several decks picked (Tim, 2026-11-06: "allow the user to select multiple categories ... then give an equal
+ * distribution of charactors from each selected category"): an equal share of the board per deck, each share
+ * balanced inside its deck as usual; no person, actor or (where possible) franchise twice across decks.
+ * Custom people ("c/...") go with Mixed stars. A deck too small for its share leaves the rest to the others.
+ */
+export function pickByDeck(ids, n, meta, opt = {}) {
+  const deckOf = (id) => (id.startsWith('c/') ? 'mixed' : id.split('/')[0]);
+  const decks = [...new Set(ids.map(deckOf))];
+  if (decks.length < 2) return pickBalanced(ids, n, meta, opt);
+  const rng = opt.rng || Math.random, s = { meta };
+  const order = shuffle(decks.slice(), rng);   // who gets the odd extra cards
+  const share = new Map(order.map((d, i) => [d, Math.floor(n / decks.length) + (i < n % decks.length ? 1 : 0)]));
+  const board = [], usedP = new Set(), usedFr = new Set();
+  const clash = (id, fr) => { const m = metaOf(s, id); return usedP.has(m.nk) || (m.ac && usedP.has(m.ac)) || (fr && m.fr && usedFr.has(m.fr)); };
+  const take = (list) => { for (const id of list) { const m = metaOf(s, id); board.push(id); usedP.add(m.nk); if (m.ac) usedP.add(m.ac); if (m.fr) usedFr.add(m.fr); } };
+  for (const d of order) {
+    const mine = ids.filter((id) => deckOf(id) === d && !board.includes(id));
+    let list = mine.filter((id) => !clash(id, true));
+    if (list.length < share.get(d)) list = mine.filter((id) => !clash(id, false));
+    const want = Math.min(share.get(d), n - board.length);
+    if (want > 0) take(pickBalanced(list, want, meta, Object.assign({}, opt, { mixed: opt.mixed && d === 'mixed' })).board);
+  }
+  // short decks: fill from whatever is left, still one per person
+  for (const fr of [true, false]) for (const id of ids) { if (board.length >= n) break; if (!board.includes(id) && !clash(id, fr)) take([id]); }
+  const taken = new Set(board);
+  return { board, rest: ids.filter((id) => !taken.has(id)) };
+}
+
 function deal(s, rng) {
   const dm = dealMem(s);
   const { avoid, avoidP } = avoidOf(s, dm);
   const ok = s.pool.filter((id) => !avoid.has(id) && !avoidP.has(personOf(s, id)));
   const ids = onePerPerson(s, shuffle(ok.slice(), rng));
-  const pick = pickBalanced(ids, s.n, s.meta, { mixed: s.mixed, mem: dm, rng });
+  const pick = (s.byDeck ? pickByDeck : pickBalanced)(ids, s.n, s.meta, { mixed: s.mixed, mem: dm, rng });
   // too few faces they know: top up from the avoided ones (only when the board can't be filled otherwise)
   if (pick.board.length < s.n) {
     const have = new Set(pick.board.concat(pick.rest).map((id) => personOf(s, id)));
@@ -358,6 +387,7 @@ export const game = {
       pool, score: [0, 0], gone: null, reason: '',
       meta: cleanMeta(o.meta, pool), avoid: cleanIds(o.avoid), mixed: !!o.mixed,
     };
+    if (o.byDeck) s.byDeck = true;
     // o.mem: the starting player's face memory (memForDeal); the other seat's arrives with its first swap
     const dm = cleanDM(o.mem, new Set(pool));
     if (dm) s.mems = [dm, null];

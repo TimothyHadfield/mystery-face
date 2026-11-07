@@ -177,7 +177,7 @@ function sourcePool() {
   // Mixed stars also deals the player's own people (Your people), favoured by the deal
   const mix = decks.includes('mixed') ? ownPeople() : null;
   if (mix) ids.push(...mix.people.map((p) => 'c/' + p.id));
-  return { ids, set: null, mix, mixed: decks.includes('mixed'), title: decks.map((d) => FC.deck(d).title).join(' + ') };
+  return { ids, set: null, mix, mixed: decks.includes('mixed'), byDeck: !S.src.mix && decks.length > 1, title: decks.map((d) => FC.deck(d).title).join(' + ') };
 }
 /** Every custom person on this device/account (up to 20, picked at random), as one set: { title, people } */
 function ownPeople() {
@@ -275,8 +275,8 @@ function newLocal() {
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
   const custom = src.set ? { title: src.set.title, people: src.set.people } : src.mix || null;
-  const opts = { pool: src.ids, n: S.n, first: Math.random() < 0.5 ? 0 : 1, custom: !!src.set, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, mem: src.set ? null : memForDeal(MEM, src.ids) };
-  const st = game.setup(2, opts, Math.random);
+  const opts = { pool: src.ids, n: S.n, first: Math.random() < 0.5 ? 0 : 1, custom: !!src.set, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, byDeck: !!src.byDeck, mem: src.set ? null : memForDeal(MEM, src.ids) };
+  const st =game.setup(2, opts, Math.random);
   S.play = { kind: 'local', id: Date.now().toString(36), state: st, custom, secrets: [null, null], flips: [{}, {}], view: st.first, pick: null };
   FC.useCustom(custom);
   U.marks.clear(); U.pickSel = -1; U.guessing = false;
@@ -306,7 +306,7 @@ async function createRoom() {
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
   // each player's don't-knows reach the host as a quiet swap when the round starts (autoAvoid)
-  let options = { pool: src.ids, n: S.n, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, mem: src.set ? null : memForDeal(MEM, src.ids) };
+  let options = { pool: src.ids, n: S.n, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, byDeck: !!src.byDeck, mem: src.set ? null : memForDeal(MEM, src.ids) };
   if (src.set) {
     // only the faces this board needs travel with the room (the room doc must stay under 1 MiB)
     const ppl = src.set.people.slice().sort(() => Math.random() - 0.5).slice(0, S.n);
@@ -516,9 +516,10 @@ function renderHome(el) {
     const dk = FC.deck(d.id);
     if (!dk) continue;
     const kinds = FC.tagCounts([d.id]).slice(0, 3).map((t) => KIT.tagLabel(t.tag)).join(', ');
-    cards.push(`<button class="src${srcKey === 'deck:' + d.id ? ' on' : ''}" data-act="src" data-k="deck" data-v="${esc(d.id)}">${deckMosaic(dk.people.slice(0, 4).map((p) => ({ name: p.name, img: p.img, from: p.from })))}<b>${esc(dk.title)}</b><span>${dk.people.length} · ${esc(kinds)}</span></button>`);
+    const onD = S.src.kind === 'deck' && !S.src.mix && (S.src.decks || []).includes(d.id);
+    cards.push(`<button class="src${onD ? ' on' : ''}" data-act="src" data-k="deck" aria-pressed="${onD}" data-v="${esc(d.id)}">${deckMosaic(dk.people.slice(0, 4).map((p) => ({ name: p.name, img: p.img, from: p.from })))}<b>${esc(dk.title)}</b><span>${dk.people.length} · ${esc(kinds)}</span></button>`);
   }
-  if (allDecks.length > 1) cards.push(`<button class="src${srcKey === 'deck:' + allDecks.join('+') ? ' on' : ''}" data-act="src" data-k="mix">${deckMosaic(allDecks.slice(0, 4).map((d) => { const p = FC.deck(d).people[0]; return { name: p.name, img: p.img, from: p.from }; }))}<b>Mix</b><span>All decks</span></button>`);
+  if (allDecks.length > 1) cards.push(`<button class="src${S.src.kind === 'deck' && S.src.mix ? ' on' : ''}" data-act="src" data-k="mix">${deckMosaic(allDecks.slice(0, 4).map((d) => { const p = FC.deck(d).people[0]; return { name: p.name, img: p.img, from: p.from }; }))}<b>Mix</b><span>All decks</span></button>`);
   for (const s of sets) cards.push(`<button class="src${srcKey === 'set:' + s.id ? ' on' : ''}" data-act="src" data-k="set" data-v="${esc(s.id)}">${deckMosaic(s.people.slice(0, 4).map((p, i) => ({ name: FC.displayNames(s.people)[i], img: p.img })))}<b>${esc(s.title)}</b><span>${s.people.length} · yours</span></button>`);
   cards.push(`<button class="src add" data-act="newset"><span class="mosaic plus">+</span><b>Your people</b><span>Photos or names</span></button>`);
   const tags = S.src.kind === 'deck' ? FC.tagCounts(S.src.decks || []) : [];
@@ -923,8 +924,12 @@ document.addEventListener('click', async (ev) => {
     case 'mode': S.mode = v; save(); renderAll(); break;
     case 'src':
       if (b.dataset.k === 'set') S.src = { kind: 'set', id: v, decks: S.src.decks, tags: [] };
-      else if (b.dataset.k === 'mix') S.src = { kind: 'deck', decks: FC.deckIndex().filter((d) => FC.deck(d.id)).map((d) => d.id), tags: [] };
-      else S.src = { kind: 'deck', decks: [v], tags: [] };
+      else if (b.dataset.k === 'mix') S.src = { kind: 'deck', decks: FC.deckIndex().filter((d) => FC.deck(d.id)).map((d) => d.id), tags: [], mix: true };
+      else if (S.src.kind === 'deck' && !S.src.mix) {   // tap to add or remove a deck (Mix is on its own)
+        const cur = (S.src.decks || []).filter((d) => FC.deck(d));
+        const next = cur.includes(v) ? cur.filter((d) => d !== v) : cur.concat(v);
+        S.src = { kind: 'deck', decks: next.length ? next : [v], tags: [] };
+      } else S.src = { kind: 'deck', decks: [v], tags: [] };
       save(); renderAll(); break;
     case 'sort': SORT.openSorter({ getMem: () => MEM, setMem, flushMem, FX, onClose: () => renderAll() }); break;
     case 'newset': S.tab = 'people'; save(); await PPL.onClick(Object.assign(document.createElement('button'), { dataset: { pp: 'new' } })); break;
