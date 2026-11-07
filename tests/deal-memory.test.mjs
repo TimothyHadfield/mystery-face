@@ -42,16 +42,37 @@ test('about 30% of the board is unused (never-seen) faces when both kinds exist'
   assert.ok(share > 0.22 && share < 0.4, `unused share ${share.toFixed(2)}`);
 });
 
-test('end of the "don\'t know" phase: marked faces become unknown, kept ones known (next round obeys it)', () => {
+// Tim, 2026-11-07: "Reshuffling someone doesn't make them not be selected in future rounds, it just makes them
+// reshuffle. All the don't know or know considerations are outside of the actual games."
+test('a swap is only "not this time": nothing becomes known or unknown, the board just counts as used', () => {
   const pool = ids('movies', 100);
   const rng = rng32(3);
   let s = game.setup(2, { pool, n: 24, mem: { k: [], u: [] } }, rng);
   const marked = s.board.slice(0, 3);
   s = play(s, 0, { t: 'swap', idx: [0, 1, 2] }, rng);
+  for (const id of marked) assert.ok(!s.board.includes(id), 'swapped away this round');
   s = play(s, 0, { t: 'ready' }, rng); s = play(s, 1, { t: 'ready' }, rng);
   assert.equal(s.phase, 'pick');
-  for (const id of marked) assert.ok(s.mems[0].u.includes(id), 'marked = unknown');
-  for (const id of s.board) assert.equal(s.mems[0].k[id], 0, 'kept on the board = known, 0 games ago');
+  assert.deepEqual(s.mems[0].u, [], 'nobody became a don\'t-know');
+  assert.deepEqual(Object.keys(s.mems[0].k), [], 'nobody became known');
+  for (const id of s.board) assert.equal(s.mems[0].l[id], 0, 'on the board = used 0 games ago');
+  assert.ok(!(s.avoid || []).some((id) => marked.includes(id)), 'not kept out of later rounds');
+});
+
+test('a face swapped away can be dealt again in the next round', () => {
+  // 30 faces, boards of 14: the rematch deals 14 of the 16 not on the last board, 3 of them the swapped ones
+  let most = 0;
+  for (let seed = 1; seed <= 10; seed++) {
+    const rng = rng32(seed);
+    let s = game.setup(2, { pool: ids('movies', 30), n: 14 }, rng);
+    const marked = s.board.slice(0, 3);
+    s = play(s, 0, { t: 'swap', idx: [0, 1, 2] }, rng);
+    s.phase = 'over'; s.again = [false, false];   // skip the round itself
+    s = play(s, 0, { t: 'again' }, rng); s = play(s, 1, { t: 'again' }, rng);
+    assert.equal(s.round, 2);
+    most = Math.max(most, s.board.filter((id) => marked.includes(id)).length);
+  }
+  assert.ok(most >= 2, 'swapped faces come back in later rounds (most back on one board: ' + most + ')');
 });
 
 // Mixed stars: a fake deck big enough to show the shares (meta = gender|kind|namekey|sub|franchise|actor)

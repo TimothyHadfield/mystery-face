@@ -91,15 +91,22 @@ function shuffle(a, rng) { for (let i = a.length - 1; i > 0; i--) { const j = Ma
 // Tim, 2026-11-06: "Remember all charactors on a users account as either known, don't know, or unused. We
 // want to reuse the characters that are known, and not the charactors that are unknown, while still filling
 // charactors that are unused ... Also remember how many games it's been since a charactor has been used".
-// Stored (localStorage + the account): { v: 1, g: games so far, k: { faceId: game no. last on a board },
-// u: { faceId: game no. it was marked don't-know } }. A face in neither is unused. gamesSince = g - k[id].
-// For a deal the page sends the short form { k: ["faceId~gamesSince", ...], u: [faceId, ...] }.
+// Tim, 2026-11-07: "Reshuffling someone doesn't make them not be selected in future rounds, it just makes them
+// reshuffle. All the don't know or know considerations are outside of the actual games." So only Sort faces
+// sets known / don't-know; a game only records when a face was last on a board.
+// Stored (localStorage + the account): { v: 2, g: games so far, k: { faceId: 0 } known (Sort faces),
+// u: { faceId: game no. } don't-know (Sort faces), l: { faceId: game no. last on a board } }.
+// A face in neither k nor u is unsorted. gamesSince = g - l[id] (never on a board: SORTED_AGE).
+// v1 (games marked kept faces known, k = game no.): k stays known, and its game no. becomes l.
+// For a deal the page sends the short form { k: ["faceId~gamesSince"], u: [faceId], l: ["faceId~gamesSince"] }.
 export const MEM_MAX = 5000;
 const MEM_ID = /^(c|[A-Za-z0-9_.-]{1,40})\/[A-Za-z0-9_.-]{1,60}$/;
-function memTrim(m) {   // over MEM_MAX: forget the known faces seen longest ago (unknown ones are kept)
+function memTrim(m) {   // over MEM_MAX: forget the oldest sightings, then the known faces seen longest ago (unknown ones are kept)
+  const ls = Object.keys(m.l);
+  if (ls.length > MEM_MAX) ls.sort((a, b) => m.l[a] - m.l[b]).slice(0, ls.length - MEM_MAX).forEach((id) => delete m.l[id]);
   const ks = Object.keys(m.k);
   const over = ks.length + Object.keys(m.u).length - MEM_MAX;
-  if (over > 0) ks.sort((a, b) => m.k[a] - m.k[b]).slice(0, over).forEach((id) => delete m.k[id]);
+  if (over > 0) ks.sort((a, b) => (m.l[a] || 0) - (m.l[b] || 0)).slice(0, over).forEach((id) => delete m.k[id]);
   return m;
 }
 export function memClean(x) {
@@ -107,8 +114,11 @@ export function memClean(x) {
   const g = Math.max(0, Math.min(1e7, Math.floor(Number(o.g)) || 0));
   const part = (p) => { const out = {}; if (p && typeof p === 'object') for (const [id, v] of Object.entries(p)) { const n = Math.floor(Number(v)); if (MEM_ID.test(id) && n >= 0 && n <= g) out[id] = n; } return out; };
   const k = part(o.k), u = part(o.u);
+  let l = part(o.l);
+  if (!(o.v >= 2)) { l = {}; for (const id in k) if (k[id] > 0) l[id] = k[id]; }   // v1: k held the last sighting
+  for (const id in k) k[id] = 0;
   for (const id in u) delete k[id];
-  return memTrim({ v: 1, g, k, u });
+  return memTrim({ v: 2, g, k, u, l });
 }
 /** The player marked these as don't-know (custom people never are: they made them). */
 export function memMarkUnknown(m, ids) {
@@ -116,65 +126,71 @@ export function memMarkUnknown(m, ids) {
   for (const id of ids || []) if (MEM_ID.test(id) && !id.startsWith('c/')) { x.u[id] = x.g; delete x.k[id]; }
   return memTrim(x);
 }
-/** "Sort faces" Know: known but never on a board, stored as k[id] = 0 (a real sighting is game 1 or later),
- *  so the deal treats it as long unused (SORTED_AGE). A face already seen in a game keeps its sighting. */
+/** "Sort faces" Know. A face never on a board counts as long unused (SORTED_AGE) in the deal. */
 export const SORTED_AGE = 20;
 export function memMarkKnown(m, ids) {
   const x = memClean(m);
-  for (const id of ids || []) if (MEM_ID.test(id) && !id.startsWith('c/')) { delete x.u[id]; if (!(id in x.k)) x.k[id] = 0; }
+  for (const id of ids || []) if (MEM_ID.test(id) && !id.startsWith('c/')) { delete x.u[id]; x.k[id] = 0; }
   return memTrim(x);
 }
-/** One more game: every face left on the board after the don't-know phase is known, seen 0 games ago. */
+/** One more game: every face on the board was used now. Known / don't-know stay as they are. */
 export function memRecord(m, board) {
   const x = memClean(m);
   x.g++;
-  for (const id of board || []) if (MEM_ID.test(id)) { x.k[id] = x.g; delete x.u[id]; }
+  for (const id of board || []) if (MEM_ID.test(id)) x.l[id] = x.g;
   return memTrim(x);
 }
 /** Device + account memory: union; unknown wins over known; the most recent sighting is kept. */
 export function memMerge(a, b) {
   const A = memClean(a), B = memClean(b), g = Math.max(A.g, B.g);
-  const out = { v: 1, g, k: {}, u: {} };
+  const out = { v: 2, g, k: {}, u: {}, l: {} };
   for (const M of [A, B]) for (const id in M.u) out.u[id] = Math.max(out.u[id] ?? 0, g - (M.g - M.u[id]));
-  for (const M of [A, B]) for (const id in M.k) if (!(id in out.u)) out.k[id] = Math.max(out.k[id] ?? 0, M.k[id] === 0 ? 0 : g - (M.g - M.k[id]));   // 0 = sorted, never on a board
+  for (const M of [A, B]) for (const id in M.k) if (!(id in out.u)) out.k[id] = 0;
+  for (const M of [A, B]) for (const id in M.l) out.l[id] = Math.max(out.l[id] ?? 0, g - (M.g - M.l[id]));
   return memTrim(out);
 }
 /** The short form a deal needs, only for the faces in `ids` (all when null). */
 export function memForDeal(m, ids) {
   const x = memClean(m), want = ids ? new Set(ids) : null;
-  const k = [], u = [];
-  for (const id in x.k) if (!want || want.has(id)) k.push(id + '~' + (x.k[id] === 0 ? Math.max(x.g, SORTED_AGE) : x.g - x.k[id]));
+  const age = (id) => (id in x.l ? x.g - x.l[id] : Math.max(x.g, SORTED_AGE));
+  const k = [], u = [], l = [];
+  for (const id in x.k) if (!want || want.has(id)) k.push(id + '~' + age(id));
   for (const id in x.u) if (!want || want.has(id)) u.push(id);
-  return { k, u };
+  for (const id in x.l) if (!(id in x.k) && !(id in x.u) && (!want || want.has(id))) l.push(id + '~' + age(id));
+  return { k, u, l };
 }
 // In the state: s.mems[seat] = { k: { faceId: gamesSince }, u: [faceId] } (seat 0 from the options, each
 // seat's own from its first swap of a round), s.marks[seat] = faces that seat swapped out this round.
 function cleanDM(dm, pool) {
   if (!dm || typeof dm !== 'object') return null;
-  const k = {}, u = [];
-  for (const e of Array.isArray(dm.k) ? dm.k.slice(0, MEM_MAX) : []) { const r = /^(.{3,101})~(\d{1,7})$/.exec(String(e)); if (r && pool.has(r[1])) k[r[1]] = +r[2]; }
-  for (const x of Array.isArray(dm.u) ? dm.u.slice(0, MEM_MAX) : []) { const id = String(x); if (pool.has(id) && !id.startsWith('c/')) { u.push(id); delete k[id]; } }
-  return { k, u };
+  const k = {}, u = [], l = {};
+  const ages = (list, into) => { for (const e of Array.isArray(list) ? list.slice(0, MEM_MAX) : []) { const r = /^(.{3,101})~(\d{1,7})$/.exec(String(e)); if (r && pool.has(r[1])) into[r[1]] = +r[2]; } };
+  ages(dm.k, k); ages(dm.l, l);
+  for (const x of Array.isArray(dm.u) ? dm.u.slice(0, MEM_MAX) : []) { const id = String(x); if (pool.has(id) && !id.startsWith('c/')) { u.push(id); delete k[id]; delete l[id]; } }
+  for (const id in k) delete l[id];
+  return { k, u, l };
 }
-/** Both players' memories as one: unknown to either = left out; known = known to both (newest sighting). */
+/** Both players' memories as one: unknown to either = left out; known = known to both. age = games since
+ *  either last saw it on a board (never: SORTED_AGE). */
 function dealMem(s) {
   const ms = (s.mems || []).filter(Boolean);
   if (!ms.length) return null;
   const unknown = new Set(ms.flatMap((m) => m.u));
-  const known = new Map();
-  for (const id in ms[0].k) if (!unknown.has(id) && ms.every((m) => id in m.k)) known.set(id, Math.min(...ms.map((m) => m.k[id])));
-  return { unknown, known };
+  const known = new Map(), age = new Map();
+  for (const m of ms) for (const part of [m.k, m.l || {}]) for (const id in part) age.set(id, Math.min(age.get(id) ?? Infinity, part[id]));
+  for (const id in ms[0].k) if (!unknown.has(id) && ms.every((m) => id in m.k)) known.set(id, age.get(id));
+  return { unknown, known, age };
 }
-/** End of the don't-know phase (once a round): what each seat kept is known, what it swapped out is not. */
+/** A new round (once): every face on this board was just used. Known / don't-know never change in a game. */
 function ageMems(s) {
   if (!s.mems || s.memRound === s.round) return;
   s.memRound = s.round;
-  s.mems.forEach((m, seat) => {
+  s.mems.forEach((m) => {
     if (!m) return;
-    const marked = new Set((s.marks && s.marks[seat]) || []);
+    m.l = m.l || {};
     for (const id in m.k) m.k[id]++;
-    for (const id of s.board) if (!marked.has(id)) { m.k[id] = 0; m.u = m.u.filter((x) => x !== id); }
-    for (const id of marked) if (!id.startsWith('c/') && s.pool.includes(id)) { delete m.k[id]; if (!m.u.includes(id)) m.u.push(id); }
+    for (const id in m.l) m.l[id]++;
+    for (const id of s.board) { if (id in m.k) m.k[id] = 0; else if (!m.u.includes(id)) m.l[id] = 0; }
   });
 }
 
@@ -227,7 +243,9 @@ export function pickBalanced(ids, n, meta, opt = {}) {
     for (const gk of groups.keys()) target.set(gk, Math.max(1, Math.ceil(n * (gk === 'custom' ? CUSTOM_SHARE : KIND_CAP))));
   }
   const isNew = (id) => !!mem && !mem.known.has(id);
-  const w = (id) => (mem && mem.known.has(id) ? Math.pow(1 + mem.known.get(id), 1.5) : 1) * (M.get(id).k === 'custom' ? 1.5 : 1);
+  // games since last on a board: longer ago = likelier (unsorted faces too, so a game doesn't repeat them)
+  const ageOf = (id) => (mem.age && mem.age.has(id) ? mem.age.get(id) : mem.known.has(id) ? mem.known.get(id) : SORTED_AGE);
+  const w = (id) => (mem ? Math.pow(1 + ageOf(id), 1.5) : 1) * (M.get(id).k === 'custom' ? 1.5 : 1);
   const board = [], taken = new Set(), used = new Set(), fr = new Map(), have = new Map(), gc = { f: 0, m: 0, x: 0 }, spread = new Map();
   let fresh = 0;
   const spreadKey = (m) => (mixed ? (m.k === 'character' ? 'c:' + m.sub : 'k:' + m.k) : '');
@@ -281,9 +299,9 @@ export function pickBalanced(ids, n, meta, opt = {}) {
   for (const id of ids) { if (board.length >= n) break; if (!taken.has(id) && !used.has(M.get(id).nk)) take(id); }
   return { board, rest: ids.filter((id) => !taken.has(id)) };
 }
-/** Faces this game must not deal: don't-knows marked this game, plus either player's remembered ones. */
+/** Faces this deal must not use: either player's don't-knows (Sort faces), plus faces reshuffled away this round. */
 function avoidOf(s, dm) {
-  const avoid = new Set(s.avoid || []);
+  const avoid = new Set((s.avoid || []).concat(...(s.marks || [])));
   if (dm) for (const id of dm.unknown) avoid.add(id);
   return { avoid, avoidP: new Set([...avoid].map((id) => personOf(s, id))) };
 }
@@ -341,6 +359,7 @@ export function pickByDeck(ids, n, meta, opt = {}) {
 }
 
 function deal(s, rng) {
+  s.marks = [[], []];   // last round's reshuffles may come back
   const dm = dealMem(s);
   const { avoid, avoidP } = avoidOf(s, dm);
   const ok = s.pool.filter((id) => !avoid.has(id) && !avoidP.has(personOf(s, id)));
@@ -445,7 +464,7 @@ export const game = {
     }
     switch (s.phase) {
       case 'dunno': {
-        // both ready: the memories learn what each kept (known) and swapped out (unknown)
+        // both ready: the round's faces count as used (memories only age, nothing becomes known/unknown)
         const toPick = () => { if (s.ready[0] && s.ready[1]) { ageMems(s); s.phase = 'pick'; } };
         if (a.t === 'ready') { s.ready[seat] = true; toPick(); break; }
         if (a.t !== 'swap' || !Array.isArray(a.idx)) fail('Pick faces to swap, or Ready.');
@@ -458,7 +477,7 @@ export const game = {
         }
         const idx = Array.from(new Set(a.idx.map(Number))).filter((i) => Number.isInteger(i) && i >= 0 && i < s.board.length);
         const swapped = [];
-        s.avoid = cleanIds((s.avoid || []).concat(idx.map((i) => s.board[i])));   // never back this game
+        // reshuffled = "don't want this time": gone for this round only, not remembered (Tim, 2026-11-07)
         s.marks = s.marks || [[], []];
         if (seat >= 0 && seat <= 1) s.marks[seat] = Array.from(new Set(s.marks[seat].concat(idx.map((i) => s.board[i])))).slice(-200);
         for (const i of idx) {

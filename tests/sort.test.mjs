@@ -11,16 +11,17 @@ const ids = (pre, n) => Array.from({ length: n }, (_, i) => `${pre}/p${i}`);
 const sortKnown = (m, list) => (E.memMarkKnown ? E.memMarkKnown(m, list) : memClean(Object.assign({}, m, { k: Object.assign({}, m.k, Object.fromEntries(list.map((id) => [id, 0]))) })));
 
 test('sorted Know faces are dealt far before the faces just played (even after only 1 game)', () => {
-  const pool = ids('movies', 100);
-  const played = pool.slice(0, 50), sorted = pool.slice(50);
-  let m = memRecord(memClean(null), played);   // 1 game: these were on the board
+  const pool = ids('movies', 150);
+  const played = pool.slice(0, 50), sorted = pool.slice(50, 100);   // the rest: unsorted, never on a board
+  let m = memRecord(memClean(null), played);   // 1 game: these were on the board (still unsorted)
   m = sortKnown(m, sorted);
-  let np = 0, ns = 0;
+  let np = 0, ns = 0, nu = 0;
   for (let seed = 1; seed <= 60; seed++) {
     const s = game.setup(2, { pool, n: 24, mem: memForDeal(m, pool) }, rng32(seed));
-    for (const id of s.board) (sorted.includes(id) ? ns++ : np++);
+    for (const id of s.board) (sorted.includes(id) ? ns++ : played.includes(id) ? np++ : nu++);
   }
   assert.ok(ns > 8 * np, `sorted ${ns} vs just played ${np}`);
+  assert.ok(nu > 3 * np, `never seen ${nu} vs just played ${np}`);
 });
 
 test('a new player who sorted Know on some faces: ~70% of the board comes from them', () => {
@@ -51,10 +52,11 @@ test('memMarkKnown keeps a real sighting, and a sync merge keeps "never on a boa
   assert.equal(typeof E.memMarkKnown, 'function');
   let m = memRecord(memRecord(memClean(null), ['movies/a']), ['movies/b']);   // g2: a seen 1 game ago
   m = E.memMarkKnown(m, ['movies/a', 'movies/c', 'c/own']);
-  assert.equal(m.k['movies/a'], 1, 'a real sighting is kept');
-  assert.equal(m.k['movies/c'], 0);
+  assert.equal(m.l['movies/a'], 1, 'a real sighting is kept');
+  assert.ok('movies/c' in m.k && !('movies/c' in m.l));
+  assert.ok(!('c/own' in m.k), 'custom people are not sorted');
   const acct = memRecord(memRecord(memRecord(memRecord(memClean(null), ['movies/x']), []), []), []);   // g4
   const merged = memMerge(m, acct);
-  assert.equal(merged.k['movies/c'], 0, 'still never on a board after the merge');
-  assert.equal(merged.g - merged.k['movies/a'], 1, 'real sightings still line up');
+  assert.ok('movies/c' in merged.k && !('movies/c' in merged.l), 'still never on a board after the merge');
+  assert.equal(merged.g - merged.l['movies/a'], 1, 'real sightings still line up');
 });

@@ -194,9 +194,9 @@ main { min-height: 0; position: relative; }
 .face.stale .ph { filter: brightness(.42) saturate(.5); }
 .face.stale .nm { color: #6c7286; }
 .face.fresh .ph { box-shadow: 0 0 0 2.5px var(--accent), 0 0 12px 2px var(--accent); }
-/* "I don't know" mark: one tap toggles, the whole picture says so */
+/* "Swap this one" mark: one tap toggles, the whole picture says so */
 .face.marked .ph { box-shadow: 0 0 0 3px var(--warm); filter: none; }
-.face.marked .ph::after { content: "Don't know"; position: absolute; inset: 0; z-index: 2; display: grid; place-items: center; padding: 0 6%; text-align: center;
+.face.marked .ph::after { content: "Swap"; position: absolute; inset: 0; z-index: 2; display: grid; place-items: center; padding: 0 6%; text-align: center;
   background: rgba(20, 14, 6, .86); color: var(--warm); font-weight: 900; font-size: max(9px, 18cqw); line-height: 1.05; text-transform: uppercase; letter-spacing: .02em; }
 /* chosen (pick or guess): thick ring + tick */
 .face.sel .ph { box-shadow: 0 0 0 3px var(--accent); }

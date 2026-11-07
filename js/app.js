@@ -60,9 +60,8 @@ function flushMem() {
   if (ACCT.user()) ACCT.saveMemory(MEM);
 }
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flushMem(); });
-function addDunno(ids) { const add = ids.filter((id) => id && !id.startsWith('c/')); if (add.length) setMem(memMarkUnknown(MEM, add)); }
-const dunnoList = () => Object.keys(MEM.u);
-/** End of the don't-know phase, once per round: everything left on the board is known. */
+const dunnoList = () => Object.keys(MEM.u);   // Sort faces' don't-knows (a Swap in a game never adds to it)
+/** End of the swap phase, once per round: the faces on the board count as used. */
 function recordMem(key, board) {
   if (lsGet('mystery-face:memrec') === key) return;
   lsSet('mystery-face:memrec', key);
@@ -417,15 +416,16 @@ function autoAvoid(snap) {
   const seen = memForDeal(MEM, null);
   seen.k = seen.k.filter((e) => decks.has(e.split('/')[0]));
   seen.u = seen.u.filter((id) => decks.has(id.split('/')[0]));
+  seen.l = seen.l.filter((e) => decks.has(e.split('/')[0]));
   const list = dunnoList();
-  if (!list.length && !seen.k.length) return;
+  if (!list.length && !seen.k.length && !seen.l.length) return;
   U.lastAvoid = key;
   const mine = new Set(list);
   const idx = pub.board.map((id, i) => (mine.has(id) ? i : -1)).filter((i) => i >= 0);
   idx.forEach((i) => U.marks.delete(i));
   U.online.act({ t: 'swap', idx, avoid: list.slice(-600), seen, quiet: true }).catch(() => { U.lastAvoid = ''; });
 }
-// The don't-know phase is over (both ready): whatever is on the board now is known to this player.
+// The swap phase is over (both ready): the faces on the board now count as used (not as known).
 function memOnline(snap) {
   const pub = snap.pub;
   if (!pub || pub.custom || pub.phase !== 'pick') return;
@@ -642,9 +642,9 @@ function stepFor(g) {
       const waitTxt = L ? '' : p.ready[opp] ? `${esc(N[opp])} is ready.` : `${esc(N[opp])} is looking…`;
       const fresh = mine && (p.fresh || []).length;
       return {
-        text: mine ? (fresh ? `<b>New faces are lit up.</b> Don't know one? Tap it, then Swap.` : `<b>Don't know someone?</b> Tap them, then Swap.`) : `Waiting for ${esc(N[opp])}…`,
+        text: mine ? (fresh ? `<b>New faces are lit up.</b> Don't want one? Tap it, then Swap.` : `<b>Don't want someone this time?</b> Tap them, then Swap.`) : `Waiting for ${esc(N[opp])}…`,
         sub: mine ? `${p.spare} spare face${p.spare === 1 ? '' : 's'} left. ${waitTxt}` : '',
-        dock: mine ? `<button class="btn" data-act="swap" ${nMarked && p.spare ? '' : 'disabled'}>${nMarked ? `Swap ${nMarked} marked` : 'Swap marked'}</button><button class="btn main" data-act="ready">${L ? 'We know them all' : 'Ready'}</button>` : '',
+        dock: mine ? `<button class="btn" data-act="swap" ${nMarked && p.spare ? '' : 'disabled'}>${nMarked ? `Swap ${nMarked} marked` : 'Swap marked'}</button><button class="btn main" data-act="ready">Ready</button>` : '',
       };
     }
     case 'pick': {
@@ -1002,7 +1002,7 @@ document.addEventListener('click', async (ev) => {
     case 'timer': S.timer = +v; save(); renderAll(); break;
     case 'view': S.play.view = +v; save(); renderPlay(); break;
     case 'tile': onTile(g, +b.dataset.seat, +b.dataset.i, b); break;
-    case 'swap': if (g) { const idx = [...U.marks]; U.marks.clear(); addDunno(idx.map((i) => g.pub.board[i])); if (await send(g.kind === 'local' ? g.toAct[0] : g.me, { t: 'swap', idx })) FX.play('shuffle'); renderAll(); } break;
+    case 'swap': if (g) { const idx = [...U.marks]; U.marks.clear(); if (await send(g.kind === 'local' ? g.toAct[0] : g.me, { t: 'swap', idx })) FX.play('shuffle'); renderAll(); } break;
     case 'ready':
       if (!g) break;
       U.marks.clear();

@@ -39,7 +39,7 @@ export function rules() {
     sections: [
       { id: 'goal', short: 'Goal', title: 'Goal', html: `<p>Two players, the same board of faces. Each of you secretly picks one face. Take turns asking yes/no questions and flip down the faces that can't be the other player's.</p>
         <p>Name the other player's face first to win the round.</p>` },
-      { id: 'start', short: 'Start', title: 'Before you play', html: `<ul><li><b>Don't know someone?</b> Both of you tap any faces you don't recognise, then <b>Swap</b>: they're replaced from the deck. Press <b>Ready</b> when you know everyone.</li>
+      { id: 'start', short: 'Start', title: 'Before you play', html: `<ul><li><b>Don't want someone this time?</b> Both of you tap any faces you'd rather not have, then <b>Swap</b>: they're reshuffled for new ones (only for this round). Press <b>Ready</b> when you're happy with the board.</li>
         <li><b>Pick</b> your mystery face (or <b>Random</b>) and lock it in. Both of you may pick the same face.</li></ul>
         <p class="tip">Your pick is locked with a code when you choose it and checked when the round ends, so nobody can switch faces halfway.</p>` },
       { id: 'turn', short: 'Turns', title: 'A turn', html: `<ol><li>You <b>ask</b> one yes/no question, like "Glasses?". Type it, or tap a quick question.</li>
