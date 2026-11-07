@@ -1,6 +1,6 @@
 {
-  "name": "Mystery Face",
-  "short_name": "Mystery Face",
+  "name": "Guess Whos",
+  "short_name": "Guess Whos",
   "description": "Ask yes/no questions and flip faces to find your friend's mystery face. Online with a friend or on one screen.",
   "id": "./",
   "start_url": "./",

@@ -274,7 +274,7 @@ async function onImport(file) {
       n++;
     }
     X.toast(n ? `Imported ${n} set${n > 1 ? 's' : ''}` : 'No people found in that file.');
-  } catch (e) { X.toast('That file isn\'t a Mystery Face set.'); }
+  } catch (e) { X.toast('That file isn\'t a Guess Whos set.'); }
   X.render();
 }
 

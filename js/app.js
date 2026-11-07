@@ -1126,9 +1126,9 @@ function zoomMe(g) {
 async function shareLink() {
   const sn = U.snap; if (!sn || !sn.code) return;
   const url = location.origin + location.pathname + '?room=' + sn.code;
-  const text = `Play Mystery Face with me: room ${sn.code}`;
+  const text = `Play Guess Whos with me: room ${sn.code}`;
   try {
-    if (navigator.share && matchMedia('(pointer: coarse)').matches) { await navigator.share({ title: 'Mystery Face', text, url }); return; }
+    if (navigator.share && matchMedia('(pointer: coarse)').matches) { await navigator.share({ title: 'Guess Whos', text, url }); return; }
     await navigator.clipboard.writeText(url); toast('Link copied');
   } catch (e) { if (e && e.name !== 'AbortError') toast('Room code: ' + sn.code); }
 }
@@ -1158,7 +1158,7 @@ try { if (localStorage.getItem('online.mystery-face')) ensureOnline().then((o) =
 // first visit: offer the rules
 setTimeout(() => {
   if (!COACH || S.play || U.snap || COACH.offered('mystery-face-first')) return;
-  COACH.offer({ id: 'mystery-face-first', title: 'New to Mystery Face?', text: 'See how a turn works.', yes: 'Show me', no: 'No thanks', onYes: () => COACH.rules(KIT.rules()), place: 'auto', avoid: ['[data-act="create"]', '[data-act="startlocal"]', '.srcs', '.modes'] });
+  COACH.offer({ id: 'mystery-face-first', title: 'New to Guess Whos?', text: 'See how a turn works.', yes: 'Show me', no: 'No thanks', onYes: () => COACH.rules(KIT.rules()), place: 'auto', avoid: ['[data-act="create"]', '[data-act="startlocal"]', '.srcs', '.modes'] });
 }, 900);
 if (window.PWA) window.PWA.safeToReload = () => (S.tab !== 'play' || (!S.play && !U.snap)) && !inRoom() && !U.sheet && !(document.activeElement && /INPUT|TEXTAREA/.test(document.activeElement.tagName));
 window.__mf = { S, U, G, game, build: BUILD };

@@ -35,7 +35,7 @@ export function tagLabel(tag) {
 
 export function rules() {
   return {
-    title: 'How to play Mystery Face',
+    title: 'How to play Guess Whos',
     sections: [
       { id: 'goal', short: 'Goal', title: 'Goal', html: `<p>Two players, the same board of faces. Each of you secretly picks one face. Take turns asking yes/no questions and flip down the faces that can't be the other player's.</p>
         <p>Name the other player's face first to win the round.</p>` },
