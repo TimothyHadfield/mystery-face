@@ -714,15 +714,9 @@ function myFaceChip(g, seat) {
   return `<button class="mychip" data-act="zoomme" aria-label="Your face: ${esc(f.name)}"><span class="ph">${FC.picHTML(f)}</span><em>${esc(f.name)}</em></button>`;
 }
 
-// Small red X marks (Tim, 2026-11-06): "the first click on a character makes a red X at the bottom of the
-// picture and the second click puts the big grey X across the whole thing. If on another turn you click the
-// same character a second X is placed ... 3 total Xs can be placed on a charactor before the big grey X".
-// Kept with the flips as f.x = { index: [count, log length when last marked] }.
-const MARKS_MAX = 3;
-const pmarksHTML = (flips, i) => {
-  const n = (flips && flips.x && flips.x[i] && flips.x[i][0]) || 0;
-  return n ? `<span class="pmarks" aria-hidden="true">${'<b>✕</b>'.repeat(n)}</span>` : '';
-};
+// Small red X (Tim, 2026-11-06): a tap cycles normal -> small red X at the bottom -> big grey X -> normal.
+// Kept with the flips as f.x = { index: [1, log length when marked] }.
+const pmarksHTML = (flips, i) => (flips && flips.x && flips.x[i] && !(i in flips && flips[i] !== undefined) ? '<span class="pmarks" aria-hidden="true"><b>✕</b></span>' : '');
 function boardHTML(g, seat, st, dim) {
   const p = g.pub, L = g.kind === 'local';
   const playing = !['dunno', 'pick'].includes(p.phase);
@@ -1047,11 +1041,11 @@ function onTile(g, seat, i, el) {
   if (L && seat !== p.turn) { S.play.view = seat; return toast(`${g.names[p.turn]} is flipping now. Switch back to flip.`); }
   const f = Object.assign({}, flipsOf(g, seat));
   f.x = Object.assign({}, f.x || {});
-  const T = p.log.length, mk = f.x[i] || [0, -1];
+  // each tap cycles: normal -> small red X -> big grey X -> normal (Tim, 2026-11-06)
   let small = false;
-  if (f[i] !== undefined) delete f[i];                                     // grey X: stand back up (small Xs stay)
-  else if (mk[1] === T || mk[0] >= MARKS_MAX) f[i] = turnNo(p);            // 2nd tap this turn, or 3 Xs already
-  else { f.x[i] = [mk[0] + 1, T]; small = true; }                          // a small red X for this turn
+  if (f[i] !== undefined) { delete f[i]; delete f.x[i]; }                  // grey X -> normal
+  else if (f.x[i]) { delete f.x[i]; f[i] = turnNo(p); }                    // small X -> grey X
+  else { f.x[i] = [1, p.log.length]; small = true; }                       // normal -> small X
   if (L) localSnap(); else U.oflips.push({ key: flipKey2(p), flips: flipsOf(g, seat) });
   setFlips(g, seat, f);
   FX.play(small ? 'tap' : 'cardFlip');
