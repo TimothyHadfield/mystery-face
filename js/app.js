@@ -738,9 +738,14 @@ function myFaceChip(g, seat) {
   return `<button class="mychip" data-act="zoomme" aria-label="Your face: ${esc(f.name)}"><span class="ph">${FC.picHTML(f)}</span><em>${esc(f.name)}</em></button>`;
 }
 
-// Small red X (Tim, 2026-11-06): a tap cycles normal -> small red X at the bottom -> big grey X -> normal.
-// Kept with the flips as f.x = { index: [1, log length when marked] }.
-const pmarksHTML = (flips, i) => (flips && flips.x && flips.x[i] && !(i in flips && flips[i] !== undefined) ? '<span class="pmarks" aria-hidden="true"><b>✕</b></span>' : '');
+// Small red Xs (Tim, 2026-11-06/08): small Xs left at the end of a turn are locked in. A tap cycles
+// locked Xs -> one more small X (up to 3) -> big grey X -> locked Xs; with 3 locked: 3 Xs <-> big grey X.
+// Kept with the flips as f.x = { index: [small Xs, log length when the last one was added this turn | -1] }.
+const pmarksHTML = (flips, i) => {
+  const x = flips && flips.x && flips.x[i];
+  if (!x || !x[0] || (i in flips && flips[i] !== undefined)) return '';
+  return '<span class="pmarks" aria-hidden="true">' + '<b>✕</b>'.repeat(Math.min(3, x[0])) + '</span>';
+};
 function boardHTML(g, seat, st, dim) {
   const p = g.pub, L = g.kind === 'local';
   const playing = !['dunno', 'pick'].includes(p.phase);
@@ -1067,11 +1072,14 @@ function onTile(g, seat, i, el) {
   if (L && seat !== p.turn) { S.play.view = seat; return toast(`${g.names[p.turn]} is flipping now. Switch back to flip.`); }
   const f = Object.assign({}, flipsOf(g, seat));
   f.x = Object.assign({}, f.x || {});
-  // each tap cycles: normal -> small red X -> big grey X -> normal (Tim, 2026-11-06)
+  // each tap cycles: locked small Xs -> one more (max 3) -> big grey X -> locked (Tim, 2026-11-08)
   let small = false;
-  if (f[i] !== undefined) { delete f[i]; delete f.x[i]; }                  // grey X -> normal
-  else if (f.x[i]) { delete f.x[i]; f[i] = turnNo(p); }                    // small X -> grey X
-  else { f.x[i] = [1, p.log.length]; small = true; }                       // normal -> small X
+  const x = f.x[i] || [0, -1];
+  const floor = x[1] === p.log.length ? x[0] - 1 : x[0];                  // Xs from earlier turns
+  const keep = () => { if (floor > 0) f.x[i] = [floor, -1]; else delete f.x[i]; };
+  if (f[i] !== undefined) { delete f[i]; keep(); }                          // grey X -> locked Xs
+  else if (x[0] > floor || floor >= 3) { keep(); f[i] = turnNo(p); }        // one more (or 3 locked) -> grey X
+  else { f.x[i] = [floor + 1, p.log.length]; small = true; }               // locked -> one more small X
   if (L) localSnap(); else U.oflips.push({ key: flipKey2(p), flips: flipsOf(g, seat) });
   setFlips(g, seat, f);
   FX.play(small ? 'tap' : 'cardFlip');
