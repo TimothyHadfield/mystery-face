@@ -264,9 +264,13 @@ export function pickBalanced(ids, n, meta, opt = {}) {
     return !m.fr || (fr.get(m.fr) || 0) < frMax;
   };
   // one face from a list: soft wishes dropped one by one (gender, then known/new), then weighted
-  const choose = (list, frMax) => {
-    let c = list.filter((id) => free(id, frMax));
+  const choose = (list, frMax, oldOnly) => {
+    let c = list.filter((id) => free(id, frMax) && (!oldOnly || ageOf(id) >= 1));
     if (!c.length) return null;
+    // Tim, 2026-11-09: "nearly all the characters that are shown were in the last game I played too". Faces
+    // on the last board come only when nothing else is left (before: just a lower weight, so a player who
+    // knows ~50 of 92 saw ~11 of the last 24 again; now ~0).
+    if (mem) { const old = c.filter((id) => ageOf(id) >= 1); if (old.length) c = old; }
     const wantG = gc.f <= gc.m ? 'f' : 'm';
     const wantNew = mem ? fresh < NEW_SHARE * (board.length + 1) : null;
     const tiers = [
@@ -291,11 +295,12 @@ export function pickBalanced(ids, n, meta, opt = {}) {
     if (!order.length) break;
     const gk = order[0];
     if (!mixed && (have.get(gk) || 0) >= target.get(gk)) break;   // every kind at its cap: fill below
-    const id = choose(groups.get(gk), 1);
+    const id = choose(groups.get(gk), 1, !!mem);   // a kind out of faces not on the last board stops here
     if (id) take(id); else done.add(gk);
   }
   // too few to keep every rule: a 2nd card of a franchise, then anything not the same person/actor
-  for (const frMax of [1, 2, Infinity]) while (board.length < n) { const id = choose(ids, frMax); if (!id) break; take(id); }
+  // (with a memory: a 2nd card of a franchise comes before a face from the last board)
+  for (const oldOnly of mem ? [true, false] : [false]) for (const frMax of [1, 2, Infinity]) while (board.length < n) { const id = choose(ids, frMax, oldOnly); if (!id) break; take(id); }
   for (const id of ids) { if (board.length >= n) break; if (!taken.has(id) && !used.has(M.get(id).nk)) take(id); }
   return { board, rest: ids.filter((id) => !taken.has(id)) };
 }
@@ -336,7 +341,9 @@ function bestSpare(s, out) {
 export function pickByDeck(ids, n, meta, opt = {}) {
   // opt.groups: { faceId: 'set:<id>' } puts a "Your people" set in its own category (Tim, 2026-11-06)
   const g = opt.groups || {};
-  const deckOf = (id) => g[id] || (id.startsWith('c/') ? 'mixed' : id.split('/')[0]);
+  // opt.deckGroups: { deckId: groupId } several decks as one picked group ("All Sports" = every sports deck)
+  const dg = opt.deckGroups || {};
+  const deckOf = (id) => g[id] || (id.startsWith('c/') ? 'mixed' : dg[id.split('/')[0]] || id.split('/')[0]);
   const decks = [...new Set(ids.map(deckOf))];
   if (decks.length < 2) return pickBalanced(ids, n, meta, opt);
   const rng = opt.rng || Math.random, s = { meta };
@@ -364,7 +371,7 @@ function deal(s, rng) {
   const { avoid, avoidP } = avoidOf(s, dm);
   const ok = s.pool.filter((id) => !avoid.has(id) && !avoidP.has(personOf(s, id)));
   const ids = onePerPerson(s, shuffle(ok.slice(), rng));
-  const pick = (s.byDeck ? pickByDeck : pickBalanced)(ids, s.n, s.meta, { mixed: s.mixed, mem: dm, rng, groups: s.groups });
+  const pick = (s.byDeck ? pickByDeck : pickBalanced)(ids, s.n, s.meta, { mixed: s.mixed, mem: dm, rng, groups: s.groups, deckGroups: s.deckGroups });
   // too few faces they know: top up from the avoided ones (only when the board can't be filled otherwise)
   if (pick.board.length < s.n) {
     const have = new Set(pick.board.concat(pick.rest).map((id) => personOf(s, id)));
@@ -409,6 +416,11 @@ export const game = {
       meta: cleanMeta(o.meta, pool), avoid: cleanIds(o.avoid), mixed: !!o.mixed,
     };
     if (o.byDeck) s.byDeck = true;
+    if (o.deckGroups && typeof o.deckGroups === 'object') {
+      const dg = {};
+      for (const [d, gid] of Object.entries(o.deckGroups).slice(0, 300)) if (/^[A-Za-z0-9_.-]{1,40}$/.test(d) && /^[\w:-]{1,48}$/.test(String(gid))) dg[d] = String(gid);
+      if (Object.keys(dg).length) s.deckGroups = dg;
+    }
     if (o.groups && typeof o.groups === 'object') {   // { 'c/<id>': 'set:<id>' }: each picked set is its own category
       const gr = {};
       for (const id of pool) if (id.startsWith('c/') && /^set:[\w-]{1,40}$/.test(String(o.groups[id] || ''))) gr[id] = o.groups[id];

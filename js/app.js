@@ -10,7 +10,7 @@ import * as PPL from './people.js';
 import * as ACCT from './account.js';
 import * as SORT from './sorter.js';
 
-const BUILD = '2026-11-09.1';
+const BUILD = '2026-11-10.1';
 const ONLINE_JS = './online.js?v=a3d0418b';
 const KEY = 'mystery-face:v1';
 const $ = (s, r = document) => r.querySelector(s);
@@ -60,7 +60,8 @@ function flushMem() {
   if (ACCT.user()) ACCT.saveMemory(MEM);
 }
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') flushMem(); });
-const dunnoList = () => Object.keys(MEM.u);   // Sort faces' don't-knows (a Swap in a game never adds to it)
+// Sort faces' answers plus what they let us assume (sorter.js); a Swap in a game never adds to either
+const dealMemFor = (ids) => memForDeal(SORT.withAssumed(MEM, ids), ids);
 /** End of the swap phase, once per round: the faces on the board count as used. */
 function recordMem(key, board) {
   if (lsGet('mystery-face:memrec') === key) return;
@@ -138,34 +139,49 @@ function accountSheet(mode = 'in') {
 }
 
 // ------------------------------------------------------------------ decks + the board source
+// Groups (Tim, 2026-11-09: "a long list of very specific groups that you can browse through and add to the
+// main screen"). S.added = the groups on the Play screen (deck ids or "cat:<cat>"); none saved yet = the
+// first, broad decks (as before the library). Only decks/index.json loads at start; a group's deck.json
+// loads when it's on the Play screen, browsed, sorted or dealt.
 let DECKS_READY = false;
+const okGroup = (g) => !!FC.group(g) && FC.groupLoaded(g);
+function addedGroups() {
+  const all = Array.isArray(S.added) ? S.added : FC.deckIndex().filter((d) => d.broad).map((d) => d.id);
+  return all.filter((g) => FC.group(g));
+}
 async function loadDecks() {
-  const idx = await FC.loadIndex();
-  await Promise.all(idx.map((d) => FC.loadDeck(d.id).catch(() => null)));
-  if (!S.src.decks || !S.src.decks.length || S.src.decks.some((d) => !FC.deck(d))) {
-    const ok = idx.filter((d) => FC.deck(d.id)).map((d) => d.id);
-    if (S.src.kind === 'deck') {
-      const keep = (S.src.decks || []).filter((d) => FC.deck(d));
-      S.src.decks = keep.length || (S.src.sets || []).length ? keep : ok.length ? [ok[0]] : [];
-    }
-  }
+  await FC.loadIndex();
+  const want = new Set(addedGroups().concat(S.src.decks || []));
+  await Promise.all([...want].map((g) => FC.loadGroup(g)));
+  fixSrc();
   DECKS_READY = true;
   renderAll();
   setTimeout(warmImages, 1200);
 }
-// Same screen works offline: fetch the chosen deck's pictures once (the service worker keeps a copy),
-// so a board dealt with no signal still shows photos. A picture that still fails shows its name tile.
+/** Picked groups that are gone (or not on the Play screen any more) drop out; nothing left: the first group. */
+function fixSrc() {
+  if (S.src.kind !== 'deck') return;
+  const added = addedGroups();
+  const keep = (S.src.decks || []).filter((d) => okGroup(d) && (S.src.mix || added.includes(d)));
+  const first = added.find(okGroup);
+  S.src.decks = keep.length || (S.src.sets || []).length ? keep : first ? [first] : [];
+}
+// Same screen works offline: fetch the pictures of the groups on the Play screen once (picked ones first; the
+// service worker keeps a copy, at most 400), so a board dealt with no signal still shows photos. A picture
+// that still fails shows its name tile.
 let warmed = '';
 function warmImages() {
-  if (S.src.kind !== 'deck' || navigator.onLine === false || (navigator.connection && navigator.connection.saveData)) return;
-  const key = (S.src.decks || []).join('+');
+  if (navigator.onLine === false || (navigator.connection && navigator.connection.saveData)) return;
+  const groups = [...new Set((S.src.kind === 'deck' ? S.src.decks || [] : []).concat(addedGroups()))];
+  const key = groups.join('+');
   if (warmed === key) return;
   warmed = key;
-  const urls = (S.src.decks || []).flatMap((d) => (FC.deck(d) ? FC.deck(d).people.map((p) => p.img) : [])).filter(Boolean).slice(0, 400);
+  const urls = [...new Set(groups.flatMap((g) => FC.groupDecks(g)))].flatMap((d) => (FC.deck(d) ? FC.deck(d).people.map((p) => p.img) : [])).filter(Boolean).slice(0, 400);
   let i = 0;
   const next = () => { if (i >= urls.length) return; fetch(urls[i++]).catch(() => {}).finally(() => setTimeout(next, 30)); };
   for (let k = 0; k < 4; k++) next();
 }
+const POOL_MAX = 1500;   // the engine takes at most 2000; a room stays far under its 1 MiB
 /** The faces a new game may use, from the chosen source. */
 function sourcePool() {
   if (S.src.kind === 'set') {
@@ -173,34 +189,38 @@ function sourcePool() {
     if (!set) return { ids: [], set: null, title: '' };
     return { ids: set.people.map((p) => 'c/' + p.id), set, title: set.title };
   }
-  const decks = (S.src.decks || []).filter((d) => FC.deck(d));
+  const groups = (S.src.decks || []).filter(okGroup);
+  const decks = [...new Set(groups.flatMap((g) => FC.groupDecks(g)))];
+  const deckGroups = {};   // a broad group's decks count as one group for the board's shares
+  for (const g of groups) if (g.startsWith('cat:')) for (const d of FC.groupDecks(g)) if (!(d in deckGroups) && !groups.includes(d)) deckGroups[d] = g;
   const tags = (S.src.tags || []).filter((t) => FC.tagCounts(decks).some((x) => x.tag === t));
-  const ids = FC.poolFor(decks, tags);
+  let ids = FC.poolFor(decks, tags);
+  if (ids.length > POOL_MAX) ids = ids.map((id) => [Math.random(), id]).sort((a, b) => a[0] - b[0]).slice(0, POOL_MAX).map((x) => x[1]);
   // "Your people" sets picked next to decks: each set is its own category (Tim, 2026-11-06)
   const sets = (S.src.mix ? [] : S.src.sets || []).map((id) => PPL.getSet(id)).filter(Boolean);
-  const people = [], groups = {};
+  const people = [], setGroups = {};
   for (const st of sets) {
     const names = FC.displayNames(st.people);
     st.people.forEach((p, i) => {
       const id = 'c/' + p.id;
-      if (groups[id]) return;
-      groups[id] = 'set:' + st.id;
+      if (setGroups[id]) return;
+      setGroups[id] = 'set:' + st.id;
       people.push({ id: p.id, name: p.name || names[i], img: p.img || null });
       ids.push(id);
     });
   }
   // Mixed stars also deals the player's own people (Your people), favoured by the deal
   const own = decks.includes('mixed') ? ownPeople() : null;
-  if (own) for (const p of own.people) if (!groups['c/' + p.id]) { people.push(p); ids.push('c/' + p.id); }
+  if (own) for (const p of own.people) if (!setGroups['c/' + p.id]) { people.push(p); ids.push('c/' + p.id); }
   const mix = people.length ? { title: 'Your people', people } : null;
-  const title = decks.map((d) => FC.deck(d).title).concat(sets.map((st) => st.title)).join(' + ');
-  return { ids, set: null, mix, mixed: decks.includes('mixed'), byDeck: !S.src.mix && decks.length + sets.length > 1, groups: sets.length ? groups : null, title };
+  const title = (S.src.mix ? ['Mix'] : groups.map((g) => FC.group(g).title)).concat(sets.map((st) => st.title)).join(' + ');
+  return { ids, set: null, mix, mixed: decks.includes('mixed'), byDeck: !S.src.mix && groups.length + sets.length > 1, groups: sets.length ? setGroups : null, deckGroups: Object.keys(deckGroups).length && !S.src.mix ? deckGroups : null, title };
 }
-/** The decks and "Your people" sets picked right now (Mix aside). */
+/** The groups and "Your people" sets picked right now (Mix aside). */
 function srcSel() {
   if (S.src.kind === 'set') return { decks: [], sets: [S.src.id] };
   if (S.src.mix) return { decks: [], sets: [] };
-  return { decks: (S.src.decks || []).filter((d) => FC.deck(d)), sets: (S.src.sets || []).filter((id) => PPL.getSet(id)) };
+  return { decks: (S.src.decks || []).filter(okGroup), sets: (S.src.sets || []).filter((id) => PPL.getSet(id)) };
 }
 /** Every custom person on this device/account (up to 20, picked at random), as one set: { title, people } */
 function ownPeople() {
@@ -298,7 +318,7 @@ function newLocal() {
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
   const custom = src.set ? { title: src.set.title, people: src.set.people } : src.mix || null;
-  const opts = { pool: src.ids, n: S.n, first: Math.random() < 0.5 ? 0 : 1, custom: !!src.set, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, byDeck: !!src.byDeck, groups: src.groups || null, mem: src.set ? null : memForDeal(MEM, src.ids) };
+  const opts = { pool: src.ids, n: S.n, first: Math.random() < 0.5 ? 0 : 1, custom: !!src.set, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, byDeck: !!src.byDeck, groups: src.groups || null, deckGroups: src.deckGroups || null, mem: src.set ? null : dealMemFor(src.ids) };
   const st =game.setup(2, opts, Math.random);
   S.play = { kind: 'local', id: Date.now().toString(36), state: st, custom, secrets: [null, null], flips: [{}, {}], view: st.first, pick: null };
   FC.useCustom(custom);
@@ -329,7 +349,7 @@ async function createRoom() {
   const src = sourcePool();
   if (src.ids.length < 2) return toast(src.set ? 'Add at least 2 people to this set.' : 'No faces match. Pick other kinds.');
   // each player's don't-knows reach the host as a quiet swap when the round starts (autoAvoid)
-  let options = { pool: src.ids, n: S.n, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, byDeck: !!src.byDeck, groups: src.groups || null, mem: src.set ? null : memForDeal(MEM, src.ids) };
+  let options = { pool: src.ids, n: S.n, timer: S.timer, first: Math.random() < 0.5 ? 0 : 1, turnTimeoutSec: 0, custom: null, title: src.title, meta: src.set ? null : FC.metaFor(src.ids, src.mix), mixed: !!src.mixed, byDeck: !!src.byDeck, groups: src.groups || null, deckGroups: src.deckGroups || null, mem: src.set ? null : dealMemFor(src.ids) };
   if (src.set) {
     // only the faces this board needs travel with the room (the room doc must stay under 1 MiB)
     const ppl = src.set.people.slice().sort(() => Math.random() - 0.5).slice(0, S.n);
@@ -413,11 +433,12 @@ function autoAvoid(snap) {
   if (U.lastAvoid === key) return;
   // the memory goes along (only for the decks on this board): the next deals use both players' memories
   const decks = new Set(pub.board.map((id) => id.split('/')[0]));
-  const seen = memForDeal(MEM, null);
+  const am = SORT.withAssumed(MEM, pub.board);
+  const seen = memForDeal(am, null);
   seen.k = seen.k.filter((e) => decks.has(e.split('/')[0]));
   seen.u = seen.u.filter((id) => decks.has(id.split('/')[0]));
   seen.l = seen.l.filter((e) => decks.has(e.split('/')[0]));
-  const list = dunnoList();
+  const list = Object.keys(am.u).filter((id) => decks.has(id.split('/')[0]) || id in MEM.u);
   if (!list.length && !seen.k.length && !seen.l.length) return;
   U.lastAvoid = key;
   const mine = new Set(list);
@@ -531,22 +552,20 @@ async function goBack(g) {
 
 // ---- Play: home (no game)
 function renderHome(el) {
-  const idx = FC.deckIndex();
   const sets = PPL.allSets();
-  const allDecks = idx.filter((d) => FC.deck(d.id)).map((d) => d.id);
+  const added = addedGroups().filter(okGroup);
   const cards = [];
-  for (const d of idx) {
-    const dk = FC.deck(d.id);
-    if (!dk) continue;
-    const kinds = FC.tagCounts([d.id]).slice(0, 3).map((t) => KIT.tagLabel(t.tag)).join(', ');
-    const onD = S.src.kind === 'deck' && !S.src.mix && (S.src.decks || []).includes(d.id);
-    cards.push(`<button class="src${onD ? ' on' : ''}" data-act="src" data-k="deck" aria-pressed="${onD}" data-v="${esc(d.id)}">${deckMosaic(dk.people.slice(0, 4).map((p) => ({ name: p.name, img: p.img, from: p.from })))}<b>${esc(dk.title)}</b><span>${dk.people.length} · ${esc(kinds)}</span></button>`);
+  for (const gid of added) {
+    const g = FC.group(gid);
+    const kinds = g.cats ? `${g.n} groups` : FC.tagCounts([gid]).slice(0, 3).map((t) => KIT.tagLabel(t.tag)).join(', ');
+    const onD = S.src.kind === 'deck' && !S.src.mix && (S.src.decks || []).includes(gid);
+    cards.push(`<button class="src${onD ? ' on' : ''}" data-act="src" data-k="deck" aria-pressed="${onD}" data-v="${esc(gid)}">${groupMosaic(g)}<b>${esc(g.title)}</b><span>${g.cats ? g.count : FC.deck(gid).people.length} · ${esc(kinds)}</span></button>`);
   }
-  if (allDecks.length > 1) cards.push(`<button class="src${S.src.kind === 'deck' && S.src.mix ? ' on' : ''}" data-act="src" data-k="mix">${deckMosaic(allDecks.slice(0, 4).map((d) => { const p = FC.deck(d).people[0]; return { name: p.name, img: p.img, from: p.from }; }))}<b>Mix</b><span>All decks</span></button>`);
+  if (added.length > 1) cards.push(`<button class="src${S.src.kind === 'deck' && S.src.mix ? ' on' : ''}" data-act="src" data-k="mix">${deckMosaic(added.slice(0, 4).map((gid) => { const g = FC.group(gid); const p = FC.deck(g.decks[0]).people[0]; return { name: p.name, img: p.img, from: p.from }; }))}<b>Mix</b><span>All decks</span></button>`);
   const selSets = srcSel().sets;
   for (const s of sets) cards.push(`<button class="src${selSets.includes(s.id) ? ' on' : ''}" data-act="src" data-k="set" aria-pressed="${selSets.includes(s.id)}" data-v="${esc(s.id)}">${deckMosaic(s.people.slice(0, 4).map((p, i) => ({ name: FC.displayNames(s.people)[i], img: p.img })))}<b>${esc(s.title)}</b><span>${s.people.length} · yours</span></button>`);
   cards.push(`<button class="src add" data-act="newset"><span class="mosaic plus">+</span><b>Your people</b><span>Photos or names</span></button>`);
-  const tags = S.src.kind === 'deck' ? FC.tagCounts(S.src.decks || []) : [];
+  const tags = S.src.kind === 'deck' ? FC.tagCounts([...new Set((S.src.decks || []).flatMap((g) => FC.groupDecks(g)))]) : [];
   const pool = sourcePool();
   const n = Math.min(S.n, pool.ids.length);
   const online = S.mode === 'online';
@@ -554,7 +573,7 @@ function renderHome(el) {
   el.innerHTML = `<div class="pane home">
     ${S.play && S.play.kind === 'local' ? '<div class="row"><button class="btn main grow" data-act="resume">Resume same-screen game</button></div>' : ''}
     <div class="seg modes"><button data-act="mode" data-v="online" class="${online ? 'on' : ''}">Online with a friend</button><button data-act="mode" data-v="local" class="${online ? '' : 'on'}">Same screen</button></div>
-    <div class="lblrow"><span class="lbl inl">Faces</span>${DECKS_READY && FC.deckIndex().some((d) => d.id !== 'sample' && FC.deck(d.id)) ? `<button class="link small" data-act="sort">${(() => { const nn = SORT.newCount(MEM); return nn ? `Sort faces · ${nn} new` : 'Sort faces'; })()}</button>` : ''}</div>
+    <div class="lblrow"><span class="lbl inl">Faces</span><span class="lbllinks">${DECKS_READY ? '<button class="link small" data-act="groups">+ Groups</button>' : ''}${DECKS_READY && added.some((g) => g !== 'sample') ? `<button class="link small" data-act="sort">${(() => { const nn = SORT.newCount(MEM, added); return nn ? `Sort faces · ${nn} new` : 'Sort faces'; })()}</button>` : ''}</span></div>
     <div class="srcs">${DECKS_READY ? cards.join('') : '<span class="muted small">Loading faces…</span>'}</div>
     ${tags.length > 1 ? `<div class="chips tags">${tags.slice(0, 14).map((t) => `<button class="chip${(S.src.tags || []).includes(t.tag) ? ' on' : ''}" data-act="tag" data-v="${esc(t.tag)}">${esc(KIT.tagLabel(t.tag))} <span>${t.n}</span></button>`).join('')}</div>` : ''}
     <div class="row sizes"><span class="lbl inl">Board</span><div class="seg">${[16, 24, 30].map((v) => `<button data-act="size" data-v="${v}" class="${S.n === v ? 'on' : ''}">${v}</button>`).join('')}</div>
@@ -570,6 +589,83 @@ function renderHome(el) {
 }
 function deckMosaic(list) {
   return `<span class="mosaic">${list.slice(0, 4).map((f) => `<span class="mt">${FC.picHTML(f)}</span>`).join('')}${'<span class="mt empty"></span>'.repeat(Math.max(0, 4 - list.length))}</span>`;
+}
+/** A group's 4 faces: its best-known people when loaded, else the index's preview pictures. */
+function groupMosaic(g) {
+  if (!g.cats && FC.deck(g.id)) return deckMosaic(FC.deck(g.id).people.slice().sort((a, b) => b.fame - a.fame).slice(0, 4).map((p) => ({ name: p.name, img: p.img, from: p.from })));
+  if (g.preview && g.preview.length) return deckMosaic(g.preview.map((img) => ({ name: g.title, img })));
+  return deckMosaic(g.decks.map((d) => FC.deck(d)).filter(Boolean).slice(0, 4).map((dk) => { const p = dk.people[0]; return { name: p.name, img: p.img, from: p.from }; }));
+}
+
+// ---- the group browser (Tim, 2026-11-09): "Make sure there's a search bar at the top of the group
+// selection ... when showing the list of specific groups, sort the groups by how well that user knows the
+// characters in that group." Broad groups first, then the specific ones; each part sorted by familiarity.
+const fold = (s) => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+async function groupsSheet() {
+  U.gq = '';
+  sheet(`<div class="gtop"><input id="gSearch" type="search" placeholder="Search groups or people" autocomplete="off" enterkeyhint="search" aria-label="Search groups"><button class="btn small" data-act="sheetx">Done</button></div>
+    <div class="glist" id="gList"><p class="muted small">Loading…</p></div>`, { wide: true });
+  $('#layer .sheet').classList.add('groups');
+  if (matchMedia('(pointer: fine)').matches) $('#gSearch').focus();
+  // the groups this player has answers in (their familiarity needs the people)
+  const answered = new Set(Object.keys(MEM.k).concat(Object.keys(MEM.u)).map((id) => id.split('/')[0]));
+  await Promise.all(FC.deckIndex().filter((d) => answered.has(d.id)).map((d) => FC.loadDeck(d.id).catch(() => null)));
+  U.gOrder = groupOrder();
+  renderGroupList();
+}
+/** Group ids in browser order: broad, then specific; within each, best known first (unsorted ones after, in index order). */
+function groupOrder() {
+  const rank = (g, i) => { const f = SORT.familiarity(MEM, g.id); return [f && f.sorted ? 0 : 1, f && f.sorted ? -f.pct : 0, i]; };
+  const cmp = (a, b) => a.r[0] - b.r[0] || a.r[1] - b.r[1] || a.r[2] - b.r[2];
+  const all = FC.groups().map((g, i) => ({ g, r: rank(g, i) }));
+  return all.filter((x) => x.g.broad).sort(cmp).concat(all.filter((x) => !x.g.broad).sort(cmp)).map((x) => x.g.id);
+}
+let gLoadingAll = false;
+function renderGroupList() {
+  const box = $('#gList');
+  if (!box) return;
+  const q = fold(U.gq).trim();
+  if (q.length >= 2 && !gLoadingAll && FC.deckIndex().some((d) => !FC.deck(d.id))) {   // names need the decks: load them all once (no pictures)
+    gLoadingAll = true;
+    Promise.all(FC.deckIndex().map((d) => FC.loadDeck(d.id).catch(() => null))).then(() => { gLoadingAll = false; renderGroupList(); });
+  }
+  const added = addedGroups();
+  const rows = { broad: [], specific: [] };
+  for (const gid of U.gOrder || []) {
+    const g = FC.group(gid); if (!g) continue;
+    let hit = '';
+    if (q) {
+      const inTitle = fold(g.title).includes(q) || fold(FC.CATS[g.cat]).includes(q);
+      if (!inTitle) {
+        const p = g.decks.map((d) => FC.deck(d)).filter(Boolean).flatMap((dk) => dk.people).find((x) => fold(x.name).includes(q));
+        if (!p) continue;
+        hit = p.name;
+      }
+    }
+    const f = SORT.familiarity(MEM, gid);
+    const on = added.includes(gid);
+    const hint = hit ? esc(hit) : f && f.sorted ? `you know ~${Math.round(f.pct * 100)}%` : 'not sorted';
+    rows[g.broad ? 'broad' : 'specific'].push(`<div class="grp">${groupMosaic(g)}<div class="gtxt"><b>${esc(g.title)}</b><span class="small muted">${g.count} · ${hint}</span>
+      <span class="glinks"><button class="link small" data-act="gsort" data-v="${esc(gid)}">Sort</button><button class="link small" data-act="gsortall" data-v="${esc(gid)}">Sort all</button></span></div>
+      <button class="btn small gadd${on ? ' on' : ''}" data-act="gadd" data-v="${esc(gid)}" aria-pressed="${on}">${on ? '✓ Added' : '+ Add'}</button></div>`);
+  }
+  const part = (t, list) => (list.length ? `<h4 class="lbl">${t}</h4><div class="ggrid">${list.join('')}</div>` : '');
+  box.innerHTML = part('Broad', rows.broad) + part('Specific', rows.specific) || `<p class="muted small">${gLoadingAll ? 'Searching…' : 'No group or person by that name.'}</p>`;
+}
+document.addEventListener('input', (e) => { if (e.target && e.target.id === 'gSearch') { U.gq = e.target.value; renderGroupList(); } });
+async function toggleGroup(gid, btn) {
+  const list = addedGroups();
+  const on = !list.includes(gid);
+  S.added = on ? list.concat(gid) : list.filter((g) => g !== gid);
+  if (!on && S.src.kind === 'deck') S.src.decks = (S.src.decks || []).filter((g) => g !== gid);
+  if (btn) { btn.classList.toggle('on', on); btn.setAttribute('aria-pressed', on); btn.textContent = on ? '✓ Added' : '+ Add'; }
+  save();
+  if (on) await FC.loadGroup(gid);
+  fixSrc(); save(); renderPlay();
+  setTimeout(warmImages, 1200);
+}
+function openSort(groups, all) {
+  SORT.openSorter({ getMem: () => MEM, setMem, flushMem, FX, groups, all, onClose: () => { renderAll(); if ($('#gList')) { U.gOrder = groupOrder(); renderGroupList(); } } });
 }
 
 // ---- Play: online lobby
@@ -917,7 +1013,10 @@ function renderSettings() {
   FX.renderSettings($('#fxSet'));
 }
 
-function creditsSheet() {
+async function creditsSheet() {
+  sheet('<h3>Photo credits</h3><p class="muted small">Loading…</p>', { wide: true });
+  await Promise.all(FC.deckIndex().map((d) => FC.loadDeck(d.id).catch(() => null)));
+  if (!U.sheet) return;
   const rows = [];
   for (const d of FC.deckIndex()) {
     const dk = FC.deck(d.id); if (!dk) continue;
@@ -986,7 +1085,7 @@ document.addEventListener('click', async (ev) => {
     case 'signout': { const r = await ACCT.signOut({ inRoom: inRoom() }); if (r.ok) { closeSheet(); toast('Signed out'); } else toast(r.message); break; }
     case 'mode': S.mode = v; save(); renderAll(); break;
     case 'src':
-      if (b.dataset.k === 'mix') S.src = { kind: 'deck', decks: FC.deckIndex().filter((d) => FC.deck(d.id)).map((d) => d.id), tags: [], mix: true };
+      if (b.dataset.k === 'mix') S.src = { kind: 'deck', decks: addedGroups().filter(okGroup), tags: [], mix: true };
       else {   // tap to add or remove a deck or one of your sets (Mix is on its own)
         const cur = srcSel(), key = b.dataset.k === 'set' ? 'sets' : 'decks';
         cur[key] = cur[key].includes(v) ? cur[key].filter((x) => x !== v) : cur[key].concat(v);
@@ -996,7 +1095,10 @@ document.addEventListener('click', async (ev) => {
           : { kind: 'deck', decks: cur.decks, sets: cur.sets, tags: S.src.tags || [] };
       }
       save(); renderAll(); break;
-    case 'sort': SORT.openSorter({ getMem: () => MEM, setMem, flushMem, FX, onClose: () => renderAll() }); break;
+    case 'sort': openSort(addedGroups().filter(okGroup), false); break;
+    case 'groups': groupsSheet(); break;
+    case 'gadd': toggleGroup(v, b); break;
+    case 'gsort': case 'gsortall': await FC.loadGroup(v); openSort([v], a === 'gsortall'); break;
     case 'newset': S.tab = 'people'; save(); await PPL.onClick(Object.assign(document.createElement('button'), { dataset: { pp: 'new' } })); break;
     case 'tag': { const t = S.src.tags || []; S.src.tags = t.includes(v) ? t.filter((x) => x !== v) : t.concat(v); save(); renderAll(); break; }
     case 'size': S.n = +v; save(); renderAll(); break;
