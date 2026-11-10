@@ -10,7 +10,7 @@ import * as PPL from './people.js';
 import * as ACCT from './account.js';
 import * as SORT from './sorter.js';
 
-const BUILD = '2026-11-06.1';
+const BUILD = '2026-11-09.1';
 const ONLINE_JS = './online.js?v=a3d0418b';
 const KEY = 'mystery-face:v1';
 const $ = (s, r = document) => r.querySelector(s);
@@ -716,7 +716,14 @@ function renderGame(el, g) {
   const opp = L ? null : other(g.me);
   const oppLine = !L && playing ? `<span class="oppline"><i class="dot${g.snap.seats[opp] && g.snap.seats[opp].online ? ' on' : ''}"></i>${esc(g.names[opp])} · ${p.left[opp]} left</span>` : '';
   const away = !L && g.snap.seats[opp] && g.snap.seats[opp].kind === 'human' && !g.snap.seats[opp].online && g.toAct.includes(opp);
-  el.innerHTML = `<div class="game ${L ? 'local' : 'online'} ph-${p.phase}${over ? ' is-over' : ''}">
+  // The question box survives redraws (Tim 2026-11-09: "when you're typing the question ... it like deletes
+  // the question or deselects the text box"). Online, every room update (the friend's online dot, a timer,
+  // the deck loading) redrew the whole game, which made a new empty box and dropped the keyboard. Now the
+  // same ask step keeps its box element untouched and only the rest of the table is redrawn.
+  const askKey = st.ask && !over ? [g.kind, g.kind === 'online' ? g.snap.code : '', p.round, p.log.length, p.turn].join(':') : '';
+  const oldDock = askKey ? el.querySelector(':scope > .game > .dock.askdock') : null;
+  const keep = oldDock && oldDock.dataset.k === askKey && oldDock.querySelector('#qIn') ? oldDock : null;
+  const html = `<div class="game ${L ? 'local' : 'online'} ph-${p.phase}${over ? ' is-over' : ''}">
     <div class="prompt">
       ${!L && playing || (!L && p.phase === 'pick' && p.commits[g.me]) ? myFaceChip(g, g.me) : ''}
       <div class="ptext"><div class="pmain">${st.text || ''}</div>${st.sub || away ? `<div class="psub">${away ? `<b class="warn">${esc(g.names[opp])} seems away.</b> ` : ''}${st.sub || ''}</div>` : ''}</div>
@@ -724,10 +731,27 @@ function renderGame(el, g) {
     </div>
     ${L && playing ? `<div class="seg pswitch">${seats.map((s) => `<button data-act="view" data-v="${s}" class="${view === s ? 'on' : ''}${(st.board === s) ? ' act' : ''}">${g.names[s]} · ${leftCount(g, s)} left</button>`).join('')}</div>` : ''}
     <div class="boards${L && playing ? ' two' : ''}">${(L && playing ? seats : [L ? view : g.me]).map((s) => boardHTML(g, s, st, L && playing && s !== view)).join('')}</div>
-    ${over ? '' : `<div class="dock${st.ask ? ' askdock' : ''}${st.dock || st.ask ? '' : ' quiet'}">${st.ask ? askDock(g) : st.dock || ''}</div>`}
+    ${over ? '' : `<div class="dock${st.ask ? ' askdock' : ''}${st.dock || st.ask ? '' : ' quiet'}"${askKey ? ` data-k="${esc(askKey)}"` : ''}>${st.ask ? askDock(g) : st.dock || ''}</div>`}
     ${st.cover ? `<div class="cover"><div><svg viewBox="0 0 48 48" width="56" height="56" aria-hidden="true"><path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24z" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="24" cy="24" r="6" fill="currentColor"/><path d="M8 40L40 8" stroke="currentColor" stroke-width="3"/></svg><h2>${esc(st.cover.title)}</h2><p>${esc(st.cover.text)}</p><button class="btn main big" data-act="${st.cover.act}" data-v="${st.cover.v}">${esc(st.cover.btn)}</button></div></div>` : ''}
     ${over ? overHTML(g) : ''}
   </div>`;
+  if (keep) {
+    // swap every other part of the table; the box (and its text, cursor and keyboard) is never touched
+    const t = document.createElement('div'); t.innerHTML = html;
+    const ng = t.firstElementChild, og = keep.parentNode, nd = ng.querySelector(':scope > .dock');
+    og.className = ng.className;
+    [...og.childNodes].forEach((n) => { if (n !== keep) n.remove(); });
+    let before = true;
+    for (const k of [...ng.childNodes]) {
+      if (k === nd) { before = false; keep.className = nd.className; continue; }
+      if (before) og.insertBefore(k, keep); else og.appendChild(k);
+    }
+  } else {
+    el.innerHTML = html;
+    // a full redraw of the same ask step (e.g. after visiting another tab) still gets the typed text back
+    const inp = askKey && U.qDraft && U.qDraft.k === askKey ? $('#qIn') : null;
+    if (inp) { inp.value = U.qDraft.v; inp.dataset.tag = U.qDraft.tag || ''; }
+  }
   requestAnimationFrame(fitBoards);
 }
 
@@ -1023,7 +1047,7 @@ document.addEventListener('click', async (ev) => {
     case 'random': if (g) { U.pickSel = Math.floor(Math.random() * g.pub.board.length); renderAll(); } break;
     case 'lockin': lockIn(g); break;
     case 'asked': if (g) { const t = g.pub.turn; send(t, { t: 'ask', q: '', aloud: true, pass: g.kind === 'local', left: leftCount(g, t) }); } break;
-    case 'chip': { const inp = $('#qIn'); if (inp) { inp.value = b.textContent.trim(); inp.dataset.tag = b.dataset.tag || ''; inp.focus(); } break; }
+    case 'chip': { const inp = $('#qIn'); if (inp) { inp.value = b.textContent.trim(); inp.dataset.tag = b.dataset.tag || ''; qDraftSave(inp); inp.focus(); } break; }
     case 'ask': askNow(g); break;
     case 'answer': if (g) send(g.kind === 'local' ? other(g.pub.turn) : g.me, { t: 'answer', a: v }); break;
     case 'done': if (g) { const t = g.pub.turn; send(t, { t: 'done', left: leftCount(g, t) }); } break;
@@ -1035,6 +1059,9 @@ document.addEventListener('click', async (ev) => {
     case 'nosecret': toast('Your pick was made on another device, so this phone can\'t show it.'); break;
   }
 });
+// remember what's typed in the question box for this ask step (a full redraw puts it back)
+const qDraftSave = (inp) => { const d = inp && inp.closest('.dock'); if (d && d.dataset.k) U.qDraft = { k: d.dataset.k, v: inp.value, tag: inp.dataset.tag || '' }; };
+document.addEventListener('input', (e) => { if (e.target && e.target.id === 'qIn') { e.target.dataset.tag = ''; qDraftSave(e.target); } });
 document.addEventListener('change', (e) => {
   const k = e.target && e.target.dataset && e.target.dataset.set;
   if (k === 'names') { S.names = e.target.checked; save(); renderAll(); }
@@ -1169,4 +1196,4 @@ setTimeout(() => {
   COACH.offer({ id: 'mystery-face-first', title: 'New to Guess Whos?', text: 'See how a turn works.', yes: 'Show me', no: 'No thanks', onYes: () => COACH.rules(KIT.rules()), place: 'auto', avoid: ['[data-act="create"]', '[data-act="startlocal"]', '.srcs', '.modes'] });
 }, 900);
 if (window.PWA) window.PWA.safeToReload = () => (S.tab !== 'play' || (!S.play && !U.snap)) && !inRoom() && !U.sheet && !(document.activeElement && /INPUT|TEXTAREA/.test(document.activeElement.tagName));
-window.__mf = { S, U, G, game, build: BUILD };
+window.__mf = { S, U, G, game, build: BUILD, render: () => renderAll() };

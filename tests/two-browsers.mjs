@@ -23,10 +23,12 @@ const iphone = { ...pw.devices["iPhone 13"], viewport: { width: 393, height: 659
 const opts = engine === "webkit" ? iphone : { viewport: { width: 393, height: 659 } };
 const bA = await pw[engine].launch(), bB = await pw[engine].launch();   // two browsers = two anonymous logins
 const A = await (await bA.newContext(opts)).newPage(), B = await (await bB.newContext(opts)).newPage();
-const errs = [];
+const errs = [], netCut = new Set();
 for (const [n, p] of [["A", A], ["B", B]]) {
-  p.on("console", (m) => { if (m.type() === "error" && !/BloomFilter|decks\/index\.json|404/.test(m.text())) errs.push(n + ": " + m.text()); });
-  p.on("pageerror", (e) => errs.push(n + " pageerror: " + e.message));
+  p.on("console", (m) => { if (m.type() === "error" && !/BloomFilter|decks\/index\.json|404/.test(m.text()) && !(netCut.has(n) && /Beacon API|internal error|firestore\.googleapis/.test(m.text()))) errs.push(n + ": " + m.text()); });
+  // Firestore's own long-poll channels being dropped (after the offline test, or rooms closing) are
+  // network noise from the SDK, not errors in the app
+  p.on("pageerror", (e) => { if (!/firestore\.googleapis\.com\/google\.firestore\.v1\.Firestore\/(Listen|Write)\/channel/.test(e.message)) errs.push(n + " pageerror: " + e.message); });
 }
 const snap = (p) => p.evaluate(() => { const s = window.__mf.U.snap; return s && JSON.parse(JSON.stringify({ code: s.code, status: s.status, mySeat: s.mySeat, toAct: s.toAct, pub: s.pub, options: s.options })); });
 const until = (p, fn, arg) => p.waitForFunction(fn, arg, T);
@@ -111,8 +113,25 @@ if (await B.evaluate((c) => JSON.stringify(localStorage).includes(c), secA.salt)
 console.log("PASS secrets stay on each phone; the room holds only the two sha256 locks");
 await shot(A, "online-ask-alice"); await shot(B, "online-ask-bob");
 
-// ---- strict turns: asker asks, other answers, asker flips + Done, then the other player asks
+// ---- the question box keeps its text and focus while room updates redraw the table (Tim 2026-11-09)
 const P = [A, B];
+{
+  const s = await snap(A);
+  const asker = P[s.pub.turn], other = P[1 - s.pub.turn];
+  await asker.click("#qIn"); await asker.keyboard.type("Does your person ha");
+  await asker.evaluate(() => window.__mf.render());                      // what every room update does
+  const nErr = errs.length;
+  await other.context().setOffline(true); await asker.waitForTimeout(2500);  // a real update: the friend's dot
+  await other.context().setOffline(false); await asker.waitForTimeout(2500);
+  errs.splice(nErr);   // the friend's own network errors while cut off are expected, not app errors
+  netCut.add(other === A ? "A" : "B");   // (its old Firestore channels keep failing for a while after)
+  const st = await asker.evaluate(() => ({ v: document.querySelector("#qIn") && document.querySelector("#qIn").value, f: document.activeElement && document.activeElement.id }));
+  if (st.v !== "Does your person ha" || st.f !== "qIn") fail("the question box lost its text or focus on a redraw: " + JSON.stringify(st));
+  await asker.fill("#qIn", "");
+  console.log("PASS the question box keeps its text and focus through room updates");
+}
+
+// ---- strict turns: asker asks, other answers, asker flips + Done, then the other player asks
 for (let k = 0; k < 3; k++) {
   const s = await snap(A);
   const asker = P[s.pub.turn], answerer = P[1 - s.pub.turn];
