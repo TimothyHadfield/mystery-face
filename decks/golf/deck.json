@@ -1,0 +1,767 @@
+{
+ "id": "golf",
+ "title": "Golfers",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "rory-mcilroy",
+   "name": "Rory McIlroy",
+   "from": "Northern Ireland",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 3065112,
+   "img": "img/rory-mcilroy.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rory_McIlroy_Ryder_Cup_2025-195_(cropped).jpg"
+   },
+   "fame": 100
+  },
+  {
+   "id": "tiger-woods",
+   "name": "Tiger Woods",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 2972381,
+   "img": "img/tiger-woods.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg"
+   },
+   "fame": 97
+  },
+  {
+   "id": "scottie-scheffler",
+   "name": "Scottie Scheffler",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 1798030,
+   "img": "img/scottie-scheffler.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scottie_Scheffler_Ryder_Cup_2025_(cropped).jpg"
+   },
+   "fame": 95
+  },
+  {
+   "id": "nelly-korda",
+   "name": "Nelly Korda",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 816722,
+   "img": "img/nelly-korda.webp",
+   "credit": {
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nelly_Korda_(cropped).jpg"
+   },
+   "fame": 92
+  },
+  {
+   "id": "jack-nicklaus",
+   "name": "Jack Nicklaus",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 790206,
+   "img": "img/jack-nicklaus.webp",
+   "credit": {
+    "author": "PantherNational",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Panther_National_Jack_and_Justin-8452_(3x4_cropped).jpg"
+   },
+   "fame": 89
+  },
+  {
+   "id": "bryson-dechambeau",
+   "name": "Bryson DeChambeau",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 775314,
+   "img": "img/bryson-dechambeau.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bryson_DeChambeau_(54565799176).jpg"
+   },
+   "fame": 87
+  },
+  {
+   "id": "john-daly",
+   "name": "John Daly",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 694128,
+   "img": "img/john-daly.webp",
+   "credit": {
+    "author": "B Wendell Jones",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Greenbrier_Classic_-_2013_-_John_Daly_(9210073880)_(3x4_cropped).jpg"
+   },
+   "fame": 84
+  },
+  {
+   "id": "phil-mickelson",
+   "name": "Phil Mickelson",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 635837,
+   "img": "img/phil-mickelson.webp",
+   "credit": {
+    "author": "Peetlesnumber1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Phil_Mickelson_15_(cropped).jpg"
+   },
+   "fame": 81
+  },
+  {
+   "id": "jordan-spieth",
+   "name": "Jordan Spieth",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 623354,
+   "img": "img/jordan-spieth.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jordan_Spieth_Travelers-092_(cropped).jpg"
+   },
+   "fame": 79
+  },
+  {
+   "id": "brooks-koepka",
+   "name": "Brooks Koepka",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 609713,
+   "img": "img/brooks-koepka.webp",
+   "credit": {
+    "author": "Idz93",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brooks_Koepka_Portrait.jpg"
+   },
+   "fame": 76
+  },
+  {
+   "id": "tommy-fleetwood",
+   "name": "Tommy Fleetwood",
+   "from": "England",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 589237,
+   "img": "img/tommy-fleetwood.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tommy_Fleetwood_Ryder_Cup_2025-204_(cropped).jpg"
+   },
+   "fame": 73
+  },
+  {
+   "id": "arnold-palmer",
+   "name": "Arnold Palmer",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 496303,
+   "img": "img/arnold-palmer.webp",
+   "credit": {
+    "author": "U.S. Coast Guard",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:YN3ArnoldPalmer.jpg"
+   },
+   "fame": 71
+  },
+  {
+   "id": "gary-player",
+   "name": "Gary Player",
+   "from": "South Africa",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 441092,
+   "img": "img/gary-player.webp",
+   "credit": {
+    "author": "Lady 11390",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:All_Black_(cropped).jpg"
+   },
+   "fame": 68
+  },
+  {
+   "id": "jon-rahm",
+   "name": "Jon Rahm",
+   "from": "Spain",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 411433,
+   "img": "img/jon-rahm.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jon_Rahm_Ryder_Cup_2025-130_(cropped).jpg"
+   },
+   "fame": 65
+  },
+  {
+   "id": "rickie-fowler",
+   "name": "Rickie Fowler",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 374430,
+   "img": "img/rickie-fowler.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rickie_Fowler_Travelers-105_(cropped).jpg"
+   },
+   "fame": 63
+  },
+  {
+   "id": "greg-norman",
+   "name": "Greg Norman",
+   "from": "Australia",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 335183,
+   "img": "img/greg-norman.webp",
+   "credit": {
+    "author": "Sgt. Samuel Qin",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mr._Greg_Norman_attends_Evening_Parade_as_Guest_of_Honor_(3x4_cropped).jpg"
+   },
+   "fame": 60
+  },
+  {
+   "id": "collin-morikawa",
+   "name": "Collin Morikawa",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 329018,
+   "img": "img/collin-morikawa.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Collin_Morikawa_Travelers-019_(cropped).jpg"
+   },
+   "fame": 57
+  },
+  {
+   "id": "dustin-johnson",
+   "name": "Dustin Johnson",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 309211,
+   "img": "img/dustin-johnson.webp",
+   "credit": {
+    "author": "JazzyJoeyD",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dustin_Johnson_-_2022.jpg"
+   },
+   "fame": 55
+  },
+  {
+   "id": "charley-hull",
+   "name": "Charley Hull",
+   "from": "England",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 304082,
+   "img": "img/charley-hull.webp",
+   "credit": {
+    "author": "Wojciech Migda (Wmigda)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Women%27s_British_Open_%E2%80%93_Charley_Hull_(9).jpg"
+   },
+   "fame": 52
+  },
+  {
+   "id": "xander-schauffele",
+   "name": "Xander Schauffele",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 289335,
+   "img": "img/xander-schauffele.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Xander_Schauffele_Ryder_Cup_2025_(cropped).jpg"
+   },
+   "fame": 49
+  },
+  {
+   "id": "ludvig-aberg",
+   "name": "Ludvig Åberg",
+   "from": "Sweden",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 286359,
+   "img": "img/ludvig-aberg.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ludvig_%C3%85berg_Travelers-006_(cropped)(2).jpg"
+   },
+   "fame": 46
+  },
+  {
+   "id": "adam-scott",
+   "name": "Adam Scott",
+   "from": "Australia",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 285604,
+   "img": "img/adam-scott.webp",
+   "credit": {
+    "author": "SgurrAlas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Adam_Scott_AAMSO_2017.jpg"
+   },
+   "fame": 44
+  },
+  {
+   "id": "viktor-hovland",
+   "name": "Viktor Hovland",
+   "from": "Norway",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 277465,
+   "img": "img/viktor-hovland.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Viktor_Hovland_Ryder_Cup_2025-205_(cropped).jpg"
+   },
+   "fame": 41
+  },
+  {
+   "id": "seve-ballesteros",
+   "name": "Seve Ballesteros",
+   "from": "Spain",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 267738,
+   "img": "img/seve-ballesteros.webp",
+   "credit": {
+    "author": "Bart Molendijk / Anefo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Pro_Am_open_golfkampioenschap_S._Ballesteros_in_actie,_Bestanddeelnr_934-0383.jpg"
+   },
+   "fame": 38
+  },
+  {
+   "id": "vijay-singh",
+   "name": "Vijay Singh",
+   "from": "Fiji",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 259411,
+   "img": "img/vijay-singh.webp",
+   "credit": {
+    "author": "Stemoc",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Vijay_Singh_Fiji_International_August_16th_2014.jpg"
+   },
+   "fame": 36
+  },
+  {
+   "id": "justin-thomas",
+   "name": "Justin Thomas",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 250328,
+   "img": "img/justin-thomas.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Justin_Thomas_Ryder_Cup_2025-052_(cropped).jpg"
+   },
+   "fame": 33
+  },
+  {
+   "id": "lee-trevino",
+   "name": "Lee Trevino",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 242719,
+   "img": "img/lee-trevino.webp",
+   "credit": {
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lee_Trevino.jpg"
+   },
+   "fame": 30
+  },
+  {
+   "id": "bobby-jones",
+   "name": "Bobby Jones",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 239875,
+   "img": "img/bobby-jones.webp",
+   "credit": {
+    "author": "unattributed",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bobby_Jones_c1921.jpg"
+   },
+   "fame": 28
+  },
+  {
+   "id": "fred-couples",
+   "name": "Fred Couples",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 236641,
+   "img": "img/fred-couples.webp",
+   "credit": {
+    "author": "The White House from Washington, DC",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Fred_Couples_in_the_Oval_Office_(3x4_cropped).jpg"
+   },
+   "fame": 25
+  },
+  {
+   "id": "bubba-watson",
+   "name": "Bubba Watson",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 228139,
+   "img": "img/bubba-watson.webp",
+   "credit": {
+    "author": "B Wendell Jones",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Greenbrier_Classic_-_2013_-_Bubba_Watson_(9210023076).jpg"
+   },
+   "fame": 22
+  },
+  {
+   "id": "ben-hogan",
+   "name": "Ben Hogan",
+   "from": "USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 226700,
+   "img": "img/ben-hogan.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ben_Hogan_1950_(2).jpg"
+   },
+   "fame": 20
+  },
+  {
+   "id": "sergio-garcia",
+   "name": "Sergio García",
+   "from": "Spain",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 195600,
+   "img": "img/sergio-garcia.webp",
+   "credit": {
+    "author": "AJGA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sergio_Garcia_2017.png"
+   },
+   "fame": 17
+  },
+  {
+   "id": "annika-sorenstam",
+   "name": "Annika Sörenstam",
+   "from": "Sweden",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 175572,
+   "img": "img/annika-sorenstam.webp",
+   "credit": {
+    "author": "Dan Perry",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Annika_Sorenstam_at_the_2008_PGA_Golf_Show.jpg"
+   },
+   "fame": 14
+  },
+  {
+   "id": "michelle-wie",
+   "name": "Michelle Wie",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 175219,
+   "img": "img/michelle-wie.webp",
+   "credit": {
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Michelle_Wie_(8699508521).jpg"
+   },
+   "fame": 12
+  },
+  {
+   "id": "hideki-matsuyama",
+   "name": "Hideki Matsuyama",
+   "from": "Japan",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 173595,
+   "img": "img/hideki-matsuyama.webp",
+   "credit": {
+    "author": "Srixon/Cleveland Golf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hideki_Matsuyama_ClevelandGolf4-21_(cropped).jpg"
+   },
+   "fame": 9
+  },
+  {
+   "id": "ernie-els",
+   "name": "Ernie Els",
+   "from": "South Africa",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 152160,
+   "img": "img/ernie-els.webp",
+   "credit": {
+    "author": "Photo_Ernie_Els.jpg: billypoonphotos derivative work: Bluedogtn (talk)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Photo_Ernie_Els_cropped.jpg"
+   },
+   "fame": 6
+  },
+  {
+   "id": "lydia-ko",
+   "name": "Lydia Ko",
+   "from": "New Zealand",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 132831,
+   "img": "img/lydia-ko.webp",
+   "credit": {
+    "author": "Ecco Golf",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lydia_Ko_240215.png"
+   },
+   "fame": 4
+  },
+  {
+   "id": "lexi-thompson",
+   "name": "Lexi Thompson",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "golf"
+   ],
+   "pv": 79097,
+   "img": "img/lexi-thompson.webp",
+   "credit": {
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lexi_Thompson_(17553624816).jpg"
+   },
+   "fame": 1
+  }
+ ]
+}

@@ -1,0 +1,692 @@
+# Mystery Face sports groups (built by tools/groups/sports.py).
+#   @ groupId | Group title | default gender (m/f) | tag
+#   Wikipedia title | from (team/era, <= 40 chars) | optional: g=f / g=m, file=<Commons file>, crop=cx,cy,head
+# crop = head centre (fractions of width/height) and head width (fraction of width), same as deck-build.py.
+# Content rules (tools/deck-people.txt): adults only; skipped on purpose anyone known mainly for
+# major criminal or abuse controversies (e.g. O. J. Simpson, Mike Tyson, Floyd Mayweather,
+# Conor McGregor, Jon Jones, Lance Armstrong, Deshaun Watson, Ben Roethlisberger, Pete Rose, Michael Vick, Ray Lewis, Adrian Peterson, Jim Brown, Hope Solo).
+# Dropped for lack of a usable free face photo: Walter Payton, Igor Shesterkin, Payne Stewart.
+
+@ nba-players | NBA Players | m | nba
+LeBron James | Los Angeles Lakers
+Stephen Curry | Golden State Warriors
+Kevin Durant | Houston Rockets
+Giannis Antetokounmpo | Milwaukee Bucks
+Nikola Jokić | Denver Nuggets
+Luka Dončić | Los Angeles Lakers
+Victor Wembanyama | San Antonio Spurs
+Joel Embiid | Philadelphia 76ers
+Jayson Tatum | Boston Celtics
+Anthony Edwards (basketball) | Minnesota Timberwolves
+Shai Gilgeous-Alexander | Oklahoma City Thunder
+Jimmy Butler | Golden State Warriors
+Kyrie Irving | Dallas Mavericks
+Damian Lillard | Portland Trail Blazers
+James Harden | Los Angeles Clippers
+Kawhi Leonard | Los Angeles Clippers
+Anthony Davis | Dallas Mavericks
+Devin Booker | Phoenix Suns
+Jaylen Brown | Boston Celtics
+Donovan Mitchell | Cleveland Cavaliers
+Trae Young | Atlanta Hawks
+Zion Williamson | New Orleans Pelicans
+Paul George | Philadelphia 76ers
+Russell Westbrook | NBA veteran guard
+Chris Paul | NBA veteran point guard
+Klay Thompson | Dallas Mavericks
+Draymond Green | Golden State Warriors
+Jalen Brunson | New York Knicks
+Karl-Anthony Towns | New York Knicks
+Tyrese Haliburton | Indiana Pacers
+De'Aaron Fox | San Antonio Spurs
+Bam Adebayo | Miami Heat
+Paolo Banchero | Orlando Magic
+Cade Cunningham | Detroit Pistons
+LaMelo Ball | Charlotte Hornets
+Domantas Sabonis | Sacramento Kings
+Jamal Murray | Denver Nuggets
+Rudy Gobert | Minnesota Timberwolves
+Jrue Holiday | Portland Trail Blazers
+Pascal Siakam | Indiana Pacers
+Chet Holmgren | Oklahoma City Thunder
+Evan Mobley | Cleveland Cavaliers
+Scottie Barnes | Toronto Raptors
+Alperen Şengün | Houston Rockets
+Jalen Williams | Oklahoma City Thunder
+Cooper Flagg | Dallas Mavericks
+Bronny James | Los Angeles Lakers
+Lauri Markkanen | Utah Jazz
+Brandon Ingram | Toronto Raptors
+DeMar DeRozan | Sacramento Kings
+
+@ nba-legends | NBA Legends | m | nba
+Michael Jordan | Chicago Bulls
+Kobe Bryant | Los Angeles Lakers
+Magic Johnson | Los Angeles Lakers
+Larry Bird | Boston Celtics
+Kareem Abdul-Jabbar | Los Angeles Lakers
+Shaquille O'Neal | Lakers, Magic, Heat
+Tim Duncan | San Antonio Spurs
+Wilt Chamberlain | 76ers, Lakers
+Bill Russell | Boston Celtics
+Hakeem Olajuwon | Houston Rockets
+Dirk Nowitzki | Dallas Mavericks
+Allen Iverson | Philadelphia 76ers
+Dwyane Wade | Miami Heat
+Kevin Garnett | Timberwolves, Celtics
+Charles Barkley | Suns, 76ers
+Scottie Pippen | Chicago Bulls
+Dennis Rodman | Pistons, Bulls
+Karl Malone | Utah Jazz
+John Stockton | Utah Jazz
+Patrick Ewing | New York Knicks
+David Robinson (basketball) | San Antonio Spurs
+Isiah Thomas | Detroit Pistons
+Julius Erving | 76ers (Dr. J)
+Steve Nash | Phoenix Suns
+Jason Kidd | Nets, Mavericks
+Paul Pierce | Boston Celtics
+Ray Allen | Celtics, Heat
+Tony Parker | San Antonio Spurs
+Manu Ginóbili | San Antonio Spurs
+Pau Gasol | Los Angeles Lakers
+Yao Ming | Houston Rockets
+Vince Carter | Toronto Raptors
+Tracy McGrady | Magic, Rockets
+Carmelo Anthony | Nuggets, Knicks
+Dwight Howard | Orlando Magic
+Reggie Miller | Indiana Pacers
+Gary Payton | Seattle SuperSonics
+Clyde Drexler | Portland Trail Blazers
+Dominique Wilkins | Atlanta Hawks
+Jerry West | Los Angeles Lakers
+Oscar Robertson | Royals, Bucks
+Elgin Baylor | Los Angeles Lakers
+Bob Cousy | Boston Celtics
+George Mikan | Minneapolis Lakers
+Pete Maravich | Hawks, Jazz
+Moses Malone | 76ers, Rockets
+Dikembe Mutombo | Nuggets, Hawks
+Alonzo Mourning | Miami Heat
+Chris Webber | Sacramento Kings
+Spud Webb | Atlanta Hawks
+
+@ wnba | WNBA Stars | f | wnba
+Caitlin Clark | Indiana Fever
+A'ja Wilson | Las Vegas Aces
+Angel Reese | Chicago Sky
+Breanna Stewart | New York Liberty
+Sabrina Ionescu | New York Liberty
+Diana Taurasi | Phoenix Mercury
+Sue Bird | Seattle Storm
+Candace Parker | Sparks, Aces
+Paige Bueckers | Dallas Wings
+Lisa Leslie | Los Angeles Sparks
+Maya Moore | Minnesota Lynx
+Brittney Griner | Atlanta Dream
+Kelsey Plum | Los Angeles Sparks
+Napheesa Collier | Minnesota Lynx
+Cameron Brink | Los Angeles Sparks
+Kahleah Copper | Phoenix Mercury
+Jewell Loyd | Las Vegas Aces
+Chelsea Gray | Las Vegas Aces
+Jonquel Jones | New York Liberty
+Arike Ogunbowale | Dallas Wings
+Alyssa Thomas | Phoenix Mercury
+Nneka Ogwumike | Seattle Storm
+Skylar Diggins | Seattle Storm
+Elena Delle Donne | Washington Mystics
+Sheryl Swoopes | Houston Comets
+Cynthia Cooper (basketball) | Houston Comets
+Tamika Catchings | Indiana Fever
+Lauren Jackson | Seattle Storm
+Becky Hammon | Coach, Las Vegas Aces
+Kelsey Mitchell (basketball) | Indiana Fever
+Aliyah Boston | Indiana Fever
+Rhyne Howard | Atlanta Dream
+Dearica Hamby | Los Angeles Sparks
+Jackie Young | Las Vegas Aces
+Satou Sabally | Phoenix Mercury
+Courtney Williams | Minnesota Lynx
+
+@ nfl-players | NFL Players | m | nfl
+Travis Kelce | Kansas City Chiefs
+Justin Jefferson | Minnesota Vikings
+Saquon Barkley | Philadelphia Eagles
+Christian McCaffrey | San Francisco 49ers
+Derrick Henry | Baltimore Ravens
+Ja'Marr Chase | Cincinnati Bengals
+CeeDee Lamb | Dallas Cowboys
+Micah Parsons | Green Bay Packers
+T. J. Watt | Pittsburgh Steelers
+Aaron Donald | Los Angeles Rams | file=Aaron Donald 2014 combine.jpg
+J. J. Watt | Houston Texans | file=JJWatt.jpg
+Davante Adams | Los Angeles Rams
+Cooper Kupp | Seattle Seahawks
+George Kittle | San Francisco 49ers
+Puka Nacua | Los Angeles Rams
+Amon-Ra St. Brown | Detroit Lions
+A. J. Brown | Philadelphia Eagles
+Stefon Diggs | New England Patriots
+DK Metcalf | Pittsburgh Steelers | file=D.K. Metcalf 2020.jpg
+Jalen Ramsey | Pittsburgh Steelers
+Sauce Gardner | Indianapolis Colts
+Nick Bosa | San Francisco 49ers
+Myles Garrett | Cleveland Browns
+Maxx Crosby | Las Vegas Raiders
+Fred Warner (American football) | San Francisco 49ers
+Bijan Robinson | Atlanta Falcons | file=Bijan Robinson.png
+Jahmyr Gibbs | Detroit Lions
+Jason Kelce | Philadelphia Eagles
+Rob Gronkowski | New England Patriots
+Jerry Rice | San Francisco 49ers
+Emmitt Smith | Dallas Cowboys
+Barry Sanders | Detroit Lions
+Randy Moss | Minnesota Vikings
+Calvin Johnson | Detroit Lions
+Larry Fitzgerald | Arizona Cardinals
+Lawrence Taylor | New York Giants
+Deion Sanders | Cowboys, 49ers
+LaDainian Tomlinson | San Diego Chargers
+Marshawn Lynch | Seattle Seahawks
+Julian Edelman | New England Patriots
+Justin Tucker | Baltimore Ravens
+Adam Vinatieri | Patriots, Colts
+Odell Beckham Jr. | Giants, Rams
+Brock Bowers | Las Vegas Raiders | file=Brock Bowers 2 (cropped).jpg
+
+@ nfl-quarterbacks | NFL Quarterbacks | m | nfl
+Tom Brady | New England Patriots
+Patrick Mahomes | Kansas City Chiefs
+Peyton Manning | Indianapolis Colts
+Aaron Rodgers | Pittsburgh Steelers
+Josh Allen | Buffalo Bills
+Lamar Jackson | Baltimore Ravens
+Joe Burrow | Cincinnati Bengals
+Jalen Hurts | Philadelphia Eagles
+Joe Montana | San Francisco 49ers
+Dan Marino | Miami Dolphins
+John Elway | Denver Broncos
+Brett Favre | Green Bay Packers
+Drew Brees | New Orleans Saints
+Eli Manning | New York Giants
+Steve Young | San Francisco 49ers
+Troy Aikman | Dallas Cowboys
+Terry Bradshaw | Pittsburgh Steelers
+Johnny Unitas | Baltimore Colts
+Joe Namath | New York Jets
+Roger Staubach | Dallas Cowboys
+Jim Kelly | Buffalo Bills
+Warren Moon | Houston Oilers
+Fran Tarkenton | Minnesota Vikings
+Russell Wilson | New York Giants
+Matthew Stafford | Los Angeles Rams
+Dak Prescott | Dallas Cowboys
+Justin Herbert | Los Angeles Chargers | file=2019. Justin Herbert Oregon.jpg
+C. J. Stroud | Houston Texans
+Jayden Daniels | Washington Commanders
+Caleb Williams | Chicago Bears
+Jordan Love | Green Bay Packers | file=Love-jordan-image.png
+Kirk Cousins | Atlanta Falcons
+Baker Mayfield | Tampa Bay Buccaneers
+Jared Goff | Detroit Lions | file=Jared Goff 2018.JPG
+Tua Tagovailoa | Miami Dolphins | file=Joshua Shim and Tua Tagovailoa in 2021.jpg
+Trevor Lawrence | Jacksonville Jaguars | file=Trevor Lawrence SEP2022 (cropped).jpg
+Brock Purdy | San Francisco 49ers
+Drake Maye | New England Patriots
+Bo Nix | Denver Broncos | file=Bo Nix (cropped).jpg
+Kyler Murray | Arizona Cardinals
+Cam Newton | Carolina Panthers
+Philip Rivers | San Diego Chargers | file=Philip Rivers 2017.JPG
+Tim Tebow | Denver Broncos
+Doug Flutie | Buffalo Bills
+Kurt Warner | St. Louis Rams
+Shedeur Sanders | Cleveland Browns
+
+@ mlb-players | MLB Players | m | mlb
+Shohei Ohtani | Los Angeles Dodgers
+Aaron Judge | New York Yankees
+Mike Trout | Los Angeles Angels
+Mookie Betts | Los Angeles Dodgers
+Juan Soto | New York Mets
+Bryce Harper | Philadelphia Phillies
+Freddie Freeman | Los Angeles Dodgers
+Ronald Acuña Jr. | Atlanta Braves
+Clayton Kershaw | Los Angeles Dodgers
+Justin Verlander | Houston Astros
+Max Scherzer | Toronto Blue Jays
+Gerrit Cole | New York Yankees
+Paul Skenes | Pittsburgh Pirates
+Vladimir Guerrero Jr. | Toronto Blue Jays | file=Blue Jays Vladimir Guerrero jogs back to dugout July 27, 2020 (50161781342) (cropped).jpg
+Fernando Tatís Jr. | San Diego Padres
+Francisco Lindor | New York Mets
+Pete Alonso | New York Mets
+José Altuve | Houston Astros
+Cal Raleigh | Seattle Mariners
+Bobby Witt Jr. | Kansas City Royals | file=Bobby Witt Jr. 2023.png
+Elly De La Cruz | Cincinnati Reds
+Yoshinobu Yamamoto | Los Angeles Dodgers
+Kyle Schwarber | Philadelphia Phillies
+Corey Seager | Texas Rangers
+Manny Machado | San Diego Padres
+Gunnar Henderson | Baltimore Orioles
+Julio Rodríguez | Seattle Mariners
+Tarik Skubal | Detroit Tigers
+Derek Jeter | New York Yankees
+Babe Ruth | New York Yankees
+Jackie Robinson | Brooklyn Dodgers
+Ken Griffey Jr. | Seattle Mariners | file=Ken Griffey Jr. goes with his trademark backwards cap.jpg
+Barry Bonds | San Francisco Giants
+Hank Aaron | Atlanta Braves
+Willie Mays | New York/SF Giants
+Mickey Mantle | New York Yankees
+Lou Gehrig | New York Yankees
+Ted Williams | Boston Red Sox
+Roberto Clemente | Pittsburgh Pirates
+David Ortiz | Boston Red Sox
+Ichiro Suzuki | Seattle Mariners
+Albert Pujols | St. Louis Cardinals
+Mariano Rivera | New York Yankees
+Randy Johnson | Arizona Diamondbacks
+Cal Ripken Jr. | Baltimore Orioles
+Nolan Ryan | Rangers, Astros
+Sandy Koufax | Los Angeles Dodgers
+Yogi Berra | New York Yankees
+Tony Gwynn | San Diego Padres
+Pedro Martínez | Boston Red Sox
+
+@ nhl-players | NHL Players | m | nhl
+Wayne Gretzky | Edmonton Oilers
+Sidney Crosby | Pittsburgh Penguins
+Alexander Ovechkin | Washington Capitals
+Connor McDavid | Edmonton Oilers
+Mario Lemieux | Pittsburgh Penguins
+Bobby Orr | Boston Bruins
+Gordie Howe | Detroit Red Wings
+Mark Messier | Oilers, Rangers
+Jaromír Jágr | Pittsburgh Penguins
+Steve Yzerman | Detroit Red Wings
+Patrick Roy | Canadiens, Avalanche
+Martin Brodeur | New Jersey Devils
+Maurice Richard | Montreal Canadiens
+Joe Sakic | Colorado Avalanche
+Teemu Selänne | Anaheim Ducks
+Nicklas Lidström | Detroit Red Wings
+Henrik Lundqvist | New York Rangers
+Leon Draisaitl | Edmonton Oilers
+Nathan MacKinnon | Colorado Avalanche
+Cale Makar | Colorado Avalanche
+Auston Matthews | Toronto Maple Leafs
+Nikita Kucherov | Tampa Bay Lightning
+David Pastrňák | Boston Bruins
+Connor Bedard | Chicago Blackhawks
+Matthew Tkachuk | Florida Panthers
+Brady Tkachuk | Ottawa Senators
+Jack Hughes (ice hockey) | New Jersey Devils
+Quinn Hughes | Vancouver Canucks
+Andrei Vasilevskiy | Tampa Bay Lightning
+Marc-André Fleury | Penguins, Golden Knights | file=Marc-Andre Fleury 2011-11-25.JPG
+Carey Price | Montreal Canadiens | file=Carey Price 2015.jpg
+Evgeni Malkin | Pittsburgh Penguins
+Steven Stamkos | Nashville Predators
+Kirill Kaprizov | Minnesota Wild
+Mitch Marner | Vegas Golden Knights
+Aleksander Barkov | Florida Panthers
+Jonathan Toews | Chicago Blackhawks
+Zdeno Chára | Boston Bruins
+P. K. Subban | Canadiens, Predators
+Macklin Celebrini | San Jose Sharks
+
+@ soccer-stars | Soccer Stars | m | soccer
+Lionel Messi | Inter Miami, Argentina
+Cristiano Ronaldo | Al Nassr, Portugal
+Kylian Mbappé | Real Madrid, France
+Erling Haaland | Manchester City, Norway
+Neymar | Santos, Brazil
+Mohamed Salah | Liverpool, Egypt
+Vinícius Júnior | Real Madrid, Brazil
+Jude Bellingham | Real Madrid, England
+Lamine Yamal | Barcelona, Spain
+Harry Kane | Bayern Munich, England
+Kevin De Bruyne | Napoli, Belgium
+Luka Modrić | AC Milan, Croatia
+Robert Lewandowski | Barcelona, Poland
+Bukayo Saka | Arsenal, England
+Son Heung-min | LAFC, South Korea
+Virgil van Dijk | Liverpool, Netherlands
+Pedri | Barcelona, Spain
+Rodri | Manchester City, Spain
+Phil Foden | Manchester City, England
+Antoine Griezmann | Atlético Madrid, France
+Ousmane Dembélé | Paris Saint-Germain, France
+Christian Pulisic | AC Milan, USA
+Alisson Becker | Liverpool, Brazil
+Thibaut Courtois | Real Madrid, Belgium
+Karim Benzema | Al-Ittihad, France
+Zlatan Ibrahimović | AC Milan, Sweden
+David Beckham | Man United, England
+Zinedine Zidane | Real Madrid, France
+Ronaldinho | Barcelona, Brazil
+Ronaldo (Brazilian footballer) | Real Madrid, Brazil
+Pelé | Santos, Brazil
+Diego Maradona | Napoli, Argentina | file=Diego Maradona 2012 2.jpg
+Johan Cruyff | Ajax, Netherlands
+Thierry Henry | Arsenal, France
+Wayne Rooney | Man United, England
+Steven Gerrard | Liverpool, England
+Andrés Iniesta | Barcelona, Spain
+Xavi (footballer, born 1980) | Barcelona, Spain | file=Xavi Hernández - 002 (cropped).jpg
+Iker Casillas | Real Madrid, Spain
+Gianluigi Buffon | Juventus, Italy
+Andrea Pirlo | Juventus, Italy
+Franz Beckenbauer | Bayern Munich, Germany
+Paolo Maldini | AC Milan, Italy
+Kaká | AC Milan, Brazil
+Landon Donovan | LA Galaxy, USA
+Clint Dempsey | Seattle Sounders, USA
+Tim Howard | Everton, USA
+Cole Palmer | Chelsea, England
+Florian Wirtz | Liverpool, Germany
+
+@ womens-soccer | Women's Soccer | f | soccer
+Alex Morgan | San Diego Wave, USA
+Megan Rapinoe | OL Reign, USA
+Mia Hamm | USA | file=Mia Hamm 2010 cropped.jpg
+Abby Wambach | USA
+Carli Lloyd | USA
+Julie Foudy | USA
+Brandi Chastain | USA
+Kristine Lilly | USA
+Christen Press | USA
+Tobin Heath | USA
+Becky Sauerbrunn | USA
+Lindsey Horan | Lyon, USA
+Rose Lavelle | Gotham FC, USA
+Sophia Wilson | Portland Thorns, USA
+Trinity Rodman | Washington Spirit, USA
+Mallory Swanson | Chicago Stars, USA
+Naomi Girma | Chelsea, USA
+Alyssa Naeher | Chicago Stars, USA
+Crystal Dunn | Gotham FC, USA
+Marta (footballer) | Orlando Pride, Brazil
+Sam Kerr | Chelsea, Australia
+Aitana Bonmatí | Barcelona, Spain
+Alexia Putellas | Barcelona, Spain
+Ada Hegerberg | Lyon, Norway
+Lucy Bronze | Chelsea, England
+Leah Williamson | Arsenal, England
+Mary Earps | Paris Saint-Germain, England
+Alessia Russo | Arsenal, England
+Chloe Kelly | Arsenal, England
+Beth Mead | Arsenal, England
+Christine Sinclair | Canada
+Wendie Renard | Lyon, France
+Birgit Prinz | Germany
+Ellie Carpenter | Lyon, Australia
+Barbra Banda | Orlando Pride, Zambia
+
+@ tennis | Tennis Stars | m | tennis
+Roger Federer | Switzerland
+Rafael Nadal | Spain
+Novak Djokovic | Serbia
+Serena Williams | USA | g=f
+Venus Williams | USA | g=f
+Carlos Alcaraz | Spain
+Jannik Sinner | Italy
+Coco Gauff | USA | g=f
+Naomi Osaka | Japan | g=f
+Iga Świątek | Poland | g=f
+Aryna Sabalenka | Belarus | g=f
+Andy Murray | Great Britain
+Andre Agassi | USA
+Pete Sampras | USA
+John McEnroe | USA
+Björn Borg | Sweden
+Jimmy Connors | USA
+Steffi Graf | Germany | g=f
+Martina Navratilova | USA | g=f
+Billie Jean King | USA | g=f
+Chris Evert | USA | g=f
+Maria Sharapova | Russia | g=f
+Monica Seles | USA | g=f
+Andy Roddick | USA
+Arthur Ashe | USA
+Rod Laver | Australia
+Boris Becker | Germany
+Daniil Medvedev | Russia
+Alexander Zverev | Germany
+Stefanos Tsitsipas | Greece
+Taylor Fritz | USA
+Ben Shelton | USA
+Frances Tiafoe | USA
+Nick Kyrgios | Australia
+Emma Raducanu | Great Britain | g=f
+Jessica Pegula | USA | g=f
+Madison Keys | USA | g=f
+Elena Rybakina | Kazakhstan | g=f
+Caroline Wozniacki | Denmark | g=f
+Kim Clijsters | Belgium | g=f
+Justine Henin | Belgium | g=f | file=JUSTINE HENIN (2714310623) (cropped).jpg
+Stan Wawrinka | Switzerland
+Juan Martín del Potro | Argentina
+Holger Rune | Denmark
+Ons Jabeur | Tunisia | g=f
+
+@ golf | Golfers | m | golf
+Tiger Woods | USA
+Jack Nicklaus | USA
+Arnold Palmer | USA
+Phil Mickelson | USA
+Rory McIlroy | Northern Ireland
+Scottie Scheffler | USA
+Jordan Spieth | USA
+Bryson DeChambeau | USA
+Brooks Koepka | USA
+Dustin Johnson | USA
+Jon Rahm | Spain
+Xander Schauffele | USA
+Collin Morikawa | USA
+Justin Thomas (golfer) | USA
+Rickie Fowler | USA
+Viktor Hovland | Norway
+Ludvig Åberg | Sweden
+Tommy Fleetwood | England
+Hideki Matsuyama | Japan
+Adam Scott (golfer) | Australia
+Sergio García | Spain
+Bubba Watson | USA
+Gary Player | South Africa
+Seve Ballesteros | Spain | file=Pro Am open golfkampioenschap S. Ballesteros in actie, Bestanddeelnr 934-0383.jpg
+Greg Norman | Australia
+Ernie Els | South Africa
+Vijay Singh | Fiji | file=Vijay Singh Fiji International August 16th 2014.jpg
+Lee Trevino | USA
+Ben Hogan | USA | file=Ben Hogan 1950 (2).jpg
+Bobby Jones (golfer) | USA
+Fred Couples | USA
+John Daly (golfer) | USA
+Nelly Korda | USA | g=f
+Annika Sörenstam | Sweden | g=f | file=Annika Sorenstam at the 2008 PGA Golf Show.jpg
+Lexi Thompson | USA | g=f
+Lydia Ko | New Zealand | g=f
+Michelle Wie | USA | g=f
+Charley Hull | England | g=f | file=2013 Women's British Open – Charley Hull (9).jpg
+
+@ olympians | Olympians | m | olympics
+Michael Phelps | Swimming, USA
+Usain Bolt | Sprinting, Jamaica | file=Usain Bolt with NX300-3.jpg
+Simone Biles | Gymnastics, USA | g=f
+Katie Ledecky | Swimming, USA | g=f
+Carl Lewis | Athletics, USA
+Jesse Owens | Athletics, USA
+Florence Griffith Joyner | Sprinting, USA | g=f
+Jackie Joyner-Kersee | Heptathlon, USA | g=f | file=Jackie Joyner-Kersee (2) (cropped).jpg
+Mark Spitz | Swimming, USA
+Ryan Lochte | Swimming, USA
+Caeleb Dressel | Swimming, USA | file=Caeleb Dressel (USA) 2018.jpg
+Léon Marchand | Swimming, France
+Missy Franklin | Swimming, USA | g=f
+Summer McIntosh | Swimming, Canada | g=f
+Nadia Comăneci | Gymnastics, Romania | g=f
+Mary Lou Retton | Gymnastics, USA | g=f
+Gabby Douglas | Gymnastics, USA | g=f
+Aly Raisman | Gymnastics, USA | g=f
+Suni Lee | Gymnastics, USA | g=f
+Jordan Chiles | Gymnastics, USA | g=f
+Stephen Nedoroscik | Gymnastics, USA
+Shaun White | Snowboarding, USA
+Chloe Kim | Snowboarding, USA | g=f
+Lindsey Vonn | Skiing, USA | g=f
+Mikaela Shiffrin | Skiing, USA | g=f
+Eileen Gu | Freestyle skiing, China | g=f
+Apolo Ohno | Speed skating, USA
+Michelle Kwan | Figure skating, USA | g=f
+Kristi Yamaguchi | Figure skating, USA | g=f
+Ilia Malinin | Figure skating, USA
+Yuzuru Hanyu | Figure skating, Japan
+Scott Hamilton (figure skater) | Figure skating, USA
+Sha'Carri Richardson | Sprinting, USA | g=f | file=Sha'Carri Richardson 15555 (sq cropped).jpg
+Noah Lyles | Sprinting, USA
+Allyson Felix | Sprinting, USA | g=f
+Sydney McLaughlin-Levrone | Hurdles, USA | g=f
+Armand Duplantis | Pole vault, Sweden
+Eliud Kipchoge | Marathon, Kenya
+Mo Farah | Distance, Great Britain
+Faith Kipyegon | Distance, Kenya | g=f | file=Faith Kipyegon Budapest 2023(2).jpg
+Shelly-Ann Fraser-Pryce | Sprinting, Jamaica | g=f
+Michael Johnson (sprinter) | Sprinting, USA
+Greg Louganis | Diving, USA
+Tom Daley | Diving, Great Britain
+Kerri Walsh Jennings | Beach volleyball, USA | g=f
+Ilona Maher | Rugby sevens, USA | g=f
+
+@ f1-drivers | Formula 1 Drivers | m | f1
+Lewis Hamilton | Ferrari
+Max Verstappen | Red Bull
+Charles Leclerc | Ferrari
+Lando Norris | McLaren
+Oscar Piastri | McLaren
+George Russell (racing driver) | Mercedes
+Fernando Alonso | Aston Martin
+Carlos Sainz Jr. | Williams
+Sergio Pérez | Cadillac
+Lance Stroll | Aston Martin
+Pierre Gasly | Alpine
+Esteban Ocon | Haas
+Alexander Albon | Williams
+Yuki Tsunoda | Red Bull
+Nico Hülkenberg | Sauber
+Kimi Antonelli | Mercedes
+Oliver Bearman | Haas
+Gabriel Bortoleto | Sauber
+Liam Lawson | Racing Bulls
+Isack Hadjar | Racing Bulls
+Valtteri Bottas | Cadillac
+Daniel Ricciardo | Retired, Australia
+Sebastian Vettel | Red Bull, Ferrari
+Kimi Räikkönen | Ferrari, Lotus
+Michael Schumacher | Ferrari
+Ayrton Senna | McLaren
+Alain Prost | McLaren, Ferrari
+Niki Lauda | Ferrari
+Nigel Mansell | Williams
+Jenson Button | Brawn, McLaren
+Nico Rosberg | Mercedes
+Mika Häkkinen | McLaren
+Jackie Stewart | Tyrrell
+Damon Hill | Williams
+Mario Andretti | Lotus
+Toto Wolff | Mercedes team boss
+Christian Horner | Red Bull team boss
+Guenther Steiner | Haas team boss
+
+@ fighters | Boxing & UFC | m | combat
+Muhammad Ali | Boxing heavyweight
+George Foreman | Boxing heavyweight
+Joe Frazier | Boxing heavyweight
+Evander Holyfield | Boxing heavyweight
+Lennox Lewis | Boxing heavyweight
+Sugar Ray Leonard | Boxing welterweight
+Sugar Ray Robinson | Boxing welterweight
+Oscar De La Hoya | Boxing
+Manny Pacquiao | Boxing
+Canelo Álvarez | Boxing middleweight
+Tyson Fury | Boxing heavyweight
+Anthony Joshua | Boxing heavyweight
+Oleksandr Usyk | Boxing heavyweight
+Deontay Wilder | Boxing heavyweight
+Terence Crawford | Boxing
+Naoya Inoue | Boxing
+Jake Paul | Boxer, YouTuber
+Claressa Shields | Boxing | g=f
+Katie Taylor | Boxing | g=f | file=Katie Taylor 2012 (cropped).jpg
+Wladimir Klitschko | Boxing heavyweight
+Rocky Marciano | Boxing heavyweight
+Joe Louis | Boxing heavyweight
+Ronda Rousey | UFC | g=f
+Georges St-Pierre | UFC welterweight
+Anderson Silva | UFC middleweight
+Khabib Nurmagomedov | UFC lightweight
+Israel Adesanya | UFC middleweight
+Alex Pereira | UFC
+Islam Makhachev | UFC
+Francis Ngannou | UFC heavyweight
+Amanda Nunes | UFC | g=f
+Valentina Shevchenko | UFC | g=f
+Dustin Poirier | UFC lightweight
+Max Holloway | UFC
+Sean O'Malley (fighter) | UFC bantamweight
+Ilia Topuria | UFC
+Chuck Liddell | UFC light heavyweight
+Randy Couture | UFC
+Dana White | UFC president
+Daniel Cormier | UFC, commentator
+
+@ coaches-commentators | Coaches & Commentators | m | coaches
+Bill Belichick | Patriots, UNC coach
+Phil Jackson | Bulls, Lakers coach
+Gregg Popovich | Spurs coach
+Steve Kerr | Warriors coach
+Pat Riley | Heat executive
+Andy Reid | Chiefs coach
+Sean McVay | Rams coach
+Mike Tomlin | Steelers coach | file=Tomlin2009.jpg
+Nick Saban | Alabama coach
+Vince Lombardi | Packers coach
+John Madden | Raiders coach, broadcaster
+Bill Parcells | Giants coach
+Tony Dungy | Colts coach
+Mike Krzyzewski | Duke coach
+John Wooden | UCLA coach
+Bob Knight | Indiana coach
+Dawn Staley | South Carolina coach | g=f
+Geno Auriemma | UConn coach
+Pat Summitt | Tennessee coach | g=f
+Erik Spoelstra | Heat coach
+Doc Rivers | Bucks coach
+Alex Ferguson | Manchester United manager
+Pep Guardiola | Manchester City manager
+Jürgen Klopp | Liverpool manager
+José Mourinho | Football manager
+Carlo Ancelotti | Brazil manager
+Arsène Wenger | Arsenal manager
+Mauricio Pochettino | USA manager
+Jim Nantz | CBS Sports
+Al Michaels | NBC / Amazon
+Joe Buck | ESPN
+Tony Romo | CBS analyst
+Cris Collinsworth | NBC analyst
+Stephen A. Smith | ESPN First Take
+Pat McAfee | ESPN, The Pat McAfee Show
+Kirk Herbstreit | ESPN College GameDay
+Erin Andrews | Fox Sports | g=f
+Doris Burke | ESPN | g=f
+Mike Breen | ESPN
+Bob Costas | NBC Sports
+Vin Scully | Dodgers broadcaster
+Dick Vitale | ESPN college hoops
+Ernie Johnson Jr. | Inside the NBA
+Kenny Smith | Inside the NBA
+Skip Bayless | Sports commentator
+Charles Barkley | Inside the NBA
+Peyton Manning | ManningCast

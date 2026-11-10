@@ -1,0 +1,927 @@
+{
+ "id": "nfl-quarterbacks",
+ "title": "NFL Quarterbacks",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "drake-maye",
+   "name": "Drake Maye",
+   "from": "New England Patriots",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 4042983,
+   "img": "img/drake-maye.webp",
+   "credit": {
+    "author": "Tennessee Titans",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Drake_Maye_Patriots_vs_Titans_NOV2024.png_(section)_(cropped).png"
+   },
+   "fame": 100
+  },
+  {
+   "id": "tom-brady",
+   "name": "Tom Brady",
+   "from": "New England Patriots",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 3949228,
+   "img": "img/tom-brady.webp",
+   "credit": {
+    "author": "Barcex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_(cropped)_(cropped).jpg"
+   },
+   "fame": 98
+  },
+  {
+   "id": "philip-rivers",
+   "name": "Philip Rivers",
+   "from": "San Diego Chargers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 3232047,
+   "img": "img/philip-rivers.webp",
+   "credit": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Philip_Rivers_2017.JPG"
+   },
+   "fame": 96
+  },
+  {
+   "id": "josh-allen",
+   "name": "Josh Allen",
+   "from": "Buffalo Bills",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 3181068,
+   "img": "img/josh-allen.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Josh_Allen_SEPT2021_(cropped2).jpg"
+   },
+   "fame": 93
+  },
+  {
+   "id": "aaron-rodgers",
+   "name": "Aaron Rodgers",
+   "from": "Pittsburgh Steelers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 3125280,
+   "img": "img/aaron-rodgers.webp",
+   "credit": {
+    "author": "Cramerwiki",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:AaronRodgersSteelers_(cropped).jpg"
+   },
+   "fame": 91
+  },
+  {
+   "id": "matthew-stafford",
+   "name": "Matthew Stafford",
+   "from": "Los Angeles Rams",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 2437871,
+   "img": "img/matthew-stafford.webp",
+   "credit": {
+    "author": "Sewageboy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stafford_6_731_(cropped3).jpg"
+   },
+   "fame": 89
+  },
+  {
+   "id": "patrick-mahomes",
+   "name": "Patrick Mahomes",
+   "from": "Kansas City Chiefs",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 2102313,
+   "img": "img/patrick-mahomes.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Patrick_Mahomes_(51615475056).jpg"
+   },
+   "fame": 87
+  },
+  {
+   "id": "peyton-manning",
+   "name": "Peyton Manning",
+   "from": "Indianapolis Colts",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1818365,
+   "img": "img/peyton-manning.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Peyton_Manning_(51665689271).jpg"
+   },
+   "fame": 85
+  },
+  {
+   "id": "russell-wilson",
+   "name": "Russell Wilson",
+   "from": "New York Giants",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1701699,
+   "img": "img/russell-wilson.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wilson_2021.jpg"
+   },
+   "fame": 82
+  },
+  {
+   "id": "bo-nix",
+   "name": "Bo Nix",
+   "from": "Denver Broncos",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1684929,
+   "img": "img/bo-nix.webp",
+   "credit": {
+    "author": "Munnaf Joarder",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bo_Nix_(cropped).jpg"
+   },
+   "fame": 80
+  },
+  {
+   "id": "caleb-williams",
+   "name": "Caleb Williams",
+   "from": "Chicago Bears",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1612370,
+   "img": "img/caleb-williams.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Caleb_Williams_(54858668366)_(cropped).jpg"
+   },
+   "fame": 78
+  },
+  {
+   "id": "brock-purdy",
+   "name": "Brock Purdy",
+   "from": "San Francisco 49ers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1428043,
+   "img": "img/brock-purdy.webp",
+   "credit": {
+    "author": "Jar-Lar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BrockPurdy2021_(cropped).jpg"
+   },
+   "fame": 76
+  },
+  {
+   "id": "kirk-cousins",
+   "name": "Kirk Cousins",
+   "from": "Atlanta Falcons",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1249216,
+   "img": "img/kirk-cousins.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cousins_2022.jpg"
+   },
+   "fame": 74
+  },
+  {
+   "id": "joe-burrow",
+   "name": "Joe Burrow",
+   "from": "Cincinnati Bengals",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1240848,
+   "img": "img/joe-burrow.webp",
+   "credit": {
+    "author": "Lordstown Motors",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Burrow_-_Lordstown_interview_-_1_(cropped).png"
+   },
+   "fame": 71
+  },
+  {
+   "id": "john-elway",
+   "name": "John Elway",
+   "from": "Denver Broncos",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1239555,
+   "img": "img/john-elway.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Elway_OCT2021_(cropped).jpg"
+   },
+   "fame": 69
+  },
+  {
+   "id": "jalen-hurts",
+   "name": "Jalen Hurts",
+   "from": "Philadelphia Eagles",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1238259,
+   "img": "img/jalen-hurts.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jalen_Hurts_11-14-22_(cropped).jpg"
+   },
+   "fame": 67
+  },
+  {
+   "id": "eli-manning",
+   "name": "Eli Manning",
+   "from": "New York Giants",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1206366,
+   "img": "img/eli-manning.webp",
+   "credit": {
+    "author": "Alexander Jonesi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eli_Manning_crop.jpg"
+   },
+   "fame": 65
+  },
+  {
+   "id": "cam-newton",
+   "name": "Cam Newton",
+   "from": "Carolina Panthers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1187191,
+   "img": "img/cam-newton.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cam_Newton_2021_WFT_vs_CAR_(cropped).jpg"
+   },
+   "fame": 63
+  },
+  {
+   "id": "kyler-murray",
+   "name": "Kyler Murray",
+   "from": "Arizona Cardinals",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1143568,
+   "img": "img/kyler-murray.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyler_Murray_in_huddle_(50369475187)_(cropped)_(cropped).jpg"
+   },
+   "fame": 60
+  },
+  {
+   "id": "baker-mayfield",
+   "name": "Baker Mayfield",
+   "from": "Tampa Bay Buccaneers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1125867,
+   "img": "img/baker-mayfield.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Baker_Mayfield_(cropped).jpg"
+   },
+   "fame": 58
+  },
+  {
+   "id": "justin-herbert",
+   "name": "Justin Herbert",
+   "from": "Los Angeles Chargers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1103345,
+   "img": "img/justin-herbert.webp",
+   "credit": {
+    "author": "Pmarwill",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2019._Justin_Herbert_Oregon.jpg"
+   },
+   "fame": 56
+  },
+  {
+   "id": "troy-aikman",
+   "name": "Troy Aikman",
+   "from": "Dallas Cowboys",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1096755,
+   "img": "img/troy-aikman.webp",
+   "credit": {
+    "author": "Leahdi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Troy_aikman_2011_cropped.jpg"
+   },
+   "fame": 54
+  },
+  {
+   "id": "tim-tebow",
+   "name": "Tim Tebow",
+   "from": "Denver Broncos",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1046385,
+   "img": "img/tim-tebow.webp",
+   "credit": {
+    "author": "Clemed",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tim_Tebow_Denver_Sports_Authority_Field_2012-01-01.jpg"
+   },
+   "fame": 52
+  },
+  {
+   "id": "kurt-warner",
+   "name": "Kurt Warner",
+   "from": "St. Louis Rams",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1045256,
+   "img": "img/kurt-warner.webp",
+   "credit": {
+    "author": "Staff Sgt. Cody Trimble",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kurt_Warner_2022_(cropped).jpg"
+   },
+   "fame": 49
+  },
+  {
+   "id": "jayden-daniels",
+   "name": "Jayden Daniels",
+   "from": "Washington Commanders",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1026388,
+   "img": "img/jayden-daniels.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jayden_Daniels_2025.jpg"
+   },
+   "fame": 47
+  },
+  {
+   "id": "lamar-jackson",
+   "name": "Lamar Jackson",
+   "from": "Baltimore Ravens",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1015291,
+   "img": "img/lamar-jackson.webp",
+   "credit": {
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:149th_Preakness_(53731145142)_(cropped).jpg"
+   },
+   "fame": 45
+  },
+  {
+   "id": "joe-montana",
+   "name": "Joe Montana",
+   "from": "San Francisco 49ers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1010540,
+   "img": "img/joe-montana.webp",
+   "credit": {
+    "author": "photo taken by flcikr user Phil Hull",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Montana_ESPN_cropped2.jpg"
+   },
+   "fame": 43
+  },
+  {
+   "id": "drew-brees",
+   "name": "Drew Brees",
+   "from": "New Orleans Saints",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 1006217,
+   "img": "img/drew-brees.webp",
+   "credit": {
+    "author": "Senate Democrats",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MedalCeremony_1_011520_(61_of_69)_(49396271982)_(cropped).jpg"
+   },
+   "fame": 41
+  },
+  {
+   "id": "dak-prescott",
+   "name": "Dak Prescott",
+   "from": "Dallas Cowboys",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 999682,
+   "img": "img/dak-prescott.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dak_Prescott_by_Gage_Skidmore.jpg"
+   },
+   "fame": 38
+  },
+  {
+   "id": "c-j-stroud",
+   "name": "C. J. Stroud",
+   "from": "Houston Texans",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 931454,
+   "img": "img/c-j-stroud.webp",
+   "credit": {
+    "author": "Tennessee Titans",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CJ_Stroud_NFL_Combine_(cropped).png"
+   },
+   "fame": 36
+  },
+  {
+   "id": "terry-bradshaw",
+   "name": "Terry Bradshaw",
+   "from": "Pittsburgh Steelers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 900168,
+   "img": "img/terry-bradshaw.webp",
+   "credit": {
+    "author": "The ASI Show",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Terry_Bradshaw_Meet_and_Greet_ASI_Chicago_show_071521-7_(51321819538).jpg"
+   },
+   "fame": 34
+  },
+  {
+   "id": "tua-tagovailoa",
+   "name": "Tua Tagovailoa",
+   "from": "Miami Dolphins",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 898328,
+   "img": "img/tua-tagovailoa.webp",
+   "credit": {
+    "author": "Rick Stanfield",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joshua_Shim_and_Tua_Tagovailoa_in_2021.jpg"
+   },
+   "fame": 32
+  },
+  {
+   "id": "brett-favre",
+   "name": "Brett Favre",
+   "from": "Green Bay Packers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 892935,
+   "img": "img/brett-favre.webp",
+   "credit": {
+    "author": "Arnie Papp",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brett_Favre_Super_Bowl_50.jpg"
+   },
+   "fame": 30
+  },
+  {
+   "id": "trevor-lawrence",
+   "name": "Trevor Lawrence",
+   "from": "Jacksonville Jaguars",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 861780,
+   "img": "img/trevor-lawrence.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trevor_Lawrence_SEP2022_(cropped).jpg"
+   },
+   "fame": 27
+  },
+  {
+   "id": "jordan-love",
+   "name": "Jordan Love",
+   "from": "Green Bay Packers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 801162,
+   "img": "img/jordan-love.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Love-jordan-image.png"
+   },
+   "fame": 25
+  },
+  {
+   "id": "shedeur-sanders",
+   "name": "Shedeur Sanders",
+   "from": "Cleveland Browns",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 769202,
+   "img": "img/shedeur-sanders.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shedeur_Sanders_8_23_2025_(cropped).jpg"
+   },
+   "fame": 23
+  },
+  {
+   "id": "jared-goff",
+   "name": "Jared Goff",
+   "from": "Detroit Lions",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 689891,
+   "img": "img/jared-goff.webp",
+   "credit": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jared_Goff_2018.JPG"
+   },
+   "fame": 21
+  },
+  {
+   "id": "joe-namath",
+   "name": "Joe Namath",
+   "from": "New York Jets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 659801,
+   "img": "img/joe-namath.webp",
+   "credit": {
+    "author": "New York Jets",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Namath_1965.jpg"
+   },
+   "fame": 19
+  },
+  {
+   "id": "steve-young",
+   "name": "Steve Young",
+   "from": "San Francisco 49ers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 606652,
+   "img": "img/steve-young.webp",
+   "credit": {
+    "author": "SAB0TEUR",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Young_(6837509849)_(cropped).jpg"
+   },
+   "fame": 16
+  },
+  {
+   "id": "dan-marino",
+   "name": "Dan Marino",
+   "from": "Miami Dolphins",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 599382,
+   "img": "img/dan-marino.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Danmarino.jpg"
+   },
+   "fame": 14
+  },
+  {
+   "id": "doug-flutie",
+   "name": "Doug Flutie",
+   "from": "Buffalo Bills",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 503730,
+   "img": "img/doug-flutie.webp",
+   "credit": {
+    "author": "Cmm3",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2025,_Alum02,_Doug_Flutie.jpg"
+   },
+   "fame": 12
+  },
+  {
+   "id": "roger-staubach",
+   "name": "Roger Staubach",
+   "from": "Dallas Cowboys",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 380468,
+   "img": "img/roger-staubach.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Donald_J._Trump_Presents_Medal_of_Freedom_-_45863432812_(cropped).jpg"
+   },
+   "fame": 10
+  },
+  {
+   "id": "jim-kelly",
+   "name": "Jim Kelly",
+   "from": "Buffalo Bills",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 347071,
+   "img": "img/jim-kelly.webp",
+   "credit": {
+    "author": "Staff Sgt. Corenthia Fennell",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jim_Kelly_2010.jpg"
+   },
+   "fame": 8
+  },
+  {
+   "id": "warren-moon",
+   "name": "Warren Moon",
+   "from": "Houston Oilers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 309865,
+   "img": "img/warren-moon.webp",
+   "credit": {
+    "author": "Warren Moon Press Conference | Oilers Tribute Week",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Warren_Moon_Press_Conference_Oilers_Tribute_Week_4-45_screenshot_2021_(cropped).png"
+   },
+   "fame": 5
+  },
+  {
+   "id": "fran-tarkenton",
+   "name": "Fran Tarkenton",
+   "from": "Minnesota Vikings",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 288524,
+   "img": "img/fran-tarkenton.webp",
+   "credit": {
+    "author": "Steve Burns",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fran_Tarkenton_January_2010.jpg"
+   },
+   "fame": 3
+  },
+  {
+   "id": "johnny-unitas",
+   "name": "Johnny Unitas",
+   "from": "Baltimore Colts",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nfl"
+   ],
+   "pv": 278108,
+   "img": "img/johnny-unitas.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Unitas-Johnny-1963.jpg"
+   },
+   "fame": 1
+  }
+ ]
+}

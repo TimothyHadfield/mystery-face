@@ -1,0 +1,1007 @@
+{
+ "id": "nba-players",
+ "title": "NBA Players",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "lebron-james",
+   "name": "LeBron James",
+   "from": "Los Angeles Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 6773196,
+   "img": "img/lebron-james.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped2).jpg"
+   },
+   "fame": 100
+  },
+  {
+   "id": "victor-wembanyama",
+   "name": "Victor Wembanyama",
+   "from": "San Antonio Spurs",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 6006282,
+   "img": "img/victor-wembanyama.webp",
+   "credit": {
+    "author": "Frenchieinportland",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Victor_Wembanyama_San_Antonio_Spurs_2024.jpg"
+   },
+   "fame": 98
+  },
+  {
+   "id": "jalen-brunson",
+   "name": "Jalen Brunson",
+   "from": "New York Knicks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 5281704,
+   "img": "img/jalen-brunson.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jalen_Brunson_2023_(cropped).jpg"
+   },
+   "fame": 96
+  },
+  {
+   "id": "stephen-curry",
+   "name": "Stephen Curry",
+   "from": "Golden State Warriors",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 3002991,
+   "img": "img/stephen-curry.webp",
+   "credit": {
+    "author": "El Viejas God",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_Curry_30.jpg"
+   },
+   "fame": 94
+  },
+  {
+   "id": "shai-gilgeous-alexander",
+   "name": "Shai Gilgeous-Alexander",
+   "from": "Oklahoma City Thunder",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 2344599,
+   "img": "img/shai-gilgeous-alexander.webp",
+   "credit": {
+    "author": "Sandro Halank, Wikimedia Commons",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-08-09_Deutschland_gegen_Kanada_(Basketball-L%C3%A4nderspiel)_by_Sandro_Halank%E2%80%93109.jpg"
+   },
+   "fame": 92
+  },
+  {
+   "id": "karl-anthony-towns",
+   "name": "Karl-Anthony Towns",
+   "from": "New York Knicks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 2228737,
+   "img": "img/karl-anthony-towns.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Karl-Anthony_Towns_(51914283512)_(cropped)_(cropped).jpg"
+   },
+   "fame": 90
+  },
+  {
+   "id": "giannis-antetokounmpo",
+   "name": "Giannis Antetokounmpo",
+   "from": "Milwaukee Bucks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 2133788,
+   "img": "img/giannis-antetokounmpo.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Giannis_Antetokounmpo_(51915153421)_(cropped).jpg"
+   },
+   "fame": 88
+  },
+  {
+   "id": "kevin-durant",
+   "name": "Kevin Durant",
+   "from": "Houston Rockets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 2122079,
+   "img": "img/kevin-durant.webp",
+   "credit": {
+    "author": "Clément Bardot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kevin_Durant,_Paris_2024_(cropped).jpg"
+   },
+   "fame": 86
+  },
+  {
+   "id": "luka-doncic",
+   "name": "Luka Dončić",
+   "from": "Los Angeles Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1891047,
+   "img": "img/luka-doncic.webp",
+   "credit": {
+    "author": "U.S. Embassy Ljubljana",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Luka_Don%C4%8Di%C4%87_and_Marines,_2026_(cropped).jpg"
+   },
+   "fame": 84
+  },
+  {
+   "id": "james-harden",
+   "name": "James Harden",
+   "from": "Los Angeles Clippers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1771108,
+   "img": "img/james-harden.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Harden_dribbling_midcourt,_Cavaliers_vs_Nets_on_January_17,_2022_(cropped).jpg"
+   },
+   "fame": 82
+  },
+  {
+   "id": "nikola-jokic",
+   "name": "Nikola Jokić",
+   "from": "Denver Nuggets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1592157,
+   "img": "img/nikola-jokic.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nikola_Jokic_free_throw_(cropped).jpg"
+   },
+   "fame": 80
+  },
+  {
+   "id": "kawhi-leonard",
+   "name": "Kawhi Leonard",
+   "from": "Los Angeles Clippers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1586855,
+   "img": "img/kawhi-leonard.webp",
+   "credit": {
+    "author": "U.S. Marine Corps photo by Lance Cpl. Mhecaela J. Watts",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kawhi_Leonard_(7440607)_(cropped).jpg"
+   },
+   "fame": 78
+  },
+  {
+   "id": "lamelo-ball",
+   "name": "LaMelo Ball",
+   "from": "Charlotte Hornets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1514706,
+   "img": "img/lamelo-ball.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LaMelo_Ball_(cropped).jpg"
+   },
+   "fame": 76
+  },
+  {
+   "id": "cooper-flagg",
+   "name": "Cooper Flagg",
+   "from": "Dallas Mavericks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1445088,
+   "img": "img/cooper-flagg.webp",
+   "credit": {
+    "author": "Hameltion",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Duke_at_UNC,_Mar_2025,_Flagg.jpg"
+   },
+   "fame": 74
+  },
+  {
+   "id": "klay-thompson",
+   "name": "Klay Thompson",
+   "from": "Dallas Mavericks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1433139,
+   "img": "img/klay-thompson.webp",
+   "credit": {
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Klay_Thompson_(cropped).jpg"
+   },
+   "fame": 72
+  },
+  {
+   "id": "chris-paul",
+   "name": "Chris Paul",
+   "from": "NBA veteran point guard",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1432183,
+   "img": "img/chris-paul.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Paul_(2022_All-Star_Weekend)_(cropped).jpg"
+   },
+   "fame": 70
+  },
+  {
+   "id": "russell-westbrook",
+   "name": "Russell Westbrook",
+   "from": "NBA veteran guard",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1365468,
+   "img": "img/russell-westbrook.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Russell_Westbrook_(March_21,_2022)_(cropped).jpg"
+   },
+   "fame": 68
+  },
+  {
+   "id": "jaylen-brown",
+   "name": "Jaylen Brown",
+   "from": "Boston Celtics",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1332736,
+   "img": "img/jaylen-brown.webp",
+   "credit": {
+    "author": "Hameltion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Celtics_at_Wizards_2024-12-015_(cropped)_(cropped).jpg"
+   },
+   "fame": 66
+  },
+  {
+   "id": "bronny-james",
+   "name": "Bronny James",
+   "from": "Los Angeles Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1318651,
+   "img": "img/bronny-james.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bronny_James_Jr._(55095342116)_(cropped).jpg"
+   },
+   "fame": 64
+  },
+  {
+   "id": "bam-adebayo",
+   "name": "Bam Adebayo",
+   "from": "Miami Heat",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1307213,
+   "img": "img/bam-adebayo.webp",
+   "credit": {
+    "author": "File:Bam Adebayo.jpg: Joe Glorioso derivative work: Shakeydeal33",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bam_Adebayo_(cropped).jpg"
+   },
+   "fame": 62
+  },
+  {
+   "id": "anthony-edwards",
+   "name": "Anthony Edwards",
+   "from": "Minnesota Timberwolves",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1217032,
+   "img": "img/anthony-edwards.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Edwards_Argentina_v_Egypt_7_July_2026-069_(cropped).jpg"
+   },
+   "fame": 60
+  },
+  {
+   "id": "kyrie-irving",
+   "name": "Kyrie Irving",
+   "from": "Dallas Mavericks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1159017,
+   "img": "img/kyrie-irving.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyrie_Irving_(51830909437)_(cropped).jpg"
+   },
+   "fame": 58
+  },
+  {
+   "id": "cade-cunningham",
+   "name": "Cade Cunningham",
+   "from": "Detroit Pistons",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1070634,
+   "img": "img/cade-cunningham.webp",
+   "credit": {
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1_cade_cunningham_2024.jpg"
+   },
+   "fame": 56
+  },
+  {
+   "id": "jayson-tatum",
+   "name": "Jayson Tatum",
+   "from": "Boston Celtics",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1057995,
+   "img": "img/jayson-tatum.webp",
+   "credit": {
+    "author": "Hameltion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Celtics_at_Wizards_2024-12-044_(cropped_2).jpg"
+   },
+   "fame": 54
+  },
+  {
+   "id": "donovan-mitchell",
+   "name": "Donovan Mitchell",
+   "from": "Cleveland Cavaliers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1013046,
+   "img": "img/donovan-mitchell.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Donovan_Mitchell_Pregame.jpg"
+   },
+   "fame": 52
+  },
+  {
+   "id": "anthony-davis",
+   "name": "Anthony Davis",
+   "from": "Dallas Mavericks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 972406,
+   "img": "img/anthony-davis.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Davis_pre-game_(cropped).jpg"
+   },
+   "fame": 49
+  },
+  {
+   "id": "chet-holmgren",
+   "name": "Chet Holmgren",
+   "from": "Oklahoma City Thunder",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 897355,
+   "img": "img/chet-holmgren.webp",
+   "credit": {
+    "author": "Steve Cheng, Bruin Report Online",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chet_Holmgren.jpg"
+   },
+   "fame": 47
+  },
+  {
+   "id": "damian-lillard",
+   "name": "Damian Lillard",
+   "from": "Portland Trail Blazers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 890267,
+   "img": "img/damian-lillard.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Damian_Lillard_(2021)_(cropped).jpg"
+   },
+   "fame": 45
+  },
+  {
+   "id": "draymond-green",
+   "name": "Draymond Green",
+   "from": "Golden State Warriors",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 884428,
+   "img": "img/draymond-green.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Draymond_Green_2022.jpg"
+   },
+   "fame": 43
+  },
+  {
+   "id": "trae-young",
+   "name": "Trae Young",
+   "from": "Atlanta Hawks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 873532,
+   "img": "img/trae-young.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trae_Young_(2022_All-Star_Weekend)_(cropped).jpg"
+   },
+   "fame": 41
+  },
+  {
+   "id": "joel-embiid",
+   "name": "Joel Embiid",
+   "from": "Philadelphia 76ers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 862633,
+   "img": "img/joel-embiid.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joel_Embiid_2019.jpg"
+   },
+   "fame": 39
+  },
+  {
+   "id": "devin-booker",
+   "name": "Devin Booker",
+   "from": "Phoenix Suns",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 855171,
+   "img": "img/devin-booker.webp",
+   "credit": {
+    "author": "Clément Bardot",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Devin_Booker,_Olympic_Games_2024_(cropped).jpg"
+   },
+   "fame": 37
+  },
+  {
+   "id": "de-aaron-fox",
+   "name": "De'Aaron Fox",
+   "from": "San Antonio Spurs",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 850525,
+   "img": "img/de-aaron-fox.webp",
+   "credit": {
+    "author": "NewishIdeas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:De%27Aaron_Fox_(cropped).jpg"
+   },
+   "fame": 35
+  },
+  {
+   "id": "paul-george",
+   "name": "Paul George",
+   "from": "Philadelphia 76ers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 832972,
+   "img": "img/paul-george.webp",
+   "credit": {
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1_paul_george_2026_(cropped)_(cropped).jpg"
+   },
+   "fame": 33
+  },
+  {
+   "id": "jimmy-butler",
+   "name": "Jimmy Butler",
+   "from": "Golden State Warriors",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 724909,
+   "img": "img/jimmy-butler.webp",
+   "credit": {
+    "author": "Xuthoria",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CES_2026_-_Jimmy_Butler_01_(cropped).jpg"
+   },
+   "fame": 31
+  },
+  {
+   "id": "tyrese-haliburton",
+   "name": "Tyrese Haliburton",
+   "from": "Indiana Pacers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 666931,
+   "img": "img/tyrese-haliburton.webp",
+   "credit": {
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1_tyrese_haliburton_2025_(cropped_2).jpg"
+   },
+   "fame": 29
+  },
+  {
+   "id": "zion-williamson",
+   "name": "Zion Williamson",
+   "from": "New Orleans Pelicans",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 636817,
+   "img": "img/zion-williamson.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zion_Williamson_2020_(cropped).jpg"
+   },
+   "fame": 27
+  },
+  {
+   "id": "demar-derozan",
+   "name": "DeMar DeRozan",
+   "from": "Sacramento Kings",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 607224,
+   "img": "img/demar-derozan.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DeMar_DeRozan_2022.jpg"
+   },
+   "fame": 25
+  },
+  {
+   "id": "paolo-banchero",
+   "name": "Paolo Banchero",
+   "from": "Orlando Magic",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 543239,
+   "img": "img/paolo-banchero.webp",
+   "credit": {
+    "author": "Al Ward",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paolo_Banchero.png"
+   },
+   "fame": 23
+  },
+  {
+   "id": "jalen-williams",
+   "name": "Jalen Williams",
+   "from": "Oklahoma City Thunder",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 513872,
+   "img": "img/jalen-williams.webp",
+   "credit": {
+    "author": "Daiei Onoguchi",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jalen_Williams_OKCThunder_2025_NBA_Cup_(cropped)_(cropped).jpg"
+   },
+   "fame": 21
+  },
+  {
+   "id": "brandon-ingram",
+   "name": "Brandon Ingram",
+   "from": "Toronto Raptors",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 491166,
+   "img": "img/brandon-ingram.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandon_Ingram_2020_(cropped2).jpg"
+   },
+   "fame": 19
+  },
+  {
+   "id": "scottie-barnes",
+   "name": "Scottie Barnes",
+   "from": "Toronto Raptors",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 487962,
+   "img": "img/scottie-barnes.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scottie_Barnes,_Wizards_vs_Raptors_on_October_12,_2021.jpg"
+   },
+   "fame": 17
+  },
+  {
+   "id": "jrue-holiday",
+   "name": "Jrue Holiday",
+   "from": "Portland Trail Blazers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 476119,
+   "img": "img/jrue-holiday.webp",
+   "credit": {
+    "author": "Hameltion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Celtics_at_Wizards_2024-12-021_(cropped).jpg"
+   },
+   "fame": 15
+  },
+  {
+   "id": "rudy-gobert",
+   "name": "Rudy Gobert",
+   "from": "Minnesota Timberwolves",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 453089,
+   "img": "img/rudy-gobert.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rudy_Gobert.jpg"
+   },
+   "fame": 13
+  },
+  {
+   "id": "alperen-sengun",
+   "name": "Alperen Şengün",
+   "from": "Houston Rockets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 422067,
+   "img": "img/alperen-sengun.webp",
+   "credit": {
+    "author": "Zafer",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alperen_%C5%9Eeng%C3%BCn_23_T%C3%BCrkiye_20250823_(1).jpg"
+   },
+   "fame": 11
+  },
+  {
+   "id": "jamal-murray",
+   "name": "Jamal Murray",
+   "from": "Denver Nuggets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 343458,
+   "img": "img/jamal-murray.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jamal_Murray_free_throw_(cropped).jpg"
+   },
+   "fame": 9
+  },
+  {
+   "id": "domantas-sabonis",
+   "name": "Domantas Sabonis",
+   "from": "Sacramento Kings",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 330358,
+   "img": "img/domantas-sabonis.webp",
+   "credit": {
+    "author": "Augustas Didžgalvis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Domantas_Sabonis_by_Augustas_Didzgalvis_(cropped).jpg"
+   },
+   "fame": 7
+  },
+  {
+   "id": "lauri-markkanen",
+   "name": "Lauri Markkanen",
+   "from": "Utah Jazz",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 306260,
+   "img": "img/lauri-markkanen.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lauri_Markkanen,_Cavaliers_vs_Rockets_on_December_15,_2021_(cropped).jpg"
+   },
+   "fame": 5
+  },
+  {
+   "id": "evan-mobley",
+   "name": "Evan Mobley",
+   "from": "Cleveland Cavaliers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 295921,
+   "img": "img/evan-mobley.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Evan_Mobley_(cropped).jpg"
+   },
+   "fame": 3
+  },
+  {
+   "id": "pascal-siakam",
+   "name": "Pascal Siakam",
+   "from": "Indiana Pacers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 242390,
+   "img": "img/pascal-siakam.webp",
+   "credit": {
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1_pascal_siakam_2025_(cropped).jpg"
+   },
+   "fame": 1
+  }
+ ]
+}

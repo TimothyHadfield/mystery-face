@@ -1,0 +1,1007 @@
+{
+ "id": "mlb-players",
+ "title": "MLB Players",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "shohei-ohtani",
+   "name": "Shohei Ohtani",
+   "from": "Los Angeles Dodgers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 3129236,
+   "img": "img/shohei-ohtani.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dodgers_at_Nationals_(53677192000)_(cropped).jpg"
+   },
+   "fame": 100
+  },
+  {
+   "id": "justin-verlander",
+   "name": "Justin Verlander",
+   "from": "Houston Astros",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 1834289,
+   "img": "img/justin-verlander.webp",
+   "credit": {
+    "author": "Keith Allison on Flickr",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Justin_Verlander_in_2016.jpg"
+   },
+   "fame": 98
+  },
+  {
+   "id": "babe-ruth",
+   "name": "Babe Ruth",
+   "from": "New York Yankees",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 1692231,
+   "img": "img/babe-ruth.webp",
+   "credit": {
+    "author": "Irwin, La Broad, & Pudlin.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Babe_Ruth2.jpg"
+   },
+   "fame": 96
+  },
+  {
+   "id": "jackie-robinson",
+   "name": "Jackie Robinson",
+   "from": "Brooklyn Dodgers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 1398358,
+   "img": "img/jackie-robinson.webp",
+   "credit": {
+    "author": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg"
+   },
+   "fame": 94
+  },
+  {
+   "id": "aaron-judge",
+   "name": "Aaron Judge",
+   "from": "New York Yankees",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 1084712,
+   "img": "img/aaron-judge.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Aaron_Judge_posing_with_Donald_Trump_2025-09-11_(cropped).jpg"
+   },
+   "fame": 92
+  },
+  {
+   "id": "derek-jeter",
+   "name": "Derek Jeter",
+   "from": "New York Yankees",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 1027391,
+   "img": "img/derek-jeter.webp",
+   "credit": {
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Derek_Jeter_during_MLB_on_Fox_pre-game_show,_October_16,_2024_-_001_(cropped).jpg"
+   },
+   "fame": 90
+  },
+  {
+   "id": "yoshinobu-yamamoto",
+   "name": "Yoshinobu Yamamoto",
+   "from": "Los Angeles Dodgers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 999287,
+   "img": "img/yoshinobu-yamamoto.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yoshinobu_Yamamoto_in_2024_(53676737736)_(cropped).jpg"
+   },
+   "fame": 88
+  },
+  {
+   "id": "max-scherzer",
+   "name": "Max Scherzer",
+   "from": "Toronto Blue Jays",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 966656,
+   "img": "img/max-scherzer.webp",
+   "credit": {
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Max_Scherzer_pitching,_March_30,_2023_(1)_(cropped).jpg"
+   },
+   "fame": 86
+  },
+  {
+   "id": "tarik-skubal",
+   "name": "Tarik Skubal",
+   "from": "Detroit Tigers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 941925,
+   "img": "img/tarik-skubal.webp",
+   "credit": {
+    "author": "Sewageboy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DET_at_LAA_2025_-_Skubal_(11)_(cropped).jpg"
+   },
+   "fame": 84
+  },
+  {
+   "id": "freddie-freeman",
+   "name": "Freddie Freeman",
+   "from": "Los Angeles Dodgers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 879740,
+   "img": "img/freddie-freeman.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Freddie_Freeman_-_Dodgers_vs_Nationals_4-23-2024.jpg"
+   },
+   "fame": 82
+  },
+  {
+   "id": "mookie-betts",
+   "name": "Mookie Betts",
+   "from": "Los Angeles Dodgers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 841852,
+   "img": "img/mookie-betts.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dodgers_at_Nationals_(53676957188)_(cropped).jpg"
+   },
+   "fame": 80
+  },
+  {
+   "id": "lou-gehrig",
+   "name": "Lou Gehrig",
+   "from": "New York Yankees",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 819162,
+   "img": "img/lou-gehrig.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lou_Gehrig_in_1923_(cropped).jpg"
+   },
+   "fame": 78
+  },
+  {
+   "id": "paul-skenes",
+   "name": "Paul Skenes",
+   "from": "Pittsburgh Pirates",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 741617,
+   "img": "img/paul-skenes.webp",
+   "credit": {
+    "author": "Yeroc3103",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Skenes_Pitching_2026.jpg"
+   },
+   "fame": 76
+  },
+  {
+   "id": "clayton-kershaw",
+   "name": "Clayton Kershaw",
+   "from": "Los Angeles Dodgers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 715905,
+   "img": "img/clayton-kershaw.webp",
+   "credit": {
+    "author": "Arturo Pardavila III on Flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Clayton_Kershaw_on_July_23,_2015_(2).jpg"
+   },
+   "fame": 74
+  },
+  {
+   "id": "mike-trout",
+   "name": "Mike Trout",
+   "from": "Los Angeles Angels",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 695004,
+   "img": "img/mike-trout.webp",
+   "credit": {
+    "author": "Mogami Kariya",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mike_Trout_(52252097714)_(cropped).jpg"
+   },
+   "fame": 72
+  },
+  {
+   "id": "barry-bonds",
+   "name": "Barry Bonds",
+   "from": "San Francisco Giants",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 692310,
+   "img": "img/barry-bonds.webp",
+   "credit": {
+    "author": "Jim Accordino at https://www.flickr.com/photos/jimmyack205/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BarryBonds1993.jpg"
+   },
+   "fame": 70
+  },
+  {
+   "id": "vladimir-guerrero-jr",
+   "name": "Vladimir Guerrero Jr.",
+   "from": "Toronto Blue Jays",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 663900,
+   "img": "img/vladimir-guerrero-jr.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Jays_Vladimir_Guerrero_jogs_back_to_dugout_July_27,_2020_(50161781342)_(cropped).jpg"
+   },
+   "fame": 68
+  },
+  {
+   "id": "bryce-harper",
+   "name": "Bryce Harper",
+   "from": "Philadelphia Phillies",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 619067,
+   "img": "img/bryce-harper.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bryce_Harper_Stare_Down_Pregame_from_Nationals_vs._Phillies_at_Nationals_Park,_May_13th,_2021_(All-Pro_Reels_Photography)_(51188354283)_(cropped).jpg"
+   },
+   "fame": 66
+  },
+  {
+   "id": "mickey-mantle",
+   "name": "Mickey Mantle",
+   "from": "New York Yankees",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 611342,
+   "img": "img/mickey-mantle.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mickey_Mantle_1957_(cropped).jpg"
+   },
+   "fame": 64
+  },
+  {
+   "id": "kyle-schwarber",
+   "name": "Kyle Schwarber",
+   "from": "Philadelphia Phillies",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 599959,
+   "img": "img/kyle-schwarber.webp",
+   "credit": {
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyle_Schwarber_taking_a_practice_swing,_August_13,_2022.jpg"
+   },
+   "fame": 62
+  },
+  {
+   "id": "nolan-ryan",
+   "name": "Nolan Ryan",
+   "from": "Rangers, Astros",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 585144,
+   "img": "img/nolan-ryan.webp",
+   "credit": {
+    "author": "Nolan_Ryan_Tiger_Stadium_1990.jpg: Chuck Andersen derivative work: Delaywaves talk",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nolan_Ryan_Tiger_Stadium_1990_CROP.jpg"
+   },
+   "fame": 60
+  },
+  {
+   "id": "david-ortiz",
+   "name": "David Ortiz",
+   "from": "Boston Red Sox",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 567113,
+   "img": "img/david-ortiz.webp",
+   "credit": {
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:David_Ortiz_on_July_27,_2013.jpg"
+   },
+   "fame": 58
+  },
+  {
+   "id": "randy-johnson",
+   "name": "Randy Johnson",
+   "from": "Arizona Diamondbacks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 543921,
+   "img": "img/randy-johnson.webp",
+   "credit": {
+    "author": "Arturo Pardavila III",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Randy_Johnson_2016.jpg"
+   },
+   "fame": 56
+  },
+  {
+   "id": "roberto-clemente",
+   "name": "Roberto Clemente",
+   "from": "Pittsburgh Pirates",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 531364,
+   "img": "img/roberto-clemente.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Roberto_Clemente.jpg"
+   },
+   "fame": 54
+  },
+  {
+   "id": "sandy-koufax",
+   "name": "Sandy Koufax",
+   "from": "Los Angeles Dodgers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 526844,
+   "img": "img/sandy-koufax.webp",
+   "credit": {
+    "author": "publicity still",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandy_Koufax.jpg"
+   },
+   "fame": 52
+  },
+  {
+   "id": "juan-soto",
+   "name": "Juan Soto",
+   "from": "New York Mets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 505978,
+   "img": "img/juan-soto.webp",
+   "credit": {
+    "author": "Leo Altes",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mets_Spring_Training,_March_23,_2025_(Leo_Altes)_-_00010_(cropped).jpg"
+   },
+   "fame": 49
+  },
+  {
+   "id": "ted-williams",
+   "name": "Ted Williams",
+   "from": "Boston Red Sox",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 483466,
+   "img": "img/ted-williams.webp",
+   "credit": {
+    "author": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ted_Williams_(cropped).jpg"
+   },
+   "fame": 47
+  },
+  {
+   "id": "ken-griffey-jr",
+   "name": "Ken Griffey Jr.",
+   "from": "Seattle Mariners",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 464754,
+   "img": "img/ken-griffey-jr.webp",
+   "credit": {
+    "author": "Arturo Pardavila III on Flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ken_Griffey_Jr._goes_with_his_trademark_backwards_cap.jpg"
+   },
+   "fame": 45
+  },
+  {
+   "id": "ichiro-suzuki",
+   "name": "Ichiro Suzuki",
+   "from": "Seattle Mariners",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 454354,
+   "img": "img/ichiro-suzuki.webp",
+   "credit": {
+    "author": "Jeffrey Hayes",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ichiro_Suzuki_(51007034081)_(cropped).jpg"
+   },
+   "fame": 43
+  },
+  {
+   "id": "hank-aaron",
+   "name": "Hank Aaron",
+   "from": "Atlanta Braves",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 452983,
+   "img": "img/hank-aaron.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hank_Aaron_1974.jpg"
+   },
+   "fame": 41
+  },
+  {
+   "id": "manny-machado",
+   "name": "Manny Machado",
+   "from": "San Diego Padres",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 430203,
+   "img": "img/manny-machado.webp",
+   "credit": {
+    "author": "Ryan Casey Aguinaldo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manny_Machado_8.27.21_(cropped).jpg"
+   },
+   "fame": 39
+  },
+  {
+   "id": "yogi-berra",
+   "name": "Yogi Berra",
+   "from": "New York Yankees",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 426086,
+   "img": "img/yogi-berra.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Yogi_Berra_(1957)_(cropped).jpg"
+   },
+   "fame": 37
+  },
+  {
+   "id": "albert-pujols",
+   "name": "Albert Pujols",
+   "from": "St. Louis Cardinals",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 423165,
+   "img": "img/albert-pujols.webp",
+   "credit": {
+    "author": "Rafael Amado Deras",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_Pujols_(MLB_All-Star_Game_July_11,_2006).jpg"
+   },
+   "fame": 35
+  },
+  {
+   "id": "pete-alonso",
+   "name": "Pete Alonso",
+   "from": "New York Mets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 415444,
+   "img": "img/pete-alonso.webp",
+   "credit": {
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Pete_Alonso_playing_defense,_March_25,_2023_(1)_(cropped).jpg"
+   },
+   "fame": 33
+  },
+  {
+   "id": "cal-ripken-jr",
+   "name": "Cal Ripken Jr.",
+   "from": "Baltimore Orioles",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 352228,
+   "img": "img/cal-ripken-jr.webp",
+   "credit": {
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lieutenant_Governor_Boyd_Rutherford_with_Cal_Ripken_Jr_(cropped).jpg"
+   },
+   "fame": 31
+  },
+  {
+   "id": "willie-mays",
+   "name": "Willie Mays",
+   "from": "New York/SF Giants",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 348445,
+   "img": "img/willie-mays.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Willie_Mays_(1955)_(cropped).jpg"
+   },
+   "fame": 29
+  },
+  {
+   "id": "ronald-acuna-jr",
+   "name": "Ronald Acuña Jr.",
+   "from": "Atlanta Braves",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 323648,
+   "img": "img/ronald-acuna-jr.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ronald_Acuna_Jr._HR_from_Nationals_vs._Braves_at_Nationals_Park,_April_6th,_2021_(All-Pro_Reels_Photography)_(51102624580).png"
+   },
+   "fame": 27
+  },
+  {
+   "id": "tony-gwynn",
+   "name": "Tony Gwynn",
+   "from": "San Diego Padres",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 314649,
+   "img": "img/tony-gwynn.webp",
+   "credit": {
+    "author": "San Diego Padres",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tony_Gwynn_83.jpg"
+   },
+   "fame": 25
+  },
+  {
+   "id": "mariano-rivera",
+   "name": "Mariano Rivera",
+   "from": "New York Yankees",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 305620,
+   "img": "img/mariano-rivera.webp",
+   "credit": {
+    "author": "User Keith Allison on Flickr",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mariano_Rivera_allison_7_29_07.jpg"
+   },
+   "fame": 23
+  },
+  {
+   "id": "pedro-martinez",
+   "name": "Pedro Martínez",
+   "from": "Boston Red Sox",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 294887,
+   "img": "img/pedro-martinez.webp",
+   "credit": {
+    "author": "Andrew Malone",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedro%27s_return.jpg"
+   },
+   "fame": 21
+  },
+  {
+   "id": "fernando-tatis-jr",
+   "name": "Fernando Tatís Jr.",
+   "from": "San Diego Padres",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 291545,
+   "img": "img/fernando-tatis-jr.webp",
+   "credit": {
+    "author": "Sgt. Rachelanne Woodward",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Padres_Visit_3rd_MAW_Marines_at_Miramar_(2)_(cropped).jpg"
+   },
+   "fame": 19
+  },
+  {
+   "id": "bobby-witt-jr",
+   "name": "Bobby Witt Jr.",
+   "from": "Kansas City Royals",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 272729,
+   "img": "img/bobby-witt-jr.webp",
+   "credit": {
+    "author": "Johnmaxmena2",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bobby_Witt_Jr._2023.png"
+   },
+   "fame": 17
+  },
+  {
+   "id": "cal-raleigh",
+   "name": "Cal Raleigh",
+   "from": "Seattle Mariners",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 262036,
+   "img": "img/cal-raleigh.webp",
+   "credit": {
+    "author": "Arc1294",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CalRaleigh2025.png"
+   },
+   "fame": 15
+  },
+  {
+   "id": "jose-altuve",
+   "name": "José Altuve",
+   "from": "Houston Astros",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 251715,
+   "img": "img/jose-altuve.webp",
+   "credit": {
+    "author": "EricEnfermero",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jose_Altuve_in_Houston_in_January_2015.jpg"
+   },
+   "fame": 13
+  },
+  {
+   "id": "gerrit-cole",
+   "name": "Gerrit Cole",
+   "from": "New York Yankees",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 236715,
+   "img": "img/gerrit-cole.webp",
+   "credit": {
+    "author": "Jeffrey Hyde from Bryan, TX, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gerrit_Cole_(53947688783)_(cropped).jpg"
+   },
+   "fame": 11
+  },
+  {
+   "id": "francisco-lindor",
+   "name": "Francisco Lindor",
+   "from": "New York Mets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 212436,
+   "img": "img/francisco-lindor.webp",
+   "credit": {
+    "author": "D. Benjamin Miller",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Francisco_Lindor_during_warmups,_March_15,_2024_(1)_(cropped).jpg"
+   },
+   "fame": 9
+  },
+  {
+   "id": "elly-de-la-cruz",
+   "name": "Elly De La Cruz",
+   "from": "Cincinnati Reds",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 198748,
+   "img": "img/elly-de-la-cruz.webp",
+   "credit": {
+    "author": "Reunion",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:EllyDeLaCruz_(09092025).jpg"
+   },
+   "fame": 7
+  },
+  {
+   "id": "corey-seager",
+   "name": "Corey Seager",
+   "from": "Texas Rangers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 189758,
+   "img": "img/corey-seager.webp",
+   "credit": {
+    "author": "Arturo Pardavila III from Hoboken, NJ, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Corey_Seager_during_game_against_Yankees_9-13-16_(11).jpeg"
+   },
+   "fame": 5
+  },
+  {
+   "id": "julio-rodriguez",
+   "name": "Julio Rodríguez",
+   "from": "Seattle Mariners",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 149343,
+   "img": "img/julio-rodriguez.webp",
+   "credit": {
+    "author": "Latinos En Pelota",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Julio_Rodriguez_(oFImZG-qsk4).png"
+   },
+   "fame": 3
+  },
+  {
+   "id": "gunnar-henderson",
+   "name": "Gunnar Henderson",
+   "from": "Baltimore Orioles",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "mlb"
+   ],
+   "pv": 125492,
+   "img": "img/gunnar-henderson.webp",
+   "credit": {
+    "author": "Reunion",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:GunnarHenderson.jpg"
+   },
+   "fame": 1
+  }
+ ]
+}
