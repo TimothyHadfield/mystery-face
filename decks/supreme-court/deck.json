@@ -1,0 +1,667 @@
+{
+ "id": "supreme-court",
+ "title": "Supreme Court Justices",
+ "cat": "politics",
+ "people": [
+  {
+   "id": "william-howard-taft",
+   "name": "William Howard Taft",
+   "from": "Chief Justice, 1921-1930",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 100,
+   "pv": 1226019,
+   "img": "img/william-howard-taft.webp",
+   "credit": {
+    "author": "Pach Brothers, restored by Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Howard_Taft_by_Pach_Brothers_(3x4_ropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "clarence-thomas",
+   "name": "Clarence Thomas",
+   "from": "Justice, 1991-",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 97,
+   "pv": 1019621,
+   "img": "img/clarence-thomas.webp",
+   "credit": {
+    "author": "Steve Petteway, Collection of the Supreme Court of the United States",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Clarence_Thomas_official_SCOTUS_portrait_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "ruth-bader-ginsburg",
+   "name": "Ruth Bader Ginsburg",
+   "from": "Justice, 1993-2020",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 94,
+   "pv": 838530,
+   "img": "img/ruth-bader-ginsburg.webp",
+   "credit": {
+    "author": "Supreme Court of the United States, Photographer: Steve Petteway [1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_2016_portrait.jpg"
+   }
+  },
+  {
+   "id": "john-roberts",
+   "name": "John Roberts",
+   "from": "Chief Justice, 2005-",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 91,
+   "pv": 802777,
+   "img": "img/john-roberts.webp",
+   "credit": {
+    "author": "Steve Petteway",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_roberts_CJ.jpg"
+   }
+  },
+  {
+   "id": "ketanji-brown-jackson",
+   "name": "Ketanji Brown Jackson",
+   "from": "Justice, 2022-",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 88,
+   "pv": 755658,
+   "img": "img/ketanji-brown-jackson.webp",
+   "credit": {
+    "author": "Fred Schilling / United States Supreme Court",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ketanji_Brown_Jackson_official_SCOTUS_portrait.jpg"
+   }
+  },
+  {
+   "id": "robert-h-jackson",
+   "name": "Robert H. Jackson",
+   "from": "Justice, Nuremberg prosecutor",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 85,
+   "pv": 708146,
+   "img": "img/robert-h-jackson.webp",
+   "credit": {
+    "author": "Harris & Ewing, photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Service-pnp-hec-21600-21656v_(cropped).jpg"
+   }
+  },
+  {
+   "id": "thurgood-marshall",
+   "name": "Thurgood Marshall",
+   "from": "First Black justice",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 81,
+   "pv": 668981,
+   "img": "img/thurgood-marshall.webp",
+   "credit": {
+    "author": "Robert S. Oakes",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg"
+   }
+  },
+  {
+   "id": "samuel-alito",
+   "name": "Samuel Alito",
+   "from": "Justice, 2006-",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 78,
+   "pv": 654058,
+   "img": "img/samuel-alito.webp",
+   "credit": {
+    "author": "Collection of the Supreme Court of the United States, Photographer: Steve Petteway",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Samuel_Alito_official_photo.jpg"
+   }
+  },
+  {
+   "id": "amy-coney-barrett",
+   "name": "Amy Coney Barrett",
+   "from": "Justice, 2020-",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 75,
+   "pv": 575636,
+   "img": "img/amy-coney-barrett.webp",
+   "credit": {
+    "author": "Fred Schilling",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Amy_Barrett_photo.jpg"
+   }
+  },
+  {
+   "id": "brett-kavanaugh",
+   "name": "Brett Kavanaugh",
+   "from": "Justice, 2018-",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 72,
+   "pv": 558082,
+   "img": "img/brett-kavanaugh.webp",
+   "credit": {
+    "author": "Photographer, Fred Schilling Taken for Supreme Court",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Associate_Justice_Brett_Kavanaugh_Official_Portrait_(full_length).jpg"
+   }
+  },
+  {
+   "id": "sonia-sotomayor",
+   "name": "Sonia Sotomayor",
+   "from": "Justice, 2009-",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 69,
+   "pv": 531743,
+   "img": "img/sonia-sotomayor.webp",
+   "credit": {
+    "author": "Collection of the Supreme Court of the United States, Steve Petteway source",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sonia_Sotomayor_in_SCOTUS_robe.jpg"
+   }
+  },
+  {
+   "id": "neil-gorsuch",
+   "name": "Neil Gorsuch",
+   "from": "Justice, 2017-",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 66,
+   "pv": 467008,
+   "img": "img/neil-gorsuch.webp",
+   "credit": {
+    "author": "Franz Jantzen, Collection of the Supreme Court of the United States",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Associate_Justice_Neil_Gorsuch_Official_Portrait.jpg"
+   }
+  },
+  {
+   "id": "elena-kagan",
+   "name": "Elena Kagan",
+   "from": "Justice, 2010-",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 63,
+   "pv": 458704,
+   "img": "img/elena-kagan.webp",
+   "credit": {
+    "author": "Steve Petteway, Collection of the Supreme Court of the United States",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elena_Kagan_Official_SCOTUS_Portrait_(2013).jpg"
+   }
+  },
+  {
+   "id": "antonin-scalia",
+   "name": "Antonin Scalia",
+   "from": "Justice, 1986-2016",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 60,
+   "pv": 448919,
+   "img": "img/antonin-scalia.webp",
+   "credit": {
+    "author": "Collection of the Supreme Court of the United States",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Antonin_Scalia_Official_SCOTUS_Portrait.jpg"
+   }
+  },
+  {
+   "id": "sandra-day-o-connor",
+   "name": "Sandra Day O'Connor",
+   "from": "First woman justice",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 57,
+   "pv": 348057,
+   "img": "img/sandra-day-o-connor.webp",
+   "credit": {
+    "author": "Library of Congress (Transferred by Sven Manguard,",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandra_Day_O%27Connor.jpg"
+   }
+  },
+  {
+   "id": "earl-warren",
+   "name": "Earl Warren",
+   "from": "Chief Justice, 1953-1969",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 54,
+   "pv": 309836,
+   "img": "img/earl-warren.webp",
+   "credit": {
+    "author": "Harris & Ewing photography firm",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Earl_Warren.jpg"
+   }
+  },
+  {
+   "id": "william-rehnquist",
+   "name": "William Rehnquist",
+   "from": "Chief Justice, 1986-2005",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 50,
+   "pv": 269803,
+   "img": "img/william-rehnquist.webp",
+   "credit": {
+    "author": "Unknown author, dedicated and hosted on Getty Images",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Rehnquist_Official_Portrait_as_Chief_Justice.jpg"
+   }
+  },
+  {
+   "id": "john-jay",
+   "name": "John Jay",
+   "from": "First Chief Justice",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 47,
+   "pv": 265516,
+   "img": "img/john-jay.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Jay_(Gilbert_Stuart_portrait).jpg"
+   }
+  },
+  {
+   "id": "anthony-kennedy",
+   "name": "Anthony Kennedy",
+   "from": "Justice, 1988-2018",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 44,
+   "pv": 262959,
+   "img": "img/anthony-kennedy.webp",
+   "credit": {
+    "author": "Collection of the Supreme Court of the United States",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Kennedy_official_SCOTUS_portrait.jpg"
+   }
+  },
+  {
+   "id": "stephen-breyer",
+   "name": "Stephen Breyer",
+   "from": "Justice, 1994-2022",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 41,
+   "pv": 253776,
+   "img": "img/stephen-breyer.webp",
+   "credit": {
+    "author": "Collection of the Supreme Court of the United States, Photographer: Steve Petteway",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_Breyer,_SCOTUS_photo_portrait.jpg"
+   }
+  },
+  {
+   "id": "john-marshall",
+   "name": "John Marshall",
+   "from": "Chief Justice, 1801-1835",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 38,
+   "pv": 238636,
+   "img": "img/john-marshall.webp",
+   "credit": {
+    "author": "Henry Inman",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Marshall_by_Henry_Inman,_1832.jpg"
+   }
+  },
+  {
+   "id": "john-paul-stevens",
+   "name": "John Paul Stevens",
+   "from": "Justice, 1975-2010",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 35,
+   "pv": 185921,
+   "img": "img/john-paul-stevens.webp",
+   "credit": {
+    "author": "Steve Petteway, photographer for the US Supreme Court",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Paul_Stevens,_SCOTUS_photo_portrait.jpg"
+   }
+  },
+  {
+   "id": "oliver-wendell-holmes-jr",
+   "name": "Oliver Wendell Holmes Jr.",
+   "from": "Justice, 1902-1932",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 32,
+   "pv": 158874,
+   "img": "img/oliver-wendell-holmes-jr.webp",
+   "credit": {
+    "author": "Harris & Ewing Collection",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:HOLMES,_OLIVER_W._JUSTICE_(cropped).jpg"
+   }
+  },
+  {
+   "id": "david-souter",
+   "name": "David Souter",
+   "from": "Justice, 1990-2009",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 29,
+   "pv": 153144,
+   "img": "img/david-souter.webp",
+   "credit": {
+    "author": "\"Courtesy of the Supreme Court of the United States, National Geographic Society, Photographer: Joseph Bailey\"",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:DavidSouter.jpg"
+   }
+  },
+  {
+   "id": "charles-evans-hughes",
+   "name": "Charles Evans Hughes",
+   "from": "Chief Justice, 1930-1941",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 26,
+   "pv": 150622,
+   "img": "img/charles-evans-hughes.webp",
+   "credit": {
+    "author": "Underwood & Underwood",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Evans_Hughes_cph.3b15401.jpg"
+   }
+  },
+  {
+   "id": "roger-b-taney",
+   "name": "Roger B. Taney",
+   "from": "Chief Justice, 1836-1864",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 23,
+   "pv": 146627,
+   "img": "img/roger-b-taney.webp",
+   "credit": {
+    "author": "Mathew Benjamin Brady",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Roger_B._Taney_-_Brady-Handy.jpg"
+   }
+  },
+  {
+   "id": "warren-e-burger",
+   "name": "Warren E. Burger",
+   "from": "Chief Justice, 1969-1986",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 20,
+   "pv": 145552,
+   "img": "img/warren-e-burger.webp",
+   "credit": {
+    "author": "U.S. Supreme Court photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Warren_E_Burger_official_photograph_as_chief_justice.jpg"
+   }
+  },
+  {
+   "id": "louis-brandeis",
+   "name": "Louis Brandeis",
+   "from": "Justice, 1916-1939",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 16,
+   "pv": 140827,
+   "img": "img/louis-brandeis.webp",
+   "credit": {
+    "author": "Harris & Ewing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandeisl.jpg"
+   }
+  },
+  {
+   "id": "byron-white",
+   "name": "Byron White",
+   "from": "Justice, 1962-1993",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 13,
+   "pv": 134050,
+   "img": "img/byron-white.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Justice_White_Official.jpg"
+   }
+  },
+  {
+   "id": "hugo-black",
+   "name": "Hugo Black",
+   "from": "Justice, 1937-1971",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 10,
+   "pv": 119974,
+   "img": "img/hugo-black.webp",
+   "credit": {
+    "author": "Harris & Ewing photography firm",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:HugoLaFayetteBlack.jpg"
+   }
+  },
+  {
+   "id": "william-j-brennan-jr",
+   "name": "William J. Brennan Jr.",
+   "from": "Justice, 1956-1990",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 7,
+   "pv": 90861,
+   "img": "img/william-j-brennan-jr.webp",
+   "credit": {
+    "author": "Robert S. Oakes",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:US_Supreme_Court_Justice_William_Brennan_-_1972_official_portrait.jpg"
+   }
+  },
+  {
+   "id": "felix-frankfurter",
+   "name": "Felix Frankfurter",
+   "from": "Justice, 1939-1962",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 4,
+   "pv": 84977,
+   "img": "img/felix-frankfurter.webp",
+   "credit": {
+    "author": "Harris & Ewing, photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:FRANKFURTER,_FELIX._JUSTICE_LCCN2016862746_Trim.jpg"
+   }
+  },
+  {
+   "id": "harry-blackmun",
+   "name": "Harry Blackmun",
+   "from": "Justice, 1970-1994",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "supreme-court"
+   ],
+   "fame": 1,
+   "pv": 83241,
+   "img": "img/harry-blackmun.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Justice_Blackmun_Official.jpg"
+   }
+  }
+ ]
+}

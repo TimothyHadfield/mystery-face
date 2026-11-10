@@ -1,0 +1,870 @@
+# Mystery Face history / science / books groups (builder "history", 2026-11-09).
+# Built by tools/groups/history.py. Format:
+#   @ group-id | Group title | cat | kind          starts a group
+#   Wikipedia title | from (<= 40 chars) | gender f/m/x | options
+# options: file=<Commons file>  crop=cx,cy,head (head centre as fractions of W,H; head width as fraction of W)
+#          name=<shown name>    fame=<1-100 hand override>
+# Content rules (tools/deck-people.txt): no dictators, no one known mainly for atrocities or abuse,
+# politicians balanced across parties, current world leaders only where uncontroversial.
+
+@ presidents | US Presidents | politics | politics
+George Washington | 1st president, 1789-1797 | m
+John Adams | 2nd president, 1797-1801 | m
+Thomas Jefferson | 3rd president, 1801-1809 | m
+James Madison | 4th president, 1809-1817 | m
+James Monroe | 5th president, 1817-1825 | m
+John Quincy Adams | 6th president, 1825-1829 | m
+Andrew Jackson | 7th president, 1829-1837 | m
+Martin Van Buren | 8th president, 1837-1841 | m
+William Henry Harrison | 9th president, 1841 | m
+John Tyler | 10th president, 1841-1845 | m
+James K. Polk | 11th president, 1845-1849 | m
+Zachary Taylor | 12th president, 1849-1850 | m
+Millard Fillmore | 13th president, 1850-1853 | m
+Franklin Pierce | 14th president, 1853-1857 | m
+James Buchanan | 15th president, 1857-1861 | m
+Abraham Lincoln | 16th president, 1861-1865 | m
+Andrew Johnson | 17th president, 1865-1869 | m
+Ulysses S. Grant | 18th president, 1869-1877 | m
+Rutherford B. Hayes | 19th president, 1877-1881 | m
+James A. Garfield | 20th president, 1881 | m | fame=55
+Chester A. Arthur | 21st president, 1881-1885 | m | fame=40
+Grover Cleveland | 22nd & 24th president | m
+Benjamin Harrison | 23rd president, 1889-1893 | m
+William McKinley | 25th president, 1897-1901 | m
+Theodore Roosevelt | 26th president, 1901-1909 | m
+William Howard Taft | 27th president, 1909-1913 | m
+Woodrow Wilson | 28th president, 1913-1921 | m
+Warren G. Harding | 29th president, 1921-1923 | m
+Calvin Coolidge | 30th president, 1923-1929 | m
+Herbert Hoover | 31st president, 1929-1933 | m
+Franklin D. Roosevelt | 32nd president, 1933-1945 | m
+Harry S. Truman | 33rd president, 1945-1953 | m
+Dwight D. Eisenhower | 34th president, 1953-1961 | m
+John F. Kennedy | 35th president, 1961-1963 | m
+Lyndon B. Johnson | 36th president, 1963-1969 | m
+Richard Nixon | 37th president, 1969-1974 | m
+Gerald Ford | 38th president, 1974-1977 | m
+Jimmy Carter | 39th president, 1977-1981 | m
+Ronald Reagan | 40th president, 1981-1989 | m
+George H. W. Bush | 41st president, 1989-1993 | m
+Bill Clinton | 42nd president, 1993-2001 | m
+George W. Bush | 43rd president, 2001-2009 | m
+Barack Obama | 44th president, 2009-2017 | m
+Donald Trump | 45th & 47th president | m
+Joe Biden | 46th president, 2021-2025 | m
+
+@ first-ladies | First Ladies | politics | politics
+Martha Washington | George Washington | f
+Abigail Adams | John Adams | f
+Dolley Madison | James Madison | f
+Louisa Adams | John Quincy Adams | f
+Mary Todd Lincoln | Abraham Lincoln | f
+Julia Grant | Ulysses S. Grant | f
+Lucy Webb Hayes | Rutherford B. Hayes | f
+Frances Cleveland | Grover Cleveland | f
+Ida Saxton McKinley | William McKinley | f
+Edith Roosevelt | Theodore Roosevelt | f
+Helen Herron Taft | William Howard Taft | f
+Edith Wilson | Woodrow Wilson | f
+Florence Harding | Warren G. Harding | f
+Grace Coolidge | Calvin Coolidge | f
+Lou Henry Hoover | Herbert Hoover | f
+Eleanor Roosevelt | Franklin D. Roosevelt | f
+Bess Truman | Harry S. Truman | f
+Mamie Eisenhower | Dwight D. Eisenhower | f
+Jacqueline Kennedy Onassis | John F. Kennedy | f
+Lady Bird Johnson | Lyndon B. Johnson | f
+Pat Nixon | Richard Nixon | f
+Betty Ford | Gerald Ford | f
+Rosalynn Carter | Jimmy Carter | f
+Nancy Reagan | Ronald Reagan | f
+Barbara Bush | George H. W. Bush | f
+Hillary Clinton | Bill Clinton | f
+Laura Bush | George W. Bush | f
+Michelle Obama | Barack Obama | f
+Melania Trump | Donald Trump | f
+Jill Biden | Joe Biden | f
+
+@ founding-fathers | Founding Fathers | politics | politics
+George Washington | Continental Army commander | m
+John Adams | Massachusetts | m
+Thomas Jefferson | Declaration of Independence | m
+Benjamin Franklin | Pennsylvania | m
+Alexander Hamilton | Treasury Secretary | m
+James Madison | Father of the Constitution | m
+John Jay | First Chief Justice | m
+James Monroe | Virginia | m
+Samuel Adams | Sons of Liberty | m
+John Hancock | Signed first and biggest | m
+Paul Revere | Midnight ride | m
+Patrick Henry | "Give me liberty" | m
+Thomas Paine | Common Sense | m
+Gouverneur Morris | Wrote the Constitution's text | m
+John Marshall | Chief Justice | m
+George Mason | Bill of Rights | m
+Roger Sherman | Connecticut | m
+Benjamin Rush | Physician, Pennsylvania | m
+John Dickinson | Pennsylvania | m
+Elbridge Gerry | Massachusetts | m
+Charles Carroll of Carrollton | Maryland | m
+Richard Henry Lee | Virginia | m
+John Witherspoon | New Jersey | m
+Henry Knox | First Secretary of War | m
+Marquis de Lafayette | French ally | m
+Robert Morris (financier) | Financier of the Revolution | m
+Aaron Burr | Third vice president | m
+Nathanael Greene | Continental Army general | m
+Abigail Adams | Massachusetts | f
+Mercy Otis Warren | Writer of the Revolution | f
+
+@ us-politicians | US Politicians | politics | politics
+Kamala Harris | Democrat, Vice President | f
+JD Vance | Republican, Vice President | m
+Mike Pence | Republican, Vice President | m
+Hillary Clinton | Democrat, Secretary of State | f
+Bernie Sanders | Independent, Vermont | m
+Alexandria Ocasio-Cortez | Democrat, New York | f
+Nancy Pelosi | Democrat, California | f
+Mitt Romney | Republican, Utah | m
+Ted Cruz | Republican, Texas | m
+Marco Rubio | Republican, Secretary of State | m
+John McCain | Republican, Arizona | m
+Condoleezza Rice | Republican, Secretary of State | f
+Mitch McConnell | Republican, Kentucky | m
+Chuck Schumer | Democrat, New York | m
+Elizabeth Warren | Democrat, Massachusetts | f
+Pete Buttigieg | Democrat, Transportation | m
+Ron DeSantis | Republican, Florida | m
+Gavin Newsom | Democrat, California | m
+Nikki Haley | Republican, South Carolina | f
+Rand Paul | Republican, Kentucky | m
+Mike Johnson (Louisiana politician) | Republican, Speaker | m
+Hakeem Jeffries | Democrat, New York | m
+Amy Klobuchar | Democrat, Minnesota | f
+Cory Booker | Democrat, New Jersey | m
+Lindsey Graham | Republican, South Carolina | m
+Tim Walz | Democrat, Minnesota | m
+Greg Abbott | Republican, Texas | m
+Josh Shapiro | Democrat, Pennsylvania | m
+Gretchen Whitmer | Democrat, Michigan | f
+Marjorie Taylor Greene | Republican, Georgia | f
+John Fetterman | Democrat, Pennsylvania | m
+Tim Scott | Republican, South Carolina | m
+Susan Collins | Republican, Maine | f
+Dick Cheney | Republican, Vice President | m
+Al Gore | Democrat, Vice President | m
+Colin Powell | Republican, Secretary of State | m
+John Kerry | Democrat, Secretary of State | m
+Paul Ryan | Republican, Speaker | m
+Spencer Cox | Republican, Utah | m | file=Spencer Cox in 2024 (cropped).jpg
+J. B. Pritzker | Democrat, Illinois | m
+Mike Lee (American politician) | Republican, Utah | m
+Raphael Warnock | Democrat, Georgia | m
+Kevin McCarthy | Republican, Speaker | m
+Adam Schiff | Democrat, California | m
+Byron Donalds | Republican, Florida | m
+Wes Moore | Democrat, Maryland | m
+Kristi Noem | Republican, South Dakota | f
+Andy Beshear | Democrat, Kentucky | m
+
+@ world-leaders | World Leaders | politics | politics
+Winston Churchill | United Kingdom | m
+Margaret Thatcher | United Kingdom | f | file=Margaret Thatcher (1983).jpg
+Tony Blair | United Kingdom | m
+Keir Starmer | United Kingdom | m
+Rishi Sunak | United Kingdom | m
+Boris Johnson | United Kingdom | m
+Theresa May | United Kingdom | f
+David Cameron | United Kingdom | m
+Justin Trudeau | Canada | m
+Mark Carney | Canada | m
+Emmanuel Macron | France | m
+Charles de Gaulle | France | m
+Angela Merkel | Germany | f
+Olaf Scholz | Germany | m
+Friedrich Merz | Germany | m
+Konrad Adenauer | Germany | m
+Giorgia Meloni | Italy | f
+Volodymyr Zelenskyy | Ukraine | m
+Jacinda Ardern | New Zealand | f
+Anthony Albanese | Australia | m
+Narendra Modi | India | m | file=Narendra Damodardas Modi.jpg | crop=0.51,0.33,0.36
+Jawaharlal Nehru | India | m
+Indira Gandhi | India | f | file=Indira Gandhi 1966 (cropped).jpg
+Shinzo Abe | Japan | m
+Nelson Mandela | South Africa | m
+Mahatma Gandhi | India | m
+Pedro Sánchez | Spain | m
+Ursula von der Leyen | European Commission | f
+Mark Rutte | Netherlands, NATO | m
+Lula da Silva | Brazil | m
+Golda Meir | Israel | f
+Lee Kuan Yew | Singapore | m
+Mikhail Gorbachev | Soviet Union | m
+Claudia Sheinbaum | Mexico | f
+Jens Stoltenberg | Norway, NATO | m
+Sanna Marin | Finland | f
+Kofi Annan | United Nations | m
+Ban Ki-moon | United Nations | m
+
+@ activists | Civil Rights & Activists | politics | history
+Martin Luther King Jr. | Civil rights | m
+Rosa Parks | Montgomery bus boycott | f
+Harriet Tubman | Underground Railroad | f
+Frederick Douglass | Abolitionist | m
+Malcolm X | Civil rights | m
+Susan B. Anthony | Women's suffrage | f
+Sojourner Truth | Abolitionist | f
+Mahatma Gandhi | Indian independence | m
+Nelson Mandela | Anti-apartheid | m
+Malala Yousafzai | Girls' education | f
+Cesar Chavez | Farm workers | m
+John Lewis | Civil rights, Congress | m
+Elizabeth Cady Stanton | Women's suffrage | f
+Harvey Milk | Gay rights | m
+W. E. B. Du Bois | NAACP | m
+Booker T. Washington | Educator | m
+Ida B. Wells | Journalist, civil rights | f
+Gloria Steinem | Feminist | f
+Thurgood Marshall | NAACP lawyer | m
+Medgar Evers | Civil rights | m
+Coretta Scott King | Civil rights | f
+Desmond Tutu | Anti-apartheid | m
+Ruby Bridges | School integration | f
+Fannie Lou Hamer | Voting rights | f
+Jackie Robinson | Broke baseball's color line | m
+Greta Thunberg | Climate | f
+Dolores Huerta | Farm workers | f
+Bayard Rustin | March on Washington | m
+Helen Keller | Disability rights | f
+Jane Addams | Hull House | f
+Emmeline Pankhurst | Suffragette, UK | f
+Clara Barton | Red Cross | f
+Florence Nightingale | Nursing reformer | f
+William Lloyd Garrison | Abolitionist | m
+Dorothy Height | Civil rights | f
+Wangari Maathai | Environment, Kenya | f
+Rachel Carson | Environment | f
+Ralph Nader | Consumer rights | m
+
+@ supreme-court | Supreme Court Justices | politics | politics
+John Roberts | Chief Justice, 2005- | m
+Clarence Thomas | Justice, 1991- | m
+Samuel Alito | Justice, 2006- | m
+Sonia Sotomayor | Justice, 2009- | f
+Elena Kagan | Justice, 2010- | f
+Neil Gorsuch | Justice, 2017- | m
+Brett Kavanaugh | Justice, 2018- | m
+Amy Coney Barrett | Justice, 2020- | f
+Ketanji Brown Jackson | Justice, 2022- | f
+Stephen Breyer | Justice, 1994-2022 | m
+Ruth Bader Ginsburg | Justice, 1993-2020 | f
+Antonin Scalia | Justice, 1986-2016 | m
+Anthony Kennedy | Justice, 1988-2018 | m
+Sandra Day O'Connor | First woman justice | f
+David Souter | Justice, 1990-2009 | m
+John Paul Stevens | Justice, 1975-2010 | m
+William Rehnquist | Chief Justice, 1986-2005 | m
+Thurgood Marshall | First Black justice | m
+Earl Warren | Chief Justice, 1953-1969 | m
+Warren E. Burger | Chief Justice, 1969-1986 | m
+Harry Blackmun | Justice, 1970-1994 | m
+Byron White | Justice, 1962-1993 | m
+William J. Brennan Jr. | Justice, 1956-1990 | m
+Hugo Black | Justice, 1937-1971 | m
+Felix Frankfurter | Justice, 1939-1962 | m
+Louis Brandeis | Justice, 1916-1939 | m
+Oliver Wendell Holmes Jr. | Justice, 1902-1932 | m
+William Howard Taft | Chief Justice, 1921-1930 | m
+John Marshall | Chief Justice, 1801-1835 | m
+John Jay | First Chief Justice | m
+Roger B. Taney | Chief Justice, 1836-1864 | m
+Charles Evans Hughes | Chief Justice, 1930-1941 | m
+Robert H. Jackson | Justice, Nuremberg prosecutor | m
+
+@ royals | Royals | politics | history
+Elizabeth II | Queen, United Kingdom | f
+Charles III | King, United Kingdom | m
+Camilla, Queen Consort | Queen, United Kingdom | f | name=Queen Camilla
+William, Prince of Wales | Prince of Wales | m | name=Prince William
+Catherine, Princess of Wales | Princess of Wales | f | name=Catherine, Princess of Wales
+Prince Harry, Duke of Sussex | Duke of Sussex | m | name=Prince Harry
+Meghan, Duchess of Sussex | Duchess of Sussex | f | name=Meghan Markle
+Diana, Princess of Wales | Princess of Wales | f | name=Princess Diana
+Prince Philip, Duke of Edinburgh | Duke of Edinburgh | m | name=Prince Philip
+Anne, Princess Royal | Princess Royal | f | name=Princess Anne
+Prince Edward, Duke of Edinburgh | Duke of Edinburgh | m | name=Prince Edward
+Princess Margaret, Countess of Snowdon | Queen's sister | f | name=Princess Margaret
+Queen Elizabeth The Queen Mother | Queen Mother | f | name=The Queen Mother
+George VI | King, United Kingdom | m
+Edward VIII | King, United Kingdom | m
+Queen Victoria | Queen, United Kingdom | f
+Elizabeth I | Queen of England | f
+Henry VIII | King of England | m
+Anne Boleyn | Queen of England | f
+Mary, Queen of Scots | Queen of Scotland | f
+Marie Antoinette | Queen of France | f
+Louis XIV | King of France | m
+Catherine the Great | Empress of Russia | f
+Grace Kelly | Princess of Monaco | f
+Albert II, Prince of Monaco | Prince of Monaco | m
+Felipe VI | King of Spain | m
+Letizia of Spain | Queen of Spain | f | name=Queen Letizia
+Willem-Alexander of the Netherlands | King of the Netherlands | m | name=King Willem-Alexander
+Queen Máxima of the Netherlands | Queen of the Netherlands | f | name=Queen Máxima
+Frederik X | King of Denmark | m
+Margrethe II | Queen of Denmark | f
+Carl XVI Gustaf | King of Sweden | m
+Victoria, Crown Princess of Sweden | Crown Princess of Sweden | f
+Haakon VIII | King of Norway | m
+Naruhito | Emperor of Japan | m
+
+@ explorers | Explorers & Military | politics | history
+Christopher Columbus | Explorer, 1492 | m
+Ferdinand Magellan | Explorer, first circumnavigation | m
+Marco Polo | Explorer, Silk Road | m | file=Marco Polo Mosaic from Palazzo Tursi.jpg
+Meriwether Lewis | Explorer, American West | m
+William Clark | Explorer, American West | m
+Sacagawea | Lewis and Clark guide | f
+Roald Amundsen | First to the South Pole | m
+Ernest Shackleton | Antarctic explorer | m
+Robert Falcon Scott | Antarctic explorer | m
+Edmund Hillary | First up Everest | m
+Tenzing Norgay | First up Everest | m
+James Cook | Explorer, Pacific | m
+Vasco da Gama | Explorer, sea route to India | m
+Amerigo Vespucci | Explorer, the Americas | m
+Henry Hudson | Explorer, Hudson River | m
+Leif Erikson | Viking explorer | m
+Daniel Boone | Frontiersman | m
+Davy Crockett | Frontiersman | m
+Jacques Cousteau | Ocean explorer | m
+Robert Peary | Arctic explorer | m
+Matthew Henson | Arctic explorer | m
+Amelia Earhart | Aviator | f
+Charles Lindbergh | Aviator | m
+George S. Patton | US Army general, WWII | m
+Douglas MacArthur | US Army general, WWII | m
+Dwight D. Eisenhower | Supreme Allied Commander | m
+Ulysses S. Grant | Union general | m
+Bernard Montgomery | British field marshal, WWII | m
+Chester W. Nimitz | US admiral, WWII | m
+Horatio Nelson, 1st Viscount Nelson | British admiral | m | name=Horatio Nelson
+Arthur Wellesley, 1st Duke of Wellington | Waterloo | m | name=Duke of Wellington
+Joan of Arc | French heroine | f
+Audie Murphy | WWII soldier, actor | m
+Colin Powell | US Army general | m
+Norman Schwarzkopf Jr. | Gulf War general | m
+
+@ scientists | Famous Scientists | science | history
+Albert Einstein | Relativity | m
+Isaac Newton | Gravity and motion | m
+Marie Curie | Radioactivity | f
+Charles Darwin | Evolution | m
+Galileo Galilei | Astronomy | m
+Stephen Hawking | Black holes | m
+Nikola Tesla | Electricity | m
+Nicolaus Copernicus | Sun-centred universe | m
+Johannes Kepler | Planetary motion | m
+Michael Faraday | Electromagnetism | m
+James Clerk Maxwell | Electromagnetism | m
+Niels Bohr | Atomic structure | m
+Max Planck | Quantum theory | m
+Werner Heisenberg | Uncertainty principle | m
+Erwin Schrödinger | Quantum mechanics | m
+Richard Feynman | Quantum physics | m | file=Richard Feynman 1959.png
+J. Robert Oppenheimer | Atomic bomb | m
+Enrico Fermi | Nuclear reactor | m
+Paul Dirac | Quantum mechanics | m
+Ernest Rutherford | Atomic nucleus | m
+Dmitri Mendeleev | Periodic table | m
+Louis Pasteur | Germ theory | m
+Gregor Mendel | Genetics | m
+Rosalind Franklin | DNA structure | f | file=Rosalind-franklin-in-paris crop (cropped).jpg | crop=0.37,0.36,0.45
+James Watson | DNA structure | m | file=James Dewey Watson (cropped).jpg
+Francis Crick | DNA structure | m
+Carl Sagan | Astronomy | m
+Neil deGrasse Tyson | Astrophysics | m
+Edwin Hubble | Expanding universe | m
+Jane Goodall | Chimpanzees | f
+Rachel Carson | Ecology | f
+Alan Turing | Computer science | m
+Ada Lovelace | First programmer | f
+Archimedes | Mathematics | m | file=Jusepe de Ribera - Portrait of a mathematician (Archimedes?) (possibly a self-portrait).jpg
+Pythagoras | Mathematics | m
+Euclid | Geometry | m
+Aristotle | Natural philosophy | m
+Leonhard Euler | Mathematics | m
+Carl Friedrich Gauss | Mathematics | m
+John von Neumann | Mathematics, computing | m
+Robert Hooke | Cells, springs | m
+Robert Boyle | Chemistry | m
+Antoine Lavoisier | Chemistry | m
+Alfred Nobel | Chemistry, Nobel Prize | m
+Linus Pauling | Chemistry | m
+Lise Meitner | Nuclear fission | f
+Emmy Noether | Mathematics | f
+Katherine Johnson | NASA mathematician | f
+Barbara McClintock | Genetics | f
+Tycho Brahe | Astronomy | m
+Alexander von Humboldt | Naturalist | m
+Peter Higgs | Higgs boson | m
+Michio Kaku | Physics | m
+Bill Nye | Science educator | m
+Brian Cox (physicist) | Physics | m
+Dorothy Hodgkin | Crystallography | f | file=Professor Dorothy Hodgkin.jpg
+
+@ inventors | Inventors & Engineers | science | history
+Thomas Edison | Light bulb | m
+Nikola Tesla | AC electricity | m
+Alexander Graham Bell | Telephone | m
+Orville Wright | Airplane | m | file=Orville Wright 1905-crop.jpg
+Wilbur Wright | Airplane | m | file=Wilbur Wright-crop.jpg
+Benjamin Franklin | Lightning rod | m
+Henry Ford | Model T | m
+Leonardo da Vinci | Flying machines | m
+Johannes Gutenberg | Printing press | m
+James Watt | Steam engine | m
+Guglielmo Marconi | Radio | m
+Samuel Morse | Telegraph | m
+Eli Whitney | Cotton gin | m
+George Washington Carver | Peanut products | m
+Karl Benz | Motor car | m
+Rudolf Diesel | Diesel engine | m
+Gottlieb Daimler | Motor car | m
+Louis Braille | Braille | m
+George Westinghouse | AC power | m
+Elisha Otis | Safety elevator | m
+Isambard Kingdom Brunel | Engineer, bridges and ships | m
+John Logie Baird | Television | m
+Philo Farnsworth | Electronic television | m
+Hedy Lamarr | Frequency hopping | f
+Robert Fulton | Steamboat | m
+Cyrus McCormick | Mechanical reaper | m
+Charles Goodyear | Vulcanized rubber | m
+Samuel Colt | Revolver | m
+Alfred Nobel | Dynamite | m
+George Eastman | Kodak camera | m
+Willis Carrier | Air conditioning | m
+Igor Sikorsky | Helicopter | m
+Robert H. Goddard | Liquid-fuel rocket | m
+Garrett Morgan | Traffic signal | m | file=Morgan5.jpg
+Madam C. J. Walker | Hair products | f
+Mary Anderson (inventor) | Windshield wiper | f
+Stephanie Kwolek | Kevlar | f
+Dean Kamen | Segway | m
+James Dyson | Bagless vacuum | m
+Elon Musk | Tesla, SpaceX | m
+Michael Faraday | Electric motor | m
+Archimedes | Archimedes' screw | m | file=Jusepe de Ribera - Portrait of a mathematician (Archimedes?) (possibly a self-portrait).jpg
+Lee de Forest | Vacuum tube | m
+
+@ astronauts | Astronauts | science | history
+Neil Armstrong | Apollo 11, first on the Moon | m
+Buzz Aldrin | Apollo 11 | m
+Michael Collins (astronaut) | Apollo 11 | m
+Yuri Gagarin | First human in space | m
+John Glenn | First American to orbit | m
+Alan Shepard | First American in space | m
+Sally Ride | First American woman in space | f
+Valentina Tereshkova | First woman in space | f
+Jim Lovell | Apollo 13 | m
+Gus Grissom | Mercury, Gemini | m
+Gene Cernan | Apollo 17, last on the Moon | m
+Harrison Schmitt | Apollo 17 | m
+Pete Conrad | Apollo 12 | m
+Alan Bean | Apollo 12 | m
+Edgar Mitchell | Apollo 14 | m
+David Scott | Apollo 15 | m
+John Young (astronaut) | Apollo 16, first shuttle | m
+Charles Duke | Apollo 16 | m
+Frank Borman | Apollo 8 | m
+Wally Schirra | Mercury, Gemini, Apollo | m
+Scott Carpenter | Mercury | m
+Gordon Cooper | Mercury | m
+Deke Slayton | Mercury Seven | m
+Ed White (astronaut) | First American spacewalk | m
+Alexei Leonov | First spacewalk | m
+Mae Jemison | First Black woman in space | f
+Guion Bluford | First Black American in space | m
+Christa McAuliffe | Teacher in Space | f
+Judith Resnik | Challenger | f
+Kalpana Chawla | Columbia | f
+Eileen Collins | First woman shuttle commander | f
+Peggy Whitson | Record time in space | f
+Scott Kelly (astronaut) | Year in space | m
+Mark Kelly | Shuttle, senator | m
+Chris Hadfield | ISS commander, Canada | m
+Tim Peake | ISS, United Kingdom | m
+Christina Koch | Longest flight by a woman | f
+Sunita Williams | ISS | f
+Butch Wilmore | ISS | m
+Thomas Pesquet | ISS, France | m
+Bob Behnken | First SpaceX crew | m
+Doug Hurley | First SpaceX crew | m
+Jared Isaacman | Inspiration4, Polaris Dawn | m
+
+@ medicine | Doctors & Medicine | science | history
+Hippocrates | Father of medicine | m
+Florence Nightingale | Modern nursing | f
+Louis Pasteur | Vaccines, pasteurization | m
+Edward Jenner | Smallpox vaccine | m
+Alexander Fleming | Penicillin | m
+Jonas Salk | Polio vaccine | m
+Albert Sabin | Oral polio vaccine | m
+Joseph Lister | Antiseptic surgery | m
+Robert Koch | Germ theory | m
+Sigmund Freud | Psychoanalysis | m
+Carl Jung | Psychology | m
+Clara Barton | Red Cross | f
+Elizabeth Blackwell | First US woman doctor | f
+Charles R. Drew | Blood banks | m
+Christiaan Barnard | First heart transplant | m
+Ignaz Semmelweis | Handwashing | m
+Paul Ehrlich | Chemotherapy | m
+Wilhelm Röntgen | X-rays | m
+Virginia Apgar | Apgar score | f
+Anthony Fauci | Infectious disease | m
+Benjamin Spock | Baby and Child Care | m
+Ben Carson | Neurosurgeon | m
+Mehmet Oz | Cardiac surgeon, TV | m
+Sanjay Gupta | Neurosurgeon, CNN | m
+Paul Farmer | Global health | m
+Jennifer Doudna | CRISPR | f
+Katalin Karikó | mRNA vaccines | f
+Frederick Banting | Insulin | m
+Andreas Vesalius | Anatomy | m
+William Harvey | Blood circulation | m
+Galen | Ancient medicine | m
+Avicenna | Canon of Medicine | m
+Henrietta Lacks | HeLa cells | f
+Mary Seacole | Crimean War nurse | f
+Patch Adams | Doctor, clown | m
+Atul Gawande | Surgeon, writer | m
+Elisabeth Kübler-Ross | Five stages of grief | f | file=Elisabeth Kübler-Ross, 1978 (cropped).jpg
+
+@ tech-pioneers | Tech Pioneers | science | internet
+Alan Turing | Computer science | m
+Ada Lovelace | First programmer | f
+Charles Babbage | Difference engine | m
+Grace Hopper | COBOL | f
+Steve Jobs | Apple | m
+Steve Wozniak | Apple | m
+Bill Gates | Microsoft | m
+Paul Allen | Microsoft | m
+Tim Berners-Lee | World Wide Web | m
+Mark Zuckerberg | Facebook | m
+Larry Page | Google | m
+Sergey Brin | Google | m
+Jeff Bezos | Amazon | m
+Elon Musk | Tesla, SpaceX | m
+John von Neumann | Computer architecture | m
+Claude Shannon | Information theory | m
+Vint Cerf | Internet protocols | m
+Bob Kahn | Internet protocols | m
+Linus Torvalds | Linux | m
+Dennis Ritchie | C language, Unix | m
+Ken Thompson | Unix | m
+Gordon Moore | Intel, Moore's law | m
+Robert Noyce | Intel, microchip | m
+Jack Kilby | Integrated circuit | m
+Douglas Engelbart | Computer mouse | m
+Margaret Hamilton (software engineer) | Apollo software | f
+Hedy Lamarr | Wi-Fi forerunner | f
+Konrad Zuse | First programmable computer | m
+Jensen Huang | Nvidia | m
+Sam Altman | OpenAI | m
+Satya Nadella | Microsoft | m
+Tim Cook | Apple | m
+Sundar Pichai | Google | m
+Larry Ellison | Oracle | m
+Michael Dell | Dell | m
+Reed Hastings | Netflix | m
+Jack Dorsey | Twitter | m
+Susan Wojcicki | YouTube | f
+Geoffrey Hinton | Neural networks | m
+John McCarthy (computer scientist) | Artificial intelligence | m
+Guido van Rossum | Python | m
+
+@ classic-authors | Classic Authors | books | art
+William Shakespeare | Hamlet, Romeo and Juliet | m
+Charles Dickens | Oliver Twist | m
+Jane Austen | Pride and Prejudice | f
+Mark Twain | Tom Sawyer | m
+Ernest Hemingway | The Old Man and the Sea | m
+F. Scott Fitzgerald | The Great Gatsby | m
+Edgar Allan Poe | The Raven | m
+Leo Tolstoy | War and Peace | m
+Fyodor Dostoevsky | Crime and Punishment | m
+George Orwell | 1984 | m
+Charlotte Brontë | Jane Eyre | f
+Emily Brontë | Wuthering Heights | f
+Mary Shelley | Frankenstein | f
+Oscar Wilde | The Picture of Dorian Gray | m
+Victor Hugo | Les Misérables | m
+Herman Melville | Moby-Dick | m
+Nathaniel Hawthorne | The Scarlet Letter | m
+John Steinbeck | Of Mice and Men | m
+Harper Lee | To Kill a Mockingbird | f
+J. R. R. Tolkien | The Lord of the Rings | m
+C. S. Lewis | Narnia | m
+Lewis Carroll | Alice in Wonderland | m
+Jules Verne | Twenty Thousand Leagues | m
+H. G. Wells | The War of the Worlds | m
+Arthur Conan Doyle | Sherlock Holmes | m
+Agatha Christie | Murder on the Orient Express | f
+Virginia Woolf | Mrs Dalloway | f
+James Joyce | Ulysses | m
+Franz Kafka | The Metamorphosis | m
+Miguel de Cervantes | Don Quixote | m
+Dante Alighieri | The Divine Comedy | m
+Homer | The Odyssey | m
+Geoffrey Chaucer | The Canterbury Tales | m
+Alexandre Dumas | The Three Musketeers | m
+Louisa May Alcott | Little Women | f
+L. Frank Baum | The Wizard of Oz | m
+Bram Stoker | Dracula | m
+Robert Louis Stevenson | Treasure Island | m
+Jack London | The Call of the Wild | m
+William Faulkner | The Sound and the Fury | m
+Aldous Huxley | Brave New World | m
+Ray Bradbury | Fahrenheit 451 | m
+J. D. Salinger | The Catcher in the Rye | m
+Kurt Vonnegut | Slaughterhouse-Five | m
+Toni Morrison | Beloved | f
+Harriet Beecher Stowe | Uncle Tom's Cabin | f
+Rudyard Kipling | The Jungle Book | m
+Charlotte Perkins Gilman | The Yellow Wallpaper | f
+Zora Neale Hurston | Their Eyes Were Watching God | f
+Gabriel García Márquez | One Hundred Years of Solitude | m
+Thomas Hardy | Tess of the d'Urbervilles | m
+George Eliot | Middlemarch | f
+Dr. Seuss | The Cat in the Hat | m
+Roald Dahl | Charlie and the Chocolate Factory | m
+
+@ modern-authors | Modern Authors | books | art
+J. K. Rowling | Harry Potter | f
+Stephen King | It, The Shining | m
+George R. R. Martin | A Song of Ice and Fire | m
+Suzanne Collins | The Hunger Games | f
+Rick Riordan | Percy Jackson | m
+John Grisham | The Firm | m
+Dan Brown | The Da Vinci Code | m
+James Patterson | Alex Cross | m
+Brandon Sanderson | Mistborn | m
+Stephenie Meyer | Twilight | f
+Margaret Atwood | The Handmaid's Tale | f
+Cormac McCarthy | The Road | m
+Michael Crichton | Jurassic Park | m
+Tom Clancy | Jack Ryan | m
+John Green | The Fault in Our Stars | m
+Colleen Hoover | It Ends with Us | f
+Sally Rooney | Normal People | f
+Kazuo Ishiguro | Never Let Me Go | m
+Haruki Murakami | Norwegian Wood | m
+Salman Rushdie | Midnight's Children | m
+Khaled Hosseini | The Kite Runner | m
+Paulo Coelho | The Alchemist | m
+Isabel Allende | The House of the Spirits | f
+Chimamanda Ngozi Adichie | Americanah | f
+Andy Weir | The Martian | m
+Frank Herbert | Dune | m
+Isaac Asimov | Foundation | m
+Ursula K. Le Guin | Earthsea | f
+Terry Pratchett | Discworld | m
+Douglas Adams | Hitchhiker's Guide | m
+Anne Rice | Interview with the Vampire | f
+Danielle Steel | Romance novels | f
+Nora Roberts | Romance novels | f
+Jeff Kinney | Diary of a Wimpy Kid | m
+Dav Pilkey | Captain Underpants | m
+R. L. Stine | Goosebumps | m
+Lois Lowry | The Giver | f
+Judy Blume | Are You There God? | f
+Maya Angelou | I Know Why the Caged Bird Sings | f
+Amy Tan | The Joy Luck Club | f
+Ken Follett | The Pillars of the Earth | m
+Lee Child | Jack Reacher | m
+Christopher Paolini | Eragon | m
+
+@ poets | Poets | books | art
+William Shakespeare | Sonnets | m
+Emily Dickinson | "Hope" is the thing with feathers | f
+Robert Frost | The Road Not Taken | m
+Edgar Allan Poe | The Raven | m
+Walt Whitman | Leaves of Grass | m
+Maya Angelou | Still I Rise | f
+Langston Hughes | Harlem Renaissance | m
+William Wordsworth | Daffodils | m
+John Keats | Ode to a Nightingale | m
+Lord Byron | Don Juan | m
+Percy Bysshe Shelley | Ozymandias | m
+Samuel Taylor Coleridge | The Rime of the Ancient Mariner | m
+William Blake | The Tyger | m
+T. S. Eliot | The Waste Land | m
+Sylvia Plath | Ariel | f
+Henry Wadsworth Longfellow | Paul Revere's Ride | m
+Alfred, Lord Tennyson | The Charge of the Light Brigade | m
+Dylan Thomas | Do Not Go Gentle | m
+E. E. Cummings | Playful punctuation | m
+Rumi | Persian mystic | m
+Pablo Neruda | Love sonnets, Chile | m
+Shel Silverstein | Where the Sidewalk Ends | m
+Robert Burns | Auld Lang Syne | m
+Elizabeth Barrett Browning | How Do I Love Thee? | f
+Rudyard Kipling | If— | m
+W. B. Yeats | The Second Coming | m
+Amanda Gorman | The Hill We Climb | f
+Allen Ginsberg | Howl | m
+Rupi Kaur | Milk and Honey | f
+John Milton | Paradise Lost | m
+Homer | The Iliad | m
+Dante Alighieri | Inferno | m
+Sappho | Ancient Greece | f | file=Bust Sappho Musei Capitolini MC1164 (cropped).jpg
+Gwendolyn Brooks | Pulitzer poet | f
+Seamus Heaney | Irish Nobel poet | m
+Wilfred Owen | War poet | m
+Oscar Wilde | The Ballad of Reading Gaol | m
+Rabindranath Tagore | Gitanjali | m
+Carl Sandburg | Chicago | m
+Ralph Waldo Emerson | Concord Hymn | m
+
+@ painters | Painters & Artists | books | art
+Leonardo da Vinci | Mona Lisa | m
+Vincent van Gogh | The Starry Night | m
+Pablo Picasso | Guernica | m
+Michelangelo | Sistine Chapel | m
+Claude Monet | Water Lilies | m
+Frida Kahlo | Self-portraits | f
+Rembrandt | The Night Watch | m
+Salvador Dalí | The Persistence of Memory | m
+Andy Warhol | Campbell's Soup Cans | m
+Raphael | The School of Athens | m
+Johannes Vermeer | Girl with a Pearl Earring | m
+Edvard Munch | The Scream | m
+Georgia O'Keeffe | Flowers, New Mexico | f
+Henri Matisse | The Dance | m
+Paul Cézanne | Still lifes | m
+Pierre-Auguste Renoir | Impressionism | m
+Edgar Degas | Ballet dancers | m
+Gustav Klimt | The Kiss | m
+Jackson Pollock | Drip paintings | m
+Bob Ross | The Joy of Painting | m
+Norman Rockwell | Saturday Evening Post | m
+Sandro Botticelli | The Birth of Venus | m
+Caravaggio | Baroque painter | m
+Albrecht Dürer | Engravings | m
+Francisco Goya | Spanish painter | m
+Paul Gauguin | Tahiti | m
+Henri de Toulouse-Lautrec | Moulin Rouge posters | m
+Diego Velázquez | Las Meninas | m
+Peter Paul Rubens | Flemish Baroque | m
+Jan van Eyck | Arnolfini Portrait | m
+Titian | Venetian painter | m
+Édouard Manet | Olympia | m
+Wassily Kandinsky | Abstract art | m
+Piet Mondrian | Red, yellow, blue grids | m
+René Magritte | The Son of Man | m
+Marc Chagall | Dreamlike villages | m
+Joan Miró | Surrealism | m
+Mary Cassatt | Mothers and children | f
+Grant Wood | American Gothic | m
+Edward Hopper | Nighthawks | m
+Jean-Michel Basquiat | Neo-expressionism | m
+Keith Haring | Pop graffiti | m
+Roy Lichtenstein | Comic-strip pop art | m
+Yayoi Kusama | Polka dots | f
+Auguste Rodin | The Thinker | m
+Ansel Adams | Photography | m | fame=35
+Frank Lloyd Wright | Architecture | m
+Walt Disney | Animation | m
+
+@ composers | Classical Composers | books | music
+Wolfgang Amadeus Mozart | Classical era | m
+Ludwig van Beethoven | Classical, Romantic | m
+Johann Sebastian Bach | Baroque | m
+Pyotr Ilyich Tchaikovsky | The Nutcracker | m
+Antonio Vivaldi | The Four Seasons | m
+Frédéric Chopin | Piano, Romantic | m
+George Frideric Handel | Messiah | m
+Johannes Brahms | Romantic | m
+Franz Schubert | Romantic | m
+Joseph Haydn | Classical era | m
+Richard Wagner | Operas | m
+Giuseppe Verdi | Operas | m
+Claude Debussy | Clair de lune | m
+Franz Liszt | Piano virtuoso | m
+Felix Mendelssohn | Romantic | m
+Robert Schumann | Romantic | m
+Clara Schumann | Pianist, composer | f
+Antonín Dvořák | New World Symphony | m
+Gustav Mahler | Symphonies | m
+Sergei Rachmaninoff | Piano concertos | m
+Igor Stravinsky | The Rite of Spring | m
+Maurice Ravel | Boléro | m
+Giacomo Puccini | La bohème | m
+Gioachino Rossini | The Barber of Seville | m
+Edvard Grieg | Peer Gynt | m
+Camille Saint-Saëns | Carnival of the Animals | m
+Johann Strauss II | The Blue Danube | m
+Georges Bizet | Carmen | m
+Erik Satie | Gymnopédies | m
+Sergei Prokofiev | Peter and the Wolf | m
+Dmitri Shostakovich | Symphonies | m
+George Gershwin | Rhapsody in Blue | m
+Leonard Bernstein | West Side Story | m
+Aaron Copland | Appalachian Spring | m
+Gustav Holst | The Planets | m | file=Gustav Holst.jpg
+Edward Elgar | Pomp and Circumstance | m
+Nikolai Rimsky-Korsakov | Flight of the Bumblebee | m
+Modest Mussorgsky | Pictures at an Exhibition | m
+Hildegard of Bingen | Medieval | f | file=Hildegard von Bingen. Line engraving by W. Marshall (3x4 cropped).jpg
+John Williams | Star Wars scores | m
+Hans Zimmer | Film scores | m
+Philip Glass | Minimalism | m
+
+@ philosophers | Philosophers | books | history
+Socrates | Ancient Greece | m
+Plato | The Republic | m
+Aristotle | Ancient Greece | m
+Confucius | Ancient China | m | file=Cropped version of Confucius Portrait, Kongzi (Confucius) Family Mansion, Qufu (13044335945).jpg
+Laozi | Tao Te Ching | m | file=Lao Tzu - Project Gutenberg eText 15250.jpg
+Friedrich Nietzsche | Thus Spoke Zarathustra | m
+Immanuel Kant | Critique of Pure Reason | m
+René Descartes | "I think, therefore I am" | m
+John Locke | Natural rights | m
+Thomas Hobbes | Leviathan | m
+Jean-Jacques Rousseau | The Social Contract | m
+Voltaire | Candide | m
+David Hume | Empiricism | m
+Karl Marx | The Communist Manifesto | m
+Søren Kierkegaard | Existentialism | m
+Jean-Paul Sartre | Existentialism | m
+Simone de Beauvoir | The Second Sex | f
+Albert Camus | The Stranger | m
+Niccolò Machiavelli | The Prince | m
+Baruch Spinoza | Ethics | m
+Gottfried Wilhelm Leibniz | Rationalism | m
+Georg Wilhelm Friedrich Hegel | Dialectics | m
+Arthur Schopenhauer | Pessimism | m
+John Stuart Mill | Utilitarianism | m
+Ludwig Wittgenstein | Language | m
+Bertrand Russell | Logic | m
+Thomas Aquinas | Scholasticism | m
+Augustine of Hippo | Confessions | m
+Marcus Aurelius | Stoicism, Meditations | m
+Seneca the Younger | Stoicism | m
+Epicurus | Epicureanism | m
+Diogenes | Cynicism | m | file=José de Ribera - Diogenes.jpg
+Sun Tzu | The Art of War | m
+Adam Smith | The Wealth of Nations | m
+Hannah Arendt | Political theory | f
+Ayn Rand | Objectivism | f
+Mary Wollstonecraft | Women's rights | f
+Michel Foucault | Power and knowledge | m
+Henry David Thoreau | Walden | m
+Ralph Waldo Emerson | Transcendentalism | m
+Francis Bacon | Scientific method | m
+Blaise Pascal | Pascal's wager | m
+Noam Chomsky | Linguistics | m

@@ -1,0 +1,707 @@
+{
+ "id": "explorers",
+ "title": "Explorers & Military",
+ "cat": "politics",
+ "people": [
+  {
+   "id": "dwight-d-eisenhower",
+   "name": "Dwight D. Eisenhower",
+   "from": "Supreme Allied Commander",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 100,
+   "pv": 3299484,
+   "img": "img/dwight-d-eisenhower.webp",
+   "credit": {
+    "author": "White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959.jpg"
+   }
+  },
+  {
+   "id": "christopher-columbus",
+   "name": "Christopher Columbus",
+   "from": "Explorer, 1492",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 97,
+   "pv": 2486781,
+   "img": "img/christopher-columbus.webp",
+   "credit": {
+    "author": "Sebastiano del Piombo",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Man,_Said_to_be_Christopher_Columbus.jpg"
+   }
+  },
+  {
+   "id": "ulysses-s-grant",
+   "name": "Ulysses S. Grant",
+   "from": "Union general",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 94,
+   "pv": 2360897,
+   "img": "img/ulysses-s-grant.webp",
+   "credit": {
+    "author": "Brady-Handy Photograph Collection, Library of Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ulysses_S._Grant_1870-1880_(cropped).jpg"
+   }
+  },
+  {
+   "id": "joan-of-arc",
+   "name": "Joan of Arc",
+   "from": "French heroine",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 91,
+   "pv": 2274552,
+   "img": "img/joan-of-arc.webp",
+   "credit": {
+    "author": "Derived from original commons upload at which is now in the history version: 01:39, 13. 8. 2005 Colour-graded to reveal more detail using GIMP software \"curves\" tool",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joan_of_Arc_miniature_graded.jpg"
+   }
+  },
+  {
+   "id": "amelia-earhart",
+   "name": "Amelia Earhart",
+   "from": "Aviator",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 88,
+   "pv": 1938655,
+   "img": "img/amelia-earhart.webp",
+   "credit": {
+    "author": "Underwood & Underwood (active 1880 – c. 1950)[1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
+   }
+  },
+  {
+   "id": "george-s-patton",
+   "name": "George S. Patton",
+   "from": "US Army general, WWII",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 85,
+   "pv": 1524063,
+   "img": "img/george-s-patton.webp",
+   "credit": {
+    "author": "Robert F. Cranston / Harry Warnecke",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:General_George_Patton_by_Robert_F._Cranston,_Lee_Elkins,_and_Harry_Warnecke,_1945,_color_carbro_print,_from_the_National_Portrait_Gallery_-_NPG-NPG_95_404Patton-000002.jpg"
+   }
+  },
+  {
+   "id": "douglas-macarthur",
+   "name": "Douglas MacArthur",
+   "from": "US Army general, WWII",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 83,
+   "pv": 1300318,
+   "img": "img/douglas-macarthur.webp",
+   "credit": {
+    "author": "Photographer not credited.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:MacArthur_Manila_(cropped2)(b).jpg"
+   }
+  },
+  {
+   "id": "audie-murphy",
+   "name": "Audie Murphy",
+   "from": "WWII soldier, actor",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 80,
+   "pv": 1192939,
+   "img": "img/audie-murphy.webp",
+   "credit": {
+    "author": "U.S. Army (http://www.detrick.army.mil/samc/index.cfm)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Audie_Murphy.jpg"
+   }
+  },
+  {
+   "id": "duke-of-wellington",
+   "name": "Duke of Wellington",
+   "from": "Waterloo",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 77,
+   "pv": 1000858,
+   "img": "img/duke-of-wellington.webp",
+   "credit": {
+    "author": "Thomas Lawrence",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sir_Arthur_Wellesley,_1st_Duke_of_Wellington.jpg"
+   }
+  },
+  {
+   "id": "james-cook",
+   "name": "James Cook",
+   "from": "Explorer, Pacific",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 74,
+   "pv": 950441,
+   "img": "img/james-cook.webp",
+   "credit": {
+    "author": "Nathaniel Dance-Holland",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg"
+   }
+  },
+  {
+   "id": "colin-powell",
+   "name": "Colin Powell",
+   "from": "US Army general",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 71,
+   "pv": 882493,
+   "img": "img/colin-powell.webp",
+   "credit": {
+    "author": "Department of State of the United States of America",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Colin_Powell_official_Secretary_of_State_photo.jpg"
+   }
+  },
+  {
+   "id": "charles-lindbergh",
+   "name": "Charles Lindbergh",
+   "from": "Aviator",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 68,
+   "pv": 870870,
+   "img": "img/charles-lindbergh.webp",
+   "credit": {
+    "author": "Harris & Ewing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Lindbergh_(Harris_%26_Ewing_photo,_cropped).jpg"
+   }
+  },
+  {
+   "id": "bernard-montgomery",
+   "name": "Bernard Montgomery",
+   "from": "British field marshal, WWII",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 65,
+   "pv": 817199,
+   "img": "img/bernard-montgomery.webp",
+   "credit": {
+    "author": "Possibly Edward George William Malindine",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:General_Sir_Bernard_Montgomery_in_England,_1943_TR1036_(cropped).jpg"
+   }
+  },
+  {
+   "id": "horatio-nelson",
+   "name": "Horatio Nelson",
+   "from": "British admiral",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 62,
+   "pv": 816607,
+   "img": "img/horatio-nelson.webp",
+   "credit": {
+    "author": "Lemuel Francis Abbott",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:HoratioNelson1.jpg"
+   }
+  },
+  {
+   "id": "ferdinand-magellan",
+   "name": "Ferdinand Magellan",
+   "from": "Explorer, first circumnavigation",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 59,
+   "pv": 798564,
+   "img": "img/ferdinand-magellan.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferdinand_Magellan.jpg"
+   }
+  },
+  {
+   "id": "marco-polo",
+   "name": "Marco Polo",
+   "from": "Explorer, Silk Road",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 56,
+   "pv": 728974,
+   "img": "img/marco-polo.webp",
+   "credit": {
+    "author": "Salviati",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg"
+   }
+  },
+  {
+   "id": "davy-crockett",
+   "name": "Davy Crockett",
+   "from": "Frontiersman",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 53,
+   "pv": 724665,
+   "img": "img/davy-crockett.webp",
+   "credit": {
+    "author": "Chester Harding",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Davy_Crockett_Portrait_by_Chester_Harding.jpg"
+   }
+  },
+  {
+   "id": "leif-erikson",
+   "name": "Leif Erikson",
+   "from": "Viking explorer",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 50,
+   "pv": 720537,
+   "img": "img/leif-erikson.webp",
+   "credit": {
+    "author": "Sculptor Daniels, John K. 1875-1978 Photo: Sharon Mollerus",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Leif_Erikson_Statue,_Duluth_(15290644106).jpg"
+   }
+  },
+  {
+   "id": "edmund-hillary",
+   "name": "Edmund Hillary",
+   "from": "First up Everest",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 48,
+   "pv": 686833,
+   "img": "img/edmund-hillary.webp",
+   "credit": {
+    "author": "Photographer unidentified. Retouched by TimofKingsland.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Edmund_Hillary,_c._1953,_autograph_removed.jpg"
+   }
+  },
+  {
+   "id": "ernest-shackleton",
+   "name": "Ernest Shackleton",
+   "from": "Antarctic explorer",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 45,
+   "pv": 665380,
+   "img": "img/ernest-shackleton.webp",
+   "credit": {
+    "author": "George Charles Beresford / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ernest_Shackleton_before_1909.jpg"
+   }
+  },
+  {
+   "id": "vasco-da-gama",
+   "name": "Vasco da Gama",
+   "from": "Explorer, sea route to India",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 42,
+   "pv": 647783,
+   "img": "img/vasco-da-gama.webp",
+   "credit": {
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ignoto_portoghese,_ritratto_di_un_cavaliere_dell%27ordine_di_cristo,_1525-50_ca._02.jpg"
+   }
+  },
+  {
+   "id": "tenzing-norgay",
+   "name": "Tenzing Norgay",
+   "from": "First up Everest",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 39,
+   "pv": 601017,
+   "img": "img/tenzing-norgay.webp",
+   "credit": {
+    "author": "SAS Scandinavian Airlines",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tenzing_Norgay_(cropped).jpg"
+   }
+  },
+  {
+   "id": "daniel-boone",
+   "name": "Daniel Boone",
+   "from": "Frontiersman",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 36,
+   "pv": 575265,
+   "img": "img/daniel-boone.webp",
+   "credit": {
+    "author": "Chester Harding",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Chester_Harding_-_Daniel_Boone_-_NPG.2015.102_-_National_Portrait_Gallery_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sacagawea",
+   "name": "Sacagawea",
+   "from": "Lewis and Clark guide",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 33,
+   "pv": 567286,
+   "img": "img/sacagawea.webp",
+   "credit": {
+    "author": "Edgar Samuel Paxson",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Detail_Lewis_%26_Clark_at_Three_Forks.jpg"
+   }
+  },
+  {
+   "id": "amerigo-vespucci",
+   "name": "Amerigo Vespucci",
+   "from": "Explorer, the Americas",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 30,
+   "pv": 554517,
+   "img": "img/amerigo-vespucci.webp",
+   "credit": {
+    "author": "Crispijn van de Passe the Elder",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Amerigo_Vespucci_(with_turban)_-_cropped.jpg"
+   }
+  },
+  {
+   "id": "chester-w-nimitz",
+   "name": "Chester W. Nimitz",
+   "from": "US admiral, WWII",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 27,
+   "pv": 474266,
+   "img": "img/chester-w-nimitz.webp",
+   "credit": {
+    "author": "US Navy",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Chester_Nimitz_as_CNO_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jacques-cousteau",
+   "name": "Jacques Cousteau",
+   "from": "Ocean explorer",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 24,
+   "pv": 428572,
+   "img": "img/jacques-cousteau.webp",
+   "credit": {
+    "author": "Hans Peters for Anefo .",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Cousteau1972_(cropped).jpg"
+   }
+  },
+  {
+   "id": "norman-schwarzkopf-jr",
+   "name": "Norman Schwarzkopf Jr.",
+   "from": "Gulf War general",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 21,
+   "pv": 395862,
+   "img": "img/norman-schwarzkopf-jr.webp",
+   "credit": {
+    "author": "Russell Roederer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:NormanSchwarzkopf.jpg"
+   }
+  },
+  {
+   "id": "roald-amundsen",
+   "name": "Roald Amundsen",
+   "from": "First to the South Pole",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 18,
+   "pv": 305431,
+   "img": "img/roald-amundsen.webp",
+   "credit": {
+    "author": "AnonymousUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Amundsen_in_fur_skins.jpg"
+   }
+  },
+  {
+   "id": "meriwether-lewis",
+   "name": "Meriwether Lewis",
+   "from": "Explorer, American West",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 16,
+   "pv": 300344,
+   "img": "img/meriwether-lewis.webp",
+   "credit": {
+    "author": "Charles Willson Peale",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Meriwether_Lewis-Charles_Willson_Peale.jpg"
+   }
+  },
+  {
+   "id": "robert-falcon-scott",
+   "name": "Robert Falcon Scott",
+   "from": "Antarctic explorer",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 13,
+   "pv": 258213,
+   "img": "img/robert-falcon-scott.webp",
+   "credit": {
+    "author": "Henry Maull (1829–1914) and John Fox (1832–1907)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Scott_of_the_Antarctic_(bw)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "henry-hudson",
+   "name": "Henry Hudson",
+   "from": "Explorer, Hudson River",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 10,
+   "pv": 217799,
+   "img": "img/henry-hudson.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:HenryHudson.jpg"
+   }
+  },
+  {
+   "id": "william-clark",
+   "name": "William Clark",
+   "from": "Explorer, American West",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 7,
+   "pv": 185868,
+   "img": "img/william-clark.webp",
+   "credit": {
+    "author": "Jarvis, John Wesley, 1780-1840",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_William_Clark_(cropped).jpg"
+   }
+  },
+  {
+   "id": "robert-peary",
+   "name": "Robert Peary",
+   "from": "Arctic explorer",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 4,
+   "pv": 152571,
+   "img": "img/robert-peary.webp",
+   "credit": {
+    "author": "Robert Peary",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Peary_self-portrait,_1909.jpg"
+   }
+  },
+  {
+   "id": "matthew-henson",
+   "name": "Matthew Henson",
+   "from": "Arctic explorer",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "explorers"
+   ],
+   "fame": 1,
+   "pv": 92938,
+   "img": "img/matthew-henson.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Matthew_Henson_1910.jpg"
+   }
+  }
+ ]
+}

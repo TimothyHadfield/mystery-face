@@ -1,0 +1,1087 @@
+{
+ "id": "classic-authors",
+ "title": "Classic Authors",
+ "cat": "books",
+ "people": [
+  {
+   "id": "william-shakespeare",
+   "name": "William Shakespeare",
+   "from": "Hamlet, Romeo and Juliet",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 100,
+   "pv": 4610944,
+   "img": "img/william-shakespeare.webp",
+   "credit": {
+    "author": "Attributed to John Taylor",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Shakespeare_by_John_Taylor,_edited.jpg"
+   }
+  },
+  {
+   "id": "j-r-r-tolkien",
+   "name": "J. R. R. Tolkien",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 98,
+   "pv": 2566750,
+   "img": "img/j-r-r-tolkien.webp",
+   "credit": {
+    "author": "Unknown photo studio commissioned by Tolkien's students 1925/6 (private communication from Catherine McIlwaine, Tolkien Archivist, Bodleian Library)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg"
+   }
+  },
+  {
+   "id": "ernest-hemingway",
+   "name": "Ernest Hemingway",
+   "from": "The Old Man and the Sea",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 96,
+   "pv": 2290862,
+   "img": "img/ernest-hemingway.webp",
+   "credit": {
+    "author": "Lloyd Arnold",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:ErnestHemingway.jpg"
+   }
+  },
+  {
+   "id": "jane-austen",
+   "name": "Jane Austen",
+   "from": "Pride and Prejudice",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 94,
+   "pv": 2062359,
+   "img": "img/jane-austen.webp",
+   "credit": {
+    "author": "Cassandra Austen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:CassandraAusten-JaneAusten(c.1810)_hires.jpg"
+   }
+  },
+  {
+   "id": "roald-dahl",
+   "name": "Roald Dahl",
+   "from": "Charlie and the Chocolate Factory",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 93,
+   "pv": 2056162,
+   "img": "img/roald-dahl.webp",
+   "credit": {
+    "author": "Hans van Dijk for Anefo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Roald_Dahl_(1982).jpg"
+   }
+  },
+  {
+   "id": "agatha-christie",
+   "name": "Agatha Christie",
+   "from": "Murder on the Orient Express",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 91,
+   "pv": 1966248,
+   "img": "img/agatha-christie.webp",
+   "credit": {
+    "author": "Joop van Bilsen for Anefo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Agatha_Christie_in_Nederland_(detectiveschrijfster),_bij_aankomst_op_Schiphol_me,_Bestanddeelnr_916-8898_(cropped).jpg"
+   }
+  },
+  {
+   "id": "fyodor-dostoevsky",
+   "name": "Fyodor Dostoevsky",
+   "from": "Crime and Punishment",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 89,
+   "pv": 1854185,
+   "img": "img/fyodor-dostoevsky.webp",
+   "credit": {
+    "author": "Vasily Perov",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "edgar-allan-poe",
+   "name": "Edgar Allan Poe",
+   "from": "The Raven",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 87,
+   "pv": 1747278,
+   "img": "img/edgar-allan-poe.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author; Restored by Yann Forget and Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Edgar_Allan_Poe,_circa_1849,_restored,_squared_off.jpg"
+   }
+  },
+  {
+   "id": "mary-shelley",
+   "name": "Mary Shelley",
+   "from": "Frankenstein",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 85,
+   "pv": 1724801,
+   "img": "img/mary-shelley.webp",
+   "credit": {
+    "author": "Richard Rothwell",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_Shelley_Rothwell.tif"
+   }
+  },
+  {
+   "id": "george-orwell",
+   "name": "George Orwell",
+   "from": "1984",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 83,
+   "pv": 1720331,
+   "img": "img/george-orwell.webp",
+   "credit": {
+    "author": "Branch of the National Union of Journalists (BNUJ).",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Orwell_press_photo.jpg"
+   }
+  },
+  {
+   "id": "oscar-wilde",
+   "name": "Oscar Wilde",
+   "from": "The Picture of Dorian Gray",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 81,
+   "pv": 1678310,
+   "img": "img/oscar-wilde.webp",
+   "credit": {
+    "author": "Napoleon Sarony / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph,_seated_(cropped).jpg"
+   }
+  },
+  {
+   "id": "charles-dickens",
+   "name": "Charles Dickens",
+   "from": "Oliver Twist",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 79,
+   "pv": 1676769,
+   "img": "img/charles-dickens.webp",
+   "credit": {
+    "author": "Jeremiah Gurney",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dickens_Gurney_head.jpg"
+   }
+  },
+  {
+   "id": "franz-kafka",
+   "name": "Franz Kafka",
+   "from": "The Metamorphosis",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 78,
+   "pv": 1635439,
+   "img": "img/franz-kafka.webp",
+   "credit": {
+    "author": "Unknown photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Franz_Kafka,_1923.jpg"
+   }
+  },
+  {
+   "id": "homer",
+   "name": "Homer",
+   "from": "The Odyssey",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 76,
+   "pv": 1594866,
+   "img": "img/homer.webp",
+   "credit": {
+    "author": "Photograph by Mike Peel (www.mikepeel.net).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Homer_At_the_British_Museum_2024_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "c-s-lewis",
+   "name": "C. S. Lewis",
+   "from": "Narnia",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 74,
+   "pv": 1579080,
+   "img": "img/c-s-lewis.webp",
+   "credit": {
+    "author": "John S. Murray",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:CS_Lewis_photo_on_dust_jacket.jpg"
+   }
+  },
+  {
+   "id": "mark-twain",
+   "name": "Mark Twain",
+   "from": "Tom Sawyer",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 72,
+   "pv": 1359198,
+   "img": "img/mark-twain.webp",
+   "credit": {
+    "author": "A.F. Bradley, New York",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mark_Twain_by_AF_Bradley_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "dr-seuss",
+   "name": "Dr. Seuss",
+   "from": "The Cat in the Hat",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 70,
+   "pv": 1310149,
+   "img": "img/dr-seuss.webp",
+   "credit": {
+    "author": "Al Ravenna",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Theodor_Seuss_Geisel_(01037v).jpg"
+   }
+  },
+  {
+   "id": "emily-bronte",
+   "name": "Emily Brontë",
+   "from": "Wuthering Heights",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 68,
+   "pv": 1281001,
+   "img": "img/emily-bronte.webp",
+   "credit": {
+    "author": "Branwell Brontë",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Emily_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg"
+   }
+  },
+  {
+   "id": "john-steinbeck",
+   "name": "John Steinbeck",
+   "from": "Of Mice and Men",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 66,
+   "pv": 1193565,
+   "img": "img/john-steinbeck.webp",
+   "credit": {
+    "author": "McFadden Publications, Inc.; no photographer credited; photo likely the work of Sonya Noskowiak, as Steinbeck is wearing the same clothes from her 1935 studio session that produced the work shown here",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Steinbeck_1939_(cropped).jpg"
+   }
+  },
+  {
+   "id": "virginia-woolf",
+   "name": "Virginia Woolf",
+   "from": "Mrs Dalloway",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 65,
+   "pv": 1191675,
+   "img": "img/virginia-woolf.webp",
+   "credit": {
+    "author": "George Charles Beresford / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg"
+   }
+  },
+  {
+   "id": "alexandre-dumas",
+   "name": "Alexandre Dumas",
+   "from": "The Three Musketeers",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 63,
+   "pv": 1113583,
+   "img": "img/alexandre-dumas.webp",
+   "credit": {
+    "author": "Nadar",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nadar_-_Alexander_Dumas_p%C3%A8re_(1802-1870)_-_Google_Art_Project_2.jpg"
+   }
+  },
+  {
+   "id": "leo-tolstoy",
+   "name": "Leo Tolstoy",
+   "from": "War and Peace",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 61,
+   "pv": 1075564,
+   "img": "img/leo-tolstoy.webp",
+   "credit": {
+    "author": "Sergei Prokudin-Gorskii",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Leo_Tolstoy_1908_Portrait_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "f-scott-fitzgerald",
+   "name": "F. Scott Fitzgerald",
+   "from": "The Great Gatsby",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 59,
+   "pv": 965690,
+   "img": "img/f-scott-fitzgerald.webp",
+   "credit": {
+    "author": "Photographer unknown. The publicity photo was distributed by Fitzgerald's publisher, Scribner's (source: Curtis, William (April 15, 1922). \"Some Recent Books\". Town & Country, Vol. LXXIX, pp. 62, 76; ",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:F._Scott_Fitzgerald_(1921_portrait_-_crop)_Retouched.jpg"
+   }
+  },
+  {
+   "id": "charlotte-bronte",
+   "name": "Charlotte Brontë",
+   "from": "Jane Eyre",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 57,
+   "pv": 932124,
+   "img": "img/charlotte-bronte.webp",
+   "credit": {
+    "author": "Branwell Brontë",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlotte_Bront%C3%AB_by_Patrick_Branwell_Bront%C3%AB_restored.jpg"
+   }
+  },
+  {
+   "id": "dante-alighieri",
+   "name": "Dante Alighieri",
+   "from": "The Divine Comedy",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 55,
+   "pv": 907204,
+   "img": "img/dante-alighieri.webp",
+   "credit": {
+    "author": "Wolfgang Sauber",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bargello_-_Kapelle_Fresko_2a.jpg"
+   }
+  },
+  {
+   "id": "kurt-vonnegut",
+   "name": "Kurt Vonnegut",
+   "from": "Slaughterhouse-Five",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 53,
+   "pv": 902186,
+   "img": "img/kurt-vonnegut.webp",
+   "credit": {
+    "author": "Bernard Gotfryd / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kurt_Vonnegut_by_Bernard_Gotfryd_(1965).jpg"
+   }
+  },
+  {
+   "id": "rudyard-kipling",
+   "name": "Rudyard Kipling",
+   "from": "The Jungle Book",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 51,
+   "pv": 880197,
+   "img": "img/rudyard-kipling.webp",
+   "credit": {
+    "author": "Elliott & Fry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rudyard_Kipling_(portrait).jpg"
+   }
+  },
+  {
+   "id": "james-joyce",
+   "name": "James Joyce",
+   "from": "Ulysses",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 50,
+   "pv": 856272,
+   "img": "img/james-joyce.webp",
+   "credit": {
+    "author": "Camille Ruf",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Revolutionary_Joyce_Better_Contrast.jpg"
+   }
+  },
+  {
+   "id": "arthur-conan-doyle",
+   "name": "Arthur Conan Doyle",
+   "from": "Sherlock Holmes",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 48,
+   "pv": 848372,
+   "img": "img/arthur-conan-doyle.webp",
+   "credit": {
+    "author": "Walter Benington",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Arthur_Conan_Doyle_by_Walter_Benington,_1914.png"
+   }
+  },
+  {
+   "id": "toni-morrison",
+   "name": "Toni Morrison",
+   "from": "Beloved",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 46,
+   "pv": 772344,
+   "img": "img/toni-morrison.webp",
+   "credit": {
+    "author": "John Mathew Smith (celebrity-photos.com)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toni_Morrison.jpg"
+   }
+  },
+  {
+   "id": "victor-hugo",
+   "name": "Victor Hugo",
+   "from": "Les Misérables",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 44,
+   "pv": 761505,
+   "img": "img/victor-hugo.webp",
+   "credit": {
+    "author": "Étienne Carjat",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Victor_Hugo_by_%C3%89tienne_Carjat_1876_-_full.jpg"
+   }
+  },
+  {
+   "id": "h-g-wells",
+   "name": "H. G. Wells",
+   "from": "The War of the Worlds",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 42,
+   "pv": 735168,
+   "img": "img/h-g-wells.webp",
+   "credit": {
+    "author": "George Charles Beresford",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:H.G._Wells_by_Beresford.jpg"
+   }
+  },
+  {
+   "id": "william-faulkner",
+   "name": "William Faulkner",
+   "from": "The Sound and the Fury",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 40,
+   "pv": 733030,
+   "img": "img/william-faulkner.webp",
+   "credit": {
+    "author": "Carl Van Vechten",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Carl_Van_Vechten_-_William_Faulkner_(greyscale_and_cropped).jpg"
+   }
+  },
+  {
+   "id": "lewis-carroll",
+   "name": "Lewis Carroll",
+   "from": "Alice in Wonderland",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 38,
+   "pv": 720407,
+   "img": "img/lewis-carroll.webp",
+   "credit": {
+    "author": "Lewis Carroll",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:LewisCarrollSelfPhoto.jpg"
+   }
+  },
+  {
+   "id": "aldous-huxley",
+   "name": "Aldous Huxley",
+   "from": "Brave New World",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 36,
+   "pv": 665662,
+   "img": "img/aldous-huxley.webp",
+   "credit": {
+    "author": "sinaloaarchivohistorico",
+    "license": "No restrictions",
+    "licenseUrl": "https://www.flickr.com/commons/usage/",
+    "source": "https://commons.wikimedia.org/wiki/File:ALDOUS_LEONARD_HUXLEY_1894_-_1963_NOVELISTA_ENSAYISTA_Y_POETA_INGLES_(13451350533).jpg"
+   }
+  },
+  {
+   "id": "j-d-salinger",
+   "name": "J. D. Salinger",
+   "from": "The Catcher in the Rye",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 35,
+   "pv": 620006,
+   "img": "img/j-d-salinger.webp",
+   "credit": {
+    "author": "Lotte Jacobi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:J._D._Salinger_(Catcher_in_the_Rye_portrait).jpg"
+   }
+  },
+  {
+   "id": "robert-louis-stevenson",
+   "name": "Robert Louis Stevenson",
+   "from": "Treasure Island",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 33,
+   "pv": 614613,
+   "img": "img/robert-louis-stevenson.webp",
+   "credit": {
+    "author": "Henry Walter Barnett",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Louis_Stevenson_by_Henry_Walter_Barnett_bw.jpg"
+   }
+  },
+  {
+   "id": "jules-verne",
+   "name": "Jules Verne",
+   "from": "Twenty Thousand Leagues",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 31,
+   "pv": 611664,
+   "img": "img/jules-verne.webp",
+   "credit": {
+    "author": "Étienne Carjat / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jules_Verne_by_%C3%89tienne_Carjat.jpg"
+   }
+  },
+  {
+   "id": "bram-stoker",
+   "name": "Bram Stoker",
+   "from": "Dracula",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 29,
+   "pv": 599920,
+   "img": "img/bram-stoker.webp",
+   "credit": {
+    "author": "unidentified photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bram_Stoker_1906.jpg"
+   }
+  },
+  {
+   "id": "ray-bradbury",
+   "name": "Ray Bradbury",
+   "from": "Fahrenheit 451",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 27,
+   "pv": 593595,
+   "img": "img/ray-bradbury.webp",
+   "credit": {
+    "author": "Alan Light",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ray_Bradbury_(1975)_-cropped-.jpg"
+   }
+  },
+  {
+   "id": "harper-lee",
+   "name": "Harper Lee",
+   "from": "To Kill a Mockingbird",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 25,
+   "pv": 585944,
+   "img": "img/harper-lee.webp",
+   "credit": {
+    "author": "Photo credited to Truman Capote.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Photo_portrait_of_Harper_Lee_(To_Kill_a_Mockingbird_dust_jacket,_1960).jpg"
+   }
+  },
+  {
+   "id": "george-eliot",
+   "name": "George Eliot",
+   "from": "Middlemarch",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 23,
+   "pv": 575062,
+   "img": "img/george-eliot.webp",
+   "credit": {
+    "author": "replica by François D’Albert Durade (1804–1886)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Eliot,_por_Fran%C3%A7ois_D%27Albert_Durade.jpg"
+   }
+  },
+  {
+   "id": "jack-london",
+   "name": "Jack London",
+   "from": "The Call of the Wild",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 22,
+   "pv": 558094,
+   "img": "img/jack-london.webp",
+   "credit": {
+    "author": "published by L C Page and Company Boston 1903",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jack_London_young.jpg"
+   }
+  },
+  {
+   "id": "gabriel-garcia-marquez",
+   "name": "Gabriel García Márquez",
+   "from": "One Hundred Years of Solitude",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 20,
+   "pv": 555375,
+   "img": "img/gabriel-garcia-marquez.webp",
+   "credit": {
+    "author": "Jose Lara",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gabriel_Garcia_Marquez.jpg"
+   }
+  },
+  {
+   "id": "herman-melville",
+   "name": "Herman Melville",
+   "from": "Moby-Dick",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 18,
+   "pv": 522153,
+   "img": "img/herman-melville.webp",
+   "credit": {
+    "author": "Joseph Oriel Eaton",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Herman_Melville_by_Joseph_O_Eaton.jpg"
+   }
+  },
+  {
+   "id": "geoffrey-chaucer",
+   "name": "Geoffrey Chaucer",
+   "from": "The Canterbury Tales",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 16,
+   "pv": 487634,
+   "img": "img/geoffrey-chaucer.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Chaucer_manuscrit_portrait_(d%C3%A9tail).jpeg"
+   }
+  },
+  {
+   "id": "louisa-may-alcott",
+   "name": "Louisa May Alcott",
+   "from": "Little Women",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 14,
+   "pv": 458195,
+   "img": "img/louisa-may-alcott.webp",
+   "credit": {
+    "author": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Louisa_May_Alcott,_c._1870_-_Warren%27s_Portraits,_Boston.jpg"
+   }
+  },
+  {
+   "id": "l-frank-baum",
+   "name": "L. Frank Baum",
+   "from": "The Wizard of Oz",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 12,
+   "pv": 415679,
+   "img": "img/l-frank-baum.webp",
+   "credit": {
+    "author": "George Steckel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:L._Frank_Baum_(1911).jpg"
+   }
+  },
+  {
+   "id": "miguel-de-cervantes",
+   "name": "Miguel de Cervantes",
+   "from": "Don Quixote",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 10,
+   "pv": 414757,
+   "img": "img/miguel-de-cervantes.webp",
+   "credit": {
+    "author": "Attributed to Juan de Jáuregui",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cervantes_J%C3%A1uregui.jpg"
+   }
+  },
+  {
+   "id": "thomas-hardy",
+   "name": "Thomas Hardy",
+   "from": "Tess of the d'Urbervilles",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 8,
+   "pv": 399838,
+   "img": "img/thomas-hardy.webp",
+   "credit": {
+    "author": "Bain News Service, publisher",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Hardy_Restored_Portrait_1910%E2%80%931915_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "nathaniel-hawthorne",
+   "name": "Nathaniel Hawthorne",
+   "from": "The Scarlet Letter",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 7,
+   "pv": 353210,
+   "img": "img/nathaniel-hawthorne.webp",
+   "credit": {
+    "author": "Mathew Benjamin Brady",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nathaniel_Hawthorne_by_Brady,_1860-64.jpg"
+   }
+  },
+  {
+   "id": "zora-neale-hurston",
+   "name": "Zora Neale Hurston",
+   "from": "Their Eyes Were Watching God",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 5,
+   "pv": 289307,
+   "img": "img/zora-neale-hurston.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hurston-Zora-Neale-LOC.jpg"
+   }
+  },
+  {
+   "id": "harriet-beecher-stowe",
+   "name": "Harriet Beecher Stowe",
+   "from": "Uncle Tom's Cabin",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 3,
+   "pv": 280105,
+   "img": "img/harriet-beecher-stowe.webp",
+   "credit": {
+    "author": "not specified",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Beecher-Stowe.jpg"
+   }
+  },
+  {
+   "id": "charlotte-perkins-gilman",
+   "name": "Charlotte Perkins Gilman",
+   "from": "The Yellow Wallpaper",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "classic-authors"
+   ],
+   "fame": 1,
+   "pv": 116885,
+   "img": "img/charlotte-perkins-gilman.webp",
+   "credit": {
+    "author": "Charles Fletcher Lummis / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlotte_Perkins_Gilman_c._1900.jpg"
+   }
+  }
+ ]
+}

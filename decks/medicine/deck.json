@@ -1,0 +1,747 @@
+{
+ "id": "medicine",
+ "title": "Doctors & Medicine",
+ "cat": "science",
+ "people": [
+  {
+   "id": "sigmund-freud",
+   "name": "Sigmund Freud",
+   "from": "Psychoanalysis",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 100,
+   "pv": 1601455,
+   "img": "img/sigmund-freud.webp",
+   "credit": {
+    "author": "Max Halberstadt",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg"
+   }
+  },
+  {
+   "id": "carl-jung",
+   "name": "Carl Jung",
+   "from": "Psychology",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 97,
+   "pv": 1280939,
+   "img": "img/carl-jung.webp",
+   "credit": {
+    "author": "Unbekannt",
+    "license": "PDM-owner",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:ETH-BIB-Jung,_Carl_Gustav_(1875-1961)-Portrait-Portr_14163_(cropped).tif"
+   }
+  },
+  {
+   "id": "florence-nightingale",
+   "name": "Florence Nightingale",
+   "from": "Modern nursing",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 94,
+   "pv": 1187256,
+   "img": "img/florence-nightingale.webp",
+   "credit": {
+    "author": "Henry Hering (1814-1893)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_(H_Hering_NPG_x82368).jpg"
+   }
+  },
+  {
+   "id": "mehmet-oz",
+   "name": "Mehmet Oz",
+   "from": "Cardiac surgeon, TV",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 92,
+   "pv": 1040652,
+   "img": "img/mehmet-oz.webp",
+   "credit": {
+    "author": "United States Centers for Medicare and Medicaid",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:CMS_Admin_Dr_Mehmet_Oz.png"
+   }
+  },
+  {
+   "id": "ben-carson",
+   "name": "Ben Carson",
+   "from": "Neurosurgeon",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 89,
+   "pv": 859165,
+   "img": "img/ben-carson.webp",
+   "credit": {
+    "author": "U.S. Department of Agriculture",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ben_Carson_USDA.jpg"
+   }
+  },
+  {
+   "id": "henrietta-lacks",
+   "name": "Henrietta Lacks",
+   "from": "HeLa cells",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 86,
+   "pv": 778718,
+   "img": "img/henrietta-lacks.webp",
+   "credit": {
+    "author": "Oregon State University",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Henrietta_Lacks_(cropped).jpg"
+   }
+  },
+  {
+   "id": "anthony-fauci",
+   "name": "Anthony Fauci",
+   "from": "Infectious disease",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 84,
+   "pv": 774037,
+   "img": "img/anthony-fauci.webp",
+   "credit": {
+    "author": "Christopher Michel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Fauci_in_2023_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "louis-pasteur",
+   "name": "Louis Pasteur",
+   "from": "Vaccines, pasteurization",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 81,
+   "pv": 472447,
+   "img": "img/louis-pasteur.webp",
+   "credit": {
+    "author": "Paul Nadar",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg"
+   }
+  },
+  {
+   "id": "avicenna",
+   "name": "Avicenna",
+   "from": "Canon of Medicine",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 78,
+   "pv": 467835,
+   "img": "img/avicenna.webp",
+   "credit": {
+    "author": "National Library of Medicine",
+    "license": "No restrictions",
+    "licenseUrl": "https://www.flickr.com/commons/usage/",
+    "source": "https://commons.wikimedia.org/wiki/File:Avicenna_Bust,_left_profile_(cropped).jpg"
+   }
+  },
+  {
+   "id": "alexander-fleming",
+   "name": "Alexander Fleming",
+   "from": "Penicillin",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 75,
+   "pv": 373154,
+   "img": "img/alexander-fleming.webp",
+   "credit": {
+    "author": "Official photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Synthetic_Production_of_Penicillin_TR1468.jpg"
+   }
+  },
+  {
+   "id": "patch-adams",
+   "name": "Patch Adams",
+   "from": "Doctor, clown",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 72,
+   "pv": 307885,
+   "img": "img/patch-adams.webp",
+   "credit": {
+    "author": "​English Wikipedia user Craigfnp, the copyright holder of this work, hereby publishes it under the following license:",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Patch_Adams.jpg"
+   }
+  },
+  {
+   "id": "hippocrates",
+   "name": "Hippocrates",
+   "from": "Father of medicine",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 70,
+   "pv": 306305,
+   "img": "img/hippocrates.webp",
+   "credit": {
+    "author": "Unidentified engraver",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hippocrates.jpg"
+   }
+  },
+  {
+   "id": "jonas-salk",
+   "name": "Jonas Salk",
+   "from": "Polio vaccine",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 67,
+   "pv": 292607,
+   "img": "img/jonas-salk.webp",
+   "credit": {
+    "author": "SAS Scandinavian Airlines",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jonas_Salk_candid.jpg"
+   }
+  },
+  {
+   "id": "ignaz-semmelweis",
+   "name": "Ignaz Semmelweis",
+   "from": "Handwashing",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 64,
+   "pv": 282316,
+   "img": "img/ignaz-semmelweis.webp",
+   "credit": {
+    "author": "József Borsos / Albert Doctor",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Borsos_%26_Doctor_Semmelweis_Ign%C3%A1c_cropped.jpg"
+   }
+  },
+  {
+   "id": "clara-barton",
+   "name": "Clara Barton",
+   "from": "Red Cross",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 62,
+   "pv": 228158,
+   "img": "img/clara-barton.webp",
+   "credit": {
+    "author": "The Library of Congress",
+    "license": "No restrictions",
+    "licenseUrl": "https://www.flickr.com/commons/usage/",
+    "source": "https://commons.wikimedia.org/wiki/File:(Union_nurse_Clara_Barton)_(LOC).jpg"
+   }
+  },
+  {
+   "id": "sanjay-gupta",
+   "name": "Sanjay Gupta",
+   "from": "Neurosurgeon, CNN",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 59,
+   "pv": 212665,
+   "img": "img/sanjay-gupta.webp",
+   "credit": {
+    "author": "Asealy77",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sanjay_Gupta_(cropped).jpg"
+   }
+  },
+  {
+   "id": "edward-jenner",
+   "name": "Edward Jenner",
+   "from": "Smallpox vaccine",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 56,
+   "pv": 209701,
+   "img": "img/edward-jenner.webp",
+   "credit": {
+    "author": "John Raphael Smith",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Edward_Jenner.jpg"
+   }
+  },
+  {
+   "id": "galen",
+   "name": "Galen",
+   "from": "Ancient medicine",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 53,
+   "pv": 203816,
+   "img": "img/galen.webp",
+   "credit": {
+    "author": "Georg Paul Busch (engraver)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Galenus.jpg"
+   }
+  },
+  {
+   "id": "wilhelm-rontgen",
+   "name": "Wilhelm Röntgen",
+   "from": "X-rays",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 50,
+   "pv": 199547,
+   "img": "img/wilhelm-rontgen.webp",
+   "credit": {
+    "author": "Erwin Hanfstaengl",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Wilhelm_Conrad_R%C3%B6ntgen_(1888-1900),_88374_p.jpg"
+   }
+  },
+  {
+   "id": "jennifer-doudna",
+   "name": "Jennifer Doudna",
+   "from": "CRISPR",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 48,
+   "pv": 194540,
+   "img": "img/jennifer-doudna.webp",
+   "credit": {
+    "author": "Christopher Michel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Doudna_by_Christopher_Michel_in_2023_01.jpg"
+   }
+  },
+  {
+   "id": "mary-seacole",
+   "name": "Mary Seacole",
+   "from": "Crimean War nurse",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 45,
+   "pv": 148902,
+   "img": "img/mary-seacole.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mary_Jane_Seacole.jpeg"
+   }
+  },
+  {
+   "id": "robert-koch",
+   "name": "Robert Koch",
+   "from": "Germ theory",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 42,
+   "pv": 146978,
+   "img": "img/robert-koch.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:RobertKoch_cropped.jpg"
+   }
+  },
+  {
+   "id": "christiaan-barnard",
+   "name": "Christiaan Barnard",
+   "from": "First heart transplant",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 40,
+   "pv": 144027,
+   "img": "img/christiaan-barnard.webp",
+   "credit": {
+    "author": "IPPA photographer",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Heart_transplant_pioneer_Barnard_here_on_Visit_(FL61733185).jpg"
+   }
+  },
+  {
+   "id": "joseph-lister",
+   "name": "Joseph Lister",
+   "from": "Antiseptic surgery",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 37,
+   "pv": 136918,
+   "img": "img/joseph-lister.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joseph_Lister_1902.jpg"
+   }
+  },
+  {
+   "id": "frederick-banting",
+   "name": "Frederick Banting",
+   "from": "Insulin",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 34,
+   "pv": 124404,
+   "img": "img/frederick-banting.webp",
+   "credit": {
+    "author": "Louis Schmidt",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:F._G._Banting_1923.jpg"
+   }
+  },
+  {
+   "id": "katalin-kariko",
+   "name": "Katalin Karikó",
+   "from": "mRNA vaccines",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 31,
+   "pv": 121008,
+   "img": "img/katalin-kariko.webp",
+   "credit": {
+    "author": "Cmichel67",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Katalin_Karik%C3%B3_by_Christopher_Michel_in_2024_02.jpg"
+   }
+  },
+  {
+   "id": "charles-r-drew",
+   "name": "Charles R. Drew",
+   "from": "Blood banks",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 28,
+   "pv": 115841,
+   "img": "img/charles-r-drew.webp",
+   "credit": {
+    "author": "Associated Photographic Services, Inc",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Charles_Drew.jpg"
+   }
+  },
+  {
+   "id": "atul-gawande",
+   "name": "Atul Gawande",
+   "from": "Surgeon, writer",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 26,
+   "pv": 115528,
+   "img": "img/atul-gawande.webp",
+   "credit": {
+    "author": "United States Agency for International Development",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Atul_Gawande,_USAID_Assistant_Administrator.jpg"
+   }
+  },
+  {
+   "id": "elisabeth-kubler-ross",
+   "name": "Elisabeth Kübler-Ross",
+   "from": "Five stages of grief",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 23,
+   "pv": 112112,
+   "img": "img/elisabeth-kubler-ross.webp",
+   "credit": {
+    "author": "Lynn Gilbert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elisabeth_K%C3%BCbler-Ross,_1978_(cropped).jpg"
+   }
+  },
+  {
+   "id": "andreas-vesalius",
+   "name": "Andreas Vesalius",
+   "from": "Anatomy",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 20,
+   "pv": 103044,
+   "img": "img/andreas-vesalius.webp",
+   "credit": {
+    "author": "Jan van Calcar",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Man_dressed_in_Black_by_Calcar_(Hermitage).jpg"
+   }
+  },
+  {
+   "id": "benjamin-spock",
+   "name": "Benjamin Spock",
+   "from": "Baby and Child Care",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 18,
+   "pv": 100705,
+   "img": "img/benjamin-spock.webp",
+   "credit": {
+    "author": "Bert Verhoeff for Anefo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Benjamin_McLane_Spock_(1976)_02.jpg"
+   }
+  },
+  {
+   "id": "paul-farmer",
+   "name": "Paul Farmer",
+   "from": "Global health",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 15,
+   "pv": 95676,
+   "img": "img/paul-farmer.webp",
+   "credit": {
+    "author": "Skoll Foundation",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Farmer_2011.jpg"
+   }
+  },
+  {
+   "id": "elizabeth-blackwell",
+   "name": "Elizabeth Blackwell",
+   "from": "First US woman doctor",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 12,
+   "pv": 94166,
+   "img": "img/elizabeth-blackwell.webp",
+   "credit": {
+    "author": "Unknown photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Blackwell.jpg"
+   }
+  },
+  {
+   "id": "paul-ehrlich",
+   "name": "Paul Ehrlich",
+   "from": "Chemotherapy",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 9,
+   "pv": 88961,
+   "img": "img/paul-ehrlich.webp",
+   "credit": {
+    "author": "Harris & Ewing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Ehrlich_1915.jpg"
+   }
+  },
+  {
+   "id": "william-harvey",
+   "name": "William Harvey",
+   "from": "Blood circulation",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 6,
+   "pv": 84220,
+   "img": "img/william-harvey.webp",
+   "credit": {
+    "author": "After Daniël Mijtens",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Harvey_2.jpg"
+   }
+  },
+  {
+   "id": "virginia-apgar",
+   "name": "Virginia Apgar",
+   "from": "Apgar score",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 4,
+   "pv": 47770,
+   "img": "img/virginia-apgar.webp",
+   "credit": {
+    "author": "March of Dimes",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Virginia-Apgar-July-6-1959.jpg"
+   }
+  },
+  {
+   "id": "albert-sabin",
+   "name": "Albert Sabin",
+   "from": "Oral polio vaccine",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "medicine"
+   ],
+   "fame": 1,
+   "pv": 43978,
+   "img": "img/albert-sabin.webp",
+   "credit": {
+    "author": "Original uploader was Bobak at the English Wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_Sabin.jpg"
+   }
+  }
+ ]
+}

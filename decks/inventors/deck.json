@@ -1,0 +1,867 @@
+{
+ "id": "inventors",
+ "title": "Inventors & Engineers",
+ "cat": "science",
+ "people": [
+  {
+   "id": "elon-musk",
+   "name": "Elon Musk",
+   "from": "Tesla, SpaceX",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 100,
+   "pv": 8672342,
+   "img": "img/elon-musk.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(3x4_cropped,_Rule_of_thirds).jpg"
+   }
+  },
+  {
+   "id": "nikola-tesla",
+   "name": "Nikola Tesla",
+   "from": "AC electricity",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 98,
+   "pv": 2358740,
+   "img": "img/nikola-tesla.webp",
+   "credit": {
+    "author": "Napoleon Sarony",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg"
+   }
+  },
+  {
+   "id": "benjamin-franklin",
+   "name": "Benjamin Franklin",
+   "from": "Lightning rod",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 95,
+   "pv": 2104513,
+   "img": "img/benjamin-franklin.webp",
+   "credit": {
+    "author": "Joseph-Siffred Duplessis",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "leonardo-da-vinci",
+   "name": "Leonardo da Vinci",
+   "from": "Flying machines",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 93,
+   "pv": 2039234,
+   "img": "img/leonardo-da-vinci.webp",
+   "credit": {
+    "author": "Attributed to Francesco Melzi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo_(colour_correction).png"
+   }
+  },
+  {
+   "id": "hedy-lamarr",
+   "name": "Hedy Lamarr",
+   "from": "Frequency hopping",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 91,
+   "pv": 1371595,
+   "img": "img/hedy-lamarr.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg"
+   }
+  },
+  {
+   "id": "thomas-edison",
+   "name": "Thomas Edison",
+   "from": "Light bulb",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 88,
+   "pv": 1248655,
+   "img": "img/thomas-edison.webp",
+   "credit": {
+    "author": "Louis Bachrach, Bachrach Studios, restored by Michel Vuijlsteke",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Edison2.jpg"
+   }
+  },
+  {
+   "id": "henry-ford",
+   "name": "Henry Ford",
+   "from": "Model T",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 86,
+   "pv": 1034642,
+   "img": "img/henry-ford.webp",
+   "credit": {
+    "author": "Fred Hartsook",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Henry_ford_1919.jpg"
+   }
+  },
+  {
+   "id": "orville-wright",
+   "name": "Orville Wright",
+   "from": "Airplane",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 84,
+   "pv": 930389,
+   "img": "img/orville-wright.webp",
+   "credit": {
+    "author": "Orville Wright and Wilbur Wright (credited as photographers) [1], [2]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Orville_Wright_1905-crop.jpg"
+   }
+  },
+  {
+   "id": "wilbur-wright",
+   "name": "Wilbur Wright",
+   "from": "Airplane",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 81,
+   "pv": 930389,
+   "img": "img/wilbur-wright.webp",
+   "credit": {
+    "author": "Orville Wright and Wilbur Wright (credited as photographers) [1], [2]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Wilbur_Wright-crop.jpg"
+   }
+  },
+  {
+   "id": "alexander-graham-bell",
+   "name": "Alexander Graham Bell",
+   "from": "Telephone",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 79,
+   "pv": 774795,
+   "img": "img/alexander-graham-bell.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell_1895_NPG_77_363.jpg"
+   }
+  },
+  {
+   "id": "archimedes",
+   "name": "Archimedes",
+   "from": "Archimedes' screw",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 76,
+   "pv": 640579,
+   "img": "img/archimedes.webp",
+   "credit": {
+    "author": "Jusepe de Ribera",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jusepe_de_Ribera_-_Portrait_of_a_mathematician_(Archimedes%3F)_(possibly_a_self-portrait).jpg"
+   }
+  },
+  {
+   "id": "george-washington-carver",
+   "name": "George Washington Carver",
+   "from": "Peanut products",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 74,
+   "pv": 575560,
+   "img": "img/george-washington-carver.webp",
+   "credit": {
+    "author": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Washington_Carver_c1910_-_Restoration.jpg"
+   }
+  },
+  {
+   "id": "alfred-nobel",
+   "name": "Alfred Nobel",
+   "from": "Dynamite",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 72,
+   "pv": 561099,
+   "img": "img/alfred-nobel.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alfred_Nobel3.jpg"
+   }
+  },
+  {
+   "id": "madam-c-j-walker",
+   "name": "Madam C. J. Walker",
+   "from": "Hair products",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 69,
+   "pv": 558118,
+   "img": "img/madam-c-j-walker.webp",
+   "credit": {
+    "author": "Addison N. Scurlock / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Madam_C._J._Walker_by_Addison_N._Scurlock.jpg"
+   }
+  },
+  {
+   "id": "michael-faraday",
+   "name": "Michael Faraday",
+   "from": "Electric motor",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 67,
+   "pv": 437045,
+   "img": "img/michael-faraday.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Michael_Faraday_sitting_crop.jpg"
+   }
+  },
+  {
+   "id": "johannes-gutenberg",
+   "name": "Johannes Gutenberg",
+   "from": "Printing press",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 65,
+   "pv": 381599,
+   "img": "img/johannes-gutenberg.webp",
+   "credit": {
+    "author": "Kenneth C. Zirkel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mainz_Gutenbergdenkmal_2016_(cropped).jpg"
+   }
+  },
+  {
+   "id": "isambard-kingdom-brunel",
+   "name": "Isambard Kingdom Brunel",
+   "from": "Engineer, bridges and ships",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 62,
+   "pv": 378933,
+   "img": "img/isambard-kingdom-brunel.webp",
+   "credit": {
+    "author": "Robert Howlett",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Howlett_(Isambard_Kingdom_Brunel_Standing_Before_the_Launching_Chains_of_the_Great_Eastern),_The_Metropolitan_Museum_of_Art_-_restoration1.jpg"
+   }
+  },
+  {
+   "id": "james-dyson",
+   "name": "James Dyson",
+   "from": "Bagless vacuum",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 60,
+   "pv": 288461,
+   "img": "img/james-dyson.webp",
+   "credit": {
+    "author": "Royal Society uploader",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sir_James_Dyson_CBE_FREng_FRS.jpg"
+   }
+  },
+  {
+   "id": "guglielmo-marconi",
+   "name": "Guglielmo Marconi",
+   "from": "Radio",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 58,
+   "pv": 281854,
+   "img": "img/guglielmo-marconi.webp",
+   "credit": {
+    "author": "Pach Brothers",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Guglielmo_Marconi.jpg"
+   }
+  },
+  {
+   "id": "karl-benz",
+   "name": "Karl Benz",
+   "from": "Motor car",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 55,
+   "pv": 223411,
+   "img": "img/karl-benz.webp",
+   "credit": {
+    "author": "Unknown (same photo credited to various stock photo agencies. The copyright is also claimed by the Mercedes-Benz Public Archive)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Carl_Benz_circa_1920.jpg"
+   }
+  },
+  {
+   "id": "james-watt",
+   "name": "James Watt",
+   "from": "Steam engine",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 53,
+   "pv": 209467,
+   "img": "img/james-watt.webp",
+   "credit": {
+    "author": "Carl Frederik von Breda",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Watt_James_von_Breda.jpg"
+   }
+  },
+  {
+   "id": "dean-kamen",
+   "name": "Dean Kamen",
+   "from": "Segway",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 50,
+   "pv": 192175,
+   "img": "img/dean-kamen.webp",
+   "credit": {
+    "author": "US Department of Education",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dean_Kamen_at_MAGNET_in_Cleveland_-_2025_(cropped).jpg"
+   }
+  },
+  {
+   "id": "rudolf-diesel",
+   "name": "Rudolf Diesel",
+   "from": "Diesel engine",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 48,
+   "pv": 186667,
+   "img": "img/rudolf-diesel.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rudolf_Diesel2.jpg"
+   }
+  },
+  {
+   "id": "samuel-morse",
+   "name": "Samuel Morse",
+   "from": "Telegraph",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 46,
+   "pv": 172038,
+   "img": "img/samuel-morse.webp",
+   "credit": {
+    "author": "Mathew Benjamin Brady",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Samuel_Morse.jpg"
+   }
+  },
+  {
+   "id": "eli-whitney",
+   "name": "Eli Whitney",
+   "from": "Cotton gin",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 43,
+   "pv": 169604,
+   "img": "img/eli-whitney.webp",
+   "credit": {
+    "author": "Samuel Finley Breese Morse",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Eli_Whitney_by_Samuel_Finley_Breese_Morse_1822.jpeg"
+   }
+  },
+  {
+   "id": "john-logie-baird",
+   "name": "John Logie Baird",
+   "from": "Television",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 41,
+   "pv": 164045,
+   "img": "img/john-logie-baird.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Logie_Baird_in_1917.jpg"
+   }
+  },
+  {
+   "id": "igor-sikorsky",
+   "name": "Igor Sikorsky",
+   "from": "Helicopter",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 39,
+   "pv": 160893,
+   "img": "img/igor-sikorsky.webp",
+   "credit": {
+    "author": "SDASM Archives",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sikorsky,_Igor.jpg"
+   }
+  },
+  {
+   "id": "robert-h-goddard",
+   "name": "Robert H. Goddard",
+   "from": "Liquid-fuel rocket",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 36,
+   "pv": 159235,
+   "img": "img/robert-h-goddard.webp",
+   "credit": {
+    "author": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dr._Robert_H._Goddard_-_GPN-2002-000131.jpg"
+   }
+  },
+  {
+   "id": "philo-farnsworth",
+   "name": "Philo Farnsworth",
+   "from": "Electronic television",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 34,
+   "pv": 153377,
+   "img": "img/philo-farnsworth.webp",
+   "credit": {
+    "author": "Harris & Ewing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Philo_T_Farnsworth.jpg"
+   }
+  },
+  {
+   "id": "garrett-morgan",
+   "name": "Garrett Morgan",
+   "from": "Traffic signal",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 32,
+   "pv": 134292,
+   "img": "img/garrett-morgan.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Morgan5.jpg"
+   }
+  },
+  {
+   "id": "louis-braille",
+   "name": "Louis Braille",
+   "from": "Braille",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 29,
+   "pv": 130230,
+   "img": "img/louis-braille.webp",
+   "credit": {
+    "author": "Henri Thiriat",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Engraving_of_Louis_Braille_by_Henri_Thiriat_(cropped).jpg"
+   }
+  },
+  {
+   "id": "willis-carrier",
+   "name": "Willis Carrier",
+   "from": "Air conditioning",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 27,
+   "pv": 129215,
+   "img": "img/willis-carrier.webp",
+   "credit": {
+    "author": "100th Anniversary Press Kit - Carrier Corp",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Willis_Carrier_1915.jpg"
+   }
+  },
+  {
+   "id": "samuel-colt",
+   "name": "Samuel Colt",
+   "from": "Revolver",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 25,
+   "pv": 125062,
+   "img": "img/samuel-colt.webp",
+   "credit": {
+    "author": "John Chester Buttre (1821-1893)[1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Samuel_Colt_engraving_by_John_Chester_Buttre,_c1855.jpg"
+   }
+  },
+  {
+   "id": "george-eastman",
+   "name": "George Eastman",
+   "from": "Kodak camera",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 22,
+   "pv": 121407,
+   "img": "img/george-eastman.webp",
+   "credit": {
+    "author": "Published by B. C. Forbes Publishing Company, New York, 1917",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Eastman_7.jpg"
+   }
+  },
+  {
+   "id": "george-westinghouse",
+   "name": "George Westinghouse",
+   "from": "AC power",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 20,
+   "pv": 100290,
+   "img": "img/george-westinghouse.webp",
+   "credit": {
+    "author": "unknown (Life time: subject died before 1914)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Westinghouse_1884.png"
+   }
+  },
+  {
+   "id": "robert-fulton",
+   "name": "Robert Fulton",
+   "from": "Steamboat",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 18,
+   "pv": 95681,
+   "img": "img/robert-fulton.webp",
+   "credit": {
+    "author": "Benjamin West, American, 1738-1820. Robert Fulton, 1806, London, England. Oil on canvas, 36 1/4 × 28 1/4 in. (92.08 × 71.76 cm). Fenimore Art Museum, Cooperstown, N.Y., gift of Stephen C. Clark, N0218",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Fulton,_1806,_London,_England,_painted_by_Benjamin_West,_American,_1738-1820_Fenimore_Art_Museum,_Cooperstown,_N.Y._N0218.1961.jpg"
+   }
+  },
+  {
+   "id": "charles-goodyear",
+   "name": "Charles Goodyear",
+   "from": "Vulcanized rubber",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 15,
+   "pv": 73112,
+   "img": "img/charles-goodyear.webp",
+   "credit": {
+    "author": "Southworth & Hawes",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Southworth_and_Hawes_-_Charles_Goodyear_(Zeno_Fotografie)_crop.png"
+   }
+  },
+  {
+   "id": "elisha-otis",
+   "name": "Elisha Otis",
+   "from": "Safety elevator",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 13,
+   "pv": 72147,
+   "img": "img/elisha-otis.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Otis.jpg"
+   }
+  },
+  {
+   "id": "gottlieb-daimler",
+   "name": "Gottlieb Daimler",
+   "from": "Motor car",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 10,
+   "pv": 70179,
+   "img": "img/gottlieb-daimler.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gottlieb_Daimler_1890s2.jpg"
+   }
+  },
+  {
+   "id": "stephanie-kwolek",
+   "name": "Stephanie Kwolek",
+   "from": "Kevlar",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 8,
+   "pv": 63279,
+   "img": "img/stephanie-kwolek.webp",
+   "credit": {
+    "author": "Staff photographer",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephanie_Kwolek_1986.TIF"
+   }
+  },
+  {
+   "id": "mary-anderson",
+   "name": "Mary Anderson",
+   "from": "Windshield wiper",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 6,
+   "pv": 42227,
+   "img": "img/mary-anderson.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:MaryAnderson(inventora).jpg"
+   }
+  },
+  {
+   "id": "cyrus-mccormick",
+   "name": "Cyrus McCormick",
+   "from": "Mechanical reaper",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 3,
+   "pv": 40580,
+   "img": "img/cyrus-mccormick.webp",
+   "credit": {
+    "author": "Cyrus_McCormick_engraving.jpg: George Smillie[1] derivative work: — raeky (talk | edits)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cyrus_McCormick_engraving.png"
+   }
+  },
+  {
+   "id": "lee-de-forest",
+   "name": "Lee de Forest",
+   "from": "Vacuum tube",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "inventors"
+   ],
+   "fame": 1,
+   "pv": 33898,
+   "img": "img/lee-de-forest.webp",
+   "credit": {
+    "author": "The original uploader was Thbusch at English Wikipedia. Later versions were uploaded by Neutrality at en.wikipedia.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lee_De_Forest.jpg"
+   }
+  }
+ ]
+}

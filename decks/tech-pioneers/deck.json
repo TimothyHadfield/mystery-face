@@ -1,0 +1,827 @@
+{
+ "id": "tech-pioneers",
+ "title": "Tech Pioneers",
+ "cat": "science",
+ "people": [
+  {
+   "id": "jeff-bezos",
+   "name": "Jeff Bezos",
+   "from": "Amazon",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 100,
+   "pv": 11720551,
+   "img": "img/jeff-bezos.webp",
+   "credit": {
+    "author": "SECWAR",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_(3x4_cropped_on_Bezos_and_rotated).jpg"
+   }
+  },
+  {
+   "id": "elon-musk",
+   "name": "Elon Musk",
+   "from": "Tesla, SpaceX",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 98,
+   "pv": 8672342,
+   "img": "img/elon-musk.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elon_Musk_-_54820081119_(3x4_cropped,_Rule_of_thirds).jpg"
+   }
+  },
+  {
+   "id": "steve-jobs",
+   "name": "Steve Jobs",
+   "from": "Apple",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 95,
+   "pv": 4327939,
+   "img": "img/steve-jobs.webp",
+   "credit": {
+    "author": "Matthew Yohe",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Jobs_Headshot_2010_(cropped_6).jpg"
+   }
+  },
+  {
+   "id": "sam-altman",
+   "name": "Sam Altman",
+   "from": "OpenAI",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 93,
+   "pv": 4008911,
+   "img": "img/sam-altman.webp",
+   "credit": {
+    "author": "首相官邸ホームページ / Office of the Prime Minister of Japan Official Website",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Meeting_with_Masayoshi_Son_and_Sam_Altman_(February_3,_2025)_(3x4_cropped_on_Altman).jpg"
+   }
+  },
+  {
+   "id": "jensen-huang",
+   "name": "Jensen Huang",
+   "from": "Nvidia",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 90,
+   "pv": 2670763,
+   "img": "img/jensen-huang.webp",
+   "credit": {
+    "author": "Anderseidesvik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg"
+   }
+  },
+  {
+   "id": "larry-ellison",
+   "name": "Larry Ellison",
+   "from": "Oracle",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 88,
+   "pv": 2656543,
+   "img": "img/larry-ellison.webp",
+   "credit": {
+    "author": "Oracle PR Hartmann Studios",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Larry_Ellison_2016.png"
+   }
+  },
+  {
+   "id": "bill-gates",
+   "name": "Bill Gates",
+   "from": "Microsoft",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 85,
+   "pv": 2421229,
+   "img": "img/bill-gates.webp",
+   "credit": {
+    "author": "Bogdan Hoyaux / European Union",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg"
+   }
+  },
+  {
+   "id": "mark-zuckerberg",
+   "name": "Mark Zuckerberg",
+   "from": "Facebook",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 83,
+   "pv": 2304451,
+   "img": "img/mark-zuckerberg.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:P20260929DT-1655_(55561811540)_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "alan-turing",
+   "name": "Alan Turing",
+   "from": "Computer science",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 80,
+   "pv": 2153481,
+   "img": "img/alan-turing.webp",
+   "credit": {
+    "author": "Elliott & Fry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alan_turing_header.jpg"
+   }
+  },
+  {
+   "id": "tim-cook",
+   "name": "Tim Cook",
+   "from": "Apple",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 78,
+   "pv": 1379246,
+   "img": "img/tim-cook.webp",
+   "credit": {
+    "author": "Dati Bendo / European Union",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tim_Cook_in_New_York_City_-_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "hedy-lamarr",
+   "name": "Hedy Lamarr",
+   "from": "Wi-Fi forerunner",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 75,
+   "pv": 1371595,
+   "img": "img/hedy-lamarr.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hedy_Lamarr_Publicity_Photo_for_The_Heavenly_Body_1944.jpg"
+   }
+  },
+  {
+   "id": "sergey-brin",
+   "name": "Sergey Brin",
+   "from": "Google",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 73,
+   "pv": 1346205,
+   "img": "img/sergey-brin.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sergey_Brin_DC_Summit_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "larry-page",
+   "name": "Larry Page",
+   "from": "Google",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 70,
+   "pv": 1334144,
+   "img": "img/larry-page.webp",
+   "credit": {
+    "author": "Stansfield PL",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Larry_Page_in_the_European_Parliament,_17.06.2009_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "ada-lovelace",
+   "name": "Ada Lovelace",
+   "from": "First programmer",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 68,
+   "pv": 1218995,
+   "img": "img/ada-lovelace.webp",
+   "credit": {
+    "author": "Antoine Claudet",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png"
+   }
+  },
+  {
+   "id": "sundar-pichai",
+   "name": "Sundar Pichai",
+   "from": "Google",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 65,
+   "pv": 1179837,
+   "img": "img/sundar-pichai.webp",
+   "credit": {
+    "author": "Photographer: Lukasz Kobus (European Commission)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sundar_Pichai_-_2023_(cropped).jpg"
+   }
+  },
+  {
+   "id": "linus-torvalds",
+   "name": "Linus Torvalds",
+   "from": "Linux",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 63,
+   "pv": 1019604,
+   "img": "img/linus-torvalds.webp",
+   "credit": {
+    "author": "Krd (photo)Von Sprat (crop/extraction)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LinuxCon_Europe_Linus_Torvalds_03_(cropped).jpg"
+   }
+  },
+  {
+   "id": "steve-wozniak",
+   "name": "Steve Wozniak",
+   "from": "Apple",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 60,
+   "pv": 970546,
+   "img": "img/steve-wozniak.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Wozniak_by_Gage_Skidmore_3_(cropped).jpg"
+   }
+  },
+  {
+   "id": "paul-allen",
+   "name": "Paul Allen",
+   "from": "Microsoft",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 58,
+   "pv": 895392,
+   "img": "img/paul-allen.webp",
+   "credit": {
+    "author": "Miles Harris",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_G._Allen_(cropped).jpg"
+   }
+  },
+  {
+   "id": "geoffrey-hinton",
+   "name": "Geoffrey Hinton",
+   "from": "Neural networks",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 55,
+   "pv": 835325,
+   "img": "img/geoffrey-hinton.webp",
+   "credit": {
+    "author": "Cmichel67",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_in_2026.jpg"
+   }
+  },
+  {
+   "id": "tim-berners-lee",
+   "name": "Tim Berners-Lee",
+   "from": "World Wide Web",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 53,
+   "pv": 778343,
+   "img": "img/tim-berners-lee.webp",
+   "credit": {
+    "author": "Summit",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tim_Berners-Lee_at_the_2025_Web_Summit_(Cropped).jpg"
+   }
+  },
+  {
+   "id": "michael-dell",
+   "name": "Michael Dell",
+   "from": "Dell",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 50,
+   "pv": 760926,
+   "img": "img/michael-dell.webp",
+   "credit": {
+    "author": "Village Global",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Michael_Dell_(52548152888)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "john-von-neumann",
+   "name": "John von Neumann",
+   "from": "Computer architecture",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 48,
+   "pv": 739988,
+   "img": "img/john-von-neumann.webp",
+   "credit": {
+    "author": "LANL",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.gif"
+   }
+  },
+  {
+   "id": "satya-nadella",
+   "name": "Satya Nadella",
+   "from": "Microsoft",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 46,
+   "pv": 734693,
+   "img": "img/satya-nadella.webp",
+   "credit": {
+    "author": "Brian Smale and Microsoft",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MS-Exec-Nadella-Satya-2017-08-31-22_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jack-dorsey",
+   "name": "Jack Dorsey",
+   "from": "Twitter",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 43,
+   "pv": 648284,
+   "img": "img/jack-dorsey.webp",
+   "credit": {
+    "author": "Mark Warner",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jack_Dorsey_in_Washington_D.C._-_2018_(44538272181)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "claude-shannon",
+   "name": "Claude Shannon",
+   "from": "Information theory",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 41,
+   "pv": 529282,
+   "img": "img/claude-shannon.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:C.E._Shannon._Tekniska_museet_43069_(2x3_crop).jpg"
+   }
+  },
+  {
+   "id": "susan-wojcicki",
+   "name": "Susan Wojcicki",
+   "from": "YouTube",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 38,
+   "pv": 511643,
+   "img": "img/susan-wojcicki.webp",
+   "credit": {
+    "author": "TechCrunch",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Susan_Wojcicki_at_TechCrunch_Disrupt_SF_2013_(cropped).jpg"
+   }
+  },
+  {
+   "id": "charles-babbage",
+   "name": "Charles Babbage",
+   "from": "Difference engine",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 36,
+   "pv": 422264,
+   "img": "img/charles-babbage.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Babbage_-_1860.jpg"
+   }
+  },
+  {
+   "id": "reed-hastings",
+   "name": "Reed Hastings",
+   "from": "Netflix",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 33,
+   "pv": 411352,
+   "img": "img/reed-hastings.webp",
+   "credit": {
+    "author": "re:publica from Germany",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Re_publica_2015_-_Tag_1_(17381870955)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "grace-hopper",
+   "name": "Grace Hopper",
+   "from": "COBOL",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 31,
+   "pv": 339735,
+   "img": "img/grace-hopper.webp",
+   "credit": {
+    "author": "James S. Davis",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered)_head_and_shoulders_crop.jpg"
+   }
+  },
+  {
+   "id": "margaret-hamilton",
+   "name": "Margaret Hamilton",
+   "from": "Apollo software",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 28,
+   "pv": 321931,
+   "img": "img/margaret-hamilton.webp",
+   "credit": {
+    "author": "Daphne Weld Nichols",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_1995.jpg"
+   }
+  },
+  {
+   "id": "vint-cerf",
+   "name": "Vint Cerf",
+   "from": "Internet protocols",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 26,
+   "pv": 273927,
+   "img": "img/vint-cerf.webp",
+   "credit": {
+    "author": "Duncan.Hull",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dr_Vint_Cerf_ForMemRS_(cropped).jpg"
+   }
+  },
+  {
+   "id": "john-mccarthy",
+   "name": "John McCarthy",
+   "from": "Artificial intelligence",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 23,
+   "pv": 249221,
+   "img": "img/john-mccarthy.webp",
+   "credit": {
+    "author": "\"null0\"",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg"
+   }
+  },
+  {
+   "id": "guido-van-rossum",
+   "name": "Guido van Rossum",
+   "from": "Python",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 21,
+   "pv": 238637,
+   "img": "img/guido-van-rossum.webp",
+   "credit": {
+    "author": "Kushal Das",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Guido_van_Rossum_in_PyConUS24_(cropped).jpg"
+   }
+  },
+  {
+   "id": "dennis-ritchie",
+   "name": "Dennis Ritchie",
+   "from": "C language, Unix",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 18,
+   "pv": 215645,
+   "img": "img/dennis-ritchie.webp",
+   "credit": {
+    "author": "Denise Panyik-Dale",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dennis_Ritchie_2011.jpg"
+   }
+  },
+  {
+   "id": "ken-thompson",
+   "name": "Ken Thompson",
+   "from": "Unix",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 16,
+   "pv": 182290,
+   "img": "img/ken-thompson.webp",
+   "credit": {
+    "author": "A.C.Diller",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ken_Thompson,_2019.jpg"
+   }
+  },
+  {
+   "id": "gordon-moore",
+   "name": "Gordon Moore",
+   "from": "Intel, Moore's law",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 13,
+   "pv": 107225,
+   "img": "img/gordon-moore.webp",
+   "credit": {
+    "author": "Intel Free Press",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gordon_Moore_1978_(cropped).png"
+   }
+  },
+  {
+   "id": "robert-noyce",
+   "name": "Robert Noyce",
+   "from": "Intel, microchip",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 11,
+   "pv": 91954,
+   "img": "img/robert-noyce.webp",
+   "credit": {
+    "author": "Intel Free Press",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Noyce_with_Motherboard_1959.png"
+   }
+  },
+  {
+   "id": "konrad-zuse",
+   "name": "Konrad Zuse",
+   "from": "First programmable computer",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 8,
+   "pv": 88932,
+   "img": "img/konrad-zuse.webp",
+   "credit": {
+    "author": "Wolfgang Hunscher, Dortmund",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Konrad_Zuse_(1992).jpg"
+   }
+  },
+  {
+   "id": "douglas-engelbart",
+   "name": "Douglas Engelbart",
+   "from": "Computer mouse",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 6,
+   "pv": 62985,
+   "img": "img/douglas-engelbart.webp",
+   "credit": {
+    "author": "SRI International",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SRI_Douglas_Engelbart_1968_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jack-kilby",
+   "name": "Jack Kilby",
+   "from": "Integrated circuit",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 3,
+   "pv": 51232,
+   "img": "img/jack-kilby.webp",
+   "credit": {
+    "author": "James R. Biard",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jack_Kilby_(cropped).png"
+   }
+  },
+  {
+   "id": "bob-kahn",
+   "name": "Bob Kahn",
+   "from": "Internet protocols",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "science",
+    "tech-pioneers"
+   ],
+   "fame": 1,
+   "pv": 31001,
+   "img": "img/bob-kahn.webp",
+   "credit": {
+    "author": "Вени Марковски | Veni Markovski",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob_Kahn.jpg"
+   }
+  }
+ ]
+}

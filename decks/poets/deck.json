@@ -1,0 +1,807 @@
+{
+ "id": "poets",
+ "title": "Poets",
+ "cat": "books",
+ "people": [
+  {
+   "id": "william-shakespeare",
+   "name": "William Shakespeare",
+   "from": "Sonnets",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 100,
+   "pv": 4610944,
+   "img": "img/william-shakespeare.webp",
+   "credit": {
+    "author": "Attributed to John Taylor",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Shakespeare_by_John_Taylor,_edited.jpg"
+   }
+  },
+  {
+   "id": "edgar-allan-poe",
+   "name": "Edgar Allan Poe",
+   "from": "The Raven",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 97,
+   "pv": 1747278,
+   "img": "img/edgar-allan-poe.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author; Restored by Yann Forget and Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Edgar_Allan_Poe,_circa_1849,_restored,_squared_off.jpg"
+   }
+  },
+  {
+   "id": "oscar-wilde",
+   "name": "Oscar Wilde",
+   "from": "The Ballad of Reading Gaol",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 95,
+   "pv": 1678310,
+   "img": "img/oscar-wilde.webp",
+   "credit": {
+    "author": "Napoleon Sarony / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Oscar_Wilde_by_Napoleon_Sarony._Three-quarter-length_photograph,_seated_(cropped).jpg"
+   }
+  },
+  {
+   "id": "homer",
+   "name": "Homer",
+   "from": "The Iliad",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 92,
+   "pv": 1594866,
+   "img": "img/homer.webp",
+   "credit": {
+    "author": "Photograph by Mike Peel (www.mikepeel.net).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Homer_At_the_British_Museum_2024_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "sylvia-plath",
+   "name": "Sylvia Plath",
+   "from": "Ariel",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 90,
+   "pv": 1411754,
+   "img": "img/sylvia-plath.webp",
+   "credit": {
+    "author": "Giovanni Giovannetti/Grazia Neri",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sylvia_Plath.jpg"
+   }
+  },
+  {
+   "id": "lord-byron",
+   "name": "Lord Byron",
+   "from": "Don Juan",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 87,
+   "pv": 1189266,
+   "img": "img/lord-byron.webp",
+   "credit": {
+    "author": "Thomas Phillips",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Byron_1813_by_Phillips.jpg"
+   }
+  },
+  {
+   "id": "maya-angelou",
+   "name": "Maya Angelou",
+   "from": "Still I Rise",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 85,
+   "pv": 927676,
+   "img": "img/maya-angelou.webp",
+   "credit": {
+    "author": "Clinton Library",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Angelou_at_Clinton_inauguration_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "rabindranath-tagore",
+   "name": "Rabindranath Tagore",
+   "from": "Gitanjali",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 82,
+   "pv": 912110,
+   "img": "img/rabindranath-tagore.webp",
+   "credit": {
+    "author": "Georges Chevalier",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1926_Rabindrath_Tagore.jpg"
+   }
+  },
+  {
+   "id": "dante-alighieri",
+   "name": "Dante Alighieri",
+   "from": "Inferno",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 80,
+   "pv": 907204,
+   "img": "img/dante-alighieri.webp",
+   "credit": {
+    "author": "Wolfgang Sauber",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bargello_-_Kapelle_Fresko_2a.jpg"
+   }
+  },
+  {
+   "id": "rudyard-kipling",
+   "name": "Rudyard Kipling",
+   "from": "If—",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 77,
+   "pv": 880197,
+   "img": "img/rudyard-kipling.webp",
+   "credit": {
+    "author": "Elliott & Fry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rudyard_Kipling_(portrait).jpg"
+   }
+  },
+  {
+   "id": "percy-bysshe-shelley",
+   "name": "Percy Bysshe Shelley",
+   "from": "Ozymandias",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 75,
+   "pv": 855216,
+   "img": "img/percy-bysshe-shelley.webp",
+   "credit": {
+    "author": "After Amelia Curran",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Percy_Bysshe_Shelley_by_Alfred_Clint.jpg"
+   }
+  },
+  {
+   "id": "rumi",
+   "name": "Rumi",
+   "from": "Persian mystic",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 72,
+   "pv": 714579,
+   "img": "img/rumi.webp",
+   "credit": {
+    "author": "Hossein Behzad",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:%D9%85%D9%88%D9%84%D8%A7%D9%86%D8%A7_%D8%A7%D8%AB%D8%B1_%D8%AD%D8%B3%DB%8C%D9%86_%D8%A8%D9%87%D8%B2%D8%A7%D8%AF_(cropped).jpg"
+   }
+  },
+  {
+   "id": "t-s-eliot",
+   "name": "T. S. Eliot",
+   "from": "The Waste Land",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 70,
+   "pv": 667442,
+   "img": "img/t-s-eliot.webp",
+   "credit": {
+    "author": "Thomas Stearns Eliot with his sister and his cousin by Lady Ottoline Morrell.jpg: Lady Ottoline Morrell (1873–1938) derivative work: Octave.H",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_(1934).jpg"
+   }
+  },
+  {
+   "id": "emily-dickinson",
+   "name": "Emily Dickinson",
+   "from": "\"Hope\" is the thing with feathers",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 67,
+   "pv": 642147,
+   "img": "img/emily-dickinson.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Black-white_photograph_of_Emily_Dickinson2.png"
+   }
+  },
+  {
+   "id": "william-blake",
+   "name": "William Blake",
+   "from": "The Tyger",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 64,
+   "pv": 635706,
+   "img": "img/william-blake.webp",
+   "credit": {
+    "author": "Thomas Phillips",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Blake_by_Thomas_Phillips.jpg"
+   }
+  },
+  {
+   "id": "walt-whitman",
+   "name": "Walt Whitman",
+   "from": "Leaves of Grass",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 62,
+   "pv": 606885,
+   "img": "img/walt-whitman.webp",
+   "credit": {
+    "author": "George Collins Cox / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Walt_Whitman_-_George_Collins_Cox.jpg"
+   }
+  },
+  {
+   "id": "allen-ginsberg",
+   "name": "Allen Ginsberg",
+   "from": "Howl",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 59,
+   "pv": 603676,
+   "img": "img/allen-ginsberg.webp",
+   "credit": {
+    "author": "Hans van Dijk for Anefo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Allen_Ginsberg_1979_-_cropped.jpg"
+   }
+  },
+  {
+   "id": "shel-silverstein",
+   "name": "Shel Silverstein",
+   "from": "Where the Sidewalk Ends",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 57,
+   "pv": 600504,
+   "img": "img/shel-silverstein.webp",
+   "credit": {
+    "author": "Jerry Yulsman",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Shel_Silverstein_in_c._1964_by_Jerry_Yulsman.jpg"
+   }
+  },
+  {
+   "id": "ralph-waldo-emerson",
+   "name": "Ralph Waldo Emerson",
+   "from": "Concord Hymn",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 54,
+   "pv": 544986,
+   "img": "img/ralph-waldo-emerson.webp",
+   "credit": {
+    "author": "Josiah Johnson Hawes",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg"
+   }
+  },
+  {
+   "id": "robert-frost",
+   "name": "Robert Frost",
+   "from": "The Road Not Taken",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 52,
+   "pv": 495068,
+   "img": "img/robert-frost.webp",
+   "credit": {
+    "author": "Walter Albertin, World Telegram staff photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Frost_NYWTS_4.jpg"
+   }
+  },
+  {
+   "id": "w-b-yeats",
+   "name": "W. B. Yeats",
+   "from": "The Second Coming",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 49,
+   "pv": 475749,
+   "img": "img/w-b-yeats.webp",
+   "credit": {
+    "author": "George Charles Beresford",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Butler_Yeats_by_George_Charles_Beresford.jpg"
+   }
+  },
+  {
+   "id": "dylan-thomas",
+   "name": "Dylan Thomas",
+   "from": "Do Not Go Gentle",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 47,
+   "pv": 470623,
+   "img": "img/dylan-thomas.webp",
+   "credit": {
+    "author": "Nora Summers",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dylan_Thomas_icon_Blashford_1937.jpg"
+   }
+  },
+  {
+   "id": "langston-hughes",
+   "name": "Langston Hughes",
+   "from": "Harlem Renaissance",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 44,
+   "pv": 462379,
+   "img": "img/langston-hughes.webp",
+   "credit": {
+    "author": "Carl Van Vechten",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Langston_Hughes_by_Carl_Van_Vechten_Trim.jpg"
+   }
+  },
+  {
+   "id": "john-milton",
+   "name": "John Milton",
+   "from": "Paradise Lost",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 42,
+   "pv": 448580,
+   "img": "img/john-milton.webp",
+   "credit": {
+    "author": "anonymous",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John-milton.jpg"
+   }
+  },
+  {
+   "id": "sappho",
+   "name": "Sappho",
+   "from": "Ancient Greece",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 39,
+   "pv": 443640,
+   "img": "img/sappho.webp",
+   "credit": {
+    "author": "Marie-Lan Nguyen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bust_Sappho_Musei_Capitolini_MC1164_(cropped).jpg"
+   }
+  },
+  {
+   "id": "john-keats",
+   "name": "John Keats",
+   "from": "Ode to a Nightingale",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 37,
+   "pv": 431912,
+   "img": "img/john-keats.webp",
+   "credit": {
+    "author": "William Hilton",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Keats_by_William_Hilton_circa_1822_02.jpg"
+   }
+  },
+  {
+   "id": "william-wordsworth",
+   "name": "William Wordsworth",
+   "from": "Daffodils",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 34,
+   "pv": 413049,
+   "img": "img/william-wordsworth.webp",
+   "credit": {
+    "author": "Benjamin Haydon",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Wordsworth_on_Helvellyn_by_Benjamin_Robert_Haydon.jpg"
+   }
+  },
+  {
+   "id": "robert-burns",
+   "name": "Robert Burns",
+   "from": "Auld Lang Syne",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 31,
+   "pv": 367440,
+   "img": "img/robert-burns.webp",
+   "credit": {
+    "author": "Alexander Nasmyth",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:PG_1063Burns_Naysmith.jpg"
+   }
+  },
+  {
+   "id": "pablo-neruda",
+   "name": "Pablo Neruda",
+   "from": "Love sonnets, Chile",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 29,
+   "pv": 333607,
+   "img": "img/pablo-neruda.webp",
+   "credit": {
+    "author": "Unknown (Mondadori Publishers)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pablo_Neruda_1963.jpg"
+   }
+  },
+  {
+   "id": "alfred-lord-tennyson",
+   "name": "Alfred, Lord Tennyson",
+   "from": "The Charge of the Light Brigade",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 26,
+   "pv": 289447,
+   "img": "img/alfred-lord-tennyson.webp",
+   "credit": {
+    "author": "Elliott & Fry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alfred,_Lord_Tennyson_by_Elliott_%26_Fry_-_Original.jpg"
+   }
+  },
+  {
+   "id": "samuel-taylor-coleridge",
+   "name": "Samuel Taylor Coleridge",
+   "from": "The Rime of the Ancient Mariner",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 24,
+   "pv": 267300,
+   "img": "img/samuel-taylor-coleridge.webp",
+   "credit": {
+    "author": "Samuel Cousins / After Washington Allston",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Samuel_Taylor_Coleridge_at_age_42.jpg"
+   }
+  },
+  {
+   "id": "henry-wadsworth-longfellow",
+   "name": "Henry Wadsworth Longfellow",
+   "from": "Paul Revere's Ride",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 21,
+   "pv": 255707,
+   "img": "img/henry-wadsworth-longfellow.webp",
+   "credit": {
+    "author": "Julia Margaret Cameron",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Henry_Wadsworth_Longfellow,_photographed_by_Julia_Margaret_Cameron_in_1868.jpg"
+   }
+  },
+  {
+   "id": "elizabeth-barrett-browning",
+   "name": "Elizabeth Barrett Browning",
+   "from": "How Do I Love Thee?",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 19,
+   "pv": 230571,
+   "img": "img/elizabeth-barrett-browning.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Barrett_Browning.jpg"
+   }
+  },
+  {
+   "id": "wilfred-owen",
+   "name": "Wilfred Owen",
+   "from": "War poet",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 16,
+   "pv": 227856,
+   "img": "img/wilfred-owen.webp",
+   "credit": {
+    "author": "Allex Langié",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wilfred_Owen_%C3%A0_l%27Arrouaise.jpg"
+   }
+  },
+  {
+   "id": "amanda-gorman",
+   "name": "Amanda Gorman",
+   "from": "The Hill We Climb",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 14,
+   "pv": 208082,
+   "img": "img/amanda-gorman.webp",
+   "credit": {
+    "author": "Chairman of the Joint Chiefs of Staff from Washington D.C, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amanda_Gorman_2021_(3x4_crop).jpg"
+   }
+  },
+  {
+   "id": "seamus-heaney",
+   "name": "Seamus Heaney",
+   "from": "Irish Nobel poet",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 11,
+   "pv": 198772,
+   "img": "img/seamus-heaney.webp",
+   "credit": {
+    "author": "Gotfryd, Bernard, photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Seamus_Heaney,_Irish_poet,_brightened_(cropped).jpg"
+   }
+  },
+  {
+   "id": "e-e-cummings",
+   "name": "E. E. Cummings",
+   "from": "Playful punctuation",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 9,
+   "pv": 160400,
+   "img": "img/e-e-cummings.webp",
+   "credit": {
+    "author": "New York World-Telegram and the Sun staff photographer: Albertin, Walter, photographer.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:E._E._Cummings_NYWTS.jpg"
+   }
+  },
+  {
+   "id": "carl-sandburg",
+   "name": "Carl Sandburg",
+   "from": "Chicago",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 6,
+   "pv": 121562,
+   "img": "img/carl-sandburg.webp",
+   "credit": {
+    "author": "Al Ravenna, World Telegram staff photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Carl_Sandburg_NYWTS.jpg"
+   }
+  },
+  {
+   "id": "rupi-kaur",
+   "name": "Rupi Kaur",
+   "from": "Milk and Honey",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 4,
+   "pv": 99785,
+   "img": "img/rupi-kaur.webp",
+   "credit": {
+    "author": "Baljit Singh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rupi_Kaur_by_Baljit_Singh.jpg"
+   }
+  },
+  {
+   "id": "gwendolyn-brooks",
+   "name": "Gwendolyn Brooks",
+   "from": "Pulitzer poet",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "poets"
+   ],
+   "fame": 1,
+   "pv": 73063,
+   "img": "img/gwendolyn-brooks.webp",
+   "credit": {
+    "author": "ACME Newspictures",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gwendolyn_Brooks_ACME_1950.jpg"
+   }
+  }
+ ]
+}
