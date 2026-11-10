@@ -29,6 +29,7 @@ First version: online with a friend + same screen, celebrity decks (builder B, p
 - "If the game randomly shows a character that the suer doesn't know, have a "doesn't know" phase before the game starts where the users both selecte any characters they don't know and the game gives new ones."
 
 ## Traps
+- (2026-11-09) `renderGame` must never rebuild the ask dock while the same ask step is on screen: it keeps the old `.dock.askdock` (data-k = kind:code:round:log length:turn) and swaps only the rest, else every room update wipes and blurs `#qIn` (Tim's bug). `U.qDraft` restores typed text after a full redraw. `tests/two-browsers.mjs --deck` checks it; the default (custom-set) mode of that test is stale (stops at "pick"), and WebKit logs deck-image "access control checks" errors on reload (also on old code, pwa-check 17/18).
 - `online.js` caches the signed-in user: the app throws the online instance away when the account changes outside a room, and waits for `authStateReady` before making or joining a room.
 - online.js `start()` only works from the lobby, so rematches happen inside the engine (`again`).
 - `turnTimeoutSec: 0`: no computer takes over an away seat; if a computer ever sits in, it quits the game.
