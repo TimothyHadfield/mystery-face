@@ -1,0 +1,987 @@
+{
+ "id": "kpop-jpop",
+ "title": "K-pop & J-pop",
+ "cat": "music",
+ "people": [
+  {
+   "id": "lisa",
+   "name": "Lisa",
+   "from": "Blackpink",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 100,
+   "pv": 1963059,
+   "img": "img/lisa.webp",
+   "credit": {
+    "author": "티비텐",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20240314_Lisa_Manoban_07.jpg"
+   }
+  },
+  {
+   "id": "rose",
+   "name": "Rosé",
+   "from": "Blackpink",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 98,
+   "pv": 1376516,
+   "img": "img/rose.webp",
+   "credit": {
+    "author": "TV10",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blackpink_Ros%C3%A9_Rimowa_1.jpg"
+   }
+  },
+  {
+   "id": "v",
+   "name": "V",
+   "from": "BTS",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 96,
+   "pv": 1366181,
+   "img": "img/v.webp",
+   "credit": {
+    "author": "티비텐",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BTS%27s_V_20251004_04.jpg"
+   }
+  },
+  {
+   "id": "jennie",
+   "name": "Jennie",
+   "from": "Blackpink",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 94,
+   "pv": 1333048,
+   "img": "img/jennie.webp",
+   "credit": {
+    "author": "티비텐",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20260526_Jennie_Kim_04.jpg"
+   }
+  },
+  {
+   "id": "jungkook",
+   "name": "Jungkook",
+   "from": "BTS",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 92,
+   "pv": 1154547,
+   "img": "img/jungkook.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jung_Kook_of_BTS,_February_12,_2026_(1).png"
+   }
+  },
+  {
+   "id": "jisoo",
+   "name": "Jisoo",
+   "from": "Blackpink",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 90,
+   "pv": 1072053,
+   "img": "img/jisoo.webp",
+   "credit": {
+    "author": "티비텐 TV10",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jisoo_at_Boyfriend_on_Demand_press_conference_on_26022026_(12).png"
+   }
+  },
+  {
+   "id": "cha-eun-woo",
+   "name": "Cha Eun-woo",
+   "from": "Astro",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 88,
+   "pv": 918174,
+   "img": "img/cha-eun-woo.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cha_Eun-woo,_March_31,_2025.png"
+   }
+  },
+  {
+   "id": "iu",
+   "name": "IU",
+   "from": "Good Day",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 86,
+   "pv": 916687,
+   "img": "img/iu.webp",
+   "credit": {
+    "author": "티비텐",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:IU_at_the_Est%C3%A9e_Lauder_launch_event,_26_February_2026_(10).png"
+   }
+  },
+  {
+   "id": "joji",
+   "name": "Joji",
+   "from": "Glimpse of Us",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 84,
+   "pv": 718022,
+   "img": "img/joji.webp",
+   "credit": {
+    "author": "Samuel Kenwright",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joji_Performing_Live_in_2018_(cropped)_(better_quality).png"
+   }
+  },
+  {
+   "id": "rm",
+   "name": "RM",
+   "from": "BTS",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 81,
+   "pv": 712628,
+   "img": "img/rm.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RM_at_W_Korea_Love_Your_W,_November_2023.jpg"
+   }
+  },
+  {
+   "id": "jimin",
+   "name": "Jimin",
+   "from": "BTS",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 79,
+   "pv": 709716,
+   "img": "img/jimin.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇 TV10",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jimin_on_the_way_to_SBS_Radio,_31_March_2023_(2).jpg"
+   }
+  },
+  {
+   "id": "jin",
+   "name": "Jin",
+   "from": "BTS",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 77,
+   "pv": 675547,
+   "img": "img/jin.webp",
+   "credit": {
+    "author": "TV 10",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BTS_Jin_at_Maison_Fred,_13_March_2025_04.png"
+   }
+  },
+  {
+   "id": "suga",
+   "name": "Suga",
+   "from": "BTS",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 75,
+   "pv": 661114,
+   "img": "img/suga.webp",
+   "credit": {
+    "author": "Marie Claire Korea",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Suga_for_Valentino_and_Marie_Claire_Korea_06.jpg"
+   }
+  },
+  {
+   "id": "j-hope",
+   "name": "J-Hope",
+   "from": "BTS",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 73,
+   "pv": 572849,
+   "img": "img/j-hope.webp",
+   "credit": {
+    "author": "TV10",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:J-Hope_at_W_Korea_Breast_Cancer_Campaign,_15_October_2025.png"
+   }
+  },
+  {
+   "id": "felix",
+   "name": "Felix",
+   "from": "Stray Kids",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 71,
+   "pv": 536469,
+   "img": "img/felix.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stray_Kids%27_Felix_at_the_Happiz_brand_launch,_13_April_2026_(1).png"
+   }
+  },
+  {
+   "id": "g-dragon",
+   "name": "G-Dragon",
+   "from": "BigBang",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 69,
+   "pv": 523435,
+   "img": "img/g-dragon.webp",
+   "credit": {
+    "author": "티비텐 TV10",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:G-Dragon_in_October_2025.jpg"
+   }
+  },
+  {
+   "id": "rain",
+   "name": "Rain",
+   "from": "It's Raining",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 67,
+   "pv": 522014,
+   "img": "img/rain.webp",
+   "credit": {
+    "author": "TV10",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rain_(entertainer)_in_March_2026.png"
+   }
+  },
+  {
+   "id": "hikaru-utada",
+   "name": "Hikaru Utada",
+   "from": "First Love",
+   "gender": "x",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 65,
+   "pv": 423109,
+   "img": "img/hikaru-utada.webp",
+   "credit": {
+    "author": "Goldnrush Podcast",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hikaru_Utada_at_Spotify_Tokyo.png"
+   }
+  },
+  {
+   "id": "bang-chan",
+   "name": "Bang Chan",
+   "from": "Stray Kids",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 63,
+   "pv": 422973,
+   "img": "img/bang-chan.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bang_Chan_of_Stray_Kids,_February_23,_2026_(1).png"
+   }
+  },
+  {
+   "id": "jackson-wang",
+   "name": "Jackson Wang",
+   "from": "Got7",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 61,
+   "pv": 403729,
+   "img": "img/jackson-wang.webp",
+   "credit": {
+    "author": "Narasi",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackson_Wang_interviewed_for_POVJOV_02.png"
+   }
+  },
+  {
+   "id": "karina",
+   "name": "Karina",
+   "from": "Aespa",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 59,
+   "pv": 400000,
+   "img": "img/karina.webp",
+   "credit": {
+    "author": "티비텐 TV10",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Karina_at_Gimpo_Airport_on_April_22,_2026_03.png"
+   }
+  },
+  {
+   "id": "jang-won-young",
+   "name": "Jang Won-young",
+   "from": "Ive",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 57,
+   "pv": 391155,
+   "img": "img/jang-won-young.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jang_Won-young_at_the_Bulgari_Eclettica_event_in_Seoul,_May_12,_2026_(1).png"
+   }
+  },
+  {
+   "id": "psy",
+   "name": "Psy",
+   "from": "Gangnam Style",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 55,
+   "pv": 389077,
+   "img": "img/psy.webp",
+   "credit": {
+    "author": "Korea.net / Korean Culture and Information Service (Jeon Han)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:PSY_EMTV_logo_27_(8198008711).jpg"
+   }
+  },
+  {
+   "id": "hwasa",
+   "name": "Hwasa",
+   "from": "Mamamoo",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 53,
+   "pv": 358315,
+   "img": "img/hwasa.webp",
+   "credit": {
+    "author": "TV10",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hwasa_in_January_2026.png"
+   }
+  },
+  {
+   "id": "hyunjin",
+   "name": "Hyunjin",
+   "from": "Stray Kids",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 50,
+   "pv": 301466,
+   "img": "img/hyunjin.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hyunjin_of_Stray_Kids_at_the_40th_Golden_Disc_Awards,_January_10,_2026_(1).png"
+   }
+  },
+  {
+   "id": "winter",
+   "name": "Winter",
+   "from": "Aespa",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 48,
+   "pv": 294961,
+   "img": "img/winter.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Winter_at_Incheon_Airport_on_July_10,_2026.png"
+   }
+  },
+  {
+   "id": "taeyang",
+   "name": "Taeyang",
+   "from": "BigBang",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 46,
+   "pv": 289190,
+   "img": "img/taeyang.webp",
+   "credit": {
+    "author": "File:Taeyang - MADE THE MOVIE Premiere.jpg: GOM derivative work: Alexataylor07 (talk)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taeyang_-_MADE_THE_MOVIE_Premiere_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tzuyu",
+   "name": "Tzuyu",
+   "from": "Twice",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 44,
+   "pv": 280798,
+   "img": "img/tzuyu.webp",
+   "credit": {
+    "author": "David Lee from Redmond, WA, USA",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Twice_in_Seattle_2026_-_TWICE._Tzuyu_(55045325500)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jihyo",
+   "name": "Jihyo",
+   "from": "Twice",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 42,
+   "pv": 274454,
+   "img": "img/jihyo.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:082726_Jihyo_at_The_Whoo_photocall_05.jpg"
+   }
+  },
+  {
+   "id": "hyuna",
+   "name": "Hyuna",
+   "from": "Bubble Pop!",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 40,
+   "pv": 243278,
+   "img": "img/hyuna.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20230720_Kim_HyunA_in_July_2023_01_(cropped).png"
+   }
+  },
+  {
+   "id": "sana",
+   "name": "Sana",
+   "from": "Twice",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 38,
+   "pv": 236495,
+   "img": "img/sana.webp",
+   "credit": {
+    "author": "TV10",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sana_Minatozaki_in_April_2026.png"
+   }
+  },
+  {
+   "id": "boa",
+   "name": "BoA",
+   "from": "No.1",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 36,
+   "pv": 235233,
+   "img": "img/boa.webp",
+   "credit": {
+    "author": "dispatchsns",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:180417_%EB%B3%B4%EC%95%84_03_(cropped)_02.png"
+   }
+  },
+  {
+   "id": "mark-lee",
+   "name": "Mark Lee",
+   "from": "NCT",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 34,
+   "pv": 220917,
+   "img": "img/mark-lee.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mark_Lee_in_2026.png"
+   }
+  },
+  {
+   "id": "nayeon",
+   "name": "Nayeon",
+   "from": "Twice",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 32,
+   "pv": 213899,
+   "img": "img/nayeon.webp",
+   "credit": {
+    "author": "티비텐 TV10",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nayeon_251120_1.jpg"
+   }
+  },
+  {
+   "id": "taeyeon",
+   "name": "Taeyeon",
+   "from": "Girls' Generation",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 30,
+   "pv": 206600,
+   "img": "img/taeyeon.webp",
+   "credit": {
+    "author": "Spes Sublimitas from Korea, Republic Of",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:250307_Taeyeon_@_-The_Tense-_in_Seoul_Day_1_(54371295597)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ayumi-hamasaki",
+   "name": "Ayumi Hamasaki",
+   "from": "J-pop",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 28,
+   "pv": 179801,
+   "img": "img/ayumi-hamasaki.webp",
+   "credit": {
+    "author": "噓噓",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ayumi_Hamasaki_%E6%B5%9C%E5%B4%8E%E3%81%82%E3%82%86%E3%81%BF_(2024).png"
+   }
+  },
+  {
+   "id": "yoshiki",
+   "name": "Yoshiki",
+   "from": "X Japan",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 26,
+   "pv": 172957,
+   "img": "img/yoshiki.webp",
+   "credit": {
+    "author": "Jimmy Pepe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Yoshiki_at_Hollywood_TCL_Theatre_on_January_9,_2024.png"
+   }
+  },
+  {
+   "id": "gackt",
+   "name": "Gackt",
+   "from": "J-pop",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 24,
+   "pv": 151207,
+   "img": "img/gackt.webp",
+   "credit": {
+    "author": "Dick Thomas Johnson from Tokyo, Japan",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Kong-Skull_Island_Japan_Premiere_Red_Carpet-GACKT_(cropped).jpg"
+   }
+  },
+  {
+   "id": "baekhyun",
+   "name": "Baekhyun",
+   "from": "EXO",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 22,
+   "pv": 145389,
+   "img": "img/baekhyun.webp",
+   "credit": {
+    "author": "DonutB_56",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%ED%95%98%EC%96%80%EB%A8%B8%EB%A6%AC_%EB%B0%B1%ED%98%84_3.jpg"
+   }
+  },
+  {
+   "id": "kai",
+   "name": "Kai",
+   "from": "EXO",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 20,
+   "pv": 140696,
+   "img": "img/kai.webp",
+   "credit": {
+    "author": "Marie Claire Korea",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marie_Claire_Korea_Mterview_Kai.png"
+   }
+  },
+  {
+   "id": "fujii-kaze",
+   "name": "Fujii Kaze",
+   "from": "Shinunoga E-Wa",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 18,
+   "pv": 138662,
+   "img": "img/fujii-kaze.webp",
+   "credit": {
+    "author": "KazeQal",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fujii_Kaze_performing_during_Best_Of_Fujii_Kaze_2020-2024_Asia_Tour_in_Axiata_Arena_Kuala_Lumpur_(cropped)_(2).jpg"
+   }
+  },
+  {
+   "id": "jessi",
+   "name": "Jessi",
+   "from": "Nunu Nana",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 15,
+   "pv": 138430,
+   "img": "img/jessi.webp",
+   "credit": {
+    "author": "Like a Fool",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jessi_at_the_2016_KBS_Entertainment_Awards.jpg"
+   }
+  },
+  {
+   "id": "namie-amuro",
+   "name": "Namie Amuro",
+   "from": "J-pop",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 13,
+   "pv": 120120,
+   "img": "img/namie-amuro.webp",
+   "credit": {
+    "author": "Avex Group Holdings, Inc.",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:25th_Anniversary_Namie_Amuro_Live.jpg"
+   }
+  },
+  {
+   "id": "sunmi",
+   "name": "Sunmi",
+   "from": "Gashina",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 11,
+   "pv": 111108,
+   "img": "img/sunmi.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20230720_Lee_Sunmi_on_July_2023_01.jpg"
+   }
+  },
+  {
+   "id": "chungha",
+   "name": "Chungha",
+   "from": "Gotta Go",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 9,
+   "pv": 106367,
+   "img": "img/chungha.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇 TV10",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CHUNG_HA_Shark_Ninja_PhotoCall_1.jpg"
+   }
+  },
+  {
+   "id": "kyary-pamyu-pamyu",
+   "name": "Kyary Pamyu Pamyu",
+   "from": "PonPonPon",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 7,
+   "pv": 87294,
+   "img": "img/kyary-pamyu-pamyu.webp",
+   "credit": {
+    "author": "Georges Seguin (Okki)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyary_Pamyu_Pamyu_20120707_Japan_Expo_01.jpg"
+   }
+  },
+  {
+   "id": "chanyeol",
+   "name": "Chanyeol",
+   "from": "EXO",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 5,
+   "pv": 82465,
+   "img": "img/chanyeol.webp",
+   "credit": {
+    "author": "ggbye1127",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chanyeol_during_the_Exo_Planet_5_%E2%80%93_Exploration_concert_on_December_2019.jpg"
+   }
+  },
+  {
+   "id": "hyde",
+   "name": "Hyde",
+   "from": "L'Arc-en-Ciel",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 3,
+   "pv": 78682,
+   "img": "img/hyde.webp",
+   "credit": {
+    "author": "May S. Young from Metro NYC, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hyde_in_2013.jpg"
+   }
+  },
+  {
+   "id": "taeyong",
+   "name": "Taeyong",
+   "from": "NCT 127",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "kpop-jpop"
+   ],
+   "fame": 1,
+   "pv": 72170,
+   "img": "img/taeyong.webp",
+   "credit": {
+    "author": "K-POPIT 케이팝잇",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20231006_Taeyong_(NCT).jpg"
+   }
+  }
+ ]
+}

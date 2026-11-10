@@ -1,0 +1,947 @@
+{
+ "id": "classic-hollywood",
+ "title": "Classic Hollywood",
+ "cat": "film",
+ "people": [
+  {
+   "id": "marilyn-monroe",
+   "name": "Marilyn Monroe",
+   "from": "Some Like It Hot",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 100,
+   "pv": 3761795,
+   "img": "img/marilyn-monroe.webp",
+   "credit": {
+    "author": "Bert Parry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Monroecirca1953.jpg"
+   }
+  },
+  {
+   "id": "judy-garland",
+   "name": "Judy Garland",
+   "from": "The Wizard of Oz",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 98,
+   "pv": 3280615,
+   "img": "img/judy-garland.webp",
+   "credit": {
+    "author": "Eric Carpenter for en:Metro-Goldwyn-Mayer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Judy_Garland_publicity_photo.png"
+   }
+  },
+  {
+   "id": "elizabeth-taylor",
+   "name": "Elizabeth Taylor",
+   "from": "Cleopatra",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 96,
+   "pv": 3080909,
+   "img": "img/elizabeth-taylor.webp",
+   "credit": {
+    "author": "Studio publicity still",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Taylor,_Elizabeth_posed.jpg"
+   }
+  },
+  {
+   "id": "charlie-chaplin",
+   "name": "Charlie Chaplin",
+   "from": "The Kid",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 94,
+   "pv": 2917593,
+   "img": "img/charlie-chaplin.webp",
+   "credit": {
+    "author": "Strauss-Peyton Studio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlie_Chaplin_portrait_Getty_1739411952.jpg"
+   }
+  },
+  {
+   "id": "marlon-brando",
+   "name": "Marlon Brando",
+   "from": "The Godfather",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 91,
+   "pv": 2775779,
+   "img": "img/marlon-brando.webp",
+   "credit": {
+    "author": "None visible/Paramount Pictures",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Marlon_Brando_publicity_for_One-Eyed_Jacks.png"
+   }
+  },
+  {
+   "id": "audrey-hepburn",
+   "name": "Audrey Hepburn",
+   "from": "Breakfast at Tiffany's",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 89,
+   "pv": 2755619,
+   "img": "img/audrey-hepburn.webp",
+   "credit": {
+    "author": "Bud Fraker (1916-2002) [1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:AudreyKHepburn.jpg"
+   }
+  },
+  {
+   "id": "james-stewart",
+   "name": "James Stewart",
+   "from": "It's a Wonderful Life",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 87,
+   "pv": 2202610,
+   "img": "img/james-stewart.webp",
+   "credit": {
+    "author": "Studio publicity still",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Annex_-_Stewart,_James_(Call_Northside_777)_01.jpg"
+   }
+  },
+  {
+   "id": "paul-newman",
+   "name": "Paul Newman",
+   "from": "Butch Cassidy",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 85,
+   "pv": 2148762,
+   "img": "img/paul-newman.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author, dedicated to Bettmann Archive",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Newman_-_1958.jpg"
+   }
+  },
+  {
+   "id": "john-wayne",
+   "name": "John Wayne",
+   "from": "True Grit",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 83,
+   "pv": 2073232,
+   "img": "img/john-wayne.webp",
+   "credit": {
+    "author": "Unknown photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Wayne_-_still_portrait.jpg"
+   }
+  },
+  {
+   "id": "steve-mcqueen",
+   "name": "Steve McQueen",
+   "from": "The Great Escape",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 81,
+   "pv": 1952677,
+   "img": "img/steve-mcqueen.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve-McQueen-1968_(cropped).jpg"
+   }
+  },
+  {
+   "id": "grace-kelly",
+   "name": "Grace Kelly",
+   "from": "Rear Window",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 78,
+   "pv": 1933154,
+   "img": "img/grace-kelly.webp",
+   "credit": {
+    "author": "Los Angeles Times",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grace_Kelly_1956_(cropped).jpg"
+   }
+  },
+  {
+   "id": "cary-grant",
+   "name": "Cary Grant",
+   "from": "North by Northwest",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 76,
+   "pv": 1847219,
+   "img": "img/cary-grant.webp",
+   "credit": {
+    "author": "Uncredited studio photographer for Columbia Pictures",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cary-grant-lead.jpg"
+   }
+  },
+  {
+   "id": "natalie-wood",
+   "name": "Natalie Wood",
+   "from": "West Side Story",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 74,
+   "pv": 1767880,
+   "img": "img/natalie-wood.webp",
+   "credit": {
+    "author": "Allan warren",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Natalie_Wood_Allan_Warren.jpg"
+   }
+  },
+  {
+   "id": "kirk-douglas",
+   "name": "Kirk Douglas",
+   "from": "Spartacus",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 72,
+   "pv": 1762097,
+   "img": "img/kirk-douglas.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Studio_publicity_Kirk_Douglas.jpg"
+   }
+  },
+  {
+   "id": "katharine-hepburn",
+   "name": "Katharine Hepburn",
+   "from": "The Philadelphia Story",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 70,
+   "pv": 1636401,
+   "img": "img/katharine-hepburn.webp",
+   "credit": {
+    "author": "Metro-Goldwyn-Mayer Studios; Restored by Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Katharine_Hepburn_publicity_photograph.jpg"
+   }
+  },
+  {
+   "id": "shirley-temple",
+   "name": "Shirley Temple",
+   "from": "Curly Top",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 68,
+   "pv": 1516724,
+   "img": "img/shirley-temple.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Shirleytemple.jpg"
+   }
+  },
+  {
+   "id": "sophia-loren",
+   "name": "Sophia Loren",
+   "from": "Two Women",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 66,
+   "pv": 1489518,
+   "img": "img/sophia-loren.webp",
+   "credit": {
+    "author": "Nuță Lucian from Cluj-Napoca, Romania",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gala_de_%C3%8Enchidere_TIFF_2016_(27490660976)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "james-dean",
+   "name": "James Dean",
+   "from": "Rebel Without a Cause",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 63,
+   "pv": 1481757,
+   "img": "img/james-dean.webp",
+   "credit": {
+    "author": "In-house publicity still",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Dean_in_Rebel_Without_a_Cause_(HQ).jpg"
+   }
+  },
+  {
+   "id": "gregory-peck",
+   "name": "Gregory Peck",
+   "from": "To Kill a Mockingbird",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 61,
+   "pv": 1460226,
+   "img": "img/gregory-peck.webp",
+   "credit": {
+    "author": "Studio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gregory_Peck_1948.jpg"
+   }
+  },
+  {
+   "id": "humphrey-bogart",
+   "name": "Humphrey Bogart",
+   "from": "Casablanca",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 59,
+   "pv": 1411695,
+   "img": "img/humphrey-bogart.webp",
+   "credit": {
+    "author": "Elmer Fryer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Humphrey_Bogart_by_Elmer_Fryer_(cropped).jpg"
+   }
+  },
+  {
+   "id": "clark-gable",
+   "name": "Clark Gable",
+   "from": "Gone with the Wind",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 57,
+   "pv": 1368452,
+   "img": "img/clark-gable.webp",
+   "credit": {
+    "author": "New York Daily News Color Studio (likely Harry Warnecke)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Clark_Gable_1949.jpg"
+   }
+  },
+  {
+   "id": "lauren-bacall",
+   "name": "Lauren Bacall",
+   "from": "To Have and Have Not",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 55,
+   "pv": 1333267,
+   "img": "img/lauren-bacall.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lauren_Bacall_1945_press_photo.jpg"
+   }
+  },
+  {
+   "id": "rita-hayworth",
+   "name": "Rita Hayworth",
+   "from": "Gilda",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 53,
+   "pv": 1329127,
+   "img": "img/rita-hayworth.webp",
+   "credit": {
+    "author": "Robert Coburn",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hayworth-Gilda-1946-Color.jpg"
+   }
+  },
+  {
+   "id": "debbie-reynolds",
+   "name": "Debbie Reynolds",
+   "from": "Singin' in the Rain",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 50,
+   "pv": 1322846,
+   "img": "img/debbie-reynolds.webp",
+   "credit": {
+    "author": "Bob Beerman and Bert Parry (page 39)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Debbie_Reynolds_by_Beerman_Parry,_1954.jpg"
+   }
+  },
+  {
+   "id": "peter-o-toole",
+   "name": "Peter O'Toole",
+   "from": "Lawrence of Arabia",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 48,
+   "pv": 1301841,
+   "img": "img/peter-o-toole.webp",
+   "credit": {
+    "author": "unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:David_di_Donatello_1970_Loren_O%27Toole_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ava-gardner",
+   "name": "Ava Gardner",
+   "from": "The Killers",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 46,
+   "pv": 1288329,
+   "img": "img/ava-gardner.webp",
+   "credit": {
+    "author": "Unknown photographerUnknown photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ava-Gardner-in-Stockholm-1954-391767746470.jpg"
+   }
+  },
+  {
+   "id": "ingrid-bergman",
+   "name": "Ingrid Bergman",
+   "from": "Casablanca",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 44,
+   "pv": 1266819,
+   "img": "img/ingrid-bergman.webp",
+   "credit": {
+    "author": "Whitey Schafer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ingrid_Bergman_by_Whitey_Schafer_1940.jpg"
+   }
+  },
+  {
+   "id": "vivien-leigh",
+   "name": "Vivien Leigh",
+   "from": "Gone with the Wind",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 42,
+   "pv": 1230533,
+   "img": "img/vivien-leigh.webp",
+   "credit": {
+    "author": "Fawcett Publications",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Vivien_Leigh_Scarlet.jpg"
+   }
+  },
+  {
+   "id": "bette-davis",
+   "name": "Bette Davis",
+   "from": "All About Eve",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 40,
+   "pv": 1201942,
+   "img": "img/bette-davis.webp",
+   "credit": {
+    "author": "Studio Publicity",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:BetteDavis1935.jpg"
+   }
+  },
+  {
+   "id": "henry-fonda",
+   "name": "Henry Fonda",
+   "from": "12 Angry Men",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 38,
+   "pv": 1190717,
+   "img": "img/henry-fonda.webp",
+   "credit": {
+    "author": "Studio publicity still",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Henry_Fonda_in_Warlock.jpg"
+   }
+  },
+  {
+   "id": "joan-crawford",
+   "name": "Joan Crawford",
+   "from": "Mildred Pierce",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 35,
+   "pv": 1137045,
+   "img": "img/joan-crawford.webp",
+   "credit": {
+    "author": "Studio Publicity",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JCrawford39.jpg"
+   }
+  },
+  {
+   "id": "rock-hudson",
+   "name": "Rock Hudson",
+   "from": "Giant",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 33,
+   "pv": 1133025,
+   "img": "img/rock-hudson.webp",
+   "credit": {
+    "author": "Universal Pictures/ Photographer not credited [1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rock_Hudson_in_1954.jpg"
+   }
+  },
+  {
+   "id": "fred-astaire",
+   "name": "Fred Astaire",
+   "from": "Top Hat",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 31,
+   "pv": 1066258,
+   "img": "img/fred-astaire.webp",
+   "credit": {
+    "author": "Studio publicity still",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Astaire,_Fred_-_Never_Get_Rich.jpg"
+   }
+  },
+  {
+   "id": "doris-day",
+   "name": "Doris Day",
+   "from": "Pillow Talk",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 29,
+   "pv": 1031418,
+   "img": "img/doris-day.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:DorisDay-midnightlace-full.jpg"
+   }
+  },
+  {
+   "id": "sidney-poitier",
+   "name": "Sidney Poitier",
+   "from": "In the Heat of the Night",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 27,
+   "pv": 965377,
+   "img": "img/sidney-poitier.webp",
+   "credit": {
+    "author": "Unknown photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sidney_Poitier_1968.jpg"
+   }
+  },
+  {
+   "id": "burt-lancaster",
+   "name": "Burt Lancaster",
+   "from": "From Here to Eternity",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 25,
+   "pv": 857435,
+   "img": "img/burt-lancaster.webp",
+   "credit": {
+    "author": "Hal Wallis Productions",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Burt_Lancaster_-_publicity_1947.JPG"
+   }
+  },
+  {
+   "id": "kim-novak",
+   "name": "Kim Novak",
+   "from": "Vertigo",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 23,
+   "pv": 844771,
+   "img": "img/kim-novak.webp",
+   "credit": {
+    "author": "Wilderstraum",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kim_Novak_%E2%80%94_2014.jpg"
+   }
+  },
+  {
+   "id": "marlene-dietrich",
+   "name": "Marlene Dietrich",
+   "from": "Shanghai Express",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 20,
+   "pv": 824980,
+   "img": "img/marlene-dietrich.webp",
+   "credit": {
+    "author": "Marlene_Dietrich_in_No_Highway_(1951).jpg: Twentieth Century Fox derivative work: TonyPolar (talk)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Marlene_Dietrich_in_No_Highway_(1951)_(Cropped).png"
+   }
+  },
+  {
+   "id": "jean-harlow",
+   "name": "Jean Harlow",
+   "from": "Red Dust",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 18,
+   "pv": 779239,
+   "img": "img/jean-harlow.webp",
+   "credit": {
+    "author": "studio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Harlow-publicity.jpg"
+   }
+  },
+  {
+   "id": "gene-kelly",
+   "name": "Gene Kelly",
+   "from": "Singin' in the Rain",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 16,
+   "pv": 771492,
+   "img": "img/gene-kelly.webp",
+   "credit": {
+    "author": "Metro-Goldwyn-Mayer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Committee_for_Free_Spain._Portrait_of_M._Woolf_and_Jack_(possibly_Captain_Jack_White)_Taken_for_the_Committee._(Includes_photo_of_film_star_Gene_Kelly)._Sep_1946_Slide_2_Trim_Edit.png"
+   }
+  },
+  {
+   "id": "spencer-tracy",
+   "name": "Spencer Tracy",
+   "from": "Inherit the Wind",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 14,
+   "pv": 734173,
+   "img": "img/spencer-tracy.webp",
+   "credit": {
+    "author": "Metro-Goldwyn-Mayer (work for hire)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Spencer_tracy_state_of_the_union.jpg"
+   }
+  },
+  {
+   "id": "buster-keaton",
+   "name": "Buster Keaton",
+   "from": "The General",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 12,
+   "pv": 698915,
+   "img": "img/buster-keaton.webp",
+   "credit": {
+    "author": "Bain News Service",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Busterkeaton_edit.jpg"
+   }
+  },
+  {
+   "id": "greta-garbo",
+   "name": "Greta Garbo",
+   "from": "Ninotchka",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 10,
+   "pv": 687763,
+   "img": "img/greta-garbo.webp",
+   "credit": {
+    "author": "Metro-Goldwyn-Mayer (work for hire)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Garbo_in_Inspiration.jpg"
+   }
+  },
+  {
+   "id": "gene-tierney",
+   "name": "Gene Tierney",
+   "from": "Laura",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 7,
+   "pv": 683433,
+   "img": "img/gene-tierney.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Studio_publicity_Gene_Tierney.jpg"
+   }
+  },
+  {
+   "id": "lana-turner",
+   "name": "Lana Turner",
+   "from": "The Postman Always Rings Twice",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 5,
+   "pv": 642142,
+   "img": "img/lana-turner.webp",
+   "credit": {
+    "author": "MGM",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lana_Turner_1940s_publicity_portrait.jpg"
+   }
+  },
+  {
+   "id": "dorothy-dandridge",
+   "name": "Dorothy Dandridge",
+   "from": "Carmen Jones",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 3,
+   "pv": 426156,
+   "img": "img/dorothy-dandridge.webp",
+   "credit": {
+    "author": "Studio Publicity",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:DorothyD.jpg"
+   }
+  },
+  {
+   "id": "hattie-mcdaniel",
+   "name": "Hattie McDaniel",
+   "from": "Gone with the Wind",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "classic-hollywood"
+   ],
+   "fame": 1,
+   "pv": 341884,
+   "img": "img/hattie-mcdaniel.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Studio_publicity_Hattie_McDaniel.jpg"
+   }
+  }
+ ]
+}

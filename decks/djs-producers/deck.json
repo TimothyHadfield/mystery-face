@@ -1,0 +1,967 @@
+{
+ "id": "djs-producers",
+ "title": "DJs & Producers",
+ "cat": "music",
+ "people": [
+  {
+   "id": "jack-antonoff",
+   "name": "Jack Antonoff",
+   "from": "Bleachers",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 100,
+   "pv": 2632587,
+   "img": "img/jack-antonoff.webp",
+   "credit": {
+    "author": "Alex Lockett",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jack_Antonoff_at_Electric_Lady_Studios_2023_(cropped)_(cropped2).jpg"
+   }
+  },
+  {
+   "id": "quincy-jones",
+   "name": "Quincy Jones",
+   "from": "Thriller",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 98,
+   "pv": 2048290,
+   "img": "img/quincy-jones.webp",
+   "credit": {
+    "author": "Los Angeles Times",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Quincy_jones_1980_(cropped).jpg"
+   }
+  },
+  {
+   "id": "avicii",
+   "name": "Avicii",
+   "from": "Wake Me Up",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 96,
+   "pv": 2016768,
+   "img": "img/avicii.webp",
+   "credit": {
+    "author": "The Perfect World Foundation",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Avicii_2014_003cr.jpg"
+   }
+  },
+  {
+   "id": "benny-blanco",
+   "name": "Benny Blanco",
+   "from": "producer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 94,
+   "pv": 2013384,
+   "img": "img/benny-blanco.webp",
+   "credit": {
+    "author": "NickRewind",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Benny_Blanco_KCA_2025.png"
+   }
+  },
+  {
+   "id": "rick-rubin",
+   "name": "Rick Rubin",
+   "from": "Def Jam",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 92,
+   "pv": 1180649,
+   "img": "img/rick-rubin.webp",
+   "credit": {
+    "author": "jasontheexploder at https://www.flickr.com/photos/26251139@N00/",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RickRubinSept09.jpg"
+   }
+  },
+  {
+   "id": "pharrell-williams",
+   "name": "Pharrell Williams",
+   "from": "The Neptunes",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 89,
+   "pv": 1161012,
+   "img": "img/pharrell-williams.webp",
+   "credit": {
+    "author": "Web Summit/Ramsey Cardy/Sportsfile",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pharrell_Williams_2024_(54133384149).jpg"
+   }
+  },
+  {
+   "id": "mark-ronson",
+   "name": "Mark Ronson",
+   "from": "Uptown Funk",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 87,
+   "pv": 1057280,
+   "img": "img/mark-ronson.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TaylorHawkTributeWemb030922_(117_of_281)_(52333465977)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "finneas-o-connell",
+   "name": "Finneas O'Connell",
+   "from": "producer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 85,
+   "pv": 904116,
+   "img": "img/finneas-o-connell.webp",
+   "credit": {
+    "author": "Jorge Jaramillo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Finneas_-_Tribeca_2026_-_3.jpg"
+   }
+  },
+  {
+   "id": "dj-khaled",
+   "name": "DJ Khaled",
+   "from": "All I Do Is Win",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 83,
+   "pv": 862692,
+   "img": "img/dj-khaled.webp",
+   "credit": {
+    "author": "Dapper Lou / Sony Music Entertainment",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DJ_KHALED_Press_exclusive_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "fatboy-slim",
+   "name": "Fatboy Slim",
+   "from": "Praise You",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 81,
+   "pv": 774086,
+   "img": "img/fatboy-slim.webp",
+   "credit": {
+    "author": "Selbymay",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:P2N2023FatboySlim_3.jpg"
+   }
+  },
+  {
+   "id": "diplo",
+   "name": "Diplo",
+   "from": "Major Lazer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 79,
+   "pv": 734320,
+   "img": "img/diplo.webp",
+   "credit": {
+    "author": "mtheory LLC",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Diplo_2014_Press_Photo_(cropped).jpg"
+   }
+  },
+  {
+   "id": "calvin-harris",
+   "name": "Calvin Harris",
+   "from": "Summer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 77,
+   "pv": 717857,
+   "img": "img/calvin-harris.webp",
+   "credit": {
+    "author": "Sony BMG",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Calvin_Harris_-_Press_Image_1.tif"
+   }
+  },
+  {
+   "id": "max-martin",
+   "name": "Max Martin",
+   "from": "songwriter-producer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 75,
+   "pv": 715600,
+   "img": "img/max-martin.webp",
+   "credit": {
+    "author": "Philip Romano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MaxMartin.jpg"
+   }
+  },
+  {
+   "id": "fred-again",
+   "name": "Fred Again",
+   "from": "Delilah",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 73,
+   "pv": 648967,
+   "img": "img/fred-again.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:FredAgainCPBowl100825-21_(cropped).jpg"
+   }
+  },
+  {
+   "id": "moby",
+   "name": "Moby",
+   "from": "Porcelain",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 71,
+   "pv": 647948,
+   "img": "img/moby.webp",
+   "credit": {
+    "author": "Quejaytee",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Moby_at_the_2026_Montreux_Jazz_Festival_09.jpg"
+   }
+  },
+  {
+   "id": "skrillex",
+   "name": "Skrillex",
+   "from": "Bangarang",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 68,
+   "pv": 618381,
+   "img": "img/skrillex.webp",
+   "credit": {
+    "author": "Carl Pocket",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:From_First_To_Last_-_Emo_Nite_2_-_PH_Carl_Pocket_(cropped).jpg"
+   }
+  },
+  {
+   "id": "david-guetta",
+   "name": "David Guetta",
+   "from": "Titanium",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 66,
+   "pv": 601326,
+   "img": "img/david-guetta.webp",
+   "credit": {
+    "author": "Junta de Andalucía",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_22_(David_Guetta).jpg"
+   }
+  },
+  {
+   "id": "steve-aoki",
+   "name": "Steve Aoki",
+   "from": "Cake Face",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 64,
+   "pv": 536480,
+   "img": "img/steve-aoki.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Aoki_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "timbaland",
+   "name": "Timbaland",
+   "from": "producer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 62,
+   "pv": 497650,
+   "img": "img/timbaland.webp",
+   "credit": {
+    "author": "Collision Conf",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Timbaland_(47903248821)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "nile-rodgers",
+   "name": "Nile Rodgers",
+   "from": "Chic",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 60,
+   "pv": 489357,
+   "img": "img/nile-rodgers.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NileRodgers-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "giorgio-moroder",
+   "name": "Giorgio Moroder",
+   "from": "I Feel Love",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 58,
+   "pv": 462581,
+   "img": "img/giorgio-moroder.webp",
+   "credit": {
+    "author": "Andy Witchger",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Giorgio_Moroder_-_First_Avenue_Minneapolis_-_The_Current_(44776142702).jpg"
+   }
+  },
+  {
+   "id": "marshmello",
+   "name": "Marshmello",
+   "from": "Happier",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 56,
+   "pv": 380590,
+   "img": "img/marshmello.webp",
+   "credit": {
+    "author": "Stefan Brending (2eight)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Open_Beatz_-_Marshmello_-_by_2eight_-DSC_4448.jpg"
+   }
+  },
+  {
+   "id": "deadmau5",
+   "name": "Deadmau5",
+   "from": "Ghosts 'n' Stuff",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 54,
+   "pv": 369467,
+   "img": "img/deadmau5.webp",
+   "credit": {
+    "author": "GoatLordServant",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Deadmau5_Belknap_Park_2023_(cropped).jpg"
+   }
+  },
+  {
+   "id": "zedd",
+   "name": "Zedd",
+   "from": "Clarity",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 52,
+   "pv": 307736,
+   "img": "img/zedd.webp",
+   "credit": {
+    "author": "Mingle Media TV",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zedd_2014_Divergent_Premiere_(cropped).jpg"
+   }
+  },
+  {
+   "id": "peggy-gou",
+   "name": "Peggy Gou",
+   "from": "(It Goes Like) Nanana",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 49,
+   "pv": 305873,
+   "img": "img/peggy-gou.webp",
+   "credit": {
+    "author": "DAVIDE GUIDONE",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Peggy_Gou_2019.jpg"
+   }
+  },
+  {
+   "id": "alan-walker",
+   "name": "Alan Walker",
+   "from": "Faded",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 47,
+   "pv": 295352,
+   "img": "img/alan-walker.webp",
+   "credit": {
+    "author": "AMERICAN PATRIOT NEWS",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alan_Walker_visits_Spangdahlem.jpg"
+   }
+  },
+  {
+   "id": "martin-garrix",
+   "name": "Martin Garrix",
+   "from": "Animals",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 45,
+   "pv": 280810,
+   "img": "img/martin-garrix.webp",
+   "credit": {
+    "author": "Moiyeah",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Martin_Garrix_-_Superbloom_Festival_2023_-_DSC2689_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tiesto",
+   "name": "Tiësto",
+   "from": "The Business",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 43,
+   "pv": 275431,
+   "img": "img/tiesto.webp",
+   "credit": {
+    "author": "InvadingInvader",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tiesto_LIV_Las_Vegas.png"
+   }
+  },
+  {
+   "id": "metro-boomin",
+   "name": "Metro Boomin",
+   "from": "Heroes & Villains",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 41,
+   "pv": 241833,
+   "img": "img/metro-boomin.webp",
+   "credit": {
+    "author": "HOTSPOTATL",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Metro_Boomin_November_2025.jpg"
+   }
+  },
+  {
+   "id": "kygo",
+   "name": "Kygo",
+   "from": "Firestone",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 39,
+   "pv": 199826,
+   "img": "img/kygo.webp",
+   "credit": {
+    "author": "CloudEleven567",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wolfgang_Boss_presented_a_multi-platinum-gold_award_to_Kygo._(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "charlotte-de-witte",
+   "name": "Charlotte de Witte",
+   "from": "techno",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 37,
+   "pv": 193436,
+   "img": "img/charlotte-de-witte.webp",
+   "credit": {
+    "author": "Alan Overbeek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlotte_de_witte-1513626416.jpg"
+   }
+  },
+  {
+   "id": "porter-robinson",
+   "name": "Porter Robinson",
+   "from": "Language",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 35,
+   "pv": 191501,
+   "img": "img/porter-robinson.webp",
+   "credit": {
+    "author": "Chan4est",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Porter_Robinson_SMILE!_-D_listening_party_(cropped).png"
+   }
+  },
+  {
+   "id": "armin-van-buuren",
+   "name": "Armin van Buuren",
+   "from": "A State of Trance",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 33,
+   "pv": 177357,
+   "img": "img/armin-van-buuren.webp",
+   "credit": {
+    "author": "Web Summit/Sam Barnes/Sportsfile",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Armin_van_Buuren,_November_2025_(cropped).jpg"
+   }
+  },
+  {
+   "id": "carl-cox",
+   "name": "Carl Cox",
+   "from": "techno",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 30,
+   "pv": 160284,
+   "img": "img/carl-cox.webp",
+   "credit": {
+    "author": "Sergey Kozak",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carl_Cox_@_ADE_2012.jpg"
+   }
+  },
+  {
+   "id": "kaytranada",
+   "name": "Kaytranada",
+   "from": "99.9%",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 28,
+   "pv": 153320,
+   "img": "img/kaytranada.webp",
+   "credit": {
+    "author": "The Come Up Show",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Kaytranada_2016_September.jpg"
+   }
+  },
+  {
+   "id": "mike-will-made-it",
+   "name": "Mike Will Made It",
+   "from": "producer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 26,
+   "pv": 152240,
+   "img": "img/mike-will-made-it.webp",
+   "credit": {
+    "author": "HOTSPOTATL",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mike_Will_Made_It.png"
+   }
+  },
+  {
+   "id": "afrojack",
+   "name": "Afrojack",
+   "from": "Take Over Control",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 24,
+   "pv": 144019,
+   "img": "img/afrojack.webp",
+   "credit": {
+    "author": "Amnesia Ibiza",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Afrojack_2012.jpg"
+   }
+  },
+  {
+   "id": "mustard",
+   "name": "Mustard",
+   "from": "Not Like Us",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 22,
+   "pv": 128918,
+   "img": "img/mustard.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DJ_Mustard_2019_by_Glenn_Francis_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kenny-beats",
+   "name": "Kenny Beats",
+   "from": "producer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 20,
+   "pv": 118630,
+   "img": "img/kenny-beats.webp",
+   "credit": {
+    "author": "glenjamn3",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kenny_Beats_at_Hard_Summer_2019.png"
+   }
+  },
+  {
+   "id": "illenium",
+   "name": "Illenium",
+   "from": "Good Things Fall Apart",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 18,
+   "pv": 117753,
+   "img": "img/illenium.webp",
+   "credit": {
+    "author": "sm_1992",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ILLENIUM_In_Las_Vegas_(cropped).png"
+   }
+  },
+  {
+   "id": "paul-oakenfold",
+   "name": "Paul Oakenfold",
+   "from": "Ready Steady Go",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 16,
+   "pv": 117397,
+   "img": "img/paul-oakenfold.webp",
+   "credit": {
+    "author": "Tony Nungaray",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Oakenfold.jpg"
+   }
+  },
+  {
+   "id": "flume",
+   "name": "Flume",
+   "from": "Never Be Like You",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 14,
+   "pv": 106271,
+   "img": "img/flume.webp",
+   "credit": {
+    "author": "Neon Tommy",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flume_2014_(14864514016)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kaskade",
+   "name": "Kaskade",
+   "from": "Atmosphere",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 12,
+   "pv": 96966,
+   "img": "img/kaskade.webp",
+   "credit": {
+    "author": "Collision Conf",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kaskade_(34323227671)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "alesso",
+   "name": "Alesso",
+   "from": "Heroes",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 9,
+   "pv": 96256,
+   "img": "img/alesso.webp",
+   "credit": {
+    "author": "David Bell Def Jam",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alesso_profile.png"
+   }
+  },
+  {
+   "id": "axwell",
+   "name": "Axwell",
+   "from": "Swedish House Mafia",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 7,
+   "pv": 95889,
+   "img": "img/axwell.webp",
+   "credit": {
+    "author": "Jazmin Million",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DJ_Axwell_-_Melbourn_Central_2007_(cropped).jpg"
+   }
+  },
+  {
+   "id": "steve-angello",
+   "name": "Steve Angello",
+   "from": "Swedish House Mafia",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 5,
+   "pv": 78547,
+   "img": "img/steve-angello.webp",
+   "credit": {
+    "author": "Web Summit",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Angello_2015.jpg"
+   }
+  },
+  {
+   "id": "dillon-francis",
+   "name": "Dillon Francis",
+   "from": "Get Low",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 3,
+   "pv": 63386,
+   "img": "img/dillon-francis.webp",
+   "credit": {
+    "author": "Benchmobllc",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DillonFrancisPressPhoto2.jpg"
+   }
+  },
+  {
+   "id": "hardwell",
+   "name": "Hardwell",
+   "from": "Spaceman",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "djs-producers"
+   ],
+   "fame": 1,
+   "pv": 48816,
+   "img": "img/hardwell.webp",
+   "credit": {
+    "author": "Rudgrcom",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DJ_Hardwell_performing_at_Parookaville_2024.jpg"
+   }
+  }
+ ]
+}

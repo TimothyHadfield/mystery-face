@@ -1,0 +1,867 @@
+{
+ "id": "reality-tv",
+ "title": "Reality TV Stars",
+ "cat": "film",
+ "people": [
+  {
+   "id": "kylie-jenner",
+   "name": "Kylie Jenner",
+   "from": "Keeping Up with the Kardashians",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 100,
+   "pv": 3990017,
+   "img": "img/kylie-jenner.webp",
+   "credit": {
+    "author": "Hayu",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kylie_Jenner2_(cropped).png"
+   }
+  },
+  {
+   "id": "kim-kardashian",
+   "name": "Kim Kardashian",
+   "from": "Keeping Up with the Kardashians",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 98,
+   "pv": 3647600,
+   "img": "img/kim-kardashian.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kim_Kardashian_West_2014.jpg"
+   }
+  },
+  {
+   "id": "kris-jenner",
+   "name": "Kris Jenner",
+   "from": "Keeping Up with the Kardashians",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 95,
+   "pv": 2310826,
+   "img": "img/kris-jenner.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kris_Jenner_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "kendall-jenner",
+   "name": "Kendall Jenner",
+   "from": "Keeping Up with the Kardashians",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 93,
+   "pv": 2310020,
+   "img": "img/kendall-jenner.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kendall_Jenner_Venice_Film_Festival_2_(cropped).jpg"
+   }
+  },
+  {
+   "id": "paris-hilton",
+   "name": "Paris Hilton",
+   "from": "The Simple Life",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 91,
+   "pv": 1863971,
+   "img": "img/paris-hilton.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_Hilton_at_WWD_Style_Awards_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kelly-clarkson",
+   "name": "Kelly Clarkson",
+   "from": "American Idol",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 88,
+   "pv": 1631613,
+   "img": "img/kelly-clarkson.webp",
+   "credit": {
+    "author": "Stephen Schester/Carlin Leslie",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kelly_Clarkson_2018_DoD_Warrior_Games_Opening_Ceremony_14_-_Cropped_01.jpg"
+   }
+  },
+  {
+   "id": "kourtney-kardashian",
+   "name": "Kourtney Kardashian",
+   "from": "Keeping Up with the Kardashians",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 86,
+   "pv": 1402940,
+   "img": "img/kourtney-kardashian.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kourtney_Kardashian_2_2009.jpg"
+   }
+  },
+  {
+   "id": "kelly-osbourne",
+   "name": "Kelly Osbourne",
+   "from": "The Osbournes",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 84,
+   "pv": 1346562,
+   "img": "img/kelly-osbourne.webp",
+   "credit": {
+    "author": "Eva Rinaldi from Sydney Australia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Australias_got_Talent_Judges_(25625771952)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "khloe-kardashian",
+   "name": "Khloé Kardashian",
+   "from": "Keeping Up with the Kardashians",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 81,
+   "pv": 1262429,
+   "img": "img/khloe-kardashian.webp",
+   "credit": {
+    "author": "Eric Longden",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Khloe_Kardashian_Glamour_2.png"
+   }
+  },
+  {
+   "id": "lisa-rinna",
+   "name": "Lisa Rinna",
+   "from": "Real Housewives",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 79,
+   "pv": 1252400,
+   "img": "img/lisa-rinna.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lisa_Rinna_at_WWD_Style_Awards_2026.jpg"
+   }
+  },
+  {
+   "id": "jennifer-hudson",
+   "name": "Jennifer Hudson",
+   "from": "American Idol",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 76,
+   "pv": 1249581,
+   "img": "img/jennifer-hudson.webp",
+   "credit": {
+    "author": "Kolby Ari",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Hudson_at_MVAAFF_2025_(cropped).jpg"
+   }
+  },
+  {
+   "id": "heidi-montag",
+   "name": "Heidi Montag",
+   "from": "The Hills",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 74,
+   "pv": 1164786,
+   "img": "img/heidi-montag.webp",
+   "credit": {
+    "author": "Alexandrajenna4",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HeidiMontagMasterpiece.jpg"
+   }
+  },
+  {
+   "id": "carrie-underwood",
+   "name": "Carrie Underwood",
+   "from": "American Idol",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 72,
+   "pv": 1123008,
+   "img": "img/carrie-underwood.webp",
+   "credit": {
+    "author": "Cosmopolitan UK",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:191125_Carrie_Underwood_at_the_2019_American_Music_Awards_(cropped).png"
+   }
+  },
+  {
+   "id": "nicole-richie",
+   "name": "Nicole Richie",
+   "from": "The Simple Life",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 69,
+   "pv": 1027052,
+   "img": "img/nicole-richie.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicole_Richie_2012.jpg"
+   }
+  },
+  {
+   "id": "bindi-irwin",
+   "name": "Bindi Irwin",
+   "from": "Crikey! It's the Irwins",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 67,
+   "pv": 990673,
+   "img": "img/bindi-irwin.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bindi_Irwin_in_June_2013.jpg"
+   }
+  },
+  {
+   "id": "kyle-richards",
+   "name": "Kyle Richards",
+   "from": "Real Housewives of Beverly Hills",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 65,
+   "pv": 982938,
+   "img": "img/kyle-richards.webp",
+   "credit": {
+    "author": "The Real Housewives of Drag Race",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SC-Kyle-Richards-Off-Plat-copy-1.webp"
+   }
+  },
+  {
+   "id": "bear-grylls",
+   "name": "Bear Grylls",
+   "from": "Man vs. Wild",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 62,
+   "pv": 980875,
+   "img": "img/bear-grylls.webp",
+   "credit": {
+    "author": "Jamie Gray from England www.jamiegrayphotography.co.uk",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Coventry_Scouts_groups_have_a_visit_from_Bear_Grylls.jpg"
+   }
+  },
+  {
+   "id": "parvati-shallow",
+   "name": "Parvati Shallow",
+   "from": "Survivor",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 60,
+   "pv": 960019,
+   "img": "img/parvati-shallow.webp",
+   "credit": {
+    "author": "Troy and/or Donna Kuretich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parvati_Shallow_001.jpg"
+   }
+  },
+  {
+   "id": "rupaul",
+   "name": "RuPaul",
+   "from": "RuPaul's Drag Race",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 58,
+   "pv": 956861,
+   "img": "img/rupaul.webp",
+   "credit": {
+    "author": "Government of California",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_California_Hall_of_Fame_Ceremony_01_(cropped2).jpg"
+   }
+  },
+  {
+   "id": "andy-cohen",
+   "name": "Andy Cohen",
+   "from": "Watch What Happens Live",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 55,
+   "pv": 871650,
+   "img": "img/andy-cohen.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AndyCohen-byPhilipRomano2.jpg"
+   }
+  },
+  {
+   "id": "ariana-madix",
+   "name": "Ariana Madix",
+   "from": "Vanderpump Rules",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 53,
+   "pv": 759027,
+   "img": "img/ariana-madix.webp",
+   "credit": {
+    "author": "Ben Symons/Peacock",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:NUP_207595_03820.jpg"
+   }
+  },
+  {
+   "id": "lisa-vanderpump",
+   "name": "Lisa Vanderpump",
+   "from": "Vanderpump Rules",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 50,
+   "pv": 741259,
+   "img": "img/lisa-vanderpump.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lisa_Vanderpump_2014.jpg"
+   }
+  },
+  {
+   "id": "jonathan-scott",
+   "name": "Jonathan Scott",
+   "from": "Property Brothers",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 48,
+   "pv": 736655,
+   "img": "img/jonathan-scott.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jonathan_Scott_at_53rd_Saturn_Awards_2026.jpg"
+   }
+  },
+  {
+   "id": "bethenny-frankel",
+   "name": "Bethenny Frankel",
+   "from": "Real Housewives of New York",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 46,
+   "pv": 554446,
+   "img": "img/bethenny-frankel.webp",
+   "credit": {
+    "author": "Gina Hughes at http://www.techiediva.com/",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BethennyFrankelVAOCApr09.jpg"
+   }
+  },
+  {
+   "id": "lauren-conrad",
+   "name": "Lauren Conrad",
+   "from": "The Hills",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 43,
+   "pv": 547223,
+   "img": "img/lauren-conrad.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lauren_Conrad_2009.jpg"
+   }
+  },
+  {
+   "id": "jesse-palmer",
+   "name": "Jesse Palmer",
+   "from": "The Bachelor",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 41,
+   "pv": 535238,
+   "img": "img/jesse-palmer.webp",
+   "credit": {
+    "author": "Clorox Toilet Products",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jesse_Palmer.jpg"
+   }
+  },
+  {
+   "id": "snooki",
+   "name": "Snooki",
+   "from": "Jersey Shore",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 39,
+   "pv": 489443,
+   "img": "img/snooki.webp",
+   "credit": {
+    "author": "Snooki_in_Chicago.jpg: Jeff Lewis (chicagophotoshop.com) derivative work: Tabercil (talk)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Snooki_in_Chicago_adj.jpg"
+   }
+  },
+  {
+   "id": "boston-rob",
+   "name": "Boston Rob",
+   "from": "Survivor",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 36,
+   "pv": 468233,
+   "img": "img/boston-rob.webp",
+   "credit": {
+    "author": "Survivor Fans Pod",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Boston_Rob_Mariano.png"
+   }
+  },
+  {
+   "id": "robert-irwin",
+   "name": "Robert Irwin",
+   "from": "Crikey! It's the Irwins",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 34,
+   "pv": 455106,
+   "img": "img/robert-irwin.webp",
+   "credit": {
+    "author": "World Travel & Tourism Council",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WTTC_-_2JB09838_(54056477863).jpg"
+   }
+  },
+  {
+   "id": "kandi-burruss",
+   "name": "Kandi Burruss",
+   "from": "Real Housewives of Atlanta",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 32,
+   "pv": 453557,
+   "img": "img/kandi-burruss.webp",
+   "credit": {
+    "author": "Cdharris28",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kandi-kklive.png"
+   }
+  },
+  {
+   "id": "drew-scott",
+   "name": "Drew Scott",
+   "from": "Property Brothers",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 29,
+   "pv": 423456,
+   "img": "img/drew-scott.webp",
+   "credit": {
+    "author": "Christopher Michel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Drew_Scott_04_(cropped).jpg"
+   }
+  },
+  {
+   "id": "joanna-gaines",
+   "name": "Joanna Gaines",
+   "from": "Fixer Upper",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 27,
+   "pv": 415744,
+   "img": "img/joanna-gaines.webp",
+   "credit": {
+    "author": "Mily Fitzgerald",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joanna_Gaines_filming_Drew_Barrymore_Show_at_Magnolia.jpg"
+   }
+  },
+  {
+   "id": "karamo-brown",
+   "name": "Karamo Brown",
+   "from": "Queer Eye",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 25,
+   "pv": 383459,
+   "img": "img/karamo-brown.webp",
+   "credit": {
+    "author": "Deb Haaland",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Karamo_Brown_in_2019.jpg"
+   }
+  },
+  {
+   "id": "erika-jayne",
+   "name": "Erika Jayne",
+   "from": "Real Housewives of Beverly Hills",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 22,
+   "pv": 328262,
+   "img": "img/erika-jayne.webp",
+   "credit": {
+    "author": "Keith Dobbs",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Erika_Jayne_in_2019.jpg"
+   }
+  },
+  {
+   "id": "jenni-farley",
+   "name": "Jenni Farley",
+   "from": "Jersey Shore",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 20,
+   "pv": 299973,
+   "img": "img/jenni-farley.webp",
+   "credit": {
+    "author": "Matt Red",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JWoww_2010.jpg"
+   }
+  },
+  {
+   "id": "nene-leakes",
+   "name": "NeNe Leakes",
+   "from": "Real Housewives of Atlanta",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 18,
+   "pv": 296342,
+   "img": "img/nene-leakes.webp",
+   "credit": {
+    "author": "iDominick",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NeNe_Leakes_at_PaleyFest_2013.jpg"
+   }
+  },
+  {
+   "id": "antoni-porowski",
+   "name": "Antoni Porowski",
+   "from": "Queer Eye",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 15,
+   "pv": 241650,
+   "img": "img/antoni-porowski.webp",
+   "credit": {
+    "author": "MTV UK",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Antoni_Porowski,_2018-06_on_MTV_International.jpg"
+   }
+  },
+  {
+   "id": "fantasia-barrino",
+   "name": "Fantasia Barrino",
+   "from": "American Idol",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 13,
+   "pv": 237306,
+   "img": "img/fantasia-barrino.webp",
+   "credit": {
+    "author": "Jyle Dupuis from Canada",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fantasia_Barrino.jpg"
+   }
+  },
+  {
+   "id": "tan-france",
+   "name": "Tan France",
+   "from": "Queer Eye",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 10,
+   "pv": 234060,
+   "img": "img/tan-france.webp",
+   "credit": {
+    "author": "MTV International",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tan_France,_2018-06_on_MTV_International.jpg"
+   }
+  },
+  {
+   "id": "jonathan-van-ness",
+   "name": "Jonathan Van Ness",
+   "from": "Queer Eye",
+   "gender": "x",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 8,
+   "pv": 184594,
+   "img": "img/jonathan-van-ness.webp",
+   "credit": {
+    "author": "Cntrl+Alt+Delete",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jonathan_Van_Ness,_2018-04.jpg"
+   }
+  },
+  {
+   "id": "chip-gaines",
+   "name": "Chip Gaines",
+   "from": "Fixer Upper",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 6,
+   "pv": 181566,
+   "img": "img/chip-gaines.webp",
+   "credit": {
+    "author": "Mily Fitzgerald",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chip_Gaines_filming_Drew_Barrymore_Show_at_Magnolia.jpg"
+   }
+  },
+  {
+   "id": "bobby-berk",
+   "name": "Bobby Berk",
+   "from": "Queer Eye",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 3,
+   "pv": 95760,
+   "img": "img/bobby-berk.webp",
+   "credit": {
+    "author": "Jeff Wilson",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bobby_Berk.jpg"
+   }
+  },
+  {
+   "id": "trista-sutter",
+   "name": "Trista Sutter",
+   "from": "The Bachelorette",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "reality-tv"
+   ],
+   "fame": 1,
+   "pv": 89300,
+   "img": "img/trista-sutter.webp",
+   "credit": {
+    "author": "RealTVfilms",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trista_Rehn_Sutter_on_RealTVfilms.jpg"
+   }
+  }
+ ]
+}

@@ -1,0 +1,927 @@
+{
+ "id": "celebrity-chefs",
+ "title": "Chefs",
+ "cat": "internet",
+ "people": [
+  {
+   "id": "anthony-bourdain",
+   "name": "Anthony Bourdain",
+   "from": "Parts Unknown",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 100,
+   "pv": 4196173,
+   "img": "img/anthony-bourdain.webp",
+   "credit": {
+    "author": "Peabody Awards",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Bourdain_Peabody_2014b.jpg"
+   }
+  },
+  {
+   "id": "gordon-ramsay",
+   "name": "Gordon Ramsay",
+   "from": "Hell's Kitchen",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 98,
+   "pv": 2785329,
+   "img": "img/gordon-ramsay.webp",
+   "credit": {
+    "author": "Dave Pullig",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gordon_Ramsay_(cropped).jpg"
+   }
+  },
+  {
+   "id": "nigella-lawson",
+   "name": "Nigella Lawson",
+   "from": "Nigella Bites",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 96,
+   "pv": 1811256,
+   "img": "img/nigella-lawson.webp",
+   "credit": {
+    "author": "British Library",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nigella_Lawson_4_in_2020.jpg"
+   }
+  },
+  {
+   "id": "martha-stewart",
+   "name": "Martha Stewart",
+   "from": "Martha Stewart Living",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 93,
+   "pv": 1337396,
+   "img": "img/martha-stewart.webp",
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Martha_Stewart_(48926315347)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "padma-lakshmi",
+   "name": "Padma Lakshmi",
+   "from": "Top Chef",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 91,
+   "pv": 1088559,
+   "img": "img/padma-lakshmi.webp",
+   "credit": {
+    "author": "National Book Foundation",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Padma_Lakshmi_2022_03.jpg"
+   }
+  },
+  {
+   "id": "marco-pierre-white",
+   "name": "Marco Pierre White",
+   "from": "Harveys",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 89,
+   "pv": 1007775,
+   "img": "img/marco-pierre-white.webp",
+   "credit": {
+    "author": "Dorota Trupp",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MarcoPierreWhite.jpg"
+   }
+  },
+  {
+   "id": "valerie-bertinelli",
+   "name": "Valerie Bertinelli",
+   "from": "Valerie's Home Cooking",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 87,
+   "pv": 965800,
+   "img": "img/valerie-bertinelli.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Valerie_Bertinelli_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "prue-leith",
+   "name": "Prue Leith",
+   "from": "The Great British Bake Off",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 85,
+   "pv": 860215,
+   "img": "img/prue-leith.webp",
+   "credit": {
+    "author": "Edwardx",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Prue_Leith_20181206.jpg"
+   }
+  },
+  {
+   "id": "julia-child",
+   "name": "Julia Child",
+   "from": "The French Chef",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 82,
+   "pv": 857164,
+   "img": "img/julia-child.webp",
+   "credit": {
+    "author": "Lynn Gilbert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Julia_Child_portrait_by_%C2%A9Lynn_Gilbert,_1978.jpg"
+   }
+  },
+  {
+   "id": "guy-fieri",
+   "name": "Guy Fieri",
+   "from": "Diners, Drive-Ins and Dives",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 80,
+   "pv": 808819,
+   "img": "img/guy-fieri.webp",
+   "credit": {
+    "author": "Big Red Liquors",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Guy_Fieri_June_2023.png"
+   }
+  },
+  {
+   "id": "bobby-flay",
+   "name": "Bobby Flay",
+   "from": "Beat Bobby Flay",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 78,
+   "pv": 762324,
+   "img": "img/bobby-flay.webp",
+   "credit": {
+    "author": "Larkworb / Larkworb at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Bobby_Flay_Green_Bay_2007.jpg"
+   }
+  },
+  {
+   "id": "paul-hollywood",
+   "name": "Paul Hollywood",
+   "from": "The Great British Bake Off",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 76,
+   "pv": 721061,
+   "img": "img/paul-hollywood.webp",
+   "credit": {
+    "author": "Tim Fields",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Hollywood.jpg"
+   }
+  },
+  {
+   "id": "mary-berry",
+   "name": "Mary Berry",
+   "from": "The Great British Bake Off",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 74,
+   "pv": 686564,
+   "img": "img/mary-berry.webp",
+   "credit": {
+    "author": "Stephen Reed from England",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mary_Berry_at_Chelsea_Flower_Show_-_2017_-_(34039048853)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jamie-oliver",
+   "name": "Jamie Oliver",
+   "from": "The Naked Chef",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 71,
+   "pv": 558830,
+   "img": "img/jamie-oliver.webp",
+   "credit": {
+    "author": "Karl Gabor",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jamie_Oliver_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ina-garten",
+   "name": "Ina Garten",
+   "from": "Barefoot Contessa",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 69,
+   "pv": 474501,
+   "img": "img/ina-garten.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MFF24_Ina_Garten_Grabowsky_TTL_3492_(54135420705)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "giada-de-laurentiis",
+   "name": "Giada De Laurentiis",
+   "from": "Everyday Italian",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 67,
+   "pv": 472587,
+   "img": "img/giada-de-laurentiis.webp",
+   "credit": {
+    "author": "kennejima",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Giada_De_Laurentiis_2010.jpg"
+   }
+  },
+  {
+   "id": "emeril-lagasse",
+   "name": "Emeril Lagasse",
+   "from": "Emeril Live",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 65,
+   "pv": 434158,
+   "img": "img/emeril-lagasse.webp",
+   "credit": {
+    "author": "Spc. Leah R. Burton",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Emeril_Lagasse_book_signing.jpg"
+   }
+  },
+  {
+   "id": "alton-brown",
+   "name": "Alton Brown",
+   "from": "Good Eats",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 63,
+   "pv": 398148,
+   "img": "img/alton-brown.webp",
+   "credit": {
+    "author": "Brianhe",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alton_Brown_Hopelink_4_(cropped).JPG"
+   }
+  },
+  {
+   "id": "rick-stein",
+   "name": "Rick Stein",
+   "from": "The Seafood Restaurant",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 60,
+   "pv": 364861,
+   "img": "img/rick-stein.webp",
+   "credit": {
+    "author": "Daniel Hills",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rick_Stein_at_homeware_range_launch_event_in_Watford_Tesco.jpg"
+   }
+  },
+  {
+   "id": "rachael-ray",
+   "name": "Rachael Ray",
+   "from": "30 Minute Meals",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 58,
+   "pv": 352357,
+   "img": "img/rachael-ray.webp",
+   "credit": {
+    "author": "The Heart Truth",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rachael_Ray,_Red_Dress_Collection_2007.jpg"
+   }
+  },
+  {
+   "id": "jose-andres",
+   "name": "José Andrés",
+   "from": "World Central Kitchen",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 56,
+   "pv": 312854,
+   "img": "img/jose-andres.webp",
+   "credit": {
+    "author": "David Shankbone",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jose_Andres_Puerta_2012_Shankbone.JPG"
+   }
+  },
+  {
+   "id": "sandra-lee",
+   "name": "Sandra Lee",
+   "from": "Semi-Homemade",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 54,
+   "pv": 301332,
+   "img": "img/sandra-lee.webp",
+   "credit": {
+    "author": "David Shankbone",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandra_Lee_2012_Shankbone.JPG"
+   }
+  },
+  {
+   "id": "jacques-pepin",
+   "name": "Jacques Pépin",
+   "from": "Jacques Pépin: Fast Food My Way",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 52,
+   "pv": 290704,
+   "img": "img/jacques-pepin.webp",
+   "credit": {
+    "author": "Szurdak&Pepin.JPG: Appraiser derivative work: AjaxSmack (talk)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jacques_P%C3%A9pin_2006.JPG"
+   }
+  },
+  {
+   "id": "thomas-keller",
+   "name": "Thomas Keller",
+   "from": "The French Laundry",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 49,
+   "pv": 277191,
+   "img": "img/thomas-keller.webp",
+   "credit": {
+    "author": "Brett Wilson: brettw AT gmail DOT com",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Keller.jpg"
+   }
+  },
+  {
+   "id": "heston-blumenthal",
+   "name": "Heston Blumenthal",
+   "from": "The Fat Duck",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 47,
+   "pv": 252875,
+   "img": "img/heston-blumenthal.webp",
+   "credit": {
+    "author": "Brian Minkoff- London Pixels",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hestonregentspark.jpg"
+   }
+  },
+  {
+   "id": "ree-drummond",
+   "name": "Ree Drummond",
+   "from": "The Pioneer Woman",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 45,
+   "pv": 247408,
+   "img": "img/ree-drummond.webp",
+   "credit": {
+    "author": "Business Wire",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:PhotoofThePioneerWomen.jpg"
+   }
+  },
+  {
+   "id": "wolfgang-puck",
+   "name": "Wolfgang Puck",
+   "from": "Spago",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 43,
+   "pv": 222234,
+   "img": "img/wolfgang-puck.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wolfgang_Puck_2012.jpg"
+   }
+  },
+  {
+   "id": "david-chang",
+   "name": "David Chang",
+   "from": "Momofuku",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 41,
+   "pv": 217396,
+   "img": "img/david-chang.webp",
+   "credit": {
+    "author": "David Shankbone",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:David_Chang_David_Shankbone_2010_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "andrew-zimmern",
+   "name": "Andrew Zimmern",
+   "from": "Bizarre Foods",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 38,
+   "pv": 209591,
+   "img": "img/andrew-zimmern.webp",
+   "credit": {
+    "author": "Lou Stejskal",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Andrew_Zimmern_and_Potash_twins,_Adeev_and_Ezra_-_34097876723_(cropped).jpg"
+   }
+  },
+  {
+   "id": "curtis-stone",
+   "name": "Curtis Stone",
+   "from": "Maude",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 36,
+   "pv": 194536,
+   "img": "img/curtis-stone.webp",
+   "credit": {
+    "author": "Jeff Rowley. Cropped and color-corrected prior to upload by Daniel Case",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Curtis_Stone_2012.jpg"
+   }
+  },
+  {
+   "id": "robert-irvine",
+   "name": "Robert Irvine",
+   "from": "Restaurant: Impossible",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 34,
+   "pv": 173308,
+   "img": "img/robert-irvine.webp",
+   "credit": {
+    "author": "Rickmunroe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Irvine_Chef.jpg"
+   }
+  },
+  {
+   "id": "carla-hall",
+   "name": "Carla Hall",
+   "from": "The Chew",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 32,
+   "pv": 166958,
+   "img": "img/carla-hall.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CarlaHall-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "joel-robuchon",
+   "name": "Joël Robuchon",
+   "from": "L'Atelier",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 30,
+   "pv": 161924,
+   "img": "img/joel-robuchon.webp",
+   "credit": {
+    "author": "Ohconfucius",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Jo%C3%ABl_Robuchon.jpg"
+   }
+  },
+  {
+   "id": "buddy-valastro",
+   "name": "Buddy Valastro",
+   "from": "Cake Boss",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 27,
+   "pv": 161034,
+   "img": "img/buddy-valastro.webp",
+   "credit": {
+    "author": "May S. Young",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Buddy_Valastro_at_the_Jersey_City_Mayoral_Inauguration.jpg"
+   }
+  },
+  {
+   "id": "christina-tosi",
+   "name": "Christina Tosi",
+   "from": "Milk Bar",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 25,
+   "pv": 156832,
+   "img": "img/christina-tosi.webp",
+   "credit": {
+    "author": "Christina Tosi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Christina-Tosi_(cropped).JPG"
+   }
+  },
+  {
+   "id": "ainsley-harriott",
+   "name": "Ainsley Harriott",
+   "from": "Ready Steady Cook",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 23,
+   "pv": 155813,
+   "img": "img/ainsley-harriott.webp",
+   "credit": {
+    "author": "DavidDjJohnson at English Wikipedia",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ainsley_Harriott.jpg"
+   }
+  },
+  {
+   "id": "nadiya-hussain",
+   "name": "Nadiya Hussain",
+   "from": "Bake Off winner",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 21,
+   "pv": 154612,
+   "img": "img/nadiya-hussain.webp",
+   "credit": {
+    "author": "nigelcohen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nadiya_Hussain_2019.jpeg"
+   }
+  },
+  {
+   "id": "duff-goldman",
+   "name": "Duff Goldman",
+   "from": "Ace of Cakes",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 19,
+   "pv": 140900,
+   "img": "img/duff-goldman.webp",
+   "credit": {
+    "author": "The original uploader was Junglecat at English Wikipedia.",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Duff_goldman.jpg"
+   }
+  },
+  {
+   "id": "marcus-samuelsson",
+   "name": "Marcus Samuelsson",
+   "from": "Red Rooster",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 16,
+   "pv": 140821,
+   "img": "img/marcus-samuelsson.webp",
+   "credit": {
+    "author": "Vogler",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marcus_Samuelsson_2012_(cropped).jpg"
+   }
+  },
+  {
+   "id": "paul-bocuse",
+   "name": "Paul Bocuse",
+   "from": "Bocuse d'Or",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 14,
+   "pv": 140178,
+   "img": "img/paul-bocuse.webp",
+   "credit": {
+    "author": "Jarvin",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Bocuse2.jpg"
+   }
+  },
+  {
+   "id": "alain-ducasse",
+   "name": "Alain Ducasse",
+   "from": "Le Louis XV",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 12,
+   "pv": 118712,
+   "img": "img/alain-ducasse.webp",
+   "credit": {
+    "author": "Bruno Cordioli for CIBVS",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alain_Ducasse.jpg"
+   }
+  },
+  {
+   "id": "nobu-matsuhisa",
+   "name": "Nobu Matsuhisa",
+   "from": "Nobu",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 10,
+   "pv": 114699,
+   "img": "img/nobu-matsuhisa.webp",
+   "credit": {
+    "author": "https://www.youtube.com/@Sethluifoodtravel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nobu_Matsuhisa_with_sushi.png"
+   }
+  },
+  {
+   "id": "tom-colicchio",
+   "name": "Tom Colicchio",
+   "from": "Top Chef",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 8,
+   "pv": 114355,
+   "img": "img/tom-colicchio.webp",
+   "credit": {
+    "author": "David Shankbone",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tom_Colicchio_-_David_Shankbone.jpg"
+   }
+  },
+  {
+   "id": "daniel-boulud",
+   "name": "Daniel Boulud",
+   "from": "Daniel",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 5,
+   "pv": 106379,
+   "img": "img/daniel-boulud.webp",
+   "credit": {
+    "author": "Lwundrock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DanielBoulud.jpg"
+   }
+  },
+  {
+   "id": "masaharu-morimoto",
+   "name": "Masaharu Morimoto",
+   "from": "Iron Chef",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 3,
+   "pv": 96996,
+   "img": "img/masaharu-morimoto.webp",
+   "credit": {
+    "author": "derivative work: 293.xx.xxx.xx (talk) Iron_Chef_Morimoto.jpg: Justin Doub",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:IronChefMorimoto.jpg"
+   }
+  },
+  {
+   "id": "massimo-bottura",
+   "name": "Massimo Bottura",
+   "from": "Osteria Francescana",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "celebrity-chefs"
+   ],
+   "fame": 1,
+   "pv": 59801,
+   "img": "img/massimo-bottura.webp",
+   "credit": {
+    "author": "Pietro Luca Cassarino",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Massimo_Bottura_Rimini.jpg"
+   }
+  }
+ ]
+}

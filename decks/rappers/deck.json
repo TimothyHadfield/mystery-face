@@ -1,0 +1,967 @@
+{
+ "id": "rappers",
+ "title": "Rappers & Hip-Hop",
+ "cat": "music",
+ "people": [
+  {
+   "id": "tupac-shakur",
+   "name": "Tupac Shakur",
+   "from": "California Love",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 100,
+   "pv": 4132087,
+   "img": "img/tupac-shakur.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tupac_Shakur_in_1995.jpg"
+   }
+  },
+  {
+   "id": "nicki-minaj",
+   "name": "Nicki Minaj",
+   "from": "Super Bass",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 98,
+   "pv": 3981801,
+   "img": "img/nicki-minaj.webp",
+   "credit": {
+    "author": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicki_Minaj_(55022495106)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "eminem",
+   "name": "Eminem",
+   "from": "Lose Yourself",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 96,
+   "pv": 3361560,
+   "img": "img/eminem.webp",
+   "credit": {
+    "author": "Brendan_linden",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Eminem_2021_Color_Corrected.jpg"
+   }
+  },
+  {
+   "id": "cardi-b",
+   "name": "Cardi B",
+   "from": "Bodak Yellow",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 94,
+   "pv": 2878894,
+   "img": "img/cardi-b.webp",
+   "credit": {
+    "author": "Runawaymo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cardi_B_at_2026_Essence_Festival_of_Culture_02_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "drake",
+   "name": "Drake",
+   "from": "Hotline Bling",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 92,
+   "pv": 2722700,
+   "img": "img/drake.webp",
+   "credit": {
+    "author": "GabboT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Drake_at_The_Carter_Effect_2017_(36818935200)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "50-cent",
+   "name": "50 Cent",
+   "from": "In da Club",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 89,
+   "pv": 2510776,
+   "img": "img/50-cent.webp",
+   "credit": {
+    "author": "Senior Airman Nia Jacobs",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Curtis_%2250_Cent%22_Jackson_visits_Barksdale_AFB_(5)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "snoop-dogg",
+   "name": "Snoop Dogg",
+   "from": "Gin and Juice",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 87,
+   "pv": 2462956,
+   "img": "img/snoop-dogg.webp",
+   "credit": {
+    "author": "Diego Serrano",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Snoop_Dogg,_WrestleMania_XL_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "will-smith",
+   "name": "Will Smith",
+   "from": "The Fresh Prince",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 85,
+   "pv": 2415677,
+   "img": "img/will-smith.webp",
+   "credit": {
+    "author": "TechCrunch",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_(48834070763)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "travis-scott",
+   "name": "Travis Scott",
+   "from": "Sicko Mode",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 83,
+   "pv": 2228269,
+   "img": "img/travis-scott.webp",
+   "credit": {
+    "author": "Frank Schwichtenberg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Travis_Scott_-_Openair_Frauenfeld_2019_08.jpg"
+   }
+  },
+  {
+   "id": "a-ap-rocky",
+   "name": "A$AP Rocky",
+   "from": "Praise the Lord",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 81,
+   "pv": 2172470,
+   "img": "img/a-ap-rocky.webp",
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A$AP_Rocky_at_the_2025_Cannes_Film_Festival_(cropped_3x4).jpg"
+   }
+  },
+  {
+   "id": "jay-z",
+   "name": "Jay-Z",
+   "from": "Empire State of Mind",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 79,
+   "pv": 2062671,
+   "img": "img/jay-z.webp",
+   "credit": {
+    "author": "Photo Courtesy of NYS Senate Media Services",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_(cropped).webp"
+   }
+  },
+  {
+   "id": "mac-miller",
+   "name": "Mac Miller",
+   "from": "Self Care",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 77,
+   "pv": 1926358,
+   "img": "img/mac-miller.webp",
+   "credit": {
+    "author": "Nicolas Völcker",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mac_Miller_(7)_%E2%80%93_splash!_Festival_20_(2017)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kendrick-lamar",
+   "name": "Kendrick Lamar",
+   "from": "Humble",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 75,
+   "pv": 1891685,
+   "img": "img/kendrick-lamar.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-144_(cropped)_desaturated.jpg"
+   }
+  },
+  {
+   "id": "childish-gambino",
+   "name": "Childish Gambino",
+   "from": "This Is America",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 73,
+   "pv": 1726572,
+   "img": "img/childish-gambino.webp",
+   "credit": {
+    "author": "Bill Ingalls",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Donald_Glover_TIFF_2015.jpg"
+   }
+  },
+  {
+   "id": "post-malone",
+   "name": "Post Malone",
+   "from": "Circles",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 71,
+   "pv": 1587147,
+   "img": "img/post-malone.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Post_Malone_2018.jpg"
+   }
+  },
+  {
+   "id": "queen-latifah",
+   "name": "Queen Latifah",
+   "from": "Ladies First",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 68,
+   "pv": 1577956,
+   "img": "img/queen-latifah.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen_Latifah_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "tyler-the-creator",
+   "name": "Tyler, the Creator",
+   "from": "Igor",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 66,
+   "pv": 1555751,
+   "img": "img/tyler-the-creator.webp",
+   "credit": {
+    "author": "Lygonstreet",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tyler_The_Creator_Toronto_2025_(cropped).jpg"
+   }
+  },
+  {
+   "id": "macklemore",
+   "name": "Macklemore",
+   "from": "Thrift Shop",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 64,
+   "pv": 1515794,
+   "img": "img/macklemore.webp",
+   "credit": {
+    "author": "Selbymay",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:P2N2022Macklemore_1.jpg"
+   }
+  },
+  {
+   "id": "megan-thee-stallion",
+   "name": "Megan Thee Stallion",
+   "from": "Savage",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 62,
+   "pv": 1499794,
+   "img": "img/megan-thee-stallion.webp",
+   "credit": {
+    "author": "Adweek",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Megan_Thee_Stallion_Adweek_pose.jpg"
+   }
+  },
+  {
+   "id": "ice-cube",
+   "name": "Ice Cube",
+   "from": "N.W.A",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 60,
+   "pv": 1495283,
+   "img": "img/ice-cube.webp",
+   "credit": {
+    "author": "MILLION DOLLAZ WORTH OF GAME",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ice_Cube_September_2025.png"
+   }
+  },
+  {
+   "id": "lil-wayne",
+   "name": "Lil Wayne",
+   "from": "Lollipop",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 58,
+   "pv": 1372008,
+   "img": "img/lil-wayne.webp",
+   "credit": {
+    "author": "Megan Elice Meadows",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lil_Wayne_(23513397583).jpg"
+   }
+  },
+  {
+   "id": "dr-dre",
+   "name": "Dr. Dre",
+   "from": "N.W.A",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 56,
+   "pv": 1308358,
+   "img": "img/dr-dre.webp",
+   "credit": {
+    "author": "Justin Davis from San Jose, US",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dr._Dre_2013.jpg"
+   }
+  },
+  {
+   "id": "doja-cat",
+   "name": "Doja Cat",
+   "from": "Say So",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 54,
+   "pv": 1249633,
+   "img": "img/doja-cat.webp",
+   "credit": {
+    "author": "Nate the Director",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Doja_Cat_x_Amazon1.1_(cropped).jpg"
+   }
+  },
+  {
+   "id": "juice-wrld",
+   "name": "Juice Wrld",
+   "from": "Lucid Dreams",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 52,
+   "pv": 1222214,
+   "img": "img/juice-wrld.webp",
+   "credit": {
+    "author": "Lexiou WesCudi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Juice_WRLD_-_Les_Ardentes_2019_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "pharrell-williams",
+   "name": "Pharrell Williams",
+   "from": "Happy",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 49,
+   "pv": 1161012,
+   "img": "img/pharrell-williams.webp",
+   "credit": {
+    "author": "Web Summit/Ramsey Cardy/Sportsfile",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pharrell_Williams_2024_(54133384149).jpg"
+   }
+  },
+  {
+   "id": "common",
+   "name": "Common",
+   "from": "Glory",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 47,
+   "pv": 1114314,
+   "img": "img/common.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Common-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "j-cole",
+   "name": "J. Cole",
+   "from": "No Role Modelz",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 45,
+   "pv": 1091468,
+   "img": "img/j-cole.webp",
+   "credit": {
+    "author": "HOTSPOTATL",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HOTSPOTATL_-_21_Savage_%26_J.Cole_Light_Birthday_Bash_ATL_2023_On_FIRE_(xu6HKf40MX0_-_2m38s)_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ll-cool-j",
+   "name": "LL Cool J",
+   "from": "Mama Said Knock You Out",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 43,
+   "pv": 1085380,
+   "img": "img/ll-cool-j.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LL_COOL_J_(cropped).jpg"
+   }
+  },
+  {
+   "id": "nas",
+   "name": "Nas",
+   "from": "Illmatic",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 41,
+   "pv": 932834,
+   "img": "img/nas.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nas_(52380600682)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "21-savage",
+   "name": "21 Savage",
+   "from": "Bank Account",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 39,
+   "pv": 866634,
+   "img": "img/21-savage.webp",
+   "credit": {
+    "author": "Ralph Arvesen from Round Mountain, Texas",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:21_Savage_2018.jpg"
+   }
+  },
+  {
+   "id": "ice-spice",
+   "name": "Ice Spice",
+   "from": "Munch",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 37,
+   "pv": 853377,
+   "img": "img/ice-spice.webp",
+   "credit": {
+    "author": "Tristanstlws",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ice_Spice_at_Vetements_SS26_(cropped).jpg"
+   }
+  },
+  {
+   "id": "future",
+   "name": "Future",
+   "from": "Mask Off",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 35,
+   "pv": 812165,
+   "img": "img/future.webp",
+   "credit": {
+    "author": "Frank Schwichtenberg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Future_-_Openair_Frauenfeld_2019_01_(cropped2).jpg"
+   }
+  },
+  {
+   "id": "flavor-flav",
+   "name": "Flavor Flav",
+   "from": "Public Enemy",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 33,
+   "pv": 758499,
+   "img": "img/flavor-flav.webp",
+   "credit": {
+    "author": "kowarski",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Flavor_Flav_of_Public_Enemy.jpg"
+   }
+  },
+  {
+   "id": "wiz-khalifa",
+   "name": "Wiz Khalifa",
+   "from": "See You Again",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 30,
+   "pv": 750514,
+   "img": "img/wiz-khalifa.webp",
+   "credit": {
+    "author": "Rickmunroe01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wiz_Khalifa_2023.jpg"
+   }
+  },
+  {
+   "id": "ludacris",
+   "name": "Ludacris",
+   "from": "Fast & Furious",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 28,
+   "pv": 733909,
+   "img": "img/ludacris.webp",
+   "credit": {
+    "author": "Peter Fitzpatrick",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ludacris_at_NAS_Pax_River_2_(cropped).jpg"
+   }
+  },
+  {
+   "id": "latto",
+   "name": "Latto",
+   "from": "Big Energy",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 26,
+   "pv": 700545,
+   "img": "img/latto.webp",
+   "credit": {
+    "author": "HOTSPOTATL",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Latto_WHTA_interview_2024_05.png"
+   }
+  },
+  {
+   "id": "lil-uzi-vert",
+   "name": "Lil Uzi Vert",
+   "from": "XO Tour Llif3",
+   "gender": "x",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 24,
+   "pv": 669096,
+   "img": "img/lil-uzi-vert.webp",
+   "credit": {
+    "author": "Icebox",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lil_Uzi_Vert_(2018).png"
+   }
+  },
+  {
+   "id": "lizzo",
+   "name": "Lizzo",
+   "from": "Truth Hurts",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 22,
+   "pv": 646308,
+   "img": "img/lizzo.webp",
+   "credit": {
+    "author": "MILLION DOLLAZ WORTH OF GAME",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lizzo_September_2025.png"
+   }
+  },
+  {
+   "id": "doechii",
+   "name": "Doechii",
+   "from": "Denial Is a River",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 20,
+   "pv": 638379,
+   "img": "img/doechii.webp",
+   "credit": {
+    "author": "the CwE",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Doechii_performs_at_the_Grammy_Museum_(Dec_2024;_2)_(cropped)_(cropped).png"
+   }
+  },
+  {
+   "id": "lil-nas-x",
+   "name": "Lil Nas X",
+   "from": "Old Town Road",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 18,
+   "pv": 636923,
+   "img": "img/lil-nas-x.webp",
+   "credit": {
+    "author": "HOTSPOTATL",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lil_Nas_X_Talks_About_Gaining_His_Father%27s_Acceptance,_Growing_Up_in_Atlanta,_%26_FINDING_HIMSELF_7-32_screenshot_(headshot).jpg"
+   }
+  },
+  {
+   "id": "busta-rhymes",
+   "name": "Busta Rhymes",
+   "from": "Look at Me Now",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 16,
+   "pv": 625410,
+   "img": "img/busta-rhymes.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Busta_Rhymes_(52380599657)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "glorilla",
+   "name": "GloRilla",
+   "from": "F.N.F.",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 14,
+   "pv": 602381,
+   "img": "img/glorilla.webp",
+   "credit": {
+    "author": "HOTSPOTATL",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mariah_the_Scientist_and_GloRilla_Birthday_Bash_performance_2025._02_(cropped).png"
+   }
+  },
+  {
+   "id": "missy-elliott",
+   "name": "Missy Elliott",
+   "from": "Get Ur Freak On",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 12,
+   "pv": 493350,
+   "img": "img/missy-elliott.webp",
+   "credit": {
+    "author": "Atlantic Records",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Missy_Elliot.jpg"
+   }
+  },
+  {
+   "id": "jack-harlow",
+   "name": "Jack Harlow",
+   "from": "First Class",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 9,
+   "pv": 483135,
+   "img": "img/jack-harlow.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glasto2023_(365_of_468)_(53008938551)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lil-kim",
+   "name": "Lil Kim",
+   "from": "Lady Marmalade",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 7,
+   "pv": 477823,
+   "img": "img/lil-kim.webp",
+   "credit": {
+    "author": "DVSROSS",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WEHO2022-6_(52122368631)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "logic",
+   "name": "Logic",
+   "from": "1-800-273-8255",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 5,
+   "pv": 423936,
+   "img": "img/logic.webp",
+   "credit": {
+    "author": "Tim Blackmon for Galaxy Con",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Logic_(53617872408).jpg"
+   }
+  },
+  {
+   "id": "lil-baby",
+   "name": "Lil Baby",
+   "from": "Drip Too Hard",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 3,
+   "pv": 328405,
+   "img": "img/lil-baby.webp",
+   "credit": {
+    "author": "MILLION DOLLAZ WORTH OF GAME",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lil_Baby_2023.png"
+   }
+  },
+  {
+   "id": "chance-the-rapper",
+   "name": "Chance the Rapper",
+   "from": "Coloring Book",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rappers"
+   ],
+   "fame": 1,
+   "pv": 327204,
+   "img": "img/chance-the-rapper.webp",
+   "credit": {
+    "author": "Hurstbergn",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chance_The_Rapper_performing_at_Stir_Cove,_Council_Bluffs,_October_2026.jpg"
+   }
+  }
+ ]
+}

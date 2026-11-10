@@ -1,0 +1,967 @@
+{
+ "id": "latin-music",
+ "title": "Latin Music",
+ "cat": "music",
+ "people": [
+  {
+   "id": "bad-bunny",
+   "name": "Bad Bunny",
+   "from": "Tití Me Preguntó",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 100,
+   "pv": 7593119,
+   "img": "img/bad-bunny.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bad_Bunny_2019_by_Glenn_Francis_(cropped).jpg"
+   }
+  },
+  {
+   "id": "shakira",
+   "name": "Shakira",
+   "from": "Hips Don't Lie",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 98,
+   "pv": 6232500,
+   "img": "img/shakira.webp",
+   "credit": {
+    "author": "Junta de Andalucía",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_03_(cropped)02.jpg"
+   }
+  },
+  {
+   "id": "jennifer-lopez",
+   "name": "Jennifer Lopez",
+   "from": "On the Floor",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 96,
+   "pv": 3714189,
+   "img": "img/jennifer-lopez.webp",
+   "credit": {
+    "author": "Everwest",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_(cropped_3).jpg"
+   }
+  },
+  {
+   "id": "rosalia",
+   "name": "Rosalía",
+   "from": "Despechá",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 94,
+   "pv": 2343691,
+   "img": "img/rosalia.webp",
+   "credit": {
+    "author": "Junta de Andalucía",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_27_(cropped).jpg"
+   }
+  },
+  {
+   "id": "selena-quintanilla",
+   "name": "Selena Quintanilla",
+   "from": "Bidi Bidi Bom Bom",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 92,
+   "pv": 2086681,
+   "img": "img/selena-quintanilla.webp",
+   "credit": {
+    "author": "Ramon Hernandez",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Selena_Quintanilla_1986.png"
+   }
+  },
+  {
+   "id": "ricky-martin",
+   "name": "Ricky Martin",
+   "from": "Livin' la Vida Loca",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 89,
+   "pv": 1673839,
+   "img": "img/ricky-martin.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ricky_Martin-4262.jpg"
+   }
+  },
+  {
+   "id": "pitbull",
+   "name": "Pitbull",
+   "from": "Timber",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 87,
+   "pv": 1556492,
+   "img": "img/pitbull.webp",
+   "credit": {
+    "author": "Zach Catanzareti Photo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pitbull_(52703405994)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "enrique-iglesias",
+   "name": "Enrique Iglesias",
+   "from": "Bailando",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 85,
+   "pv": 1364706,
+   "img": "img/enrique-iglesias.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Enrique_Iglesias_2011,_2_(cropped).jpg"
+   }
+  },
+  {
+   "id": "marc-anthony",
+   "name": "Marc Anthony",
+   "from": "Vivir Mi Vida",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 83,
+   "pv": 1228554,
+   "img": "img/marc-anthony.webp",
+   "credit": {
+    "author": "Tony Dandrades",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Interview_with_Marc_Anthony_(cropped).png"
+   }
+  },
+  {
+   "id": "karol-g",
+   "name": "Karol G",
+   "from": "Tusa",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 81,
+   "pv": 961861,
+   "img": "img/karol-g.webp",
+   "credit": {
+    "author": "Junta de Andalucía",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_15.jpg"
+   }
+  },
+  {
+   "id": "camila-cabello",
+   "name": "Camila Cabello",
+   "from": "Havana",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 79,
+   "pv": 903243,
+   "img": "img/camila-cabello.webp",
+   "credit": {
+    "author": "ReverendPoppins",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Camila_Cabello_Sundance_2024_Cropped_(cropped).jpg"
+   }
+  },
+  {
+   "id": "carlos-santana",
+   "name": "Carlos Santana",
+   "from": "Smooth",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 77,
+   "pv": 858648,
+   "img": "img/carlos-santana.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Santana_Acer_Arena_(5558151833)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "julio-iglesias",
+   "name": "Julio Iglesias",
+   "from": "Me Olvidé de Vivir",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 75,
+   "pv": 844736,
+   "img": "img/julio-iglesias.webp",
+   "credit": {
+    "author": "Alejandro Vilar",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Julio_Iglesias09.jpg"
+   }
+  },
+  {
+   "id": "becky-g",
+   "name": "Becky G",
+   "from": "Mayores",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 73,
+   "pv": 748332,
+   "img": "img/becky-g.webp",
+   "credit": {
+    "author": "Shan BOODY",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Becky_G_2023_01.jpg"
+   }
+  },
+  {
+   "id": "gloria-estefan",
+   "name": "Gloria Estefan",
+   "from": "Conga",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 71,
+   "pv": 661837,
+   "img": "img/gloria-estefan.webp",
+   "credit": {
+    "author": "U.S. State Department",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gloria_Estefan_in_2017.jpg"
+   }
+  },
+  {
+   "id": "kali-uchis",
+   "name": "Kali Uchis",
+   "from": "Telepatía",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 68,
+   "pv": 599083,
+   "img": "img/kali-uchis.webp",
+   "credit": {
+    "author": "Ralph Arvesen",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kali_Uchis,_ACL_2015_(cropped).jpg"
+   }
+  },
+  {
+   "id": "daddy-yankee",
+   "name": "Daddy Yankee",
+   "from": "Gasolina",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 66,
+   "pv": 533241,
+   "img": "img/daddy-yankee.webp",
+   "credit": {
+    "author": "Daddy Yankee",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Daddy_Yankee_-_The_Kingdom_(Official_Q_%26_A).png"
+   }
+  },
+  {
+   "id": "thalia",
+   "name": "Thalía",
+   "from": "Amor a la Mexicana",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 64,
+   "pv": 478715,
+   "img": "img/thalia.webp",
+   "credit": {
+    "author": "ThaliaSodi.jpg: Thalia.com (copyright holder) derivative work: Truu (talk)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:ThaliaSodi_cropped.jpg"
+   }
+  },
+  {
+   "id": "juan-gabriel",
+   "name": "Juan Gabriel",
+   "from": "Querida",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 62,
+   "pv": 473900,
+   "img": "img/juan-gabriel.webp",
+   "credit": {
+    "author": "Press photo, BMG International",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Juan_Gabriel_in_1985_(cropped).jpg"
+   }
+  },
+  {
+   "id": "luis-miguel",
+   "name": "Luis Miguel",
+   "from": "La Bikina",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 60,
+   "pv": 368439,
+   "img": "img/luis-miguel.webp",
+   "credit": {
+    "author": "camposart",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Luis_miguel_328_(cropped)_(2).jpg"
+   }
+  },
+  {
+   "id": "anitta",
+   "name": "Anitta",
+   "from": "Envolver",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 58,
+   "pv": 333432,
+   "img": "img/anitta.webp",
+   "credit": {
+    "author": "Attractive Mindset",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anitta_for_Attractive_Mindset_podcast_02.jpg"
+   }
+  },
+  {
+   "id": "celia-cruz",
+   "name": "Celia Cruz",
+   "from": "La Vida Es un Carnaval",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 56,
+   "pv": 330807,
+   "img": "img/celia-cruz.webp",
+   "credit": {
+    "author": "Ibrahim Arce (Narcy Studios photographer), most likely",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Celia_Cruz_1957_color.jpg"
+   }
+  },
+  {
+   "id": "peso-pluma",
+   "name": "Peso Pluma",
+   "from": "Ella Baila Sola",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 54,
+   "pv": 306469,
+   "img": "img/peso-pluma.webp",
+   "credit": {
+    "author": "Villa Records México",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Peso_Pluma,_performing_in_Monterrey_(2024-09-24)_(1).png"
+   }
+  },
+  {
+   "id": "j-balvin",
+   "name": "J Balvin",
+   "from": "Mi Gente",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 52,
+   "pv": 285450,
+   "img": "img/j-balvin.webp",
+   "credit": {
+    "author": "Jeff Pinilla",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:J_Balvin,_Noisey_Meets;_Oct_2018.jpg"
+   }
+  },
+  {
+   "id": "maluma",
+   "name": "Maluma",
+   "from": "Hawái",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 49,
+   "pv": 283242,
+   "img": "img/maluma.webp",
+   "credit": {
+    "author": "Lisa O'Connor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Maluma_attends_the_2026_American_Music_Awards_at_MGM_Grand_Garden_Arena_on_May_25,_2026_in_Las_Vegas,_Nevada.jpg"
+   }
+  },
+  {
+   "id": "rauw-alejandro",
+   "name": "Rauw Alejandro",
+   "from": "Todo de Ti",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 47,
+   "pv": 281402,
+   "img": "img/rauw-alejandro.webp",
+   "credit": {
+    "author": "Junta de Andalucía",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_13_(cropped).jpg"
+   }
+  },
+  {
+   "id": "romeo-santos",
+   "name": "Romeo Santos",
+   "from": "Propuesta Indecente",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 45,
+   "pv": 263874,
+   "img": "img/romeo-santos.webp",
+   "credit": {
+    "author": "Fernando Navarro Urrutia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Romeo_Santos_-_Estadio_Nacional_de_Chile_2015_(16070014653)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ricardo-arjona",
+   "name": "Ricardo Arjona",
+   "from": "Historia de Taxi",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 43,
+   "pv": 226382,
+   "img": "img/ricardo-arjona.webp",
+   "credit": {
+    "author": "Minelia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Concierto_Ricardo_Arjona_Miami_2009_(cropped).jpg"
+   }
+  },
+  {
+   "id": "don-omar",
+   "name": "Don Omar",
+   "from": "Danza Kuduro",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 41,
+   "pv": 216267,
+   "img": "img/don-omar.webp",
+   "credit": {
+    "author": "Daddy Yankee",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Don_Omar_-_The_Kingdom_(Official_Q_%26_A).png"
+   }
+  },
+  {
+   "id": "feid",
+   "name": "Feid",
+   "from": "Classy 101",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 39,
+   "pv": 179210,
+   "img": "img/feid.webp",
+   "credit": {
+    "author": "Tribal Wiki Writer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Feid_2022_(cropped).jpg"
+   }
+  },
+  {
+   "id": "prince-royce",
+   "name": "Prince Royce",
+   "from": "Stand by Me",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 37,
+   "pv": 168682,
+   "img": "img/prince-royce.webp",
+   "credit": {
+    "author": "Lunchbox LP",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Prince_Royce_2012.jpg"
+   }
+  },
+  {
+   "id": "luis-fonsi",
+   "name": "Luis Fonsi",
+   "from": "Despacito",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 35,
+   "pv": 161724,
+   "img": "img/luis-fonsi.webp",
+   "credit": {
+    "author": "Nicolas Lacoste. Daniela Girón. Luis Fonsi. 💍💋👩‍❤️‍💋‍👨🥰",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Luis_Fonsi_2015_(cropped).JPG"
+   }
+  },
+  {
+   "id": "nicky-jam",
+   "name": "Nicky Jam",
+   "from": "El Perdón",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 33,
+   "pv": 160090,
+   "img": "img/nicky-jam.webp",
+   "credit": {
+    "author": "Emmanuel1152",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicky_Jam_2024_(cropped).jpg"
+   }
+  },
+  {
+   "id": "natalia-lafourcade",
+   "name": "Natalia Lafourcade",
+   "from": "Hasta la Raíz",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 30,
+   "pv": 142758,
+   "img": "img/natalia-lafourcade.webp",
+   "credit": {
+    "author": "Pedro J Pacheco",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Natalia_Lafourcade_-_Premios_Goya_2023.jpg"
+   }
+  },
+  {
+   "id": "ozuna",
+   "name": "Ozuna",
+   "from": "Taki Taki",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 28,
+   "pv": 139209,
+   "img": "img/ozuna.webp",
+   "credit": {
+    "author": "Sony Music Entertainment Sweden via Mynewsdesk",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ozuna-2019.jpg"
+   }
+  },
+  {
+   "id": "elvis-crespo",
+   "name": "Elvis Crespo",
+   "from": "Suavemente",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 26,
+   "pv": 129199,
+   "img": "img/elvis-crespo.webp",
+   "credit": {
+    "author": "Don Bra",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elviscrespo2018_(cropped).png"
+   }
+  },
+  {
+   "id": "angela-aguilar",
+   "name": "Ángela Aguilar",
+   "from": "Mexicana Enamorada",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 24,
+   "pv": 123132,
+   "img": "img/angela-aguilar.webp",
+   "credit": {
+    "author": "Tony Dandrades",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%C3%81ngela_Aguilar_2021.jpg"
+   }
+  },
+  {
+   "id": "christian-nodal",
+   "name": "Christian Nodal",
+   "from": "Adiós Amor",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 22,
+   "pv": 121260,
+   "img": "img/christian-nodal.webp",
+   "credit": {
+    "author": "Latiniconos & JG Music",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nodal.jpg"
+   }
+  },
+  {
+   "id": "juanes",
+   "name": "Juanes",
+   "from": "La Camisa Negra",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 20,
+   "pv": 120953,
+   "img": "img/juanes.webp",
+   "credit": {
+    "author": "Junta de Andalucía",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_14_(cropped).jpg"
+   }
+  },
+  {
+   "id": "alejandro-sanz",
+   "name": "Alejandro Sanz",
+   "from": "Corazón Partío",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 18,
+   "pv": 113696,
+   "img": "img/alejandro-sanz.webp",
+   "credit": {
+    "author": "Pedro J Pacheco",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Goyas_2025_-_Alejandro_Sanz_(cropped).jpg"
+   }
+  },
+  {
+   "id": "paulina-rubio",
+   "name": "Paulina Rubio",
+   "from": "Mío",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 16,
+   "pv": 93633,
+   "img": "img/paulina-rubio.webp",
+   "credit": {
+    "author": "robbiesaurus",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paulina_Rubio_at_Jazz_Fest_2012_with_Glitter.jpg"
+   }
+  },
+  {
+   "id": "sebastian-yatra",
+   "name": "Sebastián Yatra",
+   "from": "Tacones Rojos",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 14,
+   "pv": 90338,
+   "img": "img/sebastian-yatra.webp",
+   "credit": {
+    "author": "Junta de Andalucía",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-11-16_Gala_de_los_Latin_Grammy,_05_(cropped).jpg"
+   }
+  },
+  {
+   "id": "carlos-vives",
+   "name": "Carlos Vives",
+   "from": "La Bicicleta",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 12,
+   "pv": 76066,
+   "img": "img/carlos-vives.webp",
+   "credit": {
+    "author": "World Economic Forum",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carlos_Vives_-_World_Economic_Forum_on_Latin_America_2010.jpg"
+   }
+  },
+  {
+   "id": "natti-natasha",
+   "name": "Natti Natasha",
+   "from": "Criminal",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 9,
+   "pv": 58553,
+   "img": "img/natti-natasha.webp",
+   "credit": {
+    "author": "Adrian Arredondo",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Natti_Natasha_2019.jpg"
+   }
+  },
+  {
+   "id": "farruko",
+   "name": "Farruko",
+   "from": "Pepas",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 7,
+   "pv": 55189,
+   "img": "img/farruko.webp",
+   "credit": {
+    "author": "Tony Dandrades",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Farruko,_2021_-_interview_with_Tony_Dandrades.jpeg"
+   }
+  },
+  {
+   "id": "myke-towers",
+   "name": "Myke Towers",
+   "from": "Lala",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 5,
+   "pv": 47017,
+   "img": "img/myke-towers.webp",
+   "credit": {
+    "author": "Tony Dandrades",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Myke_Towers_in_interview_-_Tony_Dandrades_-_2021.png"
+   }
+  },
+  {
+   "id": "yandel",
+   "name": "Yandel",
+   "from": "Wisin & Yandel",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 3,
+   "pv": 38815,
+   "img": "img/yandel.webp",
+   "credit": {
+    "author": "José Javy Ferrer",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yandel_-_Como_Si_El_Mundo_Se_Fuera_A_Acabar_-_Behind_to_Scenes.png"
+   }
+  },
+  {
+   "id": "wisin",
+   "name": "Wisin",
+   "from": "Wisin & Yandel",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "latin-music"
+   ],
+   "fame": 1,
+   "pv": 37507,
+   "img": "img/wisin.webp",
+   "credit": {
+    "author": "Tony Dandrades",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wisin_-_Tony_Dandrades_interview_-_2021.png"
+   }
+  }
+ ]
+}

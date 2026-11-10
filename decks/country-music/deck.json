@@ -1,0 +1,927 @@
+{
+ "id": "country-music",
+ "title": "Country Music",
+ "cat": "music",
+ "people": [
+  {
+   "id": "dolly-parton",
+   "name": "Dolly Parton",
+   "from": "Jolene",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 100,
+   "pv": 16878612,
+   "img": "img/dolly-parton.webp",
+   "credit": {
+    "author": "David Gahr",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Young-Dolly-Parton_(higher_quality_scan)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "johnny-cash",
+   "name": "Johnny Cash",
+   "from": "Ring of Fire",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 98,
+   "pv": 2370466,
+   "img": "img/johnny-cash.webp",
+   "credit": {
+    "author": "CBS Television",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Johnny_Cash_1977.jpg"
+   }
+  },
+  {
+   "id": "jelly-roll",
+   "name": "Jelly Roll",
+   "from": "Son of a Sinner",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 96,
+   "pv": 2331219,
+   "img": "img/jelly-roll.webp",
+   "credit": {
+    "author": "Setoxxx",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jellyroll_Performing_at_Global_Citizen_Festival_%E2%80%93_September_28,_2024_(cropped).jpg"
+   }
+  },
+  {
+   "id": "willie-nelson",
+   "name": "Willie Nelson",
+   "from": "On the Road Again",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 93,
+   "pv": 2173264,
+   "img": "img/willie-nelson.webp",
+   "credit": {
+    "author": "John Mathew Smith & www.celebrity-photos.com",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Willie_Nelson_(Retouched).jpg"
+   }
+  },
+  {
+   "id": "riley-green",
+   "name": "Riley Green",
+   "from": "Different 'Round Here",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 91,
+   "pv": 2098167,
+   "img": "img/riley-green.webp",
+   "credit": {
+    "author": "Pfc. Henry Benson",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Riley_Green.jpg"
+   }
+  },
+  {
+   "id": "lainey-wilson",
+   "name": "Lainey Wilson",
+   "from": "Watermelon Moonshine",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 89,
+   "pv": 1868233,
+   "img": "img/lainey-wilson.webp",
+   "credit": {
+    "author": "Helloburton",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lainey_Wilson_2024.jpg"
+   }
+  },
+  {
+   "id": "shania-twain",
+   "name": "Shania Twain",
+   "from": "Man! I Feel Like a Woman!",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 87,
+   "pv": 1751097,
+   "img": "img/shania-twain.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shania_Twain_Glaston2024_2806_300624_(22_of_173)_(53838020769)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "reba-mcentire",
+   "name": "Reba McEntire",
+   "from": "Fancy",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 85,
+   "pv": 1700428,
+   "img": "img/reba-mcentire.webp",
+   "credit": {
+    "author": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Reba_McEntire_(51936713933)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kenny-rogers",
+   "name": "Kenny Rogers",
+   "from": "The Gambler",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 82,
+   "pv": 1510740,
+   "img": "img/kenny-rogers.webp",
+   "credit": {
+    "author": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KennyRogers.jpg"
+   }
+  },
+  {
+   "id": "kacey-musgraves",
+   "name": "Kacey Musgraves",
+   "from": "Golden Hour",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 80,
+   "pv": 1303764,
+   "img": "img/kacey-musgraves.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KaceyMRoundhouse140524_(11)_(53727552385)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "zach-bryan",
+   "name": "Zach Bryan",
+   "from": "Something in the Orange",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 78,
+   "pv": 1210255,
+   "img": "img/zach-bryan.webp",
+   "credit": {
+    "author": "Katrina Paisano",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Zach_Bryan_performing_at_Crypto.com_Arena_on_23_Aug_2023_(cropped).jpg"
+   }
+  },
+  {
+   "id": "keith-urban",
+   "name": "Keith Urban",
+   "from": "Somebody Like You",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 76,
+   "pv": 1142059,
+   "img": "img/keith-urban.webp",
+   "credit": {
+    "author": "Library of Congress Life",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Keith_Urban_2020.jpg"
+   }
+  },
+  {
+   "id": "tim-mcgraw",
+   "name": "Tim McGraw",
+   "from": "Live Like You Were Dying",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 74,
+   "pv": 1132715,
+   "img": "img/tim-mcgraw.webp",
+   "credit": {
+    "author": "Steve Kwak",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tim_McGraw_October_24_2015.jpg"
+   }
+  },
+  {
+   "id": "carrie-underwood",
+   "name": "Carrie Underwood",
+   "from": "Before He Cheats",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 71,
+   "pv": 1123008,
+   "img": "img/carrie-underwood.webp",
+   "credit": {
+    "author": "Cosmopolitan UK",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:191125_Carrie_Underwood_at_the_2019_American_Music_Awards_(cropped).png"
+   }
+  },
+  {
+   "id": "toby-keith",
+   "name": "Toby Keith",
+   "from": "Should've Been a Cowboy",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 69,
+   "pv": 1062966,
+   "img": "img/toby-keith.webp",
+   "credit": {
+    "author": "SPC Laura M. Bigenho, USA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Toby_Keith_DA-SD-07-31207_(cropped).jpg"
+   }
+  },
+  {
+   "id": "waylon-jennings",
+   "name": "Waylon Jennings",
+   "from": "Luckenbach, Texas",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 67,
+   "pv": 1055436,
+   "img": "img/waylon-jennings.webp",
+   "credit": {
+    "author": "RCA Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Waylon_Jennings_in_1976.jpg"
+   }
+  },
+  {
+   "id": "alan-jackson",
+   "name": "Alan Jackson",
+   "from": "Chattahoochee",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 65,
+   "pv": 954451,
+   "img": "img/alan-jackson.webp",
+   "credit": {
+    "author": "Angela George at https://www.flickr.com/photos/sharongraphics/",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AlanJacksonApr10.jpg"
+   }
+  },
+  {
+   "id": "blake-shelton",
+   "name": "Blake Shelton",
+   "from": "The Voice",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 63,
+   "pv": 914409,
+   "img": "img/blake-shelton.webp",
+   "credit": {
+    "author": "DoD News",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Blake_Shelton_July_2017_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kenny-chesney",
+   "name": "Kenny Chesney",
+   "from": "No Shoes, No Shirt",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 60,
+   "pv": 883010,
+   "img": "img/kenny-chesney.webp",
+   "credit": {
+    "author": "LawrenceFung",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kenny_Chesney_20070830_(cropped).jpg"
+   }
+  },
+  {
+   "id": "hank-williams",
+   "name": "Hank Williams",
+   "from": "Your Cheatin' Heart",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 58,
+   "pv": 833901,
+   "img": "img/hank-williams.webp",
+   "credit": {
+    "author": "WSM radio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hank_Williams_Promotional_Photo.jpg"
+   }
+  },
+  {
+   "id": "glen-campbell",
+   "name": "Glen Campbell",
+   "from": "Rhinestone Cowboy",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 56,
+   "pv": 796985,
+   "img": "img/glen-campbell.webp",
+   "credit": {
+    "author": "Capitol Records. This was his recording company at the time. There's a partial ink stamp on back at left showing a portion of the old Capitol logo and the file number 15341.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Glen_Campbell_1967.JPG"
+   }
+  },
+  {
+   "id": "garth-brooks",
+   "name": "Garth Brooks",
+   "from": "Friends in Low Places",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 54,
+   "pv": 791159,
+   "img": "img/garth-brooks.webp",
+   "credit": {
+    "author": "U.S. Department of State from United States",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Garth_Brooks_KCHD_2022.jpg"
+   }
+  },
+  {
+   "id": "faith-hill",
+   "name": "Faith Hill",
+   "from": "This Kiss",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 52,
+   "pv": 785029,
+   "img": "img/faith-hill.webp",
+   "credit": {
+    "author": "Jldickerson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Faith_Hill_04.jpg"
+   }
+  },
+  {
+   "id": "randy-travis",
+   "name": "Randy Travis",
+   "from": "Forever and Ever, Amen",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 49,
+   "pv": 784102,
+   "img": "img/randy-travis.webp",
+   "credit": {
+    "author": "- EMR -",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Randy_Travis_2007.jpg"
+   }
+  },
+  {
+   "id": "luke-combs",
+   "name": "Luke Combs",
+   "from": "Fast Car",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 47,
+   "pv": 762899,
+   "img": "img/luke-combs.webp",
+   "credit": {
+    "author": "David Bergman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Luke_Combs_interview.jpg"
+   }
+  },
+  {
+   "id": "george-strait",
+   "name": "George Strait",
+   "from": "Amarillo by Morning",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 45,
+   "pv": 754318,
+   "img": "img/george-strait.webp",
+   "credit": {
+    "author": "Bede735",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Strait_2014_1.jpg"
+   }
+  },
+  {
+   "id": "chris-stapleton",
+   "name": "Chris Stapleton",
+   "from": "Tennessee Whiskey",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 43,
+   "pv": 750895,
+   "img": "img/chris-stapleton.webp",
+   "credit": {
+    "author": "Steve Kwak - Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Stapleton_Concert_(48519730107)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "patsy-cline",
+   "name": "Patsy Cline",
+   "from": "Crazy",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 41,
+   "pv": 723520,
+   "img": "img/patsy-cline.webp",
+   "credit": {
+    "author": "Decca Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Patsy_Cline_1960_publicity_portrait_-_cropped.jpg"
+   }
+  },
+  {
+   "id": "miranda-lambert",
+   "name": "Miranda Lambert",
+   "from": "The House That Built Me",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 38,
+   "pv": 715005,
+   "img": "img/miranda-lambert.webp",
+   "credit": {
+    "author": "Miranda Lambert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Miranda-Lambert-Bandwagon-Tour-2019.jpg"
+   }
+  },
+  {
+   "id": "loretta-lynn",
+   "name": "Loretta Lynn",
+   "from": "Coal Miner's Daughter",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 36,
+   "pv": 696248,
+   "img": "img/loretta-lynn.webp",
+   "credit": {
+    "author": "Les Leverett",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:LorettaLynn1960s.jpg"
+   }
+  },
+  {
+   "id": "wynonna-judd",
+   "name": "Wynonna Judd",
+   "from": "The Judds",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 34,
+   "pv": 683589,
+   "img": "img/wynonna-judd.webp",
+   "credit": {
+    "author": "Michael Dyer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wynonna_Judd_performs_live_(cropped).jpg"
+   }
+  },
+  {
+   "id": "brad-paisley",
+   "name": "Brad Paisley",
+   "from": "Whiskey Lullaby",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 32,
+   "pv": 583120,
+   "img": "img/brad-paisley.webp",
+   "credit": {
+    "author": "Crisco 1492",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brad_Paisley_performing_at_Caesars_Windsor,_2022-05-29_05_(cropped).jpg"
+   }
+  },
+  {
+   "id": "luke-bryan",
+   "name": "Luke Bryan",
+   "from": "Country Girl",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 30,
+   "pv": 580451,
+   "img": "img/luke-bryan.webp",
+   "credit": {
+    "author": "Library of Congress Life",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Gershwin_Prize_for_Popular_Song_(51930843770)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "darius-rucker",
+   "name": "Darius Rucker",
+   "from": "Wagon Wheel",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 27,
+   "pv": 567770,
+   "img": "img/darius-rucker.webp",
+   "credit": {
+    "author": "Zach Catanzareti Photo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Darius_rucker_(49562468842).jpg"
+   }
+  },
+  {
+   "id": "maren-morris",
+   "name": "Maren Morris",
+   "from": "The Middle",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 25,
+   "pv": 541210,
+   "img": "img/maren-morris.webp",
+   "credit": {
+    "author": "John Sears",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Maren_Morris_at_the_2024_Toronto_International_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jason-aldean",
+   "name": "Jason Aldean",
+   "from": "Dirt Road Anthem",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 23,
+   "pv": 468798,
+   "img": "img/jason-aldean.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jason_Aldean.jpg"
+   }
+  },
+  {
+   "id": "eric-church",
+   "name": "Eric Church",
+   "from": "Springsteen",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 21,
+   "pv": 425219,
+   "img": "img/eric-church.webp",
+   "credit": {
+    "author": "Townsquare Media",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eric_Church_2012_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gabby-barrett",
+   "name": "Gabby Barrett",
+   "from": "I Hope",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 19,
+   "pv": 385487,
+   "img": "img/gabby-barrett.webp",
+   "credit": {
+    "author": "The White House from Washington, DC",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_National_Christmas_Tree_Lighting_(45377711214)_cropped.jpg"
+   }
+  },
+  {
+   "id": "trisha-yearwood",
+   "name": "Trisha Yearwood",
+   "from": "She's in Love with the Boy",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 16,
+   "pv": 353749,
+   "img": "img/trisha-yearwood.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TrishaYearwood-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "kane-brown",
+   "name": "Kane Brown",
+   "from": "Heaven",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 14,
+   "pv": 348979,
+   "img": "img/kane-brown.webp",
+   "credit": {
+    "author": "2022 Special Olympics USA Games",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kane_Brown_at_2022_Special_Olympics_USA_Games.png"
+   }
+  },
+  {
+   "id": "cody-johnson",
+   "name": "Cody Johnson",
+   "from": "'Til You Can't",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 12,
+   "pv": 332419,
+   "img": "img/cody-johnson.webp",
+   "credit": {
+    "author": "Scotty Kay",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cody_Johnson_in_2024.png"
+   }
+  },
+  {
+   "id": "clint-black",
+   "name": "Clint Black",
+   "from": "Killin' Time",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 10,
+   "pv": 317543,
+   "img": "img/clint-black.webp",
+   "credit": {
+    "author": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Clint_Black_2000.jpg"
+   }
+  },
+  {
+   "id": "carly-pearce",
+   "name": "Carly Pearce",
+   "from": "Every Little Thing",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 8,
+   "pv": 305006,
+   "img": "img/carly-pearce.webp",
+   "credit": {
+    "author": "Chris Woodrich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carly_Pearce_performing_at_Hogs_for_Hospice,_Leamington,_Ontario,_2025-08-01_53.jpg"
+   }
+  },
+  {
+   "id": "thomas-rhett",
+   "name": "Thomas Rhett",
+   "from": "Die a Happy Man",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 5,
+   "pv": 291264,
+   "img": "img/thomas-rhett.webp",
+   "credit": {
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Rhett_(cropped).jpg"
+   }
+  },
+  {
+   "id": "martina-mcbride",
+   "name": "Martina McBride",
+   "from": "Independence Day",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 3,
+   "pv": 252378,
+   "img": "img/martina-mcbride.webp",
+   "credit": {
+    "author": "salva1745",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Martina_McBride.jpg"
+   }
+  },
+  {
+   "id": "charley-pride",
+   "name": "Charley Pride",
+   "from": "Kiss an Angel Good Mornin'",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "country-music"
+   ],
+   "fame": 1,
+   "pv": 236046,
+   "img": "img/charley-pride.webp",
+   "credit": {
+    "author": "GREG MATHISON",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charley-Pride_1981.JPEG"
+   }
+  }
+ ]
+}

@@ -1,0 +1,967 @@
+{
+ "id": "models-influencers",
+ "title": "Influencers & Models",
+ "cat": "internet",
+ "people": [
+  {
+   "id": "kylie-jenner",
+   "name": "Kylie Jenner",
+   "from": "Kylie Cosmetics",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 100,
+   "pv": 3990017,
+   "img": "img/kylie-jenner.webp",
+   "credit": {
+    "author": "Hayu",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kylie_Jenner2_(cropped).png"
+   }
+  },
+  {
+   "id": "kim-kardashian",
+   "name": "Kim Kardashian",
+   "from": "SKIMS",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 98,
+   "pv": 3647600,
+   "img": "img/kim-kardashian.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kim_Kardashian_West_2014.jpg"
+   }
+  },
+  {
+   "id": "cindy-crawford",
+   "name": "Cindy Crawford",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 96,
+   "pv": 2310832,
+   "img": "img/cindy-crawford.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cindy_Crawford_at_WWD_Style_Awards_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kendall-jenner",
+   "name": "Kendall Jenner",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 94,
+   "pv": 2310020,
+   "img": "img/kendall-jenner.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kendall_Jenner_Venice_Film_Festival_2_(cropped).jpg"
+   }
+  },
+  {
+   "id": "brooke-shields",
+   "name": "Brooke Shields",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 92,
+   "pv": 2098032,
+   "img": "img/brooke-shields.webp",
+   "credit": {
+    "author": "Library of Congress Life",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Brooke_Shields_(54337789981)_(cropped)1.jpg"
+   }
+  },
+  {
+   "id": "alix-earle",
+   "name": "Alix Earle",
+   "from": "TikTok",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 89,
+   "pv": 2013457,
+   "img": "img/alix-earle.webp",
+   "credit": {
+    "author": "Sonali Prabhu",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alix_Earle_in_2023.png"
+   }
+  },
+  {
+   "id": "hailey-bieber",
+   "name": "Hailey Bieber",
+   "from": "Rhode",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 87,
+   "pv": 1985533,
+   "img": "img/hailey-bieber.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hailey_Bieber_at_WWD_Style_Awards_2026.jpg"
+   }
+  },
+  {
+   "id": "gigi-hadid",
+   "name": "Gigi Hadid",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 85,
+   "pv": 1856626,
+   "img": "img/gigi-hadid.webp",
+   "credit": {
+    "author": "Manuela Muniz Feijó Scarpa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Marina_Ruy_Barbosa_com_Gigi_Hadid_em_Paris_(Gigi_Hadid).jpg"
+   }
+  },
+  {
+   "id": "gisele-bundchen",
+   "name": "Gisele Bündchen",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 83,
+   "pv": 1688967,
+   "img": "img/gisele-bundchen.webp",
+   "credit": {
+    "author": "Tiago Chediak",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gisele_Bundchen2.jpg"
+   }
+  },
+  {
+   "id": "heidi-klum",
+   "name": "Heidi Klum",
+   "from": "Project Runway",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 81,
+   "pv": 1678823,
+   "img": "img/heidi-klum.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Heidi_Klum_Colleen_Sturtevant_Photography-3.jpg"
+   }
+  },
+  {
+   "id": "cara-delevingne",
+   "name": "Cara Delevingne",
+   "from": "model",
+   "gender": "x",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 79,
+   "pv": 1314417,
+   "img": "img/cara-delevingne.webp",
+   "credit": {
+    "author": "Claire Fridkin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cara_Delevingne_at_the_2026_New_York_Film_Festival_01_infobox.jpg"
+   }
+  },
+  {
+   "id": "tyra-banks",
+   "name": "Tyra Banks",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 77,
+   "pv": 1254938,
+   "img": "img/tyra-banks.webp",
+   "credit": {
+    "author": "Juice Group",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tyra_Banks_2018_4.png"
+   }
+  },
+  {
+   "id": "iman",
+   "name": "Iman",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 75,
+   "pv": 1217921,
+   "img": "img/iman.webp",
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Iman_1996.jpg"
+   }
+  },
+  {
+   "id": "addison-rae",
+   "name": "Addison Rae",
+   "from": "TikTok",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 73,
+   "pv": 1216340,
+   "img": "img/addison-rae.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LanaWembley030725-3_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bella-hadid",
+   "name": "Bella Hadid",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 71,
+   "pv": 1118211,
+   "img": "img/bella-hadid.webp",
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bella_Hadid_at_the_2026_Cannes_Film_Festival_01_(cropped).jpg"
+   }
+  },
+  {
+   "id": "miranda-kerr",
+   "name": "Miranda Kerr",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 68,
+   "pv": 1055835,
+   "img": "img/miranda-kerr.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Miranda_Kerr_-_Abbot_Kinney_2025.jpg"
+   }
+  },
+  {
+   "id": "emily-ratajkowski",
+   "name": "Emily Ratajkowski",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 66,
+   "pv": 1018167,
+   "img": "img/emily-ratajkowski.webp",
+   "credit": {
+    "author": "Yann Tosseyn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kerastase_Club_-_Emily_Ratajkowski_3.png"
+   }
+  },
+  {
+   "id": "naomi-campbell",
+   "name": "Naomi Campbell",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 64,
+   "pv": 907104,
+   "img": "img/naomi-campbell.webp",
+   "credit": {
+    "author": "Georges Biard",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Naomi_Campbell_Cannes_2018.jpg"
+   }
+  },
+  {
+   "id": "karlie-kloss",
+   "name": "Karlie Kloss",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 62,
+   "pv": 877469,
+   "img": "img/karlie-kloss.webp",
+   "credit": {
+    "author": "Heather-L-Photo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Karlie_Kloss_Loegering_(cropped).png"
+   }
+  },
+  {
+   "id": "kate-moss",
+   "name": "Kate Moss",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 60,
+   "pv": 853349,
+   "img": "img/kate-moss.webp",
+   "credit": {
+    "author": "Crooked House Films",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kate_Moss_-_Decort%C3%A9_advertisement_(cropped2).jpg"
+   }
+  },
+  {
+   "id": "olivia-culpo",
+   "name": "Olivia Culpo",
+   "from": "Miss Universe",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 58,
+   "pv": 779084,
+   "img": "img/olivia-culpo.webp",
+   "credit": {
+    "author": "U.S. Embassy, Jakarta",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Miss_Universe_Olivia_Culpo.jpg"
+   }
+  },
+  {
+   "id": "adriana-lima",
+   "name": "Adriana Lima",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 56,
+   "pv": 711089,
+   "img": "img/adriana-lima.webp",
+   "credit": {
+    "author": "LucaFazPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Adriana_Lima_at_80th_Venice_International_Film_Festival.jpg"
+   }
+  },
+  {
+   "id": "chrissy-teigen",
+   "name": "Chrissy Teigen",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 54,
+   "pv": 678591,
+   "img": "img/chrissy-teigen.webp",
+   "credit": {
+    "author": "Adweek",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chrissy_Teigen_2019.png"
+   }
+  },
+  {
+   "id": "christie-brinkley",
+   "name": "Christie Brinkley",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 52,
+   "pv": 667075,
+   "img": "img/christie-brinkley.webp",
+   "credit": {
+    "author": "David Shankbone",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Christie_Brinkley_by_David_Shankbone_(cropped).jpg"
+   }
+  },
+  {
+   "id": "twiggy",
+   "name": "Twiggy",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 49,
+   "pv": 655797,
+   "img": "img/twiggy.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Twiggy_-_GylesDamesPalladium050323_(19_of_74)_(52728638973).jpg"
+   }
+  },
+  {
+   "id": "khaby-lame",
+   "name": "Khaby Lame",
+   "from": "TikTok",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 47,
+   "pv": 636578,
+   "img": "img/khaby-lame.webp",
+   "credit": {
+    "author": "Web Summit",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Khaby_Lame,_Nov_2025_(cropped1).jpg"
+   }
+  },
+  {
+   "id": "charli-d-amelio",
+   "name": "Charli D'Amelio",
+   "from": "TikTok",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 45,
+   "pv": 607304,
+   "img": "img/charli-d-amelio.webp",
+   "credit": {
+    "author": "NickRewind",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Charli_D%27Amelio_at_KCA_2022.jpg"
+   }
+  },
+  {
+   "id": "behati-prinsloo",
+   "name": "Behati Prinsloo",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 43,
+   "pv": 583556,
+   "img": "img/behati-prinsloo.webp",
+   "credit": {
+    "author": "https://www.flickr.com/photos/33530571@N02/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Behati_Prinsloo_-_GEORGES_CHAKRA_2010_07_(cropped).jpg"
+   }
+  },
+  {
+   "id": "candice-swanepoel",
+   "name": "Candice Swanepoel",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 41,
+   "pv": 576657,
+   "img": "img/candice-swanepoel.webp",
+   "credit": {
+    "author": "Photobra, Adam Bielawski",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Candice-Swanepoel_2010-03-31_VictoriasSecretStoreChicago_photo-by-Adam_Bielawski.jpg"
+   }
+  },
+  {
+   "id": "claudia-schiffer",
+   "name": "Claudia Schiffer",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 39,
+   "pv": 569344,
+   "img": "img/claudia-schiffer.webp",
+   "credit": {
+    "author": "Nicolas Genin - Flickr profile",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Claudia_Schiffer_2009.jpg"
+   }
+  },
+  {
+   "id": "elle-macpherson",
+   "name": "Elle Macpherson",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 37,
+   "pv": 542075,
+   "img": "img/elle-macpherson.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elle_Macpherson_2011.jpg"
+   }
+  },
+  {
+   "id": "linda-evangelista",
+   "name": "Linda Evangelista",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 35,
+   "pv": 451924,
+   "img": "img/linda-evangelista.webp",
+   "credit": {
+    "author": "jusez from Hong Kong, China",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LindaEvangelista_(cropped).jpg"
+   }
+  },
+  {
+   "id": "winnie-harlow",
+   "name": "Winnie Harlow",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 33,
+   "pv": 428161,
+   "img": "img/winnie-harlow.webp",
+   "credit": {
+    "author": "Georges Biard",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Winnie_Harlow_Cannes_2018.jpg"
+   }
+  },
+  {
+   "id": "bella-poarch",
+   "name": "Bella Poarch",
+   "from": "TikTok",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 30,
+   "pv": 333336,
+   "img": "img/bella-poarch.webp",
+   "credit": {
+    "author": "Angie Freems",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bella_Poarch_-_Pink_Aura_Tour.jpg"
+   }
+  },
+  {
+   "id": "huda-kattan",
+   "name": "Huda Kattan",
+   "from": "Huda Beauty",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 28,
+   "pv": 312924,
+   "img": "img/huda-kattan.webp",
+   "credit": {
+    "author": "Susan Alpin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HudaKattan.jpg"
+   }
+  },
+  {
+   "id": "brittany-broski",
+   "name": "Brittany Broski",
+   "from": "TikTok",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 26,
+   "pv": 263676,
+   "img": "img/brittany-broski.webp",
+   "credit": {
+    "author": "Sarah Baska",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brittany_Broski_with_Sarah_Baska,_2022_1_(cropped).jpeg"
+   }
+  },
+  {
+   "id": "david-gandy",
+   "name": "David Gandy",
+   "from": "model",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 24,
+   "pv": 248563,
+   "img": "img/david-gandy.webp",
+   "credit": {
+    "author": "David Seow",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:David_Gandy_1.jpg"
+   }
+  },
+  {
+   "id": "dixie-d-amelio",
+   "name": "Dixie D'Amelio",
+   "from": "TikTok",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 22,
+   "pv": 226925,
+   "img": "img/dixie-d-amelio.webp",
+   "credit": {
+    "author": "Photobra",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dixie_D%27Amelio_Performing_in_Chicago.jpg"
+   }
+  },
+  {
+   "id": "lily-aldridge",
+   "name": "Lily Aldridge",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 20,
+   "pv": 189430,
+   "img": "img/lily-aldridge.webp",
+   "credit": {
+    "author": "Erick Acuna",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lily_Aldridge_in_2014_(cropped).jpg"
+   }
+  },
+  {
+   "id": "chiara-ferragni",
+   "name": "Chiara Ferragni",
+   "from": "The Blonde Salad",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 18,
+   "pv": 173779,
+   "img": "img/chiara-ferragni.webp",
+   "credit": {
+    "author": "Pedro J Pacheco",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Goyas_2025_-_Chiara_Ferragni_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ashley-graham",
+   "name": "Ashley Graham",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 16,
+   "pv": 173317,
+   "img": "img/ashley-graham.webp",
+   "credit": {
+    "author": "ATTN:",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ashley_Graham_ATTN_2024.jpg"
+   }
+  },
+  {
+   "id": "tyson-beckford",
+   "name": "Tyson Beckford",
+   "from": "model",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 14,
+   "pv": 171258,
+   "img": "img/tyson-beckford.webp",
+   "credit": {
+    "author": "The original uploader was Jgro888 at English Wikipedia.",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Tyson_Beckford_(cropped).jpg"
+   }
+  },
+  {
+   "id": "taylor-hill",
+   "name": "Taylor Hill",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 12,
+   "pv": 171199,
+   "img": "img/taylor-hill.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taylor_Hill_Springsteen-56_(cropped).jpg"
+   }
+  },
+  {
+   "id": "nikkie-de-jager",
+   "name": "Nikkie de Jager",
+   "from": "NikkieTutorials",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 9,
+   "pv": 156723,
+   "img": "img/nikkie-de-jager.webp",
+   "credit": {
+    "author": "&C",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NikkiedeJager2020-2.jpg"
+   }
+  },
+  {
+   "id": "bretman-rock",
+   "name": "Bretman Rock",
+   "from": "Instagram",
+   "gender": "x",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 7,
+   "pv": 154968,
+   "img": "img/bretman-rock.webp",
+   "credit": {
+    "author": "Lone Fox",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bretman_Rock_2019.jpg"
+   }
+  },
+  {
+   "id": "zach-king",
+   "name": "Zach King",
+   "from": "TikTok",
+   "gender": "m",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 5,
+   "pv": 120686,
+   "img": "img/zach-king.webp",
+   "credit": {
+    "author": "Muhammad Ali Khalid",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zach_King_Photo.jpg"
+   }
+  },
+  {
+   "id": "joan-smalls",
+   "name": "Joan Smalls",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 3,
+   "pv": 64844,
+   "img": "img/joan-smalls.webp",
+   "credit": {
+    "author": "CHRISTOPHER MACSURAK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joan_Smalls_DVF_ss14-33.jpg"
+   }
+  },
+  {
+   "id": "jourdan-dunn",
+   "name": "Jourdan Dunn",
+   "from": "model",
+   "gender": "f",
+   "kind": "internet",
+   "tags": [
+    "internet",
+    "models-influencers"
+   ],
+   "fame": 1,
+   "pv": 31324,
+   "img": "img/jourdan-dunn.webp",
+   "credit": {
+    "author": "Myles Kalus Anak Jihem",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jourdan_Dunn_Paris_Fashion_Week_Autumn_Winter_2019.jpg"
+   }
+  }
+ ]
+}
