@@ -1,0 +1,952 @@
+{
+ "id": "nintendo",
+ "title": "Nintendo Characters",
+ "cat": "games",
+ "people": [
+  {
+   "id": "bowser",
+   "name": "Bowser",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 91,
+   "pv": 274334,
+   "img": "img/bowser.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Bowser"
+   }
+  },
+  {
+   "id": "bowser-jr",
+   "name": "Bowser Jr.",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 64,
+   "pv": 125206,
+   "img": "img/bowser-jr.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Bowser_Jr."
+   }
+  },
+  {
+   "id": "captain-falcon",
+   "name": "Captain Falcon",
+   "from": "F-Zero",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "F-Zero",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 12,
+   "pv": 10255,
+   "img": "img/captain-falcon.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://fzero.fandom.com/wiki/Captain_Falcon"
+   }
+  },
+  {
+   "id": "captain-olimar",
+   "name": "Captain Olimar",
+   "from": "Pikmin",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pikmin",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 26,
+   "pv": 19266,
+   "img": "img/captain-olimar.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pikmin.fandom.com/wiki/Captain_Olimar"
+   }
+  },
+  {
+   "id": "diddy-kong",
+   "name": "Diddy Kong",
+   "from": "Donkey Kong",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Donkey Kong",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 53,
+   "pv": 70702,
+   "img": "img/diddy-kong.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Diddy_Kong"
+   }
+  },
+  {
+   "id": "donkey-kong",
+   "name": "Donkey Kong",
+   "from": "Donkey Kong",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Donkey Kong",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 78,
+   "pv": 161137,
+   "img": "img/donkey-kong.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Donkey_Kong_(character)"
+   }
+  },
+  {
+   "id": "duck-hunt",
+   "name": "Duck Hunt",
+   "from": "Duck Hunt",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Duck Hunt",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 57,
+   "pv": 98150,
+   "img": "img/duck-hunt.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://supersmashbros.fandom.com/wiki/Duck_Hunt"
+   }
+  },
+  {
+   "id": "falco-lombardi",
+   "name": "Falco Lombardi",
+   "from": "Star Fox",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Star Fox",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 14,
+   "pv": 13285,
+   "img": "img/falco-lombardi.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://starfox.fandom.com/wiki/Falco_Lombardi"
+   }
+  },
+  {
+   "id": "fox-mccloud",
+   "name": "Fox McCloud",
+   "from": "Star Fox",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Star Fox",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 86,
+   "pv": 245958,
+   "img": "img/fox-mccloud.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://starfox.fandom.com/wiki/Fox_McCloud"
+   }
+  },
+  {
+   "id": "ganondorf",
+   "name": "Ganondorf",
+   "from": "The Legend of Zelda",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Legend of Zelda",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 60,
+   "pv": 111910,
+   "img": "img/ganondorf.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://zelda.fandom.com/wiki/Ganondorf"
+   }
+  },
+  {
+   "id": "impa",
+   "name": "Impa",
+   "from": "The Legend of Zelda",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Legend of Zelda",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 8,
+   "pv": 8393,
+   "img": "img/impa.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://zelda.fandom.com/wiki/Impa"
+   }
+  },
+  {
+   "id": "inkling",
+   "name": "Inkling",
+   "from": "Splatoon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Splatoon",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 3,
+   "pv": 4741,
+   "img": "img/inkling.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://splatoon.fandom.com/wiki/Inklings"
+   }
+  },
+  {
+   "id": "isabelle",
+   "name": "Isabelle",
+   "from": "Animal Crossing",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Animal Crossing",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 35,
+   "pv": 29803,
+   "img": "img/isabelle.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://animalcrossing.fandom.com/wiki/Isabelle"
+   }
+  },
+  {
+   "id": "k-k-slider",
+   "name": "K.K. Slider",
+   "from": "Animal Crossing",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Animal Crossing",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 17,
+   "pv": 16806,
+   "img": "img/k-k-slider.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://animalcrossing.fandom.com/wiki/K.K._Slider"
+   }
+  },
+  {
+   "id": "king-boo",
+   "name": "King Boo",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 1,
+   "pv": 2878,
+   "img": "img/king-boo.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/King_Boo"
+   }
+  },
+  {
+   "id": "king-dedede",
+   "name": "King Dedede",
+   "from": "Kirby",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kirby",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 10,
+   "pv": 8578,
+   "img": "img/king-dedede.webp",
+   "credit": {
+    "author": "Nintendo / HAL Laboratory",
+    "license": "© owner, fan use",
+    "source": "https://kirby.fandom.com/wiki/King_Dedede"
+   }
+  },
+  {
+   "id": "kirby",
+   "name": "Kirby",
+   "from": "Kirby",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kirby",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 80,
+   "pv": 178117,
+   "img": "img/kirby.webp",
+   "credit": {
+    "author": "Nintendo / HAL Laboratory",
+    "license": "© owner, fan use",
+    "source": "https://kirby.fandom.com/wiki/Kirby"
+   }
+  },
+  {
+   "id": "koopa-troopa",
+   "name": "Koopa Troopa",
+   "from": "Super Mario",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 55,
+   "pv": 76359,
+   "img": "img/koopa-troopa.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Koopa_Troopa"
+   }
+  },
+  {
+   "id": "link",
+   "name": "Link",
+   "from": "The Legend of Zelda",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Legend of Zelda",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 84,
+   "pv": 209554,
+   "img": "img/link.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://zelda.fandom.com/wiki/Link"
+   }
+  },
+  {
+   "id": "little-mac",
+   "name": "Little Mac",
+   "from": "Punch-Out!!",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Punch-Out!!",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 32,
+   "pv": 29060,
+   "img": "img/little-mac.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://punchout.fandom.com/wiki/Little_Mac"
+   }
+  },
+  {
+   "id": "luigi",
+   "name": "Luigi",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 82,
+   "pv": 197178,
+   "img": "img/luigi.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Luigi"
+   }
+  },
+  {
+   "id": "mario",
+   "name": "Mario",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 100,
+   "pv": 597737,
+   "img": "img/mario.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Mario"
+   }
+  },
+  {
+   "id": "marth",
+   "name": "Marth",
+   "from": "Fire Emblem",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fire Emblem",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 30,
+   "pv": 29011,
+   "img": "img/marth.webp",
+   "credit": {
+    "author": "Nintendo / Intelligent Systems",
+    "license": "© owner, fan use",
+    "source": "https://fireemblem.fandom.com/wiki/Marth"
+   }
+  },
+  {
+   "id": "meta-knight",
+   "name": "Meta Knight",
+   "from": "Kirby",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kirby",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 39,
+   "pv": 34051,
+   "img": "img/meta-knight.webp",
+   "credit": {
+    "author": "Nintendo / HAL Laboratory",
+    "license": "© owner, fan use",
+    "source": "https://kirby.fandom.com/wiki/Meta_Knight"
+   }
+  },
+  {
+   "id": "midna",
+   "name": "Midna",
+   "from": "The Legend of Zelda",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Legend of Zelda",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 37,
+   "pv": 32807,
+   "img": "img/midna.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://zelda.fandom.com/wiki/Midna"
+   }
+  },
+  {
+   "id": "mr-game-watch",
+   "name": "Mr. Game & Watch",
+   "from": "Game & Watch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Game & Watch",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 24,
+   "pv": 18328,
+   "img": "img/mr-game-watch.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://supersmashbros.fandom.com/wiki/Mr._Game_%26_Watch"
+   }
+  },
+  {
+   "id": "navi",
+   "name": "Navi",
+   "from": "The Legend of Zelda",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Legend of Zelda",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 42,
+   "pv": 34579,
+   "img": "img/navi.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://zelda.fandom.com/wiki/Navi"
+   }
+  },
+  {
+   "id": "ness",
+   "name": "Ness",
+   "from": "EarthBound",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "EarthBound",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 50,
+   "pv": 47421,
+   "img": "img/ness.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://earthbound.fandom.com/wiki/Ness"
+   }
+  },
+  {
+   "id": "pit",
+   "name": "Pit",
+   "from": "Kid Icarus",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kid Icarus",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 6,
+   "pv": 7767,
+   "img": "img/pit.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://kidicarus.fandom.com/wiki/Pit"
+   }
+  },
+  {
+   "id": "princess-daisy",
+   "name": "Princess Daisy",
+   "from": "Super Mario",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 93,
+   "pv": 276146,
+   "img": "img/princess-daisy.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Princess_Daisy"
+   }
+  },
+  {
+   "id": "princess-peach",
+   "name": "Princess Peach",
+   "from": "Super Mario",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 96,
+   "pv": 284963,
+   "img": "img/princess-peach.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Princess_Peach"
+   }
+  },
+  {
+   "id": "princess-zelda",
+   "name": "Princess Zelda",
+   "from": "The Legend of Zelda",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Legend of Zelda",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 62,
+   "pv": 122877,
+   "img": "img/princess-zelda.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://zelda.fandom.com/wiki/Princess_Zelda"
+   }
+  },
+  {
+   "id": "r-o-b",
+   "name": "R.O.B.",
+   "from": "R.O.B.",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "R.O.B.",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 71,
+   "pv": 150409,
+   "img": "img/r-o-b.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://supersmashbros.fandom.com/wiki/R.O.B."
+   }
+  },
+  {
+   "id": "ridley",
+   "name": "Ridley",
+   "from": "Metroid",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Metroid",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 46,
+   "pv": 42080,
+   "img": "img/ridley.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://metroid.fandom.com/wiki/Ridley"
+   }
+  },
+  {
+   "id": "rosalina",
+   "name": "Rosalina",
+   "from": "Super Mario",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 98,
+   "pv": 433730,
+   "img": "img/rosalina.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Rosalina"
+   }
+  },
+  {
+   "id": "samus-aran",
+   "name": "Samus Aran",
+   "from": "Metroid",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Metroid",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 75,
+   "pv": 160658,
+   "img": "img/samus-aran.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://metroid.fandom.com/wiki/Samus_Aran"
+   }
+  },
+  {
+   "id": "shulk",
+   "name": "Shulk",
+   "from": "Xenoblade Chronicles",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Xenoblade Chronicles",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 19,
+   "pv": 17613,
+   "img": "img/shulk.webp",
+   "credit": {
+    "author": "Nintendo / Monolith Soft",
+    "license": "© owner, fan use",
+    "source": "https://xenoblade.fandom.com/wiki/Shulk"
+   }
+  },
+  {
+   "id": "shy-guy",
+   "name": "Shy Guy",
+   "from": "Super Mario",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 21,
+   "pv": 17930,
+   "img": "img/shy-guy.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Shy_Guy"
+   }
+  },
+  {
+   "id": "toad",
+   "name": "Toad",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 68,
+   "pv": 130588,
+   "img": "img/toad.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Toad_(character)"
+   }
+  },
+  {
+   "id": "toadette",
+   "name": "Toadette",
+   "from": "Super Mario",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 28,
+   "pv": 25926,
+   "img": "img/toadette.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Toadette"
+   }
+  },
+  {
+   "id": "tom-nook",
+   "name": "Tom Nook",
+   "from": "Animal Crossing",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Animal Crossing",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 44,
+   "pv": 34853,
+   "img": "img/tom-nook.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://animalcrossing.fandom.com/wiki/Tom_Nook"
+   }
+  },
+  {
+   "id": "waluigi",
+   "name": "Waluigi",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 66,
+   "pv": 129474,
+   "img": "img/waluigi.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Waluigi"
+   }
+  },
+  {
+   "id": "wario",
+   "name": "Wario",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 73,
+   "pv": 159371,
+   "img": "img/wario.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Wario"
+   }
+  },
+  {
+   "id": "wii-fit-trainer",
+   "name": "Wii Fit Trainer",
+   "from": "Wii Fit",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Wii Fit",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 48,
+   "pv": 44745,
+   "img": "img/wii-fit-trainer.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://supersmashbros.fandom.com/wiki/Wii_Fit_Trainer"
+   }
+  },
+  {
+   "id": "yoshi",
+   "name": "Yoshi",
+   "from": "Super Mario",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Super Mario",
+   "tags": [
+    "character",
+    "nintendo"
+   ],
+   "fame": 89,
+   "pv": 250187,
+   "img": "img/yoshi.webp",
+   "credit": {
+    "author": "Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://mario.fandom.com/wiki/Yoshi_(character)"
+   }
+  }
+ ]
+}

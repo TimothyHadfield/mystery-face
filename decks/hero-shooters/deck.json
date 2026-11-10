@@ -1,0 +1,952 @@
+{
+ "id": "hero-shooters",
+ "title": "Fortnite, Overwatch & League",
+ "cat": "games",
+ "people": [
+  {
+   "id": "ahri",
+   "name": "Ahri",
+   "from": "League of Legends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 57,
+   "pv": 5605,
+   "img": "img/ahri.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Ahri"
+   }
+  },
+  {
+   "id": "ana",
+   "name": "Ana",
+   "from": "Overwatch",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 75,
+   "pv": 13758,
+   "img": "img/ana.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Ana"
+   }
+  },
+  {
+   "id": "bastion",
+   "name": "Bastion",
+   "from": "Overwatch",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 60,
+   "pv": 8117,
+   "img": "img/bastion.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Bastion"
+   }
+  },
+  {
+   "id": "bloodhound",
+   "name": "Bloodhound",
+   "from": "Apex Legends",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Apex Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 6,
+   "pv": 28,
+   "img": "img/bloodhound.webp",
+   "credit": {
+    "author": "Respawn / EA",
+    "license": "© owner, fan use",
+    "source": "https://apexlegends.fandom.com/wiki/Bloodhound"
+   }
+  },
+  {
+   "id": "caitlyn",
+   "name": "Caitlyn",
+   "from": "League of Legends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 55,
+   "pv": 2662,
+   "img": "img/caitlyn.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Caitlyn"
+   }
+  },
+  {
+   "id": "cuddle-team-leader",
+   "name": "Cuddle Team Leader",
+   "from": "Fortnite",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fortnite",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 24,
+   "pv": 28,
+   "img": "img/cuddle-team-leader.webp",
+   "credit": {
+    "author": "Epic Games",
+    "license": "© owner, fan use",
+    "source": "https://fortnite.fandom.com/wiki/Cuddle_Team_Leader"
+   }
+  },
+  {
+   "id": "d-va",
+   "name": "D.Va",
+   "from": "Overwatch",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 93,
+   "pv": 41890,
+   "img": "img/d-va.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/D.Va"
+   }
+  },
+  {
+   "id": "darius",
+   "name": "Darius",
+   "from": "League of Legends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 42,
+   "pv": 70,
+   "img": "img/darius.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Darius"
+   }
+  },
+  {
+   "id": "drift",
+   "name": "Drift",
+   "from": "Fortnite",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fortnite",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 28,
+   "pv": 28,
+   "img": "img/drift.webp",
+   "credit": {
+    "author": "Epic Games",
+    "license": "© owner, fan use",
+    "source": "https://fortnite.fandom.com/wiki/Drift"
+   }
+  },
+  {
+   "id": "ekko",
+   "name": "Ekko",
+   "from": "League of Legends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 50,
+   "pv": 2202,
+   "img": "img/ekko.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Ekko"
+   }
+  },
+  {
+   "id": "ezreal",
+   "name": "Ezreal",
+   "from": "League of Legends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 21,
+   "pv": 28,
+   "img": "img/ezreal.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Ezreal"
+   }
+  },
+  {
+   "id": "fishstick",
+   "name": "Fishstick",
+   "from": "Fortnite",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fortnite",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 32,
+   "pv": 28,
+   "img": "img/fishstick.webp",
+   "credit": {
+    "author": "Epic Games",
+    "license": "© owner, fan use",
+    "source": "https://fortnite.fandom.com/wiki/Fishstick"
+   }
+  },
+  {
+   "id": "garen",
+   "name": "Garen",
+   "from": "League of Legends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 35,
+   "pv": 56,
+   "img": "img/garen.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Garen"
+   }
+  },
+  {
+   "id": "genji",
+   "name": "Genji",
+   "from": "Overwatch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 71,
+   "pv": 13073,
+   "img": "img/genji.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Genji"
+   }
+  },
+  {
+   "id": "hanzo",
+   "name": "Hanzo",
+   "from": "Overwatch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 68,
+   "pv": 12203,
+   "img": "img/hanzo.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Hanzo"
+   }
+  },
+  {
+   "id": "jett",
+   "name": "Jett",
+   "from": "Valorant",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Valorant",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 19,
+   "pv": 28,
+   "img": "img/jett.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://valorant.fandom.com/wiki/Jett"
+   }
+  },
+  {
+   "id": "jinx",
+   "name": "Jinx",
+   "from": "League of Legends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 100,
+   "pv": 158429,
+   "img": "img/jinx.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Jinx"
+   }
+  },
+  {
+   "id": "jonesy",
+   "name": "Jonesy",
+   "from": "Fortnite",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fortnite",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 48,
+   "pv": 1130,
+   "img": "img/jonesy.webp",
+   "credit": {
+    "author": "Epic Games",
+    "license": "© owner, fan use",
+    "source": "https://fortnite.fandom.com/wiki/Jonesy_The_First"
+   }
+  },
+  {
+   "id": "kiriko",
+   "name": "Kiriko",
+   "from": "Overwatch",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 96,
+   "pv": 42026,
+   "img": "img/kiriko.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Kiriko"
+   }
+  },
+  {
+   "id": "lee-sin",
+   "name": "Lee Sin",
+   "from": "League of Legends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 46,
+   "pv": 188,
+   "img": "img/lee-sin.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Lee_Sin"
+   }
+  },
+  {
+   "id": "lifeline",
+   "name": "Lifeline",
+   "from": "Apex Legends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Apex Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 1,
+   "pv": 28,
+   "img": "img/lifeline.webp",
+   "credit": {
+    "author": "Respawn / EA",
+    "license": "© owner, fan use",
+    "source": "https://apexlegends.fandom.com/wiki/Lifeline"
+   }
+  },
+  {
+   "id": "lux",
+   "name": "Lux",
+   "from": "League of Legends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 44,
+   "pv": 96,
+   "img": "img/lux.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Lux"
+   }
+  },
+  {
+   "id": "lucio",
+   "name": "Lúcio",
+   "from": "Overwatch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 66,
+   "pv": 11925,
+   "img": "img/lucio.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/L%C3%BAcio"
+   }
+  },
+  {
+   "id": "mei",
+   "name": "Mei",
+   "from": "Overwatch",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 82,
+   "pv": 19674,
+   "img": "img/mei.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Mei"
+   }
+  },
+  {
+   "id": "mercy",
+   "name": "Mercy",
+   "from": "Overwatch",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 86,
+   "pv": 29058,
+   "img": "img/mercy.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Mercy"
+   }
+  },
+  {
+   "id": "midas",
+   "name": "Midas",
+   "from": "Fortnite",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fortnite",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 53,
+   "pv": 2511,
+   "img": "img/midas.webp",
+   "credit": {
+    "author": "Epic Games",
+    "license": "© owner, fan use",
+    "source": "https://fortnite.fandom.com/wiki/Midas"
+   }
+  },
+  {
+   "id": "pathfinder",
+   "name": "Pathfinder",
+   "from": "Apex Legends",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Apex Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 3,
+   "pv": 28,
+   "img": "img/pathfinder.webp",
+   "credit": {
+    "author": "Respawn / EA",
+    "license": "© owner, fan use",
+    "source": "https://apexlegends.fandom.com/wiki/Pathfinder"
+   }
+  },
+  {
+   "id": "peely",
+   "name": "Peely",
+   "from": "Fortnite",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fortnite",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 84,
+   "pv": 23746,
+   "img": "img/peely.webp",
+   "credit": {
+    "author": "Epic Games",
+    "license": "© owner, fan use",
+    "source": "https://fortnite.fandom.com/wiki/Peely"
+   }
+  },
+  {
+   "id": "phoenix",
+   "name": "Phoenix",
+   "from": "Valorant",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Valorant",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 14,
+   "pv": 28,
+   "img": "img/phoenix.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://valorant.fandom.com/wiki/Phoenix"
+   }
+  },
+  {
+   "id": "raven",
+   "name": "Raven",
+   "from": "Fortnite",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fortnite",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 30,
+   "pv": 28,
+   "img": "img/raven.webp",
+   "credit": {
+    "author": "Epic Games",
+    "license": "© owner, fan use",
+    "source": "https://fortnite.fandom.com/wiki/Raven_(disambiguation)"
+   }
+  },
+  {
+   "id": "reaper",
+   "name": "Reaper",
+   "from": "Overwatch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 73,
+   "pv": 13231,
+   "img": "img/reaper.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Reaper"
+   }
+  },
+  {
+   "id": "reinhardt",
+   "name": "Reinhardt",
+   "from": "Overwatch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 78,
+   "pv": 14394,
+   "img": "img/reinhardt.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Reinhardt"
+   }
+  },
+  {
+   "id": "renegade-raider",
+   "name": "Renegade Raider",
+   "from": "Fortnite",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fortnite",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 26,
+   "pv": 28,
+   "img": "img/renegade-raider.webp",
+   "credit": {
+    "author": "Epic Games",
+    "license": "© owner, fan use",
+    "source": "https://fortnite.fandom.com/wiki/Renegade_Raider"
+   }
+  },
+  {
+   "id": "reyna",
+   "name": "Reyna",
+   "from": "Valorant",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Valorant",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 12,
+   "pv": 28,
+   "img": "img/reyna.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://valorant.fandom.com/wiki/Reyna"
+   }
+  },
+  {
+   "id": "sage",
+   "name": "Sage",
+   "from": "Valorant",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Valorant",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 17,
+   "pv": 28,
+   "img": "img/sage.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://valorant.fandom.com/wiki/Sage"
+   }
+  },
+  {
+   "id": "soldier-76",
+   "name": "Soldier: 76",
+   "from": "Overwatch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 80,
+   "pv": 18349,
+   "img": "img/soldier-76.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Soldier:_76"
+   }
+  },
+  {
+   "id": "sova",
+   "name": "Sova",
+   "from": "Valorant",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Valorant",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 10,
+   "pv": 28,
+   "img": "img/sova.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://valorant.fandom.com/wiki/Sova"
+   }
+  },
+  {
+   "id": "teemo",
+   "name": "Teemo",
+   "from": "League of Legends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 62,
+   "pv": 8383,
+   "img": "img/teemo.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Teemo"
+   }
+  },
+  {
+   "id": "thresh",
+   "name": "Thresh",
+   "from": "League of Legends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 39,
+   "pv": 62,
+   "img": "img/thresh.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Thresh"
+   }
+  },
+  {
+   "id": "tracer",
+   "name": "Tracer",
+   "from": "Overwatch",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 91,
+   "pv": 38876,
+   "img": "img/tracer.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Tracer"
+   }
+  },
+  {
+   "id": "vi",
+   "name": "Vi",
+   "from": "League of Legends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 98,
+   "pv": 82249,
+   "img": "img/vi.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Vi"
+   }
+  },
+  {
+   "id": "widowmaker",
+   "name": "Widowmaker",
+   "from": "Overwatch",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 89,
+   "pv": 33144,
+   "img": "img/widowmaker.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Widowmaker"
+   }
+  },
+  {
+   "id": "winston",
+   "name": "Winston",
+   "from": "Overwatch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Overwatch",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 64,
+   "pv": 8771,
+   "img": "img/winston.webp",
+   "credit": {
+    "author": "Blizzard Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://overwatch.fandom.com/wiki/Winston"
+   }
+  },
+  {
+   "id": "wraith",
+   "name": "Wraith",
+   "from": "Apex Legends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Apex Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 8,
+   "pv": 28,
+   "img": "img/wraith.webp",
+   "credit": {
+    "author": "Respawn / EA",
+    "license": "© owner, fan use",
+    "source": "https://apexlegends.fandom.com/wiki/Wraith"
+   }
+  },
+  {
+   "id": "yasuo",
+   "name": "Yasuo",
+   "from": "League of Legends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "League of Legends",
+   "tags": [
+    "character",
+    "hero-shooters"
+   ],
+   "fame": 37,
+   "pv": 58,
+   "img": "img/yasuo.webp",
+   "credit": {
+    "author": "Riot Games",
+    "license": "© owner, fan use",
+    "source": "https://leagueoflegends.fandom.com/wiki/Yasuo"
+   }
+  }
+ ]
+}
