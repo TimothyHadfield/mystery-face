@@ -1,0 +1,952 @@
+{
+ "id": "nickelodeon",
+ "title": "SpongeBob & Nickelodeon",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "aang",
+   "name": "Aang",
+   "from": "Avatar: The Last Airbender",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Avatar: The Last Airbender",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 93,
+   "pv": 211770,
+   "img": "img/aang.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://avatar.fandom.com/wiki/Aang"
+   }
+  },
+  {
+   "id": "angelica-pickles",
+   "name": "Angelica Pickles",
+   "from": "Rugrats",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rugrats",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 44,
+   "pv": 35154,
+   "img": "img/angelica-pickles.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://rugrats.fandom.com/wiki/Angelica_Pickles"
+   }
+  },
+  {
+   "id": "appa",
+   "name": "Appa",
+   "from": "Avatar: The Last Airbender",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Avatar: The Last Airbender",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 50,
+   "pv": 43275,
+   "img": "img/appa.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://avatar.fandom.com/wiki/Appa"
+   }
+  },
+  {
+   "id": "arnold",
+   "name": "Arnold",
+   "from": "Hey Arnold!",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hey Arnold!",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 30,
+   "pv": 8170,
+   "img": "img/arnold.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://heyarnold.fandom.com/wiki/Arnold_Shortman"
+   }
+  },
+  {
+   "id": "azula",
+   "name": "Azula",
+   "from": "Avatar: The Last Airbender",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Avatar: The Last Airbender",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 75,
+   "pv": 132680,
+   "img": "img/azula.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://avatar.fandom.com/wiki/Azula"
+   }
+  },
+  {
+   "id": "barnacle-boy",
+   "name": "Barnacle Boy",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 8,
+   "pv": 670,
+   "img": "img/barnacle-boy.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Barnacle_Boy"
+   }
+  },
+  {
+   "id": "blue",
+   "name": "Blue",
+   "from": "Blue's Clues",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Blue's Clues",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 1,
+   "pv": 59,
+   "img": "img/blue.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://bluesclues.fandom.com/wiki/Blue"
+   }
+  },
+  {
+   "id": "boots",
+   "name": "Boots",
+   "from": "Dora the Explorer",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dora the Explorer",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 17,
+   "pv": 1146,
+   "img": "img/boots.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://dora.fandom.com/wiki/Boots"
+   }
+  },
+  {
+   "id": "catdog",
+   "name": "CatDog",
+   "from": "CatDog",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "CatDog",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 80,
+   "pv": 154526,
+   "img": "img/catdog.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://catdog.fandom.com/wiki/CatDog_Wiki"
+   }
+  },
+  {
+   "id": "chuckie-finster",
+   "name": "Chuckie Finster",
+   "from": "Rugrats",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rugrats",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 46,
+   "pv": 40073,
+   "img": "img/chuckie-finster.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://rugrats.fandom.com/wiki/Chuckie_Finster"
+   }
+  },
+  {
+   "id": "cosmo",
+   "name": "Cosmo",
+   "from": "The Fairly OddParents",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Fairly OddParents",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 6,
+   "pv": 402,
+   "img": "img/cosmo.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://fairlyoddparents.fandom.com/wiki/Cosmo"
+   }
+  },
+  {
+   "id": "danny-phantom",
+   "name": "Danny Phantom",
+   "from": "Danny Phantom",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Danny Phantom",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 96,
+   "pv": 212235,
+   "img": "img/danny-phantom.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://dannyphantom.fandom.com/wiki/Danny_Phantom_(character)"
+   }
+  },
+  {
+   "id": "dora",
+   "name": "Dora",
+   "from": "Dora the Explorer",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dora the Explorer",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 53,
+   "pv": 53292,
+   "img": "img/dora.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://dora.fandom.com/wiki/Dora_M%C3%A1rquez"
+   }
+  },
+  {
+   "id": "flying-dutchman",
+   "name": "Flying Dutchman",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 42,
+   "pv": 25110,
+   "img": "img/flying-dutchman.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Flying_Dutchman"
+   }
+  },
+  {
+   "id": "gary",
+   "name": "Gary",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 32,
+   "pv": 11741,
+   "img": "img/gary.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Gary_the_Snail"
+   }
+  },
+  {
+   "id": "gir",
+   "name": "GIR",
+   "from": "Invader Zim",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Invader Zim",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 21,
+   "pv": 2069,
+   "img": "img/gir.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://nickelodeon.fandom.com/wiki/GIR"
+   }
+  },
+  {
+   "id": "helga-pataki",
+   "name": "Helga Pataki",
+   "from": "Hey Arnold!",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hey Arnold!",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 19,
+   "pv": 1666,
+   "img": "img/helga-pataki.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://heyarnold.fandom.com/wiki/Helga_G._Pataki"
+   }
+  },
+  {
+   "id": "iroh",
+   "name": "Iroh",
+   "from": "Avatar: The Last Airbender",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Avatar: The Last Airbender",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 78,
+   "pv": 135000,
+   "img": "img/iroh.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://avatar.fandom.com/wiki/Iroh"
+   }
+  },
+  {
+   "id": "jimmy-neutron",
+   "name": "Jimmy Neutron",
+   "from": "Jimmy Neutron",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Jimmy Neutron",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 62,
+   "pv": 78133,
+   "img": "img/jimmy-neutron.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://jimmyneutron.fandom.com/wiki/Jimmy_Neutron"
+   }
+  },
+  {
+   "id": "karen",
+   "name": "Karen",
+   "from": "SpongeBob SquarePants",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 26,
+   "pv": 6480,
+   "img": "img/karen.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Karen_Plankton"
+   }
+  },
+  {
+   "id": "katara",
+   "name": "Katara",
+   "from": "Avatar: The Last Airbender",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Avatar: The Last Airbender",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 84,
+   "pv": 176765,
+   "img": "img/katara.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://avatar.fandom.com/wiki/Katara"
+   }
+  },
+  {
+   "id": "larry-the-lobster",
+   "name": "Larry the Lobster",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 12,
+   "pv": 929,
+   "img": "img/larry-the-lobster.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Larry_the_Lobster"
+   }
+  },
+  {
+   "id": "leonardo",
+   "name": "Leonardo",
+   "from": "Teenage Mutant Ninja Turtles",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Teenage Mutant Ninja Turtles",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 71,
+   "pv": 113747,
+   "img": "img/leonardo.webp",
+   "credit": {
+    "author": "Nickelodeon / Viacom",
+    "license": "© owner, fan use",
+    "source": "https://tmnt.fandom.com/wiki/Leonardo"
+   }
+  },
+  {
+   "id": "lincoln-loud",
+   "name": "Lincoln Loud",
+   "from": "The Loud House",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Loud House",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 48,
+   "pv": 42108,
+   "img": "img/lincoln-loud.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://theloudhouse.fandom.com/wiki/Lincoln_Loud"
+   }
+  },
+  {
+   "id": "mermaid-man",
+   "name": "Mermaid Man",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 10,
+   "pv": 718,
+   "img": "img/mermaid-man.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Mermaid_Man"
+   }
+  },
+  {
+   "id": "michelangelo",
+   "name": "Michelangelo",
+   "from": "Teenage Mutant Ninja Turtles",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Teenage Mutant Ninja Turtles",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 73,
+   "pv": 119225,
+   "img": "img/michelangelo.webp",
+   "credit": {
+    "author": "Nickelodeon / Viacom",
+    "license": "© owner, fan use",
+    "source": "https://tmnt.fandom.com/wiki/Michelangelo"
+   }
+  },
+  {
+   "id": "mr-krabs",
+   "name": "Mr. Krabs",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 91,
+   "pv": 202857,
+   "img": "img/mr-krabs.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Eugene_H._Krabs"
+   }
+  },
+  {
+   "id": "mrs-puff",
+   "name": "Mrs. Puff",
+   "from": "SpongeBob SquarePants",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 60,
+   "pv": 63553,
+   "img": "img/mrs-puff.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Mrs._Puff"
+   }
+  },
+  {
+   "id": "patrick-star",
+   "name": "Patrick Star",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 98,
+   "pv": 225599,
+   "img": "img/patrick-star.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Patrick_Star"
+   }
+  },
+  {
+   "id": "pearl-krabs",
+   "name": "Pearl Krabs",
+   "from": "SpongeBob SquarePants",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 55,
+   "pv": 54503,
+   "img": "img/pearl-krabs.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Pearl_Krabs"
+   }
+  },
+  {
+   "id": "plankton",
+   "name": "Plankton",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 66,
+   "pv": 97120,
+   "img": "img/plankton.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Sheldon_J._Plankton"
+   }
+  },
+  {
+   "id": "ren-hoek",
+   "name": "Ren Höek",
+   "from": "The Ren & Stimpy Show",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Ren & Stimpy Show",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 37,
+   "pv": 18496,
+   "img": "img/ren-hoek.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://renandstimpy.fandom.com/wiki/Ren_H%C3%B6ek"
+   }
+  },
+  {
+   "id": "rocko",
+   "name": "Rocko",
+   "from": "Rocko's Modern Life",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rocko's Modern Life",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 39,
+   "pv": 22745,
+   "img": "img/rocko.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://rockosmodernlife.fandom.com/wiki/Rocko_Rama"
+   }
+  },
+  {
+   "id": "sandy-cheeks",
+   "name": "Sandy Cheeks",
+   "from": "SpongeBob SquarePants",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 64,
+   "pv": 96313,
+   "img": "img/sandy-cheeks.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Sandy_Cheeks"
+   }
+  },
+  {
+   "id": "sokka",
+   "name": "Sokka",
+   "from": "Avatar: The Last Airbender",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Avatar: The Last Airbender",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 68,
+   "pv": 98919,
+   "img": "img/sokka.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://avatar.fandom.com/wiki/Sokka"
+   }
+  },
+  {
+   "id": "spongebob",
+   "name": "SpongeBob",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 100,
+   "pv": 389461,
+   "img": "img/spongebob.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_(character)"
+   }
+  },
+  {
+   "id": "squidward-tentacles",
+   "name": "Squidward Tentacles",
+   "from": "SpongeBob SquarePants",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "SpongeBob SquarePants",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 82,
+   "pv": 168568,
+   "img": "img/squidward-tentacles.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://spongebob.fandom.com/wiki/Squidward_Tentacles"
+   }
+  },
+  {
+   "id": "stimpy",
+   "name": "Stimpy",
+   "from": "The Ren & Stimpy Show",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Ren & Stimpy Show",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 28,
+   "pv": 7782,
+   "img": "img/stimpy.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://renandstimpy.fandom.com/wiki/Stimpy"
+   }
+  },
+  {
+   "id": "swiper",
+   "name": "Swiper",
+   "from": "Dora the Explorer",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dora the Explorer",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 14,
+   "pv": 1083,
+   "img": "img/swiper.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://dora.fandom.com/wiki/Swiper"
+   }
+  },
+  {
+   "id": "timmy-turner",
+   "name": "Timmy Turner",
+   "from": "The Fairly OddParents",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Fairly OddParents",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 35,
+   "pv": 14530,
+   "img": "img/timmy-turner.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://fairlyoddparents.fandom.com/wiki/Timmy_Turner"
+   }
+  },
+  {
+   "id": "tommy-pickles",
+   "name": "Tommy Pickles",
+   "from": "Rugrats",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rugrats",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 57,
+   "pv": 59076,
+   "img": "img/tommy-pickles.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://rugrats.fandom.com/wiki/Tommy_Pickles"
+   }
+  },
+  {
+   "id": "toph-beifong",
+   "name": "Toph Beifong",
+   "from": "Avatar: The Last Airbender",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Avatar: The Last Airbender",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 86,
+   "pv": 176852,
+   "img": "img/toph-beifong.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://avatar.fandom.com/wiki/Toph_Beifong"
+   }
+  },
+  {
+   "id": "wanda",
+   "name": "Wanda",
+   "from": "The Fairly OddParents",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Fairly OddParents",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 3,
+   "pv": 123,
+   "img": "img/wanda.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://fairlyoddparents.fandom.com/wiki/Wanda"
+   }
+  },
+  {
+   "id": "zim",
+   "name": "Zim",
+   "from": "Invader Zim",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Invader Zim",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 24,
+   "pv": 5327,
+   "img": "img/zim.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://nickelodeon.fandom.com/wiki/Zim"
+   }
+  },
+  {
+   "id": "zuko",
+   "name": "Zuko",
+   "from": "Avatar: The Last Airbender",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Avatar: The Last Airbender",
+   "tags": [
+    "character",
+    "nickelodeon"
+   ],
+   "fame": 89,
+   "pv": 183608,
+   "img": "img/zuko.webp",
+   "credit": {
+    "author": "Nickelodeon",
+    "license": "© owner, fan use",
+    "source": "https://avatar.fandom.com/wiki/Zuko"
+   }
+  }
+ ]
+}

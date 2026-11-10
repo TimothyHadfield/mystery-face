@@ -1,0 +1,931 @@
+{
+ "id": "adult-animation",
+ "title": "Family Guy & Adult Animation",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "beavis",
+   "name": "Beavis",
+   "from": "Beavis and Butt-Head",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Beavis and Butt-Head",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 98,
+   "pv": 587134,
+   "img": "img/beavis.webp",
+   "credit": {
+    "author": "MTV",
+    "license": "© owner, fan use",
+    "source": "https://beavisandbutthead.fandom.com/wiki/Beavis"
+   }
+  },
+  {
+   "id": "bender",
+   "name": "Bender",
+   "from": "Futurama",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Futurama",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 59,
+   "pv": 94076,
+   "img": "img/bender.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://futurama.fandom.com/wiki/Bender_Bending_Rodr%C3%ADguez"
+   }
+  },
+  {
+   "id": "beth-smith",
+   "name": "Beth Smith",
+   "from": "Rick and Morty",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rick and Morty",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 36,
+   "pv": 46894,
+   "img": "img/beth-smith.webp",
+   "credit": {
+    "author": "Adult Swim",
+    "license": "© owner, fan use",
+    "source": "https://rickandmorty.fandom.com/wiki/Beth_Smith"
+   }
+  },
+  {
+   "id": "bob-belcher",
+   "name": "Bob Belcher",
+   "from": "Bob's Burgers",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Bob's Burgers",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 26,
+   "pv": 31919,
+   "img": "img/bob-belcher.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://bobs-burgers.fandom.com/wiki/Bob_Belcher"
+   }
+  },
+  {
+   "id": "bobby-hill",
+   "name": "Bobby Hill",
+   "from": "King of the Hill",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "King of the Hill",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 52,
+   "pv": 76251,
+   "img": "img/bobby-hill.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://kingofthehill.fandom.com/wiki/Bobby_Hill"
+   }
+  },
+  {
+   "id": "bojack-horseman",
+   "name": "BoJack Horseman",
+   "from": "BoJack Horseman",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "BoJack Horseman",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 100,
+   "pv": 598889,
+   "img": "img/bojack-horseman.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://bojackhorseman.fandom.com/wiki/BoJack_Horseman"
+   }
+  },
+  {
+   "id": "brian-griffin",
+   "name": "Brian Griffin",
+   "from": "Family Guy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Family Guy",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 72,
+   "pv": 121578,
+   "img": "img/brian-griffin.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://familyguy.fandom.com/wiki/Brian_Griffin"
+   }
+  },
+  {
+   "id": "butt-head",
+   "name": "Butt-Head",
+   "from": "Beavis and Butt-Head",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Beavis and Butt-Head",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 95,
+   "pv": 557777,
+   "img": "img/butt-head.webp",
+   "credit": {
+    "author": "MTV",
+    "license": "© owner, fan use",
+    "source": "https://beavisandbutthead.fandom.com/wiki/Butt-Head"
+   }
+  },
+  {
+   "id": "butters-stotch",
+   "name": "Butters Stotch",
+   "from": "South Park",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "South Park",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 63,
+   "pv": 97092,
+   "img": "img/butters-stotch.webp",
+   "credit": {
+    "author": "Comedy Central / South Park Studios",
+    "license": "© owner, fan use",
+    "source": "https://southpark.fandom.com/wiki/Butters_Stotch"
+   }
+  },
+  {
+   "id": "chris-griffin",
+   "name": "Chris Griffin",
+   "from": "Family Guy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Family Guy",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 42,
+   "pv": 70110,
+   "img": "img/chris-griffin.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://familyguy.fandom.com/wiki/Chris_Griffin"
+   }
+  },
+  {
+   "id": "cleveland-brown",
+   "name": "Cleveland Brown",
+   "from": "Family Guy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Family Guy",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 61,
+   "pv": 94160,
+   "img": "img/cleveland-brown.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://familyguy.fandom.com/wiki/Cleveland_Brown"
+   }
+  },
+  {
+   "id": "daria-morgendorffer",
+   "name": "Daria Morgendorffer",
+   "from": "Daria",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Daria",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 88,
+   "pv": 293702,
+   "img": "img/daria-morgendorffer.webp",
+   "credit": {
+    "author": "MTV",
+    "license": "© owner, fan use",
+    "source": "https://daria.fandom.com/wiki/Daria_Morgendorffer"
+   }
+  },
+  {
+   "id": "eric-cartman",
+   "name": "Eric Cartman",
+   "from": "South Park",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "South Park",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 86,
+   "pv": 236950,
+   "img": "img/eric-cartman.webp",
+   "credit": {
+    "author": "Comedy Central / South Park Studios",
+    "license": "© owner, fan use",
+    "source": "https://southpark.fandom.com/wiki/Eric_Cartman"
+   }
+  },
+  {
+   "id": "fry",
+   "name": "Fry",
+   "from": "Futurama",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Futurama",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 40,
+   "pv": 63521,
+   "img": "img/fry.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://futurama.fandom.com/wiki/Philip_J._Fry"
+   }
+  },
+  {
+   "id": "gene-belcher",
+   "name": "Gene Belcher",
+   "from": "Bob's Burgers",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Bob's Burgers",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 3,
+   "pv": 4127,
+   "img": "img/gene-belcher.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://bobs-burgers.fandom.com/wiki/Gene_Belcher"
+   }
+  },
+  {
+   "id": "glenn-quagmire",
+   "name": "Glenn Quagmire",
+   "from": "Family Guy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Family Guy",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 82,
+   "pv": 163978,
+   "img": "img/glenn-quagmire.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://familyguy.fandom.com/wiki/Glenn_Quagmire"
+   }
+  },
+  {
+   "id": "hank-hill",
+   "name": "Hank Hill",
+   "from": "King of the Hill",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "King of the Hill",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 45,
+   "pv": 73261,
+   "img": "img/hank-hill.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://kingofthehill.fandom.com/wiki/Hank_Hill"
+   }
+  },
+  {
+   "id": "jerry-smith",
+   "name": "Jerry Smith",
+   "from": "Rick and Morty",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rick and Morty",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 31,
+   "pv": 40506,
+   "img": "img/jerry-smith.webp",
+   "credit": {
+    "author": "Adult Swim",
+    "license": "© owner, fan use",
+    "source": "https://rickandmorty.fandom.com/wiki/Jerry_Smith"
+   }
+  },
+  {
+   "id": "joe-swanson",
+   "name": "Joe Swanson",
+   "from": "Family Guy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Family Guy",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 1,
+   "pv": 885,
+   "img": "img/joe-swanson.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://familyguy.fandom.com/wiki/Joe_Swanson"
+   }
+  },
+  {
+   "id": "kenny-mccormick",
+   "name": "Kenny McCormick",
+   "from": "South Park",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "South Park",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 84,
+   "pv": 207377,
+   "img": "img/kenny-mccormick.webp",
+   "credit": {
+    "author": "Comedy Central / South Park Studios",
+    "license": "© owner, fan use",
+    "source": "https://southpark.fandom.com/wiki/Kenny_McCormick"
+   }
+  },
+  {
+   "id": "kyle-broflovski",
+   "name": "Kyle Broflovski",
+   "from": "South Park",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "South Park",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 70,
+   "pv": 121093,
+   "img": "img/kyle-broflovski.webp",
+   "credit": {
+    "author": "Comedy Central / South Park Studios",
+    "license": "© owner, fan use",
+    "source": "https://southpark.fandom.com/wiki/Kyle_Broflovski"
+   }
+  },
+  {
+   "id": "lana-kane",
+   "name": "Lana Kane",
+   "from": "Archer",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Archer",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 19,
+   "pv": 29107,
+   "img": "img/lana-kane.webp",
+   "credit": {
+    "author": "FX",
+    "license": "© owner, fan use",
+    "source": "https://archer.fandom.com/wiki/Lana_Kane"
+   }
+  },
+  {
+   "id": "leela",
+   "name": "Leela",
+   "from": "Futurama",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Futurama",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 47,
+   "pv": 74728,
+   "img": "img/leela.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://futurama.fandom.com/wiki/Turanga_Leela"
+   }
+  },
+  {
+   "id": "linda-belcher",
+   "name": "Linda Belcher",
+   "from": "Bob's Burgers",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Bob's Burgers",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 10,
+   "pv": 7763,
+   "img": "img/linda-belcher.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://bobs-burgers.fandom.com/wiki/Linda_Belcher"
+   }
+  },
+  {
+   "id": "lois-griffin",
+   "name": "Lois Griffin",
+   "from": "Family Guy",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Family Guy",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 65,
+   "pv": 100668,
+   "img": "img/lois-griffin.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://familyguy.fandom.com/wiki/Lois_Griffin"
+   }
+  },
+  {
+   "id": "louise-belcher",
+   "name": "Louise Belcher",
+   "from": "Bob's Burgers",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Bob's Burgers",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 13,
+   "pv": 11642,
+   "img": "img/louise-belcher.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://bobs-burgers.fandom.com/wiki/Louise_Belcher"
+   }
+  },
+  {
+   "id": "meg-griffin",
+   "name": "Meg Griffin",
+   "from": "Family Guy",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Family Guy",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 77,
+   "pv": 150369,
+   "img": "img/meg-griffin.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://familyguy.fandom.com/wiki/Meg_Griffin"
+   }
+  },
+  {
+   "id": "morty-smith",
+   "name": "Morty Smith",
+   "from": "Rick and Morty",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rick and Morty",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 49,
+   "pv": 74737,
+   "img": "img/morty-smith.webp",
+   "credit": {
+    "author": "Adult Swim",
+    "license": "© owner, fan use",
+    "source": "https://rickandmorty.fandom.com/wiki/Morty_Smith"
+   }
+  },
+  {
+   "id": "mr-meeseeks",
+   "name": "Mr. Meeseeks",
+   "from": "Rick and Morty",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rick and Morty",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 24,
+   "pv": 31250,
+   "img": "img/mr-meeseeks.webp",
+   "credit": {
+    "author": "Adult Swim",
+    "license": "© owner, fan use",
+    "source": "https://rickandmorty.fandom.com/wiki/Mr._Meeseeks"
+   }
+  },
+  {
+   "id": "peggy-hill",
+   "name": "Peggy Hill",
+   "from": "King of the Hill",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "King of the Hill",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 17,
+   "pv": 28982,
+   "img": "img/peggy-hill.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://kingofthehill.fandom.com/wiki/Peggy_Hill"
+   }
+  },
+  {
+   "id": "peter-griffin",
+   "name": "Peter Griffin",
+   "from": "Family Guy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Family Guy",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 91,
+   "pv": 304802,
+   "img": "img/peter-griffin.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://familyguy.fandom.com/wiki/Peter_Griffin"
+   }
+  },
+  {
+   "id": "princess-carolyn",
+   "name": "Princess Carolyn",
+   "from": "BoJack Horseman",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "BoJack Horseman",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 8,
+   "pv": 7739,
+   "img": "img/princess-carolyn.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://bojackhorseman.fandom.com/wiki/Princess_Carolyn"
+   }
+  },
+  {
+   "id": "professor-farnsworth",
+   "name": "Professor Farnsworth",
+   "from": "Futurama",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Futurama",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 22,
+   "pv": 30093,
+   "img": "img/professor-farnsworth.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://futurama.fandom.com/wiki/Hubert_J._Farnsworth"
+   }
+  },
+  {
+   "id": "randy-marsh",
+   "name": "Randy Marsh",
+   "from": "South Park",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "South Park",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 54,
+   "pv": 76468,
+   "img": "img/randy-marsh.webp",
+   "credit": {
+    "author": "Comedy Central / South Park Studios",
+    "license": "© owner, fan use",
+    "source": "https://southpark.fandom.com/wiki/Randy_Marsh"
+   }
+  },
+  {
+   "id": "rick-sanchez",
+   "name": "Rick Sanchez",
+   "from": "Rick and Morty",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rick and Morty",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 79,
+   "pv": 151126,
+   "img": "img/rick-sanchez.webp",
+   "credit": {
+    "author": "Adult Swim",
+    "license": "© owner, fan use",
+    "source": "https://rickandmorty.fandom.com/wiki/Rick_Sanchez"
+   }
+  },
+  {
+   "id": "roger",
+   "name": "Roger",
+   "from": "American Dad!",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "American Dad!",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 56,
+   "pv": 86159,
+   "img": "img/roger.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://americandad.fandom.com/wiki/Roger"
+   }
+  },
+  {
+   "id": "stan-marsh",
+   "name": "Stan Marsh",
+   "from": "South Park",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "South Park",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 68,
+   "pv": 110206,
+   "img": "img/stan-marsh.webp",
+   "credit": {
+    "author": "Comedy Central / South Park Studios",
+    "license": "© owner, fan use",
+    "source": "https://southpark.fandom.com/wiki/Stan_Marsh"
+   }
+  },
+  {
+   "id": "stan-smith",
+   "name": "Stan Smith",
+   "from": "American Dad!",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "American Dad!",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 38,
+   "pv": 56140,
+   "img": "img/stan-smith.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://americandad.fandom.com/wiki/Stan_Smith"
+   }
+  },
+  {
+   "id": "sterling-archer",
+   "name": "Sterling Archer",
+   "from": "Archer",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Archer",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 93,
+   "pv": 441802,
+   "img": "img/sterling-archer.webp",
+   "credit": {
+    "author": "FX",
+    "license": "© owner, fan use",
+    "source": "https://archer.fandom.com/wiki/Sterling_Archer"
+   }
+  },
+  {
+   "id": "stewie-griffin",
+   "name": "Stewie Griffin",
+   "from": "Family Guy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Family Guy",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 75,
+   "pv": 140470,
+   "img": "img/stewie-griffin.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://familyguy.fandom.com/wiki/Stewie_Griffin"
+   }
+  },
+  {
+   "id": "summer-smith",
+   "name": "Summer Smith",
+   "from": "Rick and Morty",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Rick and Morty",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 29,
+   "pv": 35997,
+   "img": "img/summer-smith.webp",
+   "credit": {
+    "author": "Adult Swim",
+    "license": "© owner, fan use",
+    "source": "https://rickandmorty.fandom.com/wiki/Summer_Smith"
+   }
+  },
+  {
+   "id": "tina-belcher",
+   "name": "Tina Belcher",
+   "from": "Bob's Burgers",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Bob's Burgers",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 6,
+   "pv": 7493,
+   "img": "img/tina-belcher.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://bobs-burgers.fandom.com/wiki/Tina_Belcher"
+   }
+  },
+  {
+   "id": "todd-chavez",
+   "name": "Todd Chavez",
+   "from": "BoJack Horseman",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "BoJack Horseman",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 15,
+   "pv": 18546,
+   "img": "img/todd-chavez.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://bojackhorseman.fandom.com/wiki/Todd_Chavez"
+   }
+  },
+  {
+   "id": "zoidberg",
+   "name": "Zoidberg",
+   "from": "Futurama",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Futurama",
+   "tags": [
+    "character",
+    "adult-animation"
+   ],
+   "fame": 33,
+   "pv": 41071,
+   "img": "img/zoidberg.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://futurama.fandom.com/wiki/John_A._Zoidberg"
+   }
+  }
+ ]
+}

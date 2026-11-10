@@ -1,0 +1,910 @@
+{
+ "id": "classic-cartoons",
+ "title": "Looney Tunes & Hanna-Barbera",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "astro",
+   "name": "Astro",
+   "from": "The Jetsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Jetsons",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 6,
+   "pv": 4379,
+   "img": "img/astro.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Astro"
+   }
+  },
+  {
+   "id": "barney-rubble",
+   "name": "Barney Rubble",
+   "from": "The Flintstones",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Flintstones",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 32,
+   "pv": 66975,
+   "img": "img/barney-rubble.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Barney_Rubble"
+   }
+  },
+  {
+   "id": "betty-rubble",
+   "name": "Betty Rubble",
+   "from": "The Flintstones",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Flintstones",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 22,
+   "pv": 47836,
+   "img": "img/betty-rubble.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Betty_Rubble"
+   }
+  },
+  {
+   "id": "boo-boo-bear",
+   "name": "Boo-Boo Bear",
+   "from": "Yogi Bear",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Yogi Bear",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 25,
+   "pv": 50740,
+   "img": "img/boo-boo-bear.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Boo_Boo"
+   }
+  },
+  {
+   "id": "bugs-bunny",
+   "name": "Bugs Bunny",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 100,
+   "pv": 486885,
+   "img": "img/bugs-bunny.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Bugs_Bunny"
+   }
+  },
+  {
+   "id": "daffy-duck",
+   "name": "Daffy Duck",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 88,
+   "pv": 228292,
+   "img": "img/daffy-duck.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Daffy_Duck"
+   }
+  },
+  {
+   "id": "daphne-blake",
+   "name": "Daphne Blake",
+   "from": "Scooby-Doo",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 76,
+   "pv": 187641,
+   "img": "img/daphne-blake.webp",
+   "credit": {
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Daphne_Blake"
+   }
+  },
+  {
+   "id": "dick-dastardly",
+   "name": "Dick Dastardly",
+   "from": "Wacky Races",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Wacky Races",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 46,
+   "pv": 109403,
+   "img": "img/dick-dastardly.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Dick_Dastardly"
+   }
+  },
+  {
+   "id": "dino",
+   "name": "Dino",
+   "from": "The Flintstones",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Flintstones",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 15,
+   "pv": 27735,
+   "img": "img/dino.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Dino"
+   }
+  },
+  {
+   "id": "elmer-fudd",
+   "name": "Elmer Fudd",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 86,
+   "pv": 206691,
+   "img": "img/elmer-fudd.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Elmer_Fudd"
+   }
+  },
+  {
+   "id": "foghorn-leghorn",
+   "name": "Foghorn Leghorn",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 95,
+   "pv": 267389,
+   "img": "img/foghorn-leghorn.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Foghorn_Leghorn"
+   }
+  },
+  {
+   "id": "fred-flintstone",
+   "name": "Fred Flintstone",
+   "from": "The Flintstones",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Flintstones",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 55,
+   "pv": 125247,
+   "img": "img/fred-flintstone.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Fred_Flintstone"
+   }
+  },
+  {
+   "id": "fred-jones",
+   "name": "Fred Jones",
+   "from": "Scooby-Doo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 62,
+   "pv": 145338,
+   "img": "img/fred-jones.webp",
+   "credit": {
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Fred_Jones"
+   }
+  },
+  {
+   "id": "george-jetson",
+   "name": "George Jetson",
+   "from": "The Jetsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Jetsons",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 20,
+   "pv": 45060,
+   "img": "img/george-jetson.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/George_Jetson"
+   }
+  },
+  {
+   "id": "granny",
+   "name": "Granny",
+   "from": "Looney Tunes",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 36,
+   "pv": 70474,
+   "img": "img/granny.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Granny"
+   }
+  },
+  {
+   "id": "huckleberry-hound",
+   "name": "Huckleberry Hound",
+   "from": "Hanna-Barbera",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hanna-Barbera",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 34,
+   "pv": 68732,
+   "img": "img/huckleberry-hound.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Huckleberry_Hound"
+   }
+  },
+  {
+   "id": "jane-jetson",
+   "name": "Jane Jetson",
+   "from": "The Jetsons",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Jetsons",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 8,
+   "pv": 4382,
+   "img": "img/jane-jetson.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Jane_Jetson"
+   }
+  },
+  {
+   "id": "jerry",
+   "name": "Jerry",
+   "from": "Tom and Jerry",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tom and Jerry",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 43,
+   "pv": 106119,
+   "img": "img/jerry.webp",
+   "credit": {
+    "author": "Warner Bros. / MGM",
+    "license": "© owner, fan use",
+    "source": "https://tomandjerry.fandom.com/wiki/Jerry_Mouse"
+   }
+  },
+  {
+   "id": "lola-bunny",
+   "name": "Lola Bunny",
+   "from": "Looney Tunes",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 67,
+   "pv": 168041,
+   "img": "img/lola-bunny.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Lola_Bunny"
+   }
+  },
+  {
+   "id": "magilla-gorilla",
+   "name": "Magilla Gorilla",
+   "from": "Hanna-Barbera",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hanna-Barbera",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 18,
+   "pv": 42697,
+   "img": "img/magilla-gorilla.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Magilla_Gorilla"
+   }
+  },
+  {
+   "id": "marvin-the-martian",
+   "name": "Marvin the Martian",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 72,
+   "pv": 175808,
+   "img": "img/marvin-the-martian.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Marvin_the_Martian"
+   }
+  },
+  {
+   "id": "michigan-j-frog",
+   "name": "Michigan J. Frog",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 41,
+   "pv": 100241,
+   "img": "img/michigan-j-frog.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Michigan_J._Frog"
+   }
+  },
+  {
+   "id": "muttley",
+   "name": "Muttley",
+   "from": "Wacky Races",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Wacky Races",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 53,
+   "pv": 121145,
+   "img": "img/muttley.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Muttley"
+   }
+  },
+  {
+   "id": "porky-pig",
+   "name": "Porky Pig",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 60,
+   "pv": 136724,
+   "img": "img/porky-pig.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Porky_Pig"
+   }
+  },
+  {
+   "id": "quick-draw-mcgraw",
+   "name": "Quick Draw McGraw",
+   "from": "Hanna-Barbera",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hanna-Barbera",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 29,
+   "pv": 66660,
+   "img": "img/quick-draw-mcgraw.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Quick_Draw_McGraw"
+   }
+  },
+  {
+   "id": "road-runner",
+   "name": "Road Runner",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 13,
+   "pv": 21948,
+   "img": "img/road-runner.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Road_Runner"
+   }
+  },
+  {
+   "id": "rosie-the-robot",
+   "name": "Rosie the Robot",
+   "from": "The Jetsons",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Jetsons",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 3,
+   "pv": 2061,
+   "img": "img/rosie-the-robot.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Rosie_the_Robot"
+   }
+  },
+  {
+   "id": "scooby-doo",
+   "name": "Scooby-Doo",
+   "from": "Scooby-Doo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 79,
+   "pv": 190460,
+   "img": "img/scooby-doo.webp",
+   "credit": {
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Scooby-Doo"
+   }
+  },
+  {
+   "id": "scrappy-doo",
+   "name": "Scrappy-Doo",
+   "from": "Scooby-Doo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 39,
+   "pv": 94323,
+   "img": "img/scrappy-doo.webp",
+   "credit": {
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Scrappy-Doo"
+   }
+  },
+  {
+   "id": "shaggy-rogers",
+   "name": "Shaggy Rogers",
+   "from": "Scooby-Doo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 98,
+   "pv": 283827,
+   "img": "img/shaggy-rogers.webp",
+   "credit": {
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Shaggy_Rogers"
+   }
+  },
+  {
+   "id": "snagglepuss",
+   "name": "Snagglepuss",
+   "from": "Hanna-Barbera",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hanna-Barbera",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 48,
+   "pv": 111332,
+   "img": "img/snagglepuss.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Snagglepuss"
+   }
+  },
+  {
+   "id": "speedy-gonzales",
+   "name": "Speedy Gonzales",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 91,
+   "pv": 228517,
+   "img": "img/speedy-gonzales.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Speedy_Gonzales"
+   }
+  },
+  {
+   "id": "spike",
+   "name": "Spike",
+   "from": "Tom and Jerry",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tom and Jerry",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 1,
+   "pv": 1939,
+   "img": "img/spike.webp",
+   "credit": {
+    "author": "Warner Bros. / MGM",
+    "license": "© owner, fan use",
+    "source": "https://tomandjerry.fandom.com/wiki/Spike_Bulldog"
+   }
+  },
+  {
+   "id": "sylvester",
+   "name": "Sylvester",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 58,
+   "pv": 135093,
+   "img": "img/sylvester.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Sylvester_the_Cat"
+   }
+  },
+  {
+   "id": "tasmanian-devil",
+   "name": "Tasmanian Devil",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 81,
+   "pv": 192210,
+   "img": "img/tasmanian-devil.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Tasmanian_Devil"
+   }
+  },
+  {
+   "id": "tom",
+   "name": "Tom",
+   "from": "Tom and Jerry",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tom and Jerry",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 50,
+   "pv": 120962,
+   "img": "img/tom.webp",
+   "credit": {
+    "author": "Warner Bros. / MGM",
+    "license": "© owner, fan use",
+    "source": "https://tomandjerry.fandom.com/wiki/Tom_Cat"
+   }
+  },
+  {
+   "id": "top-cat",
+   "name": "Top Cat",
+   "from": "Hanna-Barbera",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hanna-Barbera",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 65,
+   "pv": 146698,
+   "img": "img/top-cat.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Top_Cat_(character)"
+   }
+  },
+  {
+   "id": "tweety",
+   "name": "Tweety",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 84,
+   "pv": 201164,
+   "img": "img/tweety.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Tweety"
+   }
+  },
+  {
+   "id": "velma-dinkley",
+   "name": "Velma Dinkley",
+   "from": "Scooby-Doo",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Scooby-Doo",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 93,
+   "pv": 244912,
+   "img": "img/velma-dinkley.webp",
+   "credit": {
+    "author": "Warner Bros. / Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://scoobydoo.fandom.com/wiki/Velma_Dinkley"
+   }
+  },
+  {
+   "id": "wile-e-coyote",
+   "name": "Wile E. Coyote",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 10,
+   "pv": 13492,
+   "img": "img/wile-e-coyote.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Wile_E._Coyote"
+   }
+  },
+  {
+   "id": "wilma-flintstone",
+   "name": "Wilma Flintstone",
+   "from": "The Flintstones",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Flintstones",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 27,
+   "pv": 54326,
+   "img": "img/wilma-flintstone.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Wilma_Flintstone"
+   }
+  },
+  {
+   "id": "yogi-bear",
+   "name": "Yogi Bear",
+   "from": "Yogi Bear",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Yogi Bear",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 74,
+   "pv": 183928,
+   "img": "img/yogi-bear.webp",
+   "credit": {
+    "author": "Hanna-Barbera",
+    "license": "© owner, fan use",
+    "source": "https://hanna-barbera.fandom.com/wiki/Yogi_Bear"
+   }
+  },
+  {
+   "id": "yosemite-sam",
+   "name": "Yosemite Sam",
+   "from": "Looney Tunes",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Looney Tunes",
+   "tags": [
+    "character",
+    "classic-cartoons"
+   ],
+   "fame": 69,
+   "pv": 174654,
+   "img": "img/yosemite-sam.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://looneytunes.fandom.com/wiki/Yosemite_Sam"
+   }
+  }
+ ]
+}
