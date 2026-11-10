@@ -10,7 +10,7 @@ import * as PPL from './people.js';
 import * as ACCT from './account.js';
 import * as SORT from './sorter.js';
 
-const BUILD = '2026-11-10.1';
+const BUILD = '2026-11-10.2';
 const ONLINE_JS = './online.js?v=a3d0418b';
 const KEY = 'mystery-face:v1';
 const $ = (s, r = document) => r.querySelector(s);

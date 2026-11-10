@@ -2,36 +2,820 @@
  {
   "id": "mixed",
   "title": "Mixed stars",
-  "count": 112
- },
- {
-  "id": "movies",
-  "title": "Movies, TV & Internet",
-  "count": 91
- },
- {
-  "id": "characters",
-  "title": "Movie characters",
-  "count": 92
- },
- {
-  "id": "music",
-  "title": "Music",
-  "count": 70
+  "cat": "mix",
+  "count": 112,
+  "broad": true,
+  "preview": [
+   "img/donald-trump.webp",
+   "img/dolly-parton.webp",
+   "img/cristiano-ronaldo.webp",
+   "img/lionel-messi.webp"
+  ]
  },
  {
   "id": "sports",
   "title": "Sports",
-  "count": 64
+  "cat": "sports",
+  "count": 64,
+  "broad": true,
+  "preview": [
+   "img/cristiano-ronaldo.webp",
+   "img/lionel-messi.webp",
+   "img/kylian-mbappe.webp",
+   "img/lebron-james.webp"
+  ]
  },
  {
   "id": "history",
   "title": "History & Politics",
-  "count": 72
+  "cat": "politics",
+  "count": 72,
+  "broad": true,
+  "preview": [
+   "img/donald-trump.webp",
+   "img/elizabeth-ii.webp",
+   "img/john-f-kennedy.webp",
+   "img/barack-obama.webp"
+  ]
+ },
+ {
+  "id": "movies",
+  "title": "Movies, TV & Internet",
+  "cat": "film",
+  "count": 91,
+  "broad": true,
+  "preview": [
+   "img/zendaya.webp",
+   "img/millie-bobby-brown.webp",
+   "img/tom-holland.webp",
+   "img/anne-hathaway.webp"
+  ]
+ },
+ {
+  "id": "music",
+  "title": "Music",
+  "cat": "music",
+  "count": 70,
+  "broad": true,
+  "preview": [
+   "img/dolly-parton.webp",
+   "img/bad-bunny.webp",
+   "img/taylor-swift.webp",
+   "img/ariana-grande.webp"
+  ]
+ },
+ {
+  "id": "characters",
+  "title": "Movie characters",
+  "cat": "characters",
+  "count": 92,
+  "broad": true,
+  "preview": [
+   "img/spider-man.webp",
+   "img/batman.webp",
+   "img/superman.webp",
+   "img/pikachu.webp"
+  ]
  },
  {
   "id": "cartoons",
   "title": "Cartoons & Classics",
-  "count": 31
+  "cat": "animated",
+  "count": 31,
+  "broad": true,
+  "preview": [
+   "img/mona-lisa.webp",
+   "img/sherlock-holmes.webp",
+   "img/santa-claus.webp",
+   "img/winnie-the-pooh.webp"
+  ]
+ },
+ {
+  "id": "fighters",
+  "title": "Boxing & UFC",
+  "cat": "sports",
+  "count": 40,
+  "broad": false,
+  "preview": [
+   "img/anthony-joshua.webp",
+   "img/jake-paul.webp",
+   "img/wladimir-klitschko.webp",
+   "img/muhammad-ali.webp"
+  ]
+ },
+ {
+  "id": "coaches-commentators",
+  "title": "Coaches & Commentators",
+  "cat": "sports",
+  "count": 47,
+  "broad": false,
+  "preview": [
+   "img/jose-mourinho.webp",
+   "img/pep-guardiola.webp",
+   "img/mauricio-pochettino.webp",
+   "img/carlo-ancelotti.webp"
+  ]
+ },
+ {
+  "id": "f1-drivers",
+  "title": "Formula 1 Drivers",
+  "cat": "sports",
+  "count": 38,
+  "broad": false,
+  "preview": [
+   "img/lewis-hamilton.webp",
+   "img/max-verstappen.webp",
+   "img/lando-norris.webp",
+   "img/michael-schumacher.webp"
+  ]
+ },
+ {
+  "id": "golf",
+  "title": "Golfers",
+  "cat": "sports",
+  "count": 38,
+  "broad": false,
+  "preview": [
+   "img/rory-mcilroy.webp",
+   "img/tiger-woods.webp",
+   "img/scottie-scheffler.webp",
+   "img/nelly-korda.webp"
+  ]
+ },
+ {
+  "id": "mlb-players",
+  "title": "MLB Players",
+  "cat": "sports",
+  "count": 50,
+  "broad": false,
+  "preview": [
+   "img/shohei-ohtani.webp",
+   "img/justin-verlander.webp",
+   "img/babe-ruth.webp",
+   "img/jackie-robinson.webp"
+  ]
+ },
+ {
+  "id": "nba-legends",
+  "title": "NBA Legends",
+  "cat": "sports",
+  "count": 50,
+  "broad": false,
+  "preview": [
+   "img/michael-jordan.webp",
+   "img/shaquille-o-neal.webp",
+   "img/kobe-bryant.webp",
+   "img/magic-johnson.webp"
+  ]
+ },
+ {
+  "id": "nba-players",
+  "title": "NBA Players",
+  "cat": "sports",
+  "count": 50,
+  "broad": false,
+  "preview": [
+   "img/lebron-james.webp",
+   "img/victor-wembanyama.webp",
+   "img/jalen-brunson.webp",
+   "img/stephen-curry.webp"
+  ]
+ },
+ {
+  "id": "nfl-players",
+  "title": "NFL Players",
+  "cat": "sports",
+  "count": 44,
+  "broad": false,
+  "preview": [
+   "img/travis-kelce.webp",
+   "img/stefon-diggs.webp",
+   "img/puka-nacua.webp",
+   "img/myles-garrett.webp"
+  ]
+ },
+ {
+  "id": "nfl-quarterbacks",
+  "title": "NFL Quarterbacks",
+  "cat": "sports",
+  "count": 46,
+  "broad": false,
+  "preview": [
+   "img/drake-maye.webp",
+   "img/tom-brady.webp",
+   "img/philip-rivers.webp",
+   "img/josh-allen.webp"
+  ]
+ },
+ {
+  "id": "nhl-players",
+  "title": "NHL Players",
+  "cat": "sports",
+  "count": 40,
+  "broad": false,
+  "preview": [
+   "img/jack-hughes.webp",
+   "img/sidney-crosby.webp",
+   "img/wayne-gretzky.webp",
+   "img/quinn-hughes.webp"
+  ]
+ },
+ {
+  "id": "olympians",
+  "title": "Olympians",
+  "cat": "sports",
+  "count": 46,
+  "broad": false,
+  "preview": [
+   "img/ilia-malinin.webp",
+   "img/eileen-gu.webp",
+   "img/lindsey-vonn.webp",
+   "img/mikaela-shiffrin.webp"
+  ]
+ },
+ {
+  "id": "soccer-stars",
+  "title": "Soccer Stars",
+  "cat": "sports",
+  "count": 49,
+  "broad": false,
+  "preview": [
+   "img/cristiano-ronaldo.webp",
+   "img/lionel-messi.webp",
+   "img/erling-haaland.webp",
+   "img/lamine-yamal.webp"
+  ]
+ },
+ {
+  "id": "tennis",
+  "title": "Tennis Stars",
+  "cat": "sports",
+  "count": 45,
+  "broad": false,
+  "preview": [
+   "img/alexander-zverev.webp",
+   "img/jannik-sinner.webp",
+   "img/aryna-sabalenka.webp",
+   "img/novak-djokovic.webp"
+  ]
+ },
+ {
+  "id": "wnba",
+  "title": "WNBA Stars",
+  "cat": "sports",
+  "count": 36,
+  "broad": false,
+  "preview": [
+   "img/caitlin-clark.webp",
+   "img/a-ja-wilson.webp",
+   "img/angel-reese.webp",
+   "img/paige-bueckers.webp"
+  ]
+ },
+ {
+  "id": "womens-soccer",
+  "title": "Women's Soccer",
+  "cat": "sports",
+  "count": 35,
+  "broad": false,
+  "preview": [
+   "img/trinity-rodman.webp",
+   "img/alexia-putellas.webp",
+   "img/aitana-bonmati.webp",
+   "img/megan-rapinoe.webp"
+  ]
+ },
+ {
+  "id": "activists",
+  "title": "Civil Rights & Activists",
+  "cat": "politics",
+  "count": 38,
+  "broad": false,
+  "preview": [
+   "img/mahatma-gandhi.webp",
+   "img/martin-luther-king-jr.webp",
+   "img/malcolm-x.webp",
+   "img/helen-keller.webp"
+  ]
+ },
+ {
+  "id": "explorers",
+  "title": "Explorers & Military",
+  "cat": "politics",
+  "count": 35,
+  "broad": false,
+  "preview": [
+   "img/dwight-d-eisenhower.webp",
+   "img/christopher-columbus.webp",
+   "img/ulysses-s-grant.webp",
+   "img/joan-of-arc.webp"
+  ]
+ },
+ {
+  "id": "first-ladies",
+  "title": "First Ladies",
+  "cat": "politics",
+  "count": 30,
+  "broad": false,
+  "preview": [
+   "img/melania-trump.webp",
+   "img/jacqueline-kennedy-onassis.webp",
+   "img/hillary-clinton.webp",
+   "img/michelle-obama.webp"
+  ]
+ },
+ {
+  "id": "founding-fathers",
+  "title": "Founding Fathers",
+  "cat": "politics",
+  "count": 30,
+  "broad": false,
+  "preview": [
+   "img/george-washington.webp",
+   "img/alexander-hamilton.webp",
+   "img/thomas-jefferson.webp",
+   "img/benjamin-franklin.webp"
+  ]
+ },
+ {
+  "id": "royals",
+  "title": "Royals",
+  "cat": "politics",
+  "count": 35,
+  "broad": false,
+  "preview": [
+   "img/queen-victoria.webp",
+   "img/elizabeth-ii.webp",
+   "img/charles-iii.webp",
+   "img/george-vi.webp"
+  ]
+ },
+ {
+  "id": "supreme-court",
+  "title": "Supreme Court Justices",
+  "cat": "politics",
+  "count": 33,
+  "broad": false,
+  "preview": [
+   "img/william-howard-taft.webp",
+   "img/clarence-thomas.webp",
+   "img/ruth-bader-ginsburg.webp",
+   "img/john-roberts.webp"
+  ]
+ },
+ {
+  "id": "us-politicians",
+  "title": "US Politicians",
+  "cat": "politics",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/jd-vance.webp",
+   "img/marco-rubio.webp",
+   "img/kristi-noem.webp",
+   "img/gavin-newsom.webp"
+  ]
+ },
+ {
+  "id": "presidents",
+  "title": "US Presidents",
+  "cat": "politics",
+  "count": 45,
+  "broad": false,
+  "preview": [
+   "img/donald-trump.webp",
+   "img/john-f-kennedy.webp",
+   "img/barack-obama.webp",
+   "img/joe-biden.webp"
+  ]
+ },
+ {
+  "id": "world-leaders",
+  "title": "World Leaders",
+  "cat": "politics",
+  "count": 38,
+  "broad": false,
+  "preview": [
+   "img/keir-starmer.webp",
+   "img/winston-churchill.webp",
+   "img/narendra-modi.webp",
+   "img/mahatma-gandhi.webp"
+  ]
+ },
+ {
+  "id": "astronauts",
+  "title": "Astronauts",
+  "cat": "science",
+  "count": 43,
+  "broad": false,
+  "preview": [
+   "img/neil-armstrong.webp",
+   "img/mark-kelly.webp",
+   "img/buzz-aldrin.webp",
+   "img/yuri-gagarin.webp"
+  ]
+ },
+ {
+  "id": "medicine",
+  "title": "Doctors & Medicine",
+  "cat": "science",
+  "count": 37,
+  "broad": false,
+  "preview": [
+   "img/sigmund-freud.webp",
+   "img/carl-jung.webp",
+   "img/florence-nightingale.webp",
+   "img/mehmet-oz.webp"
+  ]
+ },
+ {
+  "id": "scientists",
+  "title": "Famous Scientists",
+  "cat": "science",
+  "count": 56,
+  "broad": false,
+  "preview": [
+   "img/albert-einstein.webp",
+   "img/stephen-hawking.webp",
+   "img/j-robert-oppenheimer.webp",
+   "img/isaac-newton.webp"
+  ]
+ },
+ {
+  "id": "inventors",
+  "title": "Inventors & Engineers",
+  "cat": "science",
+  "count": 43,
+  "broad": false,
+  "preview": [
+   "img/elon-musk.webp",
+   "img/nikola-tesla.webp",
+   "img/benjamin-franklin.webp",
+   "img/leonardo-da-vinci.webp"
+  ]
+ },
+ {
+  "id": "tech-pioneers",
+  "title": "Tech Pioneers",
+  "cat": "science",
+  "count": 41,
+  "broad": false,
+  "preview": [
+   "img/jeff-bezos.webp",
+   "img/elon-musk.webp",
+   "img/steve-jobs.webp",
+   "img/sam-altman.webp"
+  ]
+ },
+ {
+  "id": "classic-authors",
+  "title": "Classic Authors",
+  "cat": "books",
+  "count": 54,
+  "broad": false,
+  "preview": [
+   "img/william-shakespeare.webp",
+   "img/j-r-r-tolkien.webp",
+   "img/ernest-hemingway.webp",
+   "img/jane-austen.webp"
+  ]
+ },
+ {
+  "id": "composers",
+  "title": "Classical Composers",
+  "cat": "books",
+  "count": 42,
+  "broad": false,
+  "preview": [
+   "img/wolfgang-amadeus-mozart.webp",
+   "img/hans-zimmer.webp",
+   "img/john-williams.webp",
+   "img/ludwig-van-beethoven.webp"
+  ]
+ },
+ {
+  "id": "modern-authors",
+  "title": "Modern Authors",
+  "cat": "books",
+  "count": 43,
+  "broad": false,
+  "preview": [
+   "img/stephen-king.webp",
+   "img/george-r-r-martin.webp",
+   "img/j-k-rowling.webp",
+   "img/andy-weir.webp"
+  ]
+ },
+ {
+  "id": "painters",
+  "title": "Painters & Artists",
+  "cat": "books",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/walt-disney.webp",
+   "img/leonardo-da-vinci.webp",
+   "img/vincent-van-gogh.webp",
+   "img/frida-kahlo.webp"
+  ]
+ },
+ {
+  "id": "philosophers",
+  "title": "Philosophers",
+  "cat": "books",
+  "count": 43,
+  "broad": false,
+  "preview": [
+   "img/karl-marx.webp",
+   "img/marcus-aurelius.webp",
+   "img/friedrich-nietzsche.webp",
+   "img/noam-chomsky.webp"
+  ]
+ },
+ {
+  "id": "poets",
+  "title": "Poets",
+  "cat": "books",
+  "count": 40,
+  "broad": false,
+  "preview": [
+   "img/william-shakespeare.webp",
+   "img/edgar-allan-poe.webp",
+   "img/oscar-wilde.webp",
+   "img/homer.webp"
+  ]
+ },
+ {
+  "id": "classic-hollywood",
+  "title": "Classic Hollywood",
+  "cat": "film",
+  "count": 47,
+  "broad": false,
+  "preview": [
+   "img/marilyn-monroe.webp",
+   "img/judy-garland.webp",
+   "img/elizabeth-taylor.webp",
+   "img/charlie-chaplin.webp"
+  ]
+ },
+ {
+  "id": "comedians",
+  "title": "Comedians",
+  "cat": "film",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/robin-williams.webp",
+   "img/jim-carrey.webp",
+   "img/rowan-atkinson.webp",
+   "img/adam-sandler.webp"
+  ]
+ },
+ {
+  "id": "film-directors",
+  "title": "Film Directors",
+  "cat": "film",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/christopher-nolan.webp",
+   "img/clint-eastwood.webp",
+   "img/steven-spielberg.webp",
+   "img/paul-thomas-anderson.webp"
+  ]
+ },
+ {
+  "id": "hollywood-actors",
+  "title": "Hollywood Actors",
+  "cat": "film",
+  "count": 49,
+  "broad": false,
+  "preview": [
+   "img/tom-holland.webp",
+   "img/timothee-chalamet.webp",
+   "img/jacob-elordi.webp",
+   "img/ryan-gosling.webp"
+  ]
+ },
+ {
+  "id": "hollywood-actresses",
+  "title": "Hollywood Actresses",
+  "cat": "film",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/zendaya.webp",
+   "img/sydney-sweeney.webp",
+   "img/anne-hathaway.webp",
+   "img/scarlett-johansson.webp"
+  ]
+ },
+ {
+  "id": "reality-tv",
+  "title": "Reality TV Stars",
+  "cat": "film",
+  "count": 43,
+  "broad": false,
+  "preview": [
+   "img/kylie-jenner.webp",
+   "img/kim-kardashian.webp",
+   "img/kris-jenner.webp",
+   "img/kendall-jenner.webp"
+  ]
+ },
+ {
+  "id": "sitcom-actors",
+  "title": "Sitcom Actors",
+  "cat": "film",
+  "count": 50,
+  "broad": false,
+  "preview": [
+   "img/jennifer-aniston.webp",
+   "img/kaley-cuoco.webp",
+   "img/aubrey-plaza.webp",
+   "img/john-krasinski.webp"
+  ]
+ },
+ {
+  "id": "tv-hosts",
+  "title": "TV Hosts & Talk Shows",
+  "cat": "film",
+  "count": 44,
+  "broad": false,
+  "preview": [
+   "img/drew-barrymore.webp",
+   "img/stephen-colbert.webp",
+   "img/conan-o-brien.webp",
+   "img/kelly-clarkson.webp"
+  ]
+ },
+ {
+  "id": "80s-90s-icons",
+  "title": "80s & 90s Icons",
+  "cat": "music",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/michael-jackson.webp",
+   "img/madonna.webp",
+   "img/prince.webp",
+   "img/jennifer-lopez.webp"
+  ]
+ },
+ {
+  "id": "country-music",
+  "title": "Country Music",
+  "cat": "music",
+  "count": 46,
+  "broad": false,
+  "preview": [
+   "img/dolly-parton.webp",
+   "img/johnny-cash.webp",
+   "img/jelly-roll.webp",
+   "img/willie-nelson.webp"
+  ]
+ },
+ {
+  "id": "djs-producers",
+  "title": "DJs & Producers",
+  "cat": "music",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/jack-antonoff.webp",
+   "img/quincy-jones.webp",
+   "img/avicii.webp",
+   "img/benny-blanco.webp"
+  ]
+ },
+ {
+  "id": "kpop-jpop",
+  "title": "K-pop & J-pop",
+  "cat": "music",
+  "count": 49,
+  "broad": false,
+  "preview": [
+   "img/lisa.webp",
+   "img/rose.webp",
+   "img/v.webp",
+   "img/jennie.webp"
+  ]
+ },
+ {
+  "id": "latin-music",
+  "title": "Latin Music",
+  "cat": "music",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/bad-bunny.webp",
+   "img/shakira.webp",
+   "img/jennifer-lopez.webp",
+   "img/rosalia.webp"
+  ]
+ },
+ {
+  "id": "pop-stars",
+  "title": "Pop Stars",
+  "cat": "music",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/taylor-swift.webp",
+   "img/ariana-grande.webp",
+   "img/dua-lipa.webp",
+   "img/sabrina-carpenter.webp"
+  ]
+ },
+ {
+  "id": "rnb-soul",
+  "title": "R&B & Soul",
+  "cat": "music",
+  "count": 50,
+  "broad": false,
+  "preview": [
+   "img/janet-jackson.webp",
+   "img/whitney-houston.webp",
+   "img/mariah-carey.webp",
+   "img/beyonce.webp"
+  ]
+ },
+ {
+  "id": "rappers",
+  "title": "Rappers & Hip-Hop",
+  "cat": "music",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/tupac-shakur.webp",
+   "img/nicki-minaj.webp",
+   "img/eminem.webp",
+   "img/cardi-b.webp"
+  ]
+ },
+ {
+  "id": "rock-legends",
+  "title": "Rock Legends",
+  "cat": "music",
+  "count": 49,
+  "broad": false,
+  "preview": [
+   "img/elvis-presley.webp",
+   "img/freddie-mercury.webp",
+   "img/paul-mccartney.webp",
+   "img/david-bowie.webp"
+  ]
+ },
+ {
+  "id": "celebrity-chefs",
+  "title": "Chefs",
+  "cat": "internet",
+  "count": 46,
+  "broad": false,
+  "preview": [
+   "img/anthony-bourdain.webp",
+   "img/gordon-ramsay.webp",
+   "img/nigella-lawson.webp",
+   "img/martha-stewart.webp"
+  ]
+ },
+ {
+  "id": "models-influencers",
+  "title": "Influencers & Models",
+  "cat": "internet",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/kylie-jenner.webp",
+   "img/kim-kardashian.webp",
+   "img/cindy-crawford.webp",
+   "img/kendall-jenner.webp"
+  ]
+ },
+ {
+  "id": "tech-leaders",
+  "title": "Tech & Business Leaders",
+  "cat": "internet",
+  "count": 47,
+  "broad": false,
+  "preview": [
+   "img/jeff-bezos.webp",
+   "img/elon-musk.webp",
+   "img/steve-jobs.webp",
+   "img/sam-altman.webp"
+  ]
+ },
+ {
+  "id": "youtubers",
+  "title": "YouTubers & Streamers",
+  "cat": "internet",
+  "count": 41,
+  "broad": false,
+  "preview": [
+   "img/mrbeast.webp",
+   "img/ishowspeed.webp",
+   "img/markiplier.webp",
+   "img/ksi.webp"
+  ]
  }
 ]

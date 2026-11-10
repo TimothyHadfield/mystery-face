@@ -47,8 +47,11 @@ export function groups() {
   for (const d of deckIndex()) { if (d.cat === 'mix') continue; if (!byCat.has(d.cat)) byCat.set(d.cat, []); byCat.get(d.cat).push(d); }
   for (const [cat, list] of byCat) {
     if (list.length < 2) continue;
-    const pv = [];
-    for (let i = 0; pv.length < 4 && i < 4; i++) for (const d of list) if (d.preview[i] && pv.length < 4) pv.push(d.preview[i]);
+    const pv = [], seenPic = new Set();   // the same person sits in several groups: show 4 different faces
+    for (let i = 0; pv.length < 4 && i < 4; i++) for (const d of list) {
+      const x = d.preview[i], k = x && x.split('/').pop();
+      if (x && pv.length < 4 && !seenPic.has(k)) { seenPic.add(k); pv.push(x); }
+    }
     out.push({ id: 'cat:' + cat, title: 'All ' + CATS[cat], cat, count: list.reduce((a, d) => a + d.count, 0), broad: true, cats: true, preview: pv, decks: list.map((d) => d.id), n: list.length });
   }
   for (const d of deckIndex()) out.push(Object.assign({}, d, { decks: [d.id] }));
