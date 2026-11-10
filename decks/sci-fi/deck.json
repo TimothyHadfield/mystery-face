@@ -1,0 +1,886 @@
+{
+ "id": "sci-fi",
+ "title": "Sci-fi Characters",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "agent-j",
+   "name": "Agent J",
+   "from": "Men in Black",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Men in Black",
+   "actor": "Will Smith",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 4,
+   "pv": 41977,
+   "img": "img/agent-j.webp",
+   "credit": {
+    "author": "Columbia Pictures",
+    "license": "© owner, fan use",
+    "source": "https://meninblack.fandom.com/wiki/Agent_J"
+   }
+  },
+  {
+   "id": "agent-k",
+   "name": "Agent K",
+   "from": "Men in Black",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Men in Black",
+   "actor": "Tommy Lee Jones",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 6,
+   "pv": 42172,
+   "img": "img/agent-k.webp",
+   "credit": {
+    "author": "Columbia Pictures",
+    "license": "© owner, fan use",
+    "source": "https://meninblack.fandom.com/wiki/Agent_K"
+   }
+  },
+  {
+   "id": "agent-smith",
+   "name": "Agent Smith",
+   "from": "The Matrix",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Matrix",
+   "actor": "Hugo Weaving",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 47,
+   "pv": 141032,
+   "img": "img/agent-smith.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://matrix.fandom.com/wiki/Agent_Smith"
+   }
+  },
+  {
+   "id": "alan-grant",
+   "name": "Alan Grant",
+   "from": "Jurassic Park",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Jurassic Park",
+   "actor": "Sam Neill",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 54,
+   "pv": 147157,
+   "img": "img/alan-grant.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://jurassicpark.fandom.com/wiki/Alan_Grant"
+   }
+  },
+  {
+   "id": "biff-tannen",
+   "name": "Biff Tannen",
+   "from": "Back to the Future",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Back to the Future",
+   "actor": "Thomas F. Wilson",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 26,
+   "pv": 113258,
+   "img": "img/biff-tannen.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://backtothefuture.fandom.com/wiki/Biff_Tannen"
+   }
+  },
+  {
+   "id": "captain-janeway",
+   "name": "Captain Janeway",
+   "from": "Star Trek",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "Kate Mulgrew",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 16,
+   "pv": 95326,
+   "img": "img/captain-janeway.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Kathryn_Janeway"
+   }
+  },
+  {
+   "id": "captain-kirk",
+   "name": "Captain Kirk",
+   "from": "Star Trek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "William Shatner",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 97,
+   "pv": 325057,
+   "img": "img/captain-kirk.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/James_T._Kirk"
+   }
+  },
+  {
+   "id": "captain-picard",
+   "name": "Captain Picard",
+   "from": "Star Trek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "Patrick Stewart",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 95,
+   "pv": 292039,
+   "img": "img/captain-picard.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Jean-Luc_Picard"
+   }
+  },
+  {
+   "id": "chani",
+   "name": "Chani",
+   "from": "Dune",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Dune",
+   "actor": "Zendaya",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 82,
+   "pv": 232295,
+   "img": "img/chani.webp",
+   "credit": {
+    "author": "Legendary / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://dune.fandom.com/wiki/Chani_Kynes"
+   }
+  },
+  {
+   "id": "cooper",
+   "name": "Cooper",
+   "from": "Interstellar",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Interstellar",
+   "actor": "Matthew McConaughey",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 29,
+   "pv": 117290,
+   "img": "img/cooper.webp",
+   "credit": {
+    "author": "Paramount / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://interstellarfilm.fandom.com/wiki/Joseph_Cooper"
+   }
+  },
+  {
+   "id": "dalek",
+   "name": "Dalek",
+   "from": "Doctor Who",
+   "gender": "x",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Doctor Who",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 77,
+   "pv": 196596,
+   "img": "img/dalek.webp",
+   "credit": {
+    "author": "BBC",
+    "license": "© owner, fan use",
+    "source": "https://tardis.fandom.com/wiki/Dalek"
+   }
+  },
+  {
+   "id": "data",
+   "name": "Data",
+   "from": "Star Trek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "Brent Spiner",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 34,
+   "pv": 129682,
+   "img": "img/data.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Data"
+   }
+  },
+  {
+   "id": "doc-brown",
+   "name": "Doc Brown",
+   "from": "Back to the Future",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Back to the Future",
+   "actor": "Christopher Lloyd",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 64,
+   "pv": 163545,
+   "img": "img/doc-brown.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://backtothefuture.fandom.com/wiki/Emmett_Brown"
+   }
+  },
+  {
+   "id": "dr-mccoy",
+   "name": "Dr. McCoy",
+   "from": "Star Trek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "DeForest Kelley",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 42,
+   "pv": 140032,
+   "img": "img/dr-mccoy.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Leonard_McCoy"
+   }
+  },
+  {
+   "id": "ellen-ripley",
+   "name": "Ellen Ripley",
+   "from": "Alien",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Alien",
+   "actor": "Sigourney Weaver",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 62,
+   "pv": 162551,
+   "img": "img/ellen-ripley.webp",
+   "credit": {
+    "author": "20th Century Studios",
+    "license": "© owner, fan use",
+    "source": "https://avp.fandom.com/wiki/Ellen_Ripley"
+   }
+  },
+  {
+   "id": "ellie-sattler",
+   "name": "Ellie Sattler",
+   "from": "Jurassic Park",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Jurassic Park",
+   "actor": "Laura Dern",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 11,
+   "pv": 74152,
+   "img": "img/ellie-sattler.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://jurassicpark.fandom.com/wiki/Ellie_Sattler"
+   }
+  },
+  {
+   "id": "ian-malcolm",
+   "name": "Ian Malcolm",
+   "from": "Jurassic Park",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Jurassic Park",
+   "actor": "Jeff Goldblum",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 14,
+   "pv": 80346,
+   "img": "img/ian-malcolm.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://jurassicpark.fandom.com/wiki/Ian_Malcolm"
+   }
+  },
+  {
+   "id": "jake-sully",
+   "name": "Jake Sully",
+   "from": "Avatar",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Avatar",
+   "actor": "Sam Worthington",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 90,
+   "pv": 282641,
+   "img": "img/jake-sully.webp",
+   "credit": {
+    "author": "20th Century Studios",
+    "license": "© owner, fan use",
+    "source": "https://james-camerons-avatar.fandom.com/wiki/Jake_Sully"
+   }
+  },
+  {
+   "id": "marty-mcfly",
+   "name": "Marty McFly",
+   "from": "Back to the Future",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Back to the Future",
+   "actor": "Michael J. Fox",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 52,
+   "pv": 142048,
+   "img": "img/marty-mcfly.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://backtothefuture.fandom.com/wiki/Marty_McFly"
+   }
+  },
+  {
+   "id": "morpheus",
+   "name": "Morpheus",
+   "from": "The Matrix",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Matrix",
+   "actor": "Laurence Fishburne",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 21,
+   "pv": 107155,
+   "img": "img/morpheus.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://matrix.fandom.com/wiki/Morpheus"
+   }
+  },
+  {
+   "id": "neo",
+   "name": "Neo",
+   "from": "The Matrix",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Matrix",
+   "actor": "Keanu Reeves",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 49,
+   "pv": 141856,
+   "img": "img/neo.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://matrix.fandom.com/wiki/Neo"
+   }
+  },
+  {
+   "id": "neytiri",
+   "name": "Neytiri",
+   "from": "Avatar",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Avatar",
+   "actor": "Zoe Saldaña",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 87,
+   "pv": 277572,
+   "img": "img/neytiri.webp",
+   "credit": {
+    "author": "20th Century Studios",
+    "license": "© owner, fan use",
+    "source": "https://james-camerons-avatar.fandom.com/wiki/Neytiri"
+   }
+  },
+  {
+   "id": "paul-atreides",
+   "name": "Paul Atreides",
+   "from": "Dune",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Dune",
+   "actor": "Timothée Chalamet",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 100,
+   "pv": 473865,
+   "img": "img/paul-atreides.webp",
+   "credit": {
+    "author": "Legendary / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://dune.fandom.com/wiki/Paul_Atreides"
+   }
+  },
+  {
+   "id": "peter-venkman",
+   "name": "Peter Venkman",
+   "from": "Ghostbusters",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Ghostbusters",
+   "actor": "Bill Murray",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 9,
+   "pv": 58185,
+   "img": "img/peter-venkman.webp",
+   "credit": {
+    "author": "Columbia Pictures",
+    "license": "© owner, fan use",
+    "source": "https://ghostbusters.fandom.com/wiki/Peter_Venkman"
+   }
+  },
+  {
+   "id": "rick-deckard",
+   "name": "Rick Deckard",
+   "from": "Blade Runner",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Blade Runner",
+   "actor": "Harrison Ford",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 31,
+   "pv": 123464,
+   "img": "img/rick-deckard.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://bladerunner.fandom.com/wiki/Rick_Deckard"
+   }
+  },
+  {
+   "id": "rose-tyler",
+   "name": "Rose Tyler",
+   "from": "Doctor Who",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Doctor Who",
+   "actor": "Billie Piper",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 19,
+   "pv": 104048,
+   "img": "img/rose-tyler.webp",
+   "credit": {
+    "author": "BBC",
+    "license": "© owner, fan use",
+    "source": "https://tardis.fandom.com/wiki/Rose_Tyler"
+   }
+  },
+  {
+   "id": "roy-batty",
+   "name": "Roy Batty",
+   "from": "Blade Runner",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Blade Runner",
+   "actor": "Rutger Hauer",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 1,
+   "pv": 21779,
+   "img": "img/roy-batty.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://bladerunner.fandom.com/wiki/Roy_Batty"
+   }
+  },
+  {
+   "id": "sarah-connor",
+   "name": "Sarah Connor",
+   "from": "The Terminator",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Terminator",
+   "actor": "Linda Hamilton",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 85,
+   "pv": 252194,
+   "img": "img/sarah-connor.webp",
+   "credit": {
+    "author": "Orion / Carolco",
+    "license": "© owner, fan use",
+    "source": "https://terminator.fandom.com/wiki/Sarah_Connor"
+   }
+  },
+  {
+   "id": "scotty",
+   "name": "Scotty",
+   "from": "Star Trek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "James Doohan",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 37,
+   "pv": 135088,
+   "img": "img/scotty.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Montgomery_Scott"
+   }
+  },
+  {
+   "id": "seven-of-nine",
+   "name": "Seven of Nine",
+   "from": "Star Trek",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "Jeri Ryan",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 75,
+   "pv": 195860,
+   "img": "img/seven-of-nine.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Seven_of_Nine"
+   }
+  },
+  {
+   "id": "spock",
+   "name": "Spock",
+   "from": "Star Trek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "Leonard Nimoy",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 92,
+   "pv": 283279,
+   "img": "img/spock.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Spock"
+   }
+  },
+  {
+   "id": "sulu",
+   "name": "Sulu",
+   "from": "Star Trek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "George Takei",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 39,
+   "pv": 136617,
+   "img": "img/sulu.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Hikaru_Sulu"
+   }
+  },
+  {
+   "id": "the-eleventh-doctor",
+   "name": "The Eleventh Doctor",
+   "from": "Doctor Who",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Doctor Who",
+   "actor": "Matt Smith",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 70,
+   "pv": 183359,
+   "img": "img/the-eleventh-doctor.webp",
+   "credit": {
+    "author": "BBC",
+    "license": "© owner, fan use",
+    "source": "https://tardis.fandom.com/wiki/Eleventh_Doctor"
+   }
+  },
+  {
+   "id": "the-fourth-doctor",
+   "name": "The Fourth Doctor",
+   "from": "Doctor Who",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Doctor Who",
+   "actor": "Tom Baker",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 24,
+   "pv": 107668,
+   "img": "img/the-fourth-doctor.webp",
+   "credit": {
+    "author": "BBC",
+    "license": "© owner, fan use",
+    "source": "https://tardis.fandom.com/wiki/Fourth_Doctor"
+   }
+  },
+  {
+   "id": "the-tenth-doctor",
+   "name": "The Tenth Doctor",
+   "from": "Doctor Who",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Doctor Who",
+   "actor": "David Tennant",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 72,
+   "pv": 183522,
+   "img": "img/the-tenth-doctor.webp",
+   "credit": {
+    "author": "BBC",
+    "license": "© owner, fan use",
+    "source": "https://tardis.fandom.com/wiki/Tenth_Doctor"
+   }
+  },
+  {
+   "id": "the-terminator",
+   "name": "The Terminator",
+   "from": "The Terminator",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Terminator",
+   "actor": "Arnold Schwarzenegger",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 80,
+   "pv": 228373,
+   "img": "img/the-terminator.webp",
+   "credit": {
+    "author": "Orion / Carolco",
+    "license": "© owner, fan use",
+    "source": "https://terminator.fandom.com/wiki/T-800"
+   }
+  },
+  {
+   "id": "the-thirteenth-doctor",
+   "name": "The Thirteenth Doctor",
+   "from": "Doctor Who",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Doctor Who",
+   "actor": "Jodie Whittaker",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 44,
+   "pv": 140163,
+   "img": "img/the-thirteenth-doctor.webp",
+   "credit": {
+    "author": "BBC",
+    "license": "© owner, fan use",
+    "source": "https://tardis.fandom.com/wiki/Thirteenth_Doctor"
+   }
+  },
+  {
+   "id": "trinity",
+   "name": "Trinity",
+   "from": "The Matrix",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Matrix",
+   "actor": "Carrie-Anne Moss",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 57,
+   "pv": 147675,
+   "img": "img/trinity.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://matrix.fandom.com/wiki/Trinity"
+   }
+  },
+  {
+   "id": "uhura",
+   "name": "Uhura",
+   "from": "Star Trek",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "Nichelle Nichols",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 67,
+   "pv": 172163,
+   "img": "img/uhura.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Nyota_Uhura"
+   }
+  },
+  {
+   "id": "worf",
+   "name": "Worf",
+   "from": "Star Trek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Trek",
+   "actor": "Michael Dorn",
+   "tags": [
+    "character",
+    "sci-fi"
+   ],
+   "fame": 59,
+   "pv": 159314,
+   "img": "img/worf.webp",
+   "credit": {
+    "author": "Paramount",
+    "license": "© owner, fan use",
+    "source": "https://memory-alpha.fandom.com/wiki/Worf"
+   }
+  }
+ ]
+}

@@ -1,0 +1,975 @@
+{
+ "id": "sitcoms",
+ "title": "Sitcom Characters",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "alexis-rose",
+   "name": "Alexis Rose",
+   "from": "Schitt's Creek",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Schitt's Creek",
+   "actor": "Annie Murphy",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 54,
+   "pv": 69528,
+   "img": "img/alexis-rose.webp",
+   "credit": {
+    "author": "CBC / Pop TV",
+    "license": "© owner, fan use",
+    "source": "https://schitts-creek.fandom.com/wiki/Alexis_Rose"
+   }
+  },
+  {
+   "id": "amy-farrah-fowler",
+   "name": "Amy Farrah Fowler",
+   "from": "The Big Bang Theory",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Big Bang Theory",
+   "actor": "Mayim Bialik",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 88,
+   "pv": 185026,
+   "img": "img/amy-farrah-fowler.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://bigbangtheory.fandom.com/wiki/Amy_Farrah_Fowler"
+   }
+  },
+  {
+   "id": "amy-santiago",
+   "name": "Amy Santiago",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Brooklyn Nine-Nine",
+   "actor": "Melissa Fumero",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 33,
+   "pv": 41255,
+   "img": "img/amy-santiago.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://brooklyn99.fandom.com/wiki/Amy_Santiago"
+   }
+  },
+  {
+   "id": "andy-dwyer",
+   "name": "Andy Dwyer",
+   "from": "Parks and Recreation",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Parks and Recreation",
+   "actor": "Chris Pratt",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 42,
+   "pv": 50707,
+   "img": "img/andy-dwyer.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://parksandrecreation.fandom.com/wiki/Andy_Dwyer"
+   }
+  },
+  {
+   "id": "april-ludgate",
+   "name": "April Ludgate",
+   "from": "Parks and Recreation",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Parks and Recreation",
+   "actor": "Aubrey Plaza",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 49,
+   "pv": 62055,
+   "img": "img/april-ludgate.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://parksandrecreation.fandom.com/wiki/April_Ludgate"
+   }
+  },
+  {
+   "id": "barney-stinson",
+   "name": "Barney Stinson",
+   "from": "How I Met Your Mother",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "How I Met Your Mother",
+   "actor": "Neil Patrick Harris",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 65,
+   "pv": 114235,
+   "img": "img/barney-stinson.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://how-i-met-your-mother.fandom.com/wiki/Barney_Stinson"
+   }
+  },
+  {
+   "id": "ben-wyatt",
+   "name": "Ben Wyatt",
+   "from": "Parks and Recreation",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Parks and Recreation",
+   "actor": "Adam Scott",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 47,
+   "pv": 61121,
+   "img": "img/ben-wyatt.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://parksandrecreation.fandom.com/wiki/Ben_Wyatt"
+   }
+  },
+  {
+   "id": "bernadette-rostenkowski",
+   "name": "Bernadette Rostenkowski",
+   "from": "The Big Bang Theory",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Big Bang Theory",
+   "actor": "Melissa Rauch",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 36,
+   "pv": 44764,
+   "img": "img/bernadette-rostenkowski.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://bigbangtheory.fandom.com/wiki/Bernadette_Rostenkowski-Wolowitz"
+   }
+  },
+  {
+   "id": "cameron-tucker",
+   "name": "Cameron Tucker",
+   "from": "Modern Family",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Modern Family",
+   "actor": "Eric Stonestreet",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 15,
+   "pv": 5591,
+   "img": "img/cameron-tucker.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://modernfamily.fandom.com/wiki/Cameron_Tucker"
+   }
+  },
+  {
+   "id": "charles-boyle",
+   "name": "Charles Boyle",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Brooklyn Nine-Nine",
+   "actor": "Joe Lo Truglio",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 10,
+   "pv": 3087,
+   "img": "img/charles-boyle.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://brooklyn99.fandom.com/wiki/Charles_Boyle"
+   }
+  },
+  {
+   "id": "claire-dunphy",
+   "name": "Claire Dunphy",
+   "from": "Modern Family",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Modern Family",
+   "actor": "Julie Bowen",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 6,
+   "pv": 2143,
+   "img": "img/claire-dunphy.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://modernfamily.fandom.com/wiki/Claire_Dunphy"
+   }
+  },
+  {
+   "id": "cosmo-kramer",
+   "name": "Cosmo Kramer",
+   "from": "Seinfeld",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Seinfeld",
+   "actor": "Michael Richards",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 95,
+   "pv": 207728,
+   "img": "img/cosmo-kramer.webp",
+   "credit": {
+    "author": "Castle Rock / Sony Pictures Television",
+    "license": "© owner, fan use",
+    "source": "https://seinfeld.fandom.com/wiki/Cosmo_Kramer"
+   }
+  },
+  {
+   "id": "david-rose",
+   "name": "David Rose",
+   "from": "Schitt's Creek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Schitt's Creek",
+   "actor": "Dan Levy",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 52,
+   "pv": 63384,
+   "img": "img/david-rose.webp",
+   "credit": {
+    "author": "CBC / Pop TV",
+    "license": "© owner, fan use",
+    "source": "https://schitts-creek.fandom.com/wiki/David_Rose"
+   }
+  },
+  {
+   "id": "elaine-benes",
+   "name": "Elaine Benes",
+   "from": "Seinfeld",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Seinfeld",
+   "actor": "Julia Louis-Dreyfus",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 86,
+   "pv": 164758,
+   "img": "img/elaine-benes.webp",
+   "credit": {
+    "author": "Castle Rock / Sony Pictures Television",
+    "license": "© owner, fan use",
+    "source": "https://seinfeld.fandom.com/wiki/Elaine_Benes"
+   }
+  },
+  {
+   "id": "frasier-crane",
+   "name": "Frasier Crane",
+   "from": "Frasier",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Frasier",
+   "actor": "Kelsey Grammer",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 79,
+   "pv": 140744,
+   "img": "img/frasier-crane.webp",
+   "credit": {
+    "author": "Paramount Television",
+    "license": "© owner, fan use",
+    "source": "https://frasier.fandom.com/wiki/Frasier_Crane"
+   }
+  },
+  {
+   "id": "george-costanza",
+   "name": "George Costanza",
+   "from": "Seinfeld",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Seinfeld",
+   "actor": "Jason Alexander",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 91,
+   "pv": 203331,
+   "img": "img/george-costanza.webp",
+   "credit": {
+    "author": "Castle Rock / Sony Pictures Television",
+    "license": "© owner, fan use",
+    "source": "https://seinfeld.fandom.com/wiki/George_Costanza"
+   }
+  },
+  {
+   "id": "gina-linetti",
+   "name": "Gina Linetti",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Brooklyn Nine-Nine",
+   "actor": "Chelsea Peretti",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 22,
+   "pv": 15354,
+   "img": "img/gina-linetti.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://brooklyn99.fandom.com/wiki/Gina_Linetti"
+   }
+  },
+  {
+   "id": "gloria-pritchett",
+   "name": "Gloria Pritchett",
+   "from": "Modern Family",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Modern Family",
+   "actor": "Sofía Vergara",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 3,
+   "pv": 1686,
+   "img": "img/gloria-pritchett.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://modernfamily.fandom.com/wiki/Gloria_Delgado-Pritchett"
+   }
+  },
+  {
+   "id": "howard-wolowitz",
+   "name": "Howard Wolowitz",
+   "from": "The Big Bang Theory",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Big Bang Theory",
+   "actor": "Simon Helberg",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 68,
+   "pv": 121598,
+   "img": "img/howard-wolowitz.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://bigbangtheory.fandom.com/wiki/Howard_Wolowitz"
+   }
+  },
+  {
+   "id": "jake-peralta",
+   "name": "Jake Peralta",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Brooklyn Nine-Nine",
+   "actor": "Andy Samberg",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 24,
+   "pv": 16230,
+   "img": "img/jake-peralta.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://brooklyn99.fandom.com/wiki/Jake_Peralta"
+   }
+  },
+  {
+   "id": "jay-pritchett",
+   "name": "Jay Pritchett",
+   "from": "Modern Family",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Modern Family",
+   "actor": "Ed O'Neill",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 8,
+   "pv": 2191,
+   "img": "img/jay-pritchett.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://modernfamily.fandom.com/wiki/Jay_Pritchett"
+   }
+  },
+  {
+   "id": "jerry-seinfeld",
+   "name": "Jerry Seinfeld",
+   "from": "Seinfeld",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Seinfeld",
+   "actor": "Jerry Seinfeld",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 59,
+   "pv": 75990,
+   "img": "img/jerry-seinfeld.webp",
+   "credit": {
+    "author": "Castle Rock / Sony Pictures Television",
+    "license": "© owner, fan use",
+    "source": "https://seinfeld.fandom.com/wiki/Jerry_Seinfeld_(actor)"
+   }
+  },
+  {
+   "id": "johnny-rose",
+   "name": "Johnny Rose",
+   "from": "Schitt's Creek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Schitt's Creek",
+   "actor": "Eugene Levy",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 26,
+   "pv": 24266,
+   "img": "img/johnny-rose.webp",
+   "credit": {
+    "author": "CBC / Pop TV",
+    "license": "© owner, fan use",
+    "source": "https://schitts-creek.fandom.com/wiki/Johnny_Rose"
+   }
+  },
+  {
+   "id": "leonard-hofstadter",
+   "name": "Leonard Hofstadter",
+   "from": "The Big Bang Theory",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Big Bang Theory",
+   "actor": "Johnny Galecki",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 77,
+   "pv": 138954,
+   "img": "img/leonard-hofstadter.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://bigbangtheory.fandom.com/wiki/Leonard_Hofstadter"
+   }
+  },
+  {
+   "id": "leslie-knope",
+   "name": "Leslie Knope",
+   "from": "Parks and Recreation",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Parks and Recreation",
+   "actor": "Amy Poehler",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 61,
+   "pv": 88271,
+   "img": "img/leslie-knope.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://parksandrecreation.fandom.com/wiki/Leslie_Knope"
+   }
+  },
+  {
+   "id": "lily-aldrin",
+   "name": "Lily Aldrin",
+   "from": "How I Met Your Mother",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "How I Met Your Mother",
+   "actor": "Alyson Hannigan",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 40,
+   "pv": 50037,
+   "img": "img/lily-aldrin.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://how-i-met-your-mother.fandom.com/wiki/Lily_Aldrin"
+   }
+  },
+  {
+   "id": "marshall-eriksen",
+   "name": "Marshall Eriksen",
+   "from": "How I Met Your Mother",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "How I Met Your Mother",
+   "actor": "Jason Segel",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 45,
+   "pv": 58104,
+   "img": "img/marshall-eriksen.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://how-i-met-your-mother.fandom.com/wiki/Marshall_Eriksen"
+   }
+  },
+  {
+   "id": "mitchell-pritchett",
+   "name": "Mitchell Pritchett",
+   "from": "Modern Family",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Modern Family",
+   "actor": "Jesse Tyler Ferguson",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 13,
+   "pv": 5056,
+   "img": "img/mitchell-pritchett.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://modernfamily.fandom.com/wiki/Mitchell_Pritchett"
+   }
+  },
+  {
+   "id": "moira-rose",
+   "name": "Moira Rose",
+   "from": "Schitt's Creek",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Schitt's Creek",
+   "actor": "Catherine O'Hara",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 70,
+   "pv": 123311,
+   "img": "img/moira-rose.webp",
+   "credit": {
+    "author": "CBC / Pop TV",
+    "license": "© owner, fan use",
+    "source": "https://schitts-creek.fandom.com/wiki/Moira_Rose"
+   }
+  },
+  {
+   "id": "newman",
+   "name": "Newman",
+   "from": "Seinfeld",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Seinfeld",
+   "actor": "Wayne Knight",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 63,
+   "pv": 106536,
+   "img": "img/newman.webp",
+   "credit": {
+    "author": "Castle Rock / Sony Pictures Television",
+    "license": "© owner, fan use",
+    "source": "https://seinfeld.fandom.com/wiki/Newman"
+   }
+  },
+  {
+   "id": "niles-crane",
+   "name": "Niles Crane",
+   "from": "Frasier",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Frasier",
+   "actor": "David Hyde Pierce",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 56,
+   "pv": 73632,
+   "img": "img/niles-crane.webp",
+   "credit": {
+    "author": "Paramount Television",
+    "license": "© owner, fan use",
+    "source": "https://frasier.fandom.com/wiki/Niles_Crane"
+   }
+  },
+  {
+   "id": "penny",
+   "name": "Penny",
+   "from": "The Big Bang Theory",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Big Bang Theory",
+   "actor": "Kaley Cuoco",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 93,
+   "pv": 206105,
+   "img": "img/penny.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://bigbangtheory.fandom.com/wiki/Penny"
+   }
+  },
+  {
+   "id": "phil-dunphy",
+   "name": "Phil Dunphy",
+   "from": "Modern Family",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Modern Family",
+   "actor": "Ty Burrell",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 1,
+   "pv": 1512,
+   "img": "img/phil-dunphy.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://modernfamily.fandom.com/wiki/Phil_Dunphy"
+   }
+  },
+  {
+   "id": "raj-koothrappali",
+   "name": "Raj Koothrappali",
+   "from": "The Big Bang Theory",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Big Bang Theory",
+   "actor": "Kunal Nayyar",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 82,
+   "pv": 140850,
+   "img": "img/raj-koothrappali.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://bigbangtheory.fandom.com/wiki/Rajesh_Koothrappali"
+   }
+  },
+  {
+   "id": "raymond-holt",
+   "name": "Raymond Holt",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Brooklyn Nine-Nine",
+   "actor": "Andre Braugher",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 19,
+   "pv": 12646,
+   "img": "img/raymond-holt.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://brooklyn99.fandom.com/wiki/Raymond_Holt"
+   }
+  },
+  {
+   "id": "robin-scherbatsky",
+   "name": "Robin Scherbatsky",
+   "from": "How I Met Your Mother",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "How I Met Your Mother",
+   "actor": "Cobie Smulders",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 75,
+   "pv": 134049,
+   "img": "img/robin-scherbatsky.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://how-i-met-your-mother.fandom.com/wiki/Robin_Scherbatsky"
+   }
+  },
+  {
+   "id": "ron-swanson",
+   "name": "Ron Swanson",
+   "from": "Parks and Recreation",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Parks and Recreation",
+   "actor": "Nick Offerman",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 84,
+   "pv": 150722,
+   "img": "img/ron-swanson.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://parksandrecreation.fandom.com/wiki/Ron_Swanson"
+   }
+  },
+  {
+   "id": "rosa-diaz",
+   "name": "Rosa Diaz",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Brooklyn Nine-Nine",
+   "actor": "Stephanie Beatriz",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 38,
+   "pv": 47919,
+   "img": "img/rosa-diaz.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://brooklyn99.fandom.com/wiki/Rosa_Diaz"
+   }
+  },
+  {
+   "id": "roy-kent",
+   "name": "Roy Kent",
+   "from": "Ted Lasso",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Ted Lasso",
+   "actor": "Brett Goldstein",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 29,
+   "pv": 35640,
+   "img": "img/roy-kent.webp",
+   "credit": {
+    "author": "Apple TV+",
+    "license": "© owner, fan use",
+    "source": "https://ted-lasso.fandom.com/wiki/Roy_Kent"
+   }
+  },
+  {
+   "id": "sheldon-cooper",
+   "name": "Sheldon Cooper",
+   "from": "The Big Bang Theory",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Big Bang Theory",
+   "actor": "Jim Parsons",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 100,
+   "pv": 564564,
+   "img": "img/sheldon-cooper.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://bigbangtheory.fandom.com/wiki/Sheldon_Cooper"
+   }
+  },
+  {
+   "id": "ted-lasso",
+   "name": "Ted Lasso",
+   "from": "Ted Lasso",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Ted Lasso",
+   "actor": "Jason Sudeikis",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 98,
+   "pv": 536335,
+   "img": "img/ted-lasso.webp",
+   "credit": {
+    "author": "Apple TV+",
+    "license": "© owner, fan use",
+    "source": "https://ted-lasso.fandom.com/wiki/Ted_Lasso"
+   }
+  },
+  {
+   "id": "ted-mosby",
+   "name": "Ted Mosby",
+   "from": "How I Met Your Mother",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "How I Met Your Mother",
+   "actor": "Josh Radnor",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 72,
+   "pv": 126453,
+   "img": "img/ted-mosby.webp",
+   "credit": {
+    "author": "20th Television",
+    "license": "© owner, fan use",
+    "source": "https://how-i-met-your-mother.fandom.com/wiki/Ted_Mosby"
+   }
+  },
+  {
+   "id": "terry-jeffords",
+   "name": "Terry Jeffords",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Brooklyn Nine-Nine",
+   "actor": "Terry Crews",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 17,
+   "pv": 7760,
+   "img": "img/terry-jeffords.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://brooklyn99.fandom.com/wiki/Terry_Jeffords"
+   }
+  },
+  {
+   "id": "tom-haverford",
+   "name": "Tom Haverford",
+   "from": "Parks and Recreation",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Parks and Recreation",
+   "actor": "Aziz Ansari",
+   "tags": [
+    "character",
+    "sitcoms"
+   ],
+   "fame": 31,
+   "pv": 41205,
+   "img": "img/tom-haverford.webp",
+   "credit": {
+    "author": "NBC / Universal Television",
+    "license": "© owner, fan use",
+    "source": "https://parksandrecreation.fandom.com/wiki/Tom_Haverford"
+   }
+  }
+ ]
+}

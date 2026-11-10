@@ -1,0 +1,1305 @@
+{
+ "id": "marvel",
+ "title": "Marvel Characters",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "agatha-harkness",
+   "name": "Agatha Harkness",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Kathryn Hahn",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 35,
+   "pv": 87614,
+   "img": "img/agatha-harkness.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Agatha_Harkness"
+   }
+  },
+  {
+   "id": "ant-man",
+   "name": "Ant-Man",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Paul Rudd",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 28,
+   "pv": 77825,
+   "img": "img/ant-man.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Ant-Man"
+   }
+  },
+  {
+   "id": "aunt-may",
+   "name": "Aunt May",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Marisa Tomei",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 54,
+   "pv": 139002,
+   "img": "img/aunt-may.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/May_Parker"
+   }
+  },
+  {
+   "id": "black-panther",
+   "name": "Black Panther",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Chadwick Boseman",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 85,
+   "pv": 268018,
+   "img": "img/black-panther.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/T'Challa"
+   }
+  },
+  {
+   "id": "black-widow",
+   "name": "Black Widow",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Scarlett Johansson",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 81,
+   "pv": 238321,
+   "img": "img/black-widow.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Natasha_Romanoff"
+   }
+  },
+  {
+   "id": "captain-america",
+   "name": "Captain America",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Chris Evans",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 98,
+   "pv": 594187,
+   "img": "img/captain-america.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Steve_Rogers"
+   }
+  },
+  {
+   "id": "captain-marvel",
+   "name": "Captain Marvel",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Brie Larson",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 49,
+   "pv": 130857,
+   "img": "img/captain-marvel.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Captain_Marvel"
+   }
+  },
+  {
+   "id": "deadpool",
+   "name": "Deadpool",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Ryan Reynolds",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 59,
+   "pv": 156751,
+   "img": "img/deadpool.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Deadpool"
+   }
+  },
+  {
+   "id": "doctor-strange",
+   "name": "Doctor Strange",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Benedict Cumberbatch",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 62,
+   "pv": 160667,
+   "img": "img/doctor-strange.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Doctor_Strange"
+   }
+  },
+  {
+   "id": "drax",
+   "name": "Drax",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Dave Bautista",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 20,
+   "pv": 64307,
+   "img": "img/drax.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Drax_the_Destroyer"
+   }
+  },
+  {
+   "id": "ego",
+   "name": "Ego",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Kurt Russell",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 3,
+   "pv": 23500,
+   "img": "img/ego.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Ego"
+   }
+  },
+  {
+   "id": "falcon",
+   "name": "Falcon",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Anthony Mackie",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 80,
+   "pv": 223143,
+   "img": "img/falcon.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Captain_America"
+   }
+  },
+  {
+   "id": "gamora",
+   "name": "Gamora",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Zoe Saldaña",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 37,
+   "pv": 101867,
+   "img": "img/gamora.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Gamora"
+   }
+  },
+  {
+   "id": "groot",
+   "name": "Groot",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Vin Diesel",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 21,
+   "pv": 66327,
+   "img": "img/groot.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Groot"
+   }
+  },
+  {
+   "id": "happy-hogan",
+   "name": "Happy Hogan",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Jon Favreau",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 30,
+   "pv": 78453,
+   "img": "img/happy-hogan.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Happy_Hogan"
+   }
+  },
+  {
+   "id": "hawkeye",
+   "name": "Hawkeye",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Jeremy Renner",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 45,
+   "pv": 125780,
+   "img": "img/hawkeye.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Hawkeye"
+   }
+  },
+  {
+   "id": "heimdall",
+   "name": "Heimdall",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Idris Elba",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 8,
+   "pv": 41398,
+   "img": "img/heimdall.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Heimdall"
+   }
+  },
+  {
+   "id": "hela",
+   "name": "Hela",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Cate Blanchett",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 44,
+   "pv": 113736,
+   "img": "img/hela.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Hela"
+   }
+  },
+  {
+   "id": "hulk",
+   "name": "Hulk",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Mark Ruffalo",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 78,
+   "pv": 217164,
+   "img": "img/hulk.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Hulk"
+   }
+  },
+  {
+   "id": "iron-man",
+   "name": "Iron Man",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Robert Downey Jr.",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 95,
+   "pv": 381904,
+   "img": "img/iron-man.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Iron_Man"
+   }
+  },
+  {
+   "id": "kang",
+   "name": "Kang",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Jonathan Majors",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 50,
+   "pv": 134310,
+   "img": "img/kang.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/He_Who_Remains"
+   }
+  },
+  {
+   "id": "kate-bishop",
+   "name": "Kate Bishop",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Hailee Steinfeld",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 56,
+   "pv": 140113,
+   "img": "img/kate-bishop.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Kate_Bishop"
+   }
+  },
+  {
+   "id": "killmonger",
+   "name": "Killmonger",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Michael B. Jordan",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 39,
+   "pv": 103049,
+   "img": "img/killmonger.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Erik_Killmonger"
+   }
+  },
+  {
+   "id": "korg",
+   "name": "Korg",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Taika Waititi",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 6,
+   "pv": 39854,
+   "img": "img/korg.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Korg"
+   }
+  },
+  {
+   "id": "loki",
+   "name": "Loki",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Tom Hiddleston",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 74,
+   "pv": 188244,
+   "img": "img/loki.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Loki"
+   }
+  },
+  {
+   "id": "mantis",
+   "name": "Mantis",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Pom Klementieff",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 15,
+   "pv": 62367,
+   "img": "img/mantis.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Mantis"
+   }
+  },
+  {
+   "id": "maria-hill",
+   "name": "Maria Hill",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Cobie Smulders",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 10,
+   "pv": 48930,
+   "img": "img/maria-hill.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Maria_Hill"
+   }
+  },
+  {
+   "id": "mj",
+   "name": "MJ",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Zendaya",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 90,
+   "pv": 347507,
+   "img": "img/mj.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Michelle_Jones"
+   }
+  },
+  {
+   "id": "moon-knight",
+   "name": "Moon Knight",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Oscar Isaac",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 11,
+   "pv": 49948,
+   "img": "img/moon-knight.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Moon_Knight"
+   }
+  },
+  {
+   "id": "mysterio",
+   "name": "Mysterio",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Jake Gyllenhaal",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 83,
+   "pv": 253993,
+   "img": "img/mysterio.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Mysterio"
+   }
+  },
+  {
+   "id": "nebula",
+   "name": "Nebula",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Karen Gillan",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 40,
+   "pv": 107302,
+   "img": "img/nebula.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Nebula"
+   }
+  },
+  {
+   "id": "ned-leeds",
+   "name": "Ned Leeds",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Jacob Batalon",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 91,
+   "pv": 350912,
+   "img": "img/ned-leeds.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Ned_Leeds"
+   }
+  },
+  {
+   "id": "nick-fury",
+   "name": "Nick Fury",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Samuel L. Jackson",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 57,
+   "pv": 150760,
+   "img": "img/nick-fury.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Nick_Fury"
+   }
+  },
+  {
+   "id": "odin",
+   "name": "Odin",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Anthony Hopkins",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 1,
+   "pv": 12155,
+   "img": "img/odin.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Odin"
+   }
+  },
+  {
+   "id": "okoye",
+   "name": "Okoye",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Danai Gurira",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 4,
+   "pv": 37296,
+   "img": "img/okoye.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Okoye"
+   }
+  },
+  {
+   "id": "peggy-carter",
+   "name": "Peggy Carter",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Hayley Atwell",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 73,
+   "pv": 185804,
+   "img": "img/peggy-carter.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Peggy_Carter"
+   }
+  },
+  {
+   "id": "pepper-potts",
+   "name": "Pepper Potts",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Gwyneth Paltrow",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 18,
+   "pv": 63754,
+   "img": "img/pepper-potts.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Pepper_Potts"
+   }
+  },
+  {
+   "id": "phil-coulson",
+   "name": "Phil Coulson",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Clark Gregg",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 52,
+   "pv": 136272,
+   "img": "img/phil-coulson.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Phil_Coulson"
+   }
+  },
+  {
+   "id": "red-skull",
+   "name": "Red Skull",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Hugo Weaving",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 69,
+   "pv": 177601,
+   "img": "img/red-skull.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Red_Skull"
+   }
+  },
+  {
+   "id": "rocket",
+   "name": "Rocket",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Bradley Cooper",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 27,
+   "pv": 74585,
+   "img": "img/rocket.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Rocket_Raccoon"
+   }
+  },
+  {
+   "id": "scarlet-witch",
+   "name": "Scarlet Witch",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Elizabeth Olsen",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 86,
+   "pv": 270748,
+   "img": "img/scarlet-witch.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Scarlet_Witch"
+   }
+  },
+  {
+   "id": "shang-chi",
+   "name": "Shang-Chi",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Simu Liu",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 32,
+   "pv": 83024,
+   "img": "img/shang-chi.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Shang-Chi"
+   }
+  },
+  {
+   "id": "she-hulk",
+   "name": "She-Hulk",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Tatiana Maslany",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 71,
+   "pv": 182063,
+   "img": "img/she-hulk.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/She-Hulk"
+   }
+  },
+  {
+   "id": "shuri",
+   "name": "Shuri",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Letitia Wright",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 33,
+   "pv": 84091,
+   "img": "img/shuri.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Black_Panther"
+   }
+  },
+  {
+   "id": "spider-man",
+   "name": "Spider-Man",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Tom Holland",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 93,
+   "pv": 369436,
+   "img": "img/spider-man.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Spider-Man"
+   }
+  },
+  {
+   "id": "star-lord",
+   "name": "Star-Lord",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Chris Pratt",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 42,
+   "pv": 110280,
+   "img": "img/star-lord.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Star-Lord"
+   }
+  },
+  {
+   "id": "thanos",
+   "name": "Thanos",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Josh Brolin",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 68,
+   "pv": 174599,
+   "img": "img/thanos.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Thanos"
+   }
+  },
+  {
+   "id": "thor",
+   "name": "Thor",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Chris Hemsworth",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 64,
+   "pv": 166363,
+   "img": "img/thor.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Thor"
+   }
+  },
+  {
+   "id": "ultron",
+   "name": "Ultron",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "James Spader",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 88,
+   "pv": 295256,
+   "img": "img/ultron.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Ultron"
+   }
+  },
+  {
+   "id": "valkyrie",
+   "name": "Valkyrie",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Tessa Thompson",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 13,
+   "pv": 50336,
+   "img": "img/valkyrie.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Valkyrie"
+   }
+  },
+  {
+   "id": "vision",
+   "name": "Vision",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Paul Bettany",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 61,
+   "pv": 157850,
+   "img": "img/vision.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Vision"
+   }
+  },
+  {
+   "id": "vulture",
+   "name": "Vulture",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Michael Keaton",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 47,
+   "pv": 126467,
+   "img": "img/vulture.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Vulture"
+   }
+  },
+  {
+   "id": "war-machine",
+   "name": "War Machine",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Don Cheadle",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 76,
+   "pv": 214830,
+   "img": "img/war-machine.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/War_Machine"
+   }
+  },
+  {
+   "id": "wasp",
+   "name": "Wasp",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Evangeline Lilly",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 16,
+   "pv": 62571,
+   "img": "img/wasp.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Wasp"
+   }
+  },
+  {
+   "id": "winter-soldier",
+   "name": "Winter Soldier",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Sebastian Stan",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 66,
+   "pv": 167352,
+   "img": "img/winter-soldier.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Winter_Soldier"
+   }
+  },
+  {
+   "id": "wolverine",
+   "name": "Wolverine",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Hugh Jackman",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 100,
+   "pv": 673435,
+   "img": "img/wolverine.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Wolverine"
+   }
+  },
+  {
+   "id": "wong",
+   "name": "Wong",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Benedict Wong",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 23,
+   "pv": 67297,
+   "img": "img/wong.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Wong"
+   }
+  },
+  {
+   "id": "yelena-belova",
+   "name": "Yelena Belova",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Florence Pugh",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 97,
+   "pv": 524364,
+   "img": "img/yelena-belova.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Black_Widow"
+   }
+  },
+  {
+   "id": "yondu",
+   "name": "Yondu",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Michael Rooker",
+   "tags": [
+    "character",
+    "marvel"
+   ],
+   "fame": 25,
+   "pv": 71719,
+   "img": "img/yondu.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Yondu"
+   }
+  }
+ ]
+}

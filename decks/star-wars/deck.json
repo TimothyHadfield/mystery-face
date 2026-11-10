@@ -1,0 +1,1058 @@
+{
+ "id": "star-wars",
+ "title": "Star Wars Characters",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "admiral-ackbar",
+   "name": "Admiral Ackbar",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Erik Bauersfeld",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 16,
+   "pv": 58523,
+   "img": "img/admiral-ackbar.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Gial_Ackbar"
+   }
+  },
+  {
+   "id": "ahsoka-tano",
+   "name": "Ahsoka Tano",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Rosario Dawson",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 71,
+   "pv": 210137,
+   "img": "img/ahsoka-tano.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Ahsoka_Tano"
+   }
+  },
+  {
+   "id": "anakin-skywalker",
+   "name": "Anakin Skywalker",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Hayden Christensen",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 28,
+   "pv": 76955,
+   "img": "img/anakin-skywalker.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Anakin_Skywalker"
+   }
+  },
+  {
+   "id": "bb-8",
+   "name": "BB-8",
+   "from": "Star Wars",
+   "gender": "x",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 9,
+   "pv": 51078,
+   "img": "img/bb-8.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/BB-8"
+   }
+  },
+  {
+   "id": "bo-katan-kryze",
+   "name": "Bo-Katan Kryze",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Katee Sackhoff",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 35,
+   "pv": 84718,
+   "img": "img/bo-katan-kryze.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Bo-Katan_Kryze"
+   }
+  },
+  {
+   "id": "boba-fett",
+   "name": "Boba Fett",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Temuera Morrison",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 73,
+   "pv": 251824,
+   "img": "img/boba-fett.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Boba_Fett"
+   }
+  },
+  {
+   "id": "c-3po",
+   "name": "C-3PO",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Anthony Daniels",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 52,
+   "pv": 132088,
+   "img": "img/c-3po.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/C-3PO"
+   }
+  },
+  {
+   "id": "cad-bane",
+   "name": "Cad Bane",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Corey Burton",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 26,
+   "pv": 68817,
+   "img": "img/cad-bane.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Cad_Bane"
+   }
+  },
+  {
+   "id": "captain-phasma",
+   "name": "Captain Phasma",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Gwendoline Christie",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 5,
+   "pv": 50232,
+   "img": "img/captain-phasma.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Phasma"
+   }
+  },
+  {
+   "id": "cassian-andor",
+   "name": "Cassian Andor",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Diego Luna",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 45,
+   "pv": 128701,
+   "img": "img/cassian-andor.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Cassian_Jeron_Andor"
+   }
+  },
+  {
+   "id": "chewbacca",
+   "name": "Chewbacca",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Peter Mayhew",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 43,
+   "pv": 126456,
+   "img": "img/chewbacca.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Chewbacca"
+   }
+  },
+  {
+   "id": "count-dooku",
+   "name": "Count Dooku",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Christopher Lee",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 64,
+   "pv": 178014,
+   "img": "img/count-dooku.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Dooku"
+   }
+  },
+  {
+   "id": "darth-maul",
+   "name": "Darth Maul",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Ray Park",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 92,
+   "pv": 427431,
+   "img": "img/darth-maul.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Maul"
+   }
+  },
+  {
+   "id": "darth-vader",
+   "name": "Darth Vader",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 96,
+   "pv": 603664,
+   "img": "img/darth-vader.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Anakin_Skywalker"
+   }
+  },
+  {
+   "id": "emperor-palpatine",
+   "name": "Emperor Palpatine",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Ian McDiarmid",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 94,
+   "pv": 513204,
+   "img": "img/emperor-palpatine.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Darth_Sidious"
+   }
+  },
+  {
+   "id": "fennec-shand",
+   "name": "Fennec Shand",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Ming-Na Wen",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 20,
+   "pv": 59130,
+   "img": "img/fennec-shand.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Fennec_Shand"
+   }
+  },
+  {
+   "id": "finn",
+   "name": "Finn",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "John Boyega",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 7,
+   "pv": 50867,
+   "img": "img/finn.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Finn"
+   }
+  },
+  {
+   "id": "general-grievous",
+   "name": "General Grievous",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Matthew Wood",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 47,
+   "pv": 130369,
+   "img": "img/general-grievous.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Grievous"
+   }
+  },
+  {
+   "id": "grand-moff-tarkin",
+   "name": "Grand Moff Tarkin",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Peter Cushing",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 62,
+   "pv": 159733,
+   "img": "img/grand-moff-tarkin.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Wilhuff_Tarkin"
+   }
+  },
+  {
+   "id": "greedo",
+   "name": "Greedo",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 1,
+   "pv": 14628,
+   "img": "img/greedo.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Greedo"
+   }
+  },
+  {
+   "id": "grogu",
+   "name": "Grogu",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 100,
+   "pv": 942944,
+   "img": "img/grogu.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Din_Grogu"
+   }
+  },
+  {
+   "id": "han-solo",
+   "name": "Han Solo",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Harrison Ford",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 66,
+   "pv": 182766,
+   "img": "img/han-solo.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Han_Solo"
+   }
+  },
+  {
+   "id": "hera-syndulla",
+   "name": "Hera Syndulla",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Mary Elizabeth Winstead",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 22,
+   "pv": 66835,
+   "img": "img/hera-syndulla.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Hera_Syndulla"
+   }
+  },
+  {
+   "id": "jabba-the-hutt",
+   "name": "Jabba the Hutt",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 75,
+   "pv": 253224,
+   "img": "img/jabba-the-hutt.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Jabba_Desilijic_Tiure"
+   }
+  },
+  {
+   "id": "jar-jar-binks",
+   "name": "Jar Jar Binks",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Ahmed Best",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 68,
+   "pv": 189224,
+   "img": "img/jar-jar-binks.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Jar_Jar_Binks"
+   }
+  },
+  {
+   "id": "jyn-erso",
+   "name": "Jyn Erso",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Felicity Jones",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 18,
+   "pv": 58874,
+   "img": "img/jyn-erso.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Jyn_Erso"
+   }
+  },
+  {
+   "id": "k-2so",
+   "name": "K-2SO",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Alan Tudyk",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 24,
+   "pv": 68105,
+   "img": "img/k-2so.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/K-2SO"
+   }
+  },
+  {
+   "id": "kylo-ren",
+   "name": "Kylo Ren",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Adam Driver",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 85,
+   "pv": 304901,
+   "img": "img/kylo-ren.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Ben_Solo"
+   }
+  },
+  {
+   "id": "lando-calrissian",
+   "name": "Lando Calrissian",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Billy Dee Williams",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 54,
+   "pv": 149828,
+   "img": "img/lando-calrissian.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Landonis_Balthazar_Calrissian"
+   }
+  },
+  {
+   "id": "luke-skywalker",
+   "name": "Luke Skywalker",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Mark Hamill",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 79,
+   "pv": 281308,
+   "img": "img/luke-skywalker.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Luke_Skywalker"
+   }
+  },
+  {
+   "id": "mace-windu",
+   "name": "Mace Windu",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Samuel L. Jackson",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 30,
+   "pv": 80438,
+   "img": "img/mace-windu.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Mace_Windu"
+   }
+  },
+  {
+   "id": "maz-kanata",
+   "name": "Maz Kanata",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Lupita Nyong'o",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 14,
+   "pv": 52851,
+   "img": "img/maz-kanata.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Maz_Kanata"
+   }
+  },
+  {
+   "id": "moff-gideon",
+   "name": "Moff Gideon",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Giancarlo Esposito",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 39,
+   "pv": 92715,
+   "img": "img/moff-gideon.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Gideon"
+   }
+  },
+  {
+   "id": "mon-mothma",
+   "name": "Mon Mothma",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Genevieve O'Reilly",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 60,
+   "pv": 153066,
+   "img": "img/mon-mothma.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Mon_Mothma"
+   }
+  },
+  {
+   "id": "obi-wan-kenobi",
+   "name": "Obi-Wan Kenobi",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Ewan McGregor",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 87,
+   "pv": 316453,
+   "img": "img/obi-wan-kenobi.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Obi-Wan_Kenobi"
+   }
+  },
+  {
+   "id": "padme-amidala",
+   "name": "Padmé Amidala",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Natalie Portman",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 83,
+   "pv": 301252,
+   "img": "img/padme-amidala.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Padm%C3%A9_Amidala_Naberrie"
+   }
+  },
+  {
+   "id": "poe-dameron",
+   "name": "Poe Dameron",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Oscar Isaac",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 33,
+   "pv": 80930,
+   "img": "img/poe-dameron.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Poe_Dameron"
+   }
+  },
+  {
+   "id": "princess-leia",
+   "name": "Princess Leia",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Carrie Fisher",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 89,
+   "pv": 327963,
+   "img": "img/princess-leia.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Leia_Skywalker_Organa_Solo"
+   }
+  },
+  {
+   "id": "qi-ra",
+   "name": "Qi'ra",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Emilia Clarke",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 37,
+   "pv": 90461,
+   "img": "img/qi-ra.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Qi'ra"
+   }
+  },
+  {
+   "id": "qui-gon-jinn",
+   "name": "Qui-Gon Jinn",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Liam Neeson",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 49,
+   "pv": 130689,
+   "img": "img/qui-gon-jinn.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Qui-Gon_Jinn"
+   }
+  },
+  {
+   "id": "r2-d2",
+   "name": "R2-D2",
+   "from": "Star Wars",
+   "gender": "x",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Kenny Baker",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 41,
+   "pv": 123831,
+   "img": "img/r2-d2.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/R2-D2"
+   }
+  },
+  {
+   "id": "rey",
+   "name": "Rey",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Daisy Ridley",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 77,
+   "pv": 271300,
+   "img": "img/rey.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Rey_Skywalker"
+   }
+  },
+  {
+   "id": "rose-tico",
+   "name": "Rose Tico",
+   "from": "Star Wars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Kelly Marie Tran",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 12,
+   "pv": 51186,
+   "img": "img/rose-tico.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Rose_Tico"
+   }
+  },
+  {
+   "id": "supreme-leader-snoke",
+   "name": "Supreme Leader Snoke",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Andy Serkis",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 58,
+   "pv": 152925,
+   "img": "img/supreme-leader-snoke.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Snoke"
+   }
+  },
+  {
+   "id": "the-mandalorian",
+   "name": "The Mandalorian",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Pedro Pascal",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 98,
+   "pv": 895796,
+   "img": "img/the-mandalorian.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Din_Djarin"
+   }
+  },
+  {
+   "id": "thrawn",
+   "name": "Thrawn",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Lars Mikkelsen",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 56,
+   "pv": 151175,
+   "img": "img/thrawn.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Mitth'raw'nuruodo"
+   }
+  },
+  {
+   "id": "wicket",
+   "name": "Wicket",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Warwick Davis",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 3,
+   "pv": 19276,
+   "img": "img/wicket.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Wicket_Wystri_Warrick"
+   }
+  },
+  {
+   "id": "yoda",
+   "name": "Yoda",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Star Wars",
+   "actor": "Frank Oz",
+   "tags": [
+    "character",
+    "star-wars"
+   ],
+   "fame": 81,
+   "pv": 291642,
+   "img": "img/yoda.webp",
+   "credit": {
+    "author": "Lucasfilm",
+    "license": "© owner, fan use",
+    "source": "https://starwars.fandom.com/wiki/Yoda"
+   }
+  }
+ ]
+}

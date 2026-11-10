@@ -1,0 +1,667 @@
+{
+ "id": "stranger-things",
+ "title": "Stranger Things (grown-ups)",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "argyle",
+   "name": "Argyle",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Eduardo Franco",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 49,
+   "pv": 17090,
+   "img": "img/argyle.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Argyle"
+   }
+  },
+  {
+   "id": "barbara-holland",
+   "name": "Barbara Holland",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Shannon Purser",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 42,
+   "pv": 548,
+   "img": "img/barbara-holland.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Barbara_Holland"
+   }
+  },
+  {
+   "id": "benny-hammond",
+   "name": "Benny Hammond",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Chris Sullivan",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 18,
+   "pv": 69,
+   "img": "img/benny-hammond.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Benny_Hammond"
+   }
+  },
+  {
+   "id": "billy-hargrove",
+   "name": "Billy Hargrove",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Dacre Montgomery",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 76,
+   "pv": 97843,
+   "img": "img/billy-hargrove.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Billy_Hargrove"
+   }
+  },
+  {
+   "id": "bob-newby",
+   "name": "Bob Newby",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Sean Astin",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 62,
+   "pv": 41730,
+   "img": "img/bob-newby.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Bob_Newby"
+   }
+  },
+  {
+   "id": "claudia-henderson",
+   "name": "Claudia Henderson",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Catherine Curtin",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 21,
+   "pv": 69,
+   "img": "img/claudia-henderson.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Claudia_Henderson"
+   }
+  },
+  {
+   "id": "dmitri-antonov",
+   "name": "Dmitri Antonov",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Tom Wlaschiha",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 32,
+   "pv": 69,
+   "img": "img/dmitri-antonov.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Dmitri_Antonov"
+   }
+  },
+  {
+   "id": "dr-brenner",
+   "name": "Dr. Brenner",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Matthew Modine",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 66,
+   "pv": 62599,
+   "img": "img/dr-brenner.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Martin_Brenner"
+   }
+  },
+  {
+   "id": "eddie-munson",
+   "name": "Eddie Munson",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Joseph Quinn",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 80,
+   "pv": 107222,
+   "img": "img/eddie-munson.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Eddie_Munson"
+   }
+  },
+  {
+   "id": "enzo",
+   "name": "Enzo",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Tom Wlaschiha",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 8,
+   "pv": 69,
+   "img": "img/enzo.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Dmitri_Antonov"
+   }
+  },
+  {
+   "id": "heather-holloway",
+   "name": "Heather Holloway",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Francesca Reale",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 15,
+   "pv": 69,
+   "img": "img/heather-holloway.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Heather_Holloway"
+   }
+  },
+  {
+   "id": "jason-carver",
+   "name": "Jason Carver",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Mason Dye",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 11,
+   "pv": 69,
+   "img": "img/jason-carver.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Jason_Carver"
+   }
+  },
+  {
+   "id": "jim-hopper",
+   "name": "Jim Hopper",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "David Harbour",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 90,
+   "pv": 358846,
+   "img": "img/jim-hopper.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Jim_Hopper"
+   }
+  },
+  {
+   "id": "jonathan-byers",
+   "name": "Jonathan Byers",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Charlie Heaton",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 73,
+   "pv": 97563,
+   "img": "img/jonathan-byers.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Jonathan_Byers"
+   }
+  },
+  {
+   "id": "joyce-byers",
+   "name": "Joyce Byers",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Winona Ryder",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 86,
+   "pv": 248023,
+   "img": "img/joyce-byers.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Joyce_Byers"
+   }
+  },
+  {
+   "id": "kali",
+   "name": "Kali",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Linnea Berthelsen",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 35,
+   "pv": 138,
+   "img": "img/kali.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Kali_Prasad"
+   }
+  },
+  {
+   "id": "karen-wheeler",
+   "name": "Karen Wheeler",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Cara Buono",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 69,
+   "pv": 77023,
+   "img": "img/karen-wheeler.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Karen_Wheeler"
+   }
+  },
+  {
+   "id": "larry-kline",
+   "name": "Larry Kline",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Cary Elwes",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 28,
+   "pv": 69,
+   "img": "img/larry-kline.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Larry_Kline"
+   }
+  },
+  {
+   "id": "lonnie-byers",
+   "name": "Lonnie Byers",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Ross Partridge",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 45,
+   "pv": 6386,
+   "img": "img/lonnie-byers.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Lonnie_Byers"
+   }
+  },
+  {
+   "id": "murray-bauman",
+   "name": "Murray Bauman",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Brett Gelman",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 56,
+   "pv": 30944,
+   "img": "img/murray-bauman.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Murray_Bauman"
+   }
+  },
+  {
+   "id": "nancy-wheeler",
+   "name": "Nancy Wheeler",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Natalia Dyer",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 93,
+   "pv": 397316,
+   "img": "img/nancy-wheeler.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Nancy_Wheeler"
+   }
+  },
+  {
+   "id": "neil-hargrove",
+   "name": "Neil Hargrove",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Riley Smith",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 25,
+   "pv": 69,
+   "img": "img/neil-hargrove.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Neil_Hargrove"
+   }
+  },
+  {
+   "id": "robin-buckley",
+   "name": "Robin Buckley",
+   "from": "Stranger Things",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Maya Hawke",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 83,
+   "pv": 214408,
+   "img": "img/robin-buckley.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Robin_Buckley"
+   }
+  },
+  {
+   "id": "sam-owens",
+   "name": "Sam Owens",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Paul Reiser",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 52,
+   "pv": 26744,
+   "img": "img/sam-owens.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Sam_Owens"
+   }
+  },
+  {
+   "id": "scott-clarke",
+   "name": "Scott Clarke",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Randy Havens",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 39,
+   "pv": 347,
+   "img": "img/scott-clarke.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Scott_Clarke"
+   }
+  },
+  {
+   "id": "steve-harrington",
+   "name": "Steve Harrington",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Joe Keery",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 97,
+   "pv": 531604,
+   "img": "img/steve-harrington.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Steve_Harrington"
+   }
+  },
+  {
+   "id": "ted-wheeler",
+   "name": "Ted Wheeler",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Joe Chrest",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 59,
+   "pv": 33144,
+   "img": "img/ted-wheeler.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Ted_Wheeler"
+   }
+  },
+  {
+   "id": "tommy-h",
+   "name": "Tommy H.",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Chester Rushing",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 1,
+   "pv": 69,
+   "img": "img/tommy-h.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Tommy_H"
+   }
+  },
+  {
+   "id": "vecna",
+   "name": "Vecna",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Jamie Campbell Bower",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 100,
+   "pv": 1629516,
+   "img": "img/vecna.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Vecna"
+   }
+  },
+  {
+   "id": "victor-creel",
+   "name": "Victor Creel",
+   "from": "Stranger Things",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Stranger Things",
+   "actor": "Robert Englund",
+   "tags": [
+    "character",
+    "stranger-things"
+   ],
+   "fame": 4,
+   "pv": 69,
+   "img": "img/victor-creel.webp",
+   "credit": {
+    "author": "Netflix",
+    "license": "© owner, fan use",
+    "source": "https://strangerthings.fandom.com/wiki/Victor_Creel"
+   }
+  }
+ ]
+}

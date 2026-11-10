@@ -1,0 +1,843 @@
+{
+ "id": "book-characters",
+ "title": "Book Characters",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "alice-cullen",
+   "name": "Alice Cullen",
+   "from": "Twilight",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Twilight",
+   "actor": "Ashley Greene",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 12,
+   "pv": 14868,
+   "img": "img/alice-cullen.webp",
+   "credit": {
+    "author": "Summit Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://twilightsaga.fandom.com/wiki/Alice_Cullen"
+   }
+  },
+  {
+   "id": "aro",
+   "name": "Aro",
+   "from": "Twilight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Twilight",
+   "actor": "Michael Sheen",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 20,
+   "pv": 21315,
+   "img": "img/aro.webp",
+   "credit": {
+    "author": "Summit Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://twilightsaga.fandom.com/wiki/Aro"
+   }
+  },
+  {
+   "id": "aslan",
+   "name": "Aslan",
+   "from": "The Chronicles of Narnia",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Chronicles of Narnia",
+   "actor": "Liam Neeson",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 71,
+   "pv": 215818,
+   "img": "img/aslan.webp",
+   "credit": {
+    "author": "Walden Media / Disney",
+    "license": "© owner, fan use",
+    "source": "https://narnia.fandom.com/wiki/Aslan_(disambiguation)"
+   }
+  },
+  {
+   "id": "atticus-finch",
+   "name": "Atticus Finch",
+   "from": "To Kill a Mockingbird",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "To Kill a Mockingbird",
+   "actor": "Gregory Peck",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 55,
+   "pv": 160287,
+   "img": "img/atticus-finch.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://tokillamockingbird.fandom.com/wiki/Atticus_Finch"
+   }
+  },
+  {
+   "id": "bella-swan",
+   "name": "Bella Swan",
+   "from": "Twilight",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Twilight",
+   "actor": "Kristen Stewart",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 44,
+   "pv": 127666,
+   "img": "img/bella-swan.webp",
+   "credit": {
+    "author": "Summit Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://twilightsaga.fandom.com/wiki/Bella_Swan"
+   }
+  },
+  {
+   "id": "caesar-flickerman",
+   "name": "Caesar Flickerman",
+   "from": "The Hunger Games",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Stanley Tucci",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 14,
+   "pv": 16838,
+   "img": "img/caesar-flickerman.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Caesar_Flickerman"
+   }
+  },
+  {
+   "id": "carlisle-cullen",
+   "name": "Carlisle Cullen",
+   "from": "Twilight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Twilight",
+   "actor": "Peter Facinelli",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 17,
+   "pv": 20162,
+   "img": "img/carlisle-cullen.webp",
+   "credit": {
+    "author": "Summit Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://twilightsaga.fandom.com/wiki/Carlisle_Cullen"
+   }
+  },
+  {
+   "id": "cinna",
+   "name": "Cinna",
+   "from": "The Hunger Games",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Lenny Kravitz",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 4,
+   "pv": 326,
+   "img": "img/cinna.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Cinna"
+   }
+  },
+  {
+   "id": "dr-john-watson",
+   "name": "Dr. John Watson",
+   "from": "Sherlock",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Sherlock",
+   "actor": "Martin Freeman",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 63,
+   "pv": 187970,
+   "img": "img/dr-john-watson.webp",
+   "credit": {
+    "author": "BBC",
+    "license": "© owner, fan use",
+    "source": "https://sherlock.fandom.com/wiki/John_Watson"
+   }
+  },
+  {
+   "id": "edward-cullen",
+   "name": "Edward Cullen",
+   "from": "Twilight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Twilight",
+   "actor": "Robert Pattinson",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 49,
+   "pv": 139751,
+   "img": "img/edward-cullen.webp",
+   "credit": {
+    "author": "Summit Entertainment",
+    "license": "© owner, fan use",
+    "source": "https://twilightsaga.fandom.com/wiki/Edward_Cullen"
+   }
+  },
+  {
+   "id": "effie-trinket",
+   "name": "Effie Trinket",
+   "from": "The Hunger Games",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Elizabeth Banks",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 30,
+   "pv": 52483,
+   "img": "img/effie-trinket.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Effie_Trinket"
+   }
+  },
+  {
+   "id": "elizabeth-bennet",
+   "name": "Elizabeth Bennet",
+   "from": "Pride and Prejudice",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Pride and Prejudice",
+   "actor": "Keira Knightley",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 46,
+   "pv": 135809,
+   "img": "img/elizabeth-bennet.webp",
+   "credit": {
+    "author": "Focus Features",
+    "license": "© owner, fan use",
+    "source": "https://janeausten.fandom.com/wiki/Elizabeth_Bennet"
+   }
+  },
+  {
+   "id": "finnick-odair",
+   "name": "Finnick Odair",
+   "from": "The Hunger Games",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Sam Claflin",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 25,
+   "pv": 48275,
+   "img": "img/finnick-odair.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Finnick_Odair"
+   }
+  },
+  {
+   "id": "four",
+   "name": "Four",
+   "from": "Divergent",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Divergent",
+   "actor": "Theo James",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 6,
+   "pv": 1040,
+   "img": "img/four.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://divergent.fandom.com/wiki/Tobias_Eaton"
+   }
+  },
+  {
+   "id": "gale-hawthorne",
+   "name": "Gale Hawthorne",
+   "from": "The Hunger Games",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Liam Hemsworth",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 28,
+   "pv": 48508,
+   "img": "img/gale-hawthorne.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Gale_Hawthorne"
+   }
+  },
+  {
+   "id": "hannibal-lecter",
+   "name": "Hannibal Lecter",
+   "from": "The Silence of the Lambs",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Silence of the Lambs",
+   "actor": "Anthony Hopkins",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 95,
+   "pv": 777190,
+   "img": "img/hannibal-lecter.webp",
+   "credit": {
+    "author": "Orion Pictures",
+    "license": "© owner, fan use",
+    "source": "https://hannibal.fandom.com/wiki/Hannibal_Lecter"
+   }
+  },
+  {
+   "id": "haymitch-abernathy",
+   "name": "Haymitch Abernathy",
+   "from": "The Hunger Games",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Woody Harrelson",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 52,
+   "pv": 152896,
+   "img": "img/haymitch-abernathy.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Haymitch_Abernathy"
+   }
+  },
+  {
+   "id": "jack-reacher",
+   "name": "Jack Reacher",
+   "from": "Jack Reacher",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Jack Reacher",
+   "actor": "Alan Ritchson",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 92,
+   "pv": 658183,
+   "img": "img/jack-reacher.webp",
+   "credit": {
+    "author": "Paramount Pictures",
+    "license": "© owner, fan use",
+    "source": "https://jackreacher.fandom.com/wiki/Jack_Reacher_(Alan_Ritchson)"
+   }
+  },
+  {
+   "id": "james-bond",
+   "name": "James Bond",
+   "from": "James Bond",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "James Bond",
+   "actor": "Daniel Craig",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 100,
+   "pv": 1320407,
+   "img": "img/james-bond.webp",
+   "credit": {
+    "author": "Eon Productions / MGM",
+    "license": "© owner, fan use",
+    "source": "https://jamesbond.fandom.com/wiki/James_Bond_(Daniel_Craig)"
+   }
+  },
+  {
+   "id": "jason-bourne",
+   "name": "Jason Bourne",
+   "from": "Jason Bourne",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Jason Bourne",
+   "actor": "Matt Damon",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 76,
+   "pv": 279482,
+   "img": "img/jason-bourne.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://bourne.fandom.com/wiki/Jason_Bourne"
+   }
+  },
+  {
+   "id": "javert",
+   "name": "Javert",
+   "from": "Les Misérables",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Les Misérables",
+   "actor": "Russell Crowe",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 38,
+   "pv": 111333,
+   "img": "img/javert.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://lesmiserables.fandom.com/wiki/Inspector_Javert"
+   }
+  },
+  {
+   "id": "jay-gatsby",
+   "name": "Jay Gatsby",
+   "from": "The Great Gatsby",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Great Gatsby",
+   "actor": "Leonardo DiCaprio",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 57,
+   "pv": 180960,
+   "img": "img/jay-gatsby.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://thegreatgatsby.fandom.com/wiki/Jay_Gatsby"
+   }
+  },
+  {
+   "id": "jean-valjean",
+   "name": "Jean Valjean",
+   "from": "Les Misérables",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Les Misérables",
+   "actor": "Hugh Jackman",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 68,
+   "pv": 204209,
+   "img": "img/jean-valjean.webp",
+   "credit": {
+    "author": "Universal Pictures",
+    "license": "© owner, fan use",
+    "source": "https://lesmiserables.fandom.com/wiki/Jean_Valjean"
+   }
+  },
+  {
+   "id": "jim-moriarty",
+   "name": "Jim Moriarty",
+   "from": "Sherlock",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Sherlock",
+   "actor": "Andrew Scott",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 89,
+   "pv": 647952,
+   "img": "img/jim-moriarty.webp",
+   "credit": {
+    "author": "BBC",
+    "license": "© owner, fan use",
+    "source": "https://sherlock.fandom.com/wiki/Jim_Moriarty"
+   }
+  },
+  {
+   "id": "johanna-mason",
+   "name": "Johanna Mason",
+   "from": "The Hunger Games",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Jena Malone",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 22,
+   "pv": 31322,
+   "img": "img/johanna-mason.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Johanna_Mason"
+   }
+  },
+  {
+   "id": "katniss-everdeen",
+   "name": "Katniss Everdeen",
+   "from": "The Hunger Games",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Jennifer Lawrence",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 73,
+   "pv": 229177,
+   "img": "img/katniss-everdeen.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Katniss_Everdeen"
+   }
+  },
+  {
+   "id": "mary-poppins",
+   "name": "Mary Poppins",
+   "from": "Mary Poppins",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Mary Poppins",
+   "actor": "Julie Andrews",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 33,
+   "pv": 88775,
+   "img": "img/mary-poppins.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mary_Poppins_(character)"
+   }
+  },
+  {
+   "id": "michael-corleone",
+   "name": "Michael Corleone",
+   "from": "The Godfather",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Godfather",
+   "actor": "Al Pacino",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 79,
+   "pv": 312906,
+   "img": "img/michael-corleone.webp",
+   "credit": {
+    "author": "Paramount Pictures",
+    "license": "© owner, fan use",
+    "source": "https://godfather.fandom.com/wiki/Michael_Corleone"
+   }
+  },
+  {
+   "id": "mr-darcy",
+   "name": "Mr. Darcy",
+   "from": "Pride and Prejudice",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Pride and Prejudice",
+   "actor": "Matthew Macfadyen",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 60,
+   "pv": 182505,
+   "img": "img/mr-darcy.webp",
+   "credit": {
+    "author": "Focus Features",
+    "license": "© owner, fan use",
+    "source": "https://janeausten.fandom.com/wiki/Fitzwilliam_Darcy"
+   }
+  },
+  {
+   "id": "mr-tumnus",
+   "name": "Mr. Tumnus",
+   "from": "The Chronicles of Narnia",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Chronicles of Narnia",
+   "actor": "James McAvoy",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 36,
+   "pv": 104689,
+   "img": "img/mr-tumnus.webp",
+   "credit": {
+    "author": "Walden Media / Disney",
+    "license": "© owner, fan use",
+    "source": "https://narnia.fandom.com/wiki/Tumnus"
+   }
+  },
+  {
+   "id": "peeta-mellark",
+   "name": "Peeta Mellark",
+   "from": "The Hunger Games",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Josh Hutcherson",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 41,
+   "pv": 115815,
+   "img": "img/peeta-mellark.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Peeta_Mellark"
+   }
+  },
+  {
+   "id": "president-snow",
+   "name": "President Snow",
+   "from": "The Hunger Games",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hunger Games",
+   "actor": "Donald Sutherland",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 81,
+   "pv": 349464,
+   "img": "img/president-snow.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://thehungergames.fandom.com/wiki/Coriolanus_Snow"
+   }
+  },
+  {
+   "id": "sherlock-holmes",
+   "name": "Sherlock Holmes",
+   "from": "Sherlock",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Sherlock",
+   "actor": "Benedict Cumberbatch",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 97,
+   "pv": 1247538,
+   "img": "img/sherlock-holmes.webp",
+   "credit": {
+    "author": "BBC",
+    "license": "© owner, fan use",
+    "source": "https://sherlock.fandom.com/wiki/Sherlock_Holmes"
+   }
+  },
+  {
+   "id": "the-white-witch",
+   "name": "The White Witch",
+   "from": "The Chronicles of Narnia",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Chronicles of Narnia",
+   "actor": "Tilda Swinton",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 65,
+   "pv": 203453,
+   "img": "img/the-white-witch.webp",
+   "credit": {
+    "author": "Walden Media / Disney",
+    "license": "© owner, fan use",
+    "source": "https://narnia.fandom.com/wiki/Jadis"
+   }
+  },
+  {
+   "id": "thomas",
+   "name": "Thomas",
+   "from": "The Maze Runner",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Maze Runner",
+   "actor": "Dylan O'Brien",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 1,
+   "pv": 74,
+   "img": "img/thomas.webp",
+   "credit": {
+    "author": "20th Century Fox",
+    "license": "© owner, fan use",
+    "source": "https://mazerunner.fandom.com/wiki/Thomas"
+   }
+  },
+  {
+   "id": "tris-prior",
+   "name": "Tris Prior",
+   "from": "Divergent",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Divergent",
+   "actor": "Shailene Woodley",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 9,
+   "pv": 7548,
+   "img": "img/tris-prior.webp",
+   "credit": {
+    "author": "Lionsgate",
+    "license": "© owner, fan use",
+    "source": "https://divergent.fandom.com/wiki/Tris_Prior"
+   }
+  },
+  {
+   "id": "vito-corleone",
+   "name": "Vito Corleone",
+   "from": "The Godfather",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Godfather",
+   "actor": "Marlon Brando",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 87,
+   "pv": 416155,
+   "img": "img/vito-corleone.webp",
+   "credit": {
+    "author": "Paramount Pictures",
+    "license": "© owner, fan use",
+    "source": "https://godfather.fandom.com/wiki/Vito_Corleone"
+   }
+  },
+  {
+   "id": "willy-wonka",
+   "name": "Willy Wonka",
+   "from": "Charlie and the Chocolate Factory",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Charlie and the Chocolate Factory",
+   "actor": "Johnny Depp",
+   "tags": [
+    "character",
+    "book-characters"
+   ],
+   "fame": 84,
+   "pv": 370510,
+   "img": "img/willy-wonka.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://roalddahl.fandom.com/wiki/Willy_Wonka"
+   }
+  }
+ ]
+}
