@@ -7,9 +7,15 @@
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 // ------------------------------------------------------------------ decks
-let INDEX = null;            // [{ id, title, count }]
-const DECKS = new Map();     // id -> { id, title, people: [...], byId: Map }
+let INDEX = null;            // [{ id, title, cat, count, broad, preview: [urls] }]
+const DECKS = new Map();     // id -> { id, title, cat, people: [...], byId: Map }
 const loading = new Map();
+
+// Categories (docs/library-plan.md). Each one is also a broad group "cat:<cat>" = every deck with that cat.
+export const CATS = { sports: 'Sports', politics: 'History & Politics', science: 'Science & Inventors', books: 'Books & Art',
+  film: 'Movie & TV stars', music: 'Music', internet: 'Internet & Business', characters: 'Movie & TV characters',
+  animated: 'Animated & Cartoons', games: 'Video games', mix: 'Mixed' };
+export const CHARACTER_CATS = new Set(['characters', 'animated', 'games']);
 
 export async function loadIndex() {
   if (INDEX) return INDEX;
@@ -20,15 +26,54 @@ export async function loadIndex() {
     INDEX = Array.isArray(j) ? j.filter((d) => d && /^[a-z0-9_-]{1,40}$/i.test(d.id)) : [];
   } catch (e) { INDEX = []; }
   // the placeholder deck is only offered while no real deck exists
-  if (!INDEX.length) INDEX = [{ id: 'sample', title: 'Sample shapes', count: 40 }];
+  if (!INDEX.length) INDEX = [{ id: 'sample', title: 'Sample shapes', count: 40, broad: true }];
+  INDEX = normIndex(INDEX);
   return INDEX;
 }
+function normIndex(list) {
+  // an index from before the library (no "broad" field anywhere): every deck is one of the first, broad decks
+  const old = !list.some((d) => 'broad' in d);
+  return list.map((d) => ({ id: d.id, title: String(d.title || d.id), cat: CATS[d.cat] ? d.cat : 'mix', count: d.count | 0,
+    broad: old ? true : !!d.broad,
+    preview: (Array.isArray(d.preview) ? d.preview : []).filter((x) => typeof x === 'string' && /^[\w./-]{1,120}$/.test(x)).slice(0, 4).map((x) => `decks/${d.id}/${x}`) }));
+}
 export const deckIndex = () => INDEX || [];
+export const indexOf = (id) => (INDEX || []).find((d) => d.id === id) || null;
+
+/** Every group the browser offers: each deck, plus one broad group per category that has 2+ decks. */
+export function groups() {
+  const out = [];
+  const byCat = new Map();
+  for (const d of deckIndex()) { if (d.cat === 'mix') continue; if (!byCat.has(d.cat)) byCat.set(d.cat, []); byCat.get(d.cat).push(d); }
+  for (const [cat, list] of byCat) {
+    if (list.length < 2) continue;
+    const pv = [];
+    for (let i = 0; pv.length < 4 && i < 4; i++) for (const d of list) if (d.preview[i] && pv.length < 4) pv.push(d.preview[i]);
+    out.push({ id: 'cat:' + cat, title: 'All ' + CATS[cat], cat, count: list.reduce((a, d) => a + d.count, 0), broad: true, cats: true, preview: pv, decks: list.map((d) => d.id), n: list.length });
+  }
+  for (const d of deckIndex()) out.push(Object.assign({}, d, { decks: [d.id] }));
+  return out;
+}
+export function group(gid) {
+  if (String(gid).startsWith('cat:')) return groups().find((g) => g.id === gid) || null;
+  const d = indexOf(gid);
+  return d ? Object.assign({}, d, { decks: [d.id] }) : null;
+}
+/** The deck ids a group (deck id or "cat:<cat>") stands for. */
+export const groupDecks = (gid) => { const g = group(gid); return g ? g.decks : []; };
+export const groupLoaded = (gid) => { const ds = groupDecks(gid); return ds.length > 0 && ds.every((d) => DECKS.has(d)); };
+export const loadGroup = (gid) => Promise.all(groupDecks(gid).map((d) => loadDeck(d).catch(() => null)));
 
 export function loadDeck(id) {
   if (DECKS.has(id)) return Promise.resolve(DECKS.get(id));
   if (loading.has(id)) return loading.get(id);
-  const p = fetch(`decks/${encodeURIComponent(id)}/deck.json`, { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((j) => {
+  const p = fetch(`decks/${encodeURIComponent(id)}/deck.json`, { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }).then((j) => addDeck(id, j)).catch((e) => { loading.delete(id); throw e; });
+  loading.set(id, p);
+  return p;
+}
+/** A deck's json -> the deck (also used by tests, which have no fetch of local files). */
+export function addDeck(id, j) {
+  {
     const people = (j.people || []).filter((p) => p && p.id && p.name).map((p) => ({
       id: String(p.id), name: String(p.name), img: p.img ? `decks/${id}/${p.img}` : null,
       tags: Array.isArray(p.tags) ? p.tags.map((t) => String(t).toLowerCase()) : [], credit: p.credit || null,
@@ -37,15 +82,18 @@ export function loadDeck(id) {
       // look-alike checks (optional; decks without them still work): characters' sub (animated|live),
       // franchise (one card per franchise on a board) and actor (never two roles of one actor)
       sub: /^[a-z0-9-]{1,24}$/.test(p.sub) ? p.sub : '', franchise: p.franchise ? String(p.franchise).slice(0, 80) : '', actor: p.actor ? String(p.actor).slice(0, 80) : '',
+      fame: Number.isFinite(+p.fame) && +p.fame >= 1 && +p.fame <= 100 ? +p.fame : null,
     }));
-    const d = { id, title: j.title || id, people, byId: new Map(people.map((p) => [p.id, p])) };
+    // no fame yet (decks from before the library): deck order stands in for it, first = best known
+    if (people.some((p) => p.fame === null)) people.forEach((p, i) => { if (p.fame === null) p.fame = people.length > 1 ? Math.round(1 + 99 * (people.length - 1 - i) / (people.length - 1)) : 50; });
+    const ix = indexOf(id);
+    const d = { id, title: j.title || id, cat: CATS[j.cat] ? j.cat : ix ? ix.cat : 'mix', people, byId: new Map(people.map((p) => [p.id, p])) };
     DECKS.set(id, d); loading.delete(id);
     return d;
-  }).catch((e) => { loading.delete(id); throw e; });
-  loading.set(id, p);
-  return p;
+  }
 }
 export const deck = (id) => DECKS.get(id) || null;
+export const loadedCount = () => DECKS.size;
 
 /** Load every deck a list of face ids needs. */
 export async function ensureFor(ids) {
@@ -60,15 +108,23 @@ export function tagCounts(deckIds) {
   return [...m].map(([tag, n]) => ({ tag, n })).sort((a, b) => b.n - a.n);
 }
 
-/** The ids a board may draw from: chosen decks, then (if any) only people with one of the tags. */
+/** The ids a board may draw from: chosen decks, then (if any) only people with one of the tags. The same
+ *  person in two decks (same name) is in the pool once: the first deck's copy. */
 export function poolFor(deckIds, tags) {
-  const out = [];
-  for (const id of deckIds) {
+  const out = [], seen = new Set();
+  for (const id of new Set(deckIds)) {
     const d = deck(id); if (!d) continue;
-    for (const p of d.people) if (!tags || !tags.length || p.tags.some((t) => tags.includes(t))) out.push(id + '/' + p.id);
+    for (const p of d.people) {
+      if (tags && tags.length && !p.tags.some((t) => tags.includes(t))) continue;
+      const k = nameKey(p.name) || id + '/' + p.id;
+      if (seen.has(k)) continue;
+      seen.add(k); out.push(id + '/' + p.id);
+    }
   }
   return out;
 }
+/** Tests only: set the index without a fetch. */
+export function setIndex(list) { DECKS.clear(); INDEX = normIndex(list); return INDEX; }
 
 // Balanced dealing needs each deck person's gender + kind. Decks without the fields yet: kind from the
 // tags (else the deck), gender unknown ('x').

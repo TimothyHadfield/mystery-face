@@ -292,6 +292,24 @@ main { min-height: 0; position: relative; }
 .credits b { color: var(--text); font-weight: 600; }
 .scrollbox { max-height: 60dvh; overflow-y: auto; }
 
+/* ---------- group browser: search on top, the list scrolls inside the sheet ---------- */
+.sheet.groups { height: 88dvh; display: flex; flex-direction: column; overflow: hidden; padding-bottom: env(safe-area-inset-bottom); }
+.gtop { display: flex; gap: 8px; align-items: center; }
+.gtop input { flex: 1; min-width: 0; height: 40px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); padding: 0 12px; outline: none; }
+.gtop input:focus { border-color: var(--accent); }
+.glist { flex: 1; min-height: 0; overflow-y: auto; margin: 6px -16px 0; padding: 0 16px 16px; -webkit-overflow-scrolling: touch; }
+.glist .lbl { margin: 12px 0 4px; }
+.ggrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); column-gap: 14px; }
+.grp { display: flex; align-items: center; gap: 10px; padding: 7px 0; border-bottom: 1px solid var(--line); min-width: 0; }
+.grp .mosaic { width: 48px; flex: none; border-radius: 6px; }
+.gtxt { flex: 1; min-width: 0; display: flex; flex-direction: column; line-height: 1.25; }
+.gtxt b, .gtxt > span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gtxt b { font-size: 14.5px; }
+.glinks { display: flex; gap: 12px; margin-top: 1px; }
+.glinks .link { font-size: 12.5px; }
+.gadd { flex: none; min-width: 78px; }
+.gadd.on { border-color: var(--warm); color: var(--warm); }
+
 /* ---------- sheets + toast ---------- */
 #layer { position: fixed; inset: 0; z-index: 40; display: none; align-items: flex-end; justify-content: center; }
 #layer.on { display: flex; }
@@ -306,7 +324,8 @@ main { min-height: 0; position: relative; }
 #toast.on { opacity: 1; transform: translate(-50%, 0); }
 
 /* ---------- Sort faces: one face at a time, ← Don't know / Know → ---------- */
-.lblrow { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin: 12px 0 6px; }
+.lblrow { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; margin: 12px auto 6px; }
+.lbllinks { display: flex; gap: 14px; align-items: baseline; }
 #sorter { position: fixed; inset: 0; z-index: 45; background: var(--bg); display: flex; flex-direction: column; overflow: hidden;
   padding: calc(8px + env(safe-area-inset-top)) max(14px, env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left)); }
 .so-top { display: flex; align-items: center; gap: 6px; min-height: 40px; width: 100%; max-width: 560px; margin: 0 auto; }
