@@ -1,0 +1,1616 @@
+# Mystery Face character groups (characters, animated, games).  Read by tools/groups/characters.py.
+#   @ group-id | Title | cat
+#   > Franchise | fandom wiki (<wiki>.fandom.com) | studio credited | options (live, animated, pick=<regex>)
+#   Name | gender f/m/x | actor (live-action only) | options
+# options: page=<fandom page title>  wp=<Wikipedia title for page views>  img=<fandom file name>
+#          crop=cx,cy,side (face centre as fractions of width/height, square side as a fraction of width)
+#          from=<shown context, default the franchise>
+# Pictures: the studio's official character image from the franchise's fandom wiki (infobox image).
+# Content: no characters whose only picture shows an actor under 18; no explicit images.
+
+@ disney-princesses | Disney Princesses | animated
+> Snow White | disney | Disney
+Snow White | f | wp=Snow White and the Seven Dwarfs (1937 film)
+> Cinderella | disney | Disney
+Cinderella | f | wp=Cinderella (1950 film) | img=Profile - Cinderella.jpeg
+> Sleeping Beauty | disney | Disney
+Aurora | f | page=Aurora
+> The Little Mermaid | disney | Disney
+Ariel | f
+> Beauty and the Beast | disney | Disney
+Belle | f
+> Aladdin | disney | Disney
+Jasmine | f
+> Pocahontas | disney | Disney
+Pocahontas | f | page=Pocahontas (character) | wp=Pocahontas (1995 film)
+> Mulan | disney | Disney
+Mulan | f | page=Fa Mulan | wp=Mulan (1998 film)
+> The Princess and the Frog | disney | Disney
+Tiana | f
+> Tangled | disney | Disney
+Rapunzel | f
+> Brave | disney | Disney / Pixar
+Merida | f
+> Moana | disney | Disney
+Moana | f | page=Moana (character)
+> Raya and the Last Dragon | disney | Disney
+Raya | f
+> Frozen | disney | Disney
+Elsa | f
+Anna | f
+> Wish | disney | Disney
+Asha | f
+> Encanto | disney | Disney
+Mirabel Madrigal | f
+> The Hunchback of Notre Dame | disney | Disney
+Esmeralda | f
+> Hercules | disney | Disney
+Megara | f
+> Tarzan | disney | Disney
+Jane Porter | f
+> Atlantis: The Lost Empire | disney | Disney
+Kida | f | page=Kida | pvlike=princess-eilonwy
+> Enchanted | disney | Disney
+Giselle | f
+> Wreck-It Ralph | disney | Disney
+Vanellope von Schweetz | f
+> The Lion King | disney | Disney
+Nala | f
+> The Black Cauldron | disney | Disney
+Princess Eilonwy | f | page=Eilonwy
+> Robin Hood | disney | Disney
+Maid Marian | f | pvlike=nani-pelekai
+> Alice in Wonderland | disney | Disney
+Alice | f | page=Alice | wp=Alice (Alice's Adventures in Wonderland)
+> Peter Pan | disney | Disney
+Wendy Darling | f
+Tinker Bell | f
+> Lilo & Stitch | disney | Disney
+Nani Pelekai | f
+> The Rescuers | disney | Disney
+Miss Bianca | f | crop=0.45,0.27,0.5
+> Lady and the Tramp | disney | Disney
+Lady | f | page=Lady | pvlike=nala
+> Zootopia | disney | Disney
+Judy Hopps | f
+
+@ disney-heroes | Disney Heroes & Sidekicks | animated
+> Mickey Mouse | disney | Disney
+Mickey Mouse | m | crop=0.42,0.27,0.62
+Minnie Mouse | f | crop=0.5,0.24,0.62
+Donald Duck | m | crop=0.66,0.17,0.5
+Daisy Duck | f
+Goofy | m | crop=0.47,0.12,0.55
+Pluto | m | page=Pluto | crop=0.42,0.19,0.55
+> DuckTales | disney | Disney
+Scrooge McDuck | m | crop=0.47,0.27,0.55
+> Aladdin | disney | Disney
+Aladdin | m | page=Aladdin (character) | wp=Aladdin (1992 Disney film)
+Genie | m
+Abu | m | crop=0.45,0.33,0.5
+> The Lion King | disney | Disney
+Simba | m
+Timon | m | crop=0.5,0.22,0.4
+Pumbaa | m
+Rafiki | m
+Zazu | m
+> Hercules | disney | Disney
+Hercules | m | page=Hercules (character) | wp=Hercules (1997 film)
+Philoctetes | m
+> Tangled | disney | Disney
+Flynn Rider | m
+Pascal | m
+Maximus | m | crop=0.68,0.22,0.6
+> Frozen | disney | Disney
+Olaf | m
+Kristoff | m
+Sven | m
+> Lilo & Stitch | disney | Disney
+Stitch | m
+Lilo Pelekai | f
+> Mulan | disney | Disney
+Mushu | m | crop=0.64,0.25,0.4
+> The Little Mermaid | disney | Disney
+Sebastian | m | crop=0.57,0.3,0.45
+Flounder | m
+> Beauty and the Beast | disney | Disney
+Beast | m | page=Beast
+Lumière | m
+Cogsworth | m
+Mrs. Potts | f
+> Peter Pan | disney | Disney
+Peter Pan | m | wp=Peter Pan (1953 film)
+> Tarzan | disney | Disney
+Tarzan | m | page=Tarzan (character) | wp=Tarzan (1999 film)
+> The Jungle Book | disney | Disney
+Baloo | m
+> Bambi | disney | Disney
+Bambi | m | page=Bambi (character)
+Thumper | m
+> Dumbo | disney | Disney
+Dumbo | m | page=Dumbo (character) | crop=0.4,0.38,0.5
+> Pinocchio | disney | Disney
+Pinocchio | m | page=Pinocchio (character) | wp=Pinocchio (1940 film)
+Jiminy Cricket | m
+> Winnie the Pooh | disney | Disney
+Winnie the Pooh | m
+Tigger | m
+Eeyore | m
+Piglet | m
+> Moana | disney | Disney
+Maui | m
+Heihei | m | crop=0.6,0.3,0.6
+> Zootopia | disney | Disney
+Nick Wilde | m
+> Big Hero 6 | disney | Disney
+Baymax | m
+Hiro Hamada | m
+> Wreck-It Ralph | disney | Disney
+Ralph | m | page=Wreck-It Ralph (character) | wp=Wreck-It Ralph
+> The Emperor's New Groove | disney | Disney
+Kuzco | m
+Kronk | m
+> Robin Hood | disney | Disney
+Robin Hood | m | page=Robin Hood (character) | crop=0.5,0.24,0.45
+> Gravity Falls | disney | Disney
+Dipper Pines | m
+Grunkle Stan | m | page=Stan Pines
+> Phineas and Ferb | disney | Disney
+Phineas Flynn | m
+Perry the Platypus | m
+
+@ disney-villains | Disney Villains | animated
+> Sleeping Beauty | disney | Disney
+Maleficent | f
+> The Little Mermaid | disney | Disney
+Ursula | f
+> The Lion King | disney | Disney
+Scar | m
+> Aladdin | disney | Disney
+Jafar | m
+Iago | m
+> 101 Dalmatians | disney | Disney
+Cruella de Vil | f
+> Snow White | disney | Disney
+The Evil Queen | f | page=Evil Queen
+> Cinderella | disney | Disney
+Lady Tremaine | f
+> Hercules | disney | Disney
+Hades | m
+> Peter Pan | disney | Disney
+Captain Hook | m
+> Beauty and the Beast | disney | Disney
+Gaston | m
+> Tangled | disney | Disney
+Mother Gothel | f
+> The Jungle Book | disney | Disney
+Shere Khan | m
+Kaa | m
+> The Hunchback of Notre Dame | disney | Disney
+Claude Frollo | m
+> The Emperor's New Groove | disney | Disney
+Yzma | f
+> The Princess and the Frog | disney | Disney
+Dr. Facilier | m
+> Frozen | disney | Disney
+Hans | m | page=Hans
+> Robin Hood | disney | Disney
+Prince John | m
+> The Sword in the Stone | disney | Disney
+Madam Mim | f
+> The Great Mouse Detective | disney | Disney
+Ratigan | m | wp=Professor Ratigan
+> The Rescuers | disney | Disney
+Madame Medusa | f
+> Alice in Wonderland | disney | Disney
+Queen of Hearts | f
+> Fantasia | disney | Disney
+Chernabog | m
+> Mulan | disney | Disney
+Shan Yu | m
+> Tarzan | disney | Disney
+Clayton | m
+> Pocahontas | disney | Disney
+Governor Ratcliffe | m
+> Moana | disney | Disney
+Tamatoa | m
+> Wish | disney | Disney
+King Magnifico | m
+> Mickey Mouse | disney | Disney
+Pete | m
+Big Bad Wolf | m
+> The Black Cauldron | disney | Disney
+The Horned King | m | page=Horned King | img=Vicious Horned King.jpg
+> Zootopia | disney | Disney
+Dawn Bellwether | f
+> Wreck-It Ralph | disney | Disney
+King Candy | m
+> Pinocchio | disney | Disney
+Stromboli | m
+> Lilo & Stitch | disney | Disney
+Captain Gantu | m
+> Toy Story | disney | Disney / Pixar
+Lotso | m | page=Lotso | pvlike=hamm
+> Monsters, Inc. | disney | Disney / Pixar
+Randall Boggs | m
+> The Incredibles | disney | Disney / Pixar
+Syndrome | m
+
+@ pixar | Pixar | animated
+> Toy Story | disney | Disney / Pixar
+Woody | m
+Buzz Lightyear | m
+Jessie | f
+Rex | m | page=Rex
+Hamm | m
+Mr. Potato Head | m
+Slinky Dog | m
+Bo Peep | f
+Forky | m
+Bullseye | m | page=Bullseye
+Aliens | x | page=Little Green Men
+> Monsters, Inc. | disney | Disney / Pixar
+Mike Wazowski | m
+Sulley | m | page=James P. Sullivan | pvlike=mike-wazowski
+Boo | f | page=Boo
+Roz | f | page=Roz
+> Finding Nemo | disney | Disney / Pixar
+Nemo | m | page=Nemo | wp=Finding Nemo | pvlike=dory
+Marlin | m | pvlike=dory
+Dory | f
+Crush | m
+> Cars | disney | Disney / Pixar
+Lightning McQueen | m
+Mater | m
+Sally Carrera | f
+Doc Hudson | m
+> The Incredibles | disney | Disney / Pixar
+Mr. Incredible | m
+Elastigirl | f
+Dash Parr | m
+Violet Parr | f
+Jack-Jack Parr | m
+Frozone | m
+Edna Mode | f
+> Ratatouille | disney | Disney / Pixar
+Remy | m | wp=Ratatouille (film) | pvlike=dory
+Alfredo Linguini | m
+Anton Ego | m
+> WALL-E | disney | Disney / Pixar
+WALL-E | m | page=WALL-E (character)
+EVE | f | page=EVE
+> Up | disney | Disney / Pixar
+Carl Fredricksen | m | wp=Up (2009 film) | pvlike=dory
+Russell | m | page=Russell | pvlike=dash-parr
+Dug | m | pvlike=dash-parr
+> Inside Out | disney | Disney / Pixar
+Joy | f
+Sadness | f
+Anger | m
+Fear | m
+Disgust | f
+Anxiety | f
+Bing Bong | m
+> Coco | disney | Disney / Pixar
+Miguel Rivera | m | wp=Coco (2017 film) | pvlike=joy
+Héctor | m | page=Héctor Rivera | pvlike=joy
+> Soul | disney | Disney / Pixar
+Joe Gardner | m | wp=Soul (2020 film) | pvlike=anxiety
+> Luca | disney | Disney / Pixar
+Luca Paguro | m | pvlike=anxiety
+> Turning Red | disney | Disney / Pixar
+Mei Lee | f | wp=Turning Red | pvlike=anxiety
+> Elemental | disney | Disney / Pixar
+Ember Lumen | f | wp=Elemental (2023 film) | pvlike=anxiety
+
+@ dreamworks-illumination | DreamWorks & Illumination | animated
+> Shrek | dreamworks | DreamWorks Animation
+Shrek | m | page=Shrek (character)
+Donkey | m
+Princess Fiona | f
+Puss in Boots | m
+Lord Farquaad | m
+Gingy | m
+Dragon | f | page=Dragon
+Fairy Godmother | f
+Prince Charming | m
+> Kung Fu Panda | dreamworks | DreamWorks Animation
+Po | m
+Tigress | f
+Master Shifu | m
+Master Oogway | m
+Tai Lung | m
+Mr. Ping | m
+> How to Train Your Dragon | dreamworks | DreamWorks Animation
+Hiccup | m | wp=How to Train Your Dragon (2010 film) | pvlike=po
+Toothless | m | pvlike=po
+Astrid | f | pvlike=king-julien
+> Madagascar | dreamworks | DreamWorks Animation
+Alex | m | page=Alex
+Marty | m | page=Marty
+Gloria | f | page=Gloria
+Melman | m
+King Julien | m
+Skipper | m
+> Megamind | dreamworks | DreamWorks Animation
+Megamind | m
+> Trolls | dreamworks | DreamWorks Animation
+Poppy | f | wp=Trolls (film) | pvlike=king-julien
+Branch | m
+> The Boss Baby | dreamworks | DreamWorks Animation
+The Boss Baby | m
+> The Bad Guys | dreamworks | DreamWorks Animation
+Mr. Wolf | m | wp=The Bad Guys (2022 film) | pvlike=king-julien
+> The Wild Robot | dreamworks | DreamWorks Animation
+Roz | f | page=Roz (The Wild Robot) | wp=The Wild Robot (film) | pvlike=po
+> The Prince of Egypt | dreamworks | DreamWorks Animation
+Moses | m | wp=The Prince of Egypt | pvlike=po
+> Spirit | dreamworks | DreamWorks Animation
+Spirit | m
+> Despicable Me | despicableme | Illumination
+Gru | m
+Kevin | m | page=Kevin | wp=Minions (2015 film) | pvlike=gru
+Stuart | m | page=Stuart | pvlike=gru
+Bob | m | page=Bob | pvlike=gru
+Agnes Gru | f
+Lucy Wilde | f
+Vector | m | crop=0.2,0.22,0.45
+Dr. Nefario | m
+El Macho | m
+Scarlet Overkill | f
+> The Secret Life of Pets | illumination | Illumination
+Max | m | page=Max | wp=The Secret Life of Pets | pvlike=king-julien
+Snowball | m | pvlike=master-shifu
+Gidget | f | pvlike=master-shifu
+> Sing | sing | Illumination
+Buster Moon | m | wp=Sing (2016 American film) | pvlike=king-julien
+Rosita | f | pvlike=master-shifu
+Ash | f | page=Ash | pvlike=master-shifu
+Johnny | m | page=Johnny | pvlike=master-shifu
+> The Grinch | illumination | Illumination
+The Grinch | m | page=The Grinch (character) | wp=Grinch
+
+@ simpsons | The Simpsons | animated
+> The Simpsons | simpsons | 20th Television / Gracie Films
+Homer Simpson | m
+Marge Simpson | f
+Bart Simpson | m
+Lisa Simpson | f
+Maggie Simpson | f
+Abe Simpson | m
+Mr. Burns | m | page=Charles Montgomery Burns
+Waylon Smithers | m
+Ned Flanders | m
+Moe Szyslak | m
+Barney Gumble | m
+Apu Nahasapeemapetilon | m
+Krusty the Clown | m
+Sideshow Bob | m
+Milhouse Van Houten | m
+Nelson Muntz | m
+Ralph Wiggum | m
+Chief Wiggum | m | page=Clancy Wiggum
+Principal Skinner | m | page=Seymour Skinner
+Edna Krabappel | f
+Comic Book Guy | m
+Otto Mann | m
+Groundskeeper Willie | m
+Lenny Leonard | m | img=Tapped Out Unlock Lenny.png
+Carl Carlson | m
+Patty Bouvier | f
+Selma Bouvier | f
+Dr. Hibbert | m | page=Julius Hibbert
+Dr. Nick | m | page=Nick Riviera
+Kent Brockman | m
+Troy McClure | m
+Lionel Hutz | m
+Hans Moleman | m
+Martin Prince | m
+Itchy | m
+Scratchy | m
+Fat Tony | m
+Mayor Quimby | m | page=Joe Quimby
+Cletus Spuckler | m
+Professor Frink | m
+Disco Stu | m
+Reverend Lovejoy | m | page=Timothy Lovejoy
+Superintendent Chalmers | m | page=Gary Chalmers
+Jimbo Jones | m
+Lunchlady Doris | f
+Rod Flanders | m
+Todd Flanders | m
+Santa's Little Helper | m
+
+@ nickelodeon | SpongeBob & Nickelodeon | animated
+> SpongeBob SquarePants | spongebob | Nickelodeon
+SpongeBob | m | page=SpongeBob SquarePants (character)
+Patrick Star | m
+Squidward Tentacles | m
+Mr. Krabs | m | page=Eugene H. Krabs
+Sandy Cheeks | f
+Plankton | m | page=Sheldon J. Plankton | crop=0.6,0.48,0.5
+Karen | f | page=Karen Plankton
+Gary | m | page=Gary the Snail
+Mrs. Puff | f
+Pearl Krabs | f | crop=0.65,0.3,0.65
+Larry the Lobster | m
+Mermaid Man | m
+Barnacle Boy | m
+Flying Dutchman | m | page=The Flying Dutchman
+> Avatar: The Last Airbender | avatar | Nickelodeon
+Aang | m
+Katara | f
+Sokka | m
+Toph Beifong | f
+Zuko | m
+Iroh | m
+Azula | f
+Appa | m
+> Rugrats | rugrats | Nickelodeon
+Tommy Pickles | m
+Chuckie Finster | m
+Angelica Pickles | f
+> Jimmy Neutron | jimmyneutron | Nickelodeon
+Jimmy Neutron | m
+> The Fairly OddParents | fairlyoddparents | Nickelodeon
+Timmy Turner | m
+Cosmo | m | page=Cosmo
+Wanda | f | page=Wanda
+> Danny Phantom | dannyphantom | Nickelodeon
+Danny Phantom | m | page=Danny Fenton
+> Hey Arnold! | heyarnold | Nickelodeon
+Arnold | m | page=Arnold Shortman
+Helga Pataki | f
+> Invader Zim | nickelodeon | Nickelodeon
+Zim | m
+GIR | x
+> Dora the Explorer | dora | Nickelodeon
+Dora | f | page=Dora Márquez
+Boots | m
+Swiper | m
+> CatDog | catdog | Nickelodeon
+CatDog | m | page=CatDog (character) | crop=0.27,0.4,0.45
+> The Ren & Stimpy Show | renandstimpy | Nickelodeon
+Ren Höek | m
+Stimpy | m | page=Stimpson J. Cat
+> Rocko's Modern Life | rockosmodernlife | Nickelodeon
+Rocko | m | page=Rocko Rama
+> Teenage Mutant Ninja Turtles | tmnt | Nickelodeon / Viacom
+Leonardo | m | page=Leonardo
+Michelangelo | m | page=Michelangelo
+> The Loud House | theloudhouse | Nickelodeon
+Lincoln Loud | m
+> Blue's Clues | bluesclues | Nickelodeon
+Blue | f | page=Blue
+
+@ classic-cartoons | Looney Tunes & Hanna-Barbera | animated
+> Looney Tunes | looneytunes | Warner Bros.
+Bugs Bunny | m
+Daffy Duck | m
+Porky Pig | m
+Elmer Fudd | m
+Tweety | m | page=Tweety
+Sylvester | m | page=Sylvester the Cat | img=Sylvester the Cat (SVG).svg
+Wile E. Coyote | m | wp=Wile E. Coyote and the Road Runner
+Road Runner | m | page=Road Runner | crop=0.47,0.3,0.45
+Yosemite Sam | m | crop=0.36,0.55,0.62
+Tasmanian Devil | m | page=Taz
+Foghorn Leghorn | m
+Marvin the Martian | m
+Speedy Gonzales | m
+Lola Bunny | f
+Granny | f | page=Granny
+Michigan J. Frog | m
+> The Flintstones | hanna-barbera | Hanna-Barbera
+Fred Flintstone | m
+Wilma Flintstone | f
+Barney Rubble | m
+Betty Rubble | f | crop=0.72,0.42,0.5
+Dino | m | page=Dino | crop=0.8,0.55,0.45
+> The Jetsons | hanna-barbera | Hanna-Barbera
+George Jetson | m | crop=0.33,0.12,0.8
+Jane Jetson | f
+Astro | m | page=Astro
+Rosie the Robot | f | page=Rosie
+> Yogi Bear | hanna-barbera | Hanna-Barbera
+Yogi Bear | m
+Boo-Boo Bear | m
+> Hanna-Barbera | hanna-barbera | Hanna-Barbera
+Huckleberry Hound | m | wp=Huckleberry Hound
+Top Cat | m | page=Top Cat (character)
+Snagglepuss | m | wp=Snagglepuss
+Quick Draw McGraw | m | wp=Quick Draw McGraw
+Magilla Gorilla | m | crop=0.43,0.2,0.35
+> Wacky Races | hanna-barbera | Hanna-Barbera
+Dick Dastardly | m
+Muttley | m
+> Scooby-Doo | scoobydoo | Warner Bros. / Hanna-Barbera
+Scooby-Doo | m
+Shaggy Rogers | m
+Fred Jones | m
+Daphne Blake | f
+Velma Dinkley | f
+Scrappy-Doo | m
+> Tom and Jerry | tomandjerry | Warner Bros. / MGM
+Tom | m | page=Tom Cat
+Jerry | m | page=Jerry Mouse | wp=Jerry Mouse
+Spike | m | page=Spike Bulldog
+
+@ cartoon-network | Cartoon Network | animated
+> The Powerpuff Girls | powerpuffgirls | Cartoon Network
+Blossom | f
+Bubbles | f
+Buttercup | f
+Mojo Jojo | m
+Professor Utonium | m
+> Dexter's Laboratory | dexterslab | Cartoon Network
+Dexter | m
+Dee Dee | f
+> Johnny Bravo | johnnybravo | Cartoon Network
+Johnny Bravo | m | page=Johnny Bravo (character)
+> Courage the Cowardly Dog | courage | Cartoon Network
+Courage | m | wp=Courage the Cowardly Dog
+> Ed, Edd n Eddy | cartoonnetwork | Cartoon Network
+Ed | m | page=Ed | wp=Ed, Edd n Eddy | pvlike=bubbles
+Edd | m | page=Edd | pvlike=bubbles
+Eddy | m | page=Eddy | pvlike=bubbles
+> Samurai Jack | samuraijack | Cartoon Network
+Samurai Jack | m | page=Jack
+Aku | m
+> The Grim Adventures of Billy & Mandy | billyandmandy | Cartoon Network
+Grim | m | page=Grim Reaper | wp=The Grim Adventures of Billy & Mandy
+> Ben 10 | ben10 | Cartoon Network
+Ben Tennyson | m
+> Adventure Time | adventuretime | Cartoon Network
+Finn | m
+Jake | m
+Princess Bubblegum | f
+Marceline | f | wp=Marceline the Vampire Queen
+Ice King | m
+BMO | x
+Lumpy Space Princess | f
+> Regular Show | regularshow | Cartoon Network
+Mordecai | m | wp=Regular Show | pvlike=ben-tennyson
+Rigby | m | pvlike=bubbles
+> The Amazing World of Gumball | gumball | Cartoon Network
+Gumball Watterson | m | wp=The Amazing World of Gumball | pvlike=ben-tennyson
+Darwin Watterson | m
+> Steven Universe | steven-universe | Cartoon Network
+Steven Universe | m | page=Steven Universe (character)
+Garnet | f
+Amethyst | f
+Pearl | f
+> Teen Titans | teen-titans-go | Cartoon Network / DC
+Robin | m | page=Robin | wp=Robin (character)
+Raven | f | page=Raven | wp=Raven (DC Comics)
+Starfire | f | page=Starfire
+Beast Boy | m | wp=Beast Boy
+Cyborg | m | page=Cyborg
+> We Bare Bears | webarebears | Cartoon Network
+Grizzly | m | page=Grizzly | wp=We Bare Bears | pvlike=bubbles
+Panda | m | page=Panda | pvlike=buttercup
+Ice Bear | m | crop=0.55,0.25,0.45 | pvlike=buttercup
+> Foster's Home for Imaginary Friends | fostershomeforimaginaryfriends | Cartoon Network
+Bloo | m | page=Bloo | wp=Foster's Home for Imaginary Friends
+> Codename: Kids Next Door | knd | Cartoon Network
+Numbuh One | m | page=Numbuh 1 | wp=Codename: Kids Next Door
+
+@ anime | Anime | animated
+> Dragon Ball | dragonball | Toei Animation / Bird Studio
+Goku | m
+Vegeta | m | crop=0.45,0.12,0.5
+Gohan | m
+Piccolo | m | crop=0.24,0.1,0.45
+Frieza | m | crop=0.52,0.09,0.45
+Bulma | f
+> Naruto | naruto | Pierrot / Shueisha
+Naruto Uzumaki | m | wp=Naruto Uzumaki
+Sasuke Uchiha | m
+Sakura Haruno | f
+Kakashi Hatake | m
+Itachi Uchiha | m
+Hinata Hyūga | f
+> One Piece | onepiece | Toei Animation / Shueisha
+Monkey D. Luffy | m | from=One Piece
+Roronoa Zoro | m
+Nami | f
+Sanji | m
+Tony Tony Chopper | m
+> Studio Ghibli | ghibli | Studio Ghibli
+Totoro | x
+Chihiro | f | page=Chihiro Ogino | wp=Spirited Away
+No-Face | m | crop=0.48,0.13,0.5
+Howl | m | page=Howl | wp=Howl's Moving Castle (film)
+Kiki | f | page=Kiki | wp=Kiki's Delivery Service
+Ponyo | f | crop=0.45,0.57,0.5
+San | f | page=San | wp=Princess Mononoke
+Calcifer | m | pvlike=howl
+> Sailor Moon | sailormoon | Toei Animation / Kodansha
+Sailor Moon | f | page=Usagi Tsukino
+> Death Note | deathnote | Madhouse / Shueisha
+Light Yagami | m
+L | m | page=L Lawliet
+Ryuk | m
+> Attack on Titan | attackontitan | Wit Studio / Kodansha
+Eren Yeager | m
+Mikasa Ackerman | f
+Levi | m | page=Levi Ackerman
+> Demon Slayer | kimetsu-no-yaiba | ufotable / Shueisha
+Tanjiro Kamado | m
+Nezuko Kamado | f
+Zenitsu Agatsuma | m
+Inosuke Hashibira | m | crop=0.44,0.33,0.45
+> Jujutsu Kaisen | jujutsu-kaisen | MAPPA / Shueisha
+Satoru Gojo | m
+Yuji Itadori | m
+> My Hero Academia | bokunoheroacademia | Bones / Shueisha
+Izuku Midoriya | m | crop=0.45,0.32,0.35
+All Might | m
+Katsuki Bakugo | m
+> Fullmetal Alchemist | fma | Bones / Square Enix
+Edward Elric | m
+Alphonse Elric | m
+> One-Punch Man | onepunchman | Madhouse / Shueisha
+Saitama | m
+> Cowboy Bebop | cowboybebop | Sunrise
+Spike Spiegel | m
+> Doraemon | doraemon | Shin-Ei Animation / Shogakukan
+Doraemon | m | page=Doraemon (character)
+> Hunter x Hunter | hunterxhunter | Madhouse / Shueisha
+Gon Freecss | m
+Killua Zoldyck | m
+> Spy x Family | spy-x-family | Wit Studio / CloverWorks / Shueisha
+Loid Forger | m
+Anya Forger | f
+> Frieren | frieren | Madhouse / Shogakukan
+Frieren | f | page=Frieren
+> Chainsaw Man | chainsaw-man | MAPPA / Shueisha
+Denji | m
+
+@ adult-animation | Family Guy & Adult Animation | animated
+> Family Guy | familyguy | 20th Television
+Peter Griffin | m
+Lois Griffin | f | crop=0.53,0.26,0.32
+Stewie Griffin | m | crop=0.6,0.48,0.45
+Brian Griffin | m | crop=0.6,0.5,0.38
+Meg Griffin | f
+Chris Griffin | m
+Glenn Quagmire | m
+Cleveland Brown | m
+Joe Swanson | m
+> Rick and Morty | rickandmorty | Adult Swim
+Rick Sanchez | m
+Morty Smith | m
+Summer Smith | f
+Beth Smith | f
+Jerry Smith | m
+Mr. Meeseeks | m
+> South Park | southpark | Comedy Central / South Park Studios
+Eric Cartman | m
+Stan Marsh | m | crop=0.5,0.36,0.85
+Kyle Broflovski | m
+Kenny McCormick | m | crop=0.5,0.38,0.8
+Butters Stotch | m | crop=0.5,0.38,0.95
+Randy Marsh | m | crop=0.5,0.38,0.9
+> Futurama | futurama | 20th Television
+Bender | m
+Fry | m | page=Philip J. Fry
+Leela | f | page=Turanga Leela
+Professor Farnsworth | m | page=Hubert J. Farnsworth
+Zoidberg | m | page=John A. Zoidberg
+> Bob's Burgers | bobs-burgers | 20th Television
+Bob Belcher | m
+Linda Belcher | f
+Tina Belcher | f
+Gene Belcher | m
+Louise Belcher | f
+> American Dad! | americandad | 20th Television
+Stan Smith | m | page=Stan Smith
+Roger | m | page=Roger | crop=0.58,0.3,0.75
+> BoJack Horseman | bojackhorseman | Netflix
+BoJack Horseman | m | page=BoJack Horseman | img=BoJack Horseman Season Six design.png | wp=BoJack Horseman
+Princess Carolyn | f
+Todd Chavez | m
+> Archer | archer | FX
+Sterling Archer | m | wp=Archer (2009 TV series)
+Lana Kane | f
+> King of the Hill | kingofthehill | 20th Television
+Hank Hill | m
+Peggy Hill | f
+Bobby Hill | m
+> Beavis and Butt-Head | beavisandbutthead | MTV
+Beavis | m | crop=0.5,0.38,0.95
+Butt-Head | m | pvlike=beavis
+> Daria | daria | MTV
+Daria Morgendorffer | f | wp=Daria
+
+@ marvel | Marvel Characters | characters
+> Marvel | marvelcinematicuniverse | Marvel Studios | live | wpx=Marvel Cinematic Universe
+Iron Man | m | Robert Downey Jr. | page=Anthony Stark
+Captain America | m | Chris Evans | page=Steve Rogers
+Thor | m | Chris Hemsworth
+Hulk | m | Mark Ruffalo | page=Bruce Banner
+Black Widow | f | Scarlett Johansson | page=Natasha Romanoff
+Hawkeye | m | Jeremy Renner | page=Clint Barton
+Spider-Man | m | Tom Holland | page=Peter Parker
+Doctor Strange | m | Benedict Cumberbatch | page=Stephen Strange
+Black Panther | m | Chadwick Boseman | page=T'Challa
+Captain Marvel | f | Brie Larson | page=Carol Danvers
+Scarlet Witch | f | Elizabeth Olsen | page=Wanda Maximoff
+Vision | m | Paul Bettany | page=Vision
+Falcon | m | Anthony Mackie | page=Sam Wilson
+Winter Soldier | m | Sebastian Stan | page=Bucky Barnes
+Ant-Man | m | Paul Rudd | page=Scott Lang
+Wasp | f | Evangeline Lilly | page=Hope van Dyne
+Star-Lord | m | Chris Pratt | page=Peter Quill
+Gamora | f | Zoe Saldaña
+Drax | m | Dave Bautista | page=Drax
+Rocket | m | Bradley Cooper | page=Rocket
+Groot | m | Vin Diesel
+Mantis | f | Pom Klementieff
+Nebula | f | Karen Gillan
+Loki | m | Tom Hiddleston
+Thanos | m | Josh Brolin
+Nick Fury | m | Samuel L. Jackson
+Shuri | f | Letitia Wright
+Okoye | f | Danai Gurira
+War Machine | m | Don Cheadle | page=James Rhodes
+Wong | m | Benedict Wong
+She-Hulk | f | Tatiana Maslany | page=Jennifer Walters
+Moon Knight | m | Oscar Isaac | page=Marc Spector
+Shang-Chi | m | Simu Liu | page=Shang-Chi
+Valkyrie | f | Tessa Thompson | page=Valkyrie
+Hela | f | Cate Blanchett
+Ultron | m | James Spader
+Red Skull | m | Hugo Weaving | page=Johann Schmidt
+Killmonger | m | Michael B. Jordan | page=N'Jadaka
+Kang | m | Jonathan Majors | page=He Who Remains
+Agatha Harkness | f | Kathryn Hahn
+Yelena Belova | f | Florence Pugh
+Pepper Potts | f | Gwyneth Paltrow | page=Virginia Potts
+Happy Hogan | m | Jon Favreau | page=Harold Hogan
+Phil Coulson | m | Clark Gregg
+Peggy Carter | f | Hayley Atwell
+Maria Hill | f | Cobie Smulders
+Odin | m | Anthony Hopkins
+Heimdall | m | Idris Elba
+Korg | m | Taika Waititi
+Yondu | m | Michael Rooker | page=Yondu Udonta
+Deadpool | m | Ryan Reynolds | page=Wade Wilson
+Wolverine | m | Hugh Jackman | page=James Howlett
+Kate Bishop | f | Hailee Steinfeld
+MJ | f | Zendaya | page=Michelle Jones
+Ned Leeds | m | Jacob Batalon
+Aunt May | f | Marisa Tomei | page=May Parker
+Vulture | m | Michael Keaton | page=Adrian Toomes
+Mysterio | m | Jake Gyllenhaal | page=Quentin Beck
+Ego | m | Kurt Russell | page=Ego
+
+@ dc | DC Characters | characters
+> DC | dcextendeduniverse | Warner Bros. / DC | live | wpx=DC Extended Universe;DC Comics
+Superman | m | Henry Cavill | page=Superman | wp=Superman
+Wonder Woman | f | Gal Gadot | page=Wonder Woman | wp=Wonder Woman
+Batman | m | Ben Affleck | page=Batman | wp=Batman
+Aquaman | m | Jason Momoa | page=Aquaman | wp=Aquaman
+Cyborg | m | Ray Fisher | page=Cyborg
+Harley Quinn | f | Margot Robbie | wp=Harley Quinn
+Lex Luthor | m | Jesse Eisenberg | page=Lex Luthor | wp=Lex Luthor
+Mera | f | Amber Heard | page=Mera
+Shazam | m | Zachary Levi | page=Shazam
+Black Adam | m | Dwayne Johnson
+Peacemaker | m | John Cena | page=Peacemaker
+Bloodsport | m | Idris Elba
+Amanda Waller | f | Viola Davis | wp=Amanda Waller
+Deadshot | m | Will Smith | page=Deadshot
+Captain Boomerang | m | Jai Courtney
+King Shark | m | Sylvester Stallone
+Steppenwolf | m | Ciarán Hinds
+Darkseid | m | Ray Porter
+General Zod | m | Michael Shannon | wp=General Zod
+Lois Lane | f | Amy Adams | wp=Lois Lane
+Black Manta | m | Yahya Abdul-Mateen II
+Cheetah | f | Kristen Wiig | page=Barbara Minerva
+Blue Beetle | m | Xolo Maridueña | page=Jaime Reyes
+Supergirl | f | Sasha Calle | page=Kara Zor-El
+Rick Flag | m | Joel Kinnaman
+Ratcatcher 2 | f | Daniela Melchior
+Polka-Dot Man | m | David Dastmalchian
+> The Dark Knight | dc | Warner Bros. / DC | live
+The Joker | m | Heath Ledger | page=Joker (Dark Knight Trilogy) | wp=Joker (The Dark Knight)
+Alfred Pennyworth | m | Michael Caine | page=Alfred Pennyworth (Dark Knight Trilogy) | wp=Alfred Pennyworth
+Commissioner Gordon | m | Gary Oldman | page=James Gordon (Dark Knight Trilogy) | wp=James Gordon (character)
+Bane | m | Tom Hardy | page=Bane (Dark Knight Trilogy) | wp=Bane (DC Comics)
+Two-Face | m | Aaron Eckhart | page=Harvey Dent (Dark Knight Trilogy) | wp=Two-Face
+Catwoman | f | Anne Hathaway | page=Selina Kyle (Dark Knight Trilogy) | wp=Catwoman
+Scarecrow | m | Cillian Murphy | page=Jonathan Crane (Dark Knight Trilogy) | wp=Scarecrow (DC Comics)
+Ra's al Ghul | m | Liam Neeson | page=Ra's al Ghul (Dark Knight Trilogy) | wp=Ra's al Ghul
+> The Batman | dc | Warner Bros. / DC | live
+The Riddler | m | Paul Dano | page=Edward Nashton (The Batman Saga) | wp=Riddler
+The Penguin | m | Colin Farrell | page=Oswald Cobblepot (The Batman Saga) | wp=Penguin (character)
+
+@ harry-potter | Harry Potter Characters | characters
+> Harry Potter | harrypotter | Warner Bros. | live
+Harry Potter | m | Daniel Radcliffe
+Hermione Granger | f | Emma Watson
+Ron Weasley | m | Rupert Grint | page=Ronald Weasley
+Albus Dumbledore | m | Michael Gambon
+Severus Snape | m | Alan Rickman
+Lord Voldemort | m | Ralph Fiennes | page=Tom Riddle
+Rubeus Hagrid | m | Robbie Coltrane
+Draco Malfoy | m | Tom Felton
+Sirius Black | m | Gary Oldman
+Remus Lupin | m | David Thewlis
+Minerva McGonagall | f | Maggie Smith
+Dobby | m | Toby Jones | page=Dobby
+Bellatrix Lestrange | f | Helena Bonham Carter
+Luna Lovegood | f | Evanna Lynch
+Neville Longbottom | m | Matthew Lewis
+Ginny Weasley | f | Bonnie Wright | page=Ginevra Weasley
+Fred Weasley | m | James Phelps
+George Weasley | m | Oliver Phelps
+Molly Weasley | f | Julie Walters
+Arthur Weasley | m | Mark Williams
+Lucius Malfoy | m | Jason Isaacs
+Dolores Umbridge | f | Imelda Staunton
+Gilderoy Lockhart | m | Kenneth Branagh
+Mad-Eye Moody | m | Brendan Gleeson | page=Alastor Moody
+Peter Pettigrew | m | Timothy Spall
+Cedric Diggory | m | Robert Pattinson
+Cho Chang | f | Katie Leung
+Argus Filch | m | David Bradley
+Sybill Trelawney | f | Emma Thompson
+Horace Slughorn | m | Jim Broadbent
+Quirinus Quirrell | m | Ian Hart
+Kingsley Shacklebolt | m | George Harris
+Nymphadora Tonks | f | Natalia Tena
+Fleur Delacour | f | Clémence Poésy
+Viktor Krum | m | Stanislav Ianevski
+Griphook | m | Warwick Davis
+Kreacher | m | Simon McBurney
+Narcissa Malfoy | f | Helen McCrory
+Garrick Ollivander | m | John Hurt
+Rita Skeeter | f | Miranda Richardson
+Cornelius Fudge | m | Robert Hardy
+Vernon Dursley | m | Richard Griffiths
+Petunia Dursley | f | Fiona Shaw
+Bill Weasley | m | Domhnall Gleeson
+Aberforth Dumbledore | m | Ciarán Hinds
+Newt Scamander | m | Eddie Redmayne
+Gellert Grindelwald | m | Mads Mikkelsen
+Jacob Kowalski | m | Dan Fogler
+Tina Goldstein | f | Katherine Waterston | page=Porpentina Scamander
+Queenie Goldstein | f | Alison Sudol
+
+@ star-wars | Star Wars Characters | characters
+> Star Wars | starwars | Lucasfilm | live
+Luke Skywalker | m | Mark Hamill
+Princess Leia | f | Carrie Fisher | page=Leia Skywalker Organa Solo
+Han Solo | m | Harrison Ford
+Darth Vader | m |  | page=Anakin Skywalker | wp=Darth Vader | img=Darth Vader.jpg | crop=0.66,0.3,0.45
+Anakin Skywalker | m | Hayden Christensen
+Yoda | m | Frank Oz
+Obi-Wan Kenobi | m | Ewan McGregor
+Chewbacca | m | Peter Mayhew
+R2-D2 | x | Kenny Baker
+C-3PO | m | Anthony Daniels
+Emperor Palpatine | m | Ian McDiarmid | page=Sheev Palpatine
+Lando Calrissian | m | Billy Dee Williams
+Boba Fett | m | Temuera Morrison
+Jabba the Hutt | m | | page=Jabba Desilijic Tiure
+Padmé Amidala | f | Natalie Portman
+Qui-Gon Jinn | m | Liam Neeson
+Darth Maul | m | Ray Park | page=Maul
+Mace Windu | m | Samuel L. Jackson
+Count Dooku | m | Christopher Lee | page=Dooku
+General Grievous | m | Matthew Wood | page=Grievous
+Jar Jar Binks | m | Ahmed Best
+Rey | f | Daisy Ridley | page=Rey Skywalker
+Finn | m | John Boyega | page=Finn
+Poe Dameron | m | Oscar Isaac
+Kylo Ren | m | Adam Driver | page=Ben Solo
+BB-8 | x
+Supreme Leader Snoke | m | Andy Serkis | page=Snoke
+Rose Tico | f | Kelly Marie Tran
+The Mandalorian | m | Pedro Pascal | page=Din Djarin | pvlike=grogu
+Grogu | m
+Ahsoka Tano | f | Rosario Dawson
+Cassian Andor | m | Diego Luna
+Jyn Erso | f | Felicity Jones
+K-2SO | m | Alan Tudyk
+Grand Moff Tarkin | m | Peter Cushing | page=Wilhuff Tarkin
+Admiral Ackbar | m | Erik Bauersfeld | page=Gial Ackbar
+Bo-Katan Kryze | f | Katee Sackhoff
+Moff Gideon | m | Giancarlo Esposito
+Fennec Shand | f | Ming-Na Wen
+Thrawn | m | Lars Mikkelsen | page=Mitth'raw'nuruodo
+Greedo | m
+Wicket | m | Warwick Davis | page=Wicket Wystri Warrick
+Maz Kanata | f | Lupita Nyong'o
+Captain Phasma | f | Gwendoline Christie | page=Phasma
+Cad Bane | m | Corey Burton
+Hera Syndulla | f | Mary Elizabeth Winstead
+Qi'ra | f | Emilia Clarke
+Mon Mothma | f | Genevieve O'Reilly
+
+@ lord-of-the-rings | Lord of the Rings & Hobbit | characters
+> The Lord of the Rings | middle-earth-film-saga | New Line Cinema | live
+Frodo Baggins | m | Elijah Wood
+Samwise Gamgee | m | Sean Astin
+Merry | m | Dominic Monaghan | page=Merry Brandybuck
+Pippin | m | Billy Boyd | page=Pippin Took
+Gandalf | m | Ian McKellen
+Aragorn | m | Viggo Mortensen | page=Aragorn
+Legolas | m | Orlando Bloom
+Gimli | m | John Rhys-Davies | wp=Gimli (Middle-earth)
+Boromir | m | Sean Bean
+Faramir | m | David Wenham
+Gollum | m | Andy Serkis | img=Gollum.png
+Sauron | m
+Saruman | m | Christopher Lee
+Galadriel | f | Cate Blanchett
+Elrond | m | Hugo Weaving
+Arwen | f | Liv Tyler
+Éowyn | f | Miranda Otto
+Éomer | m | Karl Urban
+Théoden | m | Bernard Hill
+Bilbo Baggins | m | Ian Holm
+Witch-king of Angmar | m
+Gríma Wormtongue | m | Brad Dourif | wiki=lotr | page=Gríma Wormtongue | img=Gríma Wormtongue Lotr Movie.png
+Treebeard | m | John Rhys-Davies
+Haldir | m | Craig Parker
+Celeborn | m | Marton Csokas
+Rosie Cotton | f | Sarah McLeod
+Isildur | m | Harry Sinclair
+> The Hobbit | middle-earth-film-saga | New Line Cinema / Warner Bros. | live
+Thorin Oakenshield | m | Richard Armitage
+Smaug | m | Benedict Cumberbatch
+Radagast | m | Sylvester McCoy | img=Radagast.png
+Thranduil | m | Lee Pace
+Tauriel | f | Evangeline Lilly
+Bard the Bowman | m | Luke Evans | page=Bard
+Kíli | m | Aidan Turner
+Fíli | m | Dean O'Gorman
+Balin | m | Ken Stott
+Azog | m | Manu Bennett
+Beorn | m | Mikael Persbrandt
+Dwalin | m | Graham McTavish
+
+@ friends | Friends | characters
+> Friends | friends | Warner Bros. Television | live
+Rachel Green | f | Jennifer Aniston | page=Rachel Greene
+Monica Geller | f | Courteney Cox
+Phoebe Buffay | f | Lisa Kudrow
+Joey Tribbiani | m | Matt LeBlanc
+Chandler Bing | m | Matthew Perry
+Ross Geller | m | David Schwimmer
+Gunther | m | James Michael Tyler
+Janice | f | Maggie Wheeler | page=Janice Litman Goralnik
+Mike Hannigan | m | Paul Rudd
+Richard Burke | m | Tom Selleck
+Emily Waltham | f | Helen Baxendale
+Carol Willick | f | Jane Sibbett
+Susan Bunch | f | Jessica Hecht
+Jack Geller | m | Elliott Gould
+Judy Geller | f | Christina Pickles
+Ursula Buffay | f | Lisa Kudrow
+Frank Buffay Jr. | m | Giovanni Ribisi
+Mr. Heckles | m | Larry Hankin
+Tag Jones | m | Eddie Cahill
+Paolo | m | Cosimo Fusco
+Julie | f | Lauren Tom | page=Julie
+Kathy | f | Paget Brewster | page=Kathy
+Charlie Wheeler | f | Aisha Tyler
+Estelle Leonard | f | June Gable
+Mr. Treeger | m | Michael G. Hagerty
+Barry Farber | m | Mitchell Whitfield
+Mindy Hunter | f | Jennifer Grey
+Janine Lecroix | f | Elle Macpherson
+Eddie Menuek | m | Adam Goldberg
+David | m | Hank Azaria | page=David
+Pete Becker | m | Jon Favreau
+Joshua Burgin | m | Tate Donovan
+Elizabeth Stevens | f | Alexandra Holden
+Mona | f | Bonnie Somerville | page=Mona
+
+@ the-office | The Office | characters
+> The Office | theoffice | NBC / Universal Television | live
+Michael Scott | m | Steve Carell
+Dwight Schrute | m | Rainn Wilson
+Jim Halpert | m | John Krasinski
+Pam Beesly | f | Jenna Fischer
+Ryan Howard | m | B. J. Novak
+Andy Bernard | m | Ed Helms
+Angela Martin | f | Angela Kinsey
+Kevin Malone | m | Brian Baumgartner
+Oscar Martinez | m | Oscar Nuñez
+Stanley Hudson | m | Leslie David Baker
+Phyllis Vance | f | Phyllis Smith
+Meredith Palmer | f | Kate Flannery
+Creed Bratton | m | Creed Bratton | pvlike=kevin-malone
+Kelly Kapoor | f | Mindy Kaling
+Toby Flenderson | m | Paul Lieberstein
+Darryl Philbin | m | Craig Robinson
+Erin Hannon | f | Ellie Kemper
+Gabe Lewis | m | Zach Woods
+Holly Flax | f | Amy Ryan
+Jan Levinson | f | Melora Hardin
+David Wallace | m | Andy Buckley
+Robert California | m | James Spader
+Nellie Bertram | f | Catherine Tate
+Karen Filippelli | f | Rashida Jones
+Roy Anderson | m | David Denman
+Todd Packer | m | David Koechner
+Clark Green | m | Clark Duke
+Pete Miller | m | Jake Lacy
+Jo Bennett | f | Kathy Bates
+Mose Schrute | m | Michael Schur
+Deangelo Vickers | m | Will Ferrell
+Charles Miner | m | Idris Elba
+Hank Tate | m | Hugh Dane
+Nate Nickerson | m | Mark Proksch
+
+@ stranger-things | Stranger Things (grown-ups) | characters
+> Stranger Things | strangerthings | Netflix | live
+Jim Hopper | m | David Harbour
+Joyce Byers | f | Winona Ryder
+Steve Harrington | m | Joe Keery
+Nancy Wheeler | f | Natalia Dyer
+Jonathan Byers | m | Charlie Heaton
+Robin Buckley | f | Maya Hawke
+Eddie Munson | m | Joseph Quinn
+Murray Bauman | m | Brett Gelman
+Dr. Brenner | m | Matthew Modine | page=Martin Brenner
+Vecna | m | Jamie Campbell Bower | page=Henry Creel
+Billy Hargrove | m | Dacre Montgomery
+Bob Newby | m | Sean Astin
+Karen Wheeler | f | Cara Buono
+Argyle | m | Eduardo Franco
+Ted Wheeler | m | Joe Chrest
+Dmitri Antonov | m | Tom Wlaschiha
+Sam Owens | m | Paul Reiser
+Larry Kline | m | Cary Elwes
+Barbara Holland | f | Shannon Purser
+Kali | f | Linnea Berthelsen | page=Kali Prasad
+Lonnie Byers | m | Ross Partridge
+Neil Hargrove | m | Riley Smith
+Claudia Henderson | f | Catherine Curtin
+Benny Hammond | m | Chris Sullivan
+Heather Holloway | f | Francesca Reale
+Jason Carver | m | Mason Dye
+Scott Clarke | m | Randy Havens
+Enzo | m | Tom Wlaschiha
+Victor Creel | m | Robert Englund
+Tommy H. | m | Chester Rushing | page=Tommy Hagan
+
+@ game-of-thrones | Game of Thrones | characters
+> Game of Thrones | gameofthrones | HBO | live
+Jon Snow | m | Kit Harington
+Daenerys Targaryen | f | Emilia Clarke
+Tyrion Lannister | m | Peter Dinklage
+Cersei Lannister | f | Lena Headey
+Jaime Lannister | m | Nikolaj Coster-Waldau
+Arya Stark | f | Maisie Williams
+Sansa Stark | f | Sophie Turner
+Ned Stark | m | Sean Bean | page=Eddard Stark
+Catelyn Stark | f | Michelle Fairley
+Robb Stark | m | Richard Madden
+Joffrey Baratheon | m | Jack Gleeson
+Tywin Lannister | m | Charles Dance
+The Hound | m | Rory McCann | page=Sandor Clegane
+The Mountain | m | Hafþór Júlíus Björnsson | page=Gregor Clegane
+Littlefinger | m | Aidan Gillen | page=Petyr Baelish
+Varys | m | Conleth Hill
+Melisandre | f | Carice van Houten
+Stannis Baratheon | m | Stephen Dillane
+Davos Seaworth | m | Liam Cunningham
+Brienne of Tarth | f | Gwendoline Christie
+Jorah Mormont | m | Iain Glen
+Missandei | f | Nathalie Emmanuel
+Grey Worm | m | Jacob Anderson
+Theon Greyjoy | m | Alfie Allen
+Ramsay Bolton | m | Iwan Rheon
+The Night King | m | Vladimír Furdík | page=Night King
+Ygritte | f | Rose Leslie
+Tormund Giantsbane | m | Kristofer Hivju
+Samwell Tarly | m | John Bradley
+Gilly | f | Hannah Murray
+Bronn | m | Jerome Flynn
+Khal Drogo | m | Jason Momoa | page=Drogo
+Margaery Tyrell | f | Natalie Dormer
+Olenna Tyrell | f | Diana Rigg
+Oberyn Martell | m | Pedro Pascal
+Euron Greyjoy | m | Pilou Asbæk
+Hodor | m | Kristian Nairn
+Robert Baratheon | m | Mark Addy
+Viserys Targaryen | m | Harry Lloyd
+Gendry | m | Joe Dempsie
+Podrick Payne | m | Daniel Portman
+Jaqen H'ghar | m | Tom Wlaschiha
+Yara Greyjoy | f | Gemma Whelan
+High Sparrow | m | Jonathan Pryce
+> House of the Dragon | gameofthrones | HBO | live
+Rhaenyra Targaryen | f | Emma D'Arcy
+Daemon Targaryen | m | Matt Smith
+Alicent Hightower | f | Olivia Cooke
+Viserys I Targaryen | m | Paddy Considine
+
+@ sitcoms | Sitcom Characters | characters
+> Seinfeld | seinfeld | Castle Rock / Sony Pictures Television | live
+Jerry Seinfeld | m | Jerry Seinfeld | page=Jerry Seinfeld (character)
+George Costanza | m | Jason Alexander
+Elaine Benes | f | Julia Louis-Dreyfus
+Cosmo Kramer | m | Michael Richards
+Newman | m | Wayne Knight
+> The Big Bang Theory | bigbangtheory | Warner Bros. Television | live
+Sheldon Cooper | m | Jim Parsons
+Leonard Hofstadter | m | Johnny Galecki
+Penny | f | Kaley Cuoco | page=Penny
+Howard Wolowitz | m | Simon Helberg
+Raj Koothrappali | m | Kunal Nayyar
+Amy Farrah Fowler | f | Mayim Bialik
+Bernadette Rostenkowski | f | Melissa Rauch
+> How I Met Your Mother | how-i-met-your-mother | 20th Television | live
+Ted Mosby | m | Josh Radnor
+Barney Stinson | m | Neil Patrick Harris
+Robin Scherbatsky | f | Cobie Smulders
+Marshall Eriksen | m | Jason Segel
+Lily Aldrin | f | Alyson Hannigan
+> Parks and Recreation | parksandrecreation | NBC / Universal Television | live
+Leslie Knope | f | Amy Poehler
+Ron Swanson | m | Nick Offerman
+April Ludgate | f | Aubrey Plaza
+Andy Dwyer | m | Chris Pratt
+Tom Haverford | m | Aziz Ansari
+Ben Wyatt | m | Adam Scott
+> Brooklyn Nine-Nine | brooklyn99 | NBC / Universal Television | live
+Jake Peralta | m | Andy Samberg
+Raymond Holt | m | Andre Braugher
+Amy Santiago | f | Melissa Fumero
+Rosa Diaz | f | Stephanie Beatriz
+Terry Jeffords | m | Terry Crews
+Charles Boyle | m | Joe Lo Truglio
+Gina Linetti | f | Chelsea Peretti
+> Modern Family | modernfamily | 20th Television | live
+Phil Dunphy | m | Ty Burrell
+Claire Dunphy | f | Julie Bowen
+Jay Pritchett | m | Ed O'Neill
+Gloria Pritchett | f | Sofía Vergara
+Cameron Tucker | m | Eric Stonestreet
+Mitchell Pritchett | m | Jesse Tyler Ferguson
+> Schitt's Creek | schitts-creek | CBC / Pop TV | live
+Moira Rose | f | Catherine O'Hara
+Johnny Rose | m | Eugene Levy
+David Rose | m | Dan Levy
+Alexis Rose | f | Annie Murphy
+> Ted Lasso | ted-lasso | Apple TV+ | live
+Ted Lasso | m | Jason Sudeikis | page=Ted Lasso (character) | wp=Ted Lasso | pvlike=sheldon-cooper
+Roy Kent | m | Brett Goldstein
+> Frasier | frasier | Paramount Television | live
+Frasier Crane | m | Kelsey Grammer
+Niles Crane | m | David Hyde Pierce
+
+@ superhero-villains | Superhero Villains | characters
+> Marvel | marvelcinematicuniverse | Marvel Studios | live | wpx=Marvel Cinematic Universe
+Thanos | m | Josh Brolin
+Loki | m | Tom Hiddleston
+Ultron | m | James Spader
+Red Skull | m | Hugo Weaving | page=Johann Schmidt
+Hela | f | Cate Blanchett
+Killmonger | m | Michael B. Jordan | page=N'Jadaka
+Vulture | m | Michael Keaton | page=Adrian Toomes
+Mysterio | m | Jake Gyllenhaal | page=Quentin Beck
+Green Goblin | m | Willem Dafoe | page=Norman Osborn
+Doctor Octopus | m | Alfred Molina | page=Otto Octavius
+Electro | m | Jamie Foxx | page=Max Dillon
+Kingpin | m | Vincent D'Onofrio | page=Wilson Fisk
+Ronan the Accuser | m | Lee Pace | page=Ronan
+Helmut Zemo | m | Daniel Brühl
+Abomination | m | Tim Roth | page=Emil Blonsky
+Whiplash | m | Mickey Rourke | page=Ivan Vanko
+Obadiah Stane | m | Jeff Bridges
+Gorr the God Butcher | m | Christian Bale | page=Gorr
+Dormammu | m | Benedict Cumberbatch
+Ego | m | Kurt Russell | page=Ego
+Kang | m | Jonathan Majors | page=He Who Remains
+Arnim Zola | m | Toby Jones
+> Spider-Man | marvel-movies | Sony Pictures | live
+Venom | m | Tom Hardy | page=Edward Brock
+Sandman | m | Thomas Haden Church | page=Flint Marko (Earth-96283)
+> X-Men | marvel-movies | 20th Century Fox | live
+Magneto | m | Ian McKellen | page=Magneto | wp=Magneto (Marvel Comics)
+Apocalypse | m | Oscar Isaac | page=Apocalypse
+Sabretooth | m | Liev Schreiber | page=Victor Creed
+> DC | dcextendeduniverse | Warner Bros. / DC | live | wpx=DC Extended Universe;DC Comics
+Lex Luthor | m | Jesse Eisenberg | page=Lex Luthor
+General Zod | m | Michael Shannon
+Darkseid | m | Ray Porter
+Steppenwolf | m | Ciarán Hinds
+Black Manta | m | Yahya Abdul-Mateen II
+Cheetah | f | Kristen Wiig | page=Barbara Minerva
+Harley Quinn | f | Margot Robbie
+Doomsday | m | Robin Atkin Downes
+Enchantress | f | Cara Delevingne
+> The Dark Knight | dc | Warner Bros. / DC | live
+The Joker | m | Heath Ledger | page=Joker (Dark Knight Trilogy) | wp=Joker (The Dark Knight)
+Bane | m | Tom Hardy | page=Bane (Dark Knight Trilogy) | wp=Bane (DC Comics)
+Two-Face | m | Aaron Eckhart | page=Harvey Dent (Dark Knight Trilogy) | wp=Two-Face
+Scarecrow | m | Cillian Murphy | page=Jonathan Crane (Dark Knight Trilogy) | wp=Scarecrow (DC Comics)
+Ra's al Ghul | m | Liam Neeson | page=Ra's al Ghul (Dark Knight Trilogy) | wp=Ra's al Ghul
+> The Batman | dc | Warner Bros. / DC | live
+The Riddler | m | Paul Dano | page=Edward Nashton (The Batman Saga) | wp=Riddler
+The Penguin | m | Colin Farrell | page=Oswald Cobblepot (The Batman Saga) | wp=Penguin (character)
+> Batman Returns | dc | Warner Bros. / DC | live
+Catwoman | f | Michelle Pfeiffer | page=Selina Kyle (Batman Anthology)
+> Batman & Robin | dc | Warner Bros. / DC | live
+Mr. Freeze | m | Arnold Schwarzenegger | page=Victor Fries (Batman Anthology) | wp=Mr. Freeze
+Poison Ivy | f | Uma Thurman | page=Pamela Isley (Batman Anthology) | wp=Poison Ivy (character)
+
+@ sci-fi | Sci-fi Characters | characters
+> Star Trek | memory-alpha | Paramount | live
+Captain Kirk | m | William Shatner | page=James T. Kirk | img=James Kirk, 2266.jpg
+Spock | m | Leonard Nimoy
+Dr. McCoy | m | DeForest Kelley | page=Leonard McCoy
+Uhura | f | Nichelle Nichols | page=Nyota Uhura
+Scotty | m | James Doohan | page=Montgomery Scott
+Sulu | m | George Takei | page=Hikaru Sulu
+Captain Picard | m | Patrick Stewart | page=Jean-Luc Picard
+Data | m | Brent Spiner | page=Data
+Worf | m | Michael Dorn
+Seven of Nine | f | Jeri Ryan
+Captain Janeway | f | Kate Mulgrew | page=Kathryn Janeway | img=Kathryn Janeway, 2375.jpg
+> Doctor Who | tardis | BBC | live
+The Tenth Doctor | m | David Tennant | page=Tenth Doctor | wp=Tenth Doctor
+The Eleventh Doctor | m | Matt Smith | page=Eleventh Doctor | wp=Eleventh Doctor
+The Thirteenth Doctor | f | Jodie Whittaker | page=Thirteenth Doctor | wp=Thirteenth Doctor
+The Fourth Doctor | m | Tom Baker | page=Fourth Doctor
+Rose Tyler | f | Billie Piper
+Dalek | x | page=Dalek | img=Daleks (Series 9).jpg
+> Back to the Future | backtothefuture | Universal Pictures | live
+Marty McFly | m | Michael J. Fox
+Doc Brown | m | Christopher Lloyd | page=Emmett Brown
+Biff Tannen | m | Thomas F. Wilson
+> The Matrix | matrix | Warner Bros. | live
+Neo | m | Keanu Reeves
+Trinity | f | Carrie-Anne Moss
+Morpheus | m | Laurence Fishburne
+Agent Smith | m | Hugo Weaving
+> The Terminator | terminator | Orion / Carolco | live
+The Terminator | m | Arnold Schwarzenegger | page=T-800 | wp=Terminator (character)
+Sarah Connor | f | Linda Hamilton | wp=Sarah Connor (Terminator)
+> Alien | avp | 20th Century Studios | live
+Ellen Ripley | f | Sigourney Weaver
+> Dune | dune | Legendary / Warner Bros. | live
+Paul Atreides | m | Timothée Chalamet | img=DunePartIIPaulTextlessPoster.jpeg
+Chani | f | Zendaya | page=Chani Kynes | img=Dune 2020 Chani.jpg
+> Avatar | james-camerons-avatar | 20th Century Studios | live
+Jake Sully | m | Sam Worthington
+Neytiri | f | Zoe Saldaña
+> Blade Runner | bladerunner | Warner Bros. | live
+Rick Deckard | m | Harrison Ford
+Roy Batty | m | Rutger Hauer
+> Men in Black | meninblack | Columbia Pictures | live
+Agent J | m | Will Smith
+Agent K | m | Tommy Lee Jones
+> Jurassic Park | jurassicpark | Universal Pictures | live
+Alan Grant | m | Sam Neill
+Ian Malcolm | m | Jeff Goldblum
+Ellie Sattler | f | Laura Dern
+> Ghostbusters | ghostbusters | Columbia Pictures | live
+Peter Venkman | m | Bill Murray
+> Interstellar | interstellarfilm | Paramount / Warner Bros. | live
+Cooper | m | Matthew McConaughey | page=Joseph Cooper | wp=Interstellar (film) | pvlike=rick-deckard
+
+@ book-characters | Book Characters | characters
+> The Hunger Games | thehungergames | Lionsgate | live
+Katniss Everdeen | f | Jennifer Lawrence
+Peeta Mellark | m | Josh Hutcherson
+Gale Hawthorne | m | Liam Hemsworth
+Haymitch Abernathy | m | Woody Harrelson
+Effie Trinket | f | Elizabeth Banks
+President Snow | m | Donald Sutherland | page=Coriolanus Snow
+Cinna | m | Lenny Kravitz
+Finnick Odair | m | Sam Claflin
+Caesar Flickerman | m | Stanley Tucci
+Johanna Mason | f | Jena Malone
+> Twilight | twilightsaga | Summit Entertainment | live
+Bella Swan | f | Kristen Stewart
+Edward Cullen | m | Robert Pattinson
+Carlisle Cullen | m | Peter Facinelli
+Alice Cullen | f | Ashley Greene
+Aro | m | Michael Sheen
+> Divergent | divergent | Lionsgate | live
+Tris Prior | f | Shailene Woodley | page=Beatrice Prior
+Four | m | Theo James | page=Tobias Eaton
+> The Maze Runner | mazerunner | 20th Century Fox | live
+Thomas | m | Dylan O'Brien | page=Thomas
+> Pride and Prejudice | janeausten | Focus Features | live
+Elizabeth Bennet | f | Keira Knightley
+Mr. Darcy | m | Matthew Macfadyen | page=Fitzwilliam Darcy
+> Sherlock | sherlock | BBC | live
+Sherlock Holmes | m | Benedict Cumberbatch | page=Sherlock Holmes | wp=Sherlock Holmes | img=Sherlock Holmes (Cumberbatch).png
+Dr. John Watson | m | Martin Freeman | page=John Watson | img=John Watson (Freeman).png
+Jim Moriarty | m | Andrew Scott | wp=Professor Moriarty
+> The Chronicles of Narnia | narnia | Walden Media / Disney | live
+Aslan | m | Liam Neeson | img=Aslan-headshot.jpg
+The White Witch | f | Tilda Swinton | page=Jadis | img=Jadis-Wallpaper-jadis-queen-of-narnia.jpg
+Mr. Tumnus | m | James McAvoy | page=Tumnus
+> Charlie and the Chocolate Factory | roalddahl | Warner Bros. | live
+Willy Wonka | m | Johnny Depp | img=Willy-wonka-depp.jpg
+> Mary Poppins | disney | Disney | live
+Mary Poppins | f | Julie Andrews | page=Mary Poppins (character)
+> James Bond | jamesbond | Eon Productions / MGM | live
+James Bond | m | Daniel Craig | page=James Bond (Daniel Craig)
+> The Godfather | godfather | Paramount Pictures | live
+Vito Corleone | m | Marlon Brando
+Michael Corleone | m | Al Pacino
+> The Silence of the Lambs | hannibal | Orion Pictures | live
+Hannibal Lecter | m | Anthony Hopkins
+> The Great Gatsby | thegreatgatsby | Warner Bros. | live
+Jay Gatsby | m | Leonardo DiCaprio
+> Jason Bourne | bourne | Universal Pictures | live
+Jason Bourne | m | Matt Damon | wp=Jason Bourne
+> To Kill a Mockingbird | tokillamockingbird | Universal Pictures | live
+Atticus Finch | m | Gregory Peck
+> Les Misérables | lesmiserables | Universal Pictures | live
+Jean Valjean | m | Hugh Jackman
+Javert | m | Russell Crowe
+> Jack Reacher | jackreacher | Paramount Pictures | live
+Jack Reacher | m | Alan Ritchson | page=Jack Reacher (Alan Ritchson) | wp=Jack Reacher
+
+@ nintendo | Nintendo Characters | games
+> Super Mario | mario | Nintendo
+Mario | m
+Luigi | m
+Princess Peach | f
+Bowser | m
+Yoshi | m
+Toad | m | page=Toad
+Princess Daisy | f
+Rosalina | f
+Wario | m
+Waluigi | m
+Bowser Jr. | m
+Toadette | f
+King Boo | m
+Shy Guy | x | wp=Shy Guy
+Koopa Troopa | x
+> Donkey Kong | mario | Nintendo
+Donkey Kong | m
+Diddy Kong | m
+> The Legend of Zelda | zelda | Nintendo
+Link | m
+Princess Zelda | f
+Ganondorf | m | crop=0.48,0.39,0.35
+Midna | f
+Navi | f
+Impa | f | crop=0.5,0.33,0.95
+> Kirby | kirby | Nintendo / HAL Laboratory
+Kirby | m
+King Dedede | m
+Meta Knight | m
+> Metroid | metroid | Nintendo
+Samus Aran | f
+Ridley | m
+> Star Fox | starfox | Nintendo
+Fox McCloud | m
+Falco Lombardi | m
+> F-Zero | fzero | Nintendo
+Captain Falcon | m
+> EarthBound | earthbound | Nintendo
+Ness | m
+> Animal Crossing | animalcrossing | Nintendo
+Isabelle | f
+Tom Nook | m
+K.K. Slider | m
+> Splatoon | splatoon | Nintendo
+Inkling | x | page=Inkling
+> Fire Emblem | fireemblem | Nintendo / Intelligent Systems
+Marth | m
+> Kid Icarus | kidicarus | Nintendo
+Pit | m
+> Pikmin | pikmin | Nintendo
+Captain Olimar | m | page=Olimar | crop=0.5,0.47,0.85
+> Punch-Out!! | punchout | Nintendo
+Little Mac | m
+> Xenoblade Chronicles | xenoblade | Nintendo / Monolith Soft
+Shulk | m
+> Wii Fit | supersmashbros | Nintendo
+Wii Fit Trainer | f | crop=0.535,0.32,0.3
+> Game & Watch | supersmashbros | Nintendo
+Mr. Game & Watch | m
+> Duck Hunt | supersmashbros | Nintendo
+Duck Hunt | x | page=Duck Hunt (SSB4)
+> R.O.B. | supersmashbros | Nintendo
+R.O.B. | x | page=R.O.B.
+
+@ pokemon | Pokémon | games
+> Pokémon | pokemon | The Pokémon Company / Nintendo
+Pikachu | x
+Charizard | x
+Bulbasaur | x
+Squirtle | x
+Charmander | x
+Eevee | x | crop=0.45,0.42,0.78
+Mewtwo | x
+Mew | x
+Jigglypuff | x
+Snorlax | x
+Psyduck | x
+Meowth | x
+Gengar | x
+Lucario | x
+Greninja | x
+Gyarados | x
+Dragonite | x
+Magikarp | x
+Togepi | x
+Lugia | x
+Rayquaza | x
+Blastoise | x
+Venusaur | x
+Ditto | x
+Vaporeon | x
+Umbreon | x
+Sylveon | x | crop=0.34,0.45,0.55
+Piplup | x
+Mimikyu | x
+Garchomp | x
+Arcanine | x
+Machamp | x
+Onix | x
+Cubone | x
+Slowpoke | x
+Lapras | x
+Articuno | x
+Zapdos | x
+Celebi | x
+Jirachi | x
+Arceus | x | crop=0.47,0.2,0.45
+Sprigatito | x
+Wooper | x
+Pichu | x
+Blaziken | x | crop=0.58,0.13,0.5
+Gardevoir | x
+Tyranitar | x
+Rowlet | x
+Bidoof | x
+Ash Ketchum | m
+Misty | f | page=Misty
+Brock | m | page=Brock
+Professor Oak | m
+Team Rocket's Jessie | f | page=Jessie
+Team Rocket's James | m | page=James
+
+@ game-heroes | Video Game Heroes | games
+> Sonic the Hedgehog | sonic | Sega
+Sonic | m | page=Sonic the Hedgehog
+Tails | m | page=Miles "Tails" Prower
+Knuckles | m | page=Knuckles the Echidna
+Shadow | m | page=Shadow the Hedgehog
+Dr. Eggman | m | page=Doctor Eggman
+Amy Rose | f
+> Halo | halo | Microsoft / 343 Industries
+Master Chief | m | page=John-117
+Cortana | f
+> Tomb Raider | tombraider | Crystal Dynamics / Square Enix
+Lara Croft | f
+> God of War | godofwar | Sony / Santa Monica Studio
+Kratos | m
+> The Last of Us | thelastofus | Sony / Naughty Dog
+Joel | m | page=Joel Miller
+Ellie | f | page=Ellie Williams
+> Uncharted | uncharted | Sony / Naughty Dog
+Nathan Drake | m
+> Metal Gear | metalgear | Konami
+Solid Snake | m
+> Final Fantasy | finalfantasy | Square Enix
+Cloud Strife | m
+Sephiroth | m | crop=0.24,0.08,0.22
+Aerith Gainsborough | f
+> Mega Man | megaman | Capcom
+Mega Man | m | page=Mega Man (character) | crop=0.42,0.1,0.6
+> Pac-Man | pacman | Bandai Namco
+Pac-Man | m | page=Pac-Man (character)
+> Crash Bandicoot | crashbandicoot | Activision / Naughty Dog
+Crash Bandicoot | m | page=Crash Bandicoot (character)
+> Spyro | spyro | Activision / Insomniac
+Spyro | m | page=Spyro the Dragon (character)
+> Minecraft | minecraft | Mojang / Microsoft
+Steve | m | page=Steve
+Creeper | x
+> Assassin's Creed | assassinscreed | Ubisoft
+Ezio Auditore | m | page=Ezio Auditore da Firenze
+> The Witcher | witcher | CD Projekt Red
+Geralt of Rivia | m
+> Red Dead Redemption | reddead | Rockstar Games
+Arthur Morgan | m
+John Marston | m
+> Doom | doom | id Software
+Doomguy | m | page=Doom Slayer (games)
+> Half-Life | half-life | Valve
+Gordon Freeman | m
+> Street Fighter | streetfighter | Capcom
+Ryu | m | page=Ryu
+Chun-Li | f
+Ken Masters | m | img=KenSF6Outfit1.png
+> Mortal Kombat | mortalkombat | Warner Bros. / NetherRealm
+Scorpion | m | page=Hanzo Hasashi
+Sub-Zero | m | page=Kuai Liang | img=Sub-Zero Mk11.png
+> Resident Evil | residentevil | Capcom
+Leon S. Kennedy | m
+Jill Valentine | f
+> Horizon | horizon | Sony / Guerrilla Games
+Aloy | f
+> LittleBigPlanet | littlebigplanet | Sony / Media Molecule
+Sackboy | m
+> Ratchet & Clank | ratchetandclank | Sony / Insomniac
+Ratchet | m
+Clank | m
+> Banjo-Kazooie | banjokazooie | Rare
+Banjo | m | page=Banjo
+> Cuphead | cuphead | Studio MDHR
+Cuphead | m | page=Cuphead (character)
+> Hitman | hitman | IO Interactive
+Agent 47 | m
+> Gears of War | gearsofwar | Microsoft / The Coalition
+Marcus Fenix | m
+> Mass Effect | masseffect | BioWare / EA
+Commander Shepard | m | page=Commander Shepard
+> Grand Theft Auto | gta | Rockstar Games
+CJ | m | page=Carl Johnson
+Trevor Philips | m
+> Portal | half-life | Valve
+GLaDOS | f
+> Among Us | among-us | Innersloth
+
+@ hero-shooters | Fortnite, Overwatch & League | games
+> Overwatch | overwatch | Blizzard Entertainment
+Tracer | f
+Mercy | f
+D.Va | f | crop=0.33,0.46,0.25
+Reinhardt | m
+Genji | m
+Hanzo | m
+Widowmaker | f
+Soldier: 76 | m
+Reaper | m
+Mei | f
+Lúcio | m
+Winston | m
+Ana | f
+Kiriko | f
+Bastion | x
+> Fortnite | fortnite | Epic Games
+Jonesy | m | page=Jonesy The First
+Peely | m
+Fishstick | m
+Raven | f | page=Raven
+Drift | m | crop=0.66,0.22,0.2
+Midas | m
+Renegade Raider | f
+Cuddle Team Leader | f
+> League of Legends | leagueoflegends | Riot Games
+Ahri | f
+Jinx | f
+Vi | f
+Teemo | m
+Yasuo | m
+Lux | f
+Ezreal | m
+Garen | m
+Darius | m
+Thresh | m
+Lee Sin | m
+Caitlyn | f
+Ekko | m
+> Valorant | valorant | Riot Games
+Jett | f | crop=0.52,0.17,0.2
+Sage | f | crop=0.47,0.2,0.17
+Phoenix | m | crop=0.51,0.14,0.17
+Reyna | f | crop=0.5,0.17,0.17
+Sova | m
+> Apex Legends | apexlegends | Respawn / EA
+Wraith | f
+Bloodhound | x | crop=0.42,0.1,0.4
+Pathfinder | x
+Lifeline | f
