@@ -1,0 +1,821 @@
+{
+ "id": "dc",
+ "title": "DC Characters",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "alfred-pennyworth",
+   "name": "Alfred Pennyworth",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Michael Caine",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 56,
+   "pv": 224978,
+   "img": "img/alfred-pennyworth.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Alfred_Pennyworth_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "amanda-waller",
+   "name": "Amanda Waller",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Viola Davis",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 20,
+   "pv": 88408,
+   "img": "img/amanda-waller.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Amanda_Waller"
+   }
+  },
+  {
+   "id": "aquaman",
+   "name": "Aquaman",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Jason Momoa",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 59,
+   "pv": 226061,
+   "img": "img/aquaman.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Aquaman"
+   }
+  },
+  {
+   "id": "bane",
+   "name": "Bane",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Tom Hardy",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 84,
+   "pv": 357189,
+   "img": "img/bane.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Bane_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "batman",
+   "name": "Batman",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Ben Affleck",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 100,
+   "pv": 1122664,
+   "img": "img/batman.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Batman"
+   }
+  },
+  {
+   "id": "black-adam",
+   "name": "Black Adam",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Dwayne Johnson",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 42,
+   "pv": 158186,
+   "img": "img/black-adam.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Black_Adam"
+   }
+  },
+  {
+   "id": "black-manta",
+   "name": "Black Manta",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Yahya Abdul-Mateen II",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 31,
+   "pv": 105091,
+   "img": "img/black-manta.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Black_Manta"
+   }
+  },
+  {
+   "id": "bloodsport",
+   "name": "Bloodsport",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Idris Elba",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 6,
+   "pv": 59248,
+   "img": "img/bloodsport.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Bloodsport"
+   }
+  },
+  {
+   "id": "blue-beetle",
+   "name": "Blue Beetle",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Xolo Maridueña",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 23,
+   "pv": 94994,
+   "img": "img/blue-beetle.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Blue_Beetle"
+   }
+  },
+  {
+   "id": "captain-boomerang",
+   "name": "Captain Boomerang",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Jai Courtney",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 9,
+   "pv": 62650,
+   "img": "img/captain-boomerang.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Captain_Boomerang"
+   }
+  },
+  {
+   "id": "catwoman",
+   "name": "Catwoman",
+   "from": "The Dark Knight",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Anne Hathaway",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 89,
+   "pv": 387918,
+   "img": "img/catwoman.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Selina_Kyle_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "cheetah",
+   "name": "Cheetah",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Kristen Wiig",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 34,
+   "pv": 108201,
+   "img": "img/cheetah.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Cheetah"
+   }
+  },
+  {
+   "id": "commissioner-gordon",
+   "name": "Commissioner Gordon",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Gary Oldman",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 28,
+   "pv": 97949,
+   "img": "img/commissioner-gordon.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/James_Gordon_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "cyborg",
+   "name": "Cyborg",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Ray Fisher",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 40,
+   "pv": 145221,
+   "img": "img/cyborg.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Cyborg"
+   }
+  },
+  {
+   "id": "darkseid",
+   "name": "Darkseid",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Ray Porter",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 75,
+   "pv": 325748,
+   "img": "img/darkseid.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Darkseid"
+   }
+  },
+  {
+   "id": "deadshot",
+   "name": "Deadshot",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Will Smith",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 50,
+   "pv": 175327,
+   "img": "img/deadshot.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Deadshot"
+   }
+  },
+  {
+   "id": "general-zod",
+   "name": "General Zod",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Michael Shannon",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 37,
+   "pv": 128580,
+   "img": "img/general-zod.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Dru-Zod"
+   }
+  },
+  {
+   "id": "harley-quinn",
+   "name": "Harley Quinn",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Margot Robbie",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 92,
+   "pv": 453887,
+   "img": "img/harley-quinn.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Harley_Quinn"
+   }
+  },
+  {
+   "id": "king-shark",
+   "name": "King Shark",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Sylvester Stallone",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 15,
+   "pv": 81808,
+   "img": "img/king-shark.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/King_Shark"
+   }
+  },
+  {
+   "id": "lex-luthor",
+   "name": "Lex Luthor",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Jesse Eisenberg",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 81,
+   "pv": 337939,
+   "img": "img/lex-luthor.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Lex_Luthor"
+   }
+  },
+  {
+   "id": "lois-lane",
+   "name": "Lois Lane",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Amy Adams",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 45,
+   "pv": 158919,
+   "img": "img/lois-lane.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Lois_Lane"
+   }
+  },
+  {
+   "id": "mera",
+   "name": "Mera",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Amber Heard",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 4,
+   "pv": 52636,
+   "img": "img/mera.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Mera"
+   }
+  },
+  {
+   "id": "peacemaker",
+   "name": "Peacemaker",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "John Cena",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 53,
+   "pv": 182336,
+   "img": "img/peacemaker.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Peacemaker"
+   }
+  },
+  {
+   "id": "polka-dot-man",
+   "name": "Polka-Dot Man",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "David Dastmalchian",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 12,
+   "pv": 73676,
+   "img": "img/polka-dot-man.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Polka-Dot_Man"
+   }
+  },
+  {
+   "id": "ra-s-al-ghul",
+   "name": "Ra's al Ghul",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Liam Neeson",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 86,
+   "pv": 378302,
+   "img": "img/ra-s-al-ghul.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Ra's_al_Ghul_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "ratcatcher-2",
+   "name": "Ratcatcher 2",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Daniela Melchior",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 1,
+   "pv": 16476,
+   "img": "img/ratcatcher-2.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Ratcatcher_2"
+   }
+  },
+  {
+   "id": "rick-flag",
+   "name": "Rick Flag",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Joel Kinnaman",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 18,
+   "pv": 83321,
+   "img": "img/rick-flag.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Rick_Flag"
+   }
+  },
+  {
+   "id": "scarecrow",
+   "name": "Scarecrow",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Cillian Murphy",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 67,
+   "pv": 249837,
+   "img": "img/scarecrow.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Jonathan_Crane_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "shazam",
+   "name": "Shazam",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Zachary Levi",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 64,
+   "pv": 242880,
+   "img": "img/shazam.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Shazam"
+   }
+  },
+  {
+   "id": "steppenwolf",
+   "name": "Steppenwolf",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Ciarán Hinds",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 26,
+   "pv": 95470,
+   "img": "img/steppenwolf.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Steppenwolf"
+   }
+  },
+  {
+   "id": "supergirl",
+   "name": "Supergirl",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Sasha Calle",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 48,
+   "pv": 173666,
+   "img": "img/supergirl.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Kara_Zor-El"
+   }
+  },
+  {
+   "id": "superman",
+   "name": "Superman",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Henry Cavill",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 97,
+   "pv": 952052,
+   "img": "img/superman.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Superman"
+   }
+  },
+  {
+   "id": "the-joker",
+   "name": "The Joker",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Heath Ledger",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 62,
+   "pv": 232164,
+   "img": "img/the-joker.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Joker_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "the-penguin",
+   "name": "The Penguin",
+   "from": "The Batman",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Batman",
+   "actor": "Colin Farrell",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 70,
+   "pv": 253079,
+   "img": "img/the-penguin.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)"
+   }
+  },
+  {
+   "id": "the-riddler",
+   "name": "The Riddler",
+   "from": "The Batman",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Batman",
+   "actor": "Paul Dano",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 72,
+   "pv": 268524,
+   "img": "img/the-riddler.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Edward_Nashton_(The_Batman_Saga)"
+   }
+  },
+  {
+   "id": "two-face",
+   "name": "Two-Face",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Aaron Eckhart",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 78,
+   "pv": 330931,
+   "img": "img/two-face.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Harvey_Dent_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "wonder-woman",
+   "name": "Wonder Woman",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Gal Gadot",
+   "tags": [
+    "character",
+    "dc"
+   ],
+   "fame": 94,
+   "pv": 566195,
+   "img": "img/wonder-woman.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Wonder_Woman"
+   }
+  }
+ ]
+}

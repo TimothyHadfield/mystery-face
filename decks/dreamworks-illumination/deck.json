@@ -1,0 +1,1057 @@
+{
+ "id": "dreamworks-illumination",
+ "title": "DreamWorks & Illumination",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "agnes-gru",
+   "name": "Agnes Gru",
+   "from": "Despicable Me",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 3,
+   "pv": 13,
+   "img": "img/agnes-gru.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Agnes_Gru"
+   }
+  },
+  {
+   "id": "alex",
+   "name": "Alex",
+   "from": "Madagascar",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Madagascar",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 21,
+   "pv": 1322,
+   "img": "img/alex.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Alex"
+   }
+  },
+  {
+   "id": "ash",
+   "name": "Ash",
+   "from": "Sing",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sing",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 37,
+   "pv": 4806,
+   "img": "img/ash.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://sing.fandom.com/wiki/Ash"
+   }
+  },
+  {
+   "id": "astrid",
+   "name": "Astrid",
+   "from": "How to Train Your Dragon",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "How to Train Your Dragon",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 56,
+   "pv": 5818,
+   "img": "img/astrid.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Astrid_Hofferson"
+   }
+  },
+  {
+   "id": "bob",
+   "name": "Bob",
+   "from": "Despicable Me",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 88,
+   "pv": 199457,
+   "img": "img/bob.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Bob"
+   }
+  },
+  {
+   "id": "branch",
+   "name": "Branch",
+   "from": "Trolls",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Trolls",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 5,
+   "pv": 27,
+   "img": "img/branch.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Branch"
+   }
+  },
+  {
+   "id": "buster-moon",
+   "name": "Buster Moon",
+   "from": "Sing",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sing",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 47,
+   "pv": 5818,
+   "img": "img/buster-moon.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://sing.fandom.com/wiki/Buster_Moon"
+   }
+  },
+  {
+   "id": "donkey",
+   "name": "Donkey",
+   "from": "Shrek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 82,
+   "pv": 129711,
+   "img": "img/donkey.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Donkey"
+   }
+  },
+  {
+   "id": "dr-nefario",
+   "name": "Dr. Nefario",
+   "from": "Despicable Me",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 60,
+   "pv": 6478,
+   "img": "img/dr-nefario.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Dr._Nefario"
+   }
+  },
+  {
+   "id": "dragon",
+   "name": "Dragon",
+   "from": "Shrek",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 66,
+   "pv": 42657,
+   "img": "img/dragon.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/The_Dragon"
+   }
+  },
+  {
+   "id": "el-macho",
+   "name": "El Macho",
+   "from": "Despicable Me",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 1,
+   "pv": 13,
+   "img": "img/el-macho.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Eduardo_Perez"
+   }
+  },
+  {
+   "id": "fairy-godmother",
+   "name": "Fairy Godmother",
+   "from": "Shrek",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 68,
+   "pv": 50429,
+   "img": "img/fairy-godmother.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Fairy_Godmother"
+   }
+  },
+  {
+   "id": "gidget",
+   "name": "Gidget",
+   "from": "The Secret Life of Pets",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Secret Life of Pets",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 41,
+   "pv": 4806,
+   "img": "img/gidget.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://illumination.fandom.com/wiki/Gidget"
+   }
+  },
+  {
+   "id": "gingy",
+   "name": "Gingy",
+   "from": "Shrek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 7,
+   "pv": 29,
+   "img": "img/gingy.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Gingerbread_Man"
+   }
+  },
+  {
+   "id": "gloria",
+   "name": "Gloria",
+   "from": "Madagascar",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Madagascar",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 9,
+   "pv": 702,
+   "img": "img/gloria.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Gloria"
+   }
+  },
+  {
+   "id": "gru",
+   "name": "Gru",
+   "from": "Despicable Me",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 94,
+   "pv": 209955,
+   "img": "img/gru.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Felonious_Gru"
+   }
+  },
+  {
+   "id": "hiccup",
+   "name": "Hiccup",
+   "from": "How to Train Your Dragon",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "How to Train Your Dragon",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 76,
+   "pv": 85172,
+   "img": "img/hiccup.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Hiccup_Haddock_III"
+   }
+  },
+  {
+   "id": "johnny",
+   "name": "Johnny",
+   "from": "Sing",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sing",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 35,
+   "pv": 4806,
+   "img": "img/johnny.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://sing.fandom.com/wiki/Johnny"
+   }
+  },
+  {
+   "id": "kevin",
+   "name": "Kevin",
+   "from": "Despicable Me",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 92,
+   "pv": 199457,
+   "img": "img/kevin.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Kevin"
+   }
+  },
+  {
+   "id": "king-julien",
+   "name": "King Julien",
+   "from": "Madagascar",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Madagascar",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 58,
+   "pv": 6125,
+   "img": "img/king-julien.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/All_Hail_King_Julien"
+   }
+  },
+  {
+   "id": "lord-farquaad",
+   "name": "Lord Farquaad",
+   "from": "Shrek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 31,
+   "pv": 4071,
+   "img": "img/lord-farquaad.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Lord_Farquaad"
+   }
+  },
+  {
+   "id": "lucy-wilde",
+   "name": "Lucy Wilde",
+   "from": "Despicable Me",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 15,
+   "pv": 808,
+   "img": "img/lucy-wilde.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Lucy_Wilde"
+   }
+  },
+  {
+   "id": "marty",
+   "name": "Marty",
+   "from": "Madagascar",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Madagascar",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 19,
+   "pv": 1221,
+   "img": "img/marty.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Marty"
+   }
+  },
+  {
+   "id": "master-oogway",
+   "name": "Master Oogway",
+   "from": "Kung Fu Panda",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kung Fu Panda",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 25,
+   "pv": 3022,
+   "img": "img/master-oogway.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Oogway"
+   }
+  },
+  {
+   "id": "master-shifu",
+   "name": "Master Shifu",
+   "from": "Kung Fu Panda",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kung Fu Panda",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 45,
+   "pv": 5059,
+   "img": "img/master-shifu.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Shifu"
+   }
+  },
+  {
+   "id": "max",
+   "name": "Max",
+   "from": "The Secret Life of Pets",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Secret Life of Pets",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 49,
+   "pv": 5818,
+   "img": "img/max.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://illumination.fandom.com/wiki/Max"
+   }
+  },
+  {
+   "id": "megamind",
+   "name": "Megamind",
+   "from": "Megamind",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Megamind",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 98,
+   "pv": 402843,
+   "img": "img/megamind.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Megamind"
+   }
+  },
+  {
+   "id": "melman",
+   "name": "Melman",
+   "from": "Madagascar",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Madagascar",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 23,
+   "pv": 1323,
+   "img": "img/melman.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Melman"
+   }
+  },
+  {
+   "id": "moses",
+   "name": "Moses",
+   "from": "The Prince of Egypt",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Prince of Egypt",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 70,
+   "pv": 85172,
+   "img": "img/moses.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Moses"
+   }
+  },
+  {
+   "id": "mr-ping",
+   "name": "Mr. Ping",
+   "from": "Kung Fu Panda",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kung Fu Panda",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 33,
+   "pv": 4774,
+   "img": "img/mr-ping.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Mr._Ping"
+   }
+  },
+  {
+   "id": "mr-wolf",
+   "name": "Mr. Wolf",
+   "from": "The Bad Guys",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Bad Guys",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 52,
+   "pv": 5818,
+   "img": "img/mr-wolf.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Mr._Wolf"
+   }
+  },
+  {
+   "id": "po",
+   "name": "Po",
+   "from": "Kung Fu Panda",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kung Fu Panda",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 78,
+   "pv": 89655,
+   "img": "img/po.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Po"
+   }
+  },
+  {
+   "id": "poppy",
+   "name": "Poppy",
+   "from": "Trolls",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Trolls",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 54,
+   "pv": 5818,
+   "img": "img/poppy.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Poppy"
+   }
+  },
+  {
+   "id": "prince-charming",
+   "name": "Prince Charming",
+   "from": "Shrek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 62,
+   "pv": 16579,
+   "img": "img/prince-charming.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Prince_Charming"
+   }
+  },
+  {
+   "id": "princess-fiona",
+   "name": "Princess Fiona",
+   "from": "Shrek",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 84,
+   "pv": 160812,
+   "img": "img/princess-fiona.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Fiona"
+   }
+  },
+  {
+   "id": "puss-in-boots",
+   "name": "Puss in Boots",
+   "from": "Shrek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 80,
+   "pv": 108317,
+   "img": "img/puss-in-boots.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Puss_in_Boots"
+   }
+  },
+  {
+   "id": "rosita",
+   "name": "Rosita",
+   "from": "Sing",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sing",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 39,
+   "pv": 4806,
+   "img": "img/rosita.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://sing.fandom.com/wiki/Rosita"
+   }
+  },
+  {
+   "id": "roz",
+   "name": "Roz",
+   "from": "The Wild Robot",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Wild Robot",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 72,
+   "pv": 85172,
+   "img": "img/roz.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Roz_(The_Wild_Robot)"
+   }
+  },
+  {
+   "id": "scarlet-overkill",
+   "name": "Scarlet Overkill",
+   "from": "Despicable Me",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 11,
+   "pv": 735,
+   "img": "img/scarlet-overkill.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Scarlet_Overkill"
+   }
+  },
+  {
+   "id": "shrek",
+   "name": "Shrek",
+   "from": "Shrek",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Shrek",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 86,
+   "pv": 179930,
+   "img": "img/shrek.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Shrek_(character)"
+   }
+  },
+  {
+   "id": "skipper",
+   "name": "Skipper",
+   "from": "Madagascar",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Madagascar",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 27,
+   "pv": 3704,
+   "img": "img/skipper.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Skipper"
+   }
+  },
+  {
+   "id": "snowball",
+   "name": "Snowball",
+   "from": "The Secret Life of Pets",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Secret Life of Pets",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 43,
+   "pv": 4806,
+   "img": "img/snowball.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://illumination.fandom.com/wiki/Snowball"
+   }
+  },
+  {
+   "id": "spirit",
+   "name": "Spirit",
+   "from": "Spirit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Spirit",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 64,
+   "pv": 30086,
+   "img": "img/spirit.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Spirit"
+   }
+  },
+  {
+   "id": "stuart",
+   "name": "Stuart",
+   "from": "Despicable Me",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 90,
+   "pv": 199457,
+   "img": "img/stuart.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Stuart"
+   }
+  },
+  {
+   "id": "tai-lung",
+   "name": "Tai Lung",
+   "from": "Kung Fu Panda",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kung Fu Panda",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 29,
+   "pv": 3875,
+   "img": "img/tai-lung.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Tai_Lung"
+   }
+  },
+  {
+   "id": "the-boss-baby",
+   "name": "The Boss Baby",
+   "from": "The Boss Baby",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Boss Baby",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 96,
+   "pv": 324599,
+   "img": "img/the-boss-baby.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/The_Boss_Baby"
+   }
+  },
+  {
+   "id": "the-grinch",
+   "name": "The Grinch",
+   "from": "The Grinch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Grinch",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 100,
+   "pv": 436131,
+   "img": "img/the-grinch.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://illumination.fandom.com/wiki/The_Grinch_(character)"
+   }
+  },
+  {
+   "id": "tigress",
+   "name": "Tigress",
+   "from": "Kung Fu Panda",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Kung Fu Panda",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 17,
+   "pv": 1005,
+   "img": "img/tigress.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Tigress"
+   }
+  },
+  {
+   "id": "toothless",
+   "name": "Toothless",
+   "from": "How to Train Your Dragon",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "How to Train Your Dragon",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 74,
+   "pv": 85172,
+   "img": "img/toothless.webp",
+   "credit": {
+    "author": "DreamWorks Animation",
+    "license": "© owner, fan use",
+    "source": "https://dreamworks.fandom.com/wiki/Toothless"
+   }
+  },
+  {
+   "id": "vector",
+   "name": "Vector",
+   "from": "Despicable Me",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Despicable Me",
+   "tags": [
+    "character",
+    "dreamworks-illumination"
+   ],
+   "fame": 13,
+   "pv": 735,
+   "img": "img/vector.webp",
+   "credit": {
+    "author": "Illumination",
+    "license": "© owner, fan use",
+    "source": "https://despicableme.fandom.com/wiki/Vector_Perkins"
+   }
+  }
+ ]
+}

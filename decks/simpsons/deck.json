@@ -1,0 +1,1015 @@
+{
+ "id": "simpsons",
+ "title": "The Simpsons",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "abe-simpson",
+   "name": "Abe Simpson",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 62,
+   "pv": 60184,
+   "img": "img/abe-simpson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Abraham_Simpson"
+   }
+  },
+  {
+   "id": "apu-nahasapeemapetilon",
+   "name": "Apu Nahasapeemapetilon",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 96,
+   "pv": 227058,
+   "img": "img/apu-nahasapeemapetilon.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Apu_Nahasapeemapetilon"
+   }
+  },
+  {
+   "id": "barney-gumble",
+   "name": "Barney Gumble",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 54,
+   "pv": 44141,
+   "img": "img/barney-gumble.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Barney_Gumble"
+   }
+  },
+  {
+   "id": "bart-simpson",
+   "name": "Bart Simpson",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 100,
+   "pv": 397561,
+   "img": "img/bart-simpson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Bart_Simpson"
+   }
+  },
+  {
+   "id": "carl-carlson",
+   "name": "Carl Carlson",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 22,
+   "pv": 7503,
+   "img": "img/carl-carlson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Carl_Carlson"
+   }
+  },
+  {
+   "id": "chief-wiggum",
+   "name": "Chief Wiggum",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 47,
+   "pv": 37278,
+   "img": "img/chief-wiggum.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Clancy_Wiggum"
+   }
+  },
+  {
+   "id": "cletus-spuckler",
+   "name": "Cletus Spuckler",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 20,
+   "pv": 7417,
+   "img": "img/cletus-spuckler.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Cletus_Spuckler"
+   }
+  },
+  {
+   "id": "comic-book-guy",
+   "name": "Comic Book Guy",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 60,
+   "pv": 55094,
+   "img": "img/comic-book-guy.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Comic_Book_Guy"
+   }
+  },
+  {
+   "id": "disco-stu",
+   "name": "Disco Stu",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 5,
+   "pv": 2631,
+   "img": "img/disco-stu.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Disco_Stu"
+   }
+  },
+  {
+   "id": "dr-hibbert",
+   "name": "Dr. Hibbert",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 45,
+   "pv": 36761,
+   "img": "img/dr-hibbert.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Julius_Hibbert"
+   }
+  },
+  {
+   "id": "dr-nick",
+   "name": "Dr. Nick",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 18,
+   "pv": 7415,
+   "img": "img/dr-nick.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Nick_Riviera"
+   }
+  },
+  {
+   "id": "edna-krabappel",
+   "name": "Edna Krabappel",
+   "from": "The Simpsons",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 79,
+   "pv": 103924,
+   "img": "img/edna-krabappel.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Edna_Krabappel"
+   }
+  },
+  {
+   "id": "fat-tony",
+   "name": "Fat Tony",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 56,
+   "pv": 44655,
+   "img": "img/fat-tony.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Fat_Tony"
+   }
+  },
+  {
+   "id": "groundskeeper-willie",
+   "name": "Groundskeeper Willie",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 52,
+   "pv": 39985,
+   "img": "img/groundskeeper-willie.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Groundskeeper_Willie"
+   }
+  },
+  {
+   "id": "hans-moleman",
+   "name": "Hans Moleman",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 24,
+   "pv": 8041,
+   "img": "img/hans-moleman.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Hans_Moleman"
+   }
+  },
+  {
+   "id": "homer-simpson",
+   "name": "Homer Simpson",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 98,
+   "pv": 345520,
+   "img": "img/homer-simpson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Homer_Simpson"
+   }
+  },
+  {
+   "id": "itchy",
+   "name": "Itchy",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 7,
+   "pv": 3384,
+   "img": "img/itchy.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Itchy"
+   }
+  },
+  {
+   "id": "jimbo-jones",
+   "name": "Jimbo Jones",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 1,
+   "pv": 1312,
+   "img": "img/jimbo-jones.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Jimbo_Jones"
+   }
+  },
+  {
+   "id": "kent-brockman",
+   "name": "Kent Brockman",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 37,
+   "pv": 19257,
+   "img": "img/kent-brockman.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Kent_Brockman"
+   }
+  },
+  {
+   "id": "krusty-the-clown",
+   "name": "Krusty the Clown",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 77,
+   "pv": 94540,
+   "img": "img/krusty-the-clown.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Krusty_the_Clown"
+   }
+  },
+  {
+   "id": "lenny-leonard",
+   "name": "Lenny Leonard",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 16,
+   "pv": 6949,
+   "img": "img/lenny-leonard.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Lenny_Leonard"
+   }
+  },
+  {
+   "id": "lionel-hutz",
+   "name": "Lionel Hutz",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 66,
+   "pv": 63042,
+   "img": "img/lionel-hutz.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Lionel_Hutz"
+   }
+  },
+  {
+   "id": "lisa-simpson",
+   "name": "Lisa Simpson",
+   "from": "The Simpsons",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 87,
+   "pv": 136807,
+   "img": "img/lisa-simpson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Lisa_Simpson"
+   }
+  },
+  {
+   "id": "lunchlady-doris",
+   "name": "Lunchlady Doris",
+   "from": "The Simpsons",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 3,
+   "pv": 1734,
+   "img": "img/lunchlady-doris.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Lunchlady_Dora"
+   }
+  },
+  {
+   "id": "maggie-simpson",
+   "name": "Maggie Simpson",
+   "from": "The Simpsons",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 83,
+   "pv": 108409,
+   "img": "img/maggie-simpson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Maggie_Simpson"
+   }
+  },
+  {
+   "id": "marge-simpson",
+   "name": "Marge Simpson",
+   "from": "The Simpsons",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 92,
+   "pv": 206432,
+   "img": "img/marge-simpson.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Marge_Simpson"
+   }
+  },
+  {
+   "id": "martin-prince",
+   "name": "Martin Prince",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 30,
+   "pv": 14921,
+   "img": "img/martin-prince.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Martin_Prince"
+   }
+  },
+  {
+   "id": "mayor-quimby",
+   "name": "Mayor Quimby",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 41,
+   "pv": 35104,
+   "img": "img/mayor-quimby.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Joe_Quimby"
+   }
+  },
+  {
+   "id": "milhouse-van-houten",
+   "name": "Milhouse Van Houten",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 68,
+   "pv": 63942,
+   "img": "img/milhouse-van-houten.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Milhouse_Van_Houten"
+   }
+  },
+  {
+   "id": "moe-szyslak",
+   "name": "Moe Szyslak",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 75,
+   "pv": 79376,
+   "img": "img/moe-szyslak.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Moe_Szyslak"
+   }
+  },
+  {
+   "id": "mr-burns",
+   "name": "Mr. Burns",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 89,
+   "pv": 144615,
+   "img": "img/mr-burns.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Charles_Montgomery_Burns"
+   }
+  },
+  {
+   "id": "ned-flanders",
+   "name": "Ned Flanders",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 85,
+   "pv": 126104,
+   "img": "img/ned-flanders.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Ned_Flanders"
+   }
+  },
+  {
+   "id": "nelson-muntz",
+   "name": "Nelson Muntz",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 49,
+   "pv": 39984,
+   "img": "img/nelson-muntz.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Nelson_Muntz"
+   }
+  },
+  {
+   "id": "otto-mann",
+   "name": "Otto Mann",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 26,
+   "pv": 8626,
+   "img": "img/otto-mann.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Otto_Mann"
+   }
+  },
+  {
+   "id": "patty-bouvier",
+   "name": "Patty Bouvier",
+   "from": "The Simpsons",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 35,
+   "pv": 15961,
+   "img": "img/patty-bouvier.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Patty_Bouvier"
+   }
+  },
+  {
+   "id": "principal-skinner",
+   "name": "Principal Skinner",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 58,
+   "pv": 53486,
+   "img": "img/principal-skinner.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Seymour_Skinner"
+   }
+  },
+  {
+   "id": "professor-frink",
+   "name": "Professor Frink",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 39,
+   "pv": 31514,
+   "img": "img/professor-frink.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Jonathan_Frink"
+   }
+  },
+  {
+   "id": "ralph-wiggum",
+   "name": "Ralph Wiggum",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 73,
+   "pv": 73660,
+   "img": "img/ralph-wiggum.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Ralph_Wiggum"
+   }
+  },
+  {
+   "id": "reverend-lovejoy",
+   "name": "Reverend Lovejoy",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 43,
+   "pv": 35230,
+   "img": "img/reverend-lovejoy.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Timothy_Lovejoy,_Jr."
+   }
+  },
+  {
+   "id": "rod-flanders",
+   "name": "Rod Flanders",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 9,
+   "pv": 3511,
+   "img": "img/rod-flanders.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Rod_Flanders"
+   }
+  },
+  {
+   "id": "santa-s-little-helper",
+   "name": "Santa's Little Helper",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 64,
+   "pv": 61474,
+   "img": "img/santa-s-little-helper.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Santa's_Little_Helper"
+   }
+  },
+  {
+   "id": "scratchy",
+   "name": "Scratchy",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 12,
+   "pv": 3528,
+   "img": "img/scratchy.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Scratchy"
+   }
+  },
+  {
+   "id": "selma-bouvier",
+   "name": "Selma Bouvier",
+   "from": "The Simpsons",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 33,
+   "pv": 15961,
+   "img": "img/selma-bouvier.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Selma_Bouvier"
+   }
+  },
+  {
+   "id": "sideshow-bob",
+   "name": "Sideshow Bob",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 94,
+   "pv": 208573,
+   "img": "img/sideshow-bob.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Sideshow_Bob"
+   }
+  },
+  {
+   "id": "superintendent-chalmers",
+   "name": "Superintendent Chalmers",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 28,
+   "pv": 12819,
+   "img": "img/superintendent-chalmers.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Gary_Chalmers"
+   }
+  },
+  {
+   "id": "todd-flanders",
+   "name": "Todd Flanders",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 14,
+   "pv": 4896,
+   "img": "img/todd-flanders.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Todd_Flanders"
+   }
+  },
+  {
+   "id": "troy-mcclure",
+   "name": "Troy McClure",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 81,
+   "pv": 107552,
+   "img": "img/troy-mcclure.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Troy_McClure"
+   }
+  },
+  {
+   "id": "waylon-smithers",
+   "name": "Waylon Smithers",
+   "from": "The Simpsons",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Simpsons",
+   "tags": [
+    "character",
+    "simpsons"
+   ],
+   "fame": 71,
+   "pv": 66168,
+   "img": "img/waylon-smithers.webp",
+   "credit": {
+    "author": "20th Television / Gracie Films",
+    "license": "© owner, fan use",
+    "source": "https://simpsons.fandom.com/wiki/Waylon_Smithers,_Jr."
+   }
+  }
+ ]
+}

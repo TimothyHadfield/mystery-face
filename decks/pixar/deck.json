@@ -1,0 +1,1078 @@
+{
+ "id": "pixar",
+ "title": "Pixar",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "alfredo-linguini",
+   "name": "Alfredo Linguini",
+   "from": "Ratatouille",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ratatouille",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 5,
+   "pv": 249,
+   "img": "img/alfredo-linguini.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Alfredo_Linguini"
+   }
+  },
+  {
+   "id": "aliens",
+   "name": "Aliens",
+   "from": "Toy Story",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 23,
+   "pv": 9385,
+   "img": "img/aliens.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Little_Green_Men"
+   }
+  },
+  {
+   "id": "anger",
+   "name": "Anger",
+   "from": "Inside Out",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Inside Out",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 31,
+   "pv": 16609,
+   "img": "img/anger.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Anger"
+   }
+  },
+  {
+   "id": "anton-ego",
+   "name": "Anton Ego",
+   "from": "Ratatouille",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ratatouille",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 11,
+   "pv": 774,
+   "img": "img/anton-ego.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Anton_Ego"
+   }
+  },
+  {
+   "id": "anxiety",
+   "name": "Anxiety",
+   "from": "Inside Out",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Inside Out",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 52,
+   "pv": 40819,
+   "img": "img/anxiety.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Anxiety"
+   }
+  },
+  {
+   "id": "bing-bong",
+   "name": "Bing Bong",
+   "from": "Inside Out",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Inside Out",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 25,
+   "pv": 16609,
+   "img": "img/bing-bong.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Bing_Bong"
+   }
+  },
+  {
+   "id": "bo-peep",
+   "name": "Bo Peep",
+   "from": "Toy Story",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 88,
+   "pv": 203710,
+   "img": "img/bo-peep.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Bo_Peep"
+   }
+  },
+  {
+   "id": "boo",
+   "name": "Boo",
+   "from": "Monsters, Inc.",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Monsters, Inc.",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 9,
+   "pv": 312,
+   "img": "img/boo.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Boo"
+   }
+  },
+  {
+   "id": "bullseye",
+   "name": "Bullseye",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 41,
+   "pv": 33452,
+   "img": "img/bullseye.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Bullseye"
+   }
+  },
+  {
+   "id": "buzz-lightyear",
+   "name": "Buzz Lightyear",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 96,
+   "pv": 288235,
+   "img": "img/buzz-lightyear.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Buzz_Lightyear"
+   }
+  },
+  {
+   "id": "carl-fredricksen",
+   "name": "Carl Fredricksen",
+   "from": "Up",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Up",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 72,
+   "pv": 98805,
+   "img": "img/carl-fredricksen.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Carl_Fredricksen"
+   }
+  },
+  {
+   "id": "crush",
+   "name": "Crush",
+   "from": "Finding Nemo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Finding Nemo",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 1,
+   "pv": 124,
+   "img": "img/crush.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Crush"
+   }
+  },
+  {
+   "id": "dash-parr",
+   "name": "Dash Parr",
+   "from": "The Incredibles",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 43,
+   "pv": 33927,
+   "img": "img/dash-parr.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Dash_Parr"
+   }
+  },
+  {
+   "id": "disgust",
+   "name": "Disgust",
+   "from": "Inside Out",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Inside Out",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 27,
+   "pv": 16609,
+   "img": "img/disgust.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Disgust"
+   }
+  },
+  {
+   "id": "doc-hudson",
+   "name": "Doc Hudson",
+   "from": "Cars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Cars",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 54,
+   "pv": 45720,
+   "img": "img/doc-hudson.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Doc_Hudson"
+   }
+  },
+  {
+   "id": "dory",
+   "name": "Dory",
+   "from": "Finding Nemo",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Finding Nemo",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 82,
+   "pv": 104006,
+   "img": "img/dory.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Dory"
+   }
+  },
+  {
+   "id": "dug",
+   "name": "Dug",
+   "from": "Up",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Up",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 35,
+   "pv": 32230,
+   "img": "img/dug.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Dug"
+   }
+  },
+  {
+   "id": "edna-mode",
+   "name": "Edna Mode",
+   "from": "The Incredibles",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 86,
+   "pv": 202642,
+   "img": "img/edna-mode.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Edna_Mode"
+   }
+  },
+  {
+   "id": "elastigirl",
+   "name": "Elastigirl",
+   "from": "The Incredibles",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 80,
+   "pv": 101090,
+   "img": "img/elastigirl.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Elastigirl"
+   }
+  },
+  {
+   "id": "ember-lumen",
+   "name": "Ember Lumen",
+   "from": "Elemental",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Elemental",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 45,
+   "pv": 38778,
+   "img": "img/ember-lumen.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Ember_Lumen"
+   }
+  },
+  {
+   "id": "eve",
+   "name": "EVE",
+   "from": "WALL-E",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "WALL-E",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 13,
+   "pv": 1042,
+   "img": "img/eve.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/EVE"
+   }
+  },
+  {
+   "id": "fear",
+   "name": "Fear",
+   "from": "Inside Out",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Inside Out",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 29,
+   "pv": 16609,
+   "img": "img/fear.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Fear"
+   }
+  },
+  {
+   "id": "forky",
+   "name": "Forky",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 7,
+   "pv": 299,
+   "img": "img/forky.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Forky"
+   }
+  },
+  {
+   "id": "frozone",
+   "name": "Frozone",
+   "from": "The Incredibles",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 21,
+   "pv": 6695,
+   "img": "img/frozone.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Frozone"
+   }
+  },
+  {
+   "id": "hamm",
+   "name": "Hamm",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 70,
+   "pv": 81392,
+   "img": "img/hamm.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Hamm"
+   }
+  },
+  {
+   "id": "hector",
+   "name": "Héctor",
+   "from": "Coco",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Coco",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 58,
+   "pv": 54044,
+   "img": "img/hector.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/H%C3%A9ctor_Rivera"
+   }
+  },
+  {
+   "id": "jack-jack-parr",
+   "name": "Jack-Jack Parr",
+   "from": "The Incredibles",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 17,
+   "pv": 4268,
+   "img": "img/jack-jack-parr.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Jack-Jack_Parr"
+   }
+  },
+  {
+   "id": "jessie",
+   "name": "Jessie",
+   "from": "Toy Story",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 98,
+   "pv": 305332,
+   "img": "img/jessie.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Jessie"
+   }
+  },
+  {
+   "id": "joe-gardner",
+   "name": "Joe Gardner",
+   "from": "Soul",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Soul",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 50,
+   "pv": 38778,
+   "img": "img/joe-gardner.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Joe_Gardner"
+   }
+  },
+  {
+   "id": "joy",
+   "name": "Joy",
+   "from": "Inside Out",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Inside Out",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 62,
+   "pv": 56889,
+   "img": "img/joy.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Joy"
+   }
+  },
+  {
+   "id": "lightning-mcqueen",
+   "name": "Lightning McQueen",
+   "from": "Cars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Cars",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 100,
+   "pv": 372614,
+   "img": "img/lightning-mcqueen.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Lightning_McQueen"
+   }
+  },
+  {
+   "id": "luca-paguro",
+   "name": "Luca Paguro",
+   "from": "Luca",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Luca",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 49,
+   "pv": 38778,
+   "img": "img/luca-paguro.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Luca_Paguro"
+   }
+  },
+  {
+   "id": "marlin",
+   "name": "Marlin",
+   "from": "Finding Nemo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Finding Nemo",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 76,
+   "pv": 98805,
+   "img": "img/marlin.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Marlin"
+   }
+  },
+  {
+   "id": "mater",
+   "name": "Mater",
+   "from": "Cars",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Cars",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 84,
+   "pv": 158192,
+   "img": "img/mater.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mater"
+   }
+  },
+  {
+   "id": "mei-lee",
+   "name": "Mei Lee",
+   "from": "Turning Red",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Turning Red",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 47,
+   "pv": 38778,
+   "img": "img/mei-lee.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mei_Lee"
+   }
+  },
+  {
+   "id": "miguel-rivera",
+   "name": "Miguel Rivera",
+   "from": "Coco",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Coco",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 60,
+   "pv": 54044,
+   "img": "img/miguel-rivera.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Miguel_Rivera"
+   }
+  },
+  {
+   "id": "mike-wazowski",
+   "name": "Mike Wazowski",
+   "from": "Monsters, Inc.",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Monsters, Inc.",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 92,
+   "pv": 227211,
+   "img": "img/mike-wazowski.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mike_Wazowski"
+   }
+  },
+  {
+   "id": "mr-incredible",
+   "name": "Mr. Incredible",
+   "from": "The Incredibles",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 64,
+   "pv": 62209,
+   "img": "img/mr-incredible.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mr._Incredible"
+   }
+  },
+  {
+   "id": "mr-potato-head",
+   "name": "Mr. Potato Head",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 15,
+   "pv": 3257,
+   "img": "img/mr-potato-head.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mr._Potato_Head"
+   }
+  },
+  {
+   "id": "nemo",
+   "name": "Nemo",
+   "from": "Finding Nemo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Finding Nemo",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 78,
+   "pv": 98805,
+   "img": "img/nemo.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Nemo"
+   }
+  },
+  {
+   "id": "remy",
+   "name": "Remy",
+   "from": "Ratatouille",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ratatouille",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 74,
+   "pv": 98805,
+   "img": "img/remy.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Remy"
+   }
+  },
+  {
+   "id": "rex",
+   "name": "Rex",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 19,
+   "pv": 4808,
+   "img": "img/rex.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Rex"
+   }
+  },
+  {
+   "id": "roz",
+   "name": "Roz",
+   "from": "Monsters, Inc.",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Monsters, Inc.",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 3,
+   "pv": 124,
+   "img": "img/roz.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Roz"
+   }
+  },
+  {
+   "id": "russell",
+   "name": "Russell",
+   "from": "Up",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Up",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 37,
+   "pv": 32230,
+   "img": "img/russell.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Russell"
+   }
+  },
+  {
+   "id": "sadness",
+   "name": "Sadness",
+   "from": "Inside Out",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Inside Out",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 33,
+   "pv": 16609,
+   "img": "img/sadness.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Sadness"
+   }
+  },
+  {
+   "id": "sally-carrera",
+   "name": "Sally Carrera",
+   "from": "Cars",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Cars",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 68,
+   "pv": 77237,
+   "img": "img/sally-carrera.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Sally_Carrera"
+   }
+  },
+  {
+   "id": "slinky-dog",
+   "name": "Slinky Dog",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 39,
+   "pv": 32784,
+   "img": "img/slinky-dog.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Slinky_Dog"
+   }
+  },
+  {
+   "id": "sulley",
+   "name": "Sulley",
+   "from": "Monsters, Inc.",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Monsters, Inc.",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 90,
+   "pv": 215850,
+   "img": "img/sulley.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/James_P._Sullivan"
+   }
+  },
+  {
+   "id": "violet-parr",
+   "name": "Violet Parr",
+   "from": "The Incredibles",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 56,
+   "pv": 49709,
+   "img": "img/violet-parr.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Violet_Parr"
+   }
+  },
+  {
+   "id": "wall-e",
+   "name": "WALL-E",
+   "from": "WALL-E",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "WALL-E",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 66,
+   "pv": 73149,
+   "img": "img/wall-e.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/WALL-E_(character)"
+   }
+  },
+  {
+   "id": "woody",
+   "name": "Woody",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "pixar"
+   ],
+   "fame": 94,
+   "pv": 252452,
+   "img": "img/woody.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Woody"
+   }
+  }
+ ]
+}

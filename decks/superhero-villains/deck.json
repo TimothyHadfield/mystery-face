@@ -1,0 +1,1019 @@
+{
+ "id": "superhero-villains",
+ "title": "Superhero Villains",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "abomination",
+   "name": "Abomination",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Tim Roth",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 36,
+   "pv": 118090,
+   "img": "img/abomination.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Abomination"
+   }
+  },
+  {
+   "id": "apocalypse",
+   "name": "Apocalypse",
+   "from": "X-Men",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "X-Men",
+   "actor": "Oscar Isaac",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 100,
+   "pv": 570307,
+   "img": "img/apocalypse.webp",
+   "credit": {
+    "author": "20th Century Fox",
+    "license": "© owner, fan use",
+    "source": "https://marvel-movies.fandom.com/wiki/Apocalypse"
+   }
+  },
+  {
+   "id": "arnim-zola",
+   "name": "Arnim Zola",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Toby Jones",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 19,
+   "pv": 83188,
+   "img": "img/arnim-zola.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Arnim_Zola"
+   }
+  },
+  {
+   "id": "bane",
+   "name": "Bane",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Tom Hardy",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 91,
+   "pv": 357189,
+   "img": "img/bane.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Bane_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "black-manta",
+   "name": "Black Manta",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Yahya Abdul-Mateen II",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 27,
+   "pv": 105091,
+   "img": "img/black-manta.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Black_Manta"
+   }
+  },
+  {
+   "id": "catwoman",
+   "name": "Catwoman",
+   "from": "Batman Returns",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Batman Returns",
+   "actor": "Michelle Pfeiffer",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 14,
+   "pv": 35871,
+   "img": "img/catwoman.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Selina_Kyle_(Batman_Anthology)"
+   }
+  },
+  {
+   "id": "cheetah",
+   "name": "Cheetah",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Kristen Wiig",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 30,
+   "pv": 108201,
+   "img": "img/cheetah.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Cheetah"
+   }
+  },
+  {
+   "id": "darkseid",
+   "name": "Darkseid",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Ray Porter",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 85,
+   "pv": 325748,
+   "img": "img/darkseid.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Darkseid"
+   }
+  },
+  {
+   "id": "doctor-octopus",
+   "name": "Doctor Octopus",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Alfred Molina",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 65,
+   "pv": 244619,
+   "img": "img/doctor-octopus.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Doctor_Octopus"
+   }
+  },
+  {
+   "id": "doomsday",
+   "name": "Doomsday",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Robin Atkin Downes",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 80,
+   "pv": 280584,
+   "img": "img/doomsday.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Doomsday"
+   }
+  },
+  {
+   "id": "dormammu",
+   "name": "Dormammu",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Benedict Cumberbatch",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 41,
+   "pv": 124986,
+   "img": "img/dormammu.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Dormammu"
+   }
+  },
+  {
+   "id": "ego",
+   "name": "Ego",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Kurt Russell",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 3,
+   "pv": 23500,
+   "img": "img/ego.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Ego"
+   }
+  },
+  {
+   "id": "electro",
+   "name": "Electro",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Jamie Foxx",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 47,
+   "pv": 141229,
+   "img": "img/electro.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Electro"
+   }
+  },
+  {
+   "id": "enchantress",
+   "name": "Enchantress",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Cara Delevingne",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 32,
+   "pv": 109414,
+   "img": "img/enchantress.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Enchantress"
+   }
+  },
+  {
+   "id": "general-zod",
+   "name": "General Zod",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Michael Shannon",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 10,
+   "pv": 32231,
+   "img": "img/general-zod.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Dru-Zod"
+   }
+  },
+  {
+   "id": "gorr-the-god-butcher",
+   "name": "Gorr the God Butcher",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Christian Bale",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 60,
+   "pv": 230946,
+   "img": "img/gorr-the-god-butcher.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Gorr_the_God_Butcher"
+   }
+  },
+  {
+   "id": "green-goblin",
+   "name": "Green Goblin",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Willem Dafoe",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 74,
+   "pv": 257610,
+   "img": "img/green-goblin.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Green_Goblin"
+   }
+  },
+  {
+   "id": "harley-quinn",
+   "name": "Harley Quinn",
+   "from": "DC",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Margot Robbie",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 16,
+   "pv": 66275,
+   "img": "img/harley-quinn.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Harley_Quinn"
+   }
+  },
+  {
+   "id": "hela",
+   "name": "Hela",
+   "from": "Marvel",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Cate Blanchett",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 34,
+   "pv": 113736,
+   "img": "img/hela.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Hela"
+   }
+  },
+  {
+   "id": "helmut-zemo",
+   "name": "Helmut Zemo",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Daniel Brühl",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 23,
+   "pv": 98123,
+   "img": "img/helmut-zemo.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Baron_Zemo"
+   }
+  },
+  {
+   "id": "kang",
+   "name": "Kang",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Jonathan Majors",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 45,
+   "pv": 134310,
+   "img": "img/kang.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/He_Who_Remains"
+   }
+  },
+  {
+   "id": "killmonger",
+   "name": "Killmonger",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Michael B. Jordan",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 25,
+   "pv": 103049,
+   "img": "img/killmonger.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Erik_Killmonger"
+   }
+  },
+  {
+   "id": "kingpin",
+   "name": "Kingpin",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Vincent D'Onofrio",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 38,
+   "pv": 119657,
+   "img": "img/kingpin.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Kingpin"
+   }
+  },
+  {
+   "id": "lex-luthor",
+   "name": "Lex Luthor",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Jesse Eisenberg",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 5,
+   "pv": 24027,
+   "img": "img/lex-luthor.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Lex_Luthor"
+   }
+  },
+  {
+   "id": "loki",
+   "name": "Loki",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Tom Hiddleston",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 58,
+   "pv": 188244,
+   "img": "img/loki.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Loki"
+   }
+  },
+  {
+   "id": "magneto",
+   "name": "Magneto",
+   "from": "X-Men",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "X-Men",
+   "actor": "Ian McKellen",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 98,
+   "pv": 438180,
+   "img": "img/magneto.webp",
+   "credit": {
+    "author": "20th Century Fox",
+    "license": "© owner, fan use",
+    "source": "https://marvel-movies.fandom.com/wiki/Magneto"
+   }
+  },
+  {
+   "id": "mr-freeze",
+   "name": "Mr. Freeze",
+   "from": "Batman & Robin",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Batman & Robin",
+   "actor": "Arnold Schwarzenegger",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 52,
+   "pv": 155749,
+   "img": "img/mr-freeze.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Victor_Fries_(Batman_Anthology)"
+   }
+  },
+  {
+   "id": "mysterio",
+   "name": "Mysterio",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Jake Gyllenhaal",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 71,
+   "pv": 253993,
+   "img": "img/mysterio.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Mysterio"
+   }
+  },
+  {
+   "id": "obadiah-stane",
+   "name": "Obadiah Stane",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Jeff Bridges",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 12,
+   "pv": 33311,
+   "img": "img/obadiah-stane.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Iron_Monger"
+   }
+  },
+  {
+   "id": "poison-ivy",
+   "name": "Poison Ivy",
+   "from": "Batman & Robin",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Batman & Robin",
+   "actor": "Uma Thurman",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 78,
+   "pv": 270040,
+   "img": "img/poison-ivy.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Pamela_Isley_(Batman_Anthology)"
+   }
+  },
+  {
+   "id": "ra-s-al-ghul",
+   "name": "Ra's al Ghul",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Liam Neeson",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 93,
+   "pv": 378302,
+   "img": "img/ra-s-al-ghul.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Ra's_al_Ghul_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "red-skull",
+   "name": "Red Skull",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Hugo Weaving",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 56,
+   "pv": 177601,
+   "img": "img/red-skull.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Red_Skull"
+   }
+  },
+  {
+   "id": "ronan-the-accuser",
+   "name": "Ronan the Accuser",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Lee Pace",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 49,
+   "pv": 141751,
+   "img": "img/ronan-the-accuser.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Ronan_the_Accuser"
+   }
+  },
+  {
+   "id": "sabretooth",
+   "name": "Sabretooth",
+   "from": "X-Men",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "X-Men",
+   "actor": "Liev Schreiber",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 89,
+   "pv": 339873,
+   "img": "img/sabretooth.webp",
+   "credit": {
+    "author": "20th Century Fox",
+    "license": "© owner, fan use",
+    "source": "https://marvel-movies.fandom.com/wiki/Victor_Creed_(Earth-41578)"
+   }
+  },
+  {
+   "id": "sandman",
+   "name": "Sandman",
+   "from": "Spider-Man",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Spider-Man",
+   "actor": "Thomas Haden Church",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 1,
+   "pv": 23,
+   "img": "img/sandman.webp",
+   "credit": {
+    "author": "Sony Pictures",
+    "license": "© owner, fan use",
+    "source": "https://marvel-movies.fandom.com/wiki/Flint_Marko_(Earth-96283)"
+   }
+  },
+  {
+   "id": "scarecrow",
+   "name": "Scarecrow",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Cillian Murphy",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 67,
+   "pv": 249837,
+   "img": "img/scarecrow.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Jonathan_Crane_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "steppenwolf",
+   "name": "Steppenwolf",
+   "from": "DC",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "DC",
+   "actor": "Ciarán Hinds",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 21,
+   "pv": 95470,
+   "img": "img/steppenwolf.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dcextendeduniverse.fandom.com/wiki/Steppenwolf"
+   }
+  },
+  {
+   "id": "thanos",
+   "name": "Thanos",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Josh Brolin",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 54,
+   "pv": 174599,
+   "img": "img/thanos.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Thanos"
+   }
+  },
+  {
+   "id": "the-joker",
+   "name": "The Joker",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Heath Ledger",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 63,
+   "pv": 232164,
+   "img": "img/the-joker.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Joker_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "the-penguin",
+   "name": "The Penguin",
+   "from": "The Batman",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Batman",
+   "actor": "Colin Farrell",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 69,
+   "pv": 253079,
+   "img": "img/the-penguin.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Oswald_Cobblepot_(Prime_Earth)"
+   }
+  },
+  {
+   "id": "the-riddler",
+   "name": "The Riddler",
+   "from": "The Batman",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Batman",
+   "actor": "Paul Dano",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 76,
+   "pv": 268524,
+   "img": "img/the-riddler.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Edward_Nashton_(The_Batman_Saga)"
+   }
+  },
+  {
+   "id": "two-face",
+   "name": "Two-Face",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Dark Knight",
+   "actor": "Aaron Eckhart",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 87,
+   "pv": 330931,
+   "img": "img/two-face.webp",
+   "credit": {
+    "author": "Warner Bros. / DC",
+    "license": "© owner, fan use",
+    "source": "https://dc.fandom.com/wiki/Harvey_Dent_(Dark_Knight_Trilogy)"
+   }
+  },
+  {
+   "id": "ultron",
+   "name": "Ultron",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "James Spader",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 82,
+   "pv": 295256,
+   "img": "img/ultron.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Ultron"
+   }
+  },
+  {
+   "id": "venom",
+   "name": "Venom",
+   "from": "Spider-Man",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Spider-Man",
+   "actor": "Tom Hardy",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 96,
+   "pv": 432738,
+   "img": "img/venom.webp",
+   "credit": {
+    "author": "Sony Pictures",
+    "license": "© owner, fan use",
+    "source": "https://marvel-movies.fandom.com/wiki/Edward_Brock"
+   }
+  },
+  {
+   "id": "vulture",
+   "name": "Vulture",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Michael Keaton",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 43,
+   "pv": 126467,
+   "img": "img/vulture.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Vulture"
+   }
+  },
+  {
+   "id": "whiplash",
+   "name": "Whiplash",
+   "from": "Marvel",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Marvel",
+   "actor": "Mickey Rourke",
+   "tags": [
+    "character",
+    "superhero-villains"
+   ],
+   "fame": 8,
+   "pv": 28595,
+   "img": "img/whiplash.webp",
+   "credit": {
+    "author": "Marvel Studios",
+    "license": "© owner, fan use",
+    "source": "https://marvelcinematicuniverse.fandom.com/wiki/Whiplash"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1162 @@
+{
+ "id": "pokemon",
+ "title": "Pokémon",
+ "cat": "games",
+ "people": [
+  {
+   "id": "arcanine",
+   "name": "Arcanine",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 8,
+   "pv": 1362,
+   "img": "img/arcanine.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Arcanine"
+   }
+  },
+  {
+   "id": "arceus",
+   "name": "Arceus",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 56,
+   "pv": 45411,
+   "img": "img/arceus.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Arceus"
+   }
+  },
+  {
+   "id": "articuno",
+   "name": "Articuno",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 21,
+   "pv": 3521,
+   "img": "img/articuno.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Articuno"
+   }
+  },
+  {
+   "id": "ash-ketchum",
+   "name": "Ash Ketchum",
+   "from": "Pokémon",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 98,
+   "pv": 257663,
+   "img": "img/ash-ketchum.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Ash_Ketchum"
+   }
+  },
+  {
+   "id": "bidoof",
+   "name": "Bidoof",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 6,
+   "pv": 1276,
+   "img": "img/bidoof.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Bidoof"
+   }
+  },
+  {
+   "id": "blastoise",
+   "name": "Blastoise",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 60,
+   "pv": 50998,
+   "img": "img/blastoise.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Blastoise"
+   }
+  },
+  {
+   "id": "blaziken",
+   "name": "Blaziken",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 45,
+   "pv": 26632,
+   "img": "img/blaziken.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Blaziken"
+   }
+  },
+  {
+   "id": "brock",
+   "name": "Brock",
+   "from": "Pokémon",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 69,
+   "pv": 75515,
+   "img": "img/brock.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Brock"
+   }
+  },
+  {
+   "id": "bulbasaur",
+   "name": "Bulbasaur",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 96,
+   "pv": 246011,
+   "img": "img/bulbasaur.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Bulbasaur"
+   }
+  },
+  {
+   "id": "celebi",
+   "name": "Celebi",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 25,
+   "pv": 4335,
+   "img": "img/celebi.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Celebi"
+   }
+  },
+  {
+   "id": "charizard",
+   "name": "Charizard",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 94,
+   "pv": 197552,
+   "img": "img/charizard.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Charizard"
+   }
+  },
+  {
+   "id": "charmander",
+   "name": "Charmander",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 80,
+   "pv": 103643,
+   "img": "img/charmander.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Charmander"
+   }
+  },
+  {
+   "id": "cubone",
+   "name": "Cubone",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 63,
+   "pv": 69936,
+   "img": "img/cubone.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Cubone"
+   }
+  },
+  {
+   "id": "ditto",
+   "name": "Ditto",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 76,
+   "pv": 88198,
+   "img": "img/ditto.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Ditto"
+   }
+  },
+  {
+   "id": "dragonite",
+   "name": "Dragonite",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 67,
+   "pv": 71671,
+   "img": "img/dragonite.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Dragonite"
+   }
+  },
+  {
+   "id": "eevee",
+   "name": "Eevee",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 87,
+   "pv": 152168,
+   "img": "img/eevee.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Eevee"
+   }
+  },
+  {
+   "id": "garchomp",
+   "name": "Garchomp",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 54,
+   "pv": 36495,
+   "img": "img/garchomp.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Garchomp"
+   }
+  },
+  {
+   "id": "gardevoir",
+   "name": "Gardevoir",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 62,
+   "pv": 69532,
+   "img": "img/gardevoir.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Gardevoir"
+   }
+  },
+  {
+   "id": "gengar",
+   "name": "Gengar",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 84,
+   "pv": 108126,
+   "img": "img/gengar.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Gengar"
+   }
+  },
+  {
+   "id": "greninja",
+   "name": "Greninja",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 32,
+   "pv": 6478,
+   "img": "img/greninja.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Greninja"
+   }
+  },
+  {
+   "id": "gyarados",
+   "name": "Gyarados",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 27,
+   "pv": 4556,
+   "img": "img/gyarados.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Gyarados"
+   }
+  },
+  {
+   "id": "jigglypuff",
+   "name": "Jigglypuff",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 82,
+   "pv": 107718,
+   "img": "img/jigglypuff.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Jigglypuff"
+   }
+  },
+  {
+   "id": "jirachi",
+   "name": "Jirachi",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 52,
+   "pv": 35255,
+   "img": "img/jirachi.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Jirachi"
+   }
+  },
+  {
+   "id": "lapras",
+   "name": "Lapras",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 10,
+   "pv": 2087,
+   "img": "img/lapras.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Lapras"
+   }
+  },
+  {
+   "id": "lucario",
+   "name": "Lucario",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 78,
+   "pv": 97553,
+   "img": "img/lucario.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Lucario"
+   }
+  },
+  {
+   "id": "lugia",
+   "name": "Lugia",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 41,
+   "pv": 8127,
+   "img": "img/lugia.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Lugia"
+   }
+  },
+  {
+   "id": "machamp",
+   "name": "Machamp",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 3,
+   "pv": 1131,
+   "img": "img/machamp.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Machamp"
+   }
+  },
+  {
+   "id": "magikarp",
+   "name": "Magikarp",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 12,
+   "pv": 2463,
+   "img": "img/magikarp.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Magikarp"
+   }
+  },
+  {
+   "id": "meowth",
+   "name": "Meowth",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 65,
+   "pv": 69951,
+   "img": "img/meowth.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Meowth"
+   }
+  },
+  {
+   "id": "mew",
+   "name": "Mew",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 85,
+   "pv": 150688,
+   "img": "img/mew.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Mew"
+   }
+  },
+  {
+   "id": "mewtwo",
+   "name": "Mewtwo",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 93,
+   "pv": 182380,
+   "img": "img/mewtwo.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Mewtwo"
+   }
+  },
+  {
+   "id": "mimikyu",
+   "name": "Mimikyu",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 91,
+   "pv": 181411,
+   "img": "img/mimikyu.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Mimikyu"
+   }
+  },
+  {
+   "id": "misty",
+   "name": "Misty",
+   "from": "Pokémon",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 72,
+   "pv": 82567,
+   "img": "img/misty.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Misty"
+   }
+  },
+  {
+   "id": "onix",
+   "name": "Onix",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 5,
+   "pv": 1170,
+   "img": "img/onix.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Onix"
+   }
+  },
+  {
+   "id": "pichu",
+   "name": "Pichu",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 43,
+   "pv": 13878,
+   "img": "img/pichu.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Pichu"
+   }
+  },
+  {
+   "id": "pikachu",
+   "name": "Pikachu",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 100,
+   "pv": 854462,
+   "img": "img/pikachu.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Pikachu"
+   }
+  },
+  {
+   "id": "piplup",
+   "name": "Piplup",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 18,
+   "pv": 2862,
+   "img": "img/piplup.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Piplup"
+   }
+  },
+  {
+   "id": "professor-oak",
+   "name": "Professor Oak",
+   "from": "Pokémon",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 47,
+   "pv": 26732,
+   "img": "img/professor-oak.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Professor_Oak"
+   }
+  },
+  {
+   "id": "psyduck",
+   "name": "Psyduck",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 74,
+   "pv": 85709,
+   "img": "img/psyduck.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Psyduck"
+   }
+  },
+  {
+   "id": "rayquaza",
+   "name": "Rayquaza",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 34,
+   "pv": 6590,
+   "img": "img/rayquaza.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Rayquaza"
+   }
+  },
+  {
+   "id": "rowlet",
+   "name": "Rowlet",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 14,
+   "pv": 2602,
+   "img": "img/rowlet.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Rowlet"
+   }
+  },
+  {
+   "id": "slowpoke",
+   "name": "Slowpoke",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 58,
+   "pv": 47328,
+   "img": "img/slowpoke.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Slowpoke"
+   }
+  },
+  {
+   "id": "snorlax",
+   "name": "Snorlax",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 89,
+   "pv": 155112,
+   "img": "img/snorlax.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Snorlax"
+   }
+  },
+  {
+   "id": "sprigatito",
+   "name": "Sprigatito",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 49,
+   "pv": 30698,
+   "img": "img/sprigatito.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Sprigatito"
+   }
+  },
+  {
+   "id": "squirtle",
+   "name": "Squirtle",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 71,
+   "pv": 78480,
+   "img": "img/squirtle.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Squirtle"
+   }
+  },
+  {
+   "id": "sylveon",
+   "name": "Sylveon",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 30,
+   "pv": 6450,
+   "img": "img/sylveon.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Sylveon"
+   }
+  },
+  {
+   "id": "team-rocket-s-james",
+   "name": "Team Rocket's James",
+   "from": "Pokémon",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 36,
+   "pv": 6611,
+   "img": "img/team-rocket-s-james.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/James"
+   }
+  },
+  {
+   "id": "team-rocket-s-jessie",
+   "name": "Team Rocket's Jessie",
+   "from": "Pokémon",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 38,
+   "pv": 6611,
+   "img": "img/team-rocket-s-jessie.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Jessie"
+   }
+  },
+  {
+   "id": "togepi",
+   "name": "Togepi",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 23,
+   "pv": 3650,
+   "img": "img/togepi.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Togepi"
+   }
+  },
+  {
+   "id": "tyranitar",
+   "name": "Tyranitar",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 1,
+   "pv": 898,
+   "img": "img/tyranitar.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Tyranitar"
+   }
+  },
+  {
+   "id": "umbreon",
+   "name": "Umbreon",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 19,
+   "pv": 2991,
+   "img": "img/umbreon.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Umbreon"
+   }
+  },
+  {
+   "id": "vaporeon",
+   "name": "Vaporeon",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 40,
+   "pv": 7544,
+   "img": "img/vaporeon.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Vaporeon"
+   }
+  },
+  {
+   "id": "venusaur",
+   "name": "Venusaur",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 28,
+   "pv": 5904,
+   "img": "img/venusaur.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Venusaur"
+   }
+  },
+  {
+   "id": "wooper",
+   "name": "Wooper",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 50,
+   "pv": 35026,
+   "img": "img/wooper.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Wooper"
+   }
+  },
+  {
+   "id": "zapdos",
+   "name": "Zapdos",
+   "from": "Pokémon",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pokémon",
+   "tags": [
+    "character",
+    "pokemon"
+   ],
+   "fame": 16,
+   "pv": 2795,
+   "img": "img/zapdos.webp",
+   "credit": {
+    "author": "The Pokémon Company / Nintendo",
+    "license": "© owner, fan use",
+    "source": "https://pokemon.fandom.com/wiki/Zapdos"
+   }
+  }
+ ]
+}

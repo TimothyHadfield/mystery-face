@@ -1,0 +1,863 @@
+{
+ "id": "lord-of-the-rings",
+ "title": "Lord of the Rings & Hobbit",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "aragorn",
+   "name": "Aragorn",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Viggo Mortensen",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 95,
+   "pv": 494389,
+   "img": "img/aragorn.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Aragorn"
+   }
+  },
+  {
+   "id": "arwen",
+   "name": "Arwen",
+   "from": "The Lord of the Rings",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Liv Tyler",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 90,
+   "pv": 237893,
+   "img": "img/arwen.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Arwen"
+   }
+  },
+  {
+   "id": "azog",
+   "name": "Azog",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Manu Bennett",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 6,
+   "pv": 6732,
+   "img": "img/azog.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Azog"
+   }
+  },
+  {
+   "id": "balin",
+   "name": "Balin",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Ken Stott",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 1,
+   "pv": 1622,
+   "img": "img/balin.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Balin"
+   }
+  },
+  {
+   "id": "bard-the-bowman",
+   "name": "Bard the Bowman",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Luke Evans",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 27,
+   "pv": 61837,
+   "img": "img/bard-the-bowman.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Bard"
+   }
+  },
+  {
+   "id": "beorn",
+   "name": "Beorn",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Mikael Persbrandt",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 30,
+   "pv": 68117,
+   "img": "img/beorn.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Beorn"
+   }
+  },
+  {
+   "id": "bilbo-baggins",
+   "name": "Bilbo Baggins",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Ian Holm",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 77,
+   "pv": 194933,
+   "img": "img/bilbo-baggins.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Bilbo_Baggins"
+   }
+  },
+  {
+   "id": "boromir",
+   "name": "Boromir",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Sean Bean",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 64,
+   "pv": 163289,
+   "img": "img/boromir.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Boromir"
+   }
+  },
+  {
+   "id": "celeborn",
+   "name": "Celeborn",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Marton Csokas",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 17,
+   "pv": 56866,
+   "img": "img/celeborn.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Celeborn"
+   }
+  },
+  {
+   "id": "dwalin",
+   "name": "Dwalin",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Graham McTavish",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 19,
+   "pv": 59688,
+   "img": "img/dwalin.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Dwalin"
+   }
+  },
+  {
+   "id": "elrond",
+   "name": "Elrond",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Hugo Weaving",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 79,
+   "pv": 213302,
+   "img": "img/elrond.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Elrond"
+   }
+  },
+  {
+   "id": "faramir",
+   "name": "Faramir",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "David Wenham",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 50,
+   "pv": 135678,
+   "img": "img/faramir.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Faramir"
+   }
+  },
+  {
+   "id": "frodo-baggins",
+   "name": "Frodo Baggins",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Elijah Wood",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 82,
+   "pv": 214368,
+   "img": "img/frodo-baggins.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Frodo_Baggins"
+   }
+  },
+  {
+   "id": "fili",
+   "name": "Fíli",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Dean O'Gorman",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 22,
+   "pv": 59688,
+   "img": "img/fili.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/F%C3%ADli"
+   }
+  },
+  {
+   "id": "galadriel",
+   "name": "Galadriel",
+   "from": "The Lord of the Rings",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Cate Blanchett",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 4,
+   "pv": 3245,
+   "img": "img/galadriel.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Galadriel"
+   }
+  },
+  {
+   "id": "gandalf",
+   "name": "Gandalf",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Ian McKellen",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 92,
+   "pv": 408917,
+   "img": "img/gandalf.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Gandalf"
+   }
+  },
+  {
+   "id": "gimli",
+   "name": "Gimli",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "John Rhys-Davies",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 45,
+   "pv": 128887,
+   "img": "img/gimli.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Gimli"
+   }
+  },
+  {
+   "id": "gollum",
+   "name": "Gollum",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Andy Serkis",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 100,
+   "pv": 583469,
+   "img": "img/gollum.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Gollum"
+   }
+  },
+  {
+   "id": "grima-wormtongue",
+   "name": "Gríma Wormtongue",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Brad Dourif",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 53,
+   "pv": 136497,
+   "img": "img/grima-wormtongue.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://lotr.fandom.com/wiki/Gr%C3%ADma"
+   }
+  },
+  {
+   "id": "haldir",
+   "name": "Haldir",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Craig Parker",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 9,
+   "pv": 12742,
+   "img": "img/haldir.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Haldir"
+   }
+  },
+  {
+   "id": "isildur",
+   "name": "Isildur",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Harry Sinclair",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 61,
+   "pv": 158896,
+   "img": "img/isildur.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Isildur"
+   }
+  },
+  {
+   "id": "kili",
+   "name": "Kíli",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Aidan Turner",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 24,
+   "pv": 59688,
+   "img": "img/kili.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/K%C3%ADli"
+   }
+  },
+  {
+   "id": "legolas",
+   "name": "Legolas",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Orlando Bloom",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 69,
+   "pv": 165380,
+   "img": "img/legolas.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Legolas"
+   }
+  },
+  {
+   "id": "merry",
+   "name": "Merry",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Dominic Monaghan",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 35,
+   "pv": 81730,
+   "img": "img/merry.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Merry_Brandybuck"
+   }
+  },
+  {
+   "id": "pippin",
+   "name": "Pippin",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Billy Boyd",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 32,
+   "pv": 75633,
+   "img": "img/pippin.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Pippin_Took"
+   }
+  },
+  {
+   "id": "radagast",
+   "name": "Radagast",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Sylvester McCoy",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 40,
+   "pv": 92900,
+   "img": "img/radagast.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Radagast"
+   }
+  },
+  {
+   "id": "rosie-cotton",
+   "name": "Rosie Cotton",
+   "from": "The Lord of the Rings",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Sarah McLeod",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 11,
+   "pv": 13273,
+   "img": "img/rosie-cotton.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Rosie_Cotton"
+   }
+  },
+  {
+   "id": "samwise-gamgee",
+   "name": "Samwise Gamgee",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Sean Astin",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 66,
+   "pv": 164625,
+   "img": "img/samwise-gamgee.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Samwise_Gamgee"
+   }
+  },
+  {
+   "id": "saruman",
+   "name": "Saruman",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Christopher Lee",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 87,
+   "pv": 222577,
+   "img": "img/saruman.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Saruman"
+   }
+  },
+  {
+   "id": "sauron",
+   "name": "Sauron",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 97,
+   "pv": 582055,
+   "img": "img/sauron.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Sauron"
+   }
+  },
+  {
+   "id": "smaug",
+   "name": "Smaug",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Benedict Cumberbatch",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 56,
+   "pv": 139654,
+   "img": "img/smaug.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Smaug"
+   }
+  },
+  {
+   "id": "tauriel",
+   "name": "Tauriel",
+   "from": "The Hobbit",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Evangeline Lilly",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 37,
+   "pv": 90412,
+   "img": "img/tauriel.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Tauriel"
+   }
+  },
+  {
+   "id": "thorin-oakenshield",
+   "name": "Thorin Oakenshield",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Richard Armitage",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 48,
+   "pv": 130959,
+   "img": "img/thorin-oakenshield.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Thorin_Oakenshield"
+   }
+  },
+  {
+   "id": "thranduil",
+   "name": "Thranduil",
+   "from": "The Hobbit",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Hobbit",
+   "actor": "Lee Pace",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 74,
+   "pv": 189421,
+   "img": "img/thranduil.webp",
+   "credit": {
+    "author": "New Line Cinema / Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Thranduil"
+   }
+  },
+  {
+   "id": "theoden",
+   "name": "Théoden",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Bernard Hill",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 43,
+   "pv": 97033,
+   "img": "img/theoden.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Th%C3%A9oden"
+   }
+  },
+  {
+   "id": "treebeard",
+   "name": "Treebeard",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "John Rhys-Davies",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 14,
+   "pv": 52783,
+   "img": "img/treebeard.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Treebeard"
+   }
+  },
+  {
+   "id": "witch-king-of-angmar",
+   "name": "Witch-king of Angmar",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 58,
+   "pv": 152252,
+   "img": "img/witch-king-of-angmar.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/Witch-king_of_Angmar"
+   }
+  },
+  {
+   "id": "eomer",
+   "name": "Éomer",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Karl Urban",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 71,
+   "pv": 166217,
+   "img": "img/eomer.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/%C3%89omer"
+   }
+  },
+  {
+   "id": "eowyn",
+   "name": "Éowyn",
+   "from": "The Lord of the Rings",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "The Lord of the Rings",
+   "actor": "Miranda Otto",
+   "tags": [
+    "character",
+    "lord-of-the-rings"
+   ],
+   "fame": 84,
+   "pv": 215833,
+   "img": "img/eowyn.webp",
+   "credit": {
+    "author": "New Line Cinema",
+    "license": "© owner, fan use",
+    "source": "https://middle-earth-film-saga.fandom.com/wiki/%C3%89owyn"
+   }
+  }
+ ]
+}

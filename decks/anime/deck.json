@@ -1,0 +1,1099 @@
+{
+ "id": "anime",
+ "title": "Anime",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "all-might",
+   "name": "All Might",
+   "from": "My Hero Academia",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "My Hero Academia",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 9,
+   "pv": 22392,
+   "img": "img/all-might.webp",
+   "credit": {
+    "author": "Bones / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://bokunoheroacademia.fandom.com/wiki/Toshinori_Yagi"
+   }
+  },
+  {
+   "id": "alphonse-elric",
+   "name": "Alphonse Elric",
+   "from": "Fullmetal Alchemist",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fullmetal Alchemist",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 13,
+   "pv": 34769,
+   "img": "img/alphonse-elric.webp",
+   "credit": {
+    "author": "Bones / Square Enix",
+    "license": "© owner, fan use",
+    "source": "https://fma.fandom.com/wiki/Alphonse_Elric"
+   }
+  },
+  {
+   "id": "anya-forger",
+   "name": "Anya Forger",
+   "from": "Spy x Family",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Spy x Family",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 15,
+   "pv": 37010,
+   "img": "img/anya-forger.webp",
+   "credit": {
+    "author": "Wit Studio / CloverWorks / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://spy-x-family.fandom.com/wiki/Anya_Forger"
+   }
+  },
+  {
+   "id": "bulma",
+   "name": "Bulma",
+   "from": "Dragon Ball",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dragon Ball",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 30,
+   "pv": 87446,
+   "img": "img/bulma.webp",
+   "credit": {
+    "author": "Toei Animation / Bird Studio",
+    "license": "© owner, fan use",
+    "source": "https://dragonball.fandom.com/wiki/Bulma"
+   }
+  },
+  {
+   "id": "calcifer",
+   "name": "Calcifer",
+   "from": "Studio Ghibli",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Studio Ghibli",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 96,
+   "pv": 824137,
+   "img": "img/calcifer.webp",
+   "credit": {
+    "author": "Studio Ghibli",
+    "license": "© owner, fan use",
+    "source": "https://ghibli.fandom.com/wiki/Calcifer"
+   }
+  },
+  {
+   "id": "chihiro",
+   "name": "Chihiro",
+   "from": "Studio Ghibli",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Studio Ghibli",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 5,
+   "pv": 5161,
+   "img": "img/chihiro.webp",
+   "credit": {
+    "author": "Studio Ghibli",
+    "license": "© owner, fan use",
+    "source": "https://ghibli.fandom.com/wiki/Chihiro_Ogino"
+   }
+  },
+  {
+   "id": "denji",
+   "name": "Denji",
+   "from": "Chainsaw Man",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Chainsaw Man",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 34,
+   "pv": 92821,
+   "img": "img/denji.webp",
+   "credit": {
+    "author": "MAPPA / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://chainsaw-man.fandom.com/wiki/Denji"
+   }
+  },
+  {
+   "id": "doraemon",
+   "name": "Doraemon",
+   "from": "Doraemon",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Doraemon",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 86,
+   "pv": 539933,
+   "img": "img/doraemon.webp",
+   "credit": {
+    "author": "Shin-Ei Animation / Shogakukan",
+    "license": "© owner, fan use",
+    "source": "https://doraemon.fandom.com/wiki/Doraemon"
+   }
+  },
+  {
+   "id": "edward-elric",
+   "name": "Edward Elric",
+   "from": "Fullmetal Alchemist",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fullmetal Alchemist",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 17,
+   "pv": 45241,
+   "img": "img/edward-elric.webp",
+   "credit": {
+    "author": "Bones / Square Enix",
+    "license": "© owner, fan use",
+    "source": "https://fma.fandom.com/wiki/Edward_Elric"
+   }
+  },
+  {
+   "id": "eren-yeager",
+   "name": "Eren Yeager",
+   "from": "Attack on Titan",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Attack on Titan",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 79,
+   "pv": 302074,
+   "img": "img/eren-yeager.webp",
+   "credit": {
+    "author": "Wit Studio / Kodansha",
+    "license": "© owner, fan use",
+    "source": "https://attackontitan.fandom.com/wiki/Eren_Yeager"
+   }
+  },
+  {
+   "id": "frieren",
+   "name": "Frieren",
+   "from": "Frieren",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Frieren",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 100,
+   "pv": 1430592,
+   "img": "img/frieren.webp",
+   "credit": {
+    "author": "Madhouse / Shogakukan",
+    "license": "© owner, fan use",
+    "source": "https://frieren.fandom.com/wiki/Frieren"
+   }
+  },
+  {
+   "id": "frieza",
+   "name": "Frieza",
+   "from": "Dragon Ball",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dragon Ball",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 40,
+   "pv": 103779,
+   "img": "img/frieza.webp",
+   "credit": {
+    "author": "Toei Animation / Bird Studio",
+    "license": "© owner, fan use",
+    "source": "https://dragonball.fandom.com/wiki/Frieza"
+   }
+  },
+  {
+   "id": "gohan",
+   "name": "Gohan",
+   "from": "Dragon Ball",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dragon Ball",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 26,
+   "pv": 80026,
+   "img": "img/gohan.webp",
+   "credit": {
+    "author": "Toei Animation / Bird Studio",
+    "license": "© owner, fan use",
+    "source": "https://dragonball.fandom.com/wiki/Gohan"
+   }
+  },
+  {
+   "id": "goku",
+   "name": "Goku",
+   "from": "Dragon Ball",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dragon Ball",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 81,
+   "pv": 362355,
+   "img": "img/goku.webp",
+   "credit": {
+    "author": "Toei Animation / Bird Studio",
+    "license": "© owner, fan use",
+    "source": "https://dragonball.fandom.com/wiki/Goku"
+   }
+  },
+  {
+   "id": "gon-freecss",
+   "name": "Gon Freecss",
+   "from": "Hunter x Hunter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hunter x Hunter",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 18,
+   "pv": 52114,
+   "img": "img/gon-freecss.webp",
+   "credit": {
+    "author": "Madhouse / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://hunterxhunter.fandom.com/wiki/Gon_Freecss"
+   }
+  },
+  {
+   "id": "hinata-hyuga",
+   "name": "Hinata Hyūga",
+   "from": "Naruto",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Naruto",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 38,
+   "pv": 96581,
+   "img": "img/hinata-hyuga.webp",
+   "credit": {
+    "author": "Pierrot / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://naruto.fandom.com/wiki/Hinata_Hy%C5%ABga"
+   }
+  },
+  {
+   "id": "howl",
+   "name": "Howl",
+   "from": "Studio Ghibli",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Studio Ghibli",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 98,
+   "pv": 867513,
+   "img": "img/howl.webp",
+   "credit": {
+    "author": "Studio Ghibli",
+    "license": "© owner, fan use",
+    "source": "https://ghibli.fandom.com/wiki/Howl_Jenkins_Pendragon"
+   }
+  },
+  {
+   "id": "inosuke-hashibira",
+   "name": "Inosuke Hashibira",
+   "from": "Demon Slayer",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Demon Slayer",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 3,
+   "pv": 1334,
+   "img": "img/inosuke-hashibira.webp",
+   "credit": {
+    "author": "ufotable / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://kimetsu-no-yaiba.fandom.com/wiki/Inosuke_Hashibira"
+   }
+  },
+  {
+   "id": "itachi-uchiha",
+   "name": "Itachi Uchiha",
+   "from": "Naruto",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Naruto",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 57,
+   "pv": 142715,
+   "img": "img/itachi-uchiha.webp",
+   "credit": {
+    "author": "Pierrot / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://naruto.fandom.com/wiki/Itachi_Uchiha"
+   }
+  },
+  {
+   "id": "izuku-midoriya",
+   "name": "Izuku Midoriya",
+   "from": "My Hero Academia",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "My Hero Academia",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 67,
+   "pv": 185280,
+   "img": "img/izuku-midoriya.webp",
+   "credit": {
+    "author": "Bones / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://bokunoheroacademia.fandom.com/wiki/Izuku_Midoriya"
+   }
+  },
+  {
+   "id": "kakashi-hatake",
+   "name": "Kakashi Hatake",
+   "from": "Naruto",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Naruto",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 46,
+   "pv": 119233,
+   "img": "img/kakashi-hatake.webp",
+   "credit": {
+    "author": "Pierrot / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://naruto.fandom.com/wiki/Kakashi_Hatake"
+   }
+  },
+  {
+   "id": "katsuki-bakugo",
+   "name": "Katsuki Bakugo",
+   "from": "My Hero Academia",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "My Hero Academia",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 55,
+   "pv": 137379,
+   "img": "img/katsuki-bakugo.webp",
+   "credit": {
+    "author": "Bones / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://bokunoheroacademia.fandom.com/wiki/Katsuki_Bakugo"
+   }
+  },
+  {
+   "id": "kiki",
+   "name": "Kiki",
+   "from": "Studio Ghibli",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Studio Ghibli",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 88,
+   "pv": 555247,
+   "img": "img/kiki.webp",
+   "credit": {
+    "author": "Studio Ghibli",
+    "license": "© owner, fan use",
+    "source": "https://ghibli.fandom.com/wiki/Kiki"
+   }
+  },
+  {
+   "id": "killua-zoldyck",
+   "name": "Killua Zoldyck",
+   "from": "Hunter x Hunter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hunter x Hunter",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 20,
+   "pv": 60726,
+   "img": "img/killua-zoldyck.webp",
+   "credit": {
+    "author": "Madhouse / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://hunterxhunter.fandom.com/wiki/Killua_Zoldyck"
+   }
+  },
+  {
+   "id": "l",
+   "name": "L",
+   "from": "Death Note",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Death Note",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 69,
+   "pv": 205230,
+   "img": "img/l.webp",
+   "credit": {
+    "author": "Madhouse / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://deathnote.fandom.com/wiki/L_(character)"
+   }
+  },
+  {
+   "id": "levi",
+   "name": "Levi",
+   "from": "Attack on Titan",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Attack on Titan",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 53,
+   "pv": 137300,
+   "img": "img/levi.webp",
+   "credit": {
+    "author": "Wit Studio / Kodansha",
+    "license": "© owner, fan use",
+    "source": "https://attackontitan.fandom.com/wiki/Levi_Ackerman"
+   }
+  },
+  {
+   "id": "light-yagami",
+   "name": "Light Yagami",
+   "from": "Death Note",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Death Note",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 65,
+   "pv": 176062,
+   "img": "img/light-yagami.webp",
+   "credit": {
+    "author": "Madhouse / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://deathnote.fandom.com/wiki/Light_Yagami"
+   }
+  },
+  {
+   "id": "loid-forger",
+   "name": "Loid Forger",
+   "from": "Spy x Family",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Spy x Family",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 11,
+   "pv": 22427,
+   "img": "img/loid-forger.webp",
+   "credit": {
+    "author": "Wit Studio / CloverWorks / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://spy-x-family.fandom.com/wiki/Loid_Forger"
+   }
+  },
+  {
+   "id": "mikasa-ackerman",
+   "name": "Mikasa Ackerman",
+   "from": "Attack on Titan",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Attack on Titan",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 44,
+   "pv": 115385,
+   "img": "img/mikasa-ackerman.webp",
+   "credit": {
+    "author": "Wit Studio / Kodansha",
+    "license": "© owner, fan use",
+    "source": "https://attackontitan.fandom.com/wiki/Mikasa_Ackerman"
+   }
+  },
+  {
+   "id": "monkey-d-luffy",
+   "name": "Monkey D. Luffy",
+   "from": "One Piece",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "One Piece",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 90,
+   "pv": 646705,
+   "img": "img/monkey-d-luffy.webp",
+   "credit": {
+    "author": "Toei Animation / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://onepiece.fandom.com/wiki/Monkey_D._Luffy"
+   }
+  },
+  {
+   "id": "nami",
+   "name": "Nami",
+   "from": "One Piece",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "One Piece",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 71,
+   "pv": 216553,
+   "img": "img/nami.webp",
+   "credit": {
+    "author": "Toei Animation / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://onepiece.fandom.com/wiki/Nami"
+   }
+  },
+  {
+   "id": "naruto-uzumaki",
+   "name": "Naruto Uzumaki",
+   "from": "Naruto",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Naruto",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 59,
+   "pv": 152083,
+   "img": "img/naruto-uzumaki.webp",
+   "credit": {
+    "author": "Pierrot / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://naruto.fandom.com/wiki/Naruto_Uzumaki"
+   }
+  },
+  {
+   "id": "nezuko-kamado",
+   "name": "Nezuko Kamado",
+   "from": "Demon Slayer",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Demon Slayer",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 51,
+   "pv": 131401,
+   "img": "img/nezuko-kamado.webp",
+   "credit": {
+    "author": "ufotable / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://kimetsu-no-yaiba.fandom.com/wiki/Nezuko_Kamado"
+   }
+  },
+  {
+   "id": "no-face",
+   "name": "No-Face",
+   "from": "Studio Ghibli",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Studio Ghibli",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 1,
+   "pv": 641,
+   "img": "img/no-face.webp",
+   "credit": {
+    "author": "Studio Ghibli",
+    "license": "© owner, fan use",
+    "source": "https://ghibli.fandom.com/wiki/No-Face"
+   }
+  },
+  {
+   "id": "piccolo",
+   "name": "Piccolo",
+   "from": "Dragon Ball",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dragon Ball",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 28,
+   "pv": 80654,
+   "img": "img/piccolo.webp",
+   "credit": {
+    "author": "Toei Animation / Bird Studio",
+    "license": "© owner, fan use",
+    "source": "https://dragonball.fandom.com/wiki/Piccolo"
+   }
+  },
+  {
+   "id": "ponyo",
+   "name": "Ponyo",
+   "from": "Studio Ghibli",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Studio Ghibli",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 83,
+   "pv": 512838,
+   "img": "img/ponyo.webp",
+   "credit": {
+    "author": "Studio Ghibli",
+    "license": "© owner, fan use",
+    "source": "https://ghibli.fandom.com/wiki/Ponyo"
+   }
+  },
+  {
+   "id": "roronoa-zoro",
+   "name": "Roronoa Zoro",
+   "from": "One Piece",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "One Piece",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 73,
+   "pv": 255530,
+   "img": "img/roronoa-zoro.webp",
+   "credit": {
+    "author": "Toei Animation / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://onepiece.fandom.com/wiki/Roronoa_Zoro"
+   }
+  },
+  {
+   "id": "ryuk",
+   "name": "Ryuk",
+   "from": "Death Note",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Death Note",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 32,
+   "pv": 91565,
+   "img": "img/ryuk.webp",
+   "credit": {
+    "author": "Madhouse / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://deathnote.fandom.com/wiki/Ryuk"
+   }
+  },
+  {
+   "id": "sailor-moon",
+   "name": "Sailor Moon",
+   "from": "Sailor Moon",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sailor Moon",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 42,
+   "pv": 111861,
+   "img": "img/sailor-moon.webp",
+   "credit": {
+    "author": "Toei Animation / Kodansha",
+    "license": "© owner, fan use",
+    "source": "https://sailormoon.fandom.com/wiki/Usagi_Tsukino_/_Sailor_Moon_(manga)"
+   }
+  },
+  {
+   "id": "saitama",
+   "name": "Saitama",
+   "from": "One-Punch Man",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "One-Punch Man",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 36,
+   "pv": 93579,
+   "img": "img/saitama.webp",
+   "credit": {
+    "author": "Madhouse / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://onepunchman.fandom.com/wiki/Saitama"
+   }
+  },
+  {
+   "id": "sakura-haruno",
+   "name": "Sakura Haruno",
+   "from": "Naruto",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Naruto",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 22,
+   "pv": 65088,
+   "img": "img/sakura-haruno.webp",
+   "credit": {
+    "author": "Pierrot / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://naruto.fandom.com/wiki/Sakura_Haruno"
+   }
+  },
+  {
+   "id": "san",
+   "name": "San",
+   "from": "Studio Ghibli",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Studio Ghibli",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 92,
+   "pv": 778268,
+   "img": "img/san.webp",
+   "credit": {
+    "author": "Studio Ghibli",
+    "license": "© owner, fan use",
+    "source": "https://ghibli.fandom.com/wiki/San"
+   }
+  },
+  {
+   "id": "sanji",
+   "name": "Sanji",
+   "from": "One Piece",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "One Piece",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 63,
+   "pv": 163491,
+   "img": "img/sanji.webp",
+   "credit": {
+    "author": "Toei Animation / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://onepiece.fandom.com/wiki/Sanji"
+   }
+  },
+  {
+   "id": "sasuke-uchiha",
+   "name": "Sasuke Uchiha",
+   "from": "Naruto",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Naruto",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 48,
+   "pv": 127442,
+   "img": "img/sasuke-uchiha.webp",
+   "credit": {
+    "author": "Pierrot / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://naruto.fandom.com/wiki/Sasuke_Uchiha"
+   }
+  },
+  {
+   "id": "satoru-gojo",
+   "name": "Satoru Gojo",
+   "from": "Jujutsu Kaisen",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Jujutsu Kaisen",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 84,
+   "pv": 515215,
+   "img": "img/satoru-gojo.webp",
+   "credit": {
+    "author": "MAPPA / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo"
+   }
+  },
+  {
+   "id": "spike-spiegel",
+   "name": "Spike Spiegel",
+   "from": "Cowboy Bebop",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Cowboy Bebop",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 24,
+   "pv": 72024,
+   "img": "img/spike-spiegel.webp",
+   "credit": {
+    "author": "Sunrise",
+    "license": "© owner, fan use",
+    "source": "https://cowboybebop.fandom.com/wiki/Spike_Spiegel"
+   }
+  },
+  {
+   "id": "tanjiro-kamado",
+   "name": "Tanjiro Kamado",
+   "from": "Demon Slayer",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Demon Slayer",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 61,
+   "pv": 154574,
+   "img": "img/tanjiro-kamado.webp",
+   "credit": {
+    "author": "ufotable / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://kimetsu-no-yaiba.fandom.com/wiki/Tanjiro_Kamado"
+   }
+  },
+  {
+   "id": "tony-tony-chopper",
+   "name": "Tony Tony Chopper",
+   "from": "One Piece",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "One Piece",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 75,
+   "pv": 257778,
+   "img": "img/tony-tony-chopper.webp",
+   "credit": {
+    "author": "Toei Animation / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://onepiece.fandom.com/wiki/Tony_Tony_Chopper"
+   }
+  },
+  {
+   "id": "totoro",
+   "name": "Totoro",
+   "from": "Studio Ghibli",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Studio Ghibli",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 94,
+   "pv": 821259,
+   "img": "img/totoro.webp",
+   "credit": {
+    "author": "Studio Ghibli",
+    "license": "© owner, fan use",
+    "source": "https://ghibli.fandom.com/wiki/Totoro"
+   }
+  },
+  {
+   "id": "vegeta",
+   "name": "Vegeta",
+   "from": "Dragon Ball",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dragon Ball",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 50,
+   "pv": 129383,
+   "img": "img/vegeta.webp",
+   "credit": {
+    "author": "Toei Animation / Bird Studio",
+    "license": "© owner, fan use",
+    "source": "https://dragonball.fandom.com/wiki/Vegeta"
+   }
+  },
+  {
+   "id": "yuji-itadori",
+   "name": "Yuji Itadori",
+   "from": "Jujutsu Kaisen",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Jujutsu Kaisen",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 77,
+   "pv": 266951,
+   "img": "img/yuji-itadori.webp",
+   "credit": {
+    "author": "MAPPA / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://jujutsu-kaisen.fandom.com/wiki/Yuji_Itadori"
+   }
+  },
+  {
+   "id": "zenitsu-agatsuma",
+   "name": "Zenitsu Agatsuma",
+   "from": "Demon Slayer",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Demon Slayer",
+   "tags": [
+    "character",
+    "anime"
+   ],
+   "fame": 7,
+   "pv": 11521,
+   "img": "img/zenitsu-agatsuma.webp",
+   "credit": {
+    "author": "ufotable / Shueisha",
+    "license": "© owner, fan use",
+    "source": "https://kimetsu-no-yaiba.fandom.com/wiki/Zenitsu_Agatsuma"
+   }
+  }
+ ]
+}

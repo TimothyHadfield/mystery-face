@@ -1,0 +1,868 @@
+{
+ "id": "cartoon-network",
+ "title": "Cartoon Network",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "aku",
+   "name": "Aku",
+   "from": "Samurai Jack",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Samurai Jack",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 3,
+   "pv": 2368,
+   "img": "img/aku.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://samuraijack.fandom.com/wiki/Aku"
+   }
+  },
+  {
+   "id": "amethyst",
+   "name": "Amethyst",
+   "from": "Steven Universe",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Steven Universe",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 26,
+   "pv": 21435,
+   "img": "img/amethyst.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://steven-universe.fandom.com/wiki/Amethyst"
+   }
+  },
+  {
+   "id": "beast-boy",
+   "name": "Beast Boy",
+   "from": "Teen Titans",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Teen Titans",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 78,
+   "pv": 153143,
+   "img": "img/beast-boy.webp",
+   "credit": {
+    "author": "Cartoon Network / DC",
+    "license": "© owner, fan use",
+    "source": "https://teen-titans-go.fandom.com/wiki/Beast_Boy"
+   }
+  },
+  {
+   "id": "ben-tennyson",
+   "name": "Ben Tennyson",
+   "from": "Ben 10",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ben 10",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 73,
+   "pv": 101381,
+   "img": "img/ben-tennyson.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://ben10.fandom.com/wiki/Ben_Tennyson"
+   }
+  },
+  {
+   "id": "bloo",
+   "name": "Bloo",
+   "from": "Foster's Home for Imaginary Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Foster's Home for Imaginary Friends",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 88,
+   "pv": 238211,
+   "img": "img/bloo.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://fostershomeforimaginaryfriends.fandom.com/wiki/Bloo"
+   }
+  },
+  {
+   "id": "blossom",
+   "name": "Blossom",
+   "from": "The Powerpuff Girls",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Powerpuff Girls",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 63,
+   "pv": 72478,
+   "img": "img/blossom.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://powerpuffgirls.fandom.com/wiki/Blossom"
+   }
+  },
+  {
+   "id": "bmo",
+   "name": "BMO",
+   "from": "Adventure Time",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Adventure Time",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 16,
+   "pv": 8433,
+   "img": "img/bmo.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://adventuretime.fandom.com/wiki/BMO"
+   }
+  },
+  {
+   "id": "bubbles",
+   "name": "Bubbles",
+   "from": "The Powerpuff Girls",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Powerpuff Girls",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 43,
+   "pv": 22891,
+   "img": "img/bubbles.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://powerpuffgirls.fandom.com/wiki/Bubbles"
+   }
+  },
+  {
+   "id": "buttercup",
+   "name": "Buttercup",
+   "from": "The Powerpuff Girls",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Powerpuff Girls",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 23,
+   "pv": 17630,
+   "img": "img/buttercup.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://powerpuffgirls.fandom.com/wiki/Buttercup"
+   }
+  },
+  {
+   "id": "courage",
+   "name": "Courage",
+   "from": "Courage the Cowardly Dog",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Courage the Cowardly Dog",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 100,
+   "pv": 347386,
+   "img": "img/courage.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://courage.fandom.com/wiki/Courage"
+   }
+  },
+  {
+   "id": "cyborg",
+   "name": "Cyborg",
+   "from": "Teen Titans",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Teen Titans",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 75,
+   "pv": 145221,
+   "img": "img/cyborg.webp",
+   "credit": {
+    "author": "Cartoon Network / DC",
+    "license": "© owner, fan use",
+    "source": "https://teen-titans-go.fandom.com/wiki/Cyborg"
+   }
+  },
+  {
+   "id": "darwin-watterson",
+   "name": "Darwin Watterson",
+   "from": "The Amazing World of Gumball",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Amazing World of Gumball",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 13,
+   "pv": 7013,
+   "img": "img/darwin-watterson.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://gumball.fandom.com/wiki/Darwin_Watterson"
+   }
+  },
+  {
+   "id": "dee-dee",
+   "name": "Dee Dee",
+   "from": "Dexter's Laboratory",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dexter's Laboratory",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 1,
+   "pv": 1664,
+   "img": "img/dee-dee.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://dexterslab.fandom.com/wiki/Dee_Dee"
+   }
+  },
+  {
+   "id": "dexter",
+   "name": "Dexter",
+   "from": "Dexter's Laboratory",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dexter's Laboratory",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 98,
+   "pv": 316411,
+   "img": "img/dexter.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://dexterslab.fandom.com/wiki/Dexter"
+   }
+  },
+  {
+   "id": "ed",
+   "name": "Ed",
+   "from": "Ed, Edd n Eddy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ed, Edd n Eddy",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 38,
+   "pv": 21746,
+   "img": "img/ed.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://cartoonnetwork.fandom.com/wiki/Ed"
+   }
+  },
+  {
+   "id": "edd",
+   "name": "Edd",
+   "from": "Ed, Edd n Eddy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ed, Edd n Eddy",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 36,
+   "pv": 21746,
+   "img": "img/edd.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://cartoonnetwork.fandom.com/wiki/Edd"
+   }
+  },
+  {
+   "id": "eddy",
+   "name": "Eddy",
+   "from": "Ed, Edd n Eddy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ed, Edd n Eddy",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 33,
+   "pv": 21746,
+   "img": "img/eddy.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://cartoonnetwork.fandom.com/wiki/Eddy"
+   }
+  },
+  {
+   "id": "finn",
+   "name": "Finn",
+   "from": "Adventure Time",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Adventure Time",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 65,
+   "pv": 83066,
+   "img": "img/finn.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://adventuretime.fandom.com/wiki/Finn"
+   }
+  },
+  {
+   "id": "garnet",
+   "name": "Garnet",
+   "from": "Steven Universe",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Steven Universe",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 48,
+   "pv": 39960,
+   "img": "img/garnet.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://steven-universe.fandom.com/wiki/Garnet"
+   }
+  },
+  {
+   "id": "grim",
+   "name": "Grim",
+   "from": "The Grim Adventures of Billy & Mandy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Grim Adventures of Billy & Mandy",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 90,
+   "pv": 249280,
+   "img": "img/grim.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://billyandmandy.fandom.com/wiki/Grim_Reaper"
+   }
+  },
+  {
+   "id": "grizzly",
+   "name": "Grizzly",
+   "from": "We Bare Bears",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "We Bare Bears",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 28,
+   "pv": 21746,
+   "img": "img/grizzly.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://webarebears.fandom.com/wiki/Grizzly_Bear"
+   }
+  },
+  {
+   "id": "gumball-watterson",
+   "name": "Gumball Watterson",
+   "from": "The Amazing World of Gumball",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Amazing World of Gumball",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 68,
+   "pv": 96311,
+   "img": "img/gumball-watterson.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://gumball.fandom.com/wiki/Gumball_Watterson"
+   }
+  },
+  {
+   "id": "ice-bear",
+   "name": "Ice Bear",
+   "from": "We Bare Bears",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "We Bare Bears",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 18,
+   "pv": 16748,
+   "img": "img/ice-bear.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://webarebears.fandom.com/wiki/Ice_Bear"
+   }
+  },
+  {
+   "id": "ice-king",
+   "name": "Ice King",
+   "from": "Adventure Time",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Adventure Time",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 55,
+   "pv": 64294,
+   "img": "img/ice-king.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://adventuretime.fandom.com/wiki/Ice_King"
+   }
+  },
+  {
+   "id": "jake",
+   "name": "Jake",
+   "from": "Adventure Time",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Adventure Time",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 53,
+   "pv": 60448,
+   "img": "img/jake.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://adventuretime.fandom.com/wiki/Jake"
+   }
+  },
+  {
+   "id": "johnny-bravo",
+   "name": "Johnny Bravo",
+   "from": "Johnny Bravo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Johnny Bravo",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 85,
+   "pv": 226455,
+   "img": "img/johnny-bravo.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://johnnybravo.fandom.com/wiki/Johnny_Bravo_(character)"
+   }
+  },
+  {
+   "id": "lumpy-space-princess",
+   "name": "Lumpy Space Princess",
+   "from": "Adventure Time",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Adventure Time",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 6,
+   "pv": 4043,
+   "img": "img/lumpy-space-princess.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://adventuretime.fandom.com/wiki/Lumpy_Space_Princess"
+   }
+  },
+  {
+   "id": "marceline",
+   "name": "Marceline",
+   "from": "Adventure Time",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Adventure Time",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 60,
+   "pv": 72319,
+   "img": "img/marceline.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://adventuretime.fandom.com/wiki/Marceline"
+   }
+  },
+  {
+   "id": "mojo-jojo",
+   "name": "Mojo Jojo",
+   "from": "The Powerpuff Girls",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Powerpuff Girls",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 8,
+   "pv": 4682,
+   "img": "img/mojo-jojo.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://powerpuffgirls.fandom.com/wiki/Mojo_Jojo"
+   }
+  },
+  {
+   "id": "mordecai",
+   "name": "Mordecai",
+   "from": "Regular Show",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Regular Show",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 70,
+   "pv": 96311,
+   "img": "img/mordecai.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://regularshow.fandom.com/wiki/Mordecai"
+   }
+  },
+  {
+   "id": "numbuh-one",
+   "name": "Numbuh One",
+   "from": "Codename: Kids Next Door",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Codename: Kids Next Door",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 93,
+   "pv": 254214,
+   "img": "img/numbuh-one.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://knd.fandom.com/wiki/Numbuh_1"
+   }
+  },
+  {
+   "id": "panda",
+   "name": "Panda",
+   "from": "We Bare Bears",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "We Bare Bears",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 21,
+   "pv": 16748,
+   "img": "img/panda.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://webarebears.fandom.com/wiki/Panda_Bear"
+   }
+  },
+  {
+   "id": "pearl",
+   "name": "Pearl",
+   "from": "Steven Universe",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Steven Universe",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 46,
+   "pv": 32350,
+   "img": "img/pearl.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://steven-universe.fandom.com/wiki/Pearl"
+   }
+  },
+  {
+   "id": "princess-bubblegum",
+   "name": "Princess Bubblegum",
+   "from": "Adventure Time",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Adventure Time",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 58,
+   "pv": 67670,
+   "img": "img/princess-bubblegum.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://adventuretime.fandom.com/wiki/Princess_Bubblegum"
+   }
+  },
+  {
+   "id": "professor-utonium",
+   "name": "Professor Utonium",
+   "from": "The Powerpuff Girls",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Powerpuff Girls",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 11,
+   "pv": 5403,
+   "img": "img/professor-utonium.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://powerpuffgirls.fandom.com/wiki/Professor_Utonium"
+   }
+  },
+  {
+   "id": "raven",
+   "name": "Raven",
+   "from": "Teen Titans",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Teen Titans",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 83,
+   "pv": 225205,
+   "img": "img/raven.webp",
+   "credit": {
+    "author": "Cartoon Network / DC",
+    "license": "© owner, fan use",
+    "source": "https://teen-titans-go.fandom.com/wiki/Raven"
+   }
+  },
+  {
+   "id": "rigby",
+   "name": "Rigby",
+   "from": "Regular Show",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Regular Show",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 31,
+   "pv": 21746,
+   "img": "img/rigby.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://regularshow.fandom.com/wiki/Rigby"
+   }
+  },
+  {
+   "id": "robin",
+   "name": "Robin",
+   "from": "Teen Titans",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Teen Titans",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 95,
+   "pv": 287665,
+   "img": "img/robin.webp",
+   "credit": {
+    "author": "Cartoon Network / DC",
+    "license": "© owner, fan use",
+    "source": "https://teen-titans-go.fandom.com/wiki/Robin"
+   }
+  },
+  {
+   "id": "samurai-jack",
+   "name": "Samurai Jack",
+   "from": "Samurai Jack",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Samurai Jack",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 41,
+   "pv": 22691,
+   "img": "img/samurai-jack.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://samuraijack.fandom.com/wiki/Samurai_Jack_(character)"
+   }
+  },
+  {
+   "id": "starfire",
+   "name": "Starfire",
+   "from": "Teen Titans",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Teen Titans",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 80,
+   "pv": 209332,
+   "img": "img/starfire.webp",
+   "credit": {
+    "author": "Cartoon Network / DC",
+    "license": "© owner, fan use",
+    "source": "https://teen-titans-go.fandom.com/wiki/Starfire"
+   }
+  },
+  {
+   "id": "steven-universe",
+   "name": "Steven Universe",
+   "from": "Steven Universe",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Steven Universe",
+   "tags": [
+    "character",
+    "cartoon-network"
+   ],
+   "fame": 50,
+   "pv": 45200,
+   "img": "img/steven-universe.webp",
+   "credit": {
+    "author": "Cartoon Network",
+    "license": "© owner, fan use",
+    "source": "https://steven-universe.fandom.com/wiki/Steven_Universe_(character)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1204 @@
+{
+ "id": "disney-heroes",
+ "title": "Disney Heroes & Sidekicks",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "abu",
+   "name": "Abu",
+   "from": "Aladdin",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Aladdin",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 6,
+   "pv": 1531,
+   "img": "img/abu.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Abu"
+   }
+  },
+  {
+   "id": "aladdin",
+   "name": "Aladdin",
+   "from": "Aladdin",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Aladdin",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 96,
+   "pv": 681826,
+   "img": "img/aladdin.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Aladdin_(character)"
+   }
+  },
+  {
+   "id": "baloo",
+   "name": "Baloo",
+   "from": "The Jungle Book",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Jungle Book",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 54,
+   "pv": 94785,
+   "img": "img/baloo.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Baloo"
+   }
+  },
+  {
+   "id": "bambi",
+   "name": "Bambi",
+   "from": "Bambi",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Bambi",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 86,
+   "pv": 376853,
+   "img": "img/bambi.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Bambi_(character)"
+   }
+  },
+  {
+   "id": "baymax",
+   "name": "Baymax",
+   "from": "Big Hero 6",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Big Hero 6",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 36,
+   "pv": 50316,
+   "img": "img/baymax.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Baymax"
+   }
+  },
+  {
+   "id": "beast",
+   "name": "Beast",
+   "from": "Beauty and the Beast",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Beauty and the Beast",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 45,
+   "pv": 72466,
+   "img": "img/beast.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Beast"
+   }
+  },
+  {
+   "id": "cogsworth",
+   "name": "Cogsworth",
+   "from": "Beauty and the Beast",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Beauty and the Beast",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 20,
+   "pv": 8974,
+   "img": "img/cogsworth.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Cogsworth"
+   }
+  },
+  {
+   "id": "daisy-duck",
+   "name": "Daisy Duck",
+   "from": "Mickey Mouse",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 50,
+   "pv": 81990,
+   "img": "img/daisy-duck.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Daisy_Duck"
+   }
+  },
+  {
+   "id": "dipper-pines",
+   "name": "Dipper Pines",
+   "from": "Gravity Falls",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Gravity Falls",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 35,
+   "pv": 49755,
+   "img": "img/dipper-pines.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Dipper_Pines"
+   }
+  },
+  {
+   "id": "donald-duck",
+   "name": "Donald Duck",
+   "from": "Mickey Mouse",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 81,
+   "pv": 290083,
+   "img": "img/donald-duck.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Donald_Duck"
+   }
+  },
+  {
+   "id": "dumbo",
+   "name": "Dumbo",
+   "from": "Dumbo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Dumbo",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 79,
+   "pv": 289784,
+   "img": "img/dumbo.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Dumbo_(character)"
+   }
+  },
+  {
+   "id": "eeyore",
+   "name": "Eeyore",
+   "from": "Winnie the Pooh",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Winnie the Pooh",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 75,
+   "pv": 223448,
+   "img": "img/eeyore.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Eeyore"
+   }
+  },
+  {
+   "id": "flounder",
+   "name": "Flounder",
+   "from": "The Little Mermaid",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Little Mermaid",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 8,
+   "pv": 2141,
+   "img": "img/flounder.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Flounder"
+   }
+  },
+  {
+   "id": "flynn-rider",
+   "name": "Flynn Rider",
+   "from": "Tangled",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tangled",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 61,
+   "pv": 120528,
+   "img": "img/flynn-rider.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Flynn_Rider"
+   }
+  },
+  {
+   "id": "genie",
+   "name": "Genie",
+   "from": "Aladdin",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Aladdin",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 56,
+   "pv": 103590,
+   "img": "img/genie.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Genie"
+   }
+  },
+  {
+   "id": "goofy",
+   "name": "Goofy",
+   "from": "Mickey Mouse",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 77,
+   "pv": 285180,
+   "img": "img/goofy.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Goofy"
+   }
+  },
+  {
+   "id": "grunkle-stan",
+   "name": "Grunkle Stan",
+   "from": "Gravity Falls",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Gravity Falls",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 33,
+   "pv": 48375,
+   "img": "img/grunkle-stan.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Stan_Pines"
+   }
+  },
+  {
+   "id": "heihei",
+   "name": "Heihei",
+   "from": "Moana",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Moana",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 1,
+   "pv": 91,
+   "img": "img/heihei.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Heihei"
+   }
+  },
+  {
+   "id": "hercules",
+   "name": "Hercules",
+   "from": "Hercules",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hercules",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 95,
+   "pv": 658065,
+   "img": "img/hercules.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Hercules_(character)"
+   }
+  },
+  {
+   "id": "hiro-hamada",
+   "name": "Hiro Hamada",
+   "from": "Big Hero 6",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Big Hero 6",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 26,
+   "pv": 11801,
+   "img": "img/hiro-hamada.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Hiro_Hamada"
+   }
+  },
+  {
+   "id": "jiminy-cricket",
+   "name": "Jiminy Cricket",
+   "from": "Pinocchio",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pinocchio",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 65,
+   "pv": 133708,
+   "img": "img/jiminy-cricket.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Jiminy_Cricket"
+   }
+  },
+  {
+   "id": "kristoff",
+   "name": "Kristoff",
+   "from": "Frozen",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Frozen",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 49,
+   "pv": 80369,
+   "img": "img/kristoff.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Kristoff"
+   }
+  },
+  {
+   "id": "kronk",
+   "name": "Kronk",
+   "from": "The Emperor's New Groove",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Emperor's New Groove",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 13,
+   "pv": 4741,
+   "img": "img/kronk.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Kronk"
+   }
+  },
+  {
+   "id": "kuzco",
+   "name": "Kuzco",
+   "from": "The Emperor's New Groove",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Emperor's New Groove",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 24,
+   "pv": 9920,
+   "img": "img/kuzco.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Kuzco"
+   }
+  },
+  {
+   "id": "lilo-pelekai",
+   "name": "Lilo Pelekai",
+   "from": "Lilo & Stitch",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Lilo & Stitch",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 47,
+   "pv": 74900,
+   "img": "img/lilo-pelekai.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Lilo_Pelekai"
+   }
+  },
+  {
+   "id": "lumiere",
+   "name": "Lumière",
+   "from": "Beauty and the Beast",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Beauty and the Beast",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 10,
+   "pv": 3281,
+   "img": "img/lumiere.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Lumi%C3%A8re"
+   }
+  },
+  {
+   "id": "maui",
+   "name": "Maui",
+   "from": "Moana",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Moana",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 68,
+   "pv": 159710,
+   "img": "img/maui.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Maui"
+   }
+  },
+  {
+   "id": "maximus",
+   "name": "Maximus",
+   "from": "Tangled",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tangled",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 5,
+   "pv": 450,
+   "img": "img/maximus.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Maximus"
+   }
+  },
+  {
+   "id": "mickey-mouse",
+   "name": "Mickey Mouse",
+   "from": "Mickey Mouse",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 98,
+   "pv": 739861,
+   "img": "img/mickey-mouse.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mickey_Mouse"
+   }
+  },
+  {
+   "id": "minnie-mouse",
+   "name": "Minnie Mouse",
+   "from": "Mickey Mouse",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 72,
+   "pv": 170689,
+   "img": "img/minnie-mouse.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Minnie_Mouse"
+   }
+  },
+  {
+   "id": "mrs-potts",
+   "name": "Mrs. Potts",
+   "from": "Beauty and the Beast",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Beauty and the Beast",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 12,
+   "pv": 3466,
+   "img": "img/mrs-potts.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mrs._Potts"
+   }
+  },
+  {
+   "id": "mushu",
+   "name": "Mushu",
+   "from": "Mulan",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mulan",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 40,
+   "pv": 57426,
+   "img": "img/mushu.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mushu"
+   }
+  },
+  {
+   "id": "nick-wilde",
+   "name": "Nick Wilde",
+   "from": "Zootopia",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Zootopia",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 38,
+   "pv": 57129,
+   "img": "img/nick-wilde.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Nick_Wilde"
+   }
+  },
+  {
+   "id": "olaf",
+   "name": "Olaf",
+   "from": "Frozen",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Frozen",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 59,
+   "pv": 111201,
+   "img": "img/olaf.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Olaf"
+   }
+  },
+  {
+   "id": "pascal",
+   "name": "Pascal",
+   "from": "Tangled",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tangled",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 3,
+   "pv": 402,
+   "img": "img/pascal.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Pascal"
+   }
+  },
+  {
+   "id": "perry-the-platypus",
+   "name": "Perry the Platypus",
+   "from": "Phineas and Ferb",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Phineas and Ferb",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 70,
+   "pv": 169496,
+   "img": "img/perry-the-platypus.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Perry_the_Platypus"
+   }
+  },
+  {
+   "id": "peter-pan",
+   "name": "Peter Pan",
+   "from": "Peter Pan",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Peter Pan",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 84,
+   "pv": 328774,
+   "img": "img/peter-pan.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Peter_Pan"
+   }
+  },
+  {
+   "id": "philoctetes",
+   "name": "Philoctetes",
+   "from": "Hercules",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hercules",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 22,
+   "pv": 9862,
+   "img": "img/philoctetes.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Philoctetes"
+   }
+  },
+  {
+   "id": "phineas-flynn",
+   "name": "Phineas Flynn",
+   "from": "Phineas and Ferb",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Phineas and Ferb",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 42,
+   "pv": 59978,
+   "img": "img/phineas-flynn.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Phineas_Flynn"
+   }
+  },
+  {
+   "id": "piglet",
+   "name": "Piglet",
+   "from": "Winnie the Pooh",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Winnie the Pooh",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 52,
+   "pv": 87785,
+   "img": "img/piglet.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Piglet"
+   }
+  },
+  {
+   "id": "pinocchio",
+   "name": "Pinocchio",
+   "from": "Pinocchio",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pinocchio",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 88,
+   "pv": 387062,
+   "img": "img/pinocchio.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Pinocchio_(character)"
+   }
+  },
+  {
+   "id": "pluto",
+   "name": "Pluto",
+   "from": "Mickey Mouse",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 63,
+   "pv": 120984,
+   "img": "img/pluto.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Pluto"
+   }
+  },
+  {
+   "id": "pumbaa",
+   "name": "Pumbaa",
+   "from": "The Lion King",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Lion King",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 15,
+   "pv": 7117,
+   "img": "img/pumbaa.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Pumbaa"
+   }
+  },
+  {
+   "id": "rafiki",
+   "name": "Rafiki",
+   "from": "The Lion King",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Lion King",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 28,
+   "pv": 12145,
+   "img": "img/rafiki.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Rafiki"
+   }
+  },
+  {
+   "id": "ralph",
+   "name": "Ralph",
+   "from": "Wreck-It Ralph",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Wreck-It Ralph",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 89,
+   "pv": 434546,
+   "img": "img/ralph.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Wreck-It_Ralph_(character)"
+   }
+  },
+  {
+   "id": "robin-hood",
+   "name": "Robin Hood",
+   "from": "Robin Hood",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Robin Hood",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 82,
+   "pv": 324771,
+   "img": "img/robin-hood.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Robin_Hood_(character)"
+   }
+  },
+  {
+   "id": "scrooge-mcduck",
+   "name": "Scrooge McDuck",
+   "from": "DuckTales",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "DuckTales",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 73,
+   "pv": 219581,
+   "img": "img/scrooge-mcduck.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Scrooge_McDuck"
+   }
+  },
+  {
+   "id": "sebastian",
+   "name": "Sebastian",
+   "from": "The Little Mermaid",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Little Mermaid",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 19,
+   "pv": 7599,
+   "img": "img/sebastian.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Sebastian"
+   }
+  },
+  {
+   "id": "simba",
+   "name": "Simba",
+   "from": "The Lion King",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Lion King",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 66,
+   "pv": 154255,
+   "img": "img/simba.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Simba"
+   }
+  },
+  {
+   "id": "stitch",
+   "name": "Stitch",
+   "from": "Lilo & Stitch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Lilo & Stitch",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 91,
+   "pv": 500937,
+   "img": "img/stitch.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Stitch"
+   }
+  },
+  {
+   "id": "sven",
+   "name": "Sven",
+   "from": "Frozen",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Frozen",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 43,
+   "pv": 60456,
+   "img": "img/sven.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Sven"
+   }
+  },
+  {
+   "id": "tarzan",
+   "name": "Tarzan",
+   "from": "Tarzan",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tarzan",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 93,
+   "pv": 524998,
+   "img": "img/tarzan.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Tarzan_(character)"
+   }
+  },
+  {
+   "id": "thumper",
+   "name": "Thumper",
+   "from": "Bambi",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Bambi",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 31,
+   "pv": 40631,
+   "img": "img/thumper.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Thumper"
+   }
+  },
+  {
+   "id": "tigger",
+   "name": "Tigger",
+   "from": "Winnie the Pooh",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Winnie the Pooh",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 58,
+   "pv": 105188,
+   "img": "img/tigger.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Tigger"
+   }
+  },
+  {
+   "id": "timon",
+   "name": "Timon",
+   "from": "The Lion King",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Lion King",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 17,
+   "pv": 7133,
+   "img": "img/timon.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Timon"
+   }
+  },
+  {
+   "id": "winnie-the-pooh",
+   "name": "Winnie the Pooh",
+   "from": "Winnie the Pooh",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Winnie the Pooh",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 100,
+   "pv": 818189,
+   "img": "img/winnie-the-pooh.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Winnie_the_Pooh"
+   }
+  },
+  {
+   "id": "zazu",
+   "name": "Zazu",
+   "from": "The Lion King",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Lion King",
+   "tags": [
+    "character",
+    "disney-heroes"
+   ],
+   "fame": 29,
+   "pv": 19401,
+   "img": "img/zazu.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Zazu"
+   }
+  }
+ ]
+}

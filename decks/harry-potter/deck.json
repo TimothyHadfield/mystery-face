@@ -1,0 +1,1107 @@
+{
+ "id": "harry-potter",
+ "title": "Harry Potter Characters",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "aberforth-dumbledore",
+   "name": "Aberforth Dumbledore",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Ciarán Hinds",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 49,
+   "pv": 33923,
+   "img": "img/aberforth-dumbledore.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Aberforth_Dumbledore"
+   }
+  },
+  {
+   "id": "albus-dumbledore",
+   "name": "Albus Dumbledore",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Michael Gambon",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 100,
+   "pv": 511387,
+   "img": "img/albus-dumbledore.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Albus_Dumbledore"
+   }
+  },
+  {
+   "id": "argus-filch",
+   "name": "Argus Filch",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "David Bradley",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 41,
+   "pv": 24397,
+   "img": "img/argus-filch.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Argus_Filch"
+   }
+  },
+  {
+   "id": "arthur-weasley",
+   "name": "Arthur Weasley",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Mark Williams",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 27,
+   "pv": 20197,
+   "img": "img/arthur-weasley.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Arthur_Weasley"
+   }
+  },
+  {
+   "id": "bellatrix-lestrange",
+   "name": "Bellatrix Lestrange",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Helena Bonham Carter",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 84,
+   "pv": 224866,
+   "img": "img/bellatrix-lestrange.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Bellatrix_Lestrange"
+   }
+  },
+  {
+   "id": "bill-weasley",
+   "name": "Bill Weasley",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Domhnall Gleeson",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 29,
+   "pv": 20547,
+   "img": "img/bill-weasley.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/William_Weasley"
+   }
+  },
+  {
+   "id": "cedric-diggory",
+   "name": "Cedric Diggory",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Robert Pattinson",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 64,
+   "pv": 62023,
+   "img": "img/cedric-diggory.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Cedric_Diggory"
+   }
+  },
+  {
+   "id": "cho-chang",
+   "name": "Cho Chang",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Katie Leung",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 7,
+   "pv": 81,
+   "img": "img/cho-chang.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Cho_Chang"
+   }
+  },
+  {
+   "id": "cornelius-fudge",
+   "name": "Cornelius Fudge",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Robert Hardy",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 35,
+   "pv": 22214,
+   "img": "img/cornelius-fudge.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Cornelius_Fudge"
+   }
+  },
+  {
+   "id": "dobby",
+   "name": "Dobby",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Toby Jones",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 23,
+   "pv": 18580,
+   "img": "img/dobby.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Dobby"
+   }
+  },
+  {
+   "id": "dolores-umbridge",
+   "name": "Dolores Umbridge",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Imelda Staunton",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 86,
+   "pv": 240093,
+   "img": "img/dolores-umbridge.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Dolores_Umbridge"
+   }
+  },
+  {
+   "id": "draco-malfoy",
+   "name": "Draco Malfoy",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Tom Felton",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 94,
+   "pv": 321377,
+   "img": "img/draco-malfoy.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Draco_Malfoy"
+   }
+  },
+  {
+   "id": "fleur-delacour",
+   "name": "Fleur Delacour",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Clémence Poésy",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 33,
+   "pv": 21839,
+   "img": "img/fleur-delacour.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Fleur_Delacour"
+   }
+  },
+  {
+   "id": "fred-weasley",
+   "name": "Fred Weasley",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "James Phelps",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 17,
+   "pv": 13321,
+   "img": "img/fred-weasley.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Fred_Weasley"
+   }
+  },
+  {
+   "id": "garrick-ollivander",
+   "name": "Garrick Ollivander",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "John Hurt",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 45,
+   "pv": 31344,
+   "img": "img/garrick-ollivander.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Garrick_Ollivander"
+   }
+  },
+  {
+   "id": "gellert-grindelwald",
+   "name": "Gellert Grindelwald",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Mads Mikkelsen",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 76,
+   "pv": 191654,
+   "img": "img/gellert-grindelwald.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Gellert_Grindelwald"
+   }
+  },
+  {
+   "id": "george-weasley",
+   "name": "George Weasley",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Oliver Phelps",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 15,
+   "pv": 13321,
+   "img": "img/george-weasley.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/George_Weasley"
+   }
+  },
+  {
+   "id": "gilderoy-lockhart",
+   "name": "Gilderoy Lockhart",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Kenneth Branagh",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 52,
+   "pv": 35615,
+   "img": "img/gilderoy-lockhart.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Gilderoy_Lockhart"
+   }
+  },
+  {
+   "id": "ginny-weasley",
+   "name": "Ginny Weasley",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Bonnie Wright",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 82,
+   "pv": 223500,
+   "img": "img/ginny-weasley.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Ginevra_Weasley"
+   }
+  },
+  {
+   "id": "griphook",
+   "name": "Griphook",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Warwick Davis",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 54,
+   "pv": 35846,
+   "img": "img/griphook.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Griphook"
+   }
+  },
+  {
+   "id": "harry-potter",
+   "name": "Harry Potter",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Daniel Radcliffe",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 92,
+   "pv": 314623,
+   "img": "img/harry-potter.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Harry_Potter"
+   }
+  },
+  {
+   "id": "hermione-granger",
+   "name": "Hermione Granger",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Emma Watson",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 96,
+   "pv": 379589,
+   "img": "img/hermione-granger.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Hermione_Granger"
+   }
+  },
+  {
+   "id": "horace-slughorn",
+   "name": "Horace Slughorn",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Jim Broadbent",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 31,
+   "pv": 21683,
+   "img": "img/horace-slughorn.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Horace_Slughorn"
+   }
+  },
+  {
+   "id": "jacob-kowalski",
+   "name": "Jacob Kowalski",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Dan Fogler",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 5,
+   "pv": 40,
+   "img": "img/jacob-kowalski.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Jacob_Kowalski"
+   }
+  },
+  {
+   "id": "kingsley-shacklebolt",
+   "name": "Kingsley Shacklebolt",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "George Harris",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 19,
+   "pv": 15393,
+   "img": "img/kingsley-shacklebolt.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Kingsley_Shacklebolt"
+   }
+  },
+  {
+   "id": "kreacher",
+   "name": "Kreacher",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Simon McBurney",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 9,
+   "pv": 3044,
+   "img": "img/kreacher.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Kreacher"
+   }
+  },
+  {
+   "id": "lord-voldemort",
+   "name": "Lord Voldemort",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Ralph Fiennes",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 70,
+   "pv": 163651,
+   "img": "img/lord-voldemort.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Tom_Riddle"
+   }
+  },
+  {
+   "id": "lucius-malfoy",
+   "name": "Lucius Malfoy",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Jason Isaacs",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 60,
+   "pv": 54523,
+   "img": "img/lucius-malfoy.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Lucius_Malfoy"
+   }
+  },
+  {
+   "id": "luna-lovegood",
+   "name": "Luna Lovegood",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Evanna Lynch",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 88,
+   "pv": 258674,
+   "img": "img/luna-lovegood.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Luna_Lovegood"
+   }
+  },
+  {
+   "id": "mad-eye-moody",
+   "name": "Mad-Eye Moody",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Brendan Gleeson",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 47,
+   "pv": 33341,
+   "img": "img/mad-eye-moody.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Alastor_Moody"
+   }
+  },
+  {
+   "id": "minerva-mcgonagall",
+   "name": "Minerva McGonagall",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Maggie Smith",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 78,
+   "pv": 206669,
+   "img": "img/minerva-mcgonagall.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Minerva_McGonagall"
+   }
+  },
+  {
+   "id": "molly-weasley",
+   "name": "Molly Weasley",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Julie Walters",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 37,
+   "pv": 22953,
+   "img": "img/molly-weasley.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Molly_Weasley"
+   }
+  },
+  {
+   "id": "narcissa-malfoy",
+   "name": "Narcissa Malfoy",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Helen McCrory",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 66,
+   "pv": 65868,
+   "img": "img/narcissa-malfoy.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Narcissa_Malfoy"
+   }
+  },
+  {
+   "id": "neville-longbottom",
+   "name": "Neville Longbottom",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Matthew Lewis",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 68,
+   "pv": 147684,
+   "img": "img/neville-longbottom.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Neville_Longbottom"
+   }
+  },
+  {
+   "id": "newt-scamander",
+   "name": "Newt Scamander",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Eddie Redmayne",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 72,
+   "pv": 171283,
+   "img": "img/newt-scamander.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Newton_Scamander"
+   }
+  },
+  {
+   "id": "nymphadora-tonks",
+   "name": "Nymphadora Tonks",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Natalia Tena",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 62,
+   "pv": 59576,
+   "img": "img/nymphadora-tonks.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Nymphadora_Tonks"
+   }
+  },
+  {
+   "id": "peter-pettigrew",
+   "name": "Peter Pettigrew",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Timothy Spall",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 43,
+   "pv": 26534,
+   "img": "img/peter-pettigrew.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Peter_Pettigrew"
+   }
+  },
+  {
+   "id": "petunia-dursley",
+   "name": "Petunia Dursley",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Fiona Shaw",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 21,
+   "pv": 18181,
+   "img": "img/petunia-dursley.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Petunia_Dursley"
+   }
+  },
+  {
+   "id": "queenie-goldstein",
+   "name": "Queenie Goldstein",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Alison Sudol",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 1,
+   "pv": 40,
+   "img": "img/queenie-goldstein.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Queenie_Goldstein"
+   }
+  },
+  {
+   "id": "quirinus-quirrell",
+   "name": "Quirinus Quirrell",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Ian Hart",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 56,
+   "pv": 42308,
+   "img": "img/quirinus-quirrell.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Quirinus_Quirrell"
+   }
+  },
+  {
+   "id": "remus-lupin",
+   "name": "Remus Lupin",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "David Thewlis",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 74,
+   "pv": 180980,
+   "img": "img/remus-lupin.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Remus_Lupin"
+   }
+  },
+  {
+   "id": "rita-skeeter",
+   "name": "Rita Skeeter",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Miranda Richardson",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 11,
+   "pv": 9018,
+   "img": "img/rita-skeeter.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Rita_Skeeter"
+   }
+  },
+  {
+   "id": "ron-weasley",
+   "name": "Ron Weasley",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Rupert Grint",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 80,
+   "pv": 212526,
+   "img": "img/ron-weasley.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Ronald_Weasley"
+   }
+  },
+  {
+   "id": "rubeus-hagrid",
+   "name": "Rubeus Hagrid",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Robbie Coltrane",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 58,
+   "pv": 50620,
+   "img": "img/rubeus-hagrid.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Rubeus_Hagrid"
+   }
+  },
+  {
+   "id": "severus-snape",
+   "name": "Severus Snape",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Alan Rickman",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 98,
+   "pv": 451294,
+   "img": "img/severus-snape.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Severus_Snape"
+   }
+  },
+  {
+   "id": "sirius-black",
+   "name": "Sirius Black",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Gary Oldman",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 90,
+   "pv": 258813,
+   "img": "img/sirius-black.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Sirius_Black"
+   }
+  },
+  {
+   "id": "sybill-trelawney",
+   "name": "Sybill Trelawney",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Emma Thompson",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 39,
+   "pv": 24360,
+   "img": "img/sybill-trelawney.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Sybill_Trelawney"
+   }
+  },
+  {
+   "id": "tina-goldstein",
+   "name": "Tina Goldstein",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Katherine Waterston",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 3,
+   "pv": 40,
+   "img": "img/tina-goldstein.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Porpentina_Goldstein"
+   }
+  },
+  {
+   "id": "vernon-dursley",
+   "name": "Vernon Dursley",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Richard Griffiths",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 25,
+   "pv": 18821,
+   "img": "img/vernon-dursley.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Vernon_Dursley"
+   }
+  },
+  {
+   "id": "viktor-krum",
+   "name": "Viktor Krum",
+   "from": "Harry Potter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Harry Potter",
+   "actor": "Stanislav Ianevski",
+   "tags": [
+    "character",
+    "harry-potter"
+   ],
+   "fame": 13,
+   "pv": 12300,
+   "img": "img/viktor-krum.webp",
+   "credit": {
+    "author": "Warner Bros.",
+    "license": "© owner, fan use",
+    "source": "https://harrypotter.fandom.com/wiki/Viktor_Krum"
+   }
+  }
+ ]
+}

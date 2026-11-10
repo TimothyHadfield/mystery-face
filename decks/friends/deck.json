@@ -1,0 +1,755 @@
+{
+ "id": "friends",
+ "title": "Friends",
+ "cat": "characters",
+ "people": [
+  {
+   "id": "barry-farber",
+   "name": "Barry Farber",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Mitchell Whitfield",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 49,
+   "pv": 3918,
+   "img": "img/barry-farber.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Barry_Farber"
+   }
+  },
+  {
+   "id": "carol-willick",
+   "name": "Carol Willick",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Jane Sibbett",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 61,
+   "pv": 6070,
+   "img": "img/carol-willick.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Carol_Willick"
+   }
+  },
+  {
+   "id": "chandler-bing",
+   "name": "Chandler Bing",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Matthew Perry",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 100,
+   "pv": 208123,
+   "img": "img/chandler-bing.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Chandler_Bing"
+   }
+  },
+  {
+   "id": "charlie-wheeler",
+   "name": "Charlie Wheeler",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Aisha Tyler",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 34,
+   "pv": 559,
+   "img": "img/charlie-wheeler.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Charlie_Wheeler"
+   }
+  },
+  {
+   "id": "david",
+   "name": "David",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Hank Azaria",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 25,
+   "pv": 307,
+   "img": "img/david.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/David"
+   }
+  },
+  {
+   "id": "eddie-menuek",
+   "name": "Eddie Menuek",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Adam Goldberg",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 10,
+   "pv": 141,
+   "img": "img/eddie-menuek.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Eddie_Menuek"
+   }
+  },
+  {
+   "id": "elizabeth-stevens",
+   "name": "Elizabeth Stevens",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Alexandra Holden",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 31,
+   "pv": 458,
+   "img": "img/elizabeth-stevens.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Elizabeth_Stevens"
+   }
+  },
+  {
+   "id": "emily-waltham",
+   "name": "Emily Waltham",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Helen Baxendale",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 58,
+   "pv": 4773,
+   "img": "img/emily-waltham.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Emily_Waltham"
+   }
+  },
+  {
+   "id": "estelle-leonard",
+   "name": "Estelle Leonard",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "June Gable",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 46,
+   "pv": 1773,
+   "img": "img/estelle-leonard.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Estelle_Leonard"
+   }
+  },
+  {
+   "id": "frank-buffay-jr",
+   "name": "Frank Buffay Jr.",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Giovanni Ribisi",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 40,
+   "pv": 1035,
+   "img": "img/frank-buffay-jr.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Frank_Buffay_Jr."
+   }
+  },
+  {
+   "id": "gunther",
+   "name": "Gunther",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "James Michael Tyler",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 82,
+   "pv": 22958,
+   "img": "img/gunther.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Gunther"
+   }
+  },
+  {
+   "id": "jack-geller",
+   "name": "Jack Geller",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Elliott Gould",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 73,
+   "pv": 11969,
+   "img": "img/jack-geller.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Jack_Geller"
+   }
+  },
+  {
+   "id": "janice",
+   "name": "Janice",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Maggie Wheeler",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 55,
+   "pv": 4537,
+   "img": "img/janice.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Janice_Litman-Goralnik"
+   }
+  },
+  {
+   "id": "janine-lecroix",
+   "name": "Janine Lecroix",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Elle Macpherson",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 28,
+   "pv": 448,
+   "img": "img/janine-lecroix.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Janine_Lecroix"
+   }
+  },
+  {
+   "id": "joey-tribbiani",
+   "name": "Joey Tribbiani",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Matt LeBlanc",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 97,
+   "pv": 172950,
+   "img": "img/joey-tribbiani.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Joey_Tribbiani"
+   }
+  },
+  {
+   "id": "joshua-burgin",
+   "name": "Joshua Burgin",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Tate Donovan",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 52,
+   "pv": 3929,
+   "img": "img/joshua-burgin.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Joshua_Burgin"
+   }
+  },
+  {
+   "id": "judy-geller",
+   "name": "Judy Geller",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Christina Pickles",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 70,
+   "pv": 11969,
+   "img": "img/judy-geller.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Judy_Geller"
+   }
+  },
+  {
+   "id": "julie",
+   "name": "Julie",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Lauren Tom",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 19,
+   "pv": 282,
+   "img": "img/julie.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Julie"
+   }
+  },
+  {
+   "id": "kathy",
+   "name": "Kathy",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Paget Brewster",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 7,
+   "pv": 92,
+   "img": "img/kathy.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Kathy"
+   }
+  },
+  {
+   "id": "mike-hannigan",
+   "name": "Mike Hannigan",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Paul Rudd",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 64,
+   "pv": 7182,
+   "img": "img/mike-hannigan.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Mike_Hannigan"
+   }
+  },
+  {
+   "id": "mindy-hunter",
+   "name": "Mindy Hunter",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Jennifer Grey",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 4,
+   "pv": 75,
+   "img": "img/mindy-hunter.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Mindy_Hunter"
+   }
+  },
+  {
+   "id": "mona",
+   "name": "Mona",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Bonnie Somerville",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 16,
+   "pv": 279,
+   "img": "img/mona.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Mona"
+   }
+  },
+  {
+   "id": "monica-geller",
+   "name": "Monica Geller",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Courteney Cox",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 91,
+   "pv": 164339,
+   "img": "img/monica-geller.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Monica_Geller"
+   }
+  },
+  {
+   "id": "mr-heckles",
+   "name": "Mr. Heckles",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Larry Hankin",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 43,
+   "pv": 1195,
+   "img": "img/mr-heckles.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Mr._Heckles"
+   }
+  },
+  {
+   "id": "mr-treeger",
+   "name": "Mr. Treeger",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Michael G. Hagerty",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 13,
+   "pv": 206,
+   "img": "img/mr-treeger.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Mr._Treeger"
+   }
+  },
+  {
+   "id": "paolo",
+   "name": "Paolo",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Cosimo Fusco",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 76,
+   "pv": 21563,
+   "img": "img/paolo.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Paolo"
+   }
+  },
+  {
+   "id": "pete-becker",
+   "name": "Pete Becker",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Jon Favreau",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 22,
+   "pv": 287,
+   "img": "img/pete-becker.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Pete_Becker"
+   }
+  },
+  {
+   "id": "phoebe-buffay",
+   "name": "Phoebe Buffay",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Lisa Kudrow",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 94,
+   "pv": 167398,
+   "img": "img/phoebe-buffay.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Phoebe_Buffay"
+   }
+  },
+  {
+   "id": "rachel-green",
+   "name": "Rachel Green",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Jennifer Aniston",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 88,
+   "pv": 149468,
+   "img": "img/rachel-green.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Rachel_Greene"
+   }
+  },
+  {
+   "id": "richard-burke",
+   "name": "Richard Burke",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Tom Selleck",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 67,
+   "pv": 11390,
+   "img": "img/richard-burke.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Richard_Burke"
+   }
+  },
+  {
+   "id": "ross-geller",
+   "name": "Ross Geller",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "David Schwimmer",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 85,
+   "pv": 146600,
+   "img": "img/ross-geller.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Ross_Geller"
+   }
+  },
+  {
+   "id": "susan-bunch",
+   "name": "Susan Bunch",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Jessica Hecht",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 37,
+   "pv": 603,
+   "img": "img/susan-bunch.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Susan_Bunch"
+   }
+  },
+  {
+   "id": "tag-jones",
+   "name": "Tag Jones",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Eddie Cahill",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 1,
+   "pv": 73,
+   "img": "img/tag-jones.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Tag_Jones"
+   }
+  },
+  {
+   "id": "ursula-buffay",
+   "name": "Ursula Buffay",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "character",
+   "sub": "live",
+   "franchise": "Friends",
+   "actor": "Lisa Kudrow",
+   "tags": [
+    "character",
+    "friends"
+   ],
+   "fame": 79,
+   "pv": 21563,
+   "img": "img/ursula-buffay.webp",
+   "credit": {
+    "author": "Warner Bros. Television",
+    "license": "© owner, fan use",
+    "source": "https://friends.fandom.com/wiki/Ursula_Buffay"
+   }
+  }
+ ]
+}

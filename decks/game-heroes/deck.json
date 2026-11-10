@@ -1,0 +1,1015 @@
+{
+ "id": "game-heroes",
+ "title": "Video Game Heroes",
+ "cat": "games",
+ "people": [
+  {
+   "id": "aerith-gainsborough",
+   "name": "Aerith Gainsborough",
+   "from": "Final Fantasy",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Final Fantasy",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 26,
+   "pv": 86166,
+   "img": "img/aerith-gainsborough.webp",
+   "credit": {
+    "author": "Square Enix",
+    "license": "© owner, fan use",
+    "source": "https://finalfantasy.fandom.com/wiki/Aerith_Gainsborough"
+   }
+  },
+  {
+   "id": "agent-47",
+   "name": "Agent 47",
+   "from": "Hitman",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hitman",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 37,
+   "pv": 109318,
+   "img": "img/agent-47.webp",
+   "credit": {
+    "author": "IO Interactive",
+    "license": "© owner, fan use",
+    "source": "https://hitman.fandom.com/wiki/Agent_47"
+   }
+  },
+  {
+   "id": "aloy",
+   "name": "Aloy",
+   "from": "Horizon",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Horizon",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 18,
+   "pv": 66653,
+   "img": "img/aloy.webp",
+   "credit": {
+    "author": "Sony / Guerrilla Games",
+    "license": "© owner, fan use",
+    "source": "https://horizon.fandom.com/wiki/Aloy"
+   }
+  },
+  {
+   "id": "amy-rose",
+   "name": "Amy Rose",
+   "from": "Sonic the Hedgehog",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sonic the Hedgehog",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 20,
+   "pv": 75335,
+   "img": "img/amy-rose.webp",
+   "credit": {
+    "author": "Sega",
+    "license": "© owner, fan use",
+    "source": "https://sonic.fandom.com/wiki/Amy_Rose"
+   }
+  },
+  {
+   "id": "arthur-morgan",
+   "name": "Arthur Morgan",
+   "from": "Red Dead Redemption",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Red Dead Redemption",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 71,
+   "pv": 215892,
+   "img": "img/arthur-morgan.webp",
+   "credit": {
+    "author": "Rockstar Games",
+    "license": "© owner, fan use",
+    "source": "https://reddead.fandom.com/wiki/Arthur_Morgan"
+   }
+  },
+  {
+   "id": "banjo",
+   "name": "Banjo",
+   "from": "Banjo-Kazooie",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Banjo-Kazooie",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 5,
+   "pv": 21258,
+   "img": "img/banjo.webp",
+   "credit": {
+    "author": "Rare",
+    "license": "© owner, fan use",
+    "source": "https://banjokazooie.fandom.com/wiki/Banjo"
+   }
+  },
+  {
+   "id": "chun-li",
+   "name": "Chun-Li",
+   "from": "Street Fighter",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Street Fighter",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 94,
+   "pv": 341701,
+   "img": "img/chun-li.webp",
+   "credit": {
+    "author": "Capcom",
+    "license": "© owner, fan use",
+    "source": "https://streetfighter.fandom.com/wiki/Chun-Li"
+   }
+  },
+  {
+   "id": "cj",
+   "name": "CJ",
+   "from": "Grand Theft Auto",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Grand Theft Auto",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 30,
+   "pv": 99480,
+   "img": "img/cj.webp",
+   "credit": {
+    "author": "Rockstar Games",
+    "license": "© owner, fan use",
+    "source": "https://gta.fandom.com/wiki/Carl_Johnson"
+   }
+  },
+  {
+   "id": "clank",
+   "name": "Clank",
+   "from": "Ratchet & Clank",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ratchet & Clank",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 1,
+   "pv": 4461,
+   "img": "img/clank.webp",
+   "credit": {
+    "author": "Sony / Insomniac",
+    "license": "© owner, fan use",
+    "source": "https://ratchetandclank.fandom.com/wiki/Clank"
+   }
+  },
+  {
+   "id": "cloud-strife",
+   "name": "Cloud Strife",
+   "from": "Final Fantasy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Final Fantasy",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 39,
+   "pv": 122009,
+   "img": "img/cloud-strife.webp",
+   "credit": {
+    "author": "Square Enix",
+    "license": "© owner, fan use",
+    "source": "https://finalfantasy.fandom.com/wiki/Cloud_Strife"
+   }
+  },
+  {
+   "id": "commander-shepard",
+   "name": "Commander Shepard",
+   "from": "Mass Effect",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mass Effect",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 9,
+   "pv": 39781,
+   "img": "img/commander-shepard.webp",
+   "credit": {
+    "author": "BioWare / EA",
+    "license": "© owner, fan use",
+    "source": "https://masseffect.fandom.com/wiki/Commander_Shepard"
+   }
+  },
+  {
+   "id": "cortana",
+   "name": "Cortana",
+   "from": "Halo",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Halo",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 28,
+   "pv": 89714,
+   "img": "img/cortana.webp",
+   "credit": {
+    "author": "Microsoft / 343 Industries",
+    "license": "© owner, fan use",
+    "source": "https://halo.fandom.com/wiki/Cortana"
+   }
+  },
+  {
+   "id": "crash-bandicoot",
+   "name": "Crash Bandicoot",
+   "from": "Crash Bandicoot",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Crash Bandicoot",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 98,
+   "pv": 402723,
+   "img": "img/crash-bandicoot.webp",
+   "credit": {
+    "author": "Activision / Naughty Dog",
+    "license": "© owner, fan use",
+    "source": "https://crashbandicoot.fandom.com/wiki/Crash_Bandicoot"
+   }
+  },
+  {
+   "id": "creeper",
+   "name": "Creeper",
+   "from": "Minecraft",
+   "gender": "x",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Minecraft",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 33,
+   "pv": 100913,
+   "img": "img/creeper.webp",
+   "credit": {
+    "author": "Mojang / Microsoft",
+    "license": "© owner, fan use",
+    "source": "https://minecraft.fandom.com/wiki/Creeper"
+   }
+  },
+  {
+   "id": "cuphead",
+   "name": "Cuphead",
+   "from": "Cuphead",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Cuphead",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 79,
+   "pv": 284113,
+   "img": "img/cuphead.webp",
+   "credit": {
+    "author": "Studio MDHR",
+    "license": "© owner, fan use",
+    "source": "https://cuphead.fandom.com/wiki/Cuphead_(character)"
+   }
+  },
+  {
+   "id": "doomguy",
+   "name": "Doomguy",
+   "from": "Doom",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Doom",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 58,
+   "pv": 165908,
+   "img": "img/doomguy.webp",
+   "credit": {
+    "author": "id Software",
+    "license": "© owner, fan use",
+    "source": "https://doom.fandom.com/wiki/Doom_Slayer_(games)"
+   }
+  },
+  {
+   "id": "dr-eggman",
+   "name": "Dr. Eggman",
+   "from": "Sonic the Hedgehog",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sonic the Hedgehog",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 73,
+   "pv": 217463,
+   "img": "img/dr-eggman.webp",
+   "credit": {
+    "author": "Sega",
+    "license": "© owner, fan use",
+    "source": "https://sonic.fandom.com/wiki/Doctor_Eggman"
+   }
+  },
+  {
+   "id": "ellie",
+   "name": "Ellie",
+   "from": "The Last of Us",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Last of Us",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 52,
+   "pv": 144293,
+   "img": "img/ellie.webp",
+   "credit": {
+    "author": "Sony / Naughty Dog",
+    "license": "© owner, fan use",
+    "source": "https://thelastofus.fandom.com/wiki/Ellie_Williams"
+   }
+  },
+  {
+   "id": "ezio-auditore",
+   "name": "Ezio Auditore",
+   "from": "Assassin's Creed",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Assassin's Creed",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 45,
+   "pv": 127204,
+   "img": "img/ezio-auditore.webp",
+   "credit": {
+    "author": "Ubisoft",
+    "license": "© owner, fan use",
+    "source": "https://assassinscreed.fandom.com/wiki/Ezio_Auditore_da_Firenze"
+   }
+  },
+  {
+   "id": "geralt-of-rivia",
+   "name": "Geralt of Rivia",
+   "from": "The Witcher",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Witcher",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 64,
+   "pv": 200424,
+   "img": "img/geralt-of-rivia.webp",
+   "credit": {
+    "author": "CD Projekt Red",
+    "license": "© owner, fan use",
+    "source": "https://witcher.fandom.com/wiki/Geralt_of_Rivia"
+   }
+  },
+  {
+   "id": "glados",
+   "name": "GLaDOS",
+   "from": "Portal",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Portal",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 41,
+   "pv": 122191,
+   "img": "img/glados.webp",
+   "credit": {
+    "author": "Valve",
+    "license": "© owner, fan use",
+    "source": "https://half-life.fandom.com/wiki/GLaDOS"
+   }
+  },
+  {
+   "id": "gordon-freeman",
+   "name": "Gordon Freeman",
+   "from": "Half-Life",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Half-Life",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 22,
+   "pv": 85219,
+   "img": "img/gordon-freeman.webp",
+   "credit": {
+    "author": "Valve",
+    "license": "© owner, fan use",
+    "source": "https://half-life.fandom.com/wiki/Gordon_Freeman"
+   }
+  },
+  {
+   "id": "jill-valentine",
+   "name": "Jill Valentine",
+   "from": "Resident Evil",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Resident Evil",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 92,
+   "pv": 324782,
+   "img": "img/jill-valentine.webp",
+   "credit": {
+    "author": "Capcom",
+    "license": "© owner, fan use",
+    "source": "https://residentevil.fandom.com/wiki/Jill_Valentine"
+   }
+  },
+  {
+   "id": "joel",
+   "name": "Joel",
+   "from": "The Last of Us",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Last of Us",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 35,
+   "pv": 105563,
+   "img": "img/joel.webp",
+   "credit": {
+    "author": "Sony / Naughty Dog",
+    "license": "© owner, fan use",
+    "source": "https://thelastofus.fandom.com/wiki/Joel_Miller"
+   }
+  },
+  {
+   "id": "john-marston",
+   "name": "John Marston",
+   "from": "Red Dead Redemption",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Red Dead Redemption",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 54,
+   "pv": 147987,
+   "img": "img/john-marston.webp",
+   "credit": {
+    "author": "Rockstar Games",
+    "license": "© owner, fan use",
+    "source": "https://reddead.fandom.com/wiki/John_Marston"
+   }
+  },
+  {
+   "id": "ken-masters",
+   "name": "Ken Masters",
+   "from": "Street Fighter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Street Fighter",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 85,
+   "pv": 305173,
+   "img": "img/ken-masters.webp",
+   "credit": {
+    "author": "Capcom",
+    "license": "© owner, fan use",
+    "source": "https://streetfighter.fandom.com/wiki/Ken_Masters"
+   }
+  },
+  {
+   "id": "knuckles",
+   "name": "Knuckles",
+   "from": "Sonic the Hedgehog",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sonic the Hedgehog",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 56,
+   "pv": 155131,
+   "img": "img/knuckles.webp",
+   "credit": {
+    "author": "Sega",
+    "license": "© owner, fan use",
+    "source": "https://sonic.fandom.com/wiki/Knuckles_the_Echidna"
+   }
+  },
+  {
+   "id": "kratos",
+   "name": "Kratos",
+   "from": "God of War",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "God of War",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 96,
+   "pv": 364456,
+   "img": "img/kratos.webp",
+   "credit": {
+    "author": "Sony / Santa Monica Studio",
+    "license": "© owner, fan use",
+    "source": "https://godofwar.fandom.com/wiki/Kratos"
+   }
+  },
+  {
+   "id": "lara-croft",
+   "name": "Lara Croft",
+   "from": "Tomb Raider",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tomb Raider",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 89,
+   "pv": 323928,
+   "img": "img/lara-croft.webp",
+   "credit": {
+    "author": "Crystal Dynamics / Square Enix",
+    "license": "© owner, fan use",
+    "source": "https://tombraider.fandom.com/wiki/Lara_Croft"
+   }
+  },
+  {
+   "id": "leon-s-kennedy",
+   "name": "Leon S. Kennedy",
+   "from": "Resident Evil",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Resident Evil",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 100,
+   "pv": 649473,
+   "img": "img/leon-s-kennedy.webp",
+   "credit": {
+    "author": "Capcom",
+    "license": "© owner, fan use",
+    "source": "https://residentevil.fandom.com/wiki/Leon_Scott_Kennedy"
+   }
+  },
+  {
+   "id": "marcus-fenix",
+   "name": "Marcus Fenix",
+   "from": "Gears of War",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Gears of War",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 16,
+   "pv": 60655,
+   "img": "img/marcus-fenix.webp",
+   "credit": {
+    "author": "Microsoft / The Coalition",
+    "license": "© owner, fan use",
+    "source": "https://gearsofwar.fandom.com/wiki/Marcus_Michael_Fenix"
+   }
+  },
+  {
+   "id": "master-chief",
+   "name": "Master Chief",
+   "from": "Halo",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Halo",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 62,
+   "pv": 170258,
+   "img": "img/master-chief.webp",
+   "credit": {
+    "author": "Microsoft / 343 Industries",
+    "license": "© owner, fan use",
+    "source": "https://halo.fandom.com/wiki/John-117"
+   }
+  },
+  {
+   "id": "mega-man",
+   "name": "Mega Man",
+   "from": "Mega Man",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mega Man",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 12,
+   "pv": 56335,
+   "img": "img/mega-man.webp",
+   "credit": {
+    "author": "Capcom",
+    "license": "© owner, fan use",
+    "source": "https://megaman.fandom.com/wiki/Mega_Man_(character)"
+   }
+  },
+  {
+   "id": "nathan-drake",
+   "name": "Nathan Drake",
+   "from": "Uncharted",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Uncharted",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 24,
+   "pv": 85459,
+   "img": "img/nathan-drake.webp",
+   "credit": {
+    "author": "Sony / Naughty Dog",
+    "license": "© owner, fan use",
+    "source": "https://uncharted.fandom.com/wiki/Nathan_Drake"
+   }
+  },
+  {
+   "id": "pac-man",
+   "name": "Pac-Man",
+   "from": "Pac-Man",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pac-Man",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 14,
+   "pv": 60017,
+   "img": "img/pac-man.webp",
+   "credit": {
+    "author": "Bandai Namco",
+    "license": "© owner, fan use",
+    "source": "https://pacman.fandom.com/wiki/Pac-Man"
+   }
+  },
+  {
+   "id": "ratchet",
+   "name": "Ratchet",
+   "from": "Ratchet & Clank",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Ratchet & Clank",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 3,
+   "pv": 4624,
+   "img": "img/ratchet.webp",
+   "credit": {
+    "author": "Sony / Insomniac",
+    "license": "© owner, fan use",
+    "source": "https://ratchetandclank.fandom.com/wiki/Ratchet"
+   }
+  },
+  {
+   "id": "ryu",
+   "name": "Ryu",
+   "from": "Street Fighter",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Street Fighter",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 81,
+   "pv": 292976,
+   "img": "img/ryu.webp",
+   "credit": {
+    "author": "Capcom",
+    "license": "© owner, fan use",
+    "source": "https://streetfighter.fandom.com/wiki/Ryu"
+   }
+  },
+  {
+   "id": "sackboy",
+   "name": "Sackboy",
+   "from": "LittleBigPlanet",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "LittleBigPlanet",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 7,
+   "pv": 26490,
+   "img": "img/sackboy.webp",
+   "credit": {
+    "author": "Sony / Media Molecule",
+    "license": "© owner, fan use",
+    "source": "https://littlebigplanet.fandom.com/wiki/Sackboy"
+   }
+  },
+  {
+   "id": "scorpion",
+   "name": "Scorpion",
+   "from": "Mortal Kombat",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mortal Kombat",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 77,
+   "pv": 263363,
+   "img": "img/scorpion.webp",
+   "credit": {
+    "author": "Warner Bros. / NetherRealm",
+    "license": "© owner, fan use",
+    "source": "https://mortalkombat.fandom.com/wiki/Hanzo_Hasashi"
+   }
+  },
+  {
+   "id": "sephiroth",
+   "name": "Sephiroth",
+   "from": "Final Fantasy",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Final Fantasy",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 49,
+   "pv": 136660,
+   "img": "img/sephiroth.webp",
+   "credit": {
+    "author": "Square Enix",
+    "license": "© owner, fan use",
+    "source": "https://finalfantasy.fandom.com/wiki/Sephiroth"
+   }
+  },
+  {
+   "id": "shadow",
+   "name": "Shadow",
+   "from": "Sonic the Hedgehog",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sonic the Hedgehog",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 66,
+   "pv": 213986,
+   "img": "img/shadow.webp",
+   "credit": {
+    "author": "Sega",
+    "license": "© owner, fan use",
+    "source": "https://sonic.fandom.com/wiki/Shadow_the_Hedgehog"
+   }
+  },
+  {
+   "id": "solid-snake",
+   "name": "Solid Snake",
+   "from": "Metal Gear",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Metal Gear",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 60,
+   "pv": 169491,
+   "img": "img/solid-snake.webp",
+   "credit": {
+    "author": "Konami",
+    "license": "© owner, fan use",
+    "source": "https://metalgear.fandom.com/wiki/Solid_Snake"
+   }
+  },
+  {
+   "id": "sonic",
+   "name": "Sonic",
+   "from": "Sonic the Hedgehog",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sonic the Hedgehog",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 83,
+   "pv": 303740,
+   "img": "img/sonic.webp",
+   "credit": {
+    "author": "Sega",
+    "license": "© owner, fan use",
+    "source": "https://sonic.fandom.com/wiki/Sonic_the_Hedgehog"
+   }
+  },
+  {
+   "id": "spyro",
+   "name": "Spyro",
+   "from": "Spyro",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Spyro",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 87,
+   "pv": 310818,
+   "img": "img/spyro.webp",
+   "credit": {
+    "author": "Activision / Insomniac",
+    "license": "© owner, fan use",
+    "source": "https://spyro.fandom.com/wiki/Spyro_the_Dragon_(character)"
+   }
+  },
+  {
+   "id": "steve",
+   "name": "Steve",
+   "from": "Minecraft",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Minecraft",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 68,
+   "pv": 214291,
+   "img": "img/steve.webp",
+   "credit": {
+    "author": "Mojang / Microsoft",
+    "license": "© owner, fan use",
+    "source": "https://minecraft.fandom.com/wiki/Player"
+   }
+  },
+  {
+   "id": "sub-zero",
+   "name": "Sub-Zero",
+   "from": "Mortal Kombat",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mortal Kombat",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 75,
+   "pv": 237268,
+   "img": "img/sub-zero.webp",
+   "credit": {
+    "author": "Warner Bros. / NetherRealm",
+    "license": "© owner, fan use",
+    "source": "https://mortalkombat.fandom.com/wiki/Kuai_Liang"
+   }
+  },
+  {
+   "id": "tails",
+   "name": "Tails",
+   "from": "Sonic the Hedgehog",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sonic the Hedgehog",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 43,
+   "pv": 126700,
+   "img": "img/tails.webp",
+   "credit": {
+    "author": "Sega",
+    "license": "© owner, fan use",
+    "source": "https://sonic.fandom.com/wiki/Miles_%22Tails%22_Prower"
+   }
+  },
+  {
+   "id": "trevor-philips",
+   "name": "Trevor Philips",
+   "from": "Grand Theft Auto",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Grand Theft Auto",
+   "tags": [
+    "character",
+    "game-heroes"
+   ],
+   "fame": 47,
+   "pv": 132588,
+   "img": "img/trevor-philips.webp",
+   "credit": {
+    "author": "Rockstar Games",
+    "license": "© owner, fan use",
+    "source": "https://gta.fandom.com/wiki/Trevor_Philips"
+   }
+  }
+ ]
+}

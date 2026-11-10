@@ -1,0 +1,826 @@
+{
+ "id": "disney-villains",
+ "title": "Disney Villains",
+ "cat": "animated",
+ "people": [
+  {
+   "id": "big-bad-wolf",
+   "name": "Big Bad Wolf",
+   "from": "Mickey Mouse",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 82,
+   "pv": 106618,
+   "img": "img/big-bad-wolf.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Big_Bad_Wolf"
+   }
+  },
+  {
+   "id": "captain-gantu",
+   "name": "Captain Gantu",
+   "from": "Lilo & Stitch",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Lilo & Stitch",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 32,
+   "pv": 9213,
+   "img": "img/captain-gantu.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Captain_Gantu"
+   }
+  },
+  {
+   "id": "captain-hook",
+   "name": "Captain Hook",
+   "from": "Peter Pan",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Peter Pan",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 95,
+   "pv": 191229,
+   "img": "img/captain-hook.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Captain_Hook"
+   }
+  },
+  {
+   "id": "chernabog",
+   "name": "Chernabog",
+   "from": "Fantasia",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Fantasia",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 48,
+   "pv": 23113,
+   "img": "img/chernabog.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Chernabog"
+   }
+  },
+  {
+   "id": "claude-frollo",
+   "name": "Claude Frollo",
+   "from": "The Hunchback of Notre Dame",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Hunchback of Notre Dame",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 58,
+   "pv": 50407,
+   "img": "img/claude-frollo.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Claude_Frollo"
+   }
+  },
+  {
+   "id": "clayton",
+   "name": "Clayton",
+   "from": "Tarzan",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tarzan",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 14,
+   "pv": 821,
+   "img": "img/clayton.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Clayton"
+   }
+  },
+  {
+   "id": "cruella-de-vil",
+   "name": "Cruella de Vil",
+   "from": "101 Dalmatians",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "101 Dalmatians",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 100,
+   "pv": 263214,
+   "img": "img/cruella-de-vil.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Cruella_De_Vil"
+   }
+  },
+  {
+   "id": "dawn-bellwether",
+   "name": "Dawn Bellwether",
+   "from": "Zootopia",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Zootopia",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 43,
+   "pv": 14236,
+   "img": "img/dawn-bellwether.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Dawn_Bellwether"
+   }
+  },
+  {
+   "id": "dr-facilier",
+   "name": "Dr. Facilier",
+   "from": "The Princess and the Frog",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Princess and the Frog",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 53,
+   "pv": 23664,
+   "img": "img/dr-facilier.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Dr._Facilier"
+   }
+  },
+  {
+   "id": "gaston",
+   "name": "Gaston",
+   "from": "Beauty and the Beast",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Beauty and the Beast",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 71,
+   "pv": 81631,
+   "img": "img/gaston.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Gaston"
+   }
+  },
+  {
+   "id": "governor-ratcliffe",
+   "name": "Governor Ratcliffe",
+   "from": "Pocahontas",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pocahontas",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 19,
+   "pv": 1228,
+   "img": "img/governor-ratcliffe.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Governor_Ratcliffe"
+   }
+  },
+  {
+   "id": "hades",
+   "name": "Hades",
+   "from": "Hercules",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Hercules",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 45,
+   "pv": 16390,
+   "img": "img/hades.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Hades"
+   }
+  },
+  {
+   "id": "hans",
+   "name": "Hans",
+   "from": "Frozen",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Frozen",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 61,
+   "pv": 53455,
+   "img": "img/hans.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Hans"
+   }
+  },
+  {
+   "id": "iago",
+   "name": "Iago",
+   "from": "Aladdin",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Aladdin",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 66,
+   "pv": 63162,
+   "img": "img/iago.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Iago"
+   }
+  },
+  {
+   "id": "jafar",
+   "name": "Jafar",
+   "from": "Aladdin",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Aladdin",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 77,
+   "pv": 92185,
+   "img": "img/jafar.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Jafar"
+   }
+  },
+  {
+   "id": "kaa",
+   "name": "Kaa",
+   "from": "The Jungle Book",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Jungle Book",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 69,
+   "pv": 64454,
+   "img": "img/kaa.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Kaa"
+   }
+  },
+  {
+   "id": "king-candy",
+   "name": "King Candy",
+   "from": "Wreck-It Ralph",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Wreck-It Ralph",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 11,
+   "pv": 814,
+   "img": "img/king-candy.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/King_Candy"
+   }
+  },
+  {
+   "id": "king-magnifico",
+   "name": "King Magnifico",
+   "from": "Wish",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Wish",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 50,
+   "pv": 23131,
+   "img": "img/king-magnifico.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/King_Magnifico"
+   }
+  },
+  {
+   "id": "lady-tremaine",
+   "name": "Lady Tremaine",
+   "from": "Cinderella",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Cinderella",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 64,
+   "pv": 60391,
+   "img": "img/lady-tremaine.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Lady_Tremaine"
+   }
+  },
+  {
+   "id": "lotso",
+   "name": "Lotso",
+   "from": "Toy Story",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Toy Story",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 1,
+   "pv": 151,
+   "img": "img/lotso.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Lots-o'-Huggin'_Bear"
+   }
+  },
+  {
+   "id": "madam-mim",
+   "name": "Madam Mim",
+   "from": "The Sword in the Stone",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Sword in the Stone",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 27,
+   "pv": 3993,
+   "img": "img/madam-mim.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Madam_Mim"
+   }
+  },
+  {
+   "id": "madame-medusa",
+   "name": "Madame Medusa",
+   "from": "The Rescuers",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Rescuers",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 22,
+   "pv": 1438,
+   "img": "img/madame-medusa.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Madame_Medusa"
+   }
+  },
+  {
+   "id": "maleficent",
+   "name": "Maleficent",
+   "from": "Sleeping Beauty",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Sleeping Beauty",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 90,
+   "pv": 145942,
+   "img": "img/maleficent.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Maleficent"
+   }
+  },
+  {
+   "id": "mother-gothel",
+   "name": "Mother Gothel",
+   "from": "Tangled",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Tangled",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 79,
+   "pv": 94044,
+   "img": "img/mother-gothel.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Mother_Gothel"
+   }
+  },
+  {
+   "id": "pete",
+   "name": "Pete",
+   "from": "Mickey Mouse",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mickey Mouse",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 92,
+   "pv": 169570,
+   "img": "img/pete.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Pete"
+   }
+  },
+  {
+   "id": "prince-john",
+   "name": "Prince John",
+   "from": "Robin Hood",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Robin Hood",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 6,
+   "pv": 302,
+   "img": "img/prince-john.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Prince_John"
+   }
+  },
+  {
+   "id": "queen-of-hearts",
+   "name": "Queen of Hearts",
+   "from": "Alice in Wonderland",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Alice in Wonderland",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 74,
+   "pv": 90687,
+   "img": "img/queen-of-hearts.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Queen_of_Hearts"
+   }
+  },
+  {
+   "id": "randall-boggs",
+   "name": "Randall Boggs",
+   "from": "Monsters, Inc.",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Monsters, Inc.",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 37,
+   "pv": 13988,
+   "img": "img/randall-boggs.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Randall_Boggs"
+   }
+  },
+  {
+   "id": "ratigan",
+   "name": "Ratigan",
+   "from": "The Great Mouse Detective",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Great Mouse Detective",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 17,
+   "pv": 1062,
+   "img": "img/ratigan.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Ratigan"
+   }
+  },
+  {
+   "id": "scar",
+   "name": "Scar",
+   "from": "The Lion King",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Lion King",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 87,
+   "pv": 144846,
+   "img": "img/scar.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Scar"
+   }
+  },
+  {
+   "id": "shan-yu",
+   "name": "Shan Yu",
+   "from": "Mulan",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Mulan",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 30,
+   "pv": 8457,
+   "img": "img/shan-yu.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Shan_Yu"
+   }
+  },
+  {
+   "id": "shere-khan",
+   "name": "Shere Khan",
+   "from": "The Jungle Book",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Jungle Book",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 84,
+   "pv": 114795,
+   "img": "img/shere-khan.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Shere_Khan"
+   }
+  },
+  {
+   "id": "stromboli",
+   "name": "Stromboli",
+   "from": "Pinocchio",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Pinocchio",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 24,
+   "pv": 2995,
+   "img": "img/stromboli.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Stromboli"
+   }
+  },
+  {
+   "id": "syndrome",
+   "name": "Syndrome",
+   "from": "The Incredibles",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Incredibles",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 40,
+   "pv": 14169,
+   "img": "img/syndrome.webp",
+   "credit": {
+    "author": "Disney / Pixar",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Syndrome"
+   }
+  },
+  {
+   "id": "tamatoa",
+   "name": "Tamatoa",
+   "from": "Moana",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Moana",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 9,
+   "pv": 320,
+   "img": "img/tamatoa.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Tamatoa"
+   }
+  },
+  {
+   "id": "the-evil-queen",
+   "name": "The Evil Queen",
+   "from": "Snow White",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "Snow White",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 56,
+   "pv": 49778,
+   "img": "img/the-evil-queen.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Evil_Queen"
+   }
+  },
+  {
+   "id": "the-horned-king",
+   "name": "The Horned King",
+   "from": "The Black Cauldron",
+   "gender": "m",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Black Cauldron",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 4,
+   "pv": 151,
+   "img": "img/the-horned-king.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Horned_King"
+   }
+  },
+  {
+   "id": "ursula",
+   "name": "Ursula",
+   "from": "The Little Mermaid",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Little Mermaid",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 97,
+   "pv": 215920,
+   "img": "img/ursula.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Ursula"
+   }
+  },
+  {
+   "id": "yzma",
+   "name": "Yzma",
+   "from": "The Emperor's New Groove",
+   "gender": "f",
+   "kind": "character",
+   "sub": "animated",
+   "franchise": "The Emperor's New Groove",
+   "tags": [
+    "character",
+    "disney-villains"
+   ],
+   "fame": 35,
+   "pv": 9901,
+   "img": "img/yzma.webp",
+   "credit": {
+    "author": "Disney",
+    "license": "© owner, fan use",
+    "source": "https://disney.fandom.com/wiki/Yzma"
+   }
+  }
+ ]
+}
