@@ -1,0 +1,707 @@
+{
+ "id": "womens-soccer",
+ "title": "Women's Soccer",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "trinity-rodman",
+   "name": "Trinity Rodman",
+   "from": "Washington Spirit, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1742336,
+   "img": "img/trinity-rodman.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trinity_Rodman_USWNT_v_Colombia_Mar_7_2026-87_(cropped).jpg"
+   },
+   "fame": 100
+  },
+  {
+   "id": "alexia-putellas",
+   "name": "Alexia Putellas",
+   "from": "Barcelona, Spain",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 834321,
+   "img": "img/alexia-putellas.webp",
+   "credit": {
+    "author": "Pedro J Pacheco",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Premios_Goya_2026_-_Alexia_Putellas_(cropped).jpg"
+   },
+   "fame": 97
+  },
+  {
+   "id": "aitana-bonmati",
+   "name": "Aitana Bonmatí",
+   "from": "Barcelona, Spain",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 513095,
+   "img": "img/aitana-bonmati.webp",
+   "credit": {
+    "author": "Barcex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_240422_214032.jpg"
+   },
+   "fame": 94
+  },
+  {
+   "id": "megan-rapinoe",
+   "name": "Megan Rapinoe",
+   "from": "OL Reign, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 510083,
+   "img": "img/megan-rapinoe.webp",
+   "credit": {
+    "author": "Lorie Shaull from St Paul, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Megan_Rapinoe_(48675274817)_(cropped).jpg"
+   },
+   "fame": 91
+  },
+  {
+   "id": "alex-morgan",
+   "name": "Alex Morgan",
+   "from": "San Diego Wave, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 411938,
+   "img": "img/alex-morgan.webp",
+   "credit": {
+    "author": "Jamie Smed",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alex_Morgan_May19.jpg"
+   },
+   "fame": 88
+  },
+  {
+   "id": "carli-lloyd",
+   "name": "Carli Lloyd",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 407181,
+   "img": "img/carli-lloyd.webp",
+   "credit": {
+    "author": "Noah Salzman",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carli_Lloyd_jogging.jpg"
+   },
+   "fame": 85
+  },
+  {
+   "id": "mia-hamm",
+   "name": "Mia Hamm",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 383024,
+   "img": "img/mia-hamm.webp",
+   "credit": {
+    "author": "Rob Poetsch on Flickr; cropped by Blackcat",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mia_Hamm_2010_cropped.jpg"
+   },
+   "fame": 83
+  },
+  {
+   "id": "sam-kerr",
+   "name": "Sam Kerr",
+   "from": "Chelsea, Australia",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 364240,
+   "img": "img/sam-kerr.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sam_Kerr_Gotham_v_Seattle_18_July_2026-378_(cropped).jpg"
+   },
+   "fame": 80
+  },
+  {
+   "id": "chloe-kelly",
+   "name": "Chloe Kelly",
+   "from": "Arsenal, England",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 344395,
+   "img": "img/chloe-kelly.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:On_29.07.England_Lionesses_Bus_Celebration_-_The_Mall,_Lond2025_11_(cropped-J1).jpg"
+   },
+   "fame": 77
+  },
+  {
+   "id": "alessia-russo",
+   "name": "Alessia Russo",
+   "from": "Arsenal, England",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 288216,
+   "img": "img/alessia-russo.webp",
+   "credit": {
+    "author": "Katie Chan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20260927-Alessia_Russo.jpg"
+   },
+   "fame": 74
+  },
+  {
+   "id": "abby-wambach",
+   "name": "Abby Wambach",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 281359,
+   "img": "img/abby-wambach.webp",
+   "credit": {
+    "author": "Abby_Wambach_USA_vs_Can_Sep17.jpg: Ampatent derivative work: Hmlarson",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wambach-cropped.jpg"
+   },
+   "fame": 71
+  },
+  {
+   "id": "marta",
+   "name": "Marta",
+   "from": "Orlando Pride, Brazil",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 269106,
+   "img": "img/marta.webp",
+   "credit": {
+    "author": "Hameltion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg"
+   },
+   "fame": 68
+  },
+  {
+   "id": "lucy-bronze",
+   "name": "Lucy Bronze",
+   "from": "Chelsea, England",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 246665,
+   "img": "img/lucy-bronze.webp",
+   "credit": {
+    "author": "Katie Chan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20250510-Lucy_Bronze_(cropped_-_portrait).jpg"
+   },
+   "fame": 65
+  },
+  {
+   "id": "beth-mead",
+   "name": "Beth Mead",
+   "from": "Arsenal, England",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 238224,
+   "img": "img/beth-mead.webp",
+   "credit": {
+    "author": "James Boyes from UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eng_Women_0_Czech_Rep_0_11_10_2022-225_(52426070932)_(cropped).jpg"
+   },
+   "fame": 62
+  },
+  {
+   "id": "mary-earps",
+   "name": "Mary Earps",
+   "from": "Paris Saint-Germain, England",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 237213,
+   "img": "img/mary-earps.webp",
+   "credit": {
+    "author": "James Boyes from UK",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mary_Earps_Man_Utd.jpg"
+   },
+   "fame": 59
+  },
+  {
+   "id": "leah-williamson",
+   "name": "Leah Williamson",
+   "from": "Arsenal, England",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 231016,
+   "img": "img/leah-williamson.webp",
+   "credit": {
+    "author": "Department for Culture, Media and Sport",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lionesses_Victory_Parade_2025_(54687088710)_(cropped_-_Williamson).jpg"
+   },
+   "fame": 56
+  },
+  {
+   "id": "lindsey-horan",
+   "name": "Lindsey Horan",
+   "from": "Lyon, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 190108,
+   "img": "img/lindsey-horan.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lindsey_Heaps_USWNT_vs_Italy_Nov_28_2025-047_(cropped).jpg"
+   },
+   "fame": 53
+  },
+  {
+   "id": "sophia-wilson",
+   "name": "Sophia Wilson",
+   "from": "Portland Thorns, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 167114,
+   "img": "img/sophia-wilson.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sophia_Wilson_Gotham_v_Portland_28_August_2026-022_(cropped).jpg"
+   },
+   "fame": 50
+  },
+  {
+   "id": "rose-lavelle",
+   "name": "Rose Lavelle",
+   "from": "Gotham FC, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 150878,
+   "img": "img/rose-lavelle.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rose_Lavelle_USWNT_vs_Italy_Nov_28_2025-186_(cropped).jpg"
+   },
+   "fame": 48
+  },
+  {
+   "id": "christine-sinclair",
+   "name": "Christine Sinclair",
+   "from": "Canada",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 138461,
+   "img": "img/christine-sinclair.webp",
+   "credit": {
+    "author": "Robin Glover",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Christine_Sinclair_2016_(3x4_cropped).jpg"
+   },
+   "fame": 45
+  },
+  {
+   "id": "mallory-swanson",
+   "name": "Mallory Swanson",
+   "from": "Chicago Stars, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 135311,
+   "img": "img/mallory-swanson.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mallory_Swanson_Gotham_v_Chicago_25_September_2026-056_(cropped).jpg"
+   },
+   "fame": 42
+  },
+  {
+   "id": "brandi-chastain",
+   "name": "Brandi Chastain",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 105681,
+   "img": "img/brandi-chastain.webp",
+   "credit": {
+    "author": "US Embassy Australia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandi_Chastain_2023.jpg"
+   },
+   "fame": 39
+  },
+  {
+   "id": "tobin-heath",
+   "name": "Tobin Heath",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 102917,
+   "img": "img/tobin-heath.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tobin_Heath_USWNT_vs_Paraguay,_2021-09-16_(cropped).jpg"
+   },
+   "fame": 36
+  },
+  {
+   "id": "christen-press",
+   "name": "Christen Press",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 94243,
+   "img": "img/christen-press.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Christen_Press_during_Gotham_Angel_City_Sep_7_25-014_(cropped).jpg"
+   },
+   "fame": 33
+  },
+  {
+   "id": "ellie-carpenter",
+   "name": "Ellie Carpenter",
+   "from": "Lyon, Australia",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 92175,
+   "img": "img/ellie-carpenter.webp",
+   "credit": {
+    "author": "Katie Chan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20250905-Ellie_Carpenter.jpg"
+   },
+   "fame": 30
+  },
+  {
+   "id": "ada-hegerberg",
+   "name": "Ada Hegerberg",
+   "from": "Lyon, Norway",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 87360,
+   "img": "img/ada-hegerberg.webp",
+   "credit": {
+    "author": "crop by User:Benj90",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AHegerberg.jpg"
+   },
+   "fame": 27
+  },
+  {
+   "id": "barbra-banda",
+   "name": "Barbra Banda",
+   "from": "Orlando Pride, Zambia",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 74573,
+   "img": "img/barbra-banda.webp",
+   "credit": {
+    "author": "Steffen Prößdorf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-07-07_Fussball,_Frauen,_L%C3%A4nderspiel,_Deutschland_-_Sambia_1DX_6960_by_Stepro.jpg"
+   },
+   "fame": 24
+  },
+  {
+   "id": "julie-foudy",
+   "name": "Julie Foudy",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 73840,
+   "img": "img/julie-foudy.webp",
+   "credit": {
+    "author": "United State Department of State's U.S. Department of State's EWGTS",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Julie_Foudy_portrait_shot_2014.jpg"
+   },
+   "fame": 21
+  },
+  {
+   "id": "naomi-girma",
+   "name": "Naomi Girma",
+   "from": "Chelsea, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 73302,
+   "img": "img/naomi-girma.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Naomi_Girma_USWNT_vs_Italy_Nov_28_2025-103_(cropped).jpg"
+   },
+   "fame": 18
+  },
+  {
+   "id": "kristine-lilly",
+   "name": "Kristine Lilly",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 57575,
+   "img": "img/kristine-lilly.webp",
+   "credit": {
+    "author": "Jed Record",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kristine_Lilly_2015.jpg"
+   },
+   "fame": 16
+  },
+  {
+   "id": "wendie-renard",
+   "name": "Wendie Renard",
+   "from": "Lyon, France",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 49841,
+   "img": "img/wendie-renard.webp",
+   "credit": {
+    "author": "Steffen Prößdorf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2019-05-17_Fu%C3%9Fball,_Frauen,_UEFA_Women%27s_Champions_League,_Olympique_Lyonnais_-_FC_Barcelona_StP_0635_LR10_by_Stepro.jpg"
+   },
+   "fame": 13
+  },
+  {
+   "id": "crystal-dunn",
+   "name": "Crystal Dunn",
+   "from": "Gotham FC, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 49802,
+   "img": "img/crystal-dunn.webp",
+   "credit": {
+    "author": "Taylor Vincent",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Crystal_Dunn_2024-01_(cropped).jpg"
+   },
+   "fame": 10
+  },
+  {
+   "id": "birgit-prinz",
+   "name": "Birgit Prinz",
+   "from": "Germany",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 33646,
+   "img": "img/birgit-prinz.webp",
+   "credit": {
+    "author": "El Loko",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Birgit_Prinz_20180519_(cropped).jpg"
+   },
+   "fame": 7
+  },
+  {
+   "id": "alyssa-naeher",
+   "name": "Alyssa Naeher",
+   "from": "Chicago Stars, USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 32796,
+   "img": "img/alyssa-naeher.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alyssa_Naeher_Gotham_v_Chicago_25_September_2026-138_(cropped).jpg"
+   },
+   "fame": 4
+  },
+  {
+   "id": "becky-sauerbrunn",
+   "name": "Becky Sauerbrunn",
+   "from": "USA",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 29412,
+   "img": "img/becky-sauerbrunn.webp",
+   "credit": {
+    "author": "Jamie Smed from Cincinnati, Ohio",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Becky_Sauerbrunn_(49628077113)_(cropped).jpg"
+   },
+   "fame": 1
+  }
+ ]
+}

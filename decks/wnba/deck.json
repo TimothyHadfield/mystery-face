@@ -1,0 +1,727 @@
+{
+ "id": "wnba",
+ "title": "WNBA Stars",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "caitlin-clark",
+   "name": "Caitlin Clark",
+   "from": "Indiana Fever",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 2116358,
+   "img": "img/caitlin-clark.webp",
+   "credit": {
+    "author": "User:Zafer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Caitlin_Clark_12_United_States_20260913_(6)_(cropped).JPG"
+   },
+   "fame": 100
+  },
+  {
+   "id": "a-ja-wilson",
+   "name": "A'ja Wilson",
+   "from": "Las Vegas Aces",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 1279711,
+   "img": "img/a-ja-wilson.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:A%27ja_Wilson_(53756794398)_(cropped).jpg"
+   },
+   "fame": 97
+  },
+  {
+   "id": "angel-reese",
+   "name": "Angel Reese",
+   "from": "Chicago Sky",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 1245997,
+   "img": "img/angel-reese.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Angel_Reese_Dream_(cropped).jpg"
+   },
+   "fame": 94
+  },
+  {
+   "id": "paige-bueckers",
+   "name": "Paige Bueckers",
+   "from": "Dallas Wings",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 983580,
+   "img": "img/paige-bueckers.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paige_Bueckers_2025_4_(cropped).jpg"
+   },
+   "fame": 92
+  },
+  {
+   "id": "brittney-griner",
+   "name": "Brittney Griner",
+   "from": "Atlanta Dream",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 974007,
+   "img": "img/brittney-griner.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:260706_Lynx_Sun_JohnMc164_(cropped).jpg"
+   },
+   "fame": 89
+  },
+  {
+   "id": "kelsey-plum",
+   "name": "Kelsey Plum",
+   "from": "Los Angeles Sparks",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 506310,
+   "img": "img/kelsey-plum.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kelsey_Plum_2025_Sparks_(cropped).jpg"
+   },
+   "fame": 86
+  },
+  {
+   "id": "breanna-stewart",
+   "name": "Breanna Stewart",
+   "from": "New York Liberty",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 482854,
+   "img": "img/breanna-stewart.webp",
+   "credit": {
+    "author": "User:Zafer",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Breanna_Stewart_12_United_States_20260910_(1)_(cropped).JPG"
+   },
+   "fame": 83
+  },
+  {
+   "id": "sue-bird",
+   "name": "Sue Bird",
+   "from": "Seattle Storm",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 473800,
+   "img": "img/sue-bird.webp",
+   "credit": {
+    "author": "Fuzheado",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SXSW-2024-alih-OB7A0246-Sue_Bird.jpg"
+   },
+   "fame": 80
+  },
+  {
+   "id": "candace-parker",
+   "name": "Candace Parker",
+   "from": "Sparks, Aces",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 433976,
+   "img": "img/candace-parker.webp",
+   "credit": {
+    "author": "SusanLesch",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Parker5_20171004.jpg"
+   },
+   "fame": 77
+  },
+  {
+   "id": "diana-taurasi",
+   "name": "Diana Taurasi",
+   "from": "Phoenix Mercury",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 386111,
+   "img": "img/diana-taurasi.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Diana_Taurasi_2024_(cropped).jpg"
+   },
+   "fame": 75
+  },
+  {
+   "id": "cameron-brink",
+   "name": "Cameron Brink",
+   "from": "Los Angeles Sparks",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 376828,
+   "img": "img/cameron-brink.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cameron_Brink_Sparks_(cropped).jpg"
+   },
+   "fame": 72
+  },
+  {
+   "id": "sabrina-ionescu",
+   "name": "Sabrina Ionescu",
+   "from": "New York Liberty",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 356604,
+   "img": "img/sabrina-ionescu.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sabrina_Ionescu_2025_(cropped).jpg"
+   },
+   "fame": 69
+  },
+  {
+   "id": "becky-hammon",
+   "name": "Becky Hammon",
+   "from": "Coach, Las Vegas Aces",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 324851,
+   "img": "img/becky-hammon.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Becky_Hammon_2025_(cropped).jpg"
+   },
+   "fame": 66
+  },
+  {
+   "id": "napheesa-collier",
+   "name": "Napheesa Collier",
+   "from": "Minnesota Lynx",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 323992,
+   "img": "img/napheesa-collier.webp",
+   "credit": {
+    "author": "John McClellan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Napheesa_Collier_vs_Indiana_Fever_(August_2,_2026)_B.jpg"
+   },
+   "fame": 63
+  },
+  {
+   "id": "maya-moore",
+   "name": "Maya Moore",
+   "from": "Minnesota Lynx",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 298398,
+   "img": "img/maya-moore.webp",
+   "credit": {
+    "author": "Lorie Shaull from St Paul, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Maya_Moore_speaking_at_the_Marshall_Project_in_Washington_DC_(48751715837)_(cropped).jpg"
+   },
+   "fame": 60
+  },
+  {
+   "id": "kelsey-mitchell",
+   "name": "Kelsey Mitchell",
+   "from": "Indiana Fever",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 279612,
+   "img": "img/kelsey-mitchell.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kelsey_Mitchell_2024_(cropped).jpg"
+   },
+   "fame": 58
+  },
+  {
+   "id": "alyssa-thomas",
+   "name": "Alyssa Thomas",
+   "from": "Phoenix Mercury",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 241183,
+   "img": "img/alyssa-thomas.webp",
+   "credit": {
+    "author": "Lorie Shaull",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2_Alyssa_Thomas_(cropped).jpg"
+   },
+   "fame": 55
+  },
+  {
+   "id": "lisa-leslie",
+   "name": "Lisa Leslie",
+   "from": "Los Angeles Sparks",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 240607,
+   "img": "img/lisa-leslie.webp",
+   "credit": {
+    "author": "Angela George at https://www.flickr.com/photos/sharongraphics/",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LisaLeslieDec10.jpg"
+   },
+   "fame": 52
+  },
+  {
+   "id": "aliyah-boston",
+   "name": "Aliyah Boston",
+   "from": "Indiana Fever",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 216278,
+   "img": "img/aliyah-boston.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aliyah_Boston_(53029603721)_(cropped).jpg"
+   },
+   "fame": 49
+  },
+  {
+   "id": "nneka-ogwumike",
+   "name": "Nneka Ogwumike",
+   "from": "Seattle Storm",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 214996,
+   "img": "img/nneka-ogwumike.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:260725_WNBA_All_Star_game_JohnMc162_(55419893240)_(cropped).jpg"
+   },
+   "fame": 46
+  },
+  {
+   "id": "elena-delle-donne",
+   "name": "Elena Delle Donne",
+   "from": "Washington Mystics",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 195887,
+   "img": "img/elena-delle-donne.webp",
+   "credit": {
+    "author": "TonyTheTiger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20140814_Elena_Delle_Donne_2.jpg"
+   },
+   "fame": 43
+  },
+  {
+   "id": "skylar-diggins",
+   "name": "Skylar Diggins",
+   "from": "Seattle Storm",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 172798,
+   "img": "img/skylar-diggins.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Skylar_Diggins-Smith_2024_(cropped).jpg"
+   },
+   "fame": 41
+  },
+  {
+   "id": "satou-sabally",
+   "name": "Satou Sabally",
+   "from": "Phoenix Mercury",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 167142,
+   "img": "img/satou-sabally.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Satou_Sabally_2025a_(cropped).jpg"
+   },
+   "fame": 38
+  },
+  {
+   "id": "chelsea-gray",
+   "name": "Chelsea Gray",
+   "from": "Las Vegas Aces",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 163804,
+   "img": "img/chelsea-gray.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chelsea_Gray_(53756793833)_(cropped).jpg"
+   },
+   "fame": 35
+  },
+  {
+   "id": "arike-ogunbowale",
+   "name": "Arike Ogunbowale",
+   "from": "Dallas Wings",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 160204,
+   "img": "img/arike-ogunbowale.webp",
+   "credit": {
+    "author": "Lorie Shaull",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arike_Ogunbowale_01_(cropped).jpg"
+   },
+   "fame": 32
+  },
+  {
+   "id": "jackie-young",
+   "name": "Jackie Young",
+   "from": "Las Vegas Aces",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 149050,
+   "img": "img/jackie-young.webp",
+   "credit": {
+    "author": "Lorie Shaull from St Paul, United States",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackie_Young.jpg"
+   },
+   "fame": 29
+  },
+  {
+   "id": "rhyne-howard",
+   "name": "Rhyne Howard",
+   "from": "Atlanta Dream",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 143857,
+   "img": "img/rhyne-howard.webp",
+   "credit": {
+    "author": "Gamecock Central",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rhyne_Howard.jpg"
+   },
+   "fame": 26
+  },
+  {
+   "id": "jonquel-jones",
+   "name": "Jonquel Jones",
+   "from": "New York Liberty",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 143459,
+   "img": "img/jonquel-jones.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:260725_WNBA_All_Star_game_JohnMc171_(55419893205)_(cropped).jpg"
+   },
+   "fame": 24
+  },
+  {
+   "id": "tamika-catchings",
+   "name": "Tamika Catchings",
+   "from": "Indiana Fever",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 138006,
+   "img": "img/tamika-catchings.webp",
+   "credit": {
+    "author": "Ruben.caraveo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tamika_Catchings.jpg"
+   },
+   "fame": 21
+  },
+  {
+   "id": "sheryl-swoopes",
+   "name": "Sheryl Swoopes",
+   "from": "Houston Comets",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 135839,
+   "img": "img/sheryl-swoopes.webp",
+   "credit": {
+    "author": "Danielle G. Campbell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sheryl_Swoopes_at_Essence_Festival_of_Culture_July_2025.jpg"
+   },
+   "fame": 18
+  },
+  {
+   "id": "cynthia-cooper",
+   "name": "Cynthia Cooper",
+   "from": "Houston Comets",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 104171,
+   "img": "img/cynthia-cooper.webp",
+   "credit": {
+    "author": "Neon Tommy",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cynthia_Cooper-Dyke_in_2011.jpg"
+   },
+   "fame": 15
+  },
+  {
+   "id": "courtney-williams",
+   "name": "Courtney Williams",
+   "from": "Minnesota Lynx",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 92027,
+   "img": "img/courtney-williams.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:260806_Lynx_Sparks_JohnMc165_(55447931544)_(cropped).jpg"
+   },
+   "fame": 12
+  },
+  {
+   "id": "dearica-hamby",
+   "name": "Dearica Hamby",
+   "from": "Los Angeles Sparks",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 91419,
+   "img": "img/dearica-hamby.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dearica_Hamby_2024_(cropped).jpg"
+   },
+   "fame": 9
+  },
+  {
+   "id": "kahleah-copper",
+   "name": "Kahleah Copper",
+   "from": "Phoenix Mercury",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 88075,
+   "img": "img/kahleah-copper.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kahleah_Copper_(52913361454).jpg"
+   },
+   "fame": 7
+  },
+  {
+   "id": "lauren-jackson",
+   "name": "Lauren Jackson",
+   "from": "Seattle Storm",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 86206,
+   "img": "img/lauren-jackson.webp",
+   "credit": {
+    "author": "Bidgee",
+    "license": "CC BY-SA 3.0 au",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Lauren_Jackson_at_the_Welcome_Home_parade_in_Sydney_(1).jpg"
+   },
+   "fame": 4
+  },
+  {
+   "id": "jewell-loyd",
+   "name": "Jewell Loyd",
+   "from": "Las Vegas Aces",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "wnba"
+   ],
+   "pv": 60589,
+   "img": "img/jewell-loyd.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jewell_Loyd_2024_(cropped).jpg"
+   },
+   "fame": 1
+  }
+ ]
+}

@@ -1,0 +1,987 @@
+{
+ "id": "soccer-stars",
+ "title": "Soccer Stars",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "cristiano-ronaldo",
+   "name": "Cristiano Ronaldo",
+   "from": "Al Nassr, Portugal",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 15559812,
+   "img": "img/cristiano-ronaldo.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
+   },
+   "fame": 100
+  },
+  {
+   "id": "lionel-messi",
+   "name": "Lionel Messi",
+   "from": "Inter Miami, Argentina",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 15312910,
+   "img": "img/lionel-messi.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
+   },
+   "fame": 98
+  },
+  {
+   "id": "erling-haaland",
+   "name": "Erling Haaland",
+   "from": "Manchester City, Norway",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 13619006,
+   "img": "img/erling-haaland.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg"
+   },
+   "fame": 96
+  },
+  {
+   "id": "lamine-yamal",
+   "name": "Lamine Yamal",
+   "from": "Barcelona, Spain",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 11308797,
+   "img": "img/lamine-yamal.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lamine_Yamal_France_v_Spain_7.24.26-142.jpg"
+   },
+   "fame": 94
+  },
+  {
+   "id": "kylian-mbappe",
+   "name": "Kylian Mbappé",
+   "from": "Real Madrid, France",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 10022952,
+   "img": "img/kylian-mbappe.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kylian_Mbappe_France_v_Senegal_16_June_2026-391_(cropped).jpg"
+   },
+   "fame": 92
+  },
+  {
+   "id": "harry-kane",
+   "name": "Harry Kane",
+   "from": "Bayern Munich, England",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 7635667,
+   "img": "img/harry-kane.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Harry_Kane_England_v_Ghana_23_June_2026-024_(cropped).jpg"
+   },
+   "fame": 90
+  },
+  {
+   "id": "jude-bellingham",
+   "name": "Jude Bellingham",
+   "from": "Real Madrid, England",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 6966511,
+   "img": "img/jude-bellingham.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jude_Bellingham_England_v_Ghana_23_June_2026-061_(cropped).jpg"
+   },
+   "fame": 88
+  },
+  {
+   "id": "neymar",
+   "name": "Neymar",
+   "from": "Santos, Brazil",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 5357702,
+   "img": "img/neymar.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg"
+   },
+   "fame": 86
+  },
+  {
+   "id": "zlatan-ibrahimovic",
+   "name": "Zlatan Ibrahimović",
+   "from": "AC Milan, Sweden",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 4399458,
+   "img": "img/zlatan-ibrahimovic.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zlatan_Ibrahimovi%C4%87_nyc.jpg"
+   },
+   "fame": 84
+  },
+  {
+   "id": "david-beckham",
+   "name": "David Beckham",
+   "from": "Man United, England",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 4338293,
+   "img": "img/david-beckham.webp",
+   "credit": {
+    "author": "Soccer Aid for Unicef",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:David_Beckham_UNICEF_(cropped2).jpg"
+   },
+   "fame": 81
+  },
+  {
+   "id": "diego-maradona",
+   "name": "Diego Maradona",
+   "from": "Napoli, Argentina",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 3913127,
+   "img": "img/diego-maradona.webp",
+   "credit": {
+    "author": "Doha Stadium Plus Qatar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Diego_Maradona_2012_2.jpg"
+   },
+   "fame": 79
+  },
+  {
+   "id": "mohamed-salah",
+   "name": "Mohamed Salah",
+   "from": "Liverpool, Egypt",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 3880614,
+   "img": "img/mohamed-salah.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg"
+   },
+   "fame": 77
+  },
+  {
+   "id": "ronaldo",
+   "name": "Ronaldo",
+   "from": "Real Madrid, Brazil",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 3597230,
+   "img": "img/ronaldo.webp",
+   "credit": {
+    "author": "Lula Oficial",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:12.12.2025_%E2%80%93_Cerim%C3%B4nia_de_lan%C3%A7amento_do_SBT_News_-_54980664160_(cropped2).jpg"
+   },
+   "fame": 75
+  },
+  {
+   "id": "zinedine-zidane",
+   "name": "Zinedine Zidane",
+   "from": "Real Madrid, France",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 3575258,
+   "img": "img/zinedine-zidane.webp",
+   "credit": {
+    "author": "Hadi Abyar",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zinedine_Zidane_by_Tasnim_03.jpg"
+   },
+   "fame": 73
+  },
+  {
+   "id": "ronaldinho",
+   "name": "Ronaldinho",
+   "from": "Barcelona, Brazil",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 3314002,
+   "img": "img/ronaldinho.webp",
+   "credit": {
+    "author": "Marcos Corrêa/PR",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ronaldinho_in_2019.jpg"
+   },
+   "fame": 71
+  },
+  {
+   "id": "thierry-henry",
+   "name": "Thierry Henry",
+   "from": "Arsenal, France",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 3143990,
+   "img": "img/thierry-henry.webp",
+   "credit": {
+    "author": "Web Summit",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Thierry_Henry_(51649035951)_(cropped).jpg"
+   },
+   "fame": 69
+  },
+  {
+   "id": "pele",
+   "name": "Pelé",
+   "from": "Santos, Brazil",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 3124205,
+   "img": "img/pele.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg"
+   },
+   "fame": 67
+  },
+  {
+   "id": "ousmane-dembele",
+   "name": "Ousmane Dembélé",
+   "from": "Paris Saint-Germain, France",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 3067926,
+   "img": "img/ousmane-dembele.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ousmane_Dembele_France_v_Senegal_16_June_2026-341_(cropped)_2.jpg"
+   },
+   "fame": 65
+  },
+  {
+   "id": "christian-pulisic",
+   "name": "Christian Pulisic",
+   "from": "AC Milan, USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 2909241,
+   "img": "img/christian-pulisic.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_(cropped).jpg"
+   },
+   "fame": 63
+  },
+  {
+   "id": "robert-lewandowski",
+   "name": "Robert Lewandowski",
+   "from": "Barcelona, Poland",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 2682569,
+   "img": "img/robert-lewandowski.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Lewandowski_NYCFC_v_Chicago_25_July_2026-383.jpg"
+   },
+   "fame": 61
+  },
+  {
+   "id": "luka-modric",
+   "name": "Luka Modrić",
+   "from": "AC Milan, Croatia",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 2640094,
+   "img": "img/luka-modric.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Luka_Modric_Croatia_v_Portugal_2_July_2026-055.jpg"
+   },
+   "fame": 59
+  },
+  {
+   "id": "vinicius-junior",
+   "name": "Vinícius Júnior",
+   "from": "Real Madrid, Brazil",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 2429540,
+   "img": "img/vinicius-junior.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_(cropped).jpg"
+   },
+   "fame": 57
+  },
+  {
+   "id": "bukayo-saka",
+   "name": "Bukayo Saka",
+   "from": "Arsenal, England",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 2255672,
+   "img": "img/bukayo-saka.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bukayo_Saka_England_v_Ghana_23_June_2026-057_(cropped).jpg"
+   },
+   "fame": 55
+  },
+  {
+   "id": "wayne-rooney",
+   "name": "Wayne Rooney",
+   "from": "Man United, England",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 2146588,
+   "img": "img/wayne-rooney.webp",
+   "credit": {
+    "author": "All-Pro Reels from District of Columbia, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wayne_Rooney_(50121495731)_(cropped).jpg"
+   },
+   "fame": 53
+  },
+  {
+   "id": "antoine-griezmann",
+   "name": "Antoine Griezmann",
+   "from": "Atlético Madrid, France",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1905531,
+   "img": "img/antoine-griezmann.webp",
+   "credit": {
+    "author": "Антон Зайцев",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:FRA-ARG_(10)_(cropped).jpg"
+   },
+   "fame": 50
+  },
+  {
+   "id": "son-heung-min",
+   "name": "Son Heung-min",
+   "from": "LAFC, South Korea",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1707826,
+   "img": "img/son-heung-min.webp",
+   "credit": {
+    "author": "Ujishadow",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BFA_2023_-2_Heung-Min_Son_(cropped).jpg"
+   },
+   "fame": 48
+  },
+  {
+   "id": "karim-benzema",
+   "name": "Karim Benzema",
+   "from": "Al-Ittihad, France",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1686118,
+   "img": "img/karim-benzema.webp",
+   "credit": {
+    "author": "Chris Deahr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Karim_Benzema_vs._FC_Schalke_04_(16647992937).jpg"
+   },
+   "fame": 46
+  },
+  {
+   "id": "kevin-de-bruyne",
+   "name": "Kevin De Bruyne",
+   "from": "Napoli, Belgium",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1642203,
+   "img": "img/kevin-de-bruyne.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_(cropped).jpg"
+   },
+   "fame": 44
+  },
+  {
+   "id": "virgil-van-dijk",
+   "name": "Virgil van Dijk",
+   "from": "Liverpool, Netherlands",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1512311,
+   "img": "img/virgil-van-dijk.webp",
+   "credit": {
+    "author": "Ailura",
+    "license": "CC BY-SA 3.0 at",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/at/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:20160604_AUT_NED_8876_(cropped).jpg"
+   },
+   "fame": 42
+  },
+  {
+   "id": "thibaut-courtois",
+   "name": "Thibaut Courtois",
+   "from": "Real Madrid, Belgium",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1449417,
+   "img": "img/thibaut-courtois.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_(cropped).jpg"
+   },
+   "fame": 40
+  },
+  {
+   "id": "cole-palmer",
+   "name": "Cole Palmer",
+   "from": "Chelsea, England",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1379055,
+   "img": "img/cole-palmer.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cole_Palmer_2025_FIFA_Club_World_Cup_Final.jpg"
+   },
+   "fame": 38
+  },
+  {
+   "id": "kaka",
+   "name": "Kaká",
+   "from": "AC Milan, Brazil",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1375187,
+   "img": "img/kaka.webp",
+   "credit": {
+    "author": "Евгений Асмолов",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kak%C3%A1_visited_Stadium_St._Petersburg.jpg"
+   },
+   "fame": 36
+  },
+  {
+   "id": "johan-cruyff",
+   "name": "Johan Cruyff",
+   "from": "Ajax, Netherlands",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1193468,
+   "img": "img/johan-cruyff.webp",
+   "credit": {
+    "author": "Rob Mieremet / Anefo",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Johan_Cruijff_(1974).jpg"
+   },
+   "fame": 34
+  },
+  {
+   "id": "steven-gerrard",
+   "name": "Steven Gerrard",
+   "from": "Liverpool, England",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1091510,
+   "img": "img/steven-gerrard.webp",
+   "credit": {
+    "author": "Эдгар Брещанов",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steven_Gerrard_2018.jpg"
+   },
+   "fame": 32
+  },
+  {
+   "id": "paolo-maldini",
+   "name": "Paolo Maldini",
+   "from": "AC Milan, Italy",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1013337,
+   "img": "img/paolo-maldini.webp",
+   "credit": {
+    "author": "GOAL TV",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paolo_Maldini_AC_Milan_Technical_director_2018.jpg"
+   },
+   "fame": 30
+  },
+  {
+   "id": "phil-foden",
+   "name": "Phil Foden",
+   "from": "Manchester City, England",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 1012542,
+   "img": "img/phil-foden.webp",
+   "credit": {
+    "author": "Steffen Prößdorf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023-10-04_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League,_RB_Leipzig_-_Manchester_City_FC_1DX_2613,_Phil_Foden.jpg"
+   },
+   "fame": 28
+  },
+  {
+   "id": "pedri",
+   "name": "Pedri",
+   "from": "Barcelona, Spain",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 999534,
+   "img": "img/pedri.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedri_France_v_Spain_7.24.26-245.jpg"
+   },
+   "fame": 26
+  },
+  {
+   "id": "landon-donovan",
+   "name": "Landon Donovan",
+   "from": "LA Galaxy, USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 965362,
+   "img": "img/landon-donovan.webp",
+   "credit": {
+    "author": "Hameltion",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_SD_Wave_(Oct_2024)_045.jpg"
+   },
+   "fame": 24
+  },
+  {
+   "id": "xavi",
+   "name": "Xavi",
+   "from": "Barcelona, Spain",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 959896,
+   "img": "img/xavi.webp",
+   "credit": {
+    "author": "Mutari 15:45, 5 March 2008 (UTC)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Xavi_Hern%C3%A1ndez_-_002_(cropped).jpg"
+   },
+   "fame": 22
+  },
+  {
+   "id": "gianluigi-buffon",
+   "name": "Gianluigi Buffon",
+   "from": "Juventus, Italy",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 884783,
+   "img": "img/gianluigi-buffon.webp",
+   "credit": {
+    "author": "MichaelEmilio",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Norway_Italy_-_June_2025_A_44_(Gianluigi_Buffon).jpg"
+   },
+   "fame": 20
+  },
+  {
+   "id": "alisson-becker",
+   "name": "Alisson Becker",
+   "from": "Liverpool, Brazil",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 833925,
+   "img": "img/alisson-becker.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alisson_Becker_Brazil_V_Morocco_13_June_2026-117_(cropped).jpg"
+   },
+   "fame": 18
+  },
+  {
+   "id": "florian-wirtz",
+   "name": "Florian Wirtz",
+   "from": "Liverpool, Germany",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 830059,
+   "img": "img/florian-wirtz.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_(cropped).jpg"
+   },
+   "fame": 15
+  },
+  {
+   "id": "rodri",
+   "name": "Rodri",
+   "from": "Manchester City, Spain",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 775760,
+   "img": "img/rodri.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rodri_Argentina_v_Spain_19_July_2026-187_(cropped).jpg"
+   },
+   "fame": 13
+  },
+  {
+   "id": "andres-iniesta",
+   "name": "Andrés Iniesta",
+   "from": "Barcelona, Spain",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 765656,
+   "img": "img/andres-iniesta.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s_Iniesta_Argentina_v_Spain_19_July_2026-034_(cropped).jpg"
+   },
+   "fame": 11
+  },
+  {
+   "id": "clint-dempsey",
+   "name": "Clint Dempsey",
+   "from": "Seattle Sounders, USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 741325,
+   "img": "img/clint-dempsey.webp",
+   "credit": {
+    "author": "Victor Araiza from Houston, TX, United States of America",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Clint_Dempsey_(26347615912)_(cropped).jpg"
+   },
+   "fame": 9
+  },
+  {
+   "id": "iker-casillas",
+   "name": "Iker Casillas",
+   "from": "Real Madrid, Spain",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 728394,
+   "img": "img/iker-casillas.webp",
+   "credit": {
+    "author": "Web Summit",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Iker-Casillas-SportsTrade-2021-cropped.jpg"
+   },
+   "fame": 7
+  },
+  {
+   "id": "franz-beckenbauer",
+   "name": "Franz Beckenbauer",
+   "from": "Bayern Munich, Germany",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 703816,
+   "img": "img/franz-beckenbauer.webp",
+   "credit": {
+    "author": "Panini Group",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Franz_Beckenbauer_(1975).jpg"
+   },
+   "fame": 5
+  },
+  {
+   "id": "andrea-pirlo",
+   "name": "Andrea Pirlo",
+   "from": "Juventus, Italy",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 677999,
+   "img": "img/andrea-pirlo.webp",
+   "credit": {
+    "author": "Clément Bucco-Lechat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:20150616_-_Portugal_-_Italie_-_Gen%C3%A8ve_-_Andrea_Pirlo_(cropped).jpg"
+   },
+   "fame": 3
+  },
+  {
+   "id": "tim-howard",
+   "name": "Tim Howard",
+   "from": "Everton, USA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "soccer"
+   ],
+   "pv": 500664,
+   "img": "img/tim-howard.webp",
+   "credit": {
+    "author": "UKinUSA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tim_Howard_2023.jpg"
+   },
+   "fame": 1
+  }
+ ]
+}

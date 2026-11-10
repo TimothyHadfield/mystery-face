@@ -1,0 +1,1007 @@
+{
+ "id": "nba-legends",
+ "title": "NBA Legends",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "michael-jordan",
+   "name": "Michael Jordan",
+   "from": "Chicago Bulls",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 4332550,
+   "img": "img/michael-jordan.webp",
+   "credit": {
+    "author": "Zach Catanzareti Photo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Michael_jordan_admad_rashad_(51276390562)_(cropped).jpg"
+   },
+   "fame": 100
+  },
+  {
+   "id": "shaquille-o-neal",
+   "name": "Shaquille O'Neal",
+   "from": "Lakers, Magic, Heat",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 3287032,
+   "img": "img/shaquille-o-neal.webp",
+   "credit": {
+    "author": "TechCrunch",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_2023_-_Day_1_(cropped).jpg"
+   },
+   "fame": 98
+  },
+  {
+   "id": "kobe-bryant",
+   "name": "Kobe Bryant",
+   "from": "Los Angeles Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 3182629,
+   "img": "img/kobe-bryant.webp",
+   "credit": {
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kobe_Bryant_Dec_2014.jpg"
+   },
+   "fame": 96
+  },
+  {
+   "id": "magic-johnson",
+   "name": "Magic Johnson",
+   "from": "Los Angeles Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1951160,
+   "img": "img/magic-johnson.webp",
+   "credit": {
+    "author": "Daniel Benavides from Austin, TX",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Magic_Johnson_at_SXSW_2022_(51958828669)_(cropped).jpg"
+   },
+   "fame": 94
+  },
+  {
+   "id": "dennis-rodman",
+   "name": "Dennis Rodman",
+   "from": "Pistons, Bulls",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1822195,
+   "img": "img/dennis-rodman.webp",
+   "credit": {
+    "author": "GabboT",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dennis_Rodman_02_(34649289162)_(cropped).jpg"
+   },
+   "fame": 92
+  },
+  {
+   "id": "kareem-abdul-jabbar",
+   "name": "Kareem Abdul-Jabbar",
+   "from": "Los Angeles Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1809340,
+   "img": "img/kareem-abdul-jabbar.webp",
+   "credit": {
+    "author": "Yahoo from Sunnyvale, California, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kareem_Abdul-Jabbar_May_2014.jpg"
+   },
+   "fame": 90
+  },
+  {
+   "id": "larry-bird",
+   "name": "Larry Bird",
+   "from": "Boston Celtics",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1637708,
+   "img": "img/larry-bird.webp",
+   "credit": {
+    "author": "Kurt Shimala",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Larrybird.jpg"
+   },
+   "fame": 88
+  },
+  {
+   "id": "wilt-chamberlain",
+   "name": "Wilt Chamberlain",
+   "from": "76ers, Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1440363,
+   "img": "img/wilt-chamberlain.webp",
+   "credit": {
+    "author": "Bill Allen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Wilt_Chamberlain_1960_(cropped)_(cropped).jpg"
+   },
+   "fame": 86
+  },
+  {
+   "id": "carmelo-anthony",
+   "name": "Carmelo Anthony",
+   "from": "Nuggets, Knicks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1367480,
+   "img": "img/carmelo-anthony.webp",
+   "credit": {
+    "author": "Tripsdubs",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carmelo_Anthony_at_2025_NBA_All_Star_Weekend_(cropped).jpg"
+   },
+   "fame": 84
+  },
+  {
+   "id": "charles-barkley",
+   "name": "Charles Barkley",
+   "from": "Suns, 76ers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1268873,
+   "img": "img/charles-barkley.webp",
+   "credit": {
+    "author": "Wright-Patt AFB",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Barkley_in_2026.jpg"
+   },
+   "fame": 82
+  },
+  {
+   "id": "tim-duncan",
+   "name": "Tim Duncan",
+   "from": "San Antonio Spurs",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1201737,
+   "img": "img/tim-duncan.webp",
+   "credit": {
+    "author": "Geoff Livingston",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tim_Duncan_Walks_Verizon_Center%27s_Floor_(cropped)_(cropped).jpg"
+   },
+   "fame": 80
+  },
+  {
+   "id": "allen-iverson",
+   "name": "Allen Iverson",
+   "from": "Philadelphia 76ers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1161348,
+   "img": "img/allen-iverson.webp",
+   "credit": {
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Allen_Iverson_08_B.jpg"
+   },
+   "fame": 78
+  },
+  {
+   "id": "dwyane-wade",
+   "name": "Dwyane Wade",
+   "from": "Miami Heat",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 1007140,
+   "img": "img/dwyane-wade.webp",
+   "credit": {
+    "author": "Flickr user Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dwyane_Wade_e1.jpg"
+   },
+   "fame": 76
+  },
+  {
+   "id": "yao-ming",
+   "name": "Yao Ming",
+   "from": "Houston Rockets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 981322,
+   "img": "img/yao-ming.webp",
+   "credit": {
+    "author": "World Travel & Tourism Council",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yao_Ming_in_2014_(cropped).jpg"
+   },
+   "fame": 74
+  },
+  {
+   "id": "patrick-ewing",
+   "name": "Patrick Ewing",
+   "from": "New York Knicks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 970186,
+   "img": "img/patrick-ewing.webp",
+   "credit": {
+    "author": "AlexanderJonesi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Patrick_Ewing_2021_(cropped).jpg"
+   },
+   "fame": 72
+  },
+  {
+   "id": "karl-malone",
+   "name": "Karl Malone",
+   "from": "Utah Jazz",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 926338,
+   "img": "img/karl-malone.webp",
+   "credit": {
+    "author": "Airman 1st Class Jacob B. Wrightsman",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:NBA_HOF%E2%80%99er_Karl_Malone_visits_Barksdale_(9)_(cropped).jpg"
+   },
+   "fame": 70
+  },
+  {
+   "id": "scottie-pippen",
+   "name": "Scottie Pippen",
+   "from": "Chicago Bulls",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 922932,
+   "img": "img/scottie-pippen.webp",
+   "credit": {
+    "author": "Sea Cow",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scottie_Pippen_5-2-22_(cropped).jpg"
+   },
+   "fame": 68
+  },
+  {
+   "id": "steve-nash",
+   "name": "Steve Nash",
+   "from": "Phoenix Suns",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 910370,
+   "img": "img/steve-nash.webp",
+   "credit": {
+    "author": "Scott L from Los Angeles, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SteveNash2014.jpg"
+   },
+   "fame": 66
+  },
+  {
+   "id": "dwight-howard",
+   "name": "Dwight Howard",
+   "from": "Orlando Magic",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 808768,
+   "img": "img/dwight-howard.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dwight_Howard_pre-game_(cropped).jpg"
+   },
+   "fame": 64
+  },
+  {
+   "id": "kevin-garnett",
+   "name": "Kevin Garnett",
+   "from": "Timberwolves, Celtics",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 797044,
+   "img": "img/kevin-garnett.webp",
+   "credit": {
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kevin_Garnett_2008-01-13.jpg"
+   },
+   "fame": 62
+  },
+  {
+   "id": "bill-russell",
+   "name": "Bill Russell",
+   "from": "Boston Celtics",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 771555,
+   "img": "img/bill-russell.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_russell_dribbling_(cropped).jpg"
+   },
+   "fame": 60
+  },
+  {
+   "id": "tony-parker",
+   "name": "Tony Parker",
+   "from": "San Antonio Spurs",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 766330,
+   "img": "img/tony-parker.webp",
+   "credit": {
+    "author": "Zafer",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tony_Parker_France_20260704_(2).jpg"
+   },
+   "fame": 58
+  },
+  {
+   "id": "dirk-nowitzki",
+   "name": "Dirk Nowitzki",
+   "from": "Dallas Mavericks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 742440,
+   "img": "img/dirk-nowitzki.webp",
+   "credit": {
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dirk_Nowitzki_2_(cropped).jpg"
+   },
+   "fame": 56
+  },
+  {
+   "id": "hakeem-olajuwon",
+   "name": "Hakeem Olajuwon",
+   "from": "Houston Rockets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 731775,
+   "img": "img/hakeem-olajuwon.webp",
+   "credit": {
+    "author": "U.S. Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nigerian_President_Buhari_Stands_With_Secretary_Kerry,_U.S._Delegation_After_They_Attended_His_Inauguration_Ceremony_(cropped).jpg"
+   },
+   "fame": 54
+  },
+  {
+   "id": "jerry-west",
+   "name": "Jerry West",
+   "from": "Los Angeles Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 713871,
+   "img": "img/jerry-west.webp",
+   "credit": {
+    "author": "Malcolm W. Emmons",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jerry_West_1972.jpeg"
+   },
+   "fame": 52
+  },
+  {
+   "id": "jason-kidd",
+   "name": "Jason Kidd",
+   "from": "Nets, Mavericks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 695574,
+   "img": "img/jason-kidd.webp",
+   "credit": {
+    "author": "File:Jason Kidd Nets coach.jpg: Keith Allison derivative work: Chrishmt0423",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jason_Kidd_Nets_coach_cropped.jpg"
+   },
+   "fame": 49
+  },
+  {
+   "id": "tracy-mcgrady",
+   "name": "Tracy McGrady",
+   "from": "Magic, Rockets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 661954,
+   "img": "img/tracy-mcgrady.webp",
+   "credit": {
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tracy_McGrady_1.jpg"
+   },
+   "fame": 47
+  },
+  {
+   "id": "julius-erving",
+   "name": "Julius Erving",
+   "from": "76ers (Dr. J)",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 635486,
+   "img": "img/julius-erving.webp",
+   "credit": {
+    "author": "Ash Carter",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Julius_Erving_2016.jpg"
+   },
+   "fame": 45
+  },
+  {
+   "id": "vince-carter",
+   "name": "Vince Carter",
+   "from": "Toronto Raptors",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 628751,
+   "img": "img/vince-carter.webp",
+   "credit": {
+    "author": "Danny Bollinger",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vince_Carter_2013-03-25_(1).jpg"
+   },
+   "fame": 43
+  },
+  {
+   "id": "david-robinson",
+   "name": "David Robinson",
+   "from": "San Antonio Spurs",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 590124,
+   "img": "img/david-robinson.webp",
+   "credit": {
+    "author": "Petty Officer 1st Class Chad J. McNeeley, U.S. Navy.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:David_Robinson_(Team_USA).jpg"
+   },
+   "fame": 41
+  },
+  {
+   "id": "isiah-thomas",
+   "name": "Isiah Thomas",
+   "from": "Detroit Pistons",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 536405,
+   "img": "img/isiah-thomas.webp",
+   "credit": {
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Isiah_Thomas_2007_(cropped).jpg"
+   },
+   "fame": 39
+  },
+  {
+   "id": "pete-maravich",
+   "name": "Pete Maravich",
+   "from": "Hawks, Jazz",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 530459,
+   "img": "img/pete-maravich.webp",
+   "credit": {
+    "author": "Robert Kingsbury",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pete_Maravich_1977.jpeg"
+   },
+   "fame": 37
+  },
+  {
+   "id": "dikembe-mutombo",
+   "name": "Dikembe Mutombo",
+   "from": "Nuggets, Hawks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 517990,
+   "img": "img/dikembe-mutombo.webp",
+   "credit": {
+    "author": "Cavic = Steve Lipofsky",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lipofsky-Dikembe_Mutombo_(cropped).jpg"
+   },
+   "fame": 35
+  },
+  {
+   "id": "reggie-miller",
+   "name": "Reggie Miller",
+   "from": "Indiana Pacers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 469155,
+   "img": "img/reggie-miller.webp",
+   "credit": {
+    "author": "Flickr user Philadelphia 76ers",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Reggie_Miller_crop.png"
+   },
+   "fame": 33
+  },
+  {
+   "id": "john-stockton",
+   "name": "John Stockton",
+   "from": "Utah Jazz",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 463930,
+   "img": "img/john-stockton.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Stockton_2022.jpg"
+   },
+   "fame": 31
+  },
+  {
+   "id": "ray-allen",
+   "name": "Ray Allen",
+   "from": "Celtics, Heat",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 454913,
+   "img": "img/ray-allen.webp",
+   "credit": {
+    "author": "7th Army Training Command from Grafenwoehr, Germany",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ray_Allen_161208-A-HE359-046_(31482070191).jpg"
+   },
+   "fame": 29
+  },
+  {
+   "id": "gary-payton",
+   "name": "Gary Payton",
+   "from": "Seattle SuperSonics",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 415419,
+   "img": "img/gary-payton.webp",
+   "credit": {
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gary_Payton,_Miami_Heat_circa_2007_(cropped).jpg"
+   },
+   "fame": 27
+  },
+  {
+   "id": "manu-ginobili",
+   "name": "Manu Ginóbili",
+   "from": "San Antonio Spurs",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 413383,
+   "img": "img/manu-ginobili.webp",
+   "credit": {
+    "author": "Mike",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Manu_Ginobili_Spurs-Magic011_(cropped).jpg"
+   },
+   "fame": 25
+  },
+  {
+   "id": "moses-malone",
+   "name": "Moses Malone",
+   "from": "76ers, Rockets",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 398127,
+   "img": "img/moses-malone.webp",
+   "credit": {
+    "author": "Cpl. Lameen Witter",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Moses_Malone_cropped_portrait.jpg"
+   },
+   "fame": 23
+  },
+  {
+   "id": "pau-gasol",
+   "name": "Pau Gasol",
+   "from": "Los Angeles Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 379197,
+   "img": "img/pau-gasol.webp",
+   "credit": {
+    "author": "Dabryna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:PauCaptura.jpg"
+   },
+   "fame": 21
+  },
+  {
+   "id": "paul-pierce",
+   "name": "Paul Pierce",
+   "from": "Boston Celtics",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 377053,
+   "img": "img/paul-pierce.webp",
+   "credit": {
+    "author": "Keith Allison from Baltimore, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Pierce_2008-01-13_(cropped).jpg"
+   },
+   "fame": 19
+  },
+  {
+   "id": "chris-webber",
+   "name": "Chris Webber",
+   "from": "Sacramento Kings",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 375291,
+   "img": "img/chris-webber.webp",
+   "credit": {
+    "author": "inboundpass",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Webber_NBA_Asia_Challenge_2010.jpg"
+   },
+   "fame": 17
+  },
+  {
+   "id": "oscar-robertson",
+   "name": "Oscar Robertson",
+   "from": "Royals, Bucks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 321732,
+   "img": "img/oscar-robertson.webp",
+   "credit": {
+    "author": "Governor Eric Holcomb",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Oscar_Robertson_2024.jpg"
+   },
+   "fame": 15
+  },
+  {
+   "id": "dominique-wilkins",
+   "name": "Dominique Wilkins",
+   "from": "Atlanta Hawks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 312055,
+   "img": "img/dominique-wilkins.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dominique_Wilkins_2022.jpg"
+   },
+   "fame": 13
+  },
+  {
+   "id": "clyde-drexler",
+   "name": "Clyde Drexler",
+   "from": "Portland Trail Blazers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 311534,
+   "img": "img/clyde-drexler.webp",
+   "credit": {
+    "author": "University of Houston",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Clyde_Drexler_01.jpg"
+   },
+   "fame": 11
+  },
+  {
+   "id": "alonzo-mourning",
+   "name": "Alonzo Mourning",
+   "from": "Miami Heat",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 288394,
+   "img": "img/alonzo-mourning.webp",
+   "credit": {
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alonzo_Mourning.jpg"
+   },
+   "fame": 9
+  },
+  {
+   "id": "bob-cousy",
+   "name": "Bob Cousy",
+   "from": "Boston Celtics",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 280230,
+   "img": "img/bob-cousy.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob_Cousy_(1).jpeg"
+   },
+   "fame": 7
+  },
+  {
+   "id": "elgin-baylor",
+   "name": "Elgin Baylor",
+   "from": "Los Angeles Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 212364,
+   "img": "img/elgin-baylor.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Elgin_Baylor_Night_program-(cropped).jpg"
+   },
+   "fame": 5
+  },
+  {
+   "id": "george-mikan",
+   "name": "George Mikan",
+   "from": "Minneapolis Lakers",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 199657,
+   "img": "img/george-mikan.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Mikan_1945.jpeg"
+   },
+   "fame": 3
+  },
+  {
+   "id": "spud-webb",
+   "name": "Spud Webb",
+   "from": "Atlanta Hawks",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "nba"
+   ],
+   "pv": 175739,
+   "img": "img/spud-webb.webp",
+   "credit": {
+    "author": "Diemheych derivative work: Shakeydeal33",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_%27Spud%27_Webb_(cropped).jpg"
+   },
+   "fame": 1
+  }
+ ]
+}

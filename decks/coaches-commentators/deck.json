@@ -1,0 +1,947 @@
+{
+ "id": "coaches-commentators",
+ "title": "Coaches & Commentators",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "jose-mourinho",
+   "name": "José Mourinho",
+   "from": "Football manager",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 3919041,
+   "img": "img/jose-mourinho.webp",
+   "credit": {
+    "author": "Zafer",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_Mourinho_20250206_(1).jpg"
+   },
+   "fame": 100
+  },
+  {
+   "id": "pep-guardiola",
+   "name": "Pep Guardiola",
+   "from": "Manchester City manager",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 3319949,
+   "img": "img/pep-guardiola.webp",
+   "credit": {
+    "author": "Steffen Prößdorf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Josep_Guardiola_2023-10-04_Fu%C3%9Fball,_M%C3%A4nner,_UEFA_Champions_League,_RB_Leipzig_-_Manchester_City_FC_1DX_2797_(cropped).jpg"
+   },
+   "fame": 98
+  },
+  {
+   "id": "mauricio-pochettino",
+   "name": "Mauricio Pochettino",
+   "from": "USA manager",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 2549468,
+   "img": "img/mauricio-pochettino.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mauricio_Pochettino_USMNT_v_Belgium_Mar_28_2026-2.jpg"
+   },
+   "fame": 96
+  },
+  {
+   "id": "carlo-ancelotti",
+   "name": "Carlo Ancelotti",
+   "from": "Brazil manager",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 2063622,
+   "img": "img/carlo-ancelotti.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carlo_Ancelotti_Brazil_V_Morocco_13_June_2026-47.jpg"
+   },
+   "fame": 94
+  },
+  {
+   "id": "mike-tomlin",
+   "name": "Mike Tomlin",
+   "from": "Steelers coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1844747,
+   "img": "img/mike-tomlin.webp",
+   "credit": {
+    "author": "Cramerwiki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tomlin2009.jpg"
+   },
+   "fame": 91
+  },
+  {
+   "id": "peyton-manning",
+   "name": "Peyton Manning",
+   "from": "ManningCast",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1818365,
+   "img": "img/peyton-manning.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Peyton_Manning_(51665689271).jpg"
+   },
+   "fame": 89
+  },
+  {
+   "id": "jurgen-klopp",
+   "name": "Jürgen Klopp",
+   "from": "Liverpool manager",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1671725,
+   "img": "img/jurgen-klopp.webp",
+   "credit": {
+    "author": "Derivative work: EndzoneEnthusiast",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022-07-21_Fu%C3%9Fball,_M%C3%A4nner,Freundschaftsspiel,_RB_Leipzig_-_FC_Liverpool_1DX_2243_by_Stepro_(cropped)_(cropped).jpg"
+   },
+   "fame": 87
+  },
+  {
+   "id": "nick-saban",
+   "name": "Nick Saban",
+   "from": "Alabama coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1662598,
+   "img": "img/nick-saban.webp",
+   "credit": {
+    "author": "Carol M. Highsmith",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nick_saban_cropped_2010.jpg"
+   },
+   "fame": 85
+  },
+  {
+   "id": "bill-belichick",
+   "name": "Bill Belichick",
+   "from": "Patriots, UNC coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1544721,
+   "img": "img/bill-belichick.webp",
+   "credit": {
+    "author": "The White House from Washington, DC",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Photo_of_the_Day-_4-20_(34163554775)_(cropped).jpg"
+   },
+   "fame": 83
+  },
+  {
+   "id": "alex-ferguson",
+   "name": "Alex Ferguson",
+   "from": "Manchester United manager",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1511552,
+   "img": "img/alex-ferguson.webp",
+   "credit": {
+    "author": "Austin Osuide",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alex_Ferguson.jpg"
+   },
+   "fame": 81
+  },
+  {
+   "id": "pat-mcafee",
+   "name": "Pat McAfee",
+   "from": "ESPN, The Pat McAfee Show",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1350871,
+   "img": "img/pat-mcafee.webp",
+   "credit": {
+    "author": "Brycenrichter",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Pat_McAfee_2026.jpg"
+   },
+   "fame": 78
+  },
+  {
+   "id": "charles-barkley",
+   "name": "Charles Barkley",
+   "from": "Inside the NBA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1268873,
+   "img": "img/charles-barkley.webp",
+   "credit": {
+    "author": "Wright-Patt AFB",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Barkley_in_2026.jpg"
+   },
+   "fame": 76
+  },
+  {
+   "id": "sean-mcvay",
+   "name": "Sean McVay",
+   "from": "Rams coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1107417,
+   "img": "img/sean-mcvay.webp",
+   "credit": {
+    "author": "The 621st Contingency Response Wing",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sean_McVay_2019_(cropped2).jpg"
+   },
+   "fame": 74
+  },
+  {
+   "id": "tony-romo",
+   "name": "Tony Romo",
+   "from": "CBS analyst",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1040385,
+   "img": "img/tony-romo.webp",
+   "credit": {
+    "author": "Keith Allison",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tony_Romo_2015.jpg"
+   },
+   "fame": 72
+  },
+  {
+   "id": "gregg-popovich",
+   "name": "Gregg Popovich",
+   "from": "Spurs coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 1015766,
+   "img": "img/gregg-popovich.webp",
+   "credit": {
+    "author": "The Obama White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gregg_Popovich_speaks_at_the_White_House_2015-01-12_(cropped).jpg"
+   },
+   "fame": 70
+  },
+  {
+   "id": "john-madden",
+   "name": "John Madden",
+   "from": "Raiders coach, broadcaster",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 970716,
+   "img": "img/john-madden.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Madden_(Higher_Quality).jpg"
+   },
+   "fame": 68
+  },
+  {
+   "id": "steve-kerr",
+   "name": "Steve Kerr",
+   "from": "Warriors coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 903389,
+   "img": "img/steve-kerr.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Biden_Steph_Curry_Steve_Kerr_P20230117AS-1347_(cropped)_(cropped).jpg"
+   },
+   "fame": 66
+  },
+  {
+   "id": "cris-collinsworth",
+   "name": "Cris Collinsworth",
+   "from": "NBC analyst",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 863349,
+   "img": "img/cris-collinsworth.webp",
+   "credit": {
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cris_Collinsworth_(37045366070).jpg"
+   },
+   "fame": 63
+  },
+  {
+   "id": "phil-jackson",
+   "name": "Phil Jackson",
+   "from": "Bulls, Lakers coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 862146,
+   "img": "img/phil-jackson.webp",
+   "credit": {
+    "author": "Phil_Jackson_3.jpg: Keith Allison from Baltimore, USA derivative work: Chris! my talk",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Phil_Jackson_3_cropped.jpg"
+   },
+   "fame": 61
+  },
+  {
+   "id": "pat-riley",
+   "name": "Pat Riley",
+   "from": "Heat executive",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 827439,
+   "img": "img/pat-riley.webp",
+   "credit": {
+    "author": "Department of Defense",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pat_Riley_speaks_at_Eglin_Air_Force_Base_(cropped).jpg"
+   },
+   "fame": 59
+  },
+  {
+   "id": "arsene-wenger",
+   "name": "Arsène Wenger",
+   "from": "Arsenal manager",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 824979,
+   "img": "img/arsene-wenger.webp",
+   "credit": {
+    "author": "Barcex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Ars%C3%A8ne_Wenger_-_240422_192850_(cropped).jpg"
+   },
+   "fame": 57
+  },
+  {
+   "id": "andy-reid",
+   "name": "Andy Reid",
+   "from": "Chiefs coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 812721,
+   "img": "img/andy-reid.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Andy_Reid_(Kansas_City_Chiefs_at_Washington_Football_Team,_October_17,_2021)_(cropped).jpg"
+   },
+   "fame": 55
+  },
+  {
+   "id": "stephen-a-smith",
+   "name": "Stephen A. Smith",
+   "from": "ESPN First Take",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 777858,
+   "img": "img/stephen-a-smith.webp",
+   "credit": {
+    "author": "Moody College of Communication",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_A._Smith_in_January_2023_(3x4_cropped_c).jpg"
+   },
+   "fame": 53
+  },
+  {
+   "id": "erin-andrews",
+   "name": "Erin Andrews",
+   "from": "Fox Sports",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 646645,
+   "img": "img/erin-andrews.webp",
+   "credit": {
+    "author": "Mingle Media TV",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Erin_Andrews_-_November_2014_(cropped).jpg"
+   },
+   "fame": 50
+  },
+  {
+   "id": "joe-buck",
+   "name": "Joe Buck",
+   "from": "ESPN",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 598638,
+   "img": "img/joe-buck.webp",
+   "credit": {
+    "author": "FOX Sports",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Buck_2018_PIT_(cropped).png"
+   },
+   "fame": 48
+  },
+  {
+   "id": "dawn-staley",
+   "name": "Dawn Staley",
+   "from": "South Carolina coach",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 589376,
+   "img": "img/dawn-staley.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dawn_Staley_Headshot_(cropped).jpg"
+   },
+   "fame": 46
+  },
+  {
+   "id": "kirk-herbstreit",
+   "name": "Kirk Herbstreit",
+   "from": "ESPN College GameDay",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 559202,
+   "img": "img/kirk-herbstreit.webp",
+   "credit": {
+    "author": "Bobak Ha'Eri",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2024-0106-Kirk_Herbstreit.jpg"
+   },
+   "fame": 44
+  },
+  {
+   "id": "doc-rivers",
+   "name": "Doc Rivers",
+   "from": "Bucks coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 514371,
+   "img": "img/doc-rivers.webp",
+   "credit": {
+    "author": "All-Pro Reels",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rivers_76ers.jpg"
+   },
+   "fame": 42
+  },
+  {
+   "id": "al-michaels",
+   "name": "Al Michaels",
+   "from": "NBC / Amazon",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 488888,
+   "img": "img/al-michaels.webp",
+   "credit": {
+    "author": "Keith Allison from Hanover, MD, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Al_Michaels_(37443740985)_(cropped).jpg"
+   },
+   "fame": 40
+  },
+  {
+   "id": "geno-auriemma",
+   "name": "Geno Auriemma",
+   "from": "UConn coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 476210,
+   "img": "img/geno-auriemma.webp",
+   "credit": {
+    "author": "John Mac",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Geno_Auriemma_(53346280904)_(cropped).jpg"
+   },
+   "fame": 38
+  },
+  {
+   "id": "kenny-smith",
+   "name": "Kenny Smith",
+   "from": "Inside the NBA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 406894,
+   "img": "img/kenny-smith.webp",
+   "credit": {
+    "author": "PistonsFan2223",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kenny_030817_(cropped).jpg"
+   },
+   "fame": 35
+  },
+  {
+   "id": "vince-lombardi",
+   "name": "Vince Lombardi",
+   "from": "Packers coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 392336,
+   "img": "img/vince-lombardi.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Vince_Lombardi_(1913-1970)_in_1964_Crop.jpg"
+   },
+   "fame": 33
+  },
+  {
+   "id": "bill-parcells",
+   "name": "Bill Parcells",
+   "from": "Giants coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 390488,
+   "img": "img/bill-parcells.webp",
+   "credit": {
+    "author": "US Air Force",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Parcells_(cropped).jpg"
+   },
+   "fame": 31
+  },
+  {
+   "id": "mike-krzyzewski",
+   "name": "Mike Krzyzewski",
+   "from": "Duke coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 383551,
+   "img": "img/mike-krzyzewski.webp",
+   "credit": {
+    "author": "United State Army - West Point",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mike_Krzyzewski_in_2011_(cropped).jpg"
+   },
+   "fame": 29
+  },
+  {
+   "id": "pat-summitt",
+   "name": "Pat Summitt",
+   "from": "Tennessee coach",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 377788,
+   "img": "img/pat-summitt.webp",
+   "credit": {
+    "author": "Staff Sgt. Christina M. O'Connell. Cropped by User:Blueag9.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pat-Summitt-Walter-Reed-Center-06-24-08-2.jpg"
+   },
+   "fame": 27
+  },
+  {
+   "id": "erik-spoelstra",
+   "name": "Erik Spoelstra",
+   "from": "Heat coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 359991,
+   "img": "img/erik-spoelstra.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Erik_Spoelstra_2022_(cropped).jpg"
+   },
+   "fame": 25
+  },
+  {
+   "id": "bob-knight",
+   "name": "Bob Knight",
+   "from": "Indiana coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 358819,
+   "img": "img/bob-knight.webp",
+   "credit": {
+    "author": "Airman 1st Class Jonathan Steffen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob-Knight-Nov-21-07-1.jpg"
+   },
+   "fame": 23
+  },
+  {
+   "id": "ernie-johnson-jr",
+   "name": "Ernie Johnson Jr.",
+   "from": "Inside the NBA",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 340187,
+   "img": "img/ernie-johnson-jr.webp",
+   "credit": {
+    "author": "Georgia Sports Hall of Fame",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ernie_Johnson_2019.png"
+   },
+   "fame": 20
+  },
+  {
+   "id": "tony-dungy",
+   "name": "Tony Dungy",
+   "from": "Colts coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 329387,
+   "img": "img/tony-dungy.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tony_Dungy_(2021)_B.jpg"
+   },
+   "fame": 18
+  },
+  {
+   "id": "bob-costas",
+   "name": "Bob Costas",
+   "from": "NBC Sports",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 277891,
+   "img": "img/bob-costas.webp",
+   "credit": {
+    "author": "MiamiFilmFestival",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob_Costas_2014_MIFF.jpg"
+   },
+   "fame": 16
+  },
+  {
+   "id": "jim-nantz",
+   "name": "Jim Nantz",
+   "from": "CBS Sports",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 261898,
+   "img": "img/jim-nantz.webp",
+   "credit": {
+    "author": "Tennessee Titans",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jim_Nantz_2026.png"
+   },
+   "fame": 14
+  },
+  {
+   "id": "dick-vitale",
+   "name": "Dick Vitale",
+   "from": "ESPN college hoops",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 242890,
+   "img": "img/dick-vitale.webp",
+   "credit": {
+    "author": "Dave Hogg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dick_Vitale.jpg"
+   },
+   "fame": 12
+  },
+  {
+   "id": "john-wooden",
+   "name": "John Wooden",
+   "from": "UCLA coach",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 229125,
+   "img": "img/john-wooden.webp",
+   "credit": {
+    "author": "Associated Students of the University of California at Los Angeles",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Wooden.JPG"
+   },
+   "fame": 10
+  },
+  {
+   "id": "skip-bayless",
+   "name": "Skip Bayless",
+   "from": "Sports commentator",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 198541,
+   "img": "img/skip-bayless.webp",
+   "credit": {
+    "author": "US Air Force from USA Tech. Sgt. Carl Clegg/108th Wing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:First_Take_Salute_the_Troops_broadcast_(cropped2).jpg"
+   },
+   "fame": 7
+  },
+  {
+   "id": "vin-scully",
+   "name": "Vin Scully",
+   "from": "Dodgers broadcaster",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 162551,
+   "img": "img/vin-scully.webp",
+   "credit": {
+    "author": "Jayne Kamin-Oncea",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vin_Scully,_Dodgers_announcer,_at_Dodgertown_in_Vero_Beach,_Florida_for_Spring_Training,_1985_(cropped)_(cropped).jpg"
+   },
+   "fame": 5
+  },
+  {
+   "id": "mike-breen",
+   "name": "Mike Breen",
+   "from": "ESPN",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 122710,
+   "img": "img/mike-breen.webp",
+   "credit": {
+    "author": "KnicksFanTV",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%98%D0%BA_%D0%91%D1%80%D0%B8%D0%BD_2023.png"
+   },
+   "fame": 3
+  },
+  {
+   "id": "doris-burke",
+   "name": "Doris Burke",
+   "from": "ESPN",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "coaches"
+   ],
+   "pv": 89286,
+   "img": "img/doris-burke.webp",
+   "credit": {
+    "author": "Sphilbrick",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Doris_Burke_(cropped).JPG"
+   },
+   "fame": 1
+  }
+ ]
+}

@@ -1,0 +1,807 @@
+{
+ "id": "fighters",
+ "title": "Boxing & UFC",
+ "cat": "sports",
+ "people": [
+  {
+   "id": "anthony-joshua",
+   "name": "Anthony Joshua",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 4650574,
+   "img": "img/anthony-joshua.webp",
+   "credit": {
+    "author": "JazzyJoeyD",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Joshua_Press_Conference_(cropped).jpg"
+   },
+   "fame": 100
+  },
+  {
+   "id": "jake-paul",
+   "name": "Jake Paul",
+   "from": "Boxer, YouTuber",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 3606624,
+   "img": "img/jake-paul.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jake_Paul_March_2026_(3x4_cropped).jpg"
+   },
+   "fame": 97
+  },
+  {
+   "id": "wladimir-klitschko",
+   "name": "Wladimir Klitschko",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 3592131,
+   "img": "img/wladimir-klitschko.webp",
+   "credit": {
+    "author": "MSC/Kuhlmann",
+    "license": "CC BY 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/de/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Volodymyr_Klychko_(Vladimir_Klitschko)_of_Ukraine_at_the_59th_Munich_Security_Conference_in_Munich_on_17_February_2023_-_(cropped).jpg"
+   },
+   "fame": 95
+  },
+  {
+   "id": "muhammad-ali",
+   "name": "Muhammad Ali",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 3151864,
+   "img": "img/muhammad-ali.webp",
+   "credit": {
+    "author": "Ira Rosenberg",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg"
+   },
+   "fame": 92
+  },
+  {
+   "id": "tyson-fury",
+   "name": "Tyson Fury",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 3120801,
+   "img": "img/tyson-fury.webp",
+   "credit": {
+    "author": "Mike DiDomizio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tyson_Fury_at_Place_Bell,_Laval_Quebec,_Canada_-_Dec_16_2017_(cropped).jpg"
+   },
+   "fame": 90
+  },
+  {
+   "id": "islam-makhachev",
+   "name": "Islam Makhachev",
+   "from": "UFC",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 3011656,
+   "img": "img/islam-makhachev.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Islam_Makhachev_and_Sergey_Melikov_2025_(cropped).jpg"
+   },
+   "fame": 87
+  },
+  {
+   "id": "ilia-topuria",
+   "name": "Ilia Topuria",
+   "from": "UFC",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 2546681,
+   "img": "img/ilia-topuria.webp",
+   "credit": {
+    "author": "U.S. Army photo by Sgt. 1st Class Brittany Primavera",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_Ceremonial_Weigh_In_(9748627)(cropped).jpg"
+   },
+   "fame": 85
+  },
+  {
+   "id": "oleksandr-usyk",
+   "name": "Oleksandr Usyk",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 2506114,
+   "img": "img/oleksandr-usyk.webp",
+   "credit": {
+    "author": "Web Summit",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_-_Centre_Stage_EN1_4500_(52471602047)_(cropped).jpg"
+   },
+   "fame": 82
+  },
+  {
+   "id": "khabib-nurmagomedov",
+   "name": "Khabib Nurmagomedov",
+   "from": "UFC lightweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 2027966,
+   "img": "img/khabib-nurmagomedov.webp",
+   "credit": {
+    "author": "Airotcivss",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Khabib_nurmagomedov.jpg"
+   },
+   "fame": 80
+  },
+  {
+   "id": "ronda-rousey",
+   "name": "Ronda Rousey",
+   "from": "UFC",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1975749,
+   "img": "img/ronda-rousey.webp",
+   "credit": {
+    "author": "Shared Account",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rousey_HOF_2018_(cropped).jpg"
+   },
+   "fame": 77
+  },
+  {
+   "id": "max-holloway",
+   "name": "Max Holloway",
+   "from": "UFC",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1720760,
+   "img": "img/max-holloway.webp",
+   "credit": {
+    "author": "Cpl. Samantha Sanchez",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_Angels%27_VIP_Rider_Max_Holloway_(1)_(cropped).jpg"
+   },
+   "fame": 75
+  },
+  {
+   "id": "alex-pereira",
+   "name": "Alex Pereira",
+   "from": "UFC",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1526813,
+   "img": "img/alex-pereira.webp",
+   "credit": {
+    "author": "U.S. Department of the Interior",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Freedom_250_press_conference_at_the_Lincoln_Memorial_on_June_12,_2026_-_26(cropped).jpg"
+   },
+   "fame": 72
+  },
+  {
+   "id": "george-foreman",
+   "name": "George Foreman",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1442575,
+   "img": "img/george-foreman.webp",
+   "credit": {
+    "author": "Bert Verhoeff, Nationaal Archief, Den Haag, Rijksfotoarchief: Fotocollectie Algemeen Nederlands Fotopersbureau (ANEFO), 1945-1989 - negatiefstroken zwart/wit, nummer toegang 2.24.01.05, bestanddeelnummer 926-2854",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Foreman_(1973).jpg"
+   },
+   "fame": 70
+  },
+  {
+   "id": "manny-pacquiao",
+   "name": "Manny Pacquiao",
+   "from": "Boxing",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1354860,
+   "img": "img/manny-pacquiao.webp",
+   "credit": {
+    "author": "Robert Oswald P. Alfiler for the Philippine News Agency (state-owned publication)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Former_senator_Manny_Pacquiao_speaks_in_event_(10-01-2025)_(cropped).jpg"
+   },
+   "fame": 67
+  },
+  {
+   "id": "terence-crawford",
+   "name": "Terence Crawford",
+   "from": "Boxing",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1285577,
+   "img": "img/terence-crawford.webp",
+   "credit": {
+    "author": "MILLION DOLLAZ WORTH OF GAME",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Terence_Crawford_during_a_podcast_in_2023.png"
+   },
+   "fame": 64
+  },
+  {
+   "id": "canelo-alvarez",
+   "name": "Canelo Álvarez",
+   "from": "Boxing middleweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1260596,
+   "img": "img/canelo-alvarez.webp",
+   "credit": {
+    "author": "Box Azteca",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sa%C3%BAl_%C3%81lvarez.png"
+   },
+   "fame": 62
+  },
+  {
+   "id": "israel-adesanya",
+   "name": "Israel Adesanya",
+   "from": "UFC middleweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1143212,
+   "img": "img/israel-adesanya.webp",
+   "credit": {
+    "author": "MMMAnytt",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Israel_Adesanya_at_UFC_230.jpg"
+   },
+   "fame": 59
+  },
+  {
+   "id": "dustin-poirier",
+   "name": "Dustin Poirier",
+   "from": "UFC lightweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1072496,
+   "img": "img/dustin-poirier.webp",
+   "credit": {
+    "author": "MMAnytt",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dustin_Poirier_UFC_269.jpg"
+   },
+   "fame": 57
+  },
+  {
+   "id": "francis-ngannou",
+   "name": "Francis Ngannou",
+   "from": "UFC heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1066579,
+   "img": "img/francis-ngannou.webp",
+   "credit": {
+    "author": "Mike Tyson",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Francis_Ngannou_2023_(cropped).png"
+   },
+   "fame": 54
+  },
+  {
+   "id": "naoya-inoue",
+   "name": "Naoya Inoue",
+   "from": "Boxing",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1064370,
+   "img": "img/naoya-inoue.webp",
+   "credit": {
+    "author": "内閣官房内閣広報室",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Naoya_Inoue_20230302suports_03.jpg"
+   },
+   "fame": 52
+  },
+  {
+   "id": "deontay-wilder",
+   "name": "Deontay Wilder",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 1061172,
+   "img": "img/deontay-wilder.webp",
+   "credit": {
+    "author": "Zach Catanzareti Photo",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Deontay_Wilder_2018_(cropped).jpg"
+   },
+   "fame": 49
+  },
+  {
+   "id": "sean-o-malley",
+   "name": "Sean O'Malley",
+   "from": "UFC bantamweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 995460,
+   "img": "img/sean-o-malley.webp",
+   "credit": {
+    "author": "U.S. Department of the Interior",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:UFC_Freedom_250_on_the_South_Lawn_of_the_White_House_in_Washington,_D.C._on_June_14,_2026_-_29(cropped).png"
+   },
+   "fame": 47
+  },
+  {
+   "id": "dana-white",
+   "name": "Dana White",
+   "from": "UFC president",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 850838,
+   "img": "img/dana-white.webp",
+   "credit": {
+    "author": "Press Service of the President of the Republic of Azerbaijan",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_received_Dana_White,_June_2025_(3x4_cropped_and_rotated_on_White).jpg"
+   },
+   "fame": 44
+  },
+  {
+   "id": "lennox-lewis",
+   "name": "Lennox Lewis",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 850496,
+   "img": "img/lennox-lewis.webp",
+   "credit": {
+    "author": "-nikkon-",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lenox_Lewis_2010_cropped.jpg"
+   },
+   "fame": 42
+  },
+  {
+   "id": "georges-st-pierre",
+   "name": "Georges St-Pierre",
+   "from": "UFC welterweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 812453,
+   "img": "img/georges-st-pierre.webp",
+   "credit": {
+    "author": "Web Summit",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_-_Centre_Stage_DG4_5765_(51654942080)_(cropped).jpg"
+   },
+   "fame": 39
+  },
+  {
+   "id": "evander-holyfield",
+   "name": "Evander Holyfield",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 711971,
+   "img": "img/evander-holyfield.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Evander_Holyfield_LA_2011.jpg"
+   },
+   "fame": 37
+  },
+  {
+   "id": "anderson-silva",
+   "name": "Anderson Silva",
+   "from": "UFC middleweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 709638,
+   "img": "img/anderson-silva.webp",
+   "credit": {
+    "author": "Conselho Nacional do Ministério Público CNMP",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anderson_Silva.png"
+   },
+   "fame": 34
+  },
+  {
+   "id": "katie-taylor",
+   "name": "Katie Taylor",
+   "from": "Boxing",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 705480,
+   "img": "img/katie-taylor.webp",
+   "credit": {
+    "author": "cormac70 from London",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Katie_Taylor_2012_(cropped).jpg"
+   },
+   "fame": 31
+  },
+  {
+   "id": "valentina-shevchenko",
+   "name": "Valentina Shevchenko",
+   "from": "UFC",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 703829,
+   "img": "img/valentina-shevchenko.webp",
+   "credit": {
+    "author": "MMAnytt",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Valentina_Shevchenko_2020.jpg"
+   },
+   "fame": 29
+  },
+  {
+   "id": "daniel-cormier",
+   "name": "Daniel Cormier",
+   "from": "UFC, commentator",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 683308,
+   "img": "img/daniel-cormier.webp",
+   "credit": {
+    "author": "U.S. Army National Guard photo by Spc. Shretha Broderick",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JTF-DC_Freedom_UFC_250_Press_Conference_(9747806)(cropped).jpg"
+   },
+   "fame": 26
+  },
+  {
+   "id": "claressa-shields",
+   "name": "Claressa Shields",
+   "from": "Boxing",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 605418,
+   "img": "img/claressa-shields.webp",
+   "credit": {
+    "author": "Collision Conf",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Claressa_GWOAT_Shields.jpg"
+   },
+   "fame": 24
+  },
+  {
+   "id": "rocky-marciano",
+   "name": "Rocky Marciano",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 596497,
+   "img": "img/rocky-marciano.webp",
+   "credit": {
+    "author": "Associated Press",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rocky_Marciano_(cropped).jpg"
+   },
+   "fame": 21
+  },
+  {
+   "id": "amanda-nunes",
+   "name": "Amanda Nunes",
+   "from": "UFC",
+   "gender": "f",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 582453,
+   "img": "img/amanda-nunes.webp",
+   "credit": {
+    "author": "MMAnytt",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ceremonial_weigh_ins_-_Amanda_Nunes_vs_Julianna_Pe%C3%B1a_UFC_269_(cropped).jpg"
+   },
+   "fame": 19
+  },
+  {
+   "id": "joe-frazier",
+   "name": "Joe Frazier",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 577995,
+   "img": "img/joe-frazier.webp",
+   "credit": {
+    "author": "Hans Peters for Anefo , Nationaal Archief, Den Haag, Rijksfotoarchief: Fotocollectie Algemeen Nederlands Fotopersbureau (ANEFO), 1945-1989 - negatiefstroken zwart/wit, nummer toegang 2.24.01.05, bestanddeelnummer 924-5569",
+    "license": "CC BY-SA 3.0 nl",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Frazier_reading_newspaper_cropped.jpg"
+   },
+   "fame": 16
+  },
+  {
+   "id": "sugar-ray-leonard",
+   "name": "Sugar Ray Leonard",
+   "from": "Boxing welterweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 562235,
+   "img": "img/sugar-ray-leonard.webp",
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sugar_Ray_Leonard.jpg"
+   },
+   "fame": 14
+  },
+  {
+   "id": "oscar-de-la-hoya",
+   "name": "Oscar De La Hoya",
+   "from": "Boxing",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 545174,
+   "img": "img/oscar-de-la-hoya.webp",
+   "credit": {
+    "author": "Salvation Army USA West",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oscar_de_la_Hoya_2014_(cropped).jpg"
+   },
+   "fame": 11
+  },
+  {
+   "id": "joe-louis",
+   "name": "Joe Louis",
+   "from": "Boxing heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 472322,
+   "img": "img/joe-louis.webp",
+   "credit": {
+    "author": "Carl Van Vechten",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Louis_by_van_Vechten.jpg"
+   },
+   "fame": 9
+  },
+  {
+   "id": "sugar-ray-robinson",
+   "name": "Sugar Ray Robinson",
+   "from": "Boxing welterweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 469285,
+   "img": "img/sugar-ray-robinson.webp",
+   "credit": {
+    "author": "ACME",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sugar_Ray_Robinson_1947.jpg"
+   },
+   "fame": 6
+  },
+  {
+   "id": "randy-couture",
+   "name": "Randy Couture",
+   "from": "UFC",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 422424,
+   "img": "img/randy-couture.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Randy_Couture_by_Gage_Skidmore_2.jpg"
+   },
+   "fame": 4
+  },
+  {
+   "id": "chuck-liddell",
+   "name": "Chuck Liddell",
+   "from": "UFC light heavyweight",
+   "gender": "m",
+   "kind": "sports",
+   "tags": [
+    "sports",
+    "combat"
+   ],
+   "pv": 372528,
+   "img": "img/chuck-liddell.webp",
+   "credit": {
+    "author": "IthakaDarinPappas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chuck_Liddell_in_Santa_Monica-California_2005_photo_by_Ithaka_Darin_Pappas.jpg"
+   },
+   "fame": 1
+  }
+ ]
+}
