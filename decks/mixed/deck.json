@@ -17,7 +17,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg"
    },
    "gender": "m",
-   "kind": "history"
+   "kind": "history",
+   "pv": 4236295,
+   "fame": 85
   },
   {
    "id": "adele",
@@ -33,7 +35,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg"
    },
    "gender": "f",
-   "kind": "music"
+   "kind": "music",
+   "pv": 1767528,
+   "fame": 58
   },
   {
    "id": "albert-einstein",
@@ -50,7 +54,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
    },
    "gender": "m",
-   "kind": "history"
+   "kind": "history",
+   "pv": 4475647,
+   "fame": 90
   },
   {
    "id": "alex-morgan",
@@ -66,7 +72,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Alex_Morgan_May19.jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 411938,
+   "fame": 34
   },
   {
    "id": "alexandria-ocasio-cortez",
@@ -82,7 +90,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Alexandria_Ocasio-Cortez_Official_Portrait.jpg"
    },
    "gender": "f",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 3038903,
+   "fame": 77
   },
   {
    "id": "amelia-earhart",
@@ -98,7 +108,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Amelia_Earhart_standing_under_nose_of_her_Lockheed_Model_10-E_Electra,_small_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "history"
+   "kind": "history",
+   "pv": 1938655,
+   "fame": 63
   },
   {
    "id": "ariana-grande",
@@ -114,7 +126,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Ariana_Grande_promoting_Wicked_(2024).jpg"
    },
    "gender": "f",
-   "kind": "music"
+   "kind": "music",
+   "pv": 6602678,
+   "fame": 93
   },
   {
    "id": "ariel",
@@ -133,7 +147,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Ariel"
-   }
+   },
+   "pv": 255290,
+   "fame": 22
   },
   {
    "id": "bad-bunny",
@@ -149,7 +165,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Bad_Bunny_2019_by_Glenn_Francis_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "music"
+   "kind": "music",
+   "pv": 7593119,
+   "fame": 96
   },
   {
    "id": "barack-obama",
@@ -166,7 +184,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg"
    },
    "gender": "m",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 6292290,
+   "fame": 92
   },
   {
    "id": "barbie",
@@ -186,7 +206,9 @@
     "author": "Warner Bros. / Mattel",
     "license": "© owner, fan use",
     "source": "https://barbie.fandom.com/wiki/Barbie_%28Margot_Robbie%29"
-   }
+   },
+   "pv": 482557,
+   "fame": 38
   },
   {
    "id": "bernie-sanders",
@@ -202,7 +224,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders_February_2026_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 1921067,
+   "fame": 63
   },
   {
    "id": "betty-boop",
@@ -220,7 +244,9 @@
    "gender": "f",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Betty Boop"
+   "franchise": "Betty Boop",
+   "pv": 503706,
+   "fame": 40
   },
   {
    "id": "beyonce",
@@ -236,7 +262,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg"
    },
    "gender": "f",
-   "kind": "music"
+   "kind": "music",
+   "pv": 2625411,
+   "fame": 71
   },
   {
    "id": "billie-eilish",
@@ -252,7 +280,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:BillieEilishO2140725-39_-_54665577407_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "music"
+   "kind": "music",
+   "pv": 3508329,
+   "fame": 80
   },
   {
    "id": "bob-ross",
@@ -269,7 +299,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Bob_Ross_publicity_photo_(c._1982)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1456140,
+   "fame": 55
   },
   {
    "id": "bruno-mars",
@@ -285,7 +317,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:BrunoMars24KMagicWorldTourLive_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "music"
+   "kind": "music",
+   "pv": 4016090,
+   "fame": 84
   },
   {
    "id": "caitlin-clark",
@@ -301,7 +335,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Caitlin_Clark_12_United_States_20260913_(6)_(cropped).JPG"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2116358,
+   "fame": 68
   },
   {
    "id": "coco-gauff",
@@ -317,7 +353,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Coco_Gauff_Miami_Open.jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1886030,
+   "fame": 60
   },
   {
    "id": "condoleezza-rice",
@@ -333,7 +371,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Condoleezza_Rice_cropped.jpg"
    },
    "gender": "f",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 1109192,
+   "fame": 52
   },
   {
    "id": "cristiano-ronaldo",
@@ -349,7 +389,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 15559812,
+   "fame": 98
   },
   {
    "id": "darth-vader",
@@ -369,7 +411,9 @@
     "author": "Lucasfilm",
     "license": "© owner, fan use",
     "source": "https://en.wikipedia.org/wiki/Darth_Vader"
-   }
+   },
+   "pv": 603664,
+   "fame": 46
   },
   {
    "id": "deadpool",
@@ -389,7 +433,9 @@
     "author": "Marvel Studios",
     "license": "© owner, fan use",
     "source": "https://marvelcinematicuniverse.fandom.com/wiki/Deadpool"
-   }
+   },
+   "pv": 575516,
+   "fame": 44
   },
   {
    "id": "dolly-parton",
@@ -405,7 +451,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Young-Dolly-Parton_(higher_quality_scan)_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "music"
+   "kind": "music",
+   "pv": 16878612,
+   "fame": 99
   },
   {
    "id": "donald-trump",
@@ -422,7 +470,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg"
    },
    "gender": "m",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 19372690,
+   "fame": 100
   },
   {
    "id": "dory",
@@ -441,7 +491,9 @@
     "author": "Disney / Pixar",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Dory"
-   }
+   },
+   "pv": 104006,
+   "fame": 3
   },
   {
    "id": "ed-sheeran",
@@ -457,7 +509,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran_2022_(3x4_crop).jpg"
    },
    "gender": "m",
-   "kind": "music"
+   "kind": "music",
+   "pv": 2627041,
+   "fame": 73
   },
   {
    "id": "eleven",
@@ -477,7 +531,9 @@
     "author": "Netflix",
     "license": "© owner, fan use",
     "source": "https://strangerthings.fandom.com/wiki/Eleven"
-   }
+   },
+   "pv": 772089,
+   "fame": 47
   },
   {
    "id": "elizabeth-ii",
@@ -493,7 +549,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg"
    },
    "gender": "f",
-   "kind": "history"
+   "kind": "history",
+   "pv": 6986073,
+   "fame": 96
   },
   {
    "id": "elle-woods",
@@ -513,7 +571,9 @@
     "author": "MGM",
     "license": "© owner, fan use",
     "source": "https://en.wikipedia.org/wiki/Elle_Woods"
-   }
+   },
+   "pv": 183069,
+   "fame": 13
   },
   {
    "id": "elsa",
@@ -532,7 +592,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Elsa"
-   }
+   },
+   "pv": 261487,
+   "fame": 23
   },
   {
    "id": "elton-john",
@@ -548,7 +610,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:EltonDocBFILFF101024_(4_of_17)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "music"
+   "kind": "music",
+   "pv": 2626218,
+   "fame": 72
   },
   {
    "id": "forrest-gump",
@@ -568,7 +632,9 @@
     "author": "Paramount Pictures",
     "license": "© owner, fan use",
     "source": "https://forrestgump.fandom.com/wiki/Forrest_Gump"
-   }
+   },
+   "pv": 400000,
+   "fame": 32
   },
   {
    "id": "frida-kahlo",
@@ -584,7 +650,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg"
    },
    "gender": "f",
-   "kind": "art"
+   "kind": "art",
+   "pv": 1918895,
+   "fame": 61
   },
   {
    "id": "gandalf",
@@ -604,7 +672,9 @@
     "author": "New Line Cinema",
     "license": "© owner, fan use",
     "source": "https://lotr.fandom.com/wiki/Gandalf"
-   }
+   },
+   "pv": 408917,
+   "fame": 33
   },
   {
    "id": "george-w-bush",
@@ -621,7 +691,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:George-W-Bush.jpeg"
    },
    "gender": "m",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 4270454,
+   "fame": 86
   },
   {
    "id": "george-washington",
@@ -638,7 +710,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
    },
    "gender": "m",
-   "kind": "history"
+   "kind": "history",
+   "pv": 4422543,
+   "fame": 88
   },
   {
    "id": "gordon-ramsay",
@@ -654,7 +728,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Gordon_Ramsay_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 2785329,
+   "fame": 74
   },
   {
    "id": "harley-quinn",
@@ -675,7 +751,9 @@
     "author": "Warner Bros. / DC",
     "license": "© owner, fan use",
     "source": "https://dcextendeduniverse.fandom.com/wiki/Harley_Quinn"
-   }
+   },
+   "pv": 453887,
+   "fame": 36
   },
   {
    "id": "harry-potter",
@@ -695,7 +773,9 @@
     "author": "Warner Bros.",
     "license": "© owner, fan use",
     "source": "https://harrypotter.fandom.com/wiki/Harry_Potter"
-   }
+   },
+   "pv": 314623,
+   "fame": 28
   },
   {
    "id": "hermione-granger",
@@ -715,7 +795,9 @@
     "author": "Warner Bros.",
     "license": "© owner, fan use",
     "source": "https://harrypotter.fandom.com/wiki/Hermione_Granger"
-   }
+   },
+   "pv": 379589,
+   "fame": 30
   },
   {
    "id": "hillary-clinton",
@@ -731,7 +813,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 1987171,
+   "fame": 65
   },
   {
    "id": "homer-simpson",
@@ -751,7 +835,9 @@
     "author": "20th Television / Gracie Films",
     "license": "© owner, fan use",
     "source": "https://simpsons.fandom.com/wiki/Homer_Simpson"
-   }
+   },
+   "pv": 345520,
+   "fame": 30
   },
   {
    "id": "iron-man",
@@ -771,7 +857,9 @@
     "author": "Marvel Studios",
     "license": "© owner, fan use",
     "source": "https://marvelcinematicuniverse.fandom.com/wiki/Iron_Man"
-   }
+   },
+   "pv": 530739,
+   "fame": 41
   },
   {
    "id": "jack-dawson",
@@ -791,7 +879,9 @@
     "author": "Paramount / 20th Century",
     "license": "© owner, fan use",
     "source": "https://jamescameronstitanic.fandom.com/wiki/Jack_Dawson"
-   }
+   },
+   "pv": 300000,
+   "fame": 27
   },
   {
    "id": "jack-sparrow",
@@ -811,7 +901,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://pirates.fandom.com/wiki/Jack_Sparrow"
-   }
+   },
+   "pv": 278152,
+   "fame": 25
   },
   {
    "id": "jd-vance",
@@ -827,7 +919,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg"
    },
    "gender": "m",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 5549069,
+   "fame": 91
   },
   {
    "id": "joe-biden",
@@ -844,7 +938,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg"
    },
    "gender": "m",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 4439045,
+   "fame": 89
   },
   {
    "id": "joel-miller",
@@ -864,7 +960,9 @@
     "author": "HBO",
     "license": "© owner, fan use",
     "source": "https://thelastofus.fandom.com/wiki/Joel_Miller_%28HBO_series%29"
-   }
+   },
+   "pv": 105563,
+   "fame": 4
   },
   {
    "id": "john-wick",
@@ -884,7 +982,9 @@
     "author": "Lionsgate",
     "license": "© owner, fan use",
     "source": "https://johnwick.fandom.com/wiki/John_Wick"
-   }
+   },
+   "pv": 164576,
+   "fame": 11
   },
   {
    "id": "judy-hopps",
@@ -903,7 +1003,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Judy_Hopps"
-   }
+   },
+   "pv": 200000,
+   "fame": 15
   },
   {
    "id": "kamala-harris",
@@ -919,7 +1021,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait.jpg"
    },
    "gender": "f",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 1920661,
+   "fame": 62
   },
   {
    "id": "katie-ledecky",
@@ -935,7 +1039,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Katie_Ledecky_at_the_2023_Golden_Goggle_Awards_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 476775,
+   "fame": 38
   },
   {
    "id": "katniss-everdeen",
@@ -955,7 +1061,9 @@
     "author": "Lionsgate",
     "license": "© owner, fan use",
     "source": "https://thehungergames.fandom.com/wiki/Katniss_Everdeen"
-   }
+   },
+   "pv": 229177,
+   "fame": 19
   },
   {
    "id": "lady-gaga",
@@ -971,7 +1079,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_at_Joe_Biden%27s_inauguration_(cropped_5).jpg"
    },
    "gender": "f",
-   "kind": "music"
+   "kind": "music",
+   "pv": 4274261,
+   "fame": 87
   },
   {
    "id": "lebron-james",
@@ -987,7 +1097,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped2).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 6773196,
+   "fame": 94
   },
   {
    "id": "lindsey-vonn",
@@ -1003,7 +1115,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Lindsey_Vonn_-_240422_181204_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3553827,
+   "fame": 81
   },
   {
    "id": "lionel-messi",
@@ -1019,7 +1133,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 15312910,
+   "fame": 97
   },
   {
    "id": "marge-simpson",
@@ -1039,7 +1155,9 @@
     "author": "20th Television / Gracie Films",
     "license": "© owner, fan use",
     "source": "https://simpsons.fandom.com/wiki/Marge_Simpson"
-   }
+   },
+   "pv": 206432,
+   "fame": 16
   },
   {
    "id": "marie-curie",
@@ -1056,7 +1174,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg"
    },
    "gender": "f",
-   "kind": "history"
+   "kind": "history",
+   "pv": 2085264,
+   "fame": 66
   },
   {
    "id": "mario",
@@ -1075,7 +1195,9 @@
     "author": "Nintendo",
     "license": "© owner, fan use",
     "source": "https://www.mariowiki.com/Mario"
-   }
+   },
+   "pv": 597737,
+   "fame": 45
   },
   {
    "id": "martin-luther-king-jr",
@@ -1091,7 +1213,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "history"
+   "kind": "history",
+   "pv": 3197377,
+   "fame": 79
   },
   {
    "id": "maui",
@@ -1111,7 +1235,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Maui"
-   }
+   },
+   "pv": 159710,
+   "fame": 9
   },
   {
    "id": "mia-thermopolis",
@@ -1132,7 +1258,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://princessdiaries.fandom.com/wiki/Mia_Thermopolis"
-   }
+   },
+   "pv": 90000,
+   "fame": 2
   },
   {
    "id": "michael-jordan",
@@ -1148,7 +1276,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Michael_jordan_admad_rashad_(51276390562)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 4332550,
+   "fame": 88
   },
   {
    "id": "michelle-obama",
@@ -1164,7 +1294,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Michelle_Obama_2013_official_portrait.jpg"
    },
    "gender": "f",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 1277788,
+   "fame": 53
   },
   {
    "id": "mickey-mouse",
@@ -1182,7 +1314,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Mickey Mouse"
+   "franchise": "Mickey Mouse",
+   "pv": 739861,
+   "fame": 46
   },
   {
    "id": "mike-wazowski",
@@ -1201,7 +1335,9 @@
     "author": "Disney / Pixar",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Mike_Wazowski"
-   }
+   },
+   "pv": 227211,
+   "fame": 18
   },
   {
    "id": "miranda-priestly",
@@ -1221,7 +1357,9 @@
     "author": "20th Century Studios",
     "license": "© owner, fan use",
     "source": "https://en.wikipedia.org/wiki/Miranda_Priestly"
-   }
+   },
+   "pv": 419550,
+   "fame": 35
   },
   {
    "id": "mitt-romney",
@@ -1237,7 +1375,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mitt_Romney_official_US_Senate_portrait.jpg"
    },
    "gender": "m",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 1056808,
+   "fame": 51
   },
   {
    "id": "moana",
@@ -1256,7 +1396,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Moana_%28character%29"
-   }
+   },
+   "pv": 224153,
+   "fame": 17
   },
   {
    "id": "mona-lisa",
@@ -1273,7 +1415,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_natural_color.jpg"
    },
    "gender": "f",
-   "kind": "art"
+   "kind": "art",
+   "pv": 1821933,
+   "fame": 59
   },
   {
    "id": "mrbeast",
@@ -1289,7 +1433,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:MrBeast_in_2026_(cropped_4).png"
    },
    "gender": "m",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 3612955,
+   "fame": 82
   },
   {
    "id": "mulan",
@@ -1308,7 +1454,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Fa_Mulan"
-   }
+   },
+   "pv": 111341,
+   "fame": 5
   },
   {
    "id": "nancy-pelosi",
@@ -1324,7 +1472,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg"
    },
    "gender": "f",
-   "kind": "politics"
+   "kind": "politics",
+   "pv": 1531716,
+   "fame": 57
   },
   {
    "id": "naomi-osaka",
@@ -1340,7 +1490,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Naomi_Osaka_(2025_DC_Open)_01_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2121139,
+   "fame": 69
   },
   {
    "id": "oprah-winfrey",
@@ -1356,7 +1508,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg"
    },
    "gender": "f",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1466686,
+   "fame": 56
   },
   {
    "id": "patrick-mahomes",
@@ -1372,7 +1526,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Patrick_Mahomes_(51615475056).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2102313,
+   "fame": 67
   },
   {
    "id": "pikachu",
@@ -1391,7 +1547,9 @@
     "author": "The Pokémon Company / Nintendo",
     "license": "© owner, fan use",
     "source": "https://pokemon.fandom.com/wiki/Pikachu"
-   }
+   },
+   "pv": 854462,
+   "fame": 49
   },
   {
    "id": "po",
@@ -1411,7 +1569,9 @@
     "author": "DreamWorks Animation",
     "license": "© owner, fan use",
     "source": "https://kungfupanda.fandom.com/wiki/Po"
-   }
+   },
+   "pv": 89655,
+   "fame": 1
   },
   {
    "id": "popeye",
@@ -1429,7 +1589,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Popeye"
+   "franchise": "Popeye",
+   "pv": 555222,
+   "fame": 42
   },
   {
    "id": "princess-fiona",
@@ -1448,7 +1610,9 @@
     "author": "DreamWorks Animation",
     "license": "© owner, fan use",
     "source": "https://shrek.fandom.com/wiki/Fiona"
-   }
+   },
+   "pv": 160812,
+   "fame": 10
   },
   {
    "id": "princess-leia",
@@ -1468,7 +1632,9 @@
     "author": "Lucasfilm",
     "license": "© owner, fan use",
     "source": "https://en.wikipedia.org/wiki/Princess_Leia"
-   }
+   },
+   "pv": 327963,
+   "fame": 29
   },
   {
    "id": "princess-peach",
@@ -1487,7 +1653,9 @@
     "author": "Nintendo",
     "license": "© owner, fan use",
     "source": "https://www.mariowiki.com/Princess_Peach"
-   }
+   },
+   "pv": 284963,
+   "fame": 26
   },
   {
    "id": "rachel-green",
@@ -1508,7 +1676,9 @@
     "author": "Warner Bros. Television",
     "license": "© owner, fan use",
     "source": "https://friends.fandom.com/wiki/Rachel_Greene"
-   }
+   },
+   "pv": 149468,
+   "fame": 6
   },
   {
    "id": "rapunzel",
@@ -1527,7 +1697,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Rapunzel"
-   }
+   },
+   "pv": 171917,
+   "fame": 12
   },
   {
    "id": "red-redding",
@@ -1547,7 +1719,9 @@
     "author": "Columbia Pictures",
     "license": "© owner, fan use",
     "source": "https://shawshank.fandom.com/wiki/Ellis_Boyd_%27Red%27_Redding"
-   }
+   },
+   "pv": 120000,
+   "fame": 5
   },
   {
    "id": "rihanna",
@@ -1563,7 +1737,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Rihanna_Fenty_2018.png"
    },
    "gender": "f",
-   "kind": "music"
+   "kind": "music",
+   "pv": 3364433,
+   "fame": 79
   },
   {
    "id": "ronda-rousey",
@@ -1579,7 +1755,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Rousey_HOF_2018_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1975749,
+   "fame": 64
   },
   {
    "id": "rosa-parks",
@@ -1595,7 +1773,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks,_November_1956_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "history"
+   "kind": "history",
+   "pv": 1409418,
+   "fame": 55
   },
   {
    "id": "rue-bennett",
@@ -1615,7 +1795,9 @@
     "author": "HBO",
     "license": "© owner, fan use",
     "source": "https://euphoria.fandom.com/wiki/Rue_Bennett"
-   }
+   },
+   "pv": 250861,
+   "fame": 21
   },
   {
    "id": "scooby-doo",
@@ -1635,7 +1817,9 @@
     "author": "Warner Bros. / Hanna-Barbera",
     "license": "© owner, fan use",
     "source": "https://scoobydoo.fandom.com/wiki/Scooby-Doo"
-   }
+   },
+   "pv": 190460,
+   "fame": 14
   },
   {
    "id": "serena-williams",
@@ -1651,7 +1835,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Serena-Smiling-2020.png"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2496828,
+   "fame": 71
   },
   {
    "id": "sha-carri-richardson",
@@ -1667,7 +1853,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sha%27Carri_Richardson_15555_(sq_cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 813998,
+   "fame": 48
   },
   {
    "id": "shohei-ohtani",
@@ -1683,7 +1871,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Dodgers_at_Nationals_(53677192000)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3129236,
+   "fame": 78
   },
   {
    "id": "shrek",
@@ -1702,7 +1892,9 @@
     "author": "DreamWorks Animation",
     "license": "© owner, fan use",
     "source": "https://shrek.fandom.com/wiki/Shrek_%28character%29"
-   }
+   },
+   "pv": 179930,
+   "fame": 13
   },
   {
    "id": "simba",
@@ -1721,7 +1913,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Simba"
-   }
+   },
+   "pv": 154255,
+   "fame": 8
   },
   {
    "id": "simone-biles",
@@ -1737,7 +1931,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1022930,
+   "fame": 50
   },
   {
    "id": "snoop-dogg",
@@ -1753,7 +1949,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Snoop_Dogg,_WrestleMania_XL_(cropped)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "music"
+   "kind": "music",
+   "pv": 2462956,
+   "fame": 70
   },
   {
    "id": "spongebob",
@@ -1773,7 +1971,9 @@
     "author": "Nickelodeon",
     "license": "© owner, fan use",
     "source": "https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_%28character%29"
-   }
+   },
+   "pv": 389461,
+   "fame": 31
   },
   {
    "id": "stephen-curry",
@@ -1789,7 +1989,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Stephen_Curry_30.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3002991,
+   "fame": 76
   },
   {
    "id": "stitch",
@@ -1808,7 +2010,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Stitch"
-   }
+   },
+   "pv": 500937,
+   "fame": 39
   },
   {
    "id": "taylor-swift",
@@ -1824,7 +2028,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png"
    },
    "gender": "f",
-   "kind": "music"
+   "kind": "music",
+   "pv": 6774412,
+   "fame": 95
   },
   {
    "id": "thanos",
@@ -1845,7 +2051,9 @@
     "author": "Marvel Studios",
     "license": "© owner, fan use",
     "source": "https://marvelcinematicuniverse.fandom.com/wiki/Thanos"
-   }
+   },
+   "pv": 469119,
+   "fame": 37
   },
   {
    "id": "tiana",
@@ -1864,7 +2072,9 @@
     "author": "Disney",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Tiana"
-   }
+   },
+   "pv": 153789,
+   "fame": 7
   },
   {
    "id": "tiger-woods",
@@ -1880,7 +2090,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2972381,
+   "fame": 75
   },
   {
    "id": "tom-brady",
@@ -1896,7 +2108,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_(cropped)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3949228,
+   "fame": 83
   },
   {
    "id": "usain-bolt",
@@ -1912,7 +2126,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_with_NX300-3.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1342350,
+   "fame": 54
   },
   {
    "id": "velma",
@@ -1932,7 +2148,9 @@
     "author": "Warner Bros. / Hanna-Barbera",
     "license": "© owner, fan use",
     "source": "https://scoobydoo.fandom.com/wiki/Velma_Dinkley"
-   }
+   },
+   "pv": 244912,
+   "fame": 20
   },
   {
    "id": "wednesday-addams",
@@ -1952,7 +2170,9 @@
     "author": "Netflix",
     "license": "© owner, fan use",
     "source": "https://addamsfamily.fandom.com/wiki/Wednesday_Addams/2022"
-   }
+   },
+   "pv": 264838,
+   "fame": 24
   },
   {
    "id": "wonder-woman",
@@ -1972,7 +2192,9 @@
     "author": "Warner Bros. / DC",
     "license": "© owner, fan use",
     "source": "https://dcextendeduniverse.fandom.com/wiki/Wonder_Woman"
-   }
+   },
+   "pv": 566195,
+   "fame": 43
   },
   {
    "id": "woody",
@@ -1991,7 +2213,9 @@
     "author": "Disney / Pixar",
     "license": "© owner, fan use",
     "source": "https://disney.fandom.com/wiki/Woody"
-   }
+   },
+   "pv": 252452,
+   "fame": 22
   }
  ]
 }

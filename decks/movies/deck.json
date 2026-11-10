@@ -16,7 +16,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_(3x4).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3094769,
+   "fame": 58
   },
   {
    "id": "alex-trebek",
@@ -32,7 +34,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Alex_Trebek_at_the_71st_Annual_Peabody_Awards_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 642658,
+   "fame": 9
   },
   {
    "id": "anne-hathaway",
@@ -48,7 +52,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:AnneHathaway-byPhilipRomano-Crop.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 8962804,
+   "fame": 97
   },
   {
    "id": "arnold-schwarzenegger",
@@ -64,7 +70,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4398207,
+   "fame": 85
   },
   {
    "id": "awkwafina",
@@ -80,7 +88,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Awkwafina_by_Gage_Skidmore.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 1298442,
+   "fame": 18
   },
   {
    "id": "benedict-cumberbatch",
@@ -96,7 +106,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Benedict_Cumberbatch-67555.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 1650012,
+   "fame": 26
   },
   {
    "id": "betty-white",
@@ -112,7 +124,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Betty_White_1988_Emmy_Awards_(cropped_2).jpg"
    },
    "gender": "f",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1587449,
+   "fame": 25
   },
   {
    "id": "bill-nye",
@@ -128,7 +142,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Bill_Nye_2017.jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 577796,
+   "fame": 8
   },
   {
    "id": "brad-pitt",
@@ -144,7 +160,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Brad_Pitt-69858.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4547860,
+   "fame": 86
   },
   {
    "id": "casey-neistat",
@@ -160,7 +178,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Casey_Neistat.jpg"
    },
    "gender": "m",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 238314,
+   "fame": 3
   },
   {
    "id": "chris-evans",
@@ -176,7 +196,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Chris_Evans_at_the_2025_Toronto_International_Film_Festival_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2326584,
+   "fame": 41
   },
   {
    "id": "chris-hemsworth",
@@ -192,7 +214,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Chris_Hemsworth_-_Crime_101.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3093546,
+   "fame": 57
   },
   {
    "id": "chris-pratt",
@@ -208,7 +232,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_(3x4_cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3564937,
+   "fame": 68
   },
   {
    "id": "cillian-murphy",
@@ -224,7 +250,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3370804,
+   "fame": 65
   },
   {
    "id": "conan-o-brien",
@@ -240,7 +268,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Conan_O%27Brien_2025.jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1781490,
+   "fame": 31
   },
   {
    "id": "daniel-radcliffe",
@@ -256,7 +286,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:DanielRadcliffe.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2650998,
+   "fame": 50
   },
   {
    "id": "danny-devito",
@@ -272,7 +304,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Danny_DeVito_cropped_and_edited_for_brightness.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2076569,
+   "fame": 37
   },
   {
    "id": "david-attenborough",
@@ -288,7 +322,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:David_Attenborough_in_2025.jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 5569868,
+   "fame": 93
   },
   {
    "id": "denzel-washington",
@@ -304,7 +340,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2765029,
+   "fame": 53
   },
   {
    "id": "dwayne-johnson",
@@ -320,7 +358,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Dwayne_Johnson-1764_(4x5_cropped_with_moderate_headroom).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3772244,
+   "fame": 75
   },
   {
    "id": "emma-chamberlain",
@@ -336,7 +376,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Emma_Chamberlain_for_Chamberlain_Coffee,_2020_(1).png"
    },
    "gender": "f",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 661682,
+   "fame": 11
   },
   {
    "id": "emma-stone",
@@ -352,7 +394,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Emma_Stone_at_the_2025_Venice_Film_Festival-6313_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3474473,
+   "fame": 66
   },
   {
    "id": "emma-watson",
@@ -368,7 +412,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Emma_Watson_2013.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2850165,
+   "fame": 56
   },
   {
    "id": "florence-pugh",
@@ -384,7 +430,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Florence_Pugh_2026.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4308088,
+   "fame": 84
   },
   {
    "id": "gal-gadot",
@@ -400,7 +448,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Gal_Gadot_by_Gage_Skidmore_3.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2000541,
+   "fame": 35
   },
   {
    "id": "gordon-ramsay",
@@ -416,7 +466,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Gordon_Ramsay_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 2785329,
+   "fame": 54
   },
   {
    "id": "guy-fieri",
@@ -432,7 +484,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Guy_Fieri_June_2023.png"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 808819,
+   "fame": 13
   },
   {
    "id": "hank-green",
@@ -448,7 +502,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Hank_Green_Headshot_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 525499,
+   "fame": 6
   },
   {
    "id": "harrison-ford",
@@ -464,7 +520,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Harrison_Ford_-_Televerse_2025-03.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4058365,
+   "fame": 80
   },
   {
    "id": "henry-cavill",
@@ -480,7 +538,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Henry_Cavill_(48417913146)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3160398,
+   "fame": 60
   },
   {
    "id": "hugh-jackman",
@@ -496,7 +556,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Hugh_Jackman_by_Gage_Skidmore_3.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3344475,
+   "fame": 64
   },
   {
    "id": "idris-elba",
@@ -512,7 +574,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Idris_Elba_A_House_of_Dynamite-21_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2582826,
+   "fame": 48
   },
   {
    "id": "jack-black",
@@ -528,7 +592,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:TenaciousDO2160623_(38_of_62)_Jack_Black.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2475360,
+   "fame": 47
   },
   {
    "id": "jackie-chan",
@@ -544,7 +610,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jackie_Chan.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2599144,
+   "fame": 49
   },
   {
    "id": "jason-momoa",
@@ -560,7 +628,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jason_Momoa_(43055621224)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4030331,
+   "fame": 79
   },
   {
    "id": "jeff-goldblum",
@@ -576,7 +646,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jeff_Goldblum_by_Gage_Skidmore_3.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2354934,
+   "fame": 43
   },
   {
    "id": "jenna-ortega",
@@ -592,7 +664,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jenna_Ortega-63799_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2318814,
+   "fame": 40
   },
   {
    "id": "jennifer-aniston",
@@ -608,7 +682,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:JenniferAnistonHWoFFeb2012.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3304906,
+   "fame": 63
   },
   {
    "id": "jennifer-lawrence",
@@ -624,7 +700,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Lawrence,_Cannes_Film_Festival_2025.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4143278,
+   "fame": 81
   },
   {
    "id": "jim-carrey",
@@ -640,7 +718,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jim_Carrey_2008.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3929529,
+   "fame": 78
   },
   {
    "id": "jimmy-fallon",
@@ -656,7 +736,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Fallon-TTL_4575_(11046141004)_(5x7_cropped_and_rotated).jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1356325,
+   "fame": 22
   },
   {
    "id": "jimmy-kimmel",
@@ -672,7 +754,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Kimmel_June_2022.jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1488238,
+   "fame": 24
   },
   {
    "id": "john-cena",
@@ -689,7 +773,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:John_Cena_by_Gage_Skidmore.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3799607,
+   "fame": 76
   },
   {
    "id": "julia-roberts",
@@ -705,7 +791,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Julia_Roberts_2025.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3120553,
+   "fame": 59
   },
   {
    "id": "keanu-reeves",
@@ -721,7 +809,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Keanu_Reeves_at_TIFF_2025_02_(Cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4864953,
+   "fame": 89
   },
   {
    "id": "kevin-hart",
@@ -737,7 +827,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kevin_Hart_2014_(cropped_2).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 1767151,
+   "fame": 30
   },
   {
    "id": "kristen-stewart",
@@ -753,7 +845,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kristen_Stewart_at_WWD_Style_Awards_2026.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2372956,
+   "fame": 44
   },
   {
    "id": "leonardo-dicaprio",
@@ -769,7 +863,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:LeoPTABFI191125-28_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4991950,
+   "fame": 90
   },
   {
    "id": "lilly-singh",
@@ -785,7 +881,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:2024-03-08_SXSW-2024_Variety-comedy-awards_04707_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 320887,
+   "fame": 4
   },
   {
    "id": "lucy-liu",
@@ -801,7 +899,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Lucy_Liu_Rosemead-13_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 1694436,
+   "fame": 27
   },
   {
    "id": "lupita-nyong-o",
@@ -817,7 +917,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:LupitaNyongo-byPhilipRomano3.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2438140,
+   "fame": 46
   },
   {
    "id": "margot-robbie",
@@ -833,7 +935,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Margot_Robbie_Wuthering_Heights_premiere_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3627497,
+   "fame": 71
   },
   {
    "id": "mark-rober",
@@ -849,7 +953,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mark_Rober-_Close.png"
    },
    "gender": "m",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 706438,
+   "fame": 12
   },
   {
    "id": "mark-ruffalo",
@@ -865,7 +971,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mark_Ruffalo_(36201774756)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2402034,
+   "fame": 45
   },
   {
    "id": "markiplier",
@@ -881,7 +989,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Markiplier_in_Markiplier_Covered_Me_In_His_Glue_at_01_15.png"
    },
    "gender": "m",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 1324185,
+   "fame": 19
   },
   {
    "id": "marques-brownlee",
@@ -897,7 +1007,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Marques_Brownlee_cropped.jpg"
    },
    "gender": "m",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 177923,
+   "fame": 1
   },
   {
    "id": "martha-stewart",
@@ -913,7 +1025,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Martha_Stewart_(48926315347)_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1337396,
+   "fame": 20
   },
   {
    "id": "matt-damon",
@@ -929,7 +1043,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:MattDamon-byPhilipRomano2.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 5320007,
+   "fame": 92
   },
   {
    "id": "meryl-streep",
@@ -945,7 +1061,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_(cropped1).jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4263374,
+   "fame": 82
   },
   {
    "id": "michelle-yeoh",
@@ -961,7 +1079,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Michelle_Yeoh-2268.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 1744153,
+   "fame": 28
   },
   {
    "id": "millie-bobby-brown",
@@ -977,7 +1097,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Millie_Bobby_Brown_2025_(1).png"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 9248381,
+   "fame": 99
   },
   {
    "id": "morgan-freeman",
@@ -993,7 +1115,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2729077,
+   "fame": 52
   },
   {
    "id": "mrbeast",
@@ -1009,7 +1133,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:MrBeast_in_2026_(cropped_4).png"
    },
    "gender": "m",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 3612955,
+   "fame": 70
   },
   {
    "id": "natalie-portman",
@@ -1025,7 +1151,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:NataliePortman.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3294068,
+   "fame": 62
   },
   {
    "id": "neil-degrasse-tyson",
@@ -1041,7 +1169,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Neil_DeGrasse_Tyson_(2023).jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1146819,
+   "fame": 15
   },
   {
    "id": "nicolas-cage",
@@ -1057,7 +1187,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Nicolas_Cage_at_Los_Angeles_Comic_Con_2026-2.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3604878,
+   "fame": 69
   },
   {
    "id": "ninja",
@@ -1073,7 +1205,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Krystalogy,_Jess,_Ninja,_and_Typical_Gamer_relaxing_in_the_State_Farm_Gamerhood_(52899874282)_(3x4_cropped_on_Ninja_and_rotated).jpg"
    },
    "gender": "m",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 210216,
+   "fame": 2
   },
   {
    "id": "oprah-winfrey",
@@ -1089,7 +1223,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg"
    },
    "gender": "f",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1466686,
+   "fame": 23
   },
   {
    "id": "paul-rudd",
@@ -1105,7 +1241,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Paul_Rudd_at_the_2026_New_York_Film_Festival-003.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 1803584,
+   "fame": 32
   },
   {
    "id": "pedro-pascal",
@@ -1121,7 +1259,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3736191,
+   "fame": 74
   },
   {
    "id": "pewdiepie",
@@ -1137,7 +1277,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Pewdiepie_head_shot.jpg"
    },
    "gender": "m",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 658300,
+   "fame": 10
   },
   {
    "id": "pokimane",
@@ -1153,7 +1295,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Pokimane_2019.jpg"
    },
    "gender": "f",
-   "kind": "internet"
+   "kind": "internet",
+   "pv": 426071,
+   "fame": 5
   },
   {
    "id": "robert-downey-jr",
@@ -1169,7 +1313,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:RobertDowneyJr-byPhilipRomano7_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2842522,
+   "fame": 55
   },
   {
    "id": "robert-pattinson",
@@ -1185,7 +1331,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Robert_Pattinson_Venice_Film_Festival_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4736812,
+   "fame": 88
   },
   {
    "id": "rupert-grint",
@@ -1201,7 +1349,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Rupert_Grint_at_Berlin_Film_Festival_2026,_(P1230675)_(cropped2).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 1079913,
+   "fame": 14
   },
   {
    "id": "ryan-gosling",
@@ -1217,7 +1367,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Ryan_Gosling_(16437257783)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 5586526,
+   "fame": 94
   },
   {
    "id": "ryan-reynolds",
@@ -1233,7 +1385,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3729976,
+   "fame": 72
   },
   {
    "id": "samuel-l-jackson",
@@ -1249,7 +1403,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:SamuelLJackson.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 1907963,
+   "fame": 34
   },
   {
    "id": "sandra-bullock",
@@ -1265,7 +1421,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3888545,
+   "fame": 77
   },
   {
    "id": "scarlett-johansson",
@@ -1281,7 +1439,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Scarlett_Johansson-8588.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 5316165,
+   "fame": 91
   },
   {
    "id": "sofia-vergara",
@@ -1297,7 +1457,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2200462,
+   "fame": 38
   },
   {
    "id": "stephen-colbert",
@@ -1313,7 +1475,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Stephen_Colbert_2025.jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1861524,
+   "fame": 33
   },
   {
    "id": "steve-carell",
@@ -1329,7 +1493,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Steve_Carell_-_The_40-Year-Old-Virgin.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2354283,
+   "fame": 42
   },
   {
    "id": "steve-harvey",
@@ -1345,7 +1511,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:SteveHarveyHWOFMay2013_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "tv"
+   "kind": "tv",
+   "pv": 1347789,
+   "fame": 21
   },
   {
    "id": "sylvester-stallone",
@@ -1361,7 +1529,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:P20251206DT-0472_(3x4_cropped_on_Stallone_with_moderate_headroom).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 4678321,
+   "fame": 87
   },
   {
    "id": "timothee-chalamet",
@@ -1377,7 +1547,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Timoth%C3%A9e_Chalamet-63482_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 7954386,
+   "fame": 96
   },
   {
    "id": "tom-hanks",
@@ -1393,7 +1565,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:TomHanksPrincEdw031223_(11_of_41)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 3517740,
+   "fame": 67
   },
   {
    "id": "tom-holland",
@@ -1409,7 +1583,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:TomHolland-byPhilipRomano.jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 9070028,
+   "fame": 98
   },
   {
    "id": "viola-davis",
@@ -1425,7 +1601,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Viola_Davis_2026_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 1282797,
+   "fame": 16
   },
   {
    "id": "will-ferrell",
@@ -1441,7 +1619,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Will_Ferrell_at_the_2024_Toronto_International_Film_Festival_5_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 2033883,
+   "fame": 36
   },
   {
    "id": "zendaya",
@@ -1457,7 +1637,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Zendaya-byPhilipRomano.jpg"
    },
    "gender": "f",
-   "kind": "actor"
+   "kind": "actor",
+   "pv": 12131858,
+   "fame": 100
   }
  ]
 }

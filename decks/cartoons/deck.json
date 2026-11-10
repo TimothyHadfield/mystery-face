@@ -19,7 +19,9 @@
    "gender": "f",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Alice in Wonderland"
+   "franchise": "Alice in Wonderland",
+   "pv": 95833,
+   "fame": 14
   },
   {
    "id": "american-gothic-farmer",
@@ -36,7 +38,10 @@
     "source": "https://commons.wikimedia.org/wiki/File:Grant_Wood_-_American_Gothic.jpeg"
    },
    "gender": "m",
-   "kind": "art"
+   "kind": "art",
+   "pv": 492397,
+   "fame": 67,
+   "franchise": "Famous paintings"
   },
   {
    "id": "betty-boop",
@@ -54,7 +59,9 @@
    "gender": "f",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Betty Boop"
+   "franchise": "Betty Boop",
+   "pv": 503706,
+   "fame": 70
   },
   {
    "id": "casper-the-friendly-ghost",
@@ -72,7 +79,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Casper the Friendly Ghost"
+   "franchise": "Casper the Friendly Ghost",
+   "pv": 227055,
+   "fame": 34
   },
   {
    "id": "cheshire-cat",
@@ -91,7 +100,9 @@
    "gender": "x",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Alice in Wonderland"
+   "franchise": "Alice in Wonderland",
+   "pv": 296008,
+   "fame": 47
   },
   {
    "id": "count-orlok",
@@ -110,7 +121,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Count Orlok"
+   "franchise": "Count Orlok",
+   "pv": 263189,
+   "fame": 37
   },
   {
    "id": "dorothy",
@@ -129,7 +142,9 @@
    "gender": "f",
    "kind": "character",
    "sub": "animated",
-   "franchise": "The Wizard of Oz"
+   "franchise": "The Wizard of Oz",
+   "pv": 360813,
+   "fame": 54
   },
   {
    "id": "felix-the-cat",
@@ -147,7 +162,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Felix the Cat"
+   "franchise": "Felix the Cat",
+   "pv": 263737,
+   "fame": 41
   },
   {
    "id": "frankenstein-s-monster",
@@ -166,7 +183,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Frankenstein's Monster"
+   "franchise": "Frankenstein's Monster",
+   "pv": 653623,
+   "fame": 80
   },
   {
    "id": "girl-with-a-pearl-earring",
@@ -183,7 +202,10 @@
     "source": "https://commons.wikimedia.org/wiki/File:Meisje_met_de_parel.jpg"
    },
    "gender": "f",
-   "kind": "art"
+   "kind": "art",
+   "pv": 535903,
+   "fame": 74,
+   "franchise": "Famous paintings"
   },
   {
    "id": "humpty-dumpty",
@@ -202,7 +224,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Alice in Wonderland"
+   "franchise": "Alice in Wonderland",
+   "pv": 369810,
+   "fame": 57
   },
   {
    "id": "koko-the-clown",
@@ -220,7 +244,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Out of the Inkwell"
+   "franchise": "Out of the Inkwell",
+   "pv": 51454,
+   "fame": 4
   },
   {
    "id": "krazy-kat",
@@ -238,7 +264,9 @@
    "gender": "x",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Krazy Kat"
+   "franchise": "Krazy Kat",
+   "pv": 71809,
+   "fame": 8
   },
   {
    "id": "mad-hatter",
@@ -257,7 +285,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Alice in Wonderland"
+   "franchise": "Alice in Wonderland",
+   "pv": 118111,
+   "fame": 18
   },
   {
    "id": "mickey-mouse",
@@ -275,7 +305,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Mickey Mouse"
+   "franchise": "Mickey Mouse",
+   "pv": 739861,
+   "fame": 87
   },
   {
    "id": "mona-lisa",
@@ -292,7 +324,10 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_natural_color.jpg"
    },
    "gender": "f",
-   "kind": "art"
+   "kind": "art",
+   "pv": 1821933,
+   "fame": 100,
+   "franchise": "Famous paintings"
   },
   {
    "id": "olive-oyl",
@@ -310,7 +345,9 @@
    "gender": "f",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Popeye"
+   "franchise": "Popeye",
+   "pv": 141780,
+   "fame": 24
   },
   {
    "id": "oswald-the-lucky-rabbit",
@@ -328,7 +365,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Oswald the Lucky Rabbit"
+   "franchise": "Oswald the Lucky Rabbit",
+   "pv": 265940,
+   "fame": 44
   },
   {
    "id": "peter-rabbit",
@@ -347,7 +386,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Peter Rabbit"
+   "franchise": "Peter Rabbit",
+   "pv": 154722,
+   "fame": 27
   },
   {
    "id": "piglet",
@@ -365,7 +406,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Winnie-the-Pooh"
+   "franchise": "Winnie-the-Pooh",
+   "pv": 87785,
+   "fame": 11
   },
   {
    "id": "pinocchio",
@@ -384,7 +427,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Pinocchio"
+   "franchise": "Pinocchio",
+   "pv": 344690,
+   "fame": 50
   },
   {
    "id": "popeye",
@@ -402,7 +447,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Popeye"
+   "franchise": "Popeye",
+   "pv": 555222,
+   "fame": 77
   },
   {
    "id": "rosie-the-riveter",
@@ -421,7 +468,9 @@
    "gender": "f",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Rosie the Riveter"
+   "franchise": "Rosie the Riveter",
+   "pv": 425924,
+   "fame": 64
   },
   {
    "id": "santa-claus",
@@ -439,7 +488,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Santa Claus"
+   "franchise": "Santa Claus",
+   "pv": 1025809,
+   "fame": 93
   },
   {
    "id": "sherlock-holmes",
@@ -458,7 +509,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Sherlock Holmes"
+   "franchise": "Sherlock Holmes",
+   "pv": 1247538,
+   "fame": 97
   },
   {
    "id": "the-cowardly-lion",
@@ -477,7 +530,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "The Wizard of Oz"
+   "franchise": "The Wizard of Oz",
+   "pv": 137941,
+   "fame": 21
   },
   {
    "id": "the-scarecrow",
@@ -496,7 +551,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "The Wizard of Oz"
+   "franchise": "The Wizard of Oz",
+   "pv": 213986,
+   "fame": 31
   },
   {
    "id": "the-scream",
@@ -513,7 +570,10 @@
     "source": "https://commons.wikimedia.org/wiki/File:Edvard-Munch-The-Scream.jpg"
    },
    "gender": "x",
-   "kind": "art"
+   "kind": "art",
+   "pv": 692818,
+   "fame": 84,
+   "franchise": "Famous paintings"
   },
   {
    "id": "the-yellow-kid",
@@ -531,7 +591,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "The Yellow Kid"
+   "franchise": "The Yellow Kid",
+   "pv": 47770,
+   "fame": 1
   },
   {
    "id": "uncle-sam",
@@ -550,7 +612,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Uncle Sam"
+   "franchise": "Uncle Sam",
+   "pv": 385893,
+   "fame": 60
   },
   {
    "id": "winnie-the-pooh",
@@ -568,7 +632,9 @@
    "gender": "m",
    "kind": "character",
    "sub": "animated",
-   "franchise": "Winnie-the-Pooh"
+   "franchise": "Winnie-the-Pooh",
+   "pv": 818189,
+   "fame": 90
   }
  ]
 }
