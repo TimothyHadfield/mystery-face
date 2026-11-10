@@ -817,5 +817,369 @@
    "img/markiplier.webp",
    "img/ksi.webp"
   ]
+ },
+ {
+  "id": "book-characters",
+  "title": "Book Characters",
+  "cat": "characters",
+  "count": 38,
+  "broad": false,
+  "preview": [
+   "img/james-bond.webp",
+   "img/sherlock-holmes.webp",
+   "img/hannibal-lecter.webp",
+   "img/jack-reacher.webp"
+  ]
+ },
+ {
+  "id": "dc",
+  "title": "DC Characters",
+  "cat": "characters",
+  "count": 37,
+  "broad": false,
+  "preview": [
+   "img/batman.webp",
+   "img/superman.webp",
+   "img/wonder-woman.webp",
+   "img/harley-quinn.webp"
+  ]
+ },
+ {
+  "id": "friends",
+  "title": "Friends",
+  "cat": "characters",
+  "count": 34,
+  "broad": false,
+  "preview": [
+   "img/chandler-bing.webp",
+   "img/joey-tribbiani.webp",
+   "img/phoebe-buffay.webp",
+   "img/monica-geller.webp"
+  ]
+ },
+ {
+  "id": "game-of-thrones",
+  "title": "Game of Thrones",
+  "cat": "characters",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/daenerys-targaryen.webp",
+   "img/rhaenyra-targaryen.webp",
+   "img/jon-snow.webp",
+   "img/cersei-lannister.webp"
+  ]
+ },
+ {
+  "id": "harry-potter",
+  "title": "Harry Potter Characters",
+  "cat": "characters",
+  "count": 50,
+  "broad": false,
+  "preview": [
+   "img/albus-dumbledore.webp",
+   "img/severus-snape.webp",
+   "img/hermione-granger.webp",
+   "img/draco-malfoy.webp"
+  ]
+ },
+ {
+  "id": "lord-of-the-rings",
+  "title": "Lord of the Rings & Hobbit",
+  "cat": "characters",
+  "count": 39,
+  "broad": false,
+  "preview": [
+   "img/gollum.webp",
+   "img/sauron.webp",
+   "img/aragorn.webp",
+   "img/gandalf.webp"
+  ]
+ },
+ {
+  "id": "marvel",
+  "title": "Marvel Characters",
+  "cat": "characters",
+  "count": 59,
+  "broad": false,
+  "preview": [
+   "img/wolverine.webp",
+   "img/captain-america.webp",
+   "img/yelena-belova.webp",
+   "img/iron-man.webp"
+  ]
+ },
+ {
+  "id": "sci-fi",
+  "title": "Sci-fi Characters",
+  "cat": "characters",
+  "count": 40,
+  "broad": false,
+  "preview": [
+   "img/paul-atreides.webp",
+   "img/captain-kirk.webp",
+   "img/captain-picard.webp",
+   "img/spock.webp"
+  ]
+ },
+ {
+  "id": "sitcoms",
+  "title": "Sitcom Characters",
+  "cat": "characters",
+  "count": 44,
+  "broad": false,
+  "preview": [
+   "img/sheldon-cooper.webp",
+   "img/ted-lasso.webp",
+   "img/cosmo-kramer.webp",
+   "img/penny.webp"
+  ]
+ },
+ {
+  "id": "star-wars",
+  "title": "Star Wars Characters",
+  "cat": "characters",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/grogu.webp",
+   "img/the-mandalorian.webp",
+   "img/darth-vader.webp",
+   "img/emperor-palpatine.webp"
+  ]
+ },
+ {
+  "id": "stranger-things",
+  "title": "Stranger Things (grown-ups)",
+  "cat": "characters",
+  "count": 30,
+  "broad": false,
+  "preview": [
+   "img/vecna.webp",
+   "img/steve-harrington.webp",
+   "img/nancy-wheeler.webp",
+   "img/jim-hopper.webp"
+  ]
+ },
+ {
+  "id": "superhero-villains",
+  "title": "Superhero Villains",
+  "cat": "characters",
+  "count": 46,
+  "broad": false,
+  "preview": [
+   "img/apocalypse.webp",
+   "img/magneto.webp",
+   "img/venom.webp",
+   "img/ra-s-al-ghul.webp"
+  ]
+ },
+ {
+  "id": "the-office",
+  "title": "The Office",
+  "cat": "characters",
+  "count": 34,
+  "broad": false,
+  "preview": [
+   "img/michael-scott.webp",
+   "img/dwight-schrute.webp",
+   "img/jim-halpert.webp",
+   "img/pam-beesly.webp"
+  ]
+ },
+ {
+  "id": "anime",
+  "title": "Anime",
+  "cat": "animated",
+  "count": 52,
+  "broad": false,
+  "preview": [
+   "img/frieren.webp",
+   "img/howl.webp",
+   "img/calcifer.webp",
+   "img/totoro.webp"
+  ]
+ },
+ {
+  "id": "cartoon-network",
+  "title": "Cartoon Network",
+  "cat": "animated",
+  "count": 41,
+  "broad": false,
+  "preview": [
+   "img/courage.webp",
+   "img/dexter.webp",
+   "img/robin.webp",
+   "img/numbuh-one.webp"
+  ]
+ },
+ {
+  "id": "disney-heroes",
+  "title": "Disney Heroes & Sidekicks",
+  "cat": "animated",
+  "count": 57,
+  "broad": false,
+  "preview": [
+   "img/winnie-the-pooh.webp",
+   "img/mickey-mouse.webp",
+   "img/aladdin.webp",
+   "img/hercules.webp"
+  ]
+ },
+ {
+  "id": "disney-princesses",
+  "title": "Disney Princesses",
+  "cat": "animated",
+  "count": 33,
+  "broad": false,
+  "preview": [
+   "img/mulan.webp",
+   "img/pocahontas.webp",
+   "img/cinderella.webp",
+   "img/elsa.webp"
+  ]
+ },
+ {
+  "id": "disney-villains",
+  "title": "Disney Villains",
+  "cat": "animated",
+  "count": 39,
+  "broad": false,
+  "preview": [
+   "img/cruella-de-vil.webp",
+   "img/ursula.webp",
+   "img/captain-hook.webp",
+   "img/pete.webp"
+  ]
+ },
+ {
+  "id": "dreamworks-illumination",
+  "title": "DreamWorks & Illumination",
+  "cat": "animated",
+  "count": 50,
+  "broad": false,
+  "preview": [
+   "img/the-grinch.webp",
+   "img/megamind.webp",
+   "img/the-boss-baby.webp",
+   "img/gru.webp"
+  ]
+ },
+ {
+  "id": "adult-animation",
+  "title": "Family Guy & Adult Animation",
+  "cat": "animated",
+  "count": 44,
+  "broad": false,
+  "preview": [
+   "img/bojack-horseman.webp",
+   "img/beavis.webp",
+   "img/butt-head.webp",
+   "img/sterling-archer.webp"
+  ]
+ },
+ {
+  "id": "classic-cartoons",
+  "title": "Looney Tunes & Hanna-Barbera",
+  "cat": "animated",
+  "count": 43,
+  "broad": false,
+  "preview": [
+   "img/bugs-bunny.webp",
+   "img/shaggy-rogers.webp",
+   "img/foghorn-leghorn.webp",
+   "img/velma-dinkley.webp"
+  ]
+ },
+ {
+  "id": "pixar",
+  "title": "Pixar",
+  "cat": "animated",
+  "count": 51,
+  "broad": false,
+  "preview": [
+   "img/lightning-mcqueen.webp",
+   "img/jessie.webp",
+   "img/buzz-lightyear.webp",
+   "img/woody.webp"
+  ]
+ },
+ {
+  "id": "nickelodeon",
+  "title": "SpongeBob & Nickelodeon",
+  "cat": "animated",
+  "count": 45,
+  "broad": false,
+  "preview": [
+   "img/spongebob.webp",
+   "img/patrick-star.webp",
+   "img/danny-phantom.webp",
+   "img/aang.webp"
+  ]
+ },
+ {
+  "id": "simpsons",
+  "title": "The Simpsons",
+  "cat": "animated",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/bart-simpson.webp",
+   "img/homer-simpson.webp",
+   "img/apu-nahasapeemapetilon.webp",
+   "img/sideshow-bob.webp"
+  ]
+ },
+ {
+  "id": "hero-shooters",
+  "title": "Fortnite, Overwatch & League",
+  "cat": "games",
+  "count": 45,
+  "broad": false,
+  "preview": [
+   "img/jinx.webp",
+   "img/vi.webp",
+   "img/kiriko.webp",
+   "img/d-va.webp"
+  ]
+ },
+ {
+  "id": "nintendo",
+  "title": "Nintendo Characters",
+  "cat": "games",
+  "count": 45,
+  "broad": false,
+  "preview": [
+   "img/mario.webp",
+   "img/rosalina.webp",
+   "img/princess-peach.webp",
+   "img/princess-daisy.webp"
+  ]
+ },
+ {
+  "id": "pokemon",
+  "title": "Pokémon",
+  "cat": "games",
+  "count": 55,
+  "broad": false,
+  "preview": [
+   "img/pikachu.webp",
+   "img/ash-ketchum.webp",
+   "img/bulbasaur.webp",
+   "img/charizard.webp"
+  ]
+ },
+ {
+  "id": "game-heroes",
+  "title": "Video Game Heroes",
+  "cat": "games",
+  "count": 48,
+  "broad": false,
+  "preview": [
+   "img/leon-s-kennedy.webp",
+   "img/crash-bandicoot.webp",
+   "img/kratos.webp",
+   "img/chun-li.webp"
+  ]
  }
 ]

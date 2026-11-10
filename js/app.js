@@ -10,7 +10,7 @@ import * as PPL from './people.js';
 import * as ACCT from './account.js';
 import * as SORT from './sorter.js';
 
-const BUILD = '2026-11-10.2';
+const BUILD = '2026-11-10.3';
 const ONLINE_JS = './online.js?v=a3d0418b';
 const KEY = 'mystery-face:v1';
 const $ = (s, r = document) => r.querySelector(s);
@@ -630,7 +630,7 @@ function renderGroupList() {
     Promise.all(FC.deckIndex().map((d) => FC.loadDeck(d.id).catch(() => null))).then(() => { gLoadingAll = false; renderGroupList(); });
   }
   const added = addedGroups();
-  const rows = { broad: [], specific: [] };
+  const rows = { broad: [], specific: [], people: [] };
   for (const gid of U.gOrder || []) {
     const g = FC.group(gid); if (!g) continue;
     let hit = '';
@@ -645,12 +645,13 @@ function renderGroupList() {
     const f = SORT.familiarity(MEM, gid);
     const on = added.includes(gid);
     const hint = hit ? esc(hit) : f && f.sorted ? `you know ~${Math.round(f.pct * 100)}%` : 'not sorted';
-    rows[g.broad ? 'broad' : 'specific'].push(`<div class="grp">${groupMosaic(g)}<div class="gtxt"><b>${esc(g.title)}</b><span class="small muted">${g.count} · ${hint}</span>
+    // searching: groups whose name matches come first, then groups that only contain a matching person
+    rows[q && hit ? 'people' : g.broad ? 'broad' : 'specific'].push(`<div class="grp">${groupMosaic(g)}<div class="gtxt"><b>${esc(g.title)}</b><span class="small muted">${g.count} · ${hint}</span>
       <span class="glinks"><button class="link small" data-act="gsort" data-v="${esc(gid)}">Sort</button><button class="link small" data-act="gsortall" data-v="${esc(gid)}">Sort all</button></span></div>
       <button class="btn small gadd${on ? ' on' : ''}" data-act="gadd" data-v="${esc(gid)}" aria-pressed="${on}">${on ? '✓ Added' : '+ Add'}</button></div>`);
   }
   const part = (t, list) => (list.length ? `<h4 class="lbl">${t}</h4><div class="ggrid">${list.join('')}</div>` : '');
-  box.innerHTML = part('Broad', rows.broad) + part('Specific', rows.specific) || `<p class="muted small">${gLoadingAll ? 'Searching…' : 'No group or person by that name.'}</p>`;
+  box.innerHTML = part('Broad', rows.broad) + part('Specific', rows.specific) + part('Has someone by that name', rows.people || []) || `<p class="muted small">${gLoadingAll ? 'Searching…' : 'No group or person by that name.'}</p>`;
 }
 document.addEventListener('input', (e) => { if (e.target && e.target.id === 'gSearch') { U.gq = e.target.value; renderGroupList(); } });
 async function toggleGroup(gid, btn) {
