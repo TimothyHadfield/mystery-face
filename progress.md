@@ -21,6 +21,7 @@ First version: online with a friend + same screen, celebrity decks (builder B, p
 | Live | not deployed (manager merges) |
 
 ## Authorized next steps
+- (2026-11-09) Library expansion per `docs/library-plan.md` (Tim asked for it and for many sub-agents): wave 1 = 5 builders on branches lib-app, lib-sports, lib-history, lib-stars, lib-characters (worktrees `C:/Users/timha/AppData/Local/Temp/claude/wt/mystery-face-<name>`). Manager merges, runs `tools/deck-index.py` + `tools/deck-credits.py`, full tests, pushes.
 - (2026-11-06) Manager merges branch `app` + builder B's decks; merge `_online` branch `mystery-face-sets`.
 
 ## Standing instructions (Tim's words)
