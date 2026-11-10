@@ -1,0 +1,967 @@
+{
+ "id": "film-directors",
+ "title": "Film Directors",
+ "cat": "film",
+ "people": [
+  {
+   "id": "christopher-nolan",
+   "name": "Christopher Nolan",
+   "from": "Oppenheimer",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 100,
+   "pv": 6688240,
+   "img": "img/christopher-nolan.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ChristopherNolan-byPhilipRomano_(cropped).jpg"
+   }
+  },
+  {
+   "id": "clint-eastwood",
+   "name": "Clint Eastwood",
+   "from": "Unforgiven",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 98,
+   "pv": 4936399,
+   "img": "img/clint-eastwood.webp",
+   "credit": {
+    "author": "Lance Cpl. Melissa I. Ugalde",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Clint_Eastwood_visits_MCB_Camp_Pendleton_(1)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "steven-spielberg",
+   "name": "Steven Spielberg",
+   "from": "Jaws",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 96,
+   "pv": 4283500,
+   "img": "img/steven-spielberg.webp",
+   "credit": {
+    "author": "Martin Kraft",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MKr25402_Steven_Spielberg_(Berlinale_2023)_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "paul-thomas-anderson",
+   "name": "Paul Thomas Anderson",
+   "from": "There Will Be Blood",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 94,
+   "pv": 4219103,
+   "img": "img/paul-thomas-anderson.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Thomas_Anderson_in_2025.jpg"
+   }
+  },
+  {
+   "id": "quentin-tarantino",
+   "name": "Quentin Tarantino",
+   "from": "Pulp Fiction",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 92,
+   "pv": 3027161,
+   "img": "img/quentin-tarantino.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Quentin_Tarantino_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "james-cameron",
+   "name": "James Cameron",
+   "from": "Titanic",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 89,
+   "pv": 2981027,
+   "img": "img/james-cameron.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Cameron_at_53rd_Saturn_Awards_2026-01_(cropped).jpg"
+   }
+  },
+  {
+   "id": "martin-scorsese",
+   "name": "Martin Scorsese",
+   "from": "Goodfellas",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 87,
+   "pv": 2828763,
+   "img": "img/martin-scorsese.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Martin_Scorsese-68749.jpg"
+   }
+  },
+  {
+   "id": "guy-ritchie",
+   "name": "Guy Ritchie",
+   "from": "Snatch",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 85,
+   "pv": 2784978,
+   "img": "img/guy-ritchie.webp",
+   "credit": {
+    "author": "Kathy Hutchins",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:GuyRitchiebyKathyHutchins.jpg"
+   }
+  },
+  {
+   "id": "stanley-kubrick",
+   "name": "Stanley Kubrick",
+   "from": "The Shining",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 83,
+   "pv": 2601780,
+   "img": "img/stanley-kubrick.webp",
+   "credit": {
+    "author": "Columbia Pictures",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Stanley_Kubrick_in_Dr._Strangelove_Trailer_(4)_Cropped.jpg"
+   }
+  },
+  {
+   "id": "ryan-coogler",
+   "name": "Ryan Coogler",
+   "from": "Black Panther",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 81,
+   "pv": 2128306,
+   "img": "img/ryan-coogler.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ryan_Coogler_-_Sinners_2025.jpg"
+   }
+  },
+  {
+   "id": "guillermo-del-toro",
+   "name": "Guillermo del Toro",
+   "from": "The Shape of Water",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 79,
+   "pv": 2123259,
+   "img": "img/guillermo-del-toro.webp",
+   "credit": {
+    "author": "Gabriel Brooks",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Guillermo_del_Toro_at_the_2026_Sundance_Film_Festival_01_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ron-howard",
+   "name": "Ron Howard",
+   "from": "Apollo 13",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 77,
+   "pv": 1916644,
+   "img": "img/ron-howard.webp",
+   "credit": {
+    "author": "Jay Dixit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ron_Howard_at_the_2024_Toronto_International_Film_Festival_05_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ridley-scott",
+   "name": "Ridley Scott",
+   "from": "Gladiator",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 75,
+   "pv": 1885832,
+   "img": "img/ridley-scott.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ridley_Scott_At_BFI_-_BFI_Southbank_-_Saturday_4th_October_2025.jpg"
+   }
+  },
+  {
+   "id": "francis-ford-coppola",
+   "name": "Francis Ford Coppola",
+   "from": "The Godfather",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 73,
+   "pv": 1862760,
+   "img": "img/francis-ford-coppola.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lena_Herzog_Francis_Ford_Coppola_Wernder_Herzog_Venice_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jordan-peele",
+   "name": "Jordan Peele",
+   "from": "Get Out",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 71,
+   "pv": 1796114,
+   "img": "img/jordan-peele.webp",
+   "credit": {
+    "author": "Daniel Benavides from Austin, TX",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SXSW_2019_2_-_Jordan_Peele_(47282560202)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tim-burton",
+   "name": "Tim Burton",
+   "from": "Edward Scissorhands",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 68,
+   "pv": 1769340,
+   "img": "img/tim-burton.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tim_Burton-63605.jpg"
+   }
+  },
+  {
+   "id": "sam-raimi",
+   "name": "Sam Raimi",
+   "from": "Spider-Man",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 66,
+   "pv": 1711304,
+   "img": "img/sam-raimi.webp",
+   "credit": {
+    "author": "Super Festivals from Ft. Lauderdale, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sam_Raimi_Photo_Op_GalaxyCon_Raleigh_2024_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jon-favreau",
+   "name": "Jon Favreau",
+   "from": "Iron Man",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 64,
+   "pv": 1699187,
+   "img": "img/jon-favreau.webp",
+   "credit": {
+    "author": "Eva Rinaldi(Uploader: Musa Raza)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jon_Favreau_2016.jpeg"
+   }
+  },
+  {
+   "id": "j-j-abrams",
+   "name": "J. J. Abrams",
+   "from": "Star Trek",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 62,
+   "pv": 1661303,
+   "img": "img/j-j-abrams.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JJAbrams-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "george-lucas",
+   "name": "George Lucas",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 60,
+   "pv": 1661202,
+   "img": "img/george-lucas.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Lucas_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "taika-waititi",
+   "name": "Taika Waititi",
+   "from": "Jojo Rabbit",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 58,
+   "pv": 1600801,
+   "img": "img/taika-waititi.webp",
+   "credit": {
+    "author": "CaseyJNewell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taika_Waititi_at_Venice_Film_Festival_2026-4.jpg"
+   }
+  },
+  {
+   "id": "wes-anderson",
+   "name": "Wes Anderson",
+   "from": "The Grand Budapest Hotel",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 56,
+   "pv": 1521247,
+   "img": "img/wes-anderson.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wes_Anderson-7541_(cropped).jpg"
+   }
+  },
+  {
+   "id": "david-fincher",
+   "name": "David Fincher",
+   "from": "Fight Club",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 54,
+   "pv": 1492919,
+   "img": "img/david-fincher.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TheKillerBFILFF051023_(8_of_22)_(53255176376)_(cropped2).jpg"
+   }
+  },
+  {
+   "id": "alfred-hitchcock",
+   "name": "Alfred Hitchcock",
+   "from": "Psycho",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 52,
+   "pv": 1486500,
+   "img": "img/alfred-hitchcock.webp",
+   "credit": {
+    "author": "Ante Brkan",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hitchcock,_Alfred_02.jpg"
+   }
+  },
+  {
+   "id": "chloe-zhao",
+   "name": "Chloé Zhao",
+   "from": "Nomadland",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 49,
+   "pv": 1464026,
+   "img": "img/chloe-zhao.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chlo%C3%A9_Zhao_at_the_2026_Berlin_International_Film_Festival-68507.jpg"
+   }
+  },
+  {
+   "id": "james-gunn",
+   "name": "James Gunn",
+   "from": "Guardians of the Galaxy",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 47,
+   "pv": 1444123,
+   "img": "img/james-gunn.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Gunn_by_Gage_Skidmore_3.jpg"
+   }
+  },
+  {
+   "id": "sofia-coppola",
+   "name": "Sofia Coppola",
+   "from": "Lost in Translation",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 45,
+   "pv": 1434317,
+   "img": "img/sofia-coppola.webp",
+   "credit": {
+    "author": "LucaFazPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sofia_Coppola_at_82nd_Venice_International_Film_Festival-8_(cropped).jpg"
+   }
+  },
+  {
+   "id": "spike-lee",
+   "name": "Spike Lee",
+   "from": "Do the Right Thing",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 43,
+   "pv": 1397328,
+   "img": "img/spike-lee.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Neil_Grabosky_-_Spike_Lee_-_NEG_0876_(54865282335).jpg"
+   }
+  },
+  {
+   "id": "denis-villeneuve",
+   "name": "Denis Villeneuve",
+   "from": "Dune",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 41,
+   "pv": 1378785,
+   "img": "img/denis-villeneuve.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DVilleneuveRFH121024_(12_of_23)_(54061976489)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "darren-aronofsky",
+   "name": "Darren Aronofsky",
+   "from": "Black Swan",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 39,
+   "pv": 1302751,
+   "img": "img/darren-aronofsky.webp",
+   "credit": {
+    "author": "LucaFazPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Darren_Aronofsky_79th_Locarno_Film_Festival_-_Red_Carpet-22_(second_cropped).jpg"
+   }
+  },
+  {
+   "id": "hayao-miyazaki",
+   "name": "Hayao Miyazaki",
+   "from": "Spirited Away",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 37,
+   "pv": 1189487,
+   "img": "img/hayao-miyazaki.webp",
+   "credit": {
+    "author": "Natasha Baucas at https://www.flickr.com/photos/sdnatasha/",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HayaoMiyazakiCCJuly09.jpg"
+   }
+  },
+  {
+   "id": "greta-gerwig",
+   "name": "Greta Gerwig",
+   "from": "Barbie",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 35,
+   "pv": 1162831,
+   "img": "img/greta-gerwig.webp",
+   "credit": {
+    "author": "UKinUSA",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Greta_Gerwig_at_Barbie_Movie_Reception_(headshot).jpg"
+   }
+  },
+  {
+   "id": "peter-jackson",
+   "name": "Peter Jackson",
+   "from": "The Lord of the Rings",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 33,
+   "pv": 1129157,
+   "img": "img/peter-jackson.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Peter_Jackson_SDCC_2014.jpg"
+   }
+  },
+  {
+   "id": "alejandro-gonzalez-inarritu",
+   "name": "Alejandro González Iñárritu",
+   "from": "The Revenant",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 30,
+   "pv": 932230,
+   "img": "img/alejandro-gonzalez-inarritu.webp",
+   "credit": {
+    "author": "Martin Kraft",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MKr386809_Alejandro_Gonz%C3%A1lez_I%C3%B1%C3%A1rritu_(Amores_Perros,_Cannes_2025).jpg"
+   }
+  },
+  {
+   "id": "kathryn-bigelow",
+   "name": "Kathryn Bigelow",
+   "from": "The Hurt Locker",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 28,
+   "pv": 910539,
+   "img": "img/kathryn-bigelow.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kathryn_Bigelow_A_House_of_Dynamite-13_(cropped).jpg"
+   }
+  },
+  {
+   "id": "akira-kurosawa",
+   "name": "Akira Kurosawa",
+   "from": "Seven Samurai",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 26,
+   "pv": 899966,
+   "img": "img/akira-kurosawa.webp",
+   "credit": {
+    "author": "映画の友 (Eiga no tomo)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Akirakurosawa-onthesetof7samurai-1953-page88.jpg"
+   }
+  },
+  {
+   "id": "robert-zemeckis",
+   "name": "Robert Zemeckis",
+   "from": "Back to the Future",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 24,
+   "pv": 864088,
+   "img": "img/robert-zemeckis.webp",
+   "credit": {
+    "author": "Dick Thomas Johnson from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Zemeckis_%22The_Walk%22_at_Opening_Ceremony_of_the_28th_Tokyo_International_Film_Festival_(21835891403)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "zack-snyder",
+   "name": "Zack Snyder",
+   "from": "300",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 22,
+   "pv": 805088,
+   "img": "img/zack-snyder.webp",
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%22The_Last_Photograph%22_screening_during_the_2026_Toronto_International_Film_Festival_04_(cropped).jpg"
+   }
+  },
+  {
+   "id": "michael-bay",
+   "name": "Michael Bay",
+   "from": "Transformers",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 20,
+   "pv": 802568,
+   "img": "img/michael-bay.webp",
+   "credit": {
+    "author": "Romina Espinosa at http://www.rominaespinosa.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MichaelBay08.jpg"
+   }
+  },
+  {
+   "id": "bong-joon-ho",
+   "name": "Bong Joon-ho",
+   "from": "Parasite",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 18,
+   "pv": 669573,
+   "img": "img/bong-joon-ho.webp",
+   "credit": {
+    "author": "Jay Dixit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bong_Joon_Ho_at_Busan_Film_Festival,_smaller.jpg"
+   }
+  },
+  {
+   "id": "alfonso-cuaron",
+   "name": "Alfonso Cuarón",
+   "from": "Gravity",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 16,
+   "pv": 612031,
+   "img": "img/alfonso-cuaron.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DisclaimerBFILFF101024_(88_of_113)_(54062275143)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ang-lee",
+   "name": "Ang Lee",
+   "from": "Life of Pi",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 14,
+   "pv": 604750,
+   "img": "img/ang-lee.webp",
+   "credit": {
+    "author": "The Society of Motion Picture and Television Engineers from White Plains, NY, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_NAB_Show%27s_The_Future_of_Cinema_Conference,_produced_in_partnership_with_SMPTE_(26717112630)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "damien-chazelle",
+   "name": "Damien Chazelle",
+   "from": "La La Land",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 12,
+   "pv": 552554,
+   "img": "img/damien-chazelle.webp",
+   "credit": {
+    "author": "isabelle VERONESE from ELBEUF, France",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Damien_Chazelle_(cropped).jpg"
+   }
+  },
+  {
+   "id": "billy-wilder",
+   "name": "Billy Wilder",
+   "from": "Some Like It Hot",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 9,
+   "pv": 511448,
+   "img": "img/billy-wilder.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Billy_Wilder_photo.jpg"
+   }
+  },
+  {
+   "id": "sergio-leone",
+   "name": "Sergio Leone",
+   "from": "The Good, the Bad and the Ugly",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 7,
+   "pv": 448082,
+   "img": "img/sergio-leone.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sergio_Leone_1975.jpg"
+   }
+  },
+  {
+   "id": "ava-duvernay",
+   "name": "Ava DuVernay",
+   "from": "Selma",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 5,
+   "pv": 220068,
+   "img": "img/ava-duvernay.webp",
+   "credit": {
+    "author": "LaShawnda Jones",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ava_DuVernay_at_the_2026_Sundance_Film_Festival_012326_(cropped).jpg"
+   }
+  },
+  {
+   "id": "barry-jenkins",
+   "name": "Barry Jenkins",
+   "from": "Moonlight",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 3,
+   "pv": 196202,
+   "img": "img/barry-jenkins.webp",
+   "credit": {
+    "author": "Jian Maldonado",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Filmmaker_Barry_Jenkins_(cropped).jpg"
+   }
+  },
+  {
+   "id": "patty-jenkins",
+   "name": "Patty Jenkins",
+   "from": "Wonder Woman",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "film-directors"
+   ],
+   "fame": 1,
+   "pv": 124275,
+   "img": "img/patty-jenkins.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Patty_Jenkins_at_the_2018_Comic-Con_International.jpg"
+   }
+  }
+ ]
+}

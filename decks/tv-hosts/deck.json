@@ -1,0 +1,887 @@
+{
+ "id": "tv-hosts",
+ "title": "TV Hosts & Talk Shows",
+ "cat": "film",
+ "people": [
+  {
+   "id": "drew-barrymore",
+   "name": "Drew Barrymore",
+   "from": "The Drew Barrymore Show",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 100,
+   "pv": 2529342,
+   "img": "img/drew-barrymore.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Drew_Barrymore_in_2019_(cropped).jpg"
+   }
+  },
+  {
+   "id": "stephen-colbert",
+   "name": "Stephen Colbert",
+   "from": "The Late Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 98,
+   "pv": 1861524,
+   "img": "img/stephen-colbert.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_Colbert_2025.jpg"
+   }
+  },
+  {
+   "id": "conan-o-brien",
+   "name": "Conan O'Brien",
+   "from": "Conan",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 95,
+   "pv": 1781490,
+   "img": "img/conan-o-brien.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Conan_O%27Brien_2025.jpg"
+   }
+  },
+  {
+   "id": "kelly-clarkson",
+   "name": "Kelly Clarkson",
+   "from": "The Kelly Clarkson Show",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 93,
+   "pv": 1631613,
+   "img": "img/kelly-clarkson.webp",
+   "credit": {
+    "author": "Stephen Schester/Carlin Leslie",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kelly_Clarkson_2018_DoD_Warrior_Games_Opening_Ceremony_14_-_Cropped_01.jpg"
+   }
+  },
+  {
+   "id": "whoopi-goldberg",
+   "name": "Whoopi Goldberg",
+   "from": "The View",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 91,
+   "pv": 1513074,
+   "img": "img/whoopi-goldberg.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:WhoopiGoldberg-byPhilipRomano2.jpg"
+   }
+  },
+  {
+   "id": "ryan-seacrest",
+   "name": "Ryan Seacrest",
+   "from": "American Idol",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 88,
+   "pv": 1501864,
+   "img": "img/ryan-seacrest.webp",
+   "credit": {
+    "author": "Adweek",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ryan_Seacrest_(2019).jpg"
+   }
+  },
+  {
+   "id": "jimmy-kimmel",
+   "name": "Jimmy Kimmel",
+   "from": "Jimmy Kimmel Live!",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 86,
+   "pv": 1488238,
+   "img": "img/jimmy-kimmel.webp",
+   "credit": {
+    "author": "Erin Scott",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Kimmel_June_2022.jpg"
+   }
+  },
+  {
+   "id": "oprah-winfrey",
+   "name": "Oprah Winfrey",
+   "from": "The Oprah Winfrey Show",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 84,
+   "pv": 1466686,
+   "img": "img/oprah-winfrey.webp",
+   "credit": {
+    "author": "US Embassy South Africa",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Oprah_Winfrey_2016.jpg"
+   }
+  },
+  {
+   "id": "simon-cowell",
+   "name": "Simon Cowell",
+   "from": "American Idol",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 82,
+   "pv": 1453411,
+   "img": "img/simon-cowell.webp",
+   "credit": {
+    "author": "UKinUSA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Simon_Cowell_at_Greater_Together_LA_2026_(cropped)_2.jpg"
+   }
+  },
+  {
+   "id": "jimmy-fallon",
+   "name": "Jimmy Fallon",
+   "from": "The Tonight Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 79,
+   "pv": 1356325,
+   "img": "img/jimmy-fallon.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Fallon-TTL_4575_(11046141004)_(5x7_cropped_and_rotated).jpg"
+   }
+  },
+  {
+   "id": "steve-harvey",
+   "name": "Steve Harvey",
+   "from": "Family Feud",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 77,
+   "pv": 1347789,
+   "img": "img/steve-harvey.webp",
+   "credit": {
+    "author": "Angela George",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SteveHarveyHWOFMay2013_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jon-stewart",
+   "name": "Jon Stewart",
+   "from": "The Daily Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 75,
+   "pv": 1305771,
+   "img": "img/jon-stewart.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JonStewart-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "nick-cannon",
+   "name": "Nick Cannon",
+   "from": "Wild 'n Out",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 72,
+   "pv": 1281759,
+   "img": "img/nick-cannon.webp",
+   "credit": {
+    "author": "Cameron Woods",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nick_Cannon_and_Courtney_Bee_at_Essence_Fest_2025_(3)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "trevor-noah",
+   "name": "Trevor Noah",
+   "from": "The Daily Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 70,
+   "pv": 1276959,
+   "img": "img/trevor-noah.webp",
+   "credit": {
+    "author": "Web Summit Qatar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trevor_Noah_(53554114243)_(portrait_crop).jpg"
+   }
+  },
+  {
+   "id": "ken-jennings",
+   "name": "Ken Jennings",
+   "from": "Jeopardy!",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 68,
+   "pv": 1271188,
+   "img": "img/ken-jennings.webp",
+   "credit": {
+    "author": "Library of Congress Life",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Ken_Jennings_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tyra-banks",
+   "name": "Tyra Banks",
+   "from": "America's Next Top Model",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 65,
+   "pv": 1254938,
+   "img": "img/tyra-banks.webp",
+   "credit": {
+    "author": "Juice Group",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tyra_Banks_2018_4.png"
+   }
+  },
+  {
+   "id": "vanna-white",
+   "name": "Vanna White",
+   "from": "Wheel of Fortune",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 63,
+   "pv": 1156522,
+   "img": "img/vanna-white.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Vanna_White_USMC-10361_(cropped).jpg"
+   }
+  },
+  {
+   "id": "johnny-carson",
+   "name": "Johnny Carson",
+   "from": "The Tonight Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 61,
+   "pv": 1152731,
+   "img": "img/johnny-carson.webp",
+   "credit": {
+    "author": "NBC Television",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Johnny_Carson_Tonight_Show_1965.JPG"
+   }
+  },
+  {
+   "id": "david-letterman",
+   "name": "David Letterman",
+   "from": "Late Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 59,
+   "pv": 977304,
+   "img": "img/david-letterman.webp",
+   "credit": {
+    "author": "Staff Sgt. Kat Justen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Celebration_of_Service_160505-F-HS721-010_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bob-barker",
+   "name": "Bob Barker",
+   "from": "The Price Is Right",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 56,
+   "pv": 863400,
+   "img": "img/bob-barker.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob_Barker_1975.jpg"
+   }
+  },
+  {
+   "id": "jay-leno",
+   "name": "Jay Leno",
+   "from": "The Tonight Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 54,
+   "pv": 812392,
+   "img": "img/jay-leno.webp",
+   "credit": {
+    "author": "US mission to the European Union",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jay_Leno_2019_crop.jpg"
+   }
+  },
+  {
+   "id": "drew-carey",
+   "name": "Drew Carey",
+   "from": "The Price Is Right",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 52,
+   "pv": 808728,
+   "img": "img/drew-carey.webp",
+   "credit": {
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Drew_Carey_(48250651016)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "james-corden",
+   "name": "James Corden",
+   "from": "The Late Late Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 49,
+   "pv": 806539,
+   "img": "img/james-corden.webp",
+   "credit": {
+    "author": "iDominick",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Corden_at_2015_PaleyFest_(cropped).jpg"
+   }
+  },
+  {
+   "id": "howie-mandel",
+   "name": "Howie Mandel",
+   "from": "Deal or No Deal",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 47,
+   "pv": 770740,
+   "img": "img/howie-mandel.webp",
+   "credit": {
+    "author": "TYMA4561",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Howie_Mandel_and_Trevor_Doerksen_on_America%27s_Got_Talent_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jerry-springer",
+   "name": "Jerry Springer",
+   "from": "The Jerry Springer Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 45,
+   "pv": 769442,
+   "img": "img/jerry-springer.webp",
+   "credit": {
+    "author": "Nrbelex",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Jerry_Springer_at_Emory_(cropped).jpg"
+   }
+  },
+  {
+   "id": "seth-meyers",
+   "name": "Seth Meyers",
+   "from": "Late Night",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 42,
+   "pv": 739801,
+   "img": "img/seth-meyers.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Seth_Meyers_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "graham-norton",
+   "name": "Graham Norton",
+   "from": "The Graham Norton Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 40,
+   "pv": 734467,
+   "img": "img/graham-norton.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:GrahamNorton-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "taylor-tomlinson",
+   "name": "Taylor Tomlinson",
+   "from": "After Midnight",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 38,
+   "pv": 727298,
+   "img": "img/taylor-tomlinson.webp",
+   "credit": {
+    "author": "Neal Brennan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taylor_Tomlinson_on_The_Blocks_Podcast.png"
+   }
+  },
+  {
+   "id": "john-oliver",
+   "name": "John Oliver",
+   "from": "Last Week Tonight",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 36,
+   "pv": 705707,
+   "img": "img/john-oliver.webp",
+   "credit": {
+    "author": "Neil Grabowsky / Montclair Film Festival",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Oliver_November_2016.jpg"
+   }
+  },
+  {
+   "id": "michael-strahan",
+   "name": "Michael Strahan",
+   "from": "Good Morning America",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 33,
+   "pv": 683968,
+   "img": "img/michael-strahan.webp",
+   "credit": {
+    "author": "Airman 1st Class Andrew Britten",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Michael_Strahan_2022_(cropped).jpg"
+   }
+  },
+  {
+   "id": "barbara-walters",
+   "name": "Barbara Walters",
+   "from": "20/20",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 31,
+   "pv": 659211,
+   "img": "img/barbara-walters.webp",
+   "credit": {
+    "author": "Lynn Gilbert",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barbara_Walters_Lynn_Gilbert.jpg"
+   }
+  },
+  {
+   "id": "kelly-ripa",
+   "name": "Kelly Ripa",
+   "from": "Live with Kelly",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 29,
+   "pv": 654596,
+   "img": "img/kelly-ripa.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KellyRipa-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "regis-philbin",
+   "name": "Regis Philbin",
+   "from": "Who Wants to Be a Millionaire",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 26,
+   "pv": 647164,
+   "img": "img/regis-philbin.webp",
+   "credit": {
+    "author": "David Shankbone",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Regis_Philbin_at_the_2009_Tribeca_Film_Festival.jpg"
+   }
+  },
+  {
+   "id": "pat-sajak",
+   "name": "Pat Sajak",
+   "from": "Wheel of Fortune",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 24,
+   "pv": 643737,
+   "img": "img/pat-sajak.webp",
+   "credit": {
+    "author": "smata2",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:National_Memorial_Day_Parade,_Grand_Marshall,_Pat_Sajak,_Mon_30_May_2011_(11).jpg"
+   }
+  },
+  {
+   "id": "alex-trebek",
+   "name": "Alex Trebek",
+   "from": "Jeopardy!",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 22,
+   "pv": 642658,
+   "img": "img/alex-trebek.webp",
+   "credit": {
+    "author": "The Peabody Awards",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alex_Trebek_at_the_71st_Annual_Peabody_Awards_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jeff-probst",
+   "name": "Jeff Probst",
+   "from": "Survivor",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 19,
+   "pv": 638376,
+   "img": "img/jeff-probst.webp",
+   "credit": {
+    "author": "The Street Interviewer",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jeff_Probst_2017_(cropped).png"
+   }
+  },
+  {
+   "id": "al-roker",
+   "name": "Al Roker",
+   "from": "Today",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 17,
+   "pv": 636876,
+   "img": "img/al-roker.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Al_Roker_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "phil-mcgraw",
+   "name": "Phil McGraw",
+   "from": "Dr. Phil",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 15,
+   "pv": 620147,
+   "img": "img/phil-mcgraw.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Phil_McGraw,_2025.jpg"
+   }
+  },
+  {
+   "id": "arsenio-hall",
+   "name": "Arsenio Hall",
+   "from": "The Arsenio Hall Show",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 13,
+   "pv": 519792,
+   "img": "img/arsenio-hall.webp",
+   "credit": {
+    "author": "The Arsenio Hall Show",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arsenio_Hall_in_2014.jpg"
+   }
+  },
+  {
+   "id": "hoda-kotb",
+   "name": "Hoda Kotb",
+   "from": "Today",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 10,
+   "pv": 485516,
+   "img": "img/hoda-kotb.webp",
+   "credit": {
+    "author": "Mass Communication Specialist 3rd Class Isaac Rodriguez",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Hoda_Kotb_2022_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sherri-shepherd",
+   "name": "Sherri Shepherd",
+   "from": "Sherri",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 8,
+   "pv": 418985,
+   "img": "img/sherri-shepherd.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SherriShepherd-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "carson-daly",
+   "name": "Carson Daly",
+   "from": "The Voice",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 6,
+   "pv": 385598,
+   "img": "img/carson-daly.webp",
+   "credit": {
+    "author": "U.S. Navy photo by Mass Communication Specialist 2nd Class Brandon Parker/RELEASED",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Carson_Daly_headshot_from_Fleet_Week_New_York_2018.jpg"
+   }
+  },
+  {
+   "id": "rachael-ray",
+   "name": "Rachael Ray",
+   "from": "Rachael Ray",
+   "gender": "f",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 3,
+   "pv": 352357,
+   "img": "img/rachael-ray.webp",
+   "credit": {
+    "author": "The Heart Truth",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rachael_Ray,_Red_Dress_Collection_2007.jpg"
+   }
+  },
+  {
+   "id": "tom-bergeron",
+   "name": "Tom Bergeron",
+   "from": "Dancing with the Stars",
+   "gender": "m",
+   "kind": "tv",
+   "tags": [
+    "tv",
+    "tv-hosts"
+   ],
+   "fame": 1,
+   "pv": 349589,
+   "img": "img/tom-bergeron.webp",
+   "credit": {
+    "author": "jfer21 at https://www.flickr.com/photos/jfer21/",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TomBergeronApr09.jpg"
+   }
+  }
+ ]
+}

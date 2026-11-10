@@ -1,0 +1,967 @@
+{
+ "id": "comedians",
+ "title": "Comedians",
+ "cat": "film",
+ "people": [
+  {
+   "id": "robin-williams",
+   "name": "Robin Williams",
+   "from": "Mrs. Doubtfire",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 100,
+   "pv": 4483388,
+   "img": "img/robin-williams.webp",
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel, Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Robin_Williams_1996_(cropped)_2.jpg"
+   }
+  },
+  {
+   "id": "jim-carrey",
+   "name": "Jim Carrey",
+   "from": "Ace Ventura",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 98,
+   "pv": 3929529,
+   "img": "img/jim-carrey.webp",
+   "credit": {
+    "author": "Dulce Osuna",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jim_Carrey_in_2020.png"
+   }
+  },
+  {
+   "id": "rowan-atkinson",
+   "name": "Rowan Atkinson",
+   "from": "Mr. Bean",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 96,
+   "pv": 3331352,
+   "img": "img/rowan-atkinson.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rowan_Atkinson,_2011.jpg"
+   }
+  },
+  {
+   "id": "adam-sandler",
+   "name": "Adam Sandler",
+   "from": "Happy Gilmore",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 94,
+   "pv": 3094769,
+   "img": "img/adam-sandler.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackie_Sandler_Adam_Sandler_Jay_Kelly-36_(3x4).jpg"
+   }
+  },
+  {
+   "id": "eddie-murphy",
+   "name": "Eddie Murphy",
+   "from": "Beverly Hills Cop",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 92,
+   "pv": 3011295,
+   "img": "img/eddie-murphy.webp",
+   "credit": {
+    "author": "David Shankbone",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Eddie_Murphy_by_David_Shankbone.jpg"
+   }
+  },
+  {
+   "id": "martin-short",
+   "name": "Martin Short",
+   "from": "Only Murders in the Building",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 89,
+   "pv": 2695711,
+   "img": "img/martin-short.webp",
+   "credit": {
+    "author": "Martin Lustre",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Martin_Short_2021_2.jpg"
+   }
+  },
+  {
+   "id": "chevy-chase",
+   "name": "Chevy Chase",
+   "from": "Caddyshack",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 87,
+   "pv": 2596362,
+   "img": "img/chevy-chase.webp",
+   "credit": {
+    "author": "Jesse Chang",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ChevyChaseMar10.jpg"
+   }
+  },
+  {
+   "id": "maya-rudolph",
+   "name": "Maya Rudolph",
+   "from": "Saturday Night Live",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 85,
+   "pv": 2436397,
+   "img": "img/maya-rudolph.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MayaRudolph-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "steve-carell",
+   "name": "Steve Carell",
+   "from": "The Office",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 83,
+   "pv": 2354283,
+   "img": "img/steve-carell.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Carell_-_The_40-Year-Old-Virgin.jpg"
+   }
+  },
+  {
+   "id": "ben-stiller",
+   "name": "Ben Stiller",
+   "from": "Zoolander",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 81,
+   "pv": 2325461,
+   "img": "img/ben-stiller.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ben_Stiller_2026.jpg"
+   }
+  },
+  {
+   "id": "pete-davidson",
+   "name": "Pete Davidson",
+   "from": "Saturday Night Live",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 79,
+   "pv": 2150136,
+   "img": "img/pete-davidson.webp",
+   "credit": {
+    "author": "LaVar James",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pete_Davidson_portrait_(cropped).png"
+   }
+  },
+  {
+   "id": "seth-rogen",
+   "name": "Seth Rogen",
+   "from": "Superbad",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 77,
+   "pv": 2043392,
+   "img": "img/seth-rogen.webp",
+   "credit": {
+    "author": "Jay Dixit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Seth_Rogen_at_Toronto_International_Film_Festival_2026_-_8.jpg"
+   }
+  },
+  {
+   "id": "will-ferrell",
+   "name": "Will Ferrell",
+   "from": "Elf",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 75,
+   "pv": 2033883,
+   "img": "img/will-ferrell.webp",
+   "credit": {
+    "author": "Adam Chitayat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Will_Ferrell_at_the_2024_Toronto_International_Film_Festival_5_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bill-murray",
+   "name": "Bill Murray",
+   "from": "Ghostbusters",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 73,
+   "pv": 1877392,
+   "img": "img/bill-murray.webp",
+   "credit": {
+    "author": "Timelessblue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Murray_at_the_2025_Sundance_Film_Festival_2_(cropped).jpg"
+   }
+  },
+  {
+   "id": "steve-martin",
+   "name": "Steve Martin",
+   "from": "The Jerk",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 71,
+   "pv": 1869050,
+   "img": "img/steve-martin.webp",
+   "credit": {
+    "author": "Davidwbaker",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Martin,_2017-08-11_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jordan-peele",
+   "name": "Jordan Peele",
+   "from": "Key & Peele",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 68,
+   "pv": 1796114,
+   "img": "img/jordan-peele.webp",
+   "credit": {
+    "author": "Daniel Benavides from Austin, TX",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SXSW_2019_2_-_Jordan_Peele_(47282560202)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kevin-hart",
+   "name": "Kevin Hart",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 66,
+   "pv": 1767151,
+   "img": "img/kevin-hart.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kevin_Hart_2014_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "amy-poehler",
+   "name": "Amy Poehler",
+   "from": "Parks and Recreation",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 64,
+   "pv": 1717998,
+   "img": "img/amy-poehler.webp",
+   "credit": {
+    "author": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amy_Poehler_(53671989427)_cropped.jpg"
+   }
+  },
+  {
+   "id": "keegan-michael-key",
+   "name": "Keegan-Michael Key",
+   "from": "Key & Peele",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 62,
+   "pv": 1628814,
+   "img": "img/keegan-michael-key.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Keegan-Michael_Key_by_Gage_Skidmore_2.jpg"
+   }
+  },
+  {
+   "id": "mike-myers",
+   "name": "Mike Myers",
+   "from": "Austin Powers",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 60,
+   "pv": 1617894,
+   "img": "img/mike-myers.webp",
+   "credit": {
+    "author": "Joella Marano",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mike_Myers_2011.jpg"
+   }
+  },
+  {
+   "id": "taika-waititi",
+   "name": "Taika Waititi",
+   "from": "What We Do in the Shadows",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 58,
+   "pv": 1600801,
+   "img": "img/taika-waititi.webp",
+   "credit": {
+    "author": "CaseyJNewell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taika_Waititi_at_Venice_Film_Festival_2026-4.jpg"
+   }
+  },
+  {
+   "id": "kristen-wiig",
+   "name": "Kristen Wiig",
+   "from": "Bridesmaids",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 56,
+   "pv": 1561671,
+   "img": "img/kristen-wiig.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kristin_Wiig_2013.jpg"
+   }
+  },
+  {
+   "id": "lucille-ball",
+   "name": "Lucille Ball",
+   "from": "I Love Lucy",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 54,
+   "pv": 1542595,
+   "img": "img/lucille-ball.webp",
+   "credit": {
+    "author": "CBS Television",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:LDBALL1950s.jpg"
+   }
+  },
+  {
+   "id": "richard-pryor",
+   "name": "Richard Pryor",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 52,
+   "pv": 1502595,
+   "img": "img/richard-pryor.webp",
+   "credit": {
+    "author": "NBC Television",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Richard_Pryor_The_Midnight_Show_in_April_1974.png"
+   }
+  },
+  {
+   "id": "melissa-mccarthy",
+   "name": "Melissa McCarthy",
+   "from": "Bridesmaids",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 49,
+   "pv": 1493044,
+   "img": "img/melissa-mccarthy.webp",
+   "credit": {
+    "author": "https://www.flickr.com/photos/greg2600",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Melissa_McCarthy_in_2018_(cropped).jpg"
+   }
+  },
+  {
+   "id": "john-mulaney",
+   "name": "John Mulaney",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 47,
+   "pv": 1433795,
+   "img": "img/john-mulaney.webp",
+   "credit": {
+    "author": "Airman 1st Class Jabes Hernandez Matias",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Mulaney_visits_Tinker_Air_Force_Base_(8)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ricky-gervais",
+   "name": "Ricky Gervais",
+   "from": "The Office (UK)",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 45,
+   "pv": 1418139,
+   "img": "img/ricky-gervais.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:GervaisPall230921_(15_of_17)_(51527411486)_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "tina-fey",
+   "name": "Tina Fey",
+   "from": "30 Rock",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 43,
+   "pv": 1384714,
+   "img": "img/tina-fey.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TinaFey-byPhilipRomano2.jpg"
+   }
+  },
+  {
+   "id": "jerry-seinfeld",
+   "name": "Jerry Seinfeld",
+   "from": "Seinfeld",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 41,
+   "pv": 1361997,
+   "img": "img/jerry-seinfeld.webp",
+   "credit": {
+    "author": "Zafrir Keren - צפריר קרן",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jerry_Seinfeld_2023.jpg"
+   }
+  },
+  {
+   "id": "nate-bargatze",
+   "name": "Nate Bargatze",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 39,
+   "pv": 1292601,
+   "img": "img/nate-bargatze.webp",
+   "credit": {
+    "author": "Lisa Gansky from New York, NY, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nate_Bargatze.jpg"
+   }
+  },
+  {
+   "id": "trevor-noah",
+   "name": "Trevor Noah",
+   "from": "The Daily Show",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 37,
+   "pv": 1276959,
+   "img": "img/trevor-noah.webp",
+   "credit": {
+    "author": "Web Summit Qatar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trevor_Noah_(53554114243)_(portrait_crop).jpg"
+   }
+  },
+  {
+   "id": "dave-chappelle",
+   "name": "Dave Chappelle",
+   "from": "Chappelle's Show",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 35,
+   "pv": 1260530,
+   "img": "img/dave-chappelle.webp",
+   "credit": {
+    "author": "Kolby Ari",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dave_Chappelle_at_Preamiere_of_%22Dave_Chappelle_In_Real_Life%22_(2)_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "mindy-kaling",
+   "name": "Mindy Kaling",
+   "from": "The Mindy Project",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 33,
+   "pv": 1227571,
+   "img": "img/mindy-kaling.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mindy_Kaling_at_WWD_Style_Awards_2026.jpg"
+   }
+  },
+  {
+   "id": "sarah-silverman",
+   "name": "Sarah Silverman",
+   "from": "stand-up",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 30,
+   "pv": 1189327,
+   "img": "img/sarah-silverman.webp",
+   "credit": {
+    "author": "Ali Shaker/VOA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sarah_Silverman_DNC_July_2016.jpg"
+   }
+  },
+  {
+   "id": "bo-burnham",
+   "name": "Bo Burnham",
+   "from": "Inside",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 28,
+   "pv": 1157369,
+   "img": "img/bo-burnham.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bo_Burnham_Montaclair_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "george-carlin",
+   "name": "George Carlin",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 26,
+   "pv": 1114072,
+   "img": "img/george-carlin.webp",
+   "credit": {
+    "author": "Little David Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Carlin_1975_(Little_David_Records)_Publicity_(cropped).jpg"
+   }
+  },
+  {
+   "id": "chris-rock",
+   "name": "Chris Rock",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 24,
+   "pv": 1043117,
+   "img": "img/chris-rock.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Rock.jpg"
+   }
+  },
+  {
+   "id": "tiffany-haddish",
+   "name": "Tiffany Haddish",
+   "from": "Girls Trip",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 22,
+   "pv": 951137,
+   "img": "img/tiffany-haddish.webp",
+   "credit": {
+    "author": "Zach Catanzareti Photo",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tiffany_haddish_(52702635532)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "amy-schumer",
+   "name": "Amy Schumer",
+   "from": "Trainwreck",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 20,
+   "pv": 845491,
+   "img": "img/amy-schumer.webp",
+   "credit": {
+    "author": "Mario Santor",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amy_Schumer_by_Mario_Santor.jpg"
+   }
+  },
+  {
+   "id": "ali-wong",
+   "name": "Ali Wong",
+   "from": "Beef",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 18,
+   "pv": 823176,
+   "img": "img/ali-wong.webp",
+   "credit": {
+    "author": "Nerdtropolis",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ali_Wong_2024.png"
+   }
+  },
+  {
+   "id": "sebastian-maniscalco",
+   "name": "Sebastian Maniscalco",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 16,
+   "pv": 811308,
+   "img": "img/sebastian-maniscalco.webp",
+   "credit": {
+    "author": "PACK EXPO: The World's Premier Packaging and Processing Trade Show",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sebastian_Maniscalco_2018.jpg"
+   }
+  },
+  {
+   "id": "joan-rivers",
+   "name": "Joan Rivers",
+   "from": "stand-up",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 14,
+   "pv": 789927,
+   "img": "img/joan-rivers.webp",
+   "credit": {
+    "author": "Roy Silver",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joan_Rivers_1966_Press_photo.jpg"
+   }
+  },
+  {
+   "id": "bill-burr",
+   "name": "Bill Burr",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 12,
+   "pv": 725109,
+   "img": "img/bill-burr.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Burr_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "wanda-sykes",
+   "name": "Wanda Sykes",
+   "from": "stand-up",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 9,
+   "pv": 596649,
+   "img": "img/wanda-sykes.webp",
+   "credit": {
+    "author": "Greg Hernandez",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wanda_Sykes_2010_GLAAD_Media_Awards.jpg"
+   }
+  },
+  {
+   "id": "jo-koy",
+   "name": "Jo Koy",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 7,
+   "pv": 571442,
+   "img": "img/jo-koy.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jo_Koy_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "gabriel-iglesias",
+   "name": "Gabriel Iglesias",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 5,
+   "pv": 531028,
+   "img": "img/gabriel-iglesias.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gabriel_Iglesias_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "hasan-minhaj",
+   "name": "Hasan Minhaj",
+   "from": "Patriot Act",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 3,
+   "pv": 453495,
+   "img": "img/hasan-minhaj.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hasan_Minhaj_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "jim-gaffigan",
+   "name": "Jim Gaffigan",
+   "from": "stand-up",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "comedians"
+   ],
+   "fame": 1,
+   "pv": 408865,
+   "img": "img/jim-gaffigan.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jim_Gaffigan_June_2023_(cropped).jpg"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1098 @@
+# Mystery Face "stars" groups (film, music, internet). Read by tools/groups/stars.py.
+# Group header:  @ id | Title | cat | kind
+# Person line:   Wikipedia title | from (short context) | optional: g=f/m/x  file=<Commons file>  crop=cx,cy,head  fame=<1-100>
+#   shown name = title without "(...)"; gender comes from Wikidata unless g= is given;
+#   crop = head centre (fractions of width, height) and head width (fraction of width), same as deck-build.py.
+# Content rules (tools/deck-people.txt): adults only (Wikidata birth date checked), no one known mainly for
+# criminal or abuse controversies, reality TV and influencers kept uncontroversial.
+
+@ hollywood-actors | Hollywood Actors | film | actor
+Leonardo DiCaprio | Titanic
+Brad Pitt | Fight Club
+Tom Cruise | Mission: Impossible
+Tom Hanks | Forrest Gump
+Denzel Washington | Training Day
+Dwayne Johnson | Jumanji
+Keanu Reeves | The Matrix
+Robert Downey Jr. | Iron Man
+Chris Hemsworth | Thor
+Chris Evans (actor) | Captain America
+Chris Pratt | Guardians of the Galaxy
+Ryan Reynolds | Deadpool
+Ryan Gosling | La La Land
+Tom Holland | Spider-Man
+Timothée Chalamet | Dune
+Will Smith | Men in Black
+Matt Damon | The Bourne Identity
+George Clooney | Ocean's Eleven
+Christian Bale | The Dark Knight
+Hugh Jackman | X-Men
+Mark Wahlberg | Ted
+Jake Gyllenhaal | Nightcrawler
+Joaquin Phoenix | Joker
+Austin Butler | Elvis
+Glen Powell | Top Gun: Maverick
+Jacob Elordi | Saltburn
+Pedro Pascal | The Mandalorian
+Oscar Isaac | Star Wars
+Idris Elba | Luther
+Michael B. Jordan | Creed
+Daniel Kaluuya | Get Out
+Jonah Hill | Superbad
+Miles Teller | Whiplash
+Paul Mescal | Gladiator II
+Barry Keoghan | Saltburn
+Jeremy Allen White | The Bear
+Andrew Garfield | The Amazing Spider-Man
+Zac Efron | High School Musical
+Channing Tatum | 21 Jump Street
+Ben Affleck | Argo
+Adam Driver | Marriage Story
+Sebastian Stan | The Winter Soldier
+Anthony Mackie | The Falcon
+Dev Patel | Slumdog Millionaire
+Simu Liu | Shang-Chi
+Henry Golding | Crazy Rich Asians
+John Krasinski | A Quiet Place
+Colman Domingo | Sing Sing
+Brendan Fraser | The Mummy
+
+@ hollywood-actresses | Hollywood Actresses | film | actor
+Margot Robbie | Barbie
+Scarlett Johansson | Black Widow
+Jennifer Lawrence | The Hunger Games
+Emma Stone | La La Land
+Zendaya | Euphoria
+Anne Hathaway | The Devil Wears Prada
+Natalie Portman | Black Swan
+Sandra Bullock | Gravity
+Julia Roberts | Pretty Woman
+Angelina Jolie | Maleficent
+Nicole Kidman | Moulin Rouge!
+Charlize Theron | Mad Max: Fury Road
+Meryl Streep | The Devil Wears Prada
+Viola Davis | Fences
+Florence Pugh | Little Women
+Sydney Sweeney | Euphoria
+Anya Taylor-Joy | The Queen's Gambit
+Jenna Ortega | Wednesday
+Emma Watson | Harry Potter
+Gal Gadot | Wonder Woman
+Kristen Stewart | Twilight
+Saoirse Ronan | Lady Bird
+Keira Knightley | Pirates of the Caribbean
+Reese Witherspoon | Legally Blonde
+Jennifer Aniston | Friends
+Cate Blanchett | Tár
+Amy Adams | Arrival
+Jessica Chastain | Zero Dark Thirty
+Lupita Nyong'o | 12 Years a Slave
+Michelle Yeoh | Everything Everywhere
+Halle Berry | Monster's Ball
+Octavia Spencer | Hidden Figures
+Rachel McAdams | The Notebook
+Emily Blunt | A Quiet Place
+Hailee Steinfeld | True Grit
+Elle Fanning | The Great
+Dakota Johnson | Fifty Shades
+Ana de Armas | Knives Out
+Rebecca Ferguson | Dune
+Zoe Saldaña | Avatar
+Awkwafina | The Farewell
+Lily Gladstone | Killers of the Flower Moon
+Jodie Comer | Killing Eve
+Mia Goth | Pearl
+Cynthia Erivo | Wicked
+Rachel Zegler | West Side Story
+Glenn Close | Fatal Attraction
+Demi Moore | The Substance
+
+@ classic-hollywood | Classic Hollywood | film | actor
+Marilyn Monroe | Some Like It Hot
+Audrey Hepburn | Breakfast at Tiffany's
+Humphrey Bogart | Casablanca
+Charlie Chaplin | The Kid
+James Dean | Rebel Without a Cause
+Elizabeth Taylor | Cleopatra
+Grace Kelly | Rear Window
+Marlon Brando | The Godfather
+Clark Gable | Gone with the Wind
+Cary Grant | North by Northwest
+John Wayne | True Grit
+Judy Garland | The Wizard of Oz
+Paul Newman | Butch Cassidy
+Ingrid Bergman | Casablanca
+Bette Davis | All About Eve
+Katharine Hepburn | The Philadelphia Story
+James Stewart | It's a Wonderful Life
+Fred Astaire | Top Hat
+Gene Kelly | Singin' in the Rain
+Rita Hayworth | Gilda
+Vivien Leigh | Gone with the Wind
+Marlene Dietrich | Shanghai Express
+Greta Garbo | Ninotchka
+Shirley Temple | Curly Top
+Sophia Loren | Two Women
+Gregory Peck | To Kill a Mockingbird
+Lauren Bacall | To Have and Have Not
+Henry Fonda | 12 Angry Men
+Steve McQueen | The Great Escape
+Sidney Poitier | In the Heat of the Night
+Kirk Douglas | Spartacus
+Natalie Wood | West Side Story
+Ava Gardner | The Killers
+Buster Keaton | The General
+Joan Crawford | Mildred Pierce
+Gene Tierney | Laura
+Peter O'Toole | Lawrence of Arabia
+Rock Hudson | Giant
+Doris Day | Pillow Talk
+Debbie Reynolds | Singin' in the Rain
+Lana Turner | The Postman Always Rings Twice
+Jean Harlow | Red Dust
+Spencer Tracy | Inherit the Wind
+Kim Novak | Vertigo
+Burt Lancaster | From Here to Eternity
+Dorothy Dandridge | Carmen Jones
+Hattie McDaniel | Gone with the Wind
+
+@ comedians | Comedians | film | actor
+Kevin Hart | stand-up
+Adam Sandler | Happy Gilmore
+Jim Carrey | Ace Ventura
+Will Ferrell | Elf
+Steve Carell | The Office
+Jerry Seinfeld | Seinfeld
+Dave Chappelle | Chappelle's Show
+Chris Rock | stand-up
+Eddie Murphy | Beverly Hills Cop
+Robin Williams | Mrs. Doubtfire
+Amy Schumer | Trainwreck
+Tina Fey | 30 Rock
+Amy Poehler | Parks and Recreation
+Melissa McCarthy | Bridesmaids
+Kristen Wiig | Bridesmaids
+Seth Rogen | Superbad
+John Mulaney | stand-up
+Trevor Noah | The Daily Show
+Ali Wong | Beef
+Jim Gaffigan | stand-up
+Bill Burr | stand-up
+Sebastian Maniscalco | stand-up
+Nate Bargatze | stand-up
+Ricky Gervais | The Office (UK)
+Sarah Silverman | stand-up
+Wanda Sykes | stand-up
+Mike Myers | Austin Powers
+Ben Stiller | Zoolander
+Steve Martin | The Jerk
+Martin Short | Only Murders in the Building
+Bill Murray | Ghostbusters
+Chevy Chase | Caddyshack
+Joan Rivers | stand-up
+Lucille Ball | I Love Lucy
+George Carlin | stand-up
+Richard Pryor | stand-up
+Maya Rudolph | Saturday Night Live
+Pete Davidson | Saturday Night Live
+Keegan-Michael Key | Key & Peele
+Jordan Peele | Key & Peele
+Tiffany Haddish | Girls Trip
+Hasan Minhaj | Patriot Act
+Mindy Kaling | The Mindy Project
+Bo Burnham | Inside
+Rowan Atkinson | Mr. Bean
+Jo Koy | stand-up
+Gabriel Iglesias | stand-up
+Taika Waititi | What We Do in the Shadows
+
+@ film-directors | Film Directors | film | actor
+Steven Spielberg | Jaws
+Christopher Nolan | Oppenheimer
+Quentin Tarantino | Pulp Fiction
+Martin Scorsese | Goodfellas
+James Cameron | Titanic
+George Lucas | Star Wars
+Alfred Hitchcock | Psycho
+Stanley Kubrick | The Shining
+Ridley Scott | Gladiator
+Tim Burton | Edward Scissorhands
+Greta Gerwig | Barbie
+Denis Villeneuve | Dune
+Wes Anderson | The Grand Budapest Hotel
+Peter Jackson | The Lord of the Rings
+Francis Ford Coppola | The Godfather
+Jordan Peele | Get Out
+Guillermo del Toro | The Shape of Water
+David Fincher | Fight Club
+Ron Howard | Apollo 13
+Spike Lee | Do the Right Thing
+Clint Eastwood | Unforgiven
+Sofia Coppola | Lost in Translation
+Kathryn Bigelow | The Hurt Locker
+Ava DuVernay | Selma
+Bong Joon-ho | Parasite
+Hayao Miyazaki | Spirited Away
+Akira Kurosawa | Seven Samurai | crop=0.65,0.42,0.42
+Taika Waititi | Jojo Rabbit
+Jon Favreau | Iron Man
+J. J. Abrams | Star Trek
+Zack Snyder | 300
+James Gunn | Guardians of the Galaxy
+Sam Raimi | Spider-Man
+Michael Bay | Transformers
+Robert Zemeckis | Back to the Future
+Guy Ritchie | Snatch
+Patty Jenkins | Wonder Woman
+Chloé Zhao | Nomadland
+Damien Chazelle | La La Land
+Ryan Coogler | Black Panther
+Barry Jenkins | Moonlight
+Paul Thomas Anderson | There Will Be Blood
+Darren Aronofsky | Black Swan
+Alejandro González Iñárritu | The Revenant
+Alfonso Cuarón | Gravity
+Ang Lee | Life of Pi
+Sergio Leone | The Good, the Bad and the Ugly
+Billy Wilder | Some Like It Hot
+
+@ tv-hosts | TV Hosts & Talk Shows | film | tv
+Oprah Winfrey | The Oprah Winfrey Show
+Jimmy Fallon | The Tonight Show
+Jimmy Kimmel | Jimmy Kimmel Live!
+Stephen Colbert | The Late Show
+Conan O'Brien | Conan
+David Letterman | Late Show
+Jay Leno | The Tonight Show
+Johnny Carson | The Tonight Show
+James Corden | The Late Late Show
+Seth Meyers | Late Night
+Trevor Noah | The Daily Show
+Jon Stewart | The Daily Show
+John Oliver | Last Week Tonight
+Kelly Clarkson | The Kelly Clarkson Show
+Drew Barrymore | The Drew Barrymore Show
+Steve Harvey | Family Feud
+Alex Trebek | Jeopardy!
+Ken Jennings | Jeopardy!
+Pat Sajak | Wheel of Fortune
+Vanna White | Wheel of Fortune
+Bob Barker | The Price Is Right
+Drew Carey | The Price Is Right
+Ryan Seacrest | American Idol
+Simon Cowell | American Idol
+Jeff Probst | Survivor
+Tyra Banks | America's Next Top Model
+Whoopi Goldberg | The View
+Kelly Ripa | Live with Kelly
+Michael Strahan | Good Morning America
+Hoda Kotb | Today
+Al Roker | Today
+Regis Philbin | Who Wants to Be a Millionaire
+Graham Norton | The Graham Norton Show
+Jerry Springer | The Jerry Springer Show
+Arsenio Hall | The Arsenio Hall Show
+Carson Daly | The Voice
+Nick Cannon | Wild 'n Out
+Taylor Tomlinson | After Midnight
+Sherri Shepherd | Sherri
+Tom Bergeron | Dancing with the Stars
+Howie Mandel | Deal or No Deal
+Phil McGraw | Dr. Phil
+Mehmet Oz | The Dr. Oz Show | DROP
+Rachael Ray | Rachael Ray
+Barbara Walters | 20/20
+Ellen Pompeo | Grey's Anatomy | DROP
+
+@ reality-tv | Reality TV Stars | film | tv
+Kim Kardashian | Keeping Up with the Kardashians
+Khloé Kardashian | Keeping Up with the Kardashians
+Kourtney Kardashian | Keeping Up with the Kardashians
+Kris Jenner | Keeping Up with the Kardashians
+Kylie Jenner | Keeping Up with the Kardashians
+Kendall Jenner | Keeping Up with the Kardashians
+Paris Hilton | The Simple Life
+Nicole Richie | The Simple Life
+Snooki | Jersey Shore
+Jenni Farley | Jersey Shore
+Lauren Conrad | The Hills
+Heidi Montag | The Hills
+Kelly Osbourne | The Osbournes
+Lisa Vanderpump | Vanderpump Rules
+Bethenny Frankel | Real Housewives of New York
+Andy Cohen | Watch What Happens Live
+Lisa Rinna | Real Housewives
+NeNe Leakes | Real Housewives of Atlanta
+Kandi Burruss | Real Housewives of Atlanta
+RuPaul | RuPaul's Drag Race
+Bear Grylls | Man vs. Wild
+Joanna Gaines | Fixer Upper
+Chip Gaines | Fixer Upper
+Drew Scott | Property Brothers
+Jonathan Scott (television personality) | Property Brothers
+Tan France | Queer Eye
+Jonathan Van Ness | Queer Eye
+Antoni Porowski | Queer Eye
+Karamo Brown | Queer Eye
+Bobby Berk | Queer Eye
+Trista Sutter | The Bachelorette
+JoJo Fletcher | The Bachelorette
+Jesse Palmer | The Bachelor
+Kelly Clarkson | American Idol
+Carrie Underwood | American Idol
+Jennifer Hudson | American Idol
+Fantasia Barrino | American Idol
+Richard Hatch (Survivor) | Survivor
+Boston Rob | Survivor
+Parvati Shallow | Survivor
+Bindi Irwin | Crikey! It's the Irwins
+Robert Irwin | Crikey! It's the Irwins
+Mama June | Here Comes Honey Boo Boo | DROP
+Julie Chrisley | Chrisley Knows Best | DROP
+Erika Jayne | Real Housewives of Beverly Hills
+Kyle Richards | Real Housewives of Beverly Hills
+Brandi Glanville | Real Housewives of Beverly Hills | DROP
+Ariana Madix | Vanderpump Rules
+Jax Taylor | Vanderpump Rules | DROP
+
+@ sitcom-actors | Sitcom Actors | film | actor
+Jennifer Aniston | Friends
+Courteney Cox | Friends
+Lisa Kudrow | Friends
+Matt LeBlanc | Friends
+Matthew Perry | Friends
+David Schwimmer | Friends
+Steve Carell | The Office
+Rainn Wilson | The Office
+John Krasinski | The Office
+Jenna Fischer | The Office
+Mindy Kaling | The Office
+Ed Helms | The Office
+Jim Parsons | The Big Bang Theory
+Johnny Galecki | The Big Bang Theory
+Kaley Cuoco | The Big Bang Theory
+Mayim Bialik | The Big Bang Theory
+Kunal Nayyar | The Big Bang Theory
+Jerry Seinfeld | Seinfeld
+Julia Louis-Dreyfus | Seinfeld
+Jason Alexander | Seinfeld
+Ted Danson | Cheers
+Kelsey Grammer | Frasier
+Neil Patrick Harris | How I Met Your Mother
+Alyson Hannigan | How I Met Your Mother
+Jason Segel | How I Met Your Mother
+Cobie Smulders | How I Met Your Mother
+Josh Radnor | How I Met Your Mother
+Sofía Vergara | Modern Family
+Ty Burrell | Modern Family
+Julie Bowen | Modern Family
+Jesse Tyler Ferguson | Modern Family
+Eric Stonestreet | Modern Family
+Ed O'Neill | Modern Family
+Amy Poehler | Parks and Recreation
+Nick Offerman | Parks and Recreation
+Aubrey Plaza | Parks and Recreation
+Aziz Ansari | Parks and Recreation
+Rashida Jones | Parks and Recreation
+Andy Samberg | Brooklyn Nine-Nine
+Andre Braugher | Brooklyn Nine-Nine
+Terry Crews | Brooklyn Nine-Nine
+Stephanie Beatriz | Brooklyn Nine-Nine
+Melissa Fumero | Brooklyn Nine-Nine
+Charlie Day | It's Always Sunny in Philadelphia
+Kristen Bell | The Good Place
+Tim Allen | Home Improvement
+Bob Saget | Full House
+John Stamos | Full House
+Ray Romano | Everybody Loves Raymond
+Quinta Brunson | Abbott Elementary
+
+@ pop-stars | Pop Stars | music | music
+Taylor Swift | singer-songwriter
+Beyoncé | Renaissance
+Rihanna | Umbrella
+Lady Gaga | Bad Romance
+Ariana Grande | Thank U, Next
+Billie Eilish | Bad Guy
+Olivia Rodrigo | Drivers License
+Dua Lipa | Levitating
+Ed Sheeran | Shape of You
+Harry Styles | As It Was
+Bruno Mars | Uptown Funk
+Justin Bieber | Baby
+The Weeknd | Blinding Lights
+Katy Perry | Firework
+Miley Cyrus | Flowers
+Selena Gomez | Come & Get It
+Shawn Mendes | Stitches
+Camila Cabello | Havana
+Sabrina Carpenter | Espresso
+Chappell Roan | Good Luck, Babe!
+Doja Cat | Say So
+Lizzo | Truth Hurts
+Charli XCX | Brat
+Halsey (singer) | Without Me
+Sia | Chandelier
+Adele | Hello
+Sam Smith | Stay with Me
+Lorde | Royals
+Tate McRae | Greedy
+Gracie Abrams | That's So True
+Benson Boone | Beautiful Things
+Teddy Swims | Lose Control
+Conan Gray | Heather
+Troye Sivan | Rush
+Meghan Trainor | All About That Bass
+Ava Max | Sweet but Psycho
+Bebe Rexha | Meant to Be
+Carly Rae Jepsen | Call Me Maybe
+Kesha | Tik Tok
+Jason Derulo | Talk Dirty
+Charlie Puth | Attention
+Niall Horan | One Direction
+Zayn Malik | One Direction
+Louis Tomlinson | One Direction
+Nick Jonas | Jonas Brothers
+Joe Jonas | Jonas Brothers
+Demi Lovato | Sorry Not Sorry
+Lady A | DROP
+Christina Aguilera | Genie in a Bottle
+Britney Spears | ...Baby One More Time
+
+@ rappers | Rappers & Hip-Hop | music | music
+Drake (musician) | Hotline Bling
+Kendrick Lamar | Humble
+Eminem | Lose Yourself
+Jay-Z | Empire State of Mind
+Snoop Dogg | Gin and Juice
+Nicki Minaj | Super Bass
+Cardi B | Bodak Yellow
+Travis Scott | Sicko Mode | file=Travis Scott - Openair Frauenfeld 2019 08.jpg
+Post Malone | Circles | file=Post Malone 2018.jpg
+Lil Wayne | Lollipop
+Megan Thee Stallion | Savage
+J. Cole | No Role Modelz
+50 Cent | In da Club
+Tupac Shakur | California Love
+The Notorious B.I.G. | Juicy
+Ice Cube | N.W.A
+Dr. Dre | N.W.A | file=Dr. Dre 2013.jpg
+Missy Elliott | Get Ur Freak On
+Queen Latifah | Ladies First
+LL Cool J | Mama Said Knock You Out
+Lil Nas X | Old Town Road
+Doja Cat | Say So
+Tyler, the Creator | Igor
+Childish Gambino | This Is America
+Chance the Rapper | Coloring Book
+Pharrell Williams | Happy
+Ludacris | Fast & Furious
+Lizzo | Truth Hurts
+Future (rapper) | Mask Off
+21 Savage | Bank Account
+Lil Uzi Vert | XO Tour Llif3
+Jack Harlow | First Class
+Latto | Big Energy
+Ice Spice | Munch
+GloRilla | F.N.F.
+Doechii | Denial Is a River
+Common (rapper) | Glory
+Busta Rhymes | Look at Me Now
+Nas | Illmatic
+Lil Kim | Lady Marmalade
+Flavor Flav | Public Enemy
+Will Smith | The Fresh Prince
+Mac Miller | Self Care
+Juice Wrld | Lucid Dreams
+Logic (rapper) | 1-800-273-8255
+A$AP Rocky | Praise the Lord
+Wiz Khalifa | See You Again
+Macklemore | Thrift Shop
+Lil Baby | Drip Too Hard
+
+@ rock-legends | Rock Legends | music | music
+Freddie Mercury | Queen
+Paul McCartney | The Beatles
+John Lennon | The Beatles
+Mick Jagger | The Rolling Stones
+Elvis Presley | Hound Dog
+Kurt Cobain | Nirvana | crop=0.60,0.20,0.22
+Jimi Hendrix | Purple Haze
+David Bowie | Space Oddity
+Bruce Springsteen | Born to Run
+Ozzy Osbourne | Black Sabbath
+Jon Bon Jovi | Bon Jovi
+Ringo Starr | The Beatles
+George Harrison | The Beatles
+Keith Richards | The Rolling Stones
+Brian May | Queen
+Robert Plant | Led Zeppelin
+Eric Clapton | Cream
+Bob Dylan | Like a Rolling Stone
+Tom Petty | Free Fallin'
+Dave Grohl | Foo Fighters
+Eddie Vedder | Pearl Jam
+Chris Cornell | Soundgarden
+Bono | U2
+Jim Morrison | The Doors
+Janis Joplin | Piece of My Heart
+Stevie Nicks | Fleetwood Mac
+Joan Jett | I Love Rock 'n' Roll
+Chuck Berry | Johnny B. Goode
+Little Richard | Tutti Frutti
+Buddy Holly | Peggy Sue
+Roger Daltrey | The Who
+Pete Townshend | The Who
+Angus Young | AC/DC
+Eddie Van Halen | Van Halen
+Slash (musician) | Guns N' Roses
+Billy Joel | Piano Man
+Elton John | Rocket Man
+Sting (musician) | The Police
+Debbie Harry | Blondie
+Pat Benatar | Hit Me with Your Best Shot
+Billie Joe Armstrong | Green Day
+Anthony Kiedis | Red Hot Chili Peppers
+Chester Bennington | Linkin Park
+James Hetfield | Metallica
+Tina Turner | What's Love Got to Do with It
+Dan Reynolds | Imagine Dragons
+Chris Martin | Coldplay | file=ChrisMartinManch030623 (cropped).jpg | crop=0.42,0.17,0.27
+Alex Turner | Arctic Monkeys
+Jack White | The White Stripes
+
+@ country-music | Country Music | music | music
+Dolly Parton | Jolene
+Johnny Cash | Ring of Fire
+Willie Nelson | On the Road Again
+Garth Brooks | Friends in Low Places
+Shania Twain | Man! I Feel Like a Woman!
+Luke Combs | Fast Car
+Carrie Underwood | Before He Cheats
+Blake Shelton | The Voice
+Reba McEntire | Fancy
+Kenny Rogers | The Gambler
+Tim McGraw | Live Like You Were Dying
+Faith Hill | This Kiss
+Keith Urban | Somebody Like You
+Kacey Musgraves | Golden Hour
+Miranda Lambert | The House That Built Me
+Chris Stapleton | Tennessee Whiskey
+Zach Bryan | Something in the Orange
+Luke Bryan | Country Girl
+Kenny Chesney | No Shoes, No Shirt
+George Strait | Amarillo by Morning
+Alan Jackson | Chattahoochee
+Patsy Cline | Crazy
+Loretta Lynn | Coal Miner's Daughter
+Hank Williams | Your Cheatin' Heart
+Waylon Jennings | Luckenbach, Texas
+Brad Paisley | Whiskey Lullaby
+Jason Aldean | Dirt Road Anthem
+Thomas Rhett | Die a Happy Man
+Kane Brown | Heaven
+Lainey Wilson | Watermelon Moonshine
+Jelly Roll (rapper) | Son of a Sinner
+Post Malone | F-1 Trillion | DROP
+Cody Johnson | 'Til You Can't
+Darius Rucker | Wagon Wheel
+Maren Morris | The Middle
+Gabby Barrett | I Hope
+Carly Pearce | Every Little Thing
+Brooks & Dunn | DROP
+Toby Keith | Should've Been a Cowboy
+Trisha Yearwood | She's in Love with the Boy
+Martina McBride | Independence Day
+Wynonna Judd | The Judds
+Clint Black | Killin' Time
+Randy Travis | Forever and Ever, Amen
+Glen Campbell | Rhinestone Cowboy
+Charley Pride | Kiss an Angel Good Mornin'
+Eric Church | Springsteen
+Jimmie Allen | DROP
+Old Dominion (band) | DROP
+Riley Green | Different 'Round Here
+
+@ rnb-soul | R&B & Soul | music | music
+Stevie Wonder | Superstition
+Aretha Franklin | Respect
+Whitney Houston | I Will Always Love You
+Marvin Gaye | What's Going On
+Ray Charles | Georgia on My Mind
+James Brown | I Got You (I Feel Good)
+Otis Redding | Dock of the Bay
+Sam Cooke | A Change Is Gonna Come
+Diana Ross | The Supremes
+Smokey Robinson | The Miracles
+Lionel Richie | All Night Long
+Luther Vandross | Never Too Much
+Mariah Carey | All I Want for Christmas
+Janet Jackson | Rhythm Nation
+Mary J. Blige | Family Affair
+Alicia Keys | Fallin'
+Usher (musician) | Yeah!
+Beyoncé | Crazy in Love
+SZA | Kill Bill
+Frank Ocean | Thinkin Bout You
+H.E.R. | Focus
+Summer Walker | Girls Need Love
+Jhené Aiko | Sativa
+Daniel Caesar | Best Part
+Giveon | Heartbreak Anniversary
+Brent Faiyaz | Dead Man Walking
+Victoria Monét | On My Mama
+Tems | Free Mind
+Erykah Badu | On & On
+Lauryn Hill | Doo Wop (That Thing)
+Anita Baker | Sweet Love
+Chaka Khan | I'm Every Woman
+Gladys Knight | Midnight Train to Georgia
+Patti LaBelle | Lady Marmalade
+Al Green | Let's Stay Together
+Bill Withers | Lean on Me
+Etta James | At Last
+Nina Simone | Feeling Good
+Tina Turner | Proud Mary
+John Legend | All of Me
+Brandy (entertainer) | The Boy Is Mine
+Monica (singer) | The Boy Is Mine
+Ne-Yo | So Sick
+Toni Braxton | Un-Break My Heart
+Babyface (musician) | producer
+Leon Bridges | Coming Home
+Anderson .Paak | Silk Sonic
+Ari Lennox | Shea Butter Baby
+Kehlani | Nights Like This
+Muni Long | Hrs and Hrs
+
+@ 80s-90s-icons | 80s & 90s Icons | music | music
+Madonna | Like a Virgin
+Michael Jackson | Thriller
+Prince (musician) | Purple Rain
+Whitney Houston | I Wanna Dance with Somebody
+Cyndi Lauper | Girls Just Want to Have Fun
+George Michael | Careless Whisper
+Cher | Believe | file=Cher in 2019 cropped.jpg | crop=0.42,0.33,0.32
+Britney Spears | ...Baby One More Time
+Christina Aguilera | Genie in a Bottle
+Mariah Carey | Vision of Love
+Celine Dion | My Heart Will Go On
+Janet Jackson | Rhythm Nation
+Bon Jovi | DROP
+Jon Bon Jovi | Livin' on a Prayer
+Bruce Springsteen | Born in the U.S.A.
+Phil Collins | In the Air Tonight
+Lionel Richie | Hello
+Billy Idol | White Wedding
+Boy George | Culture Club
+Annie Lennox | Eurythmics
+Rick Astley | Never Gonna Give You Up
+Tina Turner | The Best
+Paula Abdul | Straight Up
+Gloria Estefan | Conga
+Belinda Carlisle | Heaven Is a Place on Earth
+Debbie Gibson | Only in My Dreams
+Tiffany Darwish | I Think We're Alone Now
+Huey Lewis | The Power of Love
+Kenny Loggins | Footloose
+Bryan Adams | Summer of '69
+Sinéad O'Connor | Nothing Compares 2 U
+Alanis Morissette | Jagged Little Pill
+Gwen Stefani | No Doubt
+Shania Twain | You're Still the One
+Kurt Cobain | Nirvana | crop=0.60,0.20,0.22
+Justin Timberlake | NSYNC
+Nick Carter (musician) | Backstreet Boys | DROP
+Brian Littrell | Backstreet Boys
+Jessica Simpson | Irresistible
+Mandy Moore | Candy
+Jennifer Lopez | If You Had My Love
+Ricky Martin | Livin' la Vida Loca
+Will Smith | Gettin' Jiggy wit It
+MC Hammer | U Can't Touch This
+Vanilla Ice | Ice Ice Baby
+Sheryl Crow | All I Wanna Do
+Toni Braxton | Un-Break My Heart
+Seal (musician) | Kiss from a Rose
+Sting (musician) | Every Breath You Take
+Eddie Vedder | Pearl Jam
+Gwen Stefani | DROP
+
+@ latin-music | Latin Music | music | music
+Shakira | Hips Don't Lie
+Bad Bunny | Tití Me Preguntó
+Jennifer Lopez | On the Floor
+Ricky Martin | Livin' la Vida Loca
+Enrique Iglesias | Bailando
+Marc Anthony | Vivir Mi Vida
+Daddy Yankee | Gasolina
+J Balvin | Mi Gente
+Karol G | Tusa
+Maluma | Hawái
+Ozuna | Taki Taki
+Pitbull (rapper) | Timber
+Selena (singer) | Bidi Bidi Bom Bom | DROP
+Selena Quintanilla | Bidi Bidi Bom Bom
+Gloria Estefan | Conga
+Carlos Santana | Smooth
+Celia Cruz | La Vida Es un Carnaval
+Rosalía | Despechá
+Becky G | Mayores
+Luis Fonsi | Despacito
+Camila Cabello | Havana
+Romeo Santos | Propuesta Indecente
+Peso Pluma | Ella Baila Sola
+Rauw Alejandro | Todo de Ti
+Anitta (singer) | Envolver
+Feid | Classy 101
+Nicky Jam | El Perdón
+Juanes | La Camisa Negra
+Alejandro Sanz | Corazón Partío
+Thalía | Amor a la Mexicana
+Paulina Rubio | Mío
+Luis Miguel | La Bikina
+Juan Gabriel | Querida
+Carlos Vives | La Bicicleta
+Christian Nodal | Adiós Amor
+Ángela Aguilar | Mexicana Enamorada
+Sebastián Yatra | Tacones Rojos
+Natalia Lafourcade | Hasta la Raíz
+Kali Uchis | Telepatía
+Prince Royce | Stand by Me
+Myke Towers | Lala
+Wisin | Wisin & Yandel
+Yandel | Wisin & Yandel
+Don Omar | Danza Kuduro
+Farruko | Pepas
+Natti Natasha | Criminal
+Ricardo Arjona | Historia de Taxi
+Julio Iglesias | Me Olvidé de Vivir
+Gente de Zona | DROP
+Elvis Crespo | Suavemente
+
+@ kpop-jpop | K-pop & J-pop | music | music
+RM (musician) | BTS
+Jin (singer) | BTS
+Suga (rapper) | BTS
+J-Hope | BTS
+Jimin | BTS
+V (singer) | BTS
+Jungkook | BTS
+Jennie (singer) | Blackpink
+Jisoo | Blackpink
+Rosé (singer) | Blackpink
+Lisa (rapper) | Blackpink
+Psy | Gangnam Style
+G-Dragon | BigBang
+Taeyang | BigBang
+IU (singer) | Good Day
+Taeyeon | Girls' Generation
+BoA | No.1
+Rain (entertainer) | It's Raining
+Jackson Wang | Got7
+Bang Chan | Stray Kids
+Felix (rapper) | Stray Kids
+Hyunjin (rapper) | Stray Kids
+Mark Lee (singer) | NCT
+Taeyong | NCT 127
+Nayeon | Twice
+Jihyo | Twice
+Tzuyu | Twice
+Sana (singer) | Twice
+Karina (rapper) | Aespa
+Winter (singer) | Aespa
+Jang Won-young | Ive
+Kai (entertainer, born 1994) | EXO
+Baekhyun | EXO
+Chanyeol | EXO
+Cha Eun-woo | Astro
+Hwasa | Mamamoo
+Chungha | Gotta Go
+Jessi (musician) | Nunu Nana
+Sunmi | Gashina
+Hyuna | Bubble Pop!
+Somi (singer) | DROP
+Hikaru Utada | First Love
+Ayumi Hamasaki | J-pop
+Kyary Pamyu Pamyu | PonPonPon
+Namie Amuro | J-pop
+Gackt | J-pop
+Kenshi Yonezu | Lemon
+Ado (singer) | Usseewa
+Joji (musician) | Glimpse of Us
+Yoshiki (musician) | X Japan
+Hyde (musician) | L'Arc-en-Ciel
+Fujii Kaze | Shinunoga E-Wa
+
+@ djs-producers | DJs & Producers | music | music
+Calvin Harris | Summer
+David Guetta | Titanium
+Marshmello | Happier | file=
+Skrillex | Bangarang
+Avicii | Wake Me Up
+Martin Garrix | Animals
+Diplo | Major Lazer
+Kygo | Firestone
+Zedd | Clarity
+Tiësto | The Business
+Armin van Buuren | A State of Trance
+Deadmau5 | Ghosts 'n' Stuff
+Steve Aoki | Cake Face
+Alan Walker (music producer) | Faded
+Swedish House Mafia | DROP
+Axwell | Swedish House Mafia
+Steve Angello | Swedish House Mafia
+Hardwell | Spaceman
+Afrojack | Take Over Control
+Alesso | Heroes
+Kaskade | Atmosphere
+Dillon Francis | Get Low
+Fatboy Slim | Praise You
+Moby | Porcelain
+Paul Oakenfold | Ready Steady Go
+Carl Cox | techno
+Fred Again | Delilah
+Peggy Gou | (It Goes Like) Nanana
+Disclosure (band) | DROP
+Flume (musician) | Never Be Like You
+Illenium | Good Things Fall Apart
+Porter Robinson | Language
+Kaytranada | 99.9%
+Mark Ronson | Uptown Funk
+Timbaland | producer
+Pharrell Williams | The Neptunes
+Max Martin | songwriter-producer
+Rick Rubin | Def Jam
+Quincy Jones | Thriller
+Metro Boomin | Heroes & Villains
+Mustard (record producer) | Not Like Us
+Mike Will Made It | producer
+DJ Khaled | All I Do Is Win
+Jack Antonoff | Bleachers
+Finneas O'Connell | producer
+Benny Blanco | producer
+Kenny Beats | producer
+Nile Rodgers | Chic
+Giorgio Moroder | I Feel Love
+Charlotte de Witte | techno
+
+@ youtubers | YouTubers & Streamers | internet | internet
+MrBeast | YouTube
+PewDiePie | YouTube
+Markiplier | YouTube
+Marques Brownlee | MKBHD
+Mark Rober | YouTube
+Casey Neistat | YouTube
+Emma Chamberlain | YouTube
+Lilly Singh | YouTube
+Hank Green | Vlogbrothers
+John Green | Vlogbrothers
+Ninja (gamer) | Twitch
+Pokimane | Twitch | file=Pokimane 2019.jpg
+Kai Cenat | Twitch
+IShowSpeed | YouTube
+xQc | Twitch
+Ludwig Ahgren | YouTube
+Valkyrae | YouTube
+Jacksepticeye | YouTube
+Smosh | DROP
+Ian Hecox | Smosh
+Anthony Padilla | Smosh
+Rhett & Link | DROP
+Rhett McLaughlin | Good Mythical Morning
+Link Neal | Good Mythical Morning
+Dude Perfect | DROP
+Michelle Phan | YouTube
+Zoella | YouTube
+Tyler Oakley | YouTube
+Shane Dawson | DROP
+Jenna Marbles | YouTube
+Philip DeFranco | YouTube
+Daniel Howell | YouTube
+Phil Lester | YouTube
+Ryan Higa | YouTube
+Liza Koshy | YouTube
+Hasan Piker | Twitch | DROP
+Shroud (gamer) | Twitch
+DrLupo | Twitch
+TimTheTatman | Twitch
+Sssniperwolf | DROP
+Linus Sebastian | Linus Tech Tips
+Unbox Therapy | DROP
+Lewis Hilsenteger | Unbox Therapy
+Rosanna Pansino | Nerdy Nummies
+Tom Scott (YouTuber) | YouTube
+Derek Muller | Veritasium | file=Derek Muller 2016.jpg
+Michael Stevens (YouTuber) | Vsauce
+Destin Sandlin | Smarter Every Day
+CGP Grey | DROP
+Safiya Nygaard | YouTube
+Miranda Sings | DROP
+Colleen Ballinger | DROP
+Joshua Weissman | YouTube
+KSI | Sidemen
+Simon Minter | Sidemen
+Ethan Klein | h3h3Productions | DROP
+Ms Rachel | Songs for Littles
+
+@ tech-leaders | Tech & Business Leaders | internet | internet
+Elon Musk | Tesla
+Jeff Bezos | Amazon
+Mark Zuckerberg | Meta
+Bill Gates | Microsoft
+Steve Jobs | Apple
+Tim Cook | Apple
+Satya Nadella | Microsoft
+Sundar Pichai | Google
+Larry Page | Google
+Sergey Brin | Google
+Jensen Huang | Nvidia
+Sam Altman | OpenAI
+Warren Buffett | Berkshire Hathaway
+Oprah Winfrey | Harpo Productions | DROP
+Steve Wozniak | Apple
+Paul Allen | Microsoft
+Larry Ellison | Oracle
+Michael Dell | Dell
+Jack Dorsey | Twitter
+Reed Hastings | Netflix
+Susan Wojcicki | YouTube
+Sheryl Sandberg | Meta
+Marissa Mayer | Yahoo
+Lisa Su | AMD
+Mary Barra | General Motors
+Indra Nooyi | PepsiCo
+Richard Branson | Virgin Group
+Mark Cuban | Shark Tank
+Jack Ma | Alibaba
+Masayoshi Son | SoftBank
+Jamie Dimon | JPMorgan Chase
+Howard Schultz | Starbucks
+Phil Knight | Nike
+Walt Disney | Disney
+Henry Ford | Ford
+Ratan Tata | Tata Group
+Brian Chesky | Airbnb
+Travis Kalanick | Uber | DROP
+Daniel Ek | Spotify
+Evan Spiegel | Snapchat
+Whitney Wolfe Herd | Bumble
+Sara Blakely | Spanx
+Melinda French Gates | Gates Foundation
+MacKenzie Scott | philanthropist
+Steve Ballmer | Microsoft
+Andy Jassy | Amazon
+Arvind Krishna | IBM
+Demis Hassabis | Google DeepMind
+Dario Amodei | Anthropic
+Tony Hsieh | Zappos | DROP
+Bob Iger | Disney
+Ginni Rometty | IBM
+
+@ celebrity-chefs | Chefs | internet | tv
+Gordon Ramsay | Hell's Kitchen
+Guy Fieri | Diners, Drive-Ins and Dives
+Julia Child | The French Chef
+Anthony Bourdain | Parts Unknown
+Jamie Oliver | The Naked Chef
+Rachael Ray | 30 Minute Meals
+Ina Garten | Barefoot Contessa
+Bobby Flay | Beat Bobby Flay
+Emeril Lagasse | Emeril Live
+Martha Stewart | Martha Stewart Living
+Nigella Lawson | Nigella Bites
+Wolfgang Puck | Spago
+Alton Brown | Good Eats
+Giada De Laurentiis | Everyday Italian
+Ree Drummond | The Pioneer Woman
+Padma Lakshmi | Top Chef
+Tom Colicchio | Top Chef
+José Andrés | World Central Kitchen
+Marcus Samuelsson | Red Rooster
+Massimo Bottura | Osteria Francescana
+Thomas Keller | The French Laundry
+Alain Ducasse | Le Louis XV
+Joël Robuchon | L'Atelier
+Paul Bocuse | Bocuse d'Or
+Heston Blumenthal | The Fat Duck
+Nobu Matsuhisa | Nobu
+David Chang | Momofuku
+Andrew Zimmern | Bizarre Foods
+Marco Pierre White | Harveys
+Mary Berry | The Great British Bake Off
+Paul Hollywood | The Great British Bake Off
+Prue Leith | The Great British Bake Off
+Gennaro Contaldo | Jamie's Italian
+Nadiya Hussain | Bake Off winner
+Ainsley Harriott | Ready Steady Cook
+Rick Stein | The Seafood Restaurant
+Curtis Stone | Maude
+Carla Hall | The Chew
+Michael Symon | The Chew
+Duff Goldman | Ace of Cakes
+Buddy Valastro | Cake Boss
+Christina Tosi | Milk Bar
+Samin Nosrat | Salt Fat Acid Heat
+Masaharu Morimoto | Iron Chef
+Daniel Boulud | Daniel
+Jacques Pépin | Jacques Pépin: Fast Food My Way
+Sandra Lee (chef) | Semi-Homemade
+Sunny Anderson | The Kitchen
+Valerie Bertinelli | Valerie's Home Cooking
+Robert Irvine | Restaurant: Impossible
+
+@ models-influencers | Influencers & Models | internet | internet
+Gigi Hadid | model
+Bella Hadid | model
+Kendall Jenner | model
+Kate Moss | model
+Naomi Campbell | model
+Cindy Crawford | model
+Tyra Banks | model
+Heidi Klum | Project Runway
+Gisele Bündchen | model
+Adriana Lima | model
+Miranda Kerr | model
+Karlie Kloss | model
+Chrissy Teigen | model
+Ashley Graham (model) | model
+Cara Delevingne | model
+Christie Brinkley | model
+Claudia Schiffer | model
+Linda Evangelista | model
+Iman (model) | model
+Twiggy | model
+Tyson Beckford | model
+David Gandy | model
+Lucky Blue Smith | model | DROP
+Winnie Harlow | model
+Hailey Bieber | Rhode
+Emily Ratajkowski | model
+Paris Hilton | DROP
+Huda Kattan | Huda Beauty
+Michelle Phan | DROP
+Chiara Ferragni | The Blonde Salad
+Kim Kardashian | SKIMS
+Kylie Jenner | Kylie Cosmetics
+Charli D'Amelio | TikTok
+Dixie D'Amelio | TikTok
+Addison Rae | TikTok
+Khaby Lame | TikTok
+Bella Poarch | TikTok
+Zach King | TikTok
+Alix Earle | TikTok
+Brittany Broski | TikTok
+Mikayla Nogueira | DROP
+Nikkie de Jager | NikkieTutorials
+Jeffree Star | DROP
+James Charles | DROP
+Bretman Rock | Instagram
+Olivia Culpo | Miss Universe
+Brooke Shields | model
+Elle Macpherson | model
+Lily Aldridge | model
+Behati Prinsloo | model
+Taylor Hill (model) | model
+Candice Swanepoel | model
+Jourdan Dunn | model
+Joan Smalls | model

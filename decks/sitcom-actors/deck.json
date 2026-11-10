@@ -1,0 +1,1007 @@
+{
+ "id": "sitcom-actors",
+ "title": "Sitcom Actors",
+ "cat": "film",
+ "people": [
+  {
+   "id": "jennifer-aniston",
+   "name": "Jennifer Aniston",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 100,
+   "pv": 3304906,
+   "img": "img/jennifer-aniston.webp",
+   "credit": {
+    "author": "Angela George",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JenniferAnistonHWoFFeb2012.jpg"
+   }
+  },
+  {
+   "id": "kaley-cuoco",
+   "name": "Kaley Cuoco",
+   "from": "The Big Bang Theory",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 98,
+   "pv": 3215437,
+   "img": "img/kaley-cuoco.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kaley_Cuoco_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "aubrey-plaza",
+   "name": "Aubrey Plaza",
+   "from": "Parks and Recreation",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 96,
+   "pv": 3155995,
+   "img": "img/aubrey-plaza.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aubrey_Plaza_at_the_2026_Tribeca_Festival_-42_(cropped).jpg"
+   }
+  },
+  {
+   "id": "john-krasinski",
+   "name": "John Krasinski",
+   "from": "The Office",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 94,
+   "pv": 2932005,
+   "img": "img/john-krasinski.webp",
+   "credit": {
+    "author": "Prime Video AU & NZ",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Krasinski_2022.jpg"
+   }
+  },
+  {
+   "id": "matthew-perry",
+   "name": "Matthew Perry",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 92,
+   "pv": 2899602,
+   "img": "img/matthew-perry.webp",
+   "credit": {
+    "author": "Valerie Jarrett / @vj44 via X (Twitter)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Matthew_Perry_in_support_of_Awareness_on_Drug_Courts_and_Reduced_Substance_Abuse.jpg"
+   }
+  },
+  {
+   "id": "kristen-bell",
+   "name": "Kristen Bell",
+   "from": "The Good Place",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 90,
+   "pv": 2810742,
+   "img": "img/kristen-bell.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kristen_Bell_Empire_State.jpg"
+   }
+  },
+  {
+   "id": "steve-carell",
+   "name": "Steve Carell",
+   "from": "The Office",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 88,
+   "pv": 2354283,
+   "img": "img/steve-carell.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Steve_Carell_-_The_40-Year-Old-Virgin.jpg"
+   }
+  },
+  {
+   "id": "ted-danson",
+   "name": "Ted Danson",
+   "from": "Cheers",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 86,
+   "pv": 2313656,
+   "img": "img/ted-danson.webp",
+   "credit": {
+    "author": "aitchisons from United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%27The_Good_Place%27_cast_and_crew_visit_San_Diego_Comic_Con_for_a_panel_(43100198314)_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "sofia-vergara",
+   "name": "Sofía Vergara",
+   "from": "Modern Family",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 84,
+   "pv": 2200462,
+   "img": "img/sofia-vergara.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sof%C3%ADa_Vergara_2019_by_Glenn_Francis.jpg"
+   }
+  },
+  {
+   "id": "julia-louis-dreyfus",
+   "name": "Julia Louis-Dreyfus",
+   "from": "Seinfeld",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 82,
+   "pv": 2104249,
+   "img": "img/julia-louis-dreyfus.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JuliaLouisDreyfus-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "courteney-cox",
+   "name": "Courteney Cox",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 80,
+   "pv": 2076100,
+   "img": "img/courteney-cox.webp",
+   "credit": {
+    "author": "Albert Domasin at https://www.flickr.com/photos/goalbert/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Courteney_Cox_%2710_PaleyFest.jpg"
+   }
+  },
+  {
+   "id": "rashida-jones",
+   "name": "Rashida Jones",
+   "from": "Parks and Recreation",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 78,
+   "pv": 2045075,
+   "img": "img/rashida-jones.webp",
+   "credit": {
+    "author": "Photo by Stephanie Moreno/Grady College of Journalism and Mass Communications for Peabody Awards/University of Georgia",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rashida_Jones_2017_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kelsey-grammer",
+   "name": "Kelsey Grammer",
+   "from": "Frasier",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 76,
+   "pv": 1929321,
+   "img": "img/kelsey-grammer.webp",
+   "credit": {
+    "author": "Exchanges Photos",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kelsey_Grammer_Young_Washington_Film_Screening_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "mayim-bialik",
+   "name": "Mayim Bialik",
+   "from": "The Big Bang Theory",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 74,
+   "pv": 1818728,
+   "img": "img/mayim-bialik.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Father_Mother_Sister_Brother-69514_(Mayim_Bialik).jpg"
+   }
+  },
+  {
+   "id": "jason-segel",
+   "name": "Jason Segel",
+   "from": "How I Met Your Mother",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 72,
+   "pv": 1806934,
+   "img": "img/jason-segel.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jason_Segel_at_Televerse_2025.jpg"
+   }
+  },
+  {
+   "id": "terry-crews",
+   "name": "Terry Crews",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 70,
+   "pv": 1764285,
+   "img": "img/terry-crews.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Terry_Crews_by_Gage_Skidmore_5.jpg"
+   }
+  },
+  {
+   "id": "amy-poehler",
+   "name": "Amy Poehler",
+   "from": "Parks and Recreation",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 68,
+   "pv": 1717998,
+   "img": "img/amy-poehler.webp",
+   "credit": {
+    "author": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amy_Poehler_(53671989427)_cropped.jpg"
+   }
+  },
+  {
+   "id": "nick-offerman",
+   "name": "Nick Offerman",
+   "from": "Parks and Recreation",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 66,
+   "pv": 1716348,
+   "img": "img/nick-offerman.webp",
+   "credit": {
+    "author": "Library of Congress Life",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Nick_Offerman_2022_National_Book_Festival_(52342575962)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tim-allen",
+   "name": "Tim Allen",
+   "from": "Home Improvement",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 64,
+   "pv": 1668356,
+   "img": "img/tim-allen.webp",
+   "credit": {
+    "author": "MingleMediaTVNetwork",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tim_Allen_2012.jpg"
+   }
+  },
+  {
+   "id": "jim-parsons",
+   "name": "Jim Parsons",
+   "from": "The Big Bang Theory",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 62,
+   "pv": 1539260,
+   "img": "img/jim-parsons.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JimParsons-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "lisa-kudrow",
+   "name": "Lisa Kudrow",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 60,
+   "pv": 1525316,
+   "img": "img/lisa-kudrow.webp",
+   "credit": {
+    "author": "Lan Bui",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lisa_Kudrow_2.jpg"
+   }
+  },
+  {
+   "id": "cobie-smulders",
+   "name": "Cobie Smulders",
+   "from": "How I Met Your Mother",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 58,
+   "pv": 1517647,
+   "img": "img/cobie-smulders.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cobie_Smulders_by_Gage_Skidmore_3.jpg"
+   }
+  },
+  {
+   "id": "jerry-seinfeld",
+   "name": "Jerry Seinfeld",
+   "from": "Seinfeld",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 56,
+   "pv": 1361997,
+   "img": "img/jerry-seinfeld.webp",
+   "credit": {
+    "author": "Zafrir Keren - צפריר קרן",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jerry_Seinfeld_2023.jpg"
+   }
+  },
+  {
+   "id": "bob-saget",
+   "name": "Bob Saget",
+   "from": "Full House",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 54,
+   "pv": 1350857,
+   "img": "img/bob-saget.webp",
+   "credit": {
+    "author": "Behind The Velvet Rope TV",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob_Saget,_Behind_The_Velvet_Rope_TV_.05.jpg"
+   }
+  },
+  {
+   "id": "johnny-galecki",
+   "name": "Johnny Galecki",
+   "from": "The Big Bang Theory",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 52,
+   "pv": 1350512,
+   "img": "img/johnny-galecki.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Johnny_Galecki_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "john-stamos",
+   "name": "John Stamos",
+   "from": "Full House",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 49,
+   "pv": 1331980,
+   "img": "img/john-stamos.webp",
+   "credit": {
+    "author": "iDominick",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Stamos_at_PaleyFest_2013.jpg"
+   }
+  },
+  {
+   "id": "andy-samberg",
+   "name": "Andy Samberg",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 47,
+   "pv": 1325388,
+   "img": "img/andy-samberg.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Andy_Samberg_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "matt-leblanc",
+   "name": "Matt LeBlanc",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 45,
+   "pv": 1238702,
+   "img": "img/matt-leblanc.webp",
+   "credit": {
+    "author": "Richard Goldschmidt, www.piqtured.com",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Matt_LeBlanc,_Arqiva_British_Academy_Television_Awards,_2013.jpg"
+   }
+  },
+  {
+   "id": "mindy-kaling",
+   "name": "Mindy Kaling",
+   "from": "The Office",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 43,
+   "pv": 1227571,
+   "img": "img/mindy-kaling.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mindy_Kaling_at_WWD_Style_Awards_2026.jpg"
+   }
+  },
+  {
+   "id": "jenna-fischer",
+   "name": "Jenna Fischer",
+   "from": "The Office",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 41,
+   "pv": 1212216,
+   "img": "img/jenna-fischer.webp",
+   "credit": {
+    "author": "TDKR Chicago 101",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jenna_Fischer_2021_(cropped).jpg"
+   }
+  },
+  {
+   "id": "neil-patrick-harris",
+   "name": "Neil Patrick Harris",
+   "from": "How I Met Your Mother",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 39,
+   "pv": 1201494,
+   "img": "img/neil-patrick-harris.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Neil_Patrick_Harris-3023_(cropped).jpg"
+   }
+  },
+  {
+   "id": "andre-braugher",
+   "name": "Andre Braugher",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 37,
+   "pv": 1197117,
+   "img": "img/andre-braugher.webp",
+   "credit": {
+    "author": "Blackdiamond2015",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JeorgeBennettWatsonWilliamstown-cropped.jpg"
+   }
+  },
+  {
+   "id": "alyson-hannigan",
+   "name": "Alyson Hannigan",
+   "from": "How I Met Your Mother",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 35,
+   "pv": 1174957,
+   "img": "img/alyson-hannigan.webp",
+   "credit": {
+    "author": "Rach",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alyson_Hannigan,_2013-07-20_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ed-o-neill",
+   "name": "Ed O'Neill",
+   "from": "Modern Family",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 33,
+   "pv": 1118642,
+   "img": "img/ed-o-neill.webp",
+   "credit": {
+    "author": "iDominick",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ed_O%27Neill_at_2015_PaleyFest.jpg"
+   }
+  },
+  {
+   "id": "david-schwimmer",
+   "name": "David Schwimmer",
+   "from": "Friends",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 31,
+   "pv": 1100713,
+   "img": "img/david-schwimmer.webp",
+   "credit": {
+    "author": "gdcgraphics",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DavidSchwimmer10TIFF.jpg"
+   }
+  },
+  {
+   "id": "ray-romano",
+   "name": "Ray Romano",
+   "from": "Everybody Loves Raymond",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 29,
+   "pv": 1098059,
+   "img": "img/ray-romano.webp",
+   "credit": {
+    "author": "SAMHSA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ray_Romano_2014.jpg"
+   }
+  },
+  {
+   "id": "julie-bowen",
+   "name": "Julie Bowen",
+   "from": "Modern Family",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 27,
+   "pv": 1073395,
+   "img": "img/julie-bowen.webp",
+   "credit": {
+    "author": "iDominick",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Julie_Bowen_PaleyFest_2015_(17045838362).jpg"
+   }
+  },
+  {
+   "id": "rainn-wilson",
+   "name": "Rainn Wilson",
+   "from": "The Office",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 25,
+   "pv": 1017824,
+   "img": "img/rainn-wilson.webp",
+   "credit": {
+    "author": "John Manard",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rainn_Wilson_GalaxyCon_Raleigh_July,_25,_2026_132.jpg"
+   }
+  },
+  {
+   "id": "jason-alexander",
+   "name": "Jason Alexander",
+   "from": "Seinfeld",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 23,
+   "pv": 1015376,
+   "img": "img/jason-alexander.webp",
+   "credit": {
+    "author": "flipchip / LasVegasVegas.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jason_Alexander_-_2009_(cropped).jpg"
+   }
+  },
+  {
+   "id": "stephanie-beatriz",
+   "name": "Stephanie Beatriz",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 21,
+   "pv": 921118,
+   "img": "img/stephanie-beatriz.webp",
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephanie_Beatriz_2018.jpg"
+   }
+  },
+  {
+   "id": "charlie-day",
+   "name": "Charlie Day",
+   "from": "It's Always Sunny in Philadelphia",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 19,
+   "pv": 905238,
+   "img": "img/charlie-day.webp",
+   "credit": {
+    "author": "Gage Skidmore from Peoria, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlie_Day_(9365896600)_(cropped)_2.jpg"
+   }
+  },
+  {
+   "id": "quinta-brunson",
+   "name": "Quinta Brunson",
+   "from": "Abbott Elementary",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 17,
+   "pv": 884231,
+   "img": "img/quinta-brunson.webp",
+   "credit": {
+    "author": "Mandilea16",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Quinta_Brunson_at_2025_San_Diego_Comic-Con.jpg"
+   }
+  },
+  {
+   "id": "aziz-ansari",
+   "name": "Aziz Ansari",
+   "from": "Parks and Recreation",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 15,
+   "pv": 842929,
+   "img": "img/aziz-ansari.webp",
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Aziz_Ansari_at_TIFF_2025_02.jpg"
+   }
+  },
+  {
+   "id": "kunal-nayyar",
+   "name": "Kunal Nayyar",
+   "from": "The Big Bang Theory",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 13,
+   "pv": 809778,
+   "img": "img/kunal-nayyar.webp",
+   "credit": {
+    "author": "Elena Ternovaja",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kunal_Nayyar_at_Berlinale_2024_(cropped).jpg"
+   }
+  },
+  {
+   "id": "eric-stonestreet",
+   "name": "Eric Stonestreet",
+   "from": "Modern Family",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 11,
+   "pv": 722794,
+   "img": "img/eric-stonestreet.webp",
+   "credit": {
+    "author": "iDominick",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eric_Stonestreet_at_2015_PaleyFest.jpg"
+   }
+  },
+  {
+   "id": "ty-burrell",
+   "name": "Ty Burrell",
+   "from": "Modern Family",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 9,
+   "pv": 701860,
+   "img": "img/ty-burrell.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ty_Burrell_2_2014.jpg"
+   }
+  },
+  {
+   "id": "ed-helms",
+   "name": "Ed Helms",
+   "from": "The Office",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 7,
+   "pv": 697219,
+   "img": "img/ed-helms.webp",
+   "credit": {
+    "author": "Marlene Landu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ed_Helms_in_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "josh-radnor",
+   "name": "Josh Radnor",
+   "from": "How I Met Your Mother",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 5,
+   "pv": 590491,
+   "img": "img/josh-radnor.webp",
+   "credit": {
+    "author": "vagueonthehow from Tadcaster, York, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Josh_Radnor_(9448570254).jpg"
+   }
+  },
+  {
+   "id": "jesse-tyler-ferguson",
+   "name": "Jesse Tyler Ferguson",
+   "from": "Modern Family",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 3,
+   "pv": 498481,
+   "img": "img/jesse-tyler-ferguson.webp",
+   "credit": {
+    "author": "Philip Romano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JesseTylerFerguson.jpg"
+   }
+  },
+  {
+   "id": "melissa-fumero",
+   "name": "Melissa Fumero",
+   "from": "Brooklyn Nine-Nine",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "sitcom-actors"
+   ],
+   "fame": 1,
+   "pv": 466373,
+   "img": "img/melissa-fumero.webp",
+   "credit": {
+    "author": "Joe Peacock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Melissa_Fumero_at_Rose_City_Comic_Con_2026_02.jpg"
+   }
+  }
+ ]
+}

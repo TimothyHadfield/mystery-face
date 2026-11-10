@@ -1,0 +1,967 @@
+{
+ "id": "80s-90s-icons",
+ "title": "80s & 90s Icons",
+ "cat": "music",
+ "people": [
+  {
+   "id": "michael-jackson",
+   "name": "Michael Jackson",
+   "from": "Thriller",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 100,
+   "pv": 16836599,
+   "img": "img/michael-jackson.webp",
+   "credit": {
+    "author": "Matthew Rolston; Distributed by Epic Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Michael_Jackson_1983_(3x4_cropped)_(contrast).jpg"
+   }
+  },
+  {
+   "id": "madonna",
+   "name": "Madonna",
+   "from": "Like a Virgin",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 98,
+   "pv": 5259403,
+   "img": "img/madonna.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MadonnaO2171023_(97_of_133)_(53269593787)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "prince",
+   "name": "Prince",
+   "from": "Purple Rain",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 96,
+   "pv": 4380089,
+   "img": "img/prince.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author, based on File:Prince promo picture (1988; cropped).png",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Prince_promo_picture_(1988;_cropped_and_retouched).png"
+   }
+  },
+  {
+   "id": "jennifer-lopez",
+   "name": "Jennifer Lopez",
+   "from": "If You Had My Love",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 94,
+   "pv": 3714189,
+   "img": "img/jennifer-lopez.webp",
+   "credit": {
+    "author": "Everwest",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Lopez_at_the_2025_Sundance_Film_Festival_(cropped_3).jpg"
+   }
+  },
+  {
+   "id": "cher",
+   "name": "Cher",
+   "from": "Believe",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 92,
+   "pv": 3667636,
+   "img": "img/cher.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cher_in_2019_cropped.jpg"
+   }
+  },
+  {
+   "id": "phil-collins",
+   "name": "Phil Collins",
+   "from": "In the Air Tonight",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 89,
+   "pv": 3448992,
+   "img": "img/phil-collins.webp",
+   "credit": {
+    "author": "Will Ireland, Courtesy of Concord",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Phil_Collins,_2025_for_%22Eras%22_(cropped).jpg"
+   }
+  },
+  {
+   "id": "george-michael",
+   "name": "George Michael",
+   "from": "Careless Whisper",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 87,
+   "pv": 3377568,
+   "img": "img/george-michael.webp",
+   "credit": {
+    "author": "University of Houston Digital Library",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Michael.jpeg"
+   }
+  },
+  {
+   "id": "bruce-springsteen",
+   "name": "Bruce Springsteen",
+   "from": "Born in the U.S.A.",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 85,
+   "pv": 3333247,
+   "img": "img/bruce-springsteen.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bruce_Springsteen_Springsteen-79_(cropped).jpg"
+   }
+  },
+  {
+   "id": "janet-jackson",
+   "name": "Janet Jackson",
+   "from": "Rhythm Nation",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 83,
+   "pv": 3194409,
+   "img": "img/janet-jackson.webp",
+   "credit": {
+    "author": "Rich Esteban",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JanetJacksonUnbreakableTourSanFran2015_(cropped).jpg"
+   }
+  },
+  {
+   "id": "whitney-houston",
+   "name": "Whitney Houston",
+   "from": "I Wanna Dance with Somebody",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 81,
+   "pv": 2973963,
+   "img": "img/whitney-houston.webp",
+   "credit": {
+    "author": "PH2 Mark Kettenhofen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Whitney_Houston_(cropped3).JPEG"
+   }
+  },
+  {
+   "id": "mariah-carey",
+   "name": "Mariah Carey",
+   "from": "Vision of Love",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 79,
+   "pv": 2913517,
+   "img": "img/mariah-carey.webp",
+   "credit": {
+    "author": "Shawn Miller",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mariah_Carey_Library_of_Congress_2023_1_Cropped_3.png"
+   }
+  },
+  {
+   "id": "britney-spears",
+   "name": "Britney Spears",
+   "from": "...Baby One More Time",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 77,
+   "pv": 2888308,
+   "img": "img/britney-spears.webp",
+   "credit": {
+    "author": "Glenn Francis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Britney_Spears_2013_(Straighten_Crop).jpg"
+   }
+  },
+  {
+   "id": "kurt-cobain",
+   "name": "Kurt Cobain",
+   "from": "Nirvana",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 75,
+   "pv": 2561139,
+   "img": "img/kurt-cobain.webp",
+   "credit": {
+    "author": "P.B. Rage from USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992_(cropped).jpg"
+   }
+  },
+  {
+   "id": "will-smith",
+   "name": "Will Smith",
+   "from": "Gettin' Jiggy wit It",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 73,
+   "pv": 2415677,
+   "img": "img/will-smith.webp",
+   "credit": {
+    "author": "TechCrunch",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_(48834070763)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "celine-dion",
+   "name": "Celine Dion",
+   "from": "My Heart Will Go On",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 71,
+   "pv": 2411852,
+   "img": "img/celine-dion.webp",
+   "credit": {
+    "author": "Georges Biard",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:C%C3%A9line_Dion_2012.jpg"
+   }
+  },
+  {
+   "id": "jon-bon-jovi",
+   "name": "Jon Bon Jovi",
+   "from": "Livin' on a Prayer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 68,
+   "pv": 2286015,
+   "img": "img/jon-bon-jovi.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NEG_0062-2_(54119957209).jpg"
+   }
+  },
+  {
+   "id": "tina-turner",
+   "name": "Tina Turner",
+   "from": "The Best",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 66,
+   "pv": 2044365,
+   "img": "img/tina-turner.webp",
+   "credit": {
+    "author": "HBO",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tina_Turner_Breaks_All_the_Rules.png"
+   }
+  },
+  {
+   "id": "sinead-o-connor",
+   "name": "Sinéad O'Connor",
+   "from": "Nothing Compares 2 U",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 64,
+   "pv": 1982369,
+   "img": "img/sinead-o-connor.webp",
+   "credit": {
+    "author": "Bryan Ledgard",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sinead_O%27Connor_(14828633401)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gwen-stefani",
+   "name": "Gwen Stefani",
+   "from": "No Doubt",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 62,
+   "pv": 1976844,
+   "img": "img/gwen-stefani.webp",
+   "credit": {
+    "author": "Pete Souza",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Barack_Obama_and_Gwen_Stefani_State_Dinner_performance_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "justin-timberlake",
+   "name": "Justin Timberlake",
+   "from": "NSYNC",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 60,
+   "pv": 1900783,
+   "img": "img/justin-timberlake.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Justin_Timberlake_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "shania-twain",
+   "name": "Shania Twain",
+   "from": "You're Still the One",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 58,
+   "pv": 1751097,
+   "img": "img/shania-twain.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shania_Twain_Glaston2024_2806_300624_(22_of_173)_(53838020769)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sting",
+   "name": "Sting",
+   "from": "Every Breath You Take",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 56,
+   "pv": 1716954,
+   "img": "img/sting.webp",
+   "credit": {
+    "author": "CamilaAlves.raf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sting_at_2026_Montreux_Jazz_Festival-12-CA_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ricky-martin",
+   "name": "Ricky Martin",
+   "from": "Livin' la Vida Loca",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 54,
+   "pv": 1673839,
+   "img": "img/ricky-martin.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ricky_Martin-4262.jpg"
+   }
+  },
+  {
+   "id": "alanis-morissette",
+   "name": "Alanis Morissette",
+   "from": "Jagged Little Pill",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 52,
+   "pv": 1651207,
+   "img": "img/alanis-morissette.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glasto_2025_(46)_-_Alanis_Morissette_(cropped).jpg"
+   }
+  },
+  {
+   "id": "christina-aguilera",
+   "name": "Christina Aguilera",
+   "from": "Genie in a Bottle",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 49,
+   "pv": 1543581,
+   "img": "img/christina-aguilera.webp",
+   "credit": {
+    "author": "nagi usano from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Christina_Aguilera_2019_Disney_Legends_Awards_Ceremony_D23_EXPO_2019_(51440742748)_(cropped3).jpg"
+   }
+  },
+  {
+   "id": "mandy-moore",
+   "name": "Mandy Moore",
+   "from": "Candy",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 47,
+   "pv": 1500976,
+   "img": "img/mandy-moore.webp",
+   "credit": {
+    "author": "Daniel Benavides from Austin, TX",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mandy_Moore_at_SXSW_2018_(25904503147)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lionel-richie",
+   "name": "Lionel Richie",
+   "from": "Hello",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 45,
+   "pv": 1426604,
+   "img": "img/lionel-richie.webp",
+   "credit": {
+    "author": "Shawn Miller/Library of Congress",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Lionel_Richie_2022_(51930307118)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "boy-george",
+   "name": "Boy George",
+   "from": "Culture Club",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 43,
+   "pv": 1407425,
+   "img": "img/boy-george.webp",
+   "credit": {
+    "author": "Sven Mandel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Boy_George_-_2026220_214024_2026-08-08_Die_80er_live_-_Sven_-_1D_X_MK_II_-_1836_-_AK8I4768_(cropped).jpg"
+   }
+  },
+  {
+   "id": "eddie-vedder",
+   "name": "Eddie Vedder",
+   "from": "Pearl Jam",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 41,
+   "pv": 1374205,
+   "img": "img/eddie-vedder.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eddie_Vedder_2018_-2.jpg"
+   }
+  },
+  {
+   "id": "billy-idol",
+   "name": "Billy Idol",
+   "from": "White Wedding",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 39,
+   "pv": 1288580,
+   "img": "img/billy-idol.webp",
+   "credit": {
+    "author": "GenerationSex",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Billy_Idol_Lucca_2023.jpg"
+   }
+  },
+  {
+   "id": "cyndi-lauper",
+   "name": "Cyndi Lauper",
+   "from": "Girls Just Want to Have Fun",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 37,
+   "pv": 1270440,
+   "img": "img/cyndi-lauper.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CyndiLauperRAH260624_(42_of_51)_(53819380830)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bryan-adams",
+   "name": "Bryan Adams",
+   "from": "Summer of '69",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 35,
+   "pv": 1140863,
+   "img": "img/bryan-adams.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BryAdamsMargate130624_(39_of_43)_(53789411882)_Cropped.jpg"
+   }
+  },
+  {
+   "id": "seal",
+   "name": "Seal",
+   "from": "Kiss from a Rose",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 33,
+   "pv": 1063469,
+   "img": "img/seal.webp",
+   "credit": {
+    "author": "Danielle G. Campbell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Seal_at_TIFF_2025_(cropped).jpg"
+   }
+  },
+  {
+   "id": "paula-abdul",
+   "name": "Paula Abdul",
+   "from": "Straight Up",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 30,
+   "pv": 1016574,
+   "img": "img/paula-abdul.webp",
+   "credit": {
+    "author": "Super Festivals from Ft. Lauderdale, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paula_Abdul_Photo_Op_GalaxyCon_Raleigh_2023.jpg"
+   }
+  },
+  {
+   "id": "annie-lennox",
+   "name": "Annie Lennox",
+   "from": "Eurythmics",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 28,
+   "pv": 984996,
+   "img": "img/annie-lennox.webp",
+   "credit": {
+    "author": "Library of Congress Life",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Annie_Lennox_March_2023.jpg"
+   }
+  },
+  {
+   "id": "jessica-simpson",
+   "name": "Jessica Simpson",
+   "from": "Irresistible",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 26,
+   "pv": 947581,
+   "img": "img/jessica-simpson.webp",
+   "credit": {
+    "author": "Mike Kaplan",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jessica_Simpson_Joining_Forces_with_the_Rockies_April_2011_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sheryl-crow",
+   "name": "Sheryl Crow",
+   "from": "All I Wanna Do",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 24,
+   "pv": 859869,
+   "img": "img/sheryl-crow.webp",
+   "credit": {
+    "author": "Office of Representative Clark",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Katherine_Clark_and_Sheryl_Crow_Grammy_Event_(cropped).jpg"
+   }
+  },
+  {
+   "id": "belinda-carlisle",
+   "name": "Belinda Carlisle",
+   "from": "Heaven Is a Place on Earth",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 22,
+   "pv": 859810,
+   "img": "img/belinda-carlisle.webp",
+   "credit": {
+    "author": "Phil King",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Belinda_Carlisle_at_Manchester_Pride_2010.jpg"
+   }
+  },
+  {
+   "id": "rick-astley",
+   "name": "Rick Astley",
+   "from": "Never Gonna Give You Up",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 20,
+   "pv": 696721,
+   "img": "img/rick-astley.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glasto2023_(149_of_468)_(53009108914)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tiffany-darwish",
+   "name": "Tiffany Darwish",
+   "from": "I Think We're Alone Now",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 18,
+   "pv": 692481,
+   "img": "img/tiffany-darwish.webp",
+   "credit": {
+    "author": "No machine-readable author provided. Dtobias assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Tiffany_on_stage_2003.jpg"
+   }
+  },
+  {
+   "id": "toni-braxton",
+   "name": "Toni Braxton",
+   "from": "Un-Break My Heart",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 16,
+   "pv": 669821,
+   "img": "img/toni-braxton.webp",
+   "credit": {
+    "author": "Umusic",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toni_Braxton_press_photo_2015.png"
+   }
+  },
+  {
+   "id": "vanilla-ice",
+   "name": "Vanilla Ice",
+   "from": "Ice Ice Baby",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 14,
+   "pv": 668560,
+   "img": "img/vanilla-ice.webp",
+   "credit": {
+    "author": "Rick Marshall",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Vanilla_Ice_2010_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gloria-estefan",
+   "name": "Gloria Estefan",
+   "from": "Conga",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 12,
+   "pv": 661837,
+   "img": "img/gloria-estefan.webp",
+   "credit": {
+    "author": "U.S. State Department",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gloria_Estefan_in_2017.jpg"
+   }
+  },
+  {
+   "id": "debbie-gibson",
+   "name": "Debbie Gibson",
+   "from": "Only in My Dreams",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 9,
+   "pv": 575109,
+   "img": "img/debbie-gibson.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Debbie_Gibson_-_LATFOB_2026-03.jpg"
+   }
+  },
+  {
+   "id": "huey-lewis",
+   "name": "Huey Lewis",
+   "from": "The Power of Love",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 7,
+   "pv": 574522,
+   "img": "img/huey-lewis.webp",
+   "credit": {
+    "author": "Tankboy from Chicago",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Huey_Lewis_and_the_News_2013_(9138277688).jpg"
+   }
+  },
+  {
+   "id": "mc-hammer",
+   "name": "MC Hammer",
+   "from": "U Can't Touch This",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 5,
+   "pv": 574254,
+   "img": "img/mc-hammer.webp",
+   "credit": {
+    "author": "Philip Nelson from San Antonio, TX, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MC_Hammer_2010_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kenny-loggins",
+   "name": "Kenny Loggins",
+   "from": "Footloose",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 3,
+   "pv": 566681,
+   "img": "img/kenny-loggins.webp",
+   "credit": {
+    "author": "Joe Sukkos",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Kenny_Loggins_in_2026.png"
+   }
+  },
+  {
+   "id": "brian-littrell",
+   "name": "Brian Littrell",
+   "from": "Backstreet Boys",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "80s-90s-icons"
+   ],
+   "fame": 1,
+   "pv": 471417,
+   "img": "img/brian-littrell.webp",
+   "credit": {
+    "author": "TaurusEmerald",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brian_Littrell_Las_Vegas_2025.jpg"
+   }
+  }
+ ]
+}

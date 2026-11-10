@@ -1,0 +1,987 @@
+{
+ "id": "hollywood-actors",
+ "title": "Hollywood Actors",
+ "cat": "film",
+ "people": [
+  {
+   "id": "tom-holland",
+   "name": "Tom Holland",
+   "from": "Spider-Man",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 100,
+   "pv": 9070028,
+   "img": "img/tom-holland.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TomHolland-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "timothee-chalamet",
+   "name": "Timothée Chalamet",
+   "from": "Dune",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 98,
+   "pv": 7954386,
+   "img": "img/timothee-chalamet.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Timoth%C3%A9e_Chalamet-63482_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jacob-elordi",
+   "name": "Jacob Elordi",
+   "from": "Saltburn",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 96,
+   "pv": 7558326,
+   "img": "img/jacob-elordi.webp",
+   "credit": {
+    "author": "JoshPopov",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JacobElordi-TIFF2025-01_(cropped_2).png"
+   }
+  },
+  {
+   "id": "ryan-gosling",
+   "name": "Ryan Gosling",
+   "from": "La La Land",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 94,
+   "pv": 5586526,
+   "img": "img/ryan-gosling.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:GoslingBFI081223_(22_of_30)_(53388157347)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tom-cruise",
+   "name": "Tom Cruise",
+   "from": "Mission: Impossible",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 92,
+   "pv": 5499851,
+   "img": "img/tom-cruise.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tom_Cruise_at_53rd_Saturn_Awards_2026-01.jpg"
+   }
+  },
+  {
+   "id": "matt-damon",
+   "name": "Matt Damon",
+   "from": "The Bourne Identity",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 90,
+   "pv": 5320007,
+   "img": "img/matt-damon.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MattDamon-byPhilipRomano2.jpg"
+   }
+  },
+  {
+   "id": "leonardo-dicaprio",
+   "name": "Leonardo DiCaprio",
+   "from": "Titanic",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 88,
+   "pv": 4991950,
+   "img": "img/leonardo-dicaprio.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LeoPTABFI191125-28_(cropped).jpg"
+   }
+  },
+  {
+   "id": "keanu-reeves",
+   "name": "Keanu Reeves",
+   "from": "The Matrix",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 86,
+   "pv": 4864953,
+   "img": "img/keanu-reeves.webp",
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Keanu_Reeves_at_TIFF_2025_02_(Cropped).jpg"
+   }
+  },
+  {
+   "id": "brad-pitt",
+   "name": "Brad Pitt",
+   "from": "Fight Club",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 84,
+   "pv": 4547860,
+   "img": "img/brad-pitt.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brad_Pitt-69858.jpg"
+   }
+  },
+  {
+   "id": "michael-b-jordan",
+   "name": "Michael B. Jordan",
+   "from": "Creed",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 81,
+   "pv": 4468678,
+   "img": "img/michael-b-jordan.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Michael_B_Jordan_-_Sinners_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ben-affleck",
+   "name": "Ben Affleck",
+   "from": "Argo",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 79,
+   "pv": 4176609,
+   "img": "img/ben-affleck.webp",
+   "credit": {
+    "author": "LucaFazPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ben_Affleck_at_83rd_Venice_International_Film_Festival-1_(cropped).jpg"
+   }
+  },
+  {
+   "id": "dwayne-johnson",
+   "name": "Dwayne Johnson",
+   "from": "Jumanji",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 77,
+   "pv": 3772244,
+   "img": "img/dwayne-johnson.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dwayne_Johnson-1764_(4x5_cropped_with_moderate_headroom).jpg"
+   }
+  },
+  {
+   "id": "pedro-pascal",
+   "name": "Pedro Pascal",
+   "from": "The Mandalorian",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 75,
+   "pv": 3736191,
+   "img": "img/pedro-pascal.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedro_Pascal_at_the_2026_New_York_Film_Festival-042.jpg"
+   }
+  },
+  {
+   "id": "ryan-reynolds",
+   "name": "Ryan Reynolds",
+   "from": "Deadpool",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 73,
+   "pv": 3729976,
+   "img": "img/ryan-reynolds.webp",
+   "credit": {
+    "author": "Dick Thomas Johnson from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Deadpool_2_Japan_Premiere_Red_Carpet_Ryan_Reynolds_(cropped).jpg"
+   }
+  },
+  {
+   "id": "chris-pratt",
+   "name": "Chris Pratt",
+   "from": "Guardians of the Galaxy",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 71,
+   "pv": 3564937,
+   "img": "img/chris-pratt.webp",
+   "credit": {
+    "author": "Dick Thomas Johnson from Tokyo, Japan",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Pratt_Jurassic_World_Fallen_Kingdom_Japan_Premiere_Red_Carpet_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "tom-hanks",
+   "name": "Tom Hanks",
+   "from": "Forrest Gump",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 69,
+   "pv": 3517740,
+   "img": "img/tom-hanks.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TomHanksPrincEdw031223_(11_of_41)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "colman-domingo",
+   "name": "Colman Domingo",
+   "from": "Sing Sing",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 67,
+   "pv": 3393826,
+   "img": "img/colman-domingo.webp",
+   "credit": {
+    "author": "Sofia Luna Cabras",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Colman_Domingo_at_Ralph_Lauren_dinner_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "andrew-garfield",
+   "name": "Andrew Garfield",
+   "from": "The Amazing Spider-Man",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 65,
+   "pv": 3354003,
+   "img": "img/andrew-garfield.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Andrew_Garfield_at_the_2026_New_York_Film_Festival-18.jpg"
+   }
+  },
+  {
+   "id": "hugh-jackman",
+   "name": "Hugh Jackman",
+   "from": "X-Men",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 63,
+   "pv": 3344475,
+   "img": "img/hugh-jackman.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hugh_Jackman_by_Gage_Skidmore_3.jpg"
+   }
+  },
+  {
+   "id": "george-clooney",
+   "name": "George Clooney",
+   "from": "Ocean's Eleven",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 61,
+   "pv": 3322660,
+   "img": "img/george-clooney.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Clooney_Jay_Kelly-19_(cropped).jpg"
+   }
+  },
+  {
+   "id": "glen-powell",
+   "name": "Glen Powell",
+   "from": "Top Gun: Maverick",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 59,
+   "pv": 3155944,
+   "img": "img/glen-powell.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glen_Powell_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "jake-gyllenhaal",
+   "name": "Jake Gyllenhaal",
+   "from": "Nightcrawler",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 57,
+   "pv": 3123301,
+   "img": "img/jake-gyllenhaal.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jake_Gyllenhaal_2019_by_Glenn_Francis.jpg"
+   }
+  },
+  {
+   "id": "mark-wahlberg",
+   "name": "Mark Wahlberg",
+   "from": "Ted",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 55,
+   "pv": 3119344,
+   "img": "img/mark-wahlberg.webp",
+   "credit": {
+    "author": "U.S. Marine Corps photo by Sgt. Jorge A. Rosales",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mark_Wahlberg_2021.jpg"
+   }
+  },
+  {
+   "id": "chris-hemsworth",
+   "name": "Chris Hemsworth",
+   "from": "Thor",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 53,
+   "pv": 3093546,
+   "img": "img/chris-hemsworth.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Hemsworth_-_Crime_101.jpg"
+   }
+  },
+  {
+   "id": "brendan-fraser",
+   "name": "Brendan Fraser",
+   "from": "The Mummy",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 50,
+   "pv": 3085896,
+   "img": "img/brendan-fraser.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brendan_Fraser_MFF_2025.jpg"
+   }
+  },
+  {
+   "id": "john-krasinski",
+   "name": "John Krasinski",
+   "from": "A Quiet Place",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 48,
+   "pv": 2932005,
+   "img": "img/john-krasinski.webp",
+   "credit": {
+    "author": "Prime Video AU & NZ",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Krasinski_2022.jpg"
+   }
+  },
+  {
+   "id": "christian-bale",
+   "name": "Christian Bale",
+   "from": "The Dark Knight",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 46,
+   "pv": 2877106,
+   "img": "img/christian-bale.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Christian_Bale-7837.jpg"
+   }
+  },
+  {
+   "id": "paul-mescal",
+   "name": "Paul Mescal",
+   "from": "Gladiator II",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 44,
+   "pv": 2858181,
+   "img": "img/paul-mescal.webp",
+   "credit": {
+    "author": "Jay Dixit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Mescal_at_the_Toronto_International_Film_Festival_in_2025_2_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "robert-downey-jr",
+   "name": "Robert Downey Jr.",
+   "from": "Iron Man",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 42,
+   "pv": 2842522,
+   "img": "img/robert-downey-jr.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RobertDowneyJr-byPhilipRomano7_(cropped).jpg"
+   }
+  },
+  {
+   "id": "oscar-isaac",
+   "name": "Oscar Isaac",
+   "from": "Star Wars",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 40,
+   "pv": 2816940,
+   "img": "img/oscar-isaac.webp",
+   "credit": {
+    "author": "LucaFazPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Oscar_Isaac_at_82nd_Venice_International_Film_Festival-1_(cropped).jpg"
+   }
+  },
+  {
+   "id": "denzel-washington",
+   "name": "Denzel Washington",
+   "from": "Training Day",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 38,
+   "pv": 2765029,
+   "img": "img/denzel-washington.webp",
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg"
+   }
+  },
+  {
+   "id": "channing-tatum",
+   "name": "Channing Tatum",
+   "from": "21 Jump Street",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 36,
+   "pv": 2738245,
+   "img": "img/channing-tatum.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Channing_Tatum_at_the_2026_Berlin_International_Film_Festival-69843.jpg"
+   }
+  },
+  {
+   "id": "barry-keoghan",
+   "name": "Barry Keoghan",
+   "from": "Saltburn",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 34,
+   "pv": 2710255,
+   "img": "img/barry-keoghan.webp",
+   "credit": {
+    "author": "Kevin Payravi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Barry_Keoghan_at_the_2024_Toronto_International_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "idris-elba",
+   "name": "Idris Elba",
+   "from": "Luther",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 32,
+   "pv": 2582826,
+   "img": "img/idris-elba.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Idris_Elba_A_House_of_Dynamite-21_(cropped).jpg"
+   }
+  },
+  {
+   "id": "will-smith",
+   "name": "Will Smith",
+   "from": "Men in Black",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 30,
+   "pv": 2415677,
+   "img": "img/will-smith.webp",
+   "credit": {
+    "author": "TechCrunch",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_San_Francisco_2019_-_Day_1_(48834070763)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "miles-teller",
+   "name": "Miles Teller",
+   "from": "Whiplash",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 28,
+   "pv": 2410089,
+   "img": "img/miles-teller.webp",
+   "credit": {
+    "author": "JoshPopov",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Miles_Teller_TIFF_2025_(3x4_cropped).png"
+   }
+  },
+  {
+   "id": "joaquin-phoenix",
+   "name": "Joaquin Phoenix",
+   "from": "Joker",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 26,
+   "pv": 2367599,
+   "img": "img/joaquin-phoenix.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joaquin_Phoenix-64908_(cropped).jpg"
+   }
+  },
+  {
+   "id": "chris-evans",
+   "name": "Chris Evans",
+   "from": "Captain America",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 24,
+   "pv": 2326584,
+   "img": "img/chris-evans.webp",
+   "credit": {
+    "author": "Sara Komatsu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chris_Evans_at_the_2025_Toronto_International_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jeremy-allen-white",
+   "name": "Jeremy Allen White",
+   "from": "The Bear",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 22,
+   "pv": 2241890,
+   "img": "img/jeremy-allen-white.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jeremy_Allen_White_Springsteen-33_(cropped).jpg"
+   }
+  },
+  {
+   "id": "zac-efron",
+   "name": "Zac Efron",
+   "from": "High School Musical",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 20,
+   "pv": 1946987,
+   "img": "img/zac-efron.webp",
+   "credit": {
+    "author": "Eva Rinaldi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zac_Efron_at_the_Baywatch_Red_Carpet_Premiere_Sydney_Australia.jpg"
+   }
+  },
+  {
+   "id": "sebastian-stan",
+   "name": "Sebastian Stan",
+   "from": "The Winter Soldier",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 18,
+   "pv": 1742189,
+   "img": "img/sebastian-stan.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sebastian_Stan-64526.jpg"
+   }
+  },
+  {
+   "id": "austin-butler",
+   "name": "Austin Butler",
+   "from": "Elvis",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 15,
+   "pv": 1724442,
+   "img": "img/austin-butler.webp",
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Austin_Butler_at_the_2025_Cannes_Film_Festival_02.jpg"
+   }
+  },
+  {
+   "id": "jonah-hill",
+   "name": "Jonah Hill",
+   "from": "Superbad",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 13,
+   "pv": 1598126,
+   "img": "img/jonah-hill.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jonah_Hill-4939_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "adam-driver",
+   "name": "Adam Driver",
+   "from": "Marriage Story",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 11,
+   "pv": 1589846,
+   "img": "img/adam-driver.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Adam_Driver_at_the_2026_New_York_Film_Festival-084_(cropped).jpg"
+   }
+  },
+  {
+   "id": "dev-patel",
+   "name": "Dev Patel",
+   "from": "Slumdog Millionaire",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 9,
+   "pv": 1085045,
+   "img": "img/dev-patel.webp",
+   "credit": {
+    "author": "Gordon Correll",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dev_Patel_(29870651654).jpg"
+   }
+  },
+  {
+   "id": "simu-liu",
+   "name": "Simu Liu",
+   "from": "Shang-Chi",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 7,
+   "pv": 1021948,
+   "img": "img/simu-liu.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Simu_Liu_by_Gage_Skidmore_2.jpg"
+   }
+  },
+  {
+   "id": "anthony-mackie",
+   "name": "Anthony Mackie",
+   "from": "The Falcon",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 5,
+   "pv": 999927,
+   "img": "img/anthony-mackie.webp",
+   "credit": {
+    "author": "Quejaytee",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Mackie_on_the_Green_Carpet_at_the_2025_Zurich_Film_Festival_03_(cropped).jpg"
+   }
+  },
+  {
+   "id": "daniel-kaluuya",
+   "name": "Daniel Kaluuya",
+   "from": "Get Out",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 3,
+   "pv": 908200,
+   "img": "img/daniel-kaluuya.webp",
+   "credit": {
+    "author": "Marlene Landu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Daniel_Kaluuya_in_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "henry-golding",
+   "name": "Henry Golding",
+   "from": "Crazy Rich Asians",
+   "gender": "m",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actors"
+   ],
+   "fame": 1,
+   "pv": 763943,
+   "img": "img/henry-golding.webp",
+   "credit": {
+    "author": "Sofia Luna Cabras",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Henry_Golding_at_Ralph_Lauren_dinner_2026.jpg"
+   }
+  }
+ ]
+}

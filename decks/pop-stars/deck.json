@@ -1,0 +1,967 @@
+{
+ "id": "pop-stars",
+ "title": "Pop Stars",
+ "cat": "music",
+ "people": [
+  {
+   "id": "taylor-swift",
+   "name": "Taylor Swift",
+   "from": "singer-songwriter",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 100,
+   "pv": 6774412,
+   "img": "img/taylor-swift.webp",
+   "credit": {
+    "author": "iHeartRadioCA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_(3).png"
+   }
+  },
+  {
+   "id": "ariana-grande",
+   "name": "Ariana Grande",
+   "from": "Thank U, Next",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 98,
+   "pv": 6602678,
+   "img": "img/ariana-grande.webp",
+   "credit": {
+    "author": "Barbie Simons",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ariana_Grande_promoting_Wicked_(2024).jpg"
+   }
+  },
+  {
+   "id": "dua-lipa",
+   "name": "Dua Lipa",
+   "from": "Levitating",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 96,
+   "pv": 5153086,
+   "img": "img/dua-lipa.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dua_Lipa-69798_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sabrina-carpenter",
+   "name": "Sabrina Carpenter",
+   "from": "Espresso",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 94,
+   "pv": 4416932,
+   "img": "img/sabrina-carpenter.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sabrina_Carpenter_-_O2_Arena_2025_-_086_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "olivia-rodrigo",
+   "name": "Olivia Rodrigo",
+   "from": "Drivers License",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 92,
+   "pv": 4389382,
+   "img": "img/olivia-rodrigo.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glasto2025-546_(cropped)_2.jpg"
+   }
+  },
+  {
+   "id": "lady-gaga",
+   "name": "Lady Gaga",
+   "from": "Bad Romance",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 89,
+   "pv": 4274261,
+   "img": "img/lady-gaga.webp",
+   "credit": {
+    "author": "Carlos M. Vazquez II",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lady_Gaga_at_Joe_Biden%27s_inauguration_(cropped_5).jpg"
+   }
+  },
+  {
+   "id": "harry-styles",
+   "name": "Harry Styles",
+   "from": "As It Was",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 87,
+   "pv": 4051112,
+   "img": "img/harry-styles.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:HarryStylesWembley170623_(65_of_93)_(52982678051)_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "bruno-mars",
+   "name": "Bruno Mars",
+   "from": "Uptown Funk",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 85,
+   "pv": 4016090,
+   "img": "img/bruno-mars.webp",
+   "credit": {
+    "author": "slgckgc",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BrunoMars24KMagicWorldTourLive_(cropped).jpg"
+   }
+  },
+  {
+   "id": "katy-perry",
+   "name": "Katy Perry",
+   "from": "Firework",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 83,
+   "pv": 3778559,
+   "img": "img/katy-perry.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Katy_Perry_2026_Tribeca_Film_Festival_(cropped_1).jpg"
+   }
+  },
+  {
+   "id": "miley-cyrus",
+   "name": "Miley Cyrus",
+   "from": "Flowers",
+   "gender": "x",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 81,
+   "pv": 3688212,
+   "img": "img/miley-cyrus.webp",
+   "credit": {
+    "author": "Raphael Pour-Hashemi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Miley_Cyrus_Primavera19_-226_(48986293772)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "billie-eilish",
+   "name": "Billie Eilish",
+   "from": "Bad Guy",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 79,
+   "pv": 3508329,
+   "img": "img/billie-eilish.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BillieEilishO2140725-39_-_54665577407_(cropped).jpg"
+   }
+  },
+  {
+   "id": "justin-bieber",
+   "name": "Justin Bieber",
+   "from": "Baby",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 77,
+   "pv": 3409238,
+   "img": "img/justin-bieber.webp",
+   "credit": {
+    "author": "Daniel Torok",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:P20260719DT-1213_President_Donald_J._Trump_and_First_Lady_Melania_Trump_attend_the_FIFA_World_Cup_Final_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "rihanna",
+   "name": "Rihanna",
+   "from": "Umbrella",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 75,
+   "pv": 3364433,
+   "img": "img/rihanna.webp",
+   "credit": {
+    "author": "SIGMA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rihanna_Fenty_2018.png"
+   }
+  },
+  {
+   "id": "charli-xcx",
+   "name": "Charli XCX",
+   "from": "Brat",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 73,
+   "pv": 2990624,
+   "img": "img/charli-xcx.webp",
+   "credit": {
+    "author": "Elena Ternovaja",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Charli_xcx_at_Berlinale_2026-1.jpg"
+   }
+  },
+  {
+   "id": "britney-spears",
+   "name": "Britney Spears",
+   "from": "...Baby One More Time",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 71,
+   "pv": 2888308,
+   "img": "img/britney-spears.webp",
+   "credit": {
+    "author": "Glenn Francis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Britney_Spears_2013_(Straighten_Crop).jpg"
+   }
+  },
+  {
+   "id": "chappell-roan",
+   "name": "Chappell Roan",
+   "from": "Good Luck, Babe!",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 68,
+   "pv": 2678275,
+   "img": "img/chappell-roan.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ChappellRoanRockES200825-198_(cropped).jpg"
+   }
+  },
+  {
+   "id": "selena-gomez",
+   "name": "Selena Gomez",
+   "from": "Come & Get It",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 66,
+   "pv": 2655664,
+   "img": "img/selena-gomez.webp",
+   "credit": {
+    "author": "Frank Sun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Selena_Gomez_at_the_2024_Toronto_International_Film_Festival_10_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ed-sheeran",
+   "name": "Ed Sheeran",
+   "from": "Shape of You",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 64,
+   "pv": 2627041,
+   "img": "img/ed-sheeran.webp",
+   "credit": {
+    "author": "Number 10",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ed_Sheeran_2022_(3x4_crop).jpg"
+   }
+  },
+  {
+   "id": "beyonce",
+   "name": "Beyoncé",
+   "from": "Renaissance",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 62,
+   "pv": 2625411,
+   "img": "img/beyonce.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg"
+   }
+  },
+  {
+   "id": "gracie-abrams",
+   "name": "Gracie Abrams",
+   "from": "That's So True",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 60,
+   "pv": 2386219,
+   "img": "img/gracie-abrams.webp",
+   "credit": {
+    "author": "Justin Higuchi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gracie_Abrams_@_El_Rey_Theatre_03_05_2022_(cropped).jpg"
+   }
+  },
+  {
+   "id": "nick-jonas",
+   "name": "Nick Jonas",
+   "from": "Jonas Brothers",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 58,
+   "pv": 2115722,
+   "img": "img/nick-jonas.webp",
+   "credit": {
+    "author": "Dublin International Film Festival",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nick_Jonas_at_DIFF_2026.jpg"
+   }
+  },
+  {
+   "id": "tate-mcrae",
+   "name": "Tate McRae",
+   "from": "Greedy",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 56,
+   "pv": 1990804,
+   "img": "img/tate-mcrae.webp",
+   "credit": {
+    "author": "Patrick Cristiano",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tate_McRae_in_Manila_01_(cropped)_2.jpg"
+   }
+  },
+  {
+   "id": "benson-boone",
+   "name": "Benson Boone",
+   "from": "Beautiful Things",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 54,
+   "pv": 1975434,
+   "img": "img/benson-boone.webp",
+   "credit": {
+    "author": "Warner Records",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Benson_Boone_Press_Copy_Warner_Records_(cropped).png"
+   }
+  },
+  {
+   "id": "the-weeknd",
+   "name": "The Weeknd",
+   "from": "Blinding Lights",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 52,
+   "pv": 1911818,
+   "img": "img/the-weeknd.webp",
+   "credit": {
+    "author": "Brian Ziff",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Weeknd_Portrait_by_Brian_Ziff.jpg"
+   }
+  },
+  {
+   "id": "halsey",
+   "name": "Halsey",
+   "from": "Without Me",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 49,
+   "pv": 1866708,
+   "img": "img/halsey.webp",
+   "credit": {
+    "author": "Justin Higuchi",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halsey_@_Hollywood_Forever_10_14_2025_(54925500921).jpg"
+   }
+  },
+  {
+   "id": "adele",
+   "name": "Adele",
+   "from": "Hello",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 47,
+   "pv": 1767528,
+   "img": "img/adele.webp",
+   "credit": {
+    "author": "Marc E.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Adele_2016.jpg"
+   }
+  },
+  {
+   "id": "charlie-puth",
+   "name": "Charlie Puth",
+   "from": "Attention",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 45,
+   "pv": 1676913,
+   "img": "img/charlie-puth.webp",
+   "credit": {
+    "author": "Juan J. Carlos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Charlie_Puth.jpg"
+   }
+  },
+  {
+   "id": "zayn-malik",
+   "name": "Zayn Malik",
+   "from": "One Direction",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 43,
+   "pv": 1668946,
+   "img": "img/zayn-malik.webp",
+   "credit": {
+    "author": "First Access Entertainment",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zayn_Wiki_(cropped).jpg"
+   }
+  },
+  {
+   "id": "joe-jonas",
+   "name": "Joe Jonas",
+   "from": "Jonas Brothers",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 41,
+   "pv": 1578297,
+   "img": "img/joe-jonas.webp",
+   "credit": {
+    "author": "NotAnotherAKA",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Jonas_Raleigh_928_(cropped).jpg"
+   }
+  },
+  {
+   "id": "demi-lovato",
+   "name": "Demi Lovato",
+   "from": "Sorry Not Sorry",
+   "gender": "x",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 39,
+   "pv": 1545931,
+   "img": "img/demi-lovato.webp",
+   "credit": {
+    "author": "Ashley Graham",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Demi_Lovato_Interview_Feb_2020.png"
+   }
+  },
+  {
+   "id": "christina-aguilera",
+   "name": "Christina Aguilera",
+   "from": "Genie in a Bottle",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 37,
+   "pv": 1543581,
+   "img": "img/christina-aguilera.webp",
+   "credit": {
+    "author": "nagi usano from Tokyo, Japan",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Christina_Aguilera_2019_Disney_Legends_Awards_Ceremony_D23_EXPO_2019_(51440742748)_(cropped3).jpg"
+   }
+  },
+  {
+   "id": "teddy-swims",
+   "name": "Teddy Swims",
+   "from": "Lose Control",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 35,
+   "pv": 1493531,
+   "img": "img/teddy-swims.webp",
+   "credit": {
+    "author": "Warner Records",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Teddy_Swims_Warner_Records_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sia",
+   "name": "Sia",
+   "from": "Chandelier",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 33,
+   "pv": 1326262,
+   "img": "img/sia.webp",
+   "credit": {
+    "author": "Sia performing at The Parish (a music venue) during SxSW in Austin, 2006",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sia_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "doja-cat",
+   "name": "Doja Cat",
+   "from": "Say So",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 30,
+   "pv": 1249633,
+   "img": "img/doja-cat.webp",
+   "credit": {
+    "author": "Nate the Director",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Doja_Cat_x_Amazon1.1_(cropped).jpg"
+   }
+  },
+  {
+   "id": "meghan-trainor",
+   "name": "Meghan Trainor",
+   "from": "All About That Bass",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 28,
+   "pv": 1004894,
+   "img": "img/meghan-trainor.webp",
+   "credit": {
+    "author": "Macy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Meghan_Trainor_in_2024_(cropped).jpg"
+   }
+  },
+  {
+   "id": "niall-horan",
+   "name": "Niall Horan",
+   "from": "One Direction",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 26,
+   "pv": 1002514,
+   "img": "img/niall-horan.webp",
+   "credit": {
+    "author": "iHeartRadioCA",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Niall_Horan_on_iHeartRadio_Canada_in_2023_(1)_(cropped).png"
+   }
+  },
+  {
+   "id": "lorde",
+   "name": "Lorde",
+   "from": "Royals",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 24,
+   "pv": 949488,
+   "img": "img/lorde.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lorde_Glasto2025-9_(cropped).jpg"
+   }
+  },
+  {
+   "id": "shawn-mendes",
+   "name": "Shawn Mendes",
+   "from": "Stitches",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 22,
+   "pv": 905247,
+   "img": "img/shawn-mendes.webp",
+   "credit": {
+    "author": "Cosmopolitan UK",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:191125_Shawn_Mendes_at_the_2019_American_Music_Awards.png"
+   }
+  },
+  {
+   "id": "camila-cabello",
+   "name": "Camila Cabello",
+   "from": "Havana",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 20,
+   "pv": 903243,
+   "img": "img/camila-cabello.webp",
+   "credit": {
+    "author": "ReverendPoppins",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Camila_Cabello_Sundance_2024_Cropped_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bebe-rexha",
+   "name": "Bebe Rexha",
+   "from": "Meant to Be",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 18,
+   "pv": 859230,
+   "img": "img/bebe-rexha.webp",
+   "credit": {
+    "author": "jus10h",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bebe_Rexha_at_the_Grammy_Museum,_September_2026_02_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sam-smith",
+   "name": "Sam Smith",
+   "from": "Stay with Me",
+   "gender": "x",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 16,
+   "pv": 813421,
+   "img": "img/sam-smith.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SamSmith-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "louis-tomlinson",
+   "name": "Louis Tomlinson",
+   "from": "One Direction",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 14,
+   "pv": 768827,
+   "img": "img/louis-tomlinson.webp",
+   "credit": {
+    "author": "MTV International",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Louis_Tomlinson_2019_MTV.png"
+   }
+  },
+  {
+   "id": "troye-sivan",
+   "name": "Troye Sivan",
+   "from": "Rush",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 12,
+   "pv": 704904,
+   "img": "img/troye-sivan.webp",
+   "credit": {
+    "author": "PURE HONEY",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Troye_Sivan_-_1999_-_Primavera_Sound_Barcelona_-_2024.jpg"
+   }
+  },
+  {
+   "id": "carly-rae-jepsen",
+   "name": "Carly Rae Jepsen",
+   "from": "Call Me Maybe",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 9,
+   "pv": 703201,
+   "img": "img/carly-rae-jepsen.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Carly_Rae_Jepsen_Primavera19_-146_(48986111926)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "conan-gray",
+   "name": "Conan Gray",
+   "from": "Heather",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 7,
+   "pv": 693323,
+   "img": "img/conan-gray.webp",
+   "credit": {
+    "author": "Dillon Matthew",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CGPRESS@dillonmatthewc3_(1).tif"
+   }
+  },
+  {
+   "id": "jason-derulo",
+   "name": "Jason Derulo",
+   "from": "Talk Dirty",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 5,
+   "pv": 648730,
+   "img": "img/jason-derulo.webp",
+   "credit": {
+    "author": "Amy Martin Photography",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jason_Derulo_2.0.jpg"
+   }
+  },
+  {
+   "id": "lizzo",
+   "name": "Lizzo",
+   "from": "Truth Hurts",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 3,
+   "pv": 646308,
+   "img": "img/lizzo.webp",
+   "credit": {
+    "author": "MILLION DOLLAZ WORTH OF GAME",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lizzo_September_2025.png"
+   }
+  },
+  {
+   "id": "ava-max",
+   "name": "Ava Max",
+   "from": "Sweet but Psycho",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "pop-stars"
+   ],
+   "fame": 1,
+   "pv": 400157,
+   "img": "img/ava-max.webp",
+   "credit": {
+    "author": "Nuță Lucian from Cluj-Napoca, Romania",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ava_Max_-_Untold_2023_(53114555775)_(cropped).jpg"
+   }
+  }
+ ]
+}

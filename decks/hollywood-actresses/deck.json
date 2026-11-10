@@ -1,0 +1,967 @@
+{
+ "id": "hollywood-actresses",
+ "title": "Hollywood Actresses",
+ "cat": "film",
+ "people": [
+  {
+   "id": "zendaya",
+   "name": "Zendaya",
+   "from": "Euphoria",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 100,
+   "pv": 12131858,
+   "img": "img/zendaya.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zendaya-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "sydney-sweeney",
+   "name": "Sydney Sweeney",
+   "from": "Euphoria",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 98,
+   "pv": 9098307,
+   "img": "img/sydney-sweeney.webp",
+   "credit": {
+    "author": "Jay Dixit",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sydney_Sweeney_at_the_2024_Toronto_International_Film_Festival_01_(3x4_cropped_and_rotated).jpg"
+   }
+  },
+  {
+   "id": "anne-hathaway",
+   "name": "Anne Hathaway",
+   "from": "The Devil Wears Prada",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 96,
+   "pv": 8962804,
+   "img": "img/anne-hathaway.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:AnneHathaway-byPhilipRomano-Crop.jpg"
+   }
+  },
+  {
+   "id": "scarlett-johansson",
+   "name": "Scarlett Johansson",
+   "from": "Black Widow",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 94,
+   "pv": 5316165,
+   "img": "img/scarlett-johansson.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Scarlett_Johansson-8588.jpg"
+   }
+  },
+  {
+   "id": "hailee-steinfeld",
+   "name": "Hailee Steinfeld",
+   "from": "True Grit",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 92,
+   "pv": 5076522,
+   "img": "img/hailee-steinfeld.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hailee_Steinfeld_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "charlize-theron",
+   "name": "Charlize Theron",
+   "from": "Mad Max: Fury Road",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 89,
+   "pv": 4851932,
+   "img": "img/charlize-theron.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:CharlizeTheron-byPhilipRomano2.jpg"
+   }
+  },
+  {
+   "id": "dakota-johnson",
+   "name": "Dakota Johnson",
+   "from": "Fifty Shades",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 87,
+   "pv": 4661574,
+   "img": "img/dakota-johnson.webp",
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dakota_Johnson_at_the_2025_Cannes_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "emily-blunt",
+   "name": "Emily Blunt",
+   "from": "A Quiet Place",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 85,
+   "pv": 4619933,
+   "img": "img/emily-blunt.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emily_Blunt_at_WWD_Style_Awards_2026-02.jpg"
+   }
+  },
+  {
+   "id": "mia-goth",
+   "name": "Mia Goth",
+   "from": "Pearl",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 83,
+   "pv": 4572538,
+   "img": "img/mia-goth.webp",
+   "credit": {
+    "author": "LucaFazPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mia_Goth_at_82nd_Venice_International_Film_Festival-1_(cropped).jpg"
+   }
+  },
+  {
+   "id": "nicole-kidman",
+   "name": "Nicole Kidman",
+   "from": "Moulin Rouge!",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 81,
+   "pv": 4359335,
+   "img": "img/nicole-kidman.webp",
+   "credit": {
+    "author": "Martin Kraft",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MKr384262_Nicole_Kidman_(Women_In_Motion,_Cannes_2025).jpg"
+   }
+  },
+  {
+   "id": "florence-pugh",
+   "name": "Florence Pugh",
+   "from": "Little Women",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 79,
+   "pv": 4308088,
+   "img": "img/florence-pugh.webp",
+   "credit": {
+    "author": "Marlene Landu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Florence_Pugh_2026.jpg"
+   }
+  },
+  {
+   "id": "meryl-streep",
+   "name": "Meryl Streep",
+   "from": "The Devil Wears Prada",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 77,
+   "pv": 4263374,
+   "img": "img/meryl-streep.webp",
+   "credit": {
+    "author": "Ministry of culture, sports and Tourism- Lee Jeong-woo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Meryl_Streep-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194765350_(cropped1).jpg"
+   }
+  },
+  {
+   "id": "jennifer-lawrence",
+   "name": "Jennifer Lawrence",
+   "from": "The Hunger Games",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 75,
+   "pv": 4143278,
+   "img": "img/jennifer-lawrence.webp",
+   "credit": {
+    "author": "Ciné Zooms 2",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jennifer_Lawrence,_Cannes_Film_Festival_2025.jpg"
+   }
+  },
+  {
+   "id": "elle-fanning",
+   "name": "Elle Fanning",
+   "from": "The Great",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 73,
+   "pv": 4124818,
+   "img": "img/elle-fanning.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elle_Fanning_by_Gage_Skidmore_2.jpg"
+   }
+  },
+  {
+   "id": "anya-taylor-joy",
+   "name": "Anya Taylor-Joy",
+   "from": "The Queen's Gambit",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 71,
+   "pv": 4063615,
+   "img": "img/anya-taylor-joy.webp",
+   "credit": {
+    "author": "Sara Komatsu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anya_Taylor-Joy_at_the_2025_Toronto_International_Film_Festival._07_(cropped).jpg"
+   }
+  },
+  {
+   "id": "rachel-mcadams",
+   "name": "Rachel McAdams",
+   "from": "The Notebook",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 68,
+   "pv": 3971352,
+   "img": "img/rachel-mcadams.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rachel_McAdams_-_Walk_of_Fame.jpg"
+   }
+  },
+  {
+   "id": "zoe-saldana",
+   "name": "Zoe Saldaña",
+   "from": "Avatar",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 66,
+   "pv": 3907811,
+   "img": "img/zoe-saldana.webp",
+   "credit": {
+    "author": "Kevin Payravi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Zoe_Salda%C3%B1a_at_the_2024_Toronto_International_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sandra-bullock",
+   "name": "Sandra Bullock",
+   "from": "Gravity",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 64,
+   "pv": 3888545,
+   "img": "img/sandra-bullock.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandra_Bullock_at_The_Egyptian_Theatre_2024.jpg"
+   }
+  },
+  {
+   "id": "demi-moore",
+   "name": "Demi Moore",
+   "from": "The Substance",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 62,
+   "pv": 3747608,
+   "img": "img/demi-moore.webp",
+   "credit": {
+    "author": "Gabriel Hutchinson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Demi_Moore_at_the_2026_Cannes_Film_Festival_(cropped).jpg"
+   }
+  },
+  {
+   "id": "angelina-jolie",
+   "name": "Angelina Jolie",
+   "from": "Maleficent",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 60,
+   "pv": 3745183,
+   "img": "img/angelina-jolie.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Angelina_Jolie-643531_(cropped).jpg"
+   }
+  },
+  {
+   "id": "margot-robbie",
+   "name": "Margot Robbie",
+   "from": "Barbie",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 58,
+   "pv": 3627497,
+   "img": "img/margot-robbie.webp",
+   "credit": {
+    "author": "Ondine Goat",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Margot_Robbie_Wuthering_Heights_premiere_(cropped).jpg"
+   }
+  },
+  {
+   "id": "cynthia-erivo",
+   "name": "Cynthia Erivo",
+   "from": "Wicked",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 56,
+   "pv": 3578704,
+   "img": "img/cynthia-erivo.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cynthia_Erivo_-_Wicked-FYC-2_(cropped).jpg"
+   }
+  },
+  {
+   "id": "emma-stone",
+   "name": "Emma Stone",
+   "from": "La La Land",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 54,
+   "pv": 3474473,
+   "img": "img/emma-stone.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emma_Stone_at_the_2025_Venice_Film_Festival-6313_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jennifer-aniston",
+   "name": "Jennifer Aniston",
+   "from": "Friends",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 52,
+   "pv": 3304906,
+   "img": "img/jennifer-aniston.webp",
+   "credit": {
+    "author": "Angela George",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JenniferAnistonHWoFFeb2012.jpg"
+   }
+  },
+  {
+   "id": "natalie-portman",
+   "name": "Natalie Portman",
+   "from": "Black Swan",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 49,
+   "pv": 3294068,
+   "img": "img/natalie-portman.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NataliePortman.jpg"
+   }
+  },
+  {
+   "id": "rebecca-ferguson",
+   "name": "Rebecca Ferguson",
+   "from": "Dune",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 47,
+   "pv": 3260070,
+   "img": "img/rebecca-ferguson.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rebecca_Ferguson_A_House_of_Dynamite-67_(cropped2).jpg"
+   }
+  },
+  {
+   "id": "ana-de-armas",
+   "name": "Ana de Armas",
+   "from": "Knives Out",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 45,
+   "pv": 3158624,
+   "img": "img/ana-de-armas.webp",
+   "credit": {
+    "author": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ana_de_Armas_(54462619561)_(cropped_3).jpg"
+   }
+  },
+  {
+   "id": "julia-roberts",
+   "name": "Julia Roberts",
+   "from": "Pretty Woman",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 43,
+   "pv": 3120553,
+   "img": "img/julia-roberts.webp",
+   "credit": {
+    "author": "Colleen Sturtevant",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Julia_Roberts_2025.jpg"
+   }
+  },
+  {
+   "id": "emma-watson",
+   "name": "Emma Watson",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 41,
+   "pv": 2850165,
+   "img": "img/emma-watson.webp",
+   "credit": {
+    "author": "Georges Biard",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Emma_Watson_2013.jpg"
+   }
+  },
+  {
+   "id": "reese-witherspoon",
+   "name": "Reese Witherspoon",
+   "from": "Legally Blonde",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 39,
+   "pv": 2758125,
+   "img": "img/reese-witherspoon.webp",
+   "credit": {
+    "author": "CaseyJNewell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Reese_Witherspoon_at_Nashville_Film_Festival_2026_(cropped_head_room).jpg"
+   }
+  },
+  {
+   "id": "keira-knightley",
+   "name": "Keira Knightley",
+   "from": "Pirates of the Caribbean",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 37,
+   "pv": 2574085,
+   "img": "img/keira-knightley.webp",
+   "credit": {
+    "author": "The Standard",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Knightley_Bafta_2015_07.png"
+   }
+  },
+  {
+   "id": "halle-berry",
+   "name": "Halle Berry",
+   "from": "Monster's Ball",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 35,
+   "pv": 2440776,
+   "img": "img/halle-berry.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Halle_Berry-1910.jpg"
+   }
+  },
+  {
+   "id": "lupita-nyong-o",
+   "name": "Lupita Nyong'o",
+   "from": "12 Years a Slave",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 33,
+   "pv": 2438140,
+   "img": "img/lupita-nyong-o.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:LupitaNyongo-byPhilipRomano3.jpg"
+   }
+  },
+  {
+   "id": "kristen-stewart",
+   "name": "Kristen Stewart",
+   "from": "Twilight",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 30,
+   "pv": 2372956,
+   "img": "img/kristen-stewart.webp",
+   "credit": {
+    "author": "Kevin Paul",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kristen_Stewart_at_WWD_Style_Awards_2026.jpg"
+   }
+  },
+  {
+   "id": "jenna-ortega",
+   "name": "Jenna Ortega",
+   "from": "Wednesday",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 28,
+   "pv": 2318814,
+   "img": "img/jenna-ortega.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jenna_Ortega-63799_(cropped).jpg"
+   }
+  },
+  {
+   "id": "amy-adams",
+   "name": "Amy Adams",
+   "from": "Arrival",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 26,
+   "pv": 2276005,
+   "img": "img/amy-adams.webp",
+   "credit": {
+    "author": "Sara Komatsu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amy_Adams_at_the_2024_Toronto_International_Film_Festival._03_(cropped).jpg"
+   }
+  },
+  {
+   "id": "saoirse-ronan",
+   "name": "Saoirse Ronan",
+   "from": "Lady Bird",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 24,
+   "pv": 2190745,
+   "img": "img/saoirse-ronan.webp",
+   "credit": {
+    "author": "Martin Kraft",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MKr349648_Saoirse_Ronan_(The_Outrun,_Berlinale_2024).jpg"
+   }
+  },
+  {
+   "id": "glenn-close",
+   "name": "Glenn Close",
+   "from": "Fatal Attraction",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 22,
+   "pv": 2123516,
+   "img": "img/glenn-close.webp",
+   "credit": {
+    "author": "Max Surprenant",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Glenn_Close_TIFF_2025_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jessica-chastain",
+   "name": "Jessica Chastain",
+   "from": "Zero Dark Thirty",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 20,
+   "pv": 2115731,
+   "img": "img/jessica-chastain.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jessica_Chastain-64631_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gal-gadot",
+   "name": "Gal Gadot",
+   "from": "Wonder Woman",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 18,
+   "pv": 2000541,
+   "img": "img/gal-gadot.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gal_Gadot_by_Gage_Skidmore_3.jpg"
+   }
+  },
+  {
+   "id": "cate-blanchett",
+   "name": "Cate Blanchett",
+   "from": "Tár",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 16,
+   "pv": 1866048,
+   "img": "img/cate-blanchett.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cate_Blanchett-63298_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "michelle-yeoh",
+   "name": "Michelle Yeoh",
+   "from": "Everything Everywhere",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 14,
+   "pv": 1744153,
+   "img": "img/michelle-yeoh.webp",
+   "credit": {
+    "author": "Harald Krichel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Michelle_Yeoh-2268.jpg"
+   }
+  },
+  {
+   "id": "rachel-zegler",
+   "name": "Rachel Zegler",
+   "from": "West Side Story",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 12,
+   "pv": 1601431,
+   "img": "img/rachel-zegler.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RachelZegler-byPhilipRomano4crop.jpg"
+   }
+  },
+  {
+   "id": "jodie-comer",
+   "name": "Jodie Comer",
+   "from": "Killing Eve",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 9,
+   "pv": 1547656,
+   "img": "img/jodie-comer.webp",
+   "credit": {
+    "author": "https://www.flickr.com/photos/drlovell/",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jodie_Comer,_The_Bikeriders_premiere.jpg"
+   }
+  },
+  {
+   "id": "awkwafina",
+   "name": "Awkwafina",
+   "from": "The Farewell",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 7,
+   "pv": 1298442,
+   "img": "img/awkwafina.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Awkwafina_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "viola-davis",
+   "name": "Viola Davis",
+   "from": "Fences",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 5,
+   "pv": 1282797,
+   "img": "img/viola-davis.webp",
+   "credit": {
+    "author": "Maryland GovPics",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Viola_Davis_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "octavia-spencer",
+   "name": "Octavia Spencer",
+   "from": "Hidden Figures",
+   "gender": "f",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 3,
+   "pv": 1062482,
+   "img": "img/octavia-spencer.webp",
+   "credit": {
+    "author": "Aubrey Gemignani",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:%22Hidden_Figures%22_Screening_at_the_White_House_(NHQ201612150008)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lily-gladstone",
+   "name": "Lily Gladstone",
+   "from": "Killers of the Flower Moon",
+   "gender": "x",
+   "kind": "actor",
+   "tags": [
+    "actor",
+    "hollywood-actresses"
+   ],
+   "fame": 1,
+   "pv": 479900,
+   "img": "img/lily-gladstone.webp",
+   "credit": {
+    "author": "Frank Sun",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lily_Gladstone_at_the_2024_Cannes_Film_Festival_(cropped).jpg"
+   }
+  }
+ ]
+}

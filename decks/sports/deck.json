@@ -16,7 +16,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Aaron_Judge_posing_with_Donald_Trump_2025-09-11_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1084712,
+   "fame": 37
   },
   {
    "id": "alex-morgan",
@@ -32,7 +34,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Alex_Morgan_May19.jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 411938,
+   "fame": 4
   },
   {
    "id": "arnold-palmer",
@@ -49,7 +53,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:YN3ArnoldPalmer.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 496303,
+   "fame": 10
   },
   {
    "id": "babe-ruth",
@@ -66,7 +72,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Babe_Ruth2.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1692231,
+   "fame": 48
   },
   {
    "id": "billie-jean-king",
@@ -82,7 +90,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Billie_Jean_King_at_the_2026_Sundance_Film_Festival_02_(crop_2).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 839880,
+   "fame": 23
   },
   {
    "id": "bo-jackson",
@@ -98,7 +108,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Bo_Jackson,_2011_NCAA_Honors_Celebration,_San_Antonio,_TX.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 970311,
+   "fame": 29
   },
   {
    "id": "bryce-harper",
@@ -114,7 +126,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Bryce_Harper_Stare_Down_Pregame_from_Nationals_vs._Phillies_at_Nationals_Park,_May_13th,_2021_(All-Pro_Reels_Photography)_(51188354283)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 619067,
+   "fame": 15
   },
   {
    "id": "caitlin-clark",
@@ -130,7 +144,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Caitlin_Clark_12_United_States_20260913_(6)_(cropped).JPG"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2116358,
+   "fame": 59
   },
   {
    "id": "coco-gauff",
@@ -146,7 +162,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Coco_Gauff_Miami_Open.jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1886030,
+   "fame": 53
   },
   {
    "id": "cristiano-ronaldo",
@@ -162,7 +180,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 15559812,
+   "fame": 100
   },
   {
    "id": "dale-earnhardt-jr",
@@ -178,7 +198,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Dale_Earnhardt_Jr.,_2025_Fall_Phoenix_4.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 624523,
+   "fame": 17
   },
   {
    "id": "david-beckham",
@@ -194,7 +216,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:David_Beckham_UNICEF_(cropped2).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 4338293,
+   "fame": 89
   },
   {
    "id": "derek-jeter",
@@ -210,7 +234,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Derek_Jeter_during_MLB_on_Fox_pre-game_show,_October_16,_2024_-_001_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1027391,
+   "fame": 36
   },
   {
    "id": "dirk-nowitzki",
@@ -226,7 +252,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Dirk_Nowitzki_2_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 742440,
+   "fame": 20
   },
   {
    "id": "giannis-antetokounmpo",
@@ -242,7 +270,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Giannis_Antetokounmpo_(51915153421)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2133788,
+   "fame": 64
   },
   {
    "id": "ichiro-suzuki",
@@ -258,7 +288,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Ichiro_Suzuki_(51007034081)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 454354,
+   "fame": 6
   },
   {
    "id": "jackie-robinson",
@@ -275,7 +307,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1398358,
+   "fame": 42
   },
   {
    "id": "jerry-rice",
@@ -291,7 +325,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Super_Bowl_44_Miami_Florida_NFL_Network_South_Beach_Set_Deon_Sanders_interviews_Jerry_Rice_(4331549867)_(cropped)_-_Jerry_Rice.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 721768,
+   "fame": 18
   },
   {
    "id": "joe-montana",
@@ -307,7 +343,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Joe_Montana_ESPN_cropped2.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1010540,
+   "fame": 32
   },
   {
    "id": "kareem-abdul-jabbar",
@@ -323,7 +361,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kareem_Abdul-Jabbar_May_2014.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1809340,
+   "fame": 50
   },
   {
    "id": "karl-malone",
@@ -339,7 +379,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:NBA_HOF%E2%80%99er_Karl_Malone_visits_Barksdale_(9)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 926338,
+   "fame": 28
   },
   {
    "id": "katie-ledecky",
@@ -355,7 +397,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Katie_Ledecky_at_the_2023_Golden_Goggle_Awards_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 476775,
+   "fame": 9
   },
   {
    "id": "kevin-durant",
@@ -371,7 +415,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kevin_Durant,_Paris_2024_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2122079,
+   "fame": 62
   },
   {
    "id": "kobe-bryant",
@@ -387,7 +433,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kobe_Bryant_Dec_2014.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3182629,
+   "fame": 78
   },
   {
    "id": "kristi-yamaguchi",
@@ -403,7 +451,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kristi_Yamaguchi.png"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 347581,
+   "fame": 1
   },
   {
    "id": "kylian-mbappe",
@@ -419,7 +469,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kylian_Mbappe_France_v_Senegal_16_June_2026-391_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 10022952,
+   "fame": 97
   },
   {
    "id": "lebron-james",
@@ -435,7 +487,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:LeBron_James_(51959977144)_(cropped2).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 6773196,
+   "fame": 95
   },
   {
    "id": "lewis-hamilton",
@@ -451,7 +505,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_meets_Sir_Lewis_Hamilton_(54566928382)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 4745738,
+   "fame": 91
   },
   {
    "id": "lindsey-vonn",
@@ -467,7 +523,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Lindsey_Vonn_-_240422_181204_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3553827,
+   "fame": 83
   },
   {
    "id": "lionel-messi",
@@ -483,7 +541,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 15312910,
+   "fame": 98
   },
   {
    "id": "magic-johnson",
@@ -499,7 +559,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Magic_Johnson_at_SXSW_2022_(51958828669)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1951160,
+   "fame": 54
   },
   {
    "id": "megan-rapinoe",
@@ -515,7 +577,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Megan_Rapinoe_(48675274817)_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 510083,
+   "fame": 12
   },
   {
    "id": "mia-hamm",
@@ -531,7 +595,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Mia_Hamm_2010_cropped.jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 383024,
+   "fame": 3
   },
   {
    "id": "michael-jordan",
@@ -547,7 +613,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Michael_jordan_admad_rashad_(51276390562)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 4332550,
+   "fame": 87
   },
   {
    "id": "michael-phelps",
@@ -563,7 +631,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Michael_Phelps_Rio_Olympics_2016.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1133465,
+   "fame": 39
   },
   {
    "id": "muhammad-ali",
@@ -580,7 +650,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3151864,
+   "fame": 76
   },
   {
    "id": "naomi-osaka",
@@ -596,7 +668,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Naomi_Osaka_(2025_DC_Open)_01_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2121139,
+   "fame": 61
   },
   {
    "id": "neymar",
@@ -612,7 +686,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 5357702,
+   "fame": 92
   },
   {
    "id": "nikola-jokic",
@@ -628,7 +704,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Nikola_Jokic_free_throw_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1592157,
+   "fame": 47
   },
   {
    "id": "novak-djokovic",
@@ -644,7 +722,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Novak_Djokovic_Paris_2024_Olympic_Games_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 4169754,
+   "fame": 86
   },
   {
    "id": "patrick-mahomes",
@@ -660,7 +740,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Patrick_Mahomes_(51615475056).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2102313,
+   "fame": 58
   },
   {
    "id": "pele",
@@ -677,7 +759,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3124205,
+   "fame": 73
   },
   {
    "id": "peyton-manning",
@@ -693,7 +777,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Peyton_Manning_(51665689271).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1818365,
+   "fame": 51
   },
   {
    "id": "rafael-nadal",
@@ -709,7 +795,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Rafael_Nadal_en_2024_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2431433,
+   "fame": 67
   },
   {
    "id": "roger-federer",
@@ -725,7 +813,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Roger_Federer_2015_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2359770,
+   "fame": 65
   },
   {
    "id": "ronda-rousey",
@@ -741,7 +831,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Rousey_HOF_2018_(cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1975749,
+   "fame": 56
   },
   {
    "id": "serena-williams",
@@ -757,7 +849,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Serena-Smiling-2020.png"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2496828,
+   "fame": 69
   },
   {
    "id": "sha-carri-richardson",
@@ -773,7 +867,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sha%27Carri_Richardson_15555_(sq_cropped).jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 813998,
+   "fame": 21
   },
   {
    "id": "shaquille-o-neal",
@@ -789,7 +885,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:TechCrunch_Disrupt_2023_-_Day_1_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3287032,
+   "fame": 81
   },
   {
    "id": "shaun-white",
@@ -805,7 +903,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Shaun_White_in_2018_181222-D-PB383-014_(46423162561)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 896792,
+   "fame": 25
   },
   {
    "id": "shohei-ohtani",
@@ -821,7 +921,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Dodgers_at_Nationals_(53677192000)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3129236,
+   "fame": 75
   },
   {
    "id": "simone-biles",
@@ -837,7 +939,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Simone_Biles_National_Team_2024.jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1022930,
+   "fame": 34
   },
   {
    "id": "stephen-curry",
@@ -853,7 +957,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Stephen_Curry_30.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3002991,
+   "fame": 72
   },
   {
    "id": "steve-young",
@@ -869,7 +975,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Steve_Young_(6837509849)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 606652,
+   "fame": 14
   },
   {
    "id": "sue-bird",
@@ -885,7 +993,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:SXSW-2024-alih-OB7A0246-Sue_Bird.jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 473800,
+   "fame": 7
   },
   {
    "id": "tiger-woods",
@@ -901,7 +1011,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_(54341713089)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 2972381,
+   "fame": 70
   },
   {
    "id": "tom-brady",
@@ -917,7 +1029,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_(cropped)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3949228,
+   "fame": 84
   },
   {
    "id": "tony-hawk",
@@ -933,7 +1047,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Tony_Hawk_2026.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 923147,
+   "fame": 26
   },
   {
    "id": "travis-kelce",
@@ -949,7 +1065,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Travis_Kelce_in_the_Oval_Office_of_the_White_House_on_June_5,_2023_-_P20230605AS-0902_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 3229928,
+   "fame": 80
   },
   {
    "id": "usain-bolt",
@@ -965,7 +1083,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_with_NX300-3.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1342350,
+   "fame": 40
   },
   {
    "id": "venus-williams",
@@ -981,7 +1101,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Venus_Williams_(2025_DC_Open)_crop.jpg"
    },
    "gender": "f",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1403706,
+   "fame": 43
   },
   {
    "id": "victor-wembanyama",
@@ -997,7 +1119,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Victor_Wembanyama_San_Antonio_Spurs_2024.jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 6006282,
+   "fame": 94
   },
   {
    "id": "wayne-gretzky",
@@ -1013,7 +1137,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Andrew_Scheer_with_Wayne_Gretzky_(48055697168)_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 1550384,
+   "fame": 45
   },
   {
    "id": "yao-ming",
@@ -1029,7 +1155,9 @@
     "source": "https://commons.wikimedia.org/wiki/File:Yao_Ming_in_2014_(cropped).jpg"
    },
    "gender": "m",
-   "kind": "sports"
+   "kind": "sports",
+   "pv": 981322,
+   "fame": 31
   }
  ]
 }

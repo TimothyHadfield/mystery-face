@@ -1,0 +1,987 @@
+{
+ "id": "rock-legends",
+ "title": "Rock Legends",
+ "cat": "music",
+ "people": [
+  {
+   "id": "elvis-presley",
+   "name": "Elvis Presley",
+   "from": "Hound Dog",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 100,
+   "pv": 5303706,
+   "img": "img/elvis-presley.webp",
+   "credit": {
+    "author": "Metro-Goldwyn-Mayer, Inc. Reproduction Number: LC-USZ6-2067 Location: NYWTS -- BIOG",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Elvis_Presley_promoting_Jailhouse_Rock.jpg"
+   }
+  },
+  {
+   "id": "freddie-mercury",
+   "name": "Freddie Mercury",
+   "from": "Queen",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 98,
+   "pv": 5147654,
+   "img": "img/freddie-mercury.webp",
+   "credit": {
+    "author": "Carl Lender",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Freddie_Mercury_performing_in_New_Haven,_CT,_November_1977.jpg"
+   }
+  },
+  {
+   "id": "paul-mccartney",
+   "name": "Paul McCartney",
+   "from": "The Beatles",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 96,
+   "pv": 4634979,
+   "img": "img/paul-mccartney.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MaccaLyricsRFH051121_(15_of_18)_(updated)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "david-bowie",
+   "name": "David Bowie",
+   "from": "Space Oddity",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 94,
+   "pv": 4080064,
+   "img": "img/david-bowie.webp",
+   "credit": {
+    "author": "Adam Bielawski",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg"
+   }
+  },
+  {
+   "id": "bob-dylan",
+   "name": "Bob Dylan",
+   "from": "Like a Rolling Stone",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 92,
+   "pv": 3699808,
+   "img": "img/bob-dylan.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DylanYoungKilkenny140719v2_(50_of_52)_(52246124397)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "john-lennon",
+   "name": "John Lennon",
+   "from": "The Beatles",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 90,
+   "pv": 3625374,
+   "img": "img/john-lennon.webp",
+   "credit": {
+    "author": "Bob Gruen; Distributed by Capitol Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Lennon_%22Walls_and_Bridges%22_1974_press_photo_2_(color)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bruce-springsteen",
+   "name": "Bruce Springsteen",
+   "from": "Born to Run",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 88,
+   "pv": 3333247,
+   "img": "img/bruce-springsteen.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bruce_Springsteen_Springsteen-79_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ozzy-osbourne",
+   "name": "Ozzy Osbourne",
+   "from": "Black Sabbath",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 86,
+   "pv": 3265277,
+   "img": "img/ozzy-osbourne.webp",
+   "credit": {
+    "author": "Warner Bros. Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ozzy_Osbourne_in_1970_(medium-sized_crop).jpg"
+   }
+  },
+  {
+   "id": "george-harrison",
+   "name": "George Harrison",
+   "from": "The Beatles",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 84,
+   "pv": 2995413,
+   "img": "img/george-harrison.webp",
+   "credit": {
+    "author": "John Kelly",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George-wa-portrait.jpg"
+   }
+  },
+  {
+   "id": "stevie-nicks",
+   "name": "Stevie Nicks",
+   "from": "Fleetwood Mac",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 81,
+   "pv": 2758599,
+   "img": "img/stevie-nicks.webp",
+   "credit": {
+    "author": "SWinxy",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Guests_at_the_2026_Met_Gala_081_(cropped).jpg"
+   }
+  },
+  {
+   "id": "chris-cornell",
+   "name": "Chris Cornell",
+   "from": "Soundgarden",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 79,
+   "pv": 2748903,
+   "img": "img/chris-cornell.webp",
+   "credit": {
+    "author": "gdcgraphics",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ChrisCornellTIFFSept2011.jpg"
+   }
+  },
+  {
+   "id": "elton-john",
+   "name": "Elton John",
+   "from": "Rocket Man",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 77,
+   "pv": 2626218,
+   "img": "img/elton-john.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:EltonDocBFILFF101024_(4_of_17)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kurt-cobain",
+   "name": "Kurt Cobain",
+   "from": "Nirvana",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 75,
+   "pv": 2561139,
+   "img": "img/kurt-cobain.webp",
+   "credit": {
+    "author": "P.B. Rage from USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nirvana_around_1992_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ringo-starr",
+   "name": "Ringo Starr",
+   "from": "The Beatles",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 73,
+   "pv": 2547998,
+   "img": "img/ringo-starr.webp",
+   "credit": {
+    "author": "dearMoon",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ARTIST_INTERVIEW_-_Ringo_Starr_(Former_the_Beatles)_exclusive_interview_0-14_screenshot_(portrait_crop).jpg"
+   }
+  },
+  {
+   "id": "chester-bennington",
+   "name": "Chester Bennington",
+   "from": "Linkin Park",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 71,
+   "pv": 2538212,
+   "img": "img/chester-bennington.webp",
+   "credit": {
+    "author": "Stefan Brending (2eight)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0327.jpg"
+   }
+  },
+  {
+   "id": "mick-jagger",
+   "name": "Mick Jagger",
+   "from": "The Rolling Stones",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 69,
+   "pv": 2413482,
+   "img": "img/mick-jagger.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RStonesHydePark030722_(49_of_125)_(52193656268)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jon-bon-jovi",
+   "name": "Jon Bon Jovi",
+   "from": "Bon Jovi",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 67,
+   "pv": 2286015,
+   "img": "img/jon-bon-jovi.webp",
+   "credit": {
+    "author": "Montclair Film",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NEG_0062-2_(54119957209).jpg"
+   }
+  },
+  {
+   "id": "jack-white",
+   "name": "Jack White",
+   "from": "The White Stripes",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 65,
+   "pv": 2267388,
+   "img": "img/jack-white.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Werchter070718_p2_(5_of_37)_(53977414178)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "eric-clapton",
+   "name": "Eric Clapton",
+   "from": "Cream",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 63,
+   "pv": 2193241,
+   "img": "img/eric-clapton.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ClaptonGingerEventim170220-38_(cropped).jpg"
+   }
+  },
+  {
+   "id": "billy-joel",
+   "name": "Billy Joel",
+   "from": "Piano Man",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 61,
+   "pv": 2108838,
+   "img": "img/billy-joel.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BillyJoelHydeP070723_(57_of_112)_(53031688782)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tina-turner",
+   "name": "Tina Turner",
+   "from": "What's Love Got to Do with It",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 59,
+   "pv": 2044365,
+   "img": "img/tina-turner.webp",
+   "credit": {
+    "author": "HBO",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tina_Turner_Breaks_All_the_Rules.png"
+   }
+  },
+  {
+   "id": "chris-martin",
+   "name": "Chris Martin",
+   "from": "Coldplay",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 57,
+   "pv": 1935835,
+   "img": "img/chris-martin.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ChrisMartinManch030623_(cropped).jpg"
+   }
+  },
+  {
+   "id": "robert-plant",
+   "name": "Robert Plant",
+   "from": "Led Zeppelin",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 55,
+   "pv": 1888613,
+   "img": "img/robert-plant.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RPlantSavGraceIpswich140324_(5_of_12)_(53589044022)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jimi-hendrix",
+   "name": "Jimi Hendrix",
+   "from": "Purple Haze",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 53,
+   "pv": 1816530,
+   "img": "img/jimi-hendrix.webp",
+   "credit": {
+    "author": "Original photographer unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jimi_Hendrix_(1967)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sting",
+   "name": "Sting",
+   "from": "The Police",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 50,
+   "pv": 1716954,
+   "img": "img/sting.webp",
+   "credit": {
+    "author": "CamilaAlves.raf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sting_at_2026_Montreux_Jazz_Festival-12-CA_(cropped).jpg"
+   }
+  },
+  {
+   "id": "dave-grohl",
+   "name": "Dave Grohl",
+   "from": "Foo Fighters",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 48,
+   "pv": 1699229,
+   "img": "img/dave-grohl.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:FoosDublin210819-6_(48620330261)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jim-morrison",
+   "name": "Jim Morrison",
+   "from": "The Doors",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 46,
+   "pv": 1564259,
+   "img": "img/jim-morrison.webp",
+   "credit": {
+    "author": "Joel Brodsky, Distributed by Elektra Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jim_Morrison_-_Young_Lion_(1967)_(1).jpg"
+   }
+  },
+  {
+   "id": "anthony-kiedis",
+   "name": "Anthony Kiedis",
+   "from": "Red Hot Chili Peppers",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 44,
+   "pv": 1551149,
+   "img": "img/anthony-kiedis.webp",
+   "credit": {
+    "author": "Hel Davies from United Kingdom",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Kiedis_2022.jpg"
+   }
+  },
+  {
+   "id": "tom-petty",
+   "name": "Tom Petty",
+   "from": "Free Fallin'",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 42,
+   "pv": 1440909,
+   "img": "img/tom-petty.webp",
+   "credit": {
+    "author": "Ирина Лепнёва",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tom_Petty_Live_in_Horsens_(cropped2).jpg"
+   }
+  },
+  {
+   "id": "slash",
+   "name": "Slash",
+   "from": "Guns N' Roses",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 40,
+   "pv": 1430176,
+   "img": "img/slash.webp",
+   "credit": {
+    "author": "Kreepin Deth",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Slash_live_in_London_2022_(Cropped_-_upright).jpg"
+   }
+  },
+  {
+   "id": "eddie-van-halen",
+   "name": "Eddie Van Halen",
+   "from": "Van Halen",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 38,
+   "pv": 1408673,
+   "img": "img/eddie-van-halen.webp",
+   "credit": {
+    "author": "Carl Lender",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eddie_Van_Halen_at_the_New_Haven_Coliseum.jpg"
+   }
+  },
+  {
+   "id": "janis-joplin",
+   "name": "Janis Joplin",
+   "from": "Piece of My Heart",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 36,
+   "pv": 1397393,
+   "img": "img/janis-joplin.webp",
+   "credit": {
+    "author": "Grossman Glotzer Management Corporation",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Janis_Joplin_1970.JPG"
+   }
+  },
+  {
+   "id": "eddie-vedder",
+   "name": "Eddie Vedder",
+   "from": "Pearl Jam",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 34,
+   "pv": 1374205,
+   "img": "img/eddie-vedder.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eddie_Vedder_2018_-2.jpg"
+   }
+  },
+  {
+   "id": "brian-may",
+   "name": "Brian May",
+   "from": "Queen",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 32,
+   "pv": 1328639,
+   "img": "img/brian-may.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brian_May_(54760284093).jpg"
+   }
+  },
+  {
+   "id": "keith-richards",
+   "name": "Keith Richards",
+   "from": "The Rolling Stones",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 30,
+   "pv": 1320217,
+   "img": "img/keith-richards.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RStonesHydePark030722_(63_of_125)_(Keith_Richards).jpg"
+   }
+  },
+  {
+   "id": "buddy-holly",
+   "name": "Buddy Holly",
+   "from": "Peggy Sue",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 28,
+   "pv": 1314108,
+   "img": "img/buddy-holly.webp",
+   "credit": {
+    "author": "Brunswick Records (photographer: James J. Kriegsmann); scan by Hulton Archive; restored by Hohum.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Buddy_Holly_Brunswick_Records.jpg"
+   }
+  },
+  {
+   "id": "billie-joe-armstrong",
+   "name": "Billie Joe Armstrong",
+   "from": "Green Day",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 26,
+   "pv": 1255148,
+   "img": "img/billie-joe-armstrong.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:GreenDayIOW230624_(307_of_367)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "debbie-harry",
+   "name": "Debbie Harry",
+   "from": "Blondie",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 24,
+   "pv": 1254665,
+   "img": "img/debbie-harry.webp",
+   "credit": {
+    "author": "The Heart Truth",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Debbie_Harry.jpg"
+   }
+  },
+  {
+   "id": "james-hetfield",
+   "name": "James Hetfield",
+   "from": "Metallica",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 22,
+   "pv": 1155921,
+   "img": "img/james-hetfield.webp",
+   "credit": {
+    "author": "4TheWynne",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Hetfield_2025_Marvel_Stadium_(8).jpg"
+   }
+  },
+  {
+   "id": "bono",
+   "name": "Bono",
+   "from": "U2",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 20,
+   "pv": 1122529,
+   "img": "img/bono.webp",
+   "credit": {
+    "author": "Daniel Hazard",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bono_singing_in_Indianapolis_on_Joshua_Tree_Tour_2017_9-10-17.jpg"
+   }
+  },
+  {
+   "id": "dan-reynolds",
+   "name": "Dan Reynolds",
+   "from": "Imagine Dragons",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 18,
+   "pv": 1084300,
+   "img": "img/dan-reynolds.webp",
+   "credit": {
+    "author": "Davidwbaker",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DanReynolds_2017-10-03_(cropped).jpg"
+   }
+  },
+  {
+   "id": "chuck-berry",
+   "name": "Chuck Berry",
+   "from": "Johnny B. Goode",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 15,
+   "pv": 1015456,
+   "img": "img/chuck-berry.webp",
+   "credit": {
+    "author": "Universal Attractions (management)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Chuck_Berry_1957.jpg"
+   }
+  },
+  {
+   "id": "angus-young",
+   "name": "Angus Young",
+   "from": "AC/DC",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 13,
+   "pv": 1010212,
+   "img": "img/angus-young.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:ACDCWembley030724_(115_of_169)_(53844255247)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "little-richard",
+   "name": "Little Richard",
+   "from": "Tutti Frutti",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 11,
+   "pv": 863239,
+   "img": "img/little-richard.webp",
+   "credit": {
+    "author": "Ian Dryden, Los Angeles Times",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Little_Richard_1984_(cropped).jpg"
+   }
+  },
+  {
+   "id": "pat-benatar",
+   "name": "Pat Benatar",
+   "from": "Hit Me with Your Best Shot",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 9,
+   "pv": 830096,
+   "img": "img/pat-benatar.webp",
+   "credit": {
+    "author": "Heidy Escobar from VALPARAISO; LAGUNA VERDE, CHILE",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:PAT_BENATAR_2007-09-07_(cropped).jpg"
+   }
+  },
+  {
+   "id": "joan-jett",
+   "name": "Joan Jett",
+   "from": "I Love Rock 'n' Roll",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 7,
+   "pv": 809486,
+   "img": "img/joan-jett.webp",
+   "credit": {
+    "author": "Toglenn",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Joan_Jett_2013.jpg"
+   }
+  },
+  {
+   "id": "pete-townshend",
+   "name": "Pete Townshend",
+   "from": "The Who",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 5,
+   "pv": 761337,
+   "img": "img/pete-townshend.webp",
+   "credit": {
+    "author": "Ross Belot",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pete_Townshend_(2012).jpg"
+   }
+  },
+  {
+   "id": "roger-daltrey",
+   "name": "Roger Daltrey",
+   "from": "The Who",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 3,
+   "pv": 557403,
+   "img": "img/roger-daltrey.webp",
+   "credit": {
+    "author": "Davidwbaker",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Roger_Daltrey_-_May_2016.jpg"
+   }
+  },
+  {
+   "id": "alex-turner",
+   "name": "Alex Turner",
+   "from": "Arctic Monkeys",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rock-legends"
+   ],
+   "fame": 1,
+   "pv": 525668,
+   "img": "img/alex-turner.webp",
+   "credit": {
+    "author": "Johnwilliamson321",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alex_Turner_The_Car_2023_Tour_Image.jpg"
+   }
+  }
+ ]
+}

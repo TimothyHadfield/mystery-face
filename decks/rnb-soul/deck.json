@@ -1,0 +1,1007 @@
+{
+ "id": "rnb-soul",
+ "title": "R&B & Soul",
+ "cat": "music",
+ "people": [
+  {
+   "id": "janet-jackson",
+   "name": "Janet Jackson",
+   "from": "Rhythm Nation",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 100,
+   "pv": 3194409,
+   "img": "img/janet-jackson.webp",
+   "credit": {
+    "author": "Rich Esteban",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JanetJacksonUnbreakableTourSanFran2015_(cropped).jpg"
+   }
+  },
+  {
+   "id": "whitney-houston",
+   "name": "Whitney Houston",
+   "from": "I Will Always Love You",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 98,
+   "pv": 2973963,
+   "img": "img/whitney-houston.webp",
+   "credit": {
+    "author": "PH2 Mark Kettenhofen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Whitney_Houston_(cropped3).JPEG"
+   }
+  },
+  {
+   "id": "mariah-carey",
+   "name": "Mariah Carey",
+   "from": "All I Want for Christmas",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 96,
+   "pv": 2913517,
+   "img": "img/mariah-carey.webp",
+   "credit": {
+    "author": "Shawn Miller",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mariah_Carey_Library_of_Congress_2023_1_Cropped_3.png"
+   }
+  },
+  {
+   "id": "beyonce",
+   "name": "Beyoncé",
+   "from": "Crazy in Love",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 94,
+   "pv": 2625411,
+   "img": "img/beyonce.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_(10_of_118)_(52946364598)_(best_crop).jpg"
+   }
+  },
+  {
+   "id": "diana-ross",
+   "name": "Diana Ross",
+   "from": "The Supremes",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 92,
+   "pv": 2447586,
+   "img": "img/diana-ross.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DRossLongleat010722_(9_of_43)_(52189231585)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tina-turner",
+   "name": "Tina Turner",
+   "from": "Proud Mary",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 90,
+   "pv": 2044365,
+   "img": "img/tina-turner.webp",
+   "credit": {
+    "author": "HBO",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tina_Turner_Breaks_All_the_Rules.png"
+   }
+  },
+  {
+   "id": "stevie-wonder",
+   "name": "Stevie Wonder",
+   "from": "Superstition",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 88,
+   "pv": 2036045,
+   "img": "img/stevie-wonder.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SWonderBSTHyde060719-72_(cropped).jpg"
+   }
+  },
+  {
+   "id": "aretha-franklin",
+   "name": "Aretha Franklin",
+   "from": "Respect",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 86,
+   "pv": 2033782,
+   "img": "img/aretha-franklin.webp",
+   "credit": {
+    "author": "Atlantic Records (Life time: Published before 1978 without a copyright notice)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Aretha_Franklin_1968.jpg"
+   }
+  },
+  {
+   "id": "lauryn-hill",
+   "name": "Lauryn Hill",
+   "from": "Doo Wop (That Thing)",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 84,
+   "pv": 1793153,
+   "img": "img/lauryn-hill.webp",
+   "credit": {
+    "author": "Tore Sætre",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lauryn_Hill_Kongsberg_Jazzfestival_2019_(221758)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "marvin-gaye",
+   "name": "Marvin Gaye",
+   "from": "What's Going On",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 82,
+   "pv": 1738334,
+   "img": "img/marvin-gaye.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Marvin_Gaye_in_1973.jpg"
+   }
+  },
+  {
+   "id": "lionel-richie",
+   "name": "Lionel Richie",
+   "from": "All Night Long",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 80,
+   "pv": 1426604,
+   "img": "img/lionel-richie.webp",
+   "credit": {
+    "author": "Shawn Miller/Library of Congress",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Lionel_Richie_2022_(51930307118)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "ray-charles",
+   "name": "Ray Charles",
+   "from": "Georgia on My Mind",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 78,
+   "pv": 1310714,
+   "img": "img/ray-charles.webp",
+   "credit": {
+    "author": "William Morris Agency (management)/Photo by Maurice Seymour, New York.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ray_Charles_classic_piano_pose.jpg"
+   }
+  },
+  {
+   "id": "alicia-keys",
+   "name": "Alicia Keys",
+   "from": "Fallin'",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 76,
+   "pv": 1277250,
+   "img": "img/alicia-keys.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Alicia_Keys_(2025).jpg"
+   }
+  },
+  {
+   "id": "james-brown",
+   "name": "James Brown",
+   "from": "I Got You (I Feel Good)",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 74,
+   "pv": 1215538,
+   "img": "img/james-brown.webp",
+   "credit": {
+    "author": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Brown_1996_(HQ).jpg"
+   }
+  },
+  {
+   "id": "kehlani",
+   "name": "Kehlani",
+   "from": "Nights Like This",
+   "gender": "x",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 72,
+   "pv": 1151059,
+   "img": "img/kehlani.webp",
+   "credit": {
+    "author": "New Zealand Warner Music",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kehlani-New-Zealand-Warner-Music-Interview.png"
+   }
+  },
+  {
+   "id": "luther-vandross",
+   "name": "Luther Vandross",
+   "from": "Never Too Much",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 70,
+   "pv": 1084183,
+   "img": "img/luther-vandross.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Luther_Vandross_1985b.jpg"
+   }
+  },
+  {
+   "id": "brandy",
+   "name": "Brandy",
+   "from": "The Boy Is Mine",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 68,
+   "pv": 1060082,
+   "img": "img/brandy.webp",
+   "credit": {
+    "author": "Mike D. Photography",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BrandyNorwood3(cropped).jpg"
+   }
+  },
+  {
+   "id": "usher",
+   "name": "Usher",
+   "from": "Yeah!",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 66,
+   "pv": 1025239,
+   "img": "img/usher.webp",
+   "credit": {
+    "author": "US Embassy Italy",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Usher_Milan_2026.jpg"
+   }
+  },
+  {
+   "id": "frank-ocean",
+   "name": "Frank Ocean",
+   "from": "Thinkin Bout You",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 64,
+   "pv": 1013193,
+   "img": "img/frank-ocean.webp",
+   "credit": {
+    "author": "Andras Ladocsi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Frank_Ocean_2022_Blonded.jpg"
+   }
+  },
+  {
+   "id": "sza",
+   "name": "SZA",
+   "from": "Kill Bill",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 62,
+   "pv": 1011515,
+   "img": "img/sza.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KendrickSZASPurs230725-19_-_54683179509_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "chaka-khan",
+   "name": "Chaka Khan",
+   "from": "I'm Every Woman",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 60,
+   "pv": 932097,
+   "img": "img/chaka-khan.webp",
+   "credit": {
+    "author": "Official artist channel",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chaka_Khan_(u1EvPKxd4Es_-_608x1080_-_0m14s).png"
+   }
+  },
+  {
+   "id": "sam-cooke",
+   "name": "Sam Cooke",
+   "from": "A Change Is Gonna Come",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 58,
+   "pv": 892664,
+   "img": "img/sam-cooke.webp",
+   "credit": {
+    "author": "RCA Victor Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sam_Cooke_2.jpg"
+   }
+  },
+  {
+   "id": "anderson-paak",
+   "name": "Anderson .Paak",
+   "from": "Silk Sonic",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 56,
+   "pv": 845657,
+   "img": "img/anderson-paak.webp",
+   "credit": {
+    "author": "John Sears",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%27K-Pops!%27_director_Anderson_.Paak_at_the_2024_Toronto_International_Film_Festival_5_(Cropped).jpg"
+   }
+  },
+  {
+   "id": "mary-j-blige",
+   "name": "Mary J. Blige",
+   "from": "Family Affair",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 54,
+   "pv": 772820,
+   "img": "img/mary-j-blige.webp",
+   "credit": {
+    "author": "WBLS",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mary_J_Blige_in_2022.png"
+   }
+  },
+  {
+   "id": "nina-simone",
+   "name": "Nina Simone",
+   "from": "Feeling Good",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 52,
+   "pv": 769110,
+   "img": "img/nina-simone.webp",
+   "credit": {
+    "author": "Gerrit de Bruin",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nina_Simone_-1969.jpg"
+   }
+  },
+  {
+   "id": "erykah-badu",
+   "name": "Erykah Badu",
+   "from": "On & On",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 49,
+   "pv": 757369,
+   "img": "img/erykah-badu.webp",
+   "credit": {
+    "author": "Danielle G. Campbell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Erykah_Badu_at_EssenceFest_2025_-_01_crop.jpg"
+   }
+  },
+  {
+   "id": "otis-redding",
+   "name": "Otis Redding",
+   "from": "Dock of the Bay",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 47,
+   "pv": 733336,
+   "img": "img/otis-redding.webp",
+   "credit": {
+    "author": "Stax Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Otis_Redding_1967.JPG"
+   }
+  },
+  {
+   "id": "john-legend",
+   "name": "John Legend",
+   "from": "All of Me",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 45,
+   "pv": 729638,
+   "img": "img/john-legend.webp",
+   "credit": {
+    "author": "PhilipRomanoPhoto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JohnLegend-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "h-e-r",
+   "name": "H.E.R.",
+   "from": "Focus",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 43,
+   "pv": 726631,
+   "img": "img/h-e-r.webp",
+   "credit": {
+    "author": "Authentic Culture Network",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:H.E.R._at_Billboard_Women_In_Music,_March_2022.jpg"
+   }
+  },
+  {
+   "id": "toni-braxton",
+   "name": "Toni Braxton",
+   "from": "Un-Break My Heart",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 41,
+   "pv": 669821,
+   "img": "img/toni-braxton.webp",
+   "credit": {
+    "author": "Umusic",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toni_Braxton_press_photo_2015.png"
+   }
+  },
+  {
+   "id": "al-green",
+   "name": "Al Green",
+   "from": "Let's Stay Together",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 39,
+   "pv": 667380,
+   "img": "img/al-green.webp",
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Al_Green_in_Washington_D.C_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jhene-aiko",
+   "name": "Jhené Aiko",
+   "from": "Sativa",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 37,
+   "pv": 640094,
+   "img": "img/jhene-aiko.webp",
+   "credit": {
+    "author": "The Come Up Show from Canada",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jhen%C3%A9_Aiko_(cropped).jpg"
+   }
+  },
+  {
+   "id": "smokey-robinson",
+   "name": "Smokey Robinson",
+   "from": "The Miracles",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 35,
+   "pv": 632224,
+   "img": "img/smokey-robinson.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Smokey_Robinson_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "gladys-knight",
+   "name": "Gladys Knight",
+   "from": "Midnight Train to Georgia",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 33,
+   "pv": 608297,
+   "img": "img/gladys-knight.webp",
+   "credit": {
+    "author": "John Mathew Smith & www.celebrity-photos.com",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gladys_Knight_(1997).jpg"
+   }
+  },
+  {
+   "id": "ne-yo",
+   "name": "Ne-Yo",
+   "from": "So Sick",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 31,
+   "pv": 595699,
+   "img": "img/ne-yo.webp",
+   "credit": {
+    "author": "WBLS",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ne_Yo_2025.png"
+   }
+  },
+  {
+   "id": "patti-labelle",
+   "name": "Patti LaBelle",
+   "from": "Lady Marmalade",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 29,
+   "pv": 589643,
+   "img": "img/patti-labelle.webp",
+   "credit": {
+    "author": "Danielle G. Campbell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Patti_Labelle_at_Black_Excellence_Brunch_New_Orleans_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "etta-james",
+   "name": "Etta James",
+   "from": "At Last",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 27,
+   "pv": 502219,
+   "img": "img/etta-james.webp",
+   "credit": {
+    "author": "Roland Godefroy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Etta_James04.JPG"
+   }
+  },
+  {
+   "id": "bill-withers",
+   "name": "Bill Withers",
+   "from": "Lean on Me",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 25,
+   "pv": 477387,
+   "img": "img/bill-withers.webp",
+   "credit": {
+    "author": "Columbia Records",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Withers_1976.JPG"
+   }
+  },
+  {
+   "id": "babyface",
+   "name": "Babyface",
+   "from": "producer",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 23,
+   "pv": 462186,
+   "img": "img/babyface.webp",
+   "credit": {
+    "author": "Angela George",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:KennethBabyfaceEdmondsHWOFMay2013.jpg"
+   }
+  },
+  {
+   "id": "daniel-caesar",
+   "name": "Daniel Caesar",
+   "from": "Best Part",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 21,
+   "pv": 426869,
+   "img": "img/daniel-caesar.webp",
+   "credit": {
+    "author": "Raph_PH",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Daniel_Caesar_-_Coachella_2018.jpg"
+   }
+  },
+  {
+   "id": "tems",
+   "name": "Tems",
+   "from": "Free Mind",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 19,
+   "pv": 426681,
+   "img": "img/tems.webp",
+   "credit": {
+    "author": "Maryland GovPics",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tems_Afro_Plus_Fest_(55514652102).jpg"
+   }
+  },
+  {
+   "id": "monica",
+   "name": "Monica",
+   "from": "The Boy Is Mine",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 17,
+   "pv": 299667,
+   "img": "img/monica.webp",
+   "credit": {
+    "author": "WBLS",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Monica_Sep_2019_(2).png"
+   }
+  },
+  {
+   "id": "summer-walker",
+   "name": "Summer Walker",
+   "from": "Girls Need Love",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 15,
+   "pv": 291525,
+   "img": "img/summer-walker.webp",
+   "credit": {
+    "author": "Indigault",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:SW2025.jpg"
+   }
+  },
+  {
+   "id": "victoria-monet",
+   "name": "Victoria Monét",
+   "from": "On My Mama",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 13,
+   "pv": 281002,
+   "img": "img/victoria-monet.webp",
+   "credit": {
+    "author": "HOTSPOTATL",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Victoria_Mon%C3%A9t_WHTA_2023.png"
+   }
+  },
+  {
+   "id": "brent-faiyaz",
+   "name": "Brent Faiyaz",
+   "from": "Dead Man Walking",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 11,
+   "pv": 262461,
+   "img": "img/brent-faiyaz.webp",
+   "credit": {
+    "author": "Hopex9",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Brent_Faiyaz_Live.jpg"
+   }
+  },
+  {
+   "id": "anita-baker",
+   "name": "Anita Baker",
+   "from": "Sweet Love",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 9,
+   "pv": 241212,
+   "img": "img/anita-baker.webp",
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anita_Baker_1998.jpg"
+   }
+  },
+  {
+   "id": "leon-bridges",
+   "name": "Leon Bridges",
+   "from": "Coming Home",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 7,
+   "pv": 217981,
+   "img": "img/leon-bridges.webp",
+   "credit": {
+    "author": "erintheredmc",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Leon_Bridges_-_First_Avenue_-_Gold-Diggers_Sound_-_10-02-2021_-_109_(cropped).jpg"
+   }
+  },
+  {
+   "id": "muni-long",
+   "name": "Muni Long",
+   "from": "Hrs and Hrs",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 5,
+   "pv": 197536,
+   "img": "img/muni-long.webp",
+   "credit": {
+    "author": "Danielle G. Campbell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Muni_Long_at_EssenceFest_2025_-_01_-_cropped.jpg"
+   }
+  },
+  {
+   "id": "giveon",
+   "name": "Giveon",
+   "from": "Heartbreak Anniversary",
+   "gender": "m",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 3,
+   "pv": 192927,
+   "img": "img/giveon.webp",
+   "credit": {
+    "author": "Janeirohy",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Giveon_at_2026_Montreux_Jazz_Festival_-_Upright.png"
+   }
+  },
+  {
+   "id": "ari-lennox",
+   "name": "Ari Lennox",
+   "from": "Shea Butter Baby",
+   "gender": "f",
+   "kind": "music",
+   "tags": [
+    "music",
+    "rnb-soul"
+   ],
+   "fame": 1,
+   "pv": 139211,
+   "img": "img/ari-lennox.webp",
+   "credit": {
+    "author": "Jorvent",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ari_Lennox_5174.png"
+   }
+  }
+ ]
+}
