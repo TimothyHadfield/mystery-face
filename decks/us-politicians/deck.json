@@ -1,0 +1,967 @@
+{
+ "id": "us-politicians",
+ "title": "US Politicians",
+ "cat": "politics",
+ "people": [
+  {
+   "id": "jd-vance",
+   "name": "JD Vance",
+   "from": "Republican, Vice President",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 100,
+   "pv": 5549069,
+   "img": "img/jd-vance.webp",
+   "credit": {
+    "author": "Emily J. Higgins",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:March_2026_Official_Vice_Presidential_Portrait_of_JD_Vance_(medium_crop)_(2).jpg"
+   }
+  },
+  {
+   "id": "marco-rubio",
+   "name": "Marco Rubio",
+   "from": "Republican, Secretary of State",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 98,
+   "pv": 3988587,
+   "img": "img/marco-rubio.webp",
+   "credit": {
+    "author": "U.S. Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Secretary_Marco_Rubio_(cropped)(2).jpg"
+   }
+  },
+  {
+   "id": "kristi-noem",
+   "name": "Kristi Noem",
+   "from": "Republican, South Dakota",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 96,
+   "pv": 3885004,
+   "img": "img/kristi-noem.webp",
+   "credit": {
+    "author": "U.S. Department of Homeland Security",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Portrait_of_Secretary_Kristi_Noem.jpg"
+   }
+  },
+  {
+   "id": "gavin-newsom",
+   "name": "Gavin Newsom",
+   "from": "Democrat, California",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 94,
+   "pv": 3646754,
+   "img": "img/gavin-newsom.webp",
+   "credit": {
+    "author": "Charles Ommanney – Office of the Governor of California",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Governor_of_California_Gavin_Newsom_(cropped_3x4).jpg"
+   }
+  },
+  {
+   "id": "alexandria-ocasio-cortez",
+   "name": "Alexandria Ocasio-Cortez",
+   "from": "Democrat, New York",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 92,
+   "pv": 3038903,
+   "img": "img/alexandria-ocasio-cortez.webp",
+   "credit": {
+    "author": "Franmarie Metzler; U.S. House Office of Photography",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexandria_Ocasio-Cortez_Official_Portrait.jpg"
+   }
+  },
+  {
+   "id": "mitch-mcconnell",
+   "name": "Mitch McConnell",
+   "from": "Republican, Kentucky",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 89,
+   "pv": 2130303,
+   "img": "img/mitch-mcconnell.webp",
+   "credit": {
+    "author": "U.S. Government",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitch_McConnell_2016_official_photo_(1)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lindsey-graham",
+   "name": "Lindsey Graham",
+   "from": "Republican, South Carolina",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 87,
+   "pv": 2020949,
+   "img": "img/lindsey-graham.webp",
+   "credit": {
+    "author": "U.S. Senate Photo Office, Brett Flashnick",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:U.S._Senator_Lindsey_Graham,_Official_Photo,_113th_Congress_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "hillary-clinton",
+   "name": "Hillary Clinton",
+   "from": "Democrat, Secretary of State",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 85,
+   "pv": 1987171,
+   "img": "img/hillary-clinton.webp",
+   "credit": {
+    "author": "U.S. Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bernie-sanders",
+   "name": "Bernie Sanders",
+   "from": "Independent, Vermont",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 83,
+   "pv": 1921067,
+   "img": "img/bernie-sanders.webp",
+   "credit": {
+    "author": "Anderseidesvik",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders_February_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kamala-harris",
+   "name": "Kamala Harris",
+   "from": "Democrat, Vice President",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 81,
+   "pv": 1920661,
+   "img": "img/kamala-harris.webp",
+   "credit": {
+    "author": "Lawrence Jackson",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kamala_Harris_Vice_Presidential_Portrait.jpg"
+   }
+  },
+  {
+   "id": "john-fetterman",
+   "name": "John Fetterman",
+   "from": "Democrat, Pennsylvania",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 79,
+   "pv": 1897100,
+   "img": "img/john-fetterman.webp",
+   "credit": {
+    "author": "United States Senate",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Fetterman_official_portrait.jpg"
+   }
+  },
+  {
+   "id": "dick-cheney",
+   "name": "Dick Cheney",
+   "from": "Republican, Vice President",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 77,
+   "pv": 1667369,
+   "img": "img/dick-cheney.webp",
+   "credit": {
+    "author": "Image from the U.S. Air Force website, but likely made by office of the President.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:46_Dick_Cheney_3x4.jpg"
+   }
+  },
+  {
+   "id": "marjorie-taylor-greene",
+   "name": "Marjorie Taylor Greene",
+   "from": "Republican, Georgia",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 75,
+   "pv": 1491535,
+   "img": "img/marjorie-taylor-greene.webp",
+   "credit": {
+    "author": "U.S. House of Representatives",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Marjorie_Taylor_Greene_(cropped).jpg"
+   }
+  },
+  {
+   "id": "pete-buttigieg",
+   "name": "Pete Buttigieg",
+   "from": "Democrat, Transportation",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 73,
+   "pv": 1367649,
+   "img": "img/pete-buttigieg.webp",
+   "credit": {
+    "author": "United States Department of Transportation",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pete_Buttigieg,_Secretary_of_Transportation.jpg"
+   }
+  },
+  {
+   "id": "nancy-pelosi",
+   "name": "Nancy Pelosi",
+   "from": "Democrat, California",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 71,
+   "pv": 1339378,
+   "img": "img/nancy-pelosi.webp",
+   "credit": {
+    "author": "John Harrington",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg"
+   }
+  },
+  {
+   "id": "ted-cruz",
+   "name": "Ted Cruz",
+   "from": "Republican, Texas",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 68,
+   "pv": 1295729,
+   "img": "img/ted-cruz.webp",
+   "credit": {
+    "author": "U.S. Senate Photographic Studio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ted_Cruz_official_116th_portrait_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "john-mccain",
+   "name": "John McCain",
+   "from": "Republican, Arizona",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 66,
+   "pv": 1293534,
+   "img": "img/john-mccain.webp",
+   "credit": {
+    "author": "United States Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_McCain_official_portrait_2009_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "al-gore",
+   "name": "Al Gore",
+   "from": "Democrat, Vice President",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 64,
+   "pv": 1283881,
+   "img": "img/al-gore.webp",
+   "credit": {
+    "author": "Unknown photographerUnknown photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Al_Gore,_Vice_President_of_the_United_States,_official_portrait_1994.jpg"
+   }
+  },
+  {
+   "id": "mike-johnson",
+   "name": "Mike Johnson",
+   "from": "Republican, Speaker",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 62,
+   "pv": 1216799,
+   "img": "img/mike-johnson.webp",
+   "credit": {
+    "author": "United States Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Speaker_Mike_Johnson_Official_Portrait_(cropped)(b).jpg"
+   }
+  },
+  {
+   "id": "condoleezza-rice",
+   "name": "Condoleezza Rice",
+   "from": "Republican, Secretary of State",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 60,
+   "pv": 1109192,
+   "img": "img/condoleezza-rice.webp",
+   "credit": {
+    "author": "Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Condoleezza_Rice_cropped.jpg"
+   }
+  },
+  {
+   "id": "chuck-schumer",
+   "name": "Chuck Schumer",
+   "from": "Democrat, New York",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 58,
+   "pv": 1107966,
+   "img": "img/chuck-schumer.webp",
+   "credit": {
+    "author": "U.S. Senate Photographic Studio/Jeff McEvoy",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Chuck_Schumer_official_photo.jpg"
+   }
+  },
+  {
+   "id": "cory-booker",
+   "name": "Cory Booker",
+   "from": "Democrat, New Jersey",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 56,
+   "pv": 1080348,
+   "img": "img/cory-booker.webp",
+   "credit": {
+    "author": "U.S. Senate",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cory_Booker,_official_portrait_(119th_Congress).jpg"
+   }
+  },
+  {
+   "id": "byron-donalds",
+   "name": "Byron Donalds",
+   "from": "Republican, Florida",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 54,
+   "pv": 1075277,
+   "img": "img/byron-donalds.webp",
+   "credit": {
+    "author": "United States Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rep._Byron_Donalds_official_photo,_117th_Congress.jpg"
+   }
+  },
+  {
+   "id": "j-b-pritzker",
+   "name": "J. B. Pritzker",
+   "from": "Democrat, Illinois",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 52,
+   "pv": 1072197,
+   "img": "img/j-b-pritzker.webp",
+   "credit": {
+    "author": "Oscar Garza",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Governor_JB_Pritzker_Official_Portrait.jpg"
+   }
+  },
+  {
+   "id": "mitt-romney",
+   "name": "Mitt Romney",
+   "from": "Republican, Utah",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 49,
+   "pv": 1056808,
+   "img": "img/mitt-romney.webp",
+   "credit": {
+    "author": "United States Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mitt_Romney_official_US_Senate_portrait.jpg"
+   }
+  },
+  {
+   "id": "rand-paul",
+   "name": "Rand Paul",
+   "from": "Republican, Kentucky",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 47,
+   "pv": 1053891,
+   "img": "img/rand-paul.webp",
+   "credit": {
+    "author": "US Senate Photography Office",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rand_Paul_Portrait_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "hakeem-jeffries",
+   "name": "Hakeem Jeffries",
+   "from": "Democrat, New York",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 45,
+   "pv": 1047258,
+   "img": "img/hakeem-jeffries.webp",
+   "credit": {
+    "author": "Office of Representative Hakeem Jeffries",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rep-Hakeem-Jeffries-Official-Portrait_(cropped).jpg"
+   }
+  },
+  {
+   "id": "susan-collins",
+   "name": "Susan Collins",
+   "from": "Republican, Maine",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 43,
+   "pv": 1037447,
+   "img": "img/susan-collins.webp",
+   "credit": {
+    "author": "U.S. Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Senator_Susan_Collins_2014_official_portrait.jpg"
+   }
+  },
+  {
+   "id": "john-kerry",
+   "name": "John Kerry",
+   "from": "Democrat, Secretary of State",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 41,
+   "pv": 1023326,
+   "img": "img/john-kerry.webp",
+   "credit": {
+    "author": "United States Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Kerry_portrait_of_Climate_Envoy_(cropped).jpg"
+   }
+  },
+  {
+   "id": "mike-pence",
+   "name": "Mike Pence",
+   "from": "Republican, Vice President",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 39,
+   "pv": 979734,
+   "img": "img/mike-pence.webp",
+   "credit": {
+    "author": "D. Myles Cullen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mike_Pence_official_Vice_Presidential_portrait.jpg"
+   }
+  },
+  {
+   "id": "ron-desantis",
+   "name": "Ron DeSantis",
+   "from": "Republican, Florida",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 37,
+   "pv": 963490,
+   "img": "img/ron-desantis.webp",
+   "credit": {
+    "author": "Government of Florida",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ron_DeSantis_official_photo.jpg"
+   }
+  },
+  {
+   "id": "andy-beshear",
+   "name": "Andy Beshear",
+   "from": "Democrat, Kentucky",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 35,
+   "pv": 953131,
+   "img": "img/andy-beshear.webp",
+   "credit": {
+    "author": "Governor Andy Beshear",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Andy_Beshear_in_April_2026_(cropped_3).jpg"
+   }
+  },
+  {
+   "id": "colin-powell",
+   "name": "Colin Powell",
+   "from": "Republican, Secretary of State",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 33,
+   "pv": 882493,
+   "img": "img/colin-powell.webp",
+   "credit": {
+    "author": "Department of State of the United States of America",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Colin_Powell_official_Secretary_of_State_photo.jpg"
+   }
+  },
+  {
+   "id": "greg-abbott",
+   "name": "Greg Abbott",
+   "from": "Republican, Texas",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 30,
+   "pv": 855145,
+   "img": "img/greg-abbott.webp",
+   "credit": {
+    "author": "NASA Johnson Space Center / NASA-JSC/ROBERT MARKOWITZ",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Greg_Abbott_at_NASA_2024_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "wes-moore",
+   "name": "Wes Moore",
+   "from": "Democrat, Maryland",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 28,
+   "pv": 837960,
+   "img": "img/wes-moore.webp",
+   "credit": {
+    "author": "Maryland State Government",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wes_Moore_Official_Governor_Portrait.jpg"
+   }
+  },
+  {
+   "id": "nikki-haley",
+   "name": "Nikki Haley",
+   "from": "Republican, South Carolina",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 26,
+   "pv": 787868,
+   "img": "img/nikki-haley.webp",
+   "credit": {
+    "author": "United States Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nikki_Haley_official_photo.jpg"
+   }
+  },
+  {
+   "id": "josh-shapiro",
+   "name": "Josh Shapiro",
+   "from": "Democrat, Pennsylvania",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 24,
+   "pv": 778607,
+   "img": "img/josh-shapiro.webp",
+   "credit": {
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gov._Shapiro.jpg"
+   }
+  },
+  {
+   "id": "tim-walz",
+   "name": "Tim Walz",
+   "from": "Democrat, Minnesota",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 22,
+   "pv": 766162,
+   "img": "img/tim-walz.webp",
+   "credit": {
+    "author": "Office of Governor Tim Walz & Lt. Governor Peggy Flanagan",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Governor_Tim_Walz_2026.jpg"
+   }
+  },
+  {
+   "id": "elizabeth-warren",
+   "name": "Elizabeth Warren",
+   "from": "Democrat, Massachusetts",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 20,
+   "pv": 681050,
+   "img": "img/elizabeth-warren.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Warren_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "amy-klobuchar",
+   "name": "Amy Klobuchar",
+   "from": "Democrat, Minnesota",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 18,
+   "pv": 670025,
+   "img": "img/amy-klobuchar.webp",
+   "credit": {
+    "author": "United States Senate",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Amy_Klobuchar,_official_portrait,_113th_Congress.jpg"
+   }
+  },
+  {
+   "id": "adam-schiff",
+   "name": "Adam Schiff",
+   "from": "Democrat, California",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 16,
+   "pv": 533768,
+   "img": "img/adam-schiff.webp",
+   "credit": {
+    "author": "U.S. Senate Photographic Studio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Schiff_Adam_119th_Congress.jpg"
+   }
+  },
+  {
+   "id": "gretchen-whitmer",
+   "name": "Gretchen Whitmer",
+   "from": "Democrat, Michigan",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 14,
+   "pv": 532350,
+   "img": "img/gretchen-whitmer.webp",
+   "credit": {
+    "author": "City of Detroit",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:8R4A9872_(53367444225)_(Whitmer1).jpg"
+   }
+  },
+  {
+   "id": "tim-scott",
+   "name": "Tim Scott",
+   "from": "Republican, South Carolina",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 12,
+   "pv": 492838,
+   "img": "img/tim-scott.webp",
+   "credit": {
+    "author": "United States Senate",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tim_Scott_official_portrait.jpg"
+   }
+  },
+  {
+   "id": "paul-ryan",
+   "name": "Paul Ryan",
+   "from": "Republican, Speaker",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 9,
+   "pv": 488772,
+   "img": "img/paul-ryan.webp",
+   "credit": {
+    "author": "U.S. Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Speaker_Paul_Ryan_official_photo_(1).jpg"
+   }
+  },
+  {
+   "id": "raphael-warnock",
+   "name": "Raphael Warnock",
+   "from": "Democrat, Georgia",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 7,
+   "pv": 449982,
+   "img": "img/raphael-warnock.webp",
+   "credit": {
+    "author": "U.S. Senate Photographic Studio, Rebecca Hammel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Raphael_Warnock_official_photo.jpg"
+   }
+  },
+  {
+   "id": "kevin-mccarthy",
+   "name": "Kevin McCarthy",
+   "from": "Republican, Speaker",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 5,
+   "pv": 418639,
+   "img": "img/kevin-mccarthy.webp",
+   "credit": {
+    "author": "US House Photography",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kevin_McCarthy,_official_portrait,_speaker.jpg"
+   }
+  },
+  {
+   "id": "mike-lee",
+   "name": "Mike Lee",
+   "from": "Republican, Utah",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 3,
+   "pv": 224287,
+   "img": "img/mike-lee.webp",
+   "credit": {
+    "author": "U.S. Senate",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mike_Lee,_official_portrait.jpg"
+   }
+  },
+  {
+   "id": "spencer-cox",
+   "name": "Spencer Cox",
+   "from": "Republican, Utah",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "us-politicians"
+   ],
+   "fame": 1,
+   "pv": 202667,
+   "img": "img/spencer-cox.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Spencer_Cox_in_2024_(cropped).jpg"
+   }
+  }
+ ]
+}

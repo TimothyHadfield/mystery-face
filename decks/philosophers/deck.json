@@ -1,0 +1,867 @@
+{
+ "id": "philosophers",
+ "title": "Philosophers",
+ "cat": "books",
+ "people": [
+  {
+   "id": "karl-marx",
+   "name": "Karl Marx",
+   "from": "The Communist Manifesto",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 100,
+   "pv": 2132767,
+   "img": "img/karl-marx.webp",
+   "credit": {
+    "author": "John Jabez Edwin Mayall",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Karl_Marx_by_John_Jabez_Edwin_Mayall_1875_-_Restored.png"
+   }
+  },
+  {
+   "id": "marcus-aurelius",
+   "name": "Marcus Aurelius",
+   "from": "Stoicism, Meditations",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 98,
+   "pv": 1857173,
+   "img": "img/marcus-aurelius.webp",
+   "credit": {
+    "author": "Daniel Martin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MSR-ra-61-b-1-DM.jpg"
+   }
+  },
+  {
+   "id": "friedrich-nietzsche",
+   "name": "Friedrich Nietzsche",
+   "from": "Thus Spoke Zarathustra",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 95,
+   "pv": 1726838,
+   "img": "img/friedrich-nietzsche.webp",
+   "credit": {
+    "author": "Friedrich Hermann Hartmann",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nietzsche187a.jpg"
+   }
+  },
+  {
+   "id": "noam-chomsky",
+   "name": "Noam Chomsky",
+   "from": "Linguistics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 93,
+   "pv": 1529992,
+   "img": "img/noam-chomsky.webp",
+   "credit": {
+    "author": "Σ, retouched by Wugapodes and Jonnmann",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Noam_Chomsky_portrait_2017_retouched.jpg"
+   }
+  },
+  {
+   "id": "aristotle",
+   "name": "Aristotle",
+   "from": "Ancient Greece",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 91,
+   "pv": 1383353,
+   "img": "img/aristotle.webp",
+   "credit": {
+    "author": "After Lysippos",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg"
+   }
+  },
+  {
+   "id": "socrates",
+   "name": "Socrates",
+   "from": "Ancient Greece",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 88,
+   "pv": 1365834,
+   "img": "img/socrates.webp",
+   "credit": {
+    "author": "Copy of Lysippos (?)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg"
+   }
+  },
+  {
+   "id": "ayn-rand",
+   "name": "Ayn Rand",
+   "from": "Objectivism",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 86,
+   "pv": 1203066,
+   "img": "img/ayn-rand.webp",
+   "credit": {
+    "author": "Photo portrait credited to \"Talbot\" (though not on original dust jacket). Published by the Bobbs-Merrill Company.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ayn_Rand_(1943_Talbot_portrait).jpg"
+   }
+  },
+  {
+   "id": "plato",
+   "name": "Plato",
+   "from": "The Republic",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 84,
+   "pv": 1199842,
+   "img": "img/plato.webp",
+   "credit": {
+    "author": "Marie-Lan Nguyen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.png"
+   }
+  },
+  {
+   "id": "augustine-of-hippo",
+   "name": "Augustine of Hippo",
+   "from": "Confessions",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 81,
+   "pv": 1157066,
+   "img": "img/augustine-of-hippo.webp",
+   "credit": {
+    "author": "Philippe de Champaigne",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Saint_Augustine_by_Philippe_de_Champaigne.jpg"
+   }
+  },
+  {
+   "id": "niccolo-machiavelli",
+   "name": "Niccolò Machiavelli",
+   "from": "The Prince",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 79,
+   "pv": 1105116,
+   "img": "img/niccolo-machiavelli.webp",
+   "credit": {
+    "author": "Santi di Tito",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Niccol%C3%B2_Machiavelli_by_Santi_di_Tito.jpg"
+   }
+  },
+  {
+   "id": "albert-camus",
+   "name": "Albert Camus",
+   "from": "The Stranger",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 76,
+   "pv": 1084061,
+   "img": "img/albert-camus.webp",
+   "credit": {
+    "author": "Photograph by United Press International",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_pos%C3%A9_au_bureau,_faisant_face_%C3%A0_gauche,_cigarette_de_tabagisme.jpg"
+   }
+  },
+  {
+   "id": "immanuel-kant",
+   "name": "Immanuel Kant",
+   "from": "Critique of Pure Reason",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 74,
+   "pv": 1019555,
+   "img": "img/immanuel-kant.webp",
+   "credit": {
+    "author": "Johann Gottlieb Becker (1720-1782)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg"
+   }
+  },
+  {
+   "id": "thomas-aquinas",
+   "name": "Thomas Aquinas",
+   "from": "Scholasticism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 72,
+   "pv": 951862,
+   "img": "img/thomas-aquinas.webp",
+   "credit": {
+    "author": "Carlo Crivelli",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:St-thomas-aquinasFXD.jpg"
+   }
+  },
+  {
+   "id": "voltaire",
+   "name": "Voltaire",
+   "from": "Candide",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 69,
+   "pv": 814560,
+   "img": "img/voltaire.webp",
+   "credit": {
+    "author": "Nicolas de Largillière",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Nicolas_de_Largilli%C3%A8re_-_Portrait_de_Voltaire_(1694-1778)_en_1718_-_P208_-_mus%C3%A9e_Carnavalet_-_5_(cropped).jpg"
+   }
+  },
+  {
+   "id": "confucius",
+   "name": "Confucius",
+   "from": "Ancient China",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 67,
+   "pv": 803684,
+   "img": "img/confucius.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Confucius_Portrait,_Kongzi_(Confucius)_Family_Mansion,_Qufu_(13044335945).jpg"
+   }
+  },
+  {
+   "id": "michel-foucault",
+   "name": "Michel Foucault",
+   "from": "Power and knowledge",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 65,
+   "pv": 759803,
+   "img": "img/michel-foucault.webp",
+   "credit": {
+    "author": "Jerry Bauer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Photo_of_Michel_Foucault_on_1970_dustjacket_of_The_Order_of_Things.jpg"
+   }
+  },
+  {
+   "id": "john-locke",
+   "name": "John Locke",
+   "from": "Natural rights",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 62,
+   "pv": 749045,
+   "img": "img/john-locke.webp",
+   "credit": {
+    "author": "Godfrey Kneller",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Godfrey_Kneller_-_Portrait_of_John_Locke_(Hermitage).jpg"
+   }
+  },
+  {
+   "id": "hannah-arendt",
+   "name": "Hannah Arendt",
+   "from": "Political theory",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 60,
+   "pv": 748839,
+   "img": "img/hannah-arendt.webp",
+   "credit": {
+    "author": "Barbara Niggl Radloff",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hannah_Arendt_auf_dem_1._Kulturkritikerkongress,_Barbara_Niggl_Radloff,_FM-2019-1-5-9-16_(cropped).jpg"
+   }
+  },
+  {
+   "id": "bertrand-russell",
+   "name": "Bertrand Russell",
+   "from": "Logic",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 58,
+   "pv": 739624,
+   "img": "img/bertrand-russell.webp",
+   "credit": {
+    "author": "Bassano Ltd",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bertrand_Russell_in_1936.jpg"
+   }
+  },
+  {
+   "id": "diogenes",
+   "name": "Diogenes",
+   "from": "Cynicism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 55,
+   "pv": 731744,
+   "img": "img/diogenes.webp",
+   "credit": {
+    "author": "Jusepe de Ribera",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jos%C3%A9_de_Ribera_-_Diogenes.jpg"
+   }
+  },
+  {
+   "id": "jean-paul-sartre",
+   "name": "Jean-Paul Sartre",
+   "from": "Existentialism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 53,
+   "pv": 726255,
+   "img": "img/jean-paul-sartre.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "CC BY-SA 3.0 nl",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1965.jpg"
+   }
+  },
+  {
+   "id": "rene-descartes",
+   "name": "René Descartes",
+   "from": "\"I think, therefore I am\"",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 50,
+   "pv": 721273,
+   "img": "img/rene-descartes.webp",
+   "credit": {
+    "author": "After Frans Hals",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+   }
+  },
+  {
+   "id": "henry-david-thoreau",
+   "name": "Henry David Thoreau",
+   "from": "Walden",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 48,
+   "pv": 697306,
+   "img": "img/henry-david-thoreau.webp",
+   "credit": {
+    "author": "Benjamin D. Maxham active 1848 - 1858",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Benjamin_D._Maxham_-_Henry_David_Thoreau_-_Restored.jpg"
+   }
+  },
+  {
+   "id": "ludwig-wittgenstein",
+   "name": "Ludwig Wittgenstein",
+   "from": "Language",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 46,
+   "pv": 672579,
+   "img": "img/ludwig-wittgenstein.webp",
+   "credit": {
+    "author": "Moritz Nähr",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ludwig_Wittgenstein_1929.jpg"
+   }
+  },
+  {
+   "id": "arthur-schopenhauer",
+   "name": "Arthur Schopenhauer",
+   "from": "Pessimism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 43,
+   "pv": 669896,
+   "img": "img/arthur-schopenhauer.webp",
+   "credit": {
+    "author": "Johann Schäfer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg"
+   }
+  },
+  {
+   "id": "sren-kierkegaard",
+   "name": "Søren Kierkegaard",
+   "from": "Existentialism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 41,
+   "pv": 633702,
+   "img": "img/sren-kierkegaard.webp",
+   "credit": {
+    "author": "La Biblioteca Real de Dinamarca",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:S%C3%B8ren_Kierkegaard_(1813-1855)_-_(cropped).jpg"
+   }
+  },
+  {
+   "id": "baruch-spinoza",
+   "name": "Baruch Spinoza",
+   "from": "Ethics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 39,
+   "pv": 619324,
+   "img": "img/baruch-spinoza.webp",
+   "credit": {
+    "author": "anonymous",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg"
+   }
+  },
+  {
+   "id": "jean-jacques-rousseau",
+   "name": "Jean-Jacques Rousseau",
+   "from": "The Social Contract",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 36,
+   "pv": 618187,
+   "img": "img/jean-jacques-rousseau.webp",
+   "credit": {
+    "author": "Maurice Quentin de La Tour (Life time: 1788)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg"
+   }
+  },
+  {
+   "id": "simone-de-beauvoir",
+   "name": "Simone de Beauvoir",
+   "from": "The Second Sex",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 34,
+   "pv": 608195,
+   "img": "img/simone-de-beauvoir.webp",
+   "credit": {
+    "author": "Moshe Milner",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Simone_De_Beauvoir_(cropped).jpg"
+   }
+  },
+  {
+   "id": "georg-wilhelm-friedrich-hegel",
+   "name": "Georg Wilhelm Friedrich Hegel",
+   "from": "Dialectics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 32,
+   "pv": 588639,
+   "img": "img/georg-wilhelm-friedrich-hegel.webp",
+   "credit": {
+    "author": "Jakob Schlesinger",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jakob_Schlesinger_-_Hegel_1831.jpg"
+   }
+  },
+  {
+   "id": "adam-smith",
+   "name": "Adam Smith",
+   "from": "The Wealth of Nations",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 29,
+   "pv": 588145,
+   "img": "img/adam-smith.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Adam_Smith_The_Muir_portrait.jpg"
+   }
+  },
+  {
+   "id": "francis-bacon",
+   "name": "Francis Bacon",
+   "from": "Scientific method",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 27,
+   "pv": 565902,
+   "img": "img/francis-bacon.webp",
+   "credit": {
+    "author": "Paul van Somer I / Formerly attributed to Frans Pourbus the Younger",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg"
+   }
+  },
+  {
+   "id": "ralph-waldo-emerson",
+   "name": "Ralph Waldo Emerson",
+   "from": "Transcendentalism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 25,
+   "pv": 544986,
+   "img": "img/ralph-waldo-emerson.webp",
+   "credit": {
+    "author": "Josiah Johnson Hawes",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ralph_Waldo_Emerson_by_Josiah_Johnson_Hawes_1857.jpg"
+   }
+  },
+  {
+   "id": "mary-wollstonecraft",
+   "name": "Mary Wollstonecraft",
+   "from": "Women's rights",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 22,
+   "pv": 540358,
+   "img": "img/mary-wollstonecraft.webp",
+   "credit": {
+    "author": "John Opie",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_Portrait.jpg"
+   }
+  },
+  {
+   "id": "seneca-the-younger",
+   "name": "Seneca the Younger",
+   "from": "Stoicism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 20,
+   "pv": 533394,
+   "img": "img/seneca-the-younger.webp",
+   "credit": {
+    "author": "Calidius",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
+   }
+  },
+  {
+   "id": "david-hume",
+   "name": "David Hume",
+   "from": "Empiricism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 18,
+   "pv": 456461,
+   "img": "img/david-hume.webp",
+   "credit": {
+    "author": "Allan Ramsay",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:David_Hume_Ramsay.jpg"
+   }
+  },
+  {
+   "id": "sun-tzu",
+   "name": "Sun Tzu",
+   "from": "The Art of War",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 15,
+   "pv": 417661,
+   "img": "img/sun-tzu.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:%E5%90%B4%E5%8F%B8%E9%A9%AC%E5%AD%99%E6%AD%A6.jpg"
+   }
+  },
+  {
+   "id": "blaise-pascal",
+   "name": "Blaise Pascal",
+   "from": "Pascal's wager",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 13,
+   "pv": 401331,
+   "img": "img/blaise-pascal.webp",
+   "credit": {
+    "author": "unknown; a copy of the painting of François II Quesnel, which was made for Gérard Edelinck en 1691[réf. nécessaire].",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles,_circa_1690.JPG"
+   }
+  },
+  {
+   "id": "gottfried-wilhelm-leibniz",
+   "name": "Gottfried Wilhelm Leibniz",
+   "from": "Rationalism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 10,
+   "pv": 398801,
+   "img": "img/gottfried-wilhelm-leibniz.webp",
+   "credit": {
+    "author": "Christoph Bernhard Francke",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg"
+   }
+  },
+  {
+   "id": "thomas-hobbes",
+   "name": "Thomas Hobbes",
+   "from": "Leviathan",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 8,
+   "pv": 396378,
+   "img": "img/thomas-hobbes.webp",
+   "credit": {
+    "author": "John Michael Wright",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_by_John_Michael_Wright_(colour)_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "laozi",
+   "name": "Laozi",
+   "from": "Tao Te Ching",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 6,
+   "pv": 390187,
+   "img": "img/laozi.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lao_Tzu_-_Project_Gutenberg_eText_15250.jpg"
+   }
+  },
+  {
+   "id": "john-stuart-mill",
+   "name": "John Stuart Mill",
+   "from": "Utilitarianism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 3,
+   "pv": 368463,
+   "img": "img/john-stuart-mill.webp",
+   "credit": {
+    "author": "London Stereoscopic Company",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg"
+   }
+  },
+  {
+   "id": "epicurus",
+   "name": "Epicurus",
+   "from": "Epicureanism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "books",
+    "philosophers"
+   ],
+   "fame": 1,
+   "pv": 261010,
+   "img": "img/epicurus.webp",
+   "credit": {
+    "author": "Unknown artistUnknown artist",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Epikouros_BM_1843.jpg"
+   }
+  }
+ ]
+}

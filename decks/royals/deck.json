@@ -1,0 +1,707 @@
+{
+ "id": "royals",
+ "title": "Royals",
+ "cat": "politics",
+ "people": [
+  {
+   "id": "queen-victoria",
+   "name": "Queen Victoria",
+   "from": "Queen, United Kingdom",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 100,
+   "pv": 7102710,
+   "img": "img/queen-victoria.webp",
+   "credit": {
+    "author": "Alexander Bassano",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg"
+   }
+  },
+  {
+   "id": "elizabeth-ii",
+   "name": "Elizabeth II",
+   "from": "Queen, United Kingdom",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 97,
+   "pv": 6986073,
+   "img": "img/elizabeth-ii.webp",
+   "credit": {
+    "author": "Donald McKague",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_II_official_portrait_for_1959_tour_(retouched)_(cropped)_(3-to-4_aspect_ratio).jpg"
+   }
+  },
+  {
+   "id": "charles-iii",
+   "name": "Charles III",
+   "from": "King, United Kingdom",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 94,
+   "pv": 6141310,
+   "img": "img/charles-iii.webp",
+   "credit": {
+    "author": "White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:King_Charles_III_(July_2023).jpg"
+   }
+  },
+  {
+   "id": "george-vi",
+   "name": "George VI",
+   "from": "King, United Kingdom",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 91,
+   "pv": 3958853,
+   "img": "img/george-vi.webp",
+   "credit": {
+    "author": "Matson Photo Service",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:King_George_VI_LOC_matpc.14736_A_(cropped).jpg"
+   }
+  },
+  {
+   "id": "henry-viii",
+   "name": "Henry VIII",
+   "from": "King of England",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 88,
+   "pv": 3909445,
+   "img": "img/henry-viii.webp",
+   "credit": {
+    "author": "Workshop of Hans Holbein the Younger",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "edward-viii",
+   "name": "Edward VIII",
+   "from": "King, United Kingdom",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 85,
+   "pv": 3623632,
+   "img": "img/edward-viii.webp",
+   "credit": {
+    "author": "Freeland Studio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:HRH_The_Prince_of_Wales_No_4_(HS85-10-36416).jpg"
+   }
+  },
+  {
+   "id": "princess-diana",
+   "name": "Princess Diana",
+   "from": "Princess of Wales",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 83,
+   "pv": 3445835,
+   "img": "img/princess-diana.webp",
+   "credit": {
+    "author": "John Mathew Smith & www.celebrity-photos.com from Laurel Maryland, USA (Archived link)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Diana,_Princess_of_Wales_1997_(2).jpg"
+   }
+  },
+  {
+   "id": "elizabeth-i",
+   "name": "Elizabeth I",
+   "from": "Queen of England",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 80,
+   "pv": 3262486,
+   "img": "img/elizabeth-i.webp",
+   "credit": {
+    "author": "Unidentified painter",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Darnley_stage_3.jpg"
+   }
+  },
+  {
+   "id": "prince-william",
+   "name": "Prince William",
+   "from": "Prince of Wales",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 77,
+   "pv": 3025659,
+   "img": "img/prince-william.webp",
+   "credit": {
+    "author": "Daniel Torok/White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Prince_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg"
+   }
+  },
+  {
+   "id": "marie-antoinette",
+   "name": "Marie Antoinette",
+   "from": "Queen of France",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 74,
+   "pv": 2883579,
+   "img": "img/marie-antoinette.webp",
+   "credit": {
+    "author": "Élisabeth Louise Vigée Le Brun",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Louise_Elisabeth_Vig%C3%A9e-Lebrun_-_Marie-Antoinette_dit_%C2%AB_%C3%A0_la_Rose_%C2%BB_-_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "prince-philip",
+   "name": "Prince Philip",
+   "from": "Duke of Edinburgh",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 71,
+   "pv": 2702138,
+   "img": "img/prince-philip.webp",
+   "credit": {
+    "author": "Allan Warren",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Duke_of_Edinburgh_33_Allan_Warren.jpg"
+   }
+  },
+  {
+   "id": "mary-queen-of-scots",
+   "name": "Mary, Queen of Scots",
+   "from": "Queen of Scotland",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 68,
+   "pv": 2544978,
+   "img": "img/mary-queen-of-scots.webp",
+   "credit": {
+    "author": "François Clouet",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Clouet_-_Mary,_Queen_of_Scots_(1542-87)_-_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "anne-boleyn",
+   "name": "Anne Boleyn",
+   "from": "Queen of England",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 65,
+   "pv": 2394597,
+   "img": "img/anne-boleyn.webp",
+   "credit": {
+    "author": "English school",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:AnneBoleynHever.jpg"
+   }
+  },
+  {
+   "id": "catherine-the-great",
+   "name": "Catherine the Great",
+   "from": "Empress of Russia",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 62,
+   "pv": 2118913,
+   "img": "img/catherine-the-great.webp",
+   "credit": {
+    "author": "After Alexander Roslin",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Catherine_II_after_Roslin,_Rokotov_(1780s,_Kunsthistorisches_Museum).jpg"
+   }
+  },
+  {
+   "id": "prince-harry",
+   "name": "Prince Harry",
+   "from": "Duke of Sussex",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 59,
+   "pv": 2076685,
+   "img": "img/prince-harry.webp",
+   "credit": {
+    "author": "60564189@N06",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Prince_Harry_Visits_Arlington_National_Cemetery_(55476826080)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "louis-xiv",
+   "name": "Louis XIV",
+   "from": "King of France",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 56,
+   "pv": 2010613,
+   "img": "img/louis-xiv.webp",
+   "credit": {
+    "author": "Hyacinthe Rigaud",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Louis_XIV_of_France.jpg"
+   }
+  },
+  {
+   "id": "princess-margaret",
+   "name": "Princess Margaret",
+   "from": "Queen's sister",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 53,
+   "pv": 1980096,
+   "img": "img/princess-margaret.webp",
+   "credit": {
+    "author": "Alexandra Studio",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Princess_Margaret_1950_(F1257_s1057_it4930).jpg"
+   }
+  },
+  {
+   "id": "grace-kelly",
+   "name": "Grace Kelly",
+   "from": "Princess of Monaco",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 50,
+   "pv": 1933154,
+   "img": "img/grace-kelly.webp",
+   "credit": {
+    "author": "Los Angeles Times",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Grace_Kelly_1956_(cropped).jpg"
+   }
+  },
+  {
+   "id": "meghan-markle",
+   "name": "Meghan Markle",
+   "from": "Duchess of Sussex",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 48,
+   "pv": 1908779,
+   "img": "img/meghan-markle.webp",
+   "credit": {
+    "author": "Fuzheado",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SXSW-2024-OB7A9986-alih-Meghan,_Duchess_of_Sussex_(cropped).jpg"
+   }
+  },
+  {
+   "id": "princess-anne",
+   "name": "Princess Anne",
+   "from": "Princess Royal",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 45,
+   "pv": 1825042,
+   "img": "img/princess-anne.webp",
+   "credit": {
+    "author": "UK Home Office",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anne,_Princess_Royal_(2025)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "prince-edward",
+   "name": "Prince Edward",
+   "from": "Duke of Edinburgh",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 42,
+   "pv": 1712330,
+   "img": "img/prince-edward.webp",
+   "credit": {
+    "author": "UKinUSA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Prince_Edward_2025.jpg"
+   }
+  },
+  {
+   "id": "catherine-princess-of-wales",
+   "name": "Catherine, Princess of Wales",
+   "from": "Princess of Wales",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 39,
+   "pv": 1446136,
+   "img": "img/catherine-princess-of-wales.webp",
+   "credit": {
+    "author": "Daniel Torok/White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Princess_of_Wales_at_State_Banquet_2025-09-17_(0.75_crop).jpg"
+   }
+  },
+  {
+   "id": "queen-camilla",
+   "name": "Queen Camilla",
+   "from": "Queen, United Kingdom",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 36,
+   "pv": 1297457,
+   "img": "img/queen-camilla.webp",
+   "credit": {
+    "author": "Mark Tantrum",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen_Camilla_in_Aotearoa_2019.jpg"
+   }
+  },
+  {
+   "id": "felipe-vi",
+   "name": "Felipe VI",
+   "from": "King of Spain",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 33,
+   "pv": 1273575,
+   "img": "img/felipe-vi.webp",
+   "credit": {
+    "author": "Saeima",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Daiga_Mieri%C5%86a_tiekas_ar_Sp%C4%81nijas_karali_-_53814974005_(cropped)-2.jpg"
+   }
+  },
+  {
+   "id": "naruhito",
+   "name": "Naruhito",
+   "from": "Emperor of Japan",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 30,
+   "pv": 1111266,
+   "img": "img/naruhito.webp",
+   "credit": {
+    "author": "Presidencia de Guatemala",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Emperor_Naruhito_20250611_(54582524056,_cropped).jpg"
+   }
+  },
+  {
+   "id": "the-queen-mother",
+   "name": "The Queen Mother",
+   "from": "Queen Mother",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 27,
+   "pv": 936248,
+   "img": "img/the-queen-mother.webp",
+   "credit": {
+    "author": "Richard Stone",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen_Elizabeth_the_Queen_Mother_portrait.jpg"
+   }
+  },
+  {
+   "id": "frederik-x",
+   "name": "Frederik X",
+   "from": "King of Denmark",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 24,
+   "pv": 830260,
+   "img": "img/frederik-x.webp",
+   "credit": {
+    "author": "Finnish Government",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:King_Frederik_X_in_2025.jpg"
+   }
+  },
+  {
+   "id": "king-willem-alexander",
+   "name": "King Willem-Alexander",
+   "from": "King of the Netherlands",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 21,
+   "pv": 821165,
+   "img": "img/king-willem-alexander.webp",
+   "credit": {
+    "author": "European Union",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:King_Willem-Alexander_2025.jpg"
+   }
+  },
+  {
+   "id": "carl-xvi-gustaf",
+   "name": "Carl XVI Gustaf",
+   "from": "King of Sweden",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 18,
+   "pv": 765547,
+   "img": "img/carl-xvi-gustaf.webp",
+   "credit": {
+    "author": "Lula Oficial",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:06.11.2025_%E2%80%93_Recep%C3%A7%C3%A3o_Oficial_dos_Chefes_de_Delega%C3%A7%C3%A3o_da_C%C3%BApula_do_Clima_(54906269035)_(Carlos_XVI_Gustavo).jpg"
+   }
+  },
+  {
+   "id": "margrethe-ii",
+   "name": "Margrethe II",
+   "from": "Queen of Denmark",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 16,
+   "pv": 561568,
+   "img": "img/margrethe-ii.webp",
+   "credit": {
+    "author": "Johannes Jansson",
+    "license": "CC BY 2.5 dk",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5/dk/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Drottning_Margrethe_av_Danmark.jpg"
+   }
+  },
+  {
+   "id": "queen-maxima",
+   "name": "Queen Máxima",
+   "from": "Queen of the Netherlands",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 13,
+   "pv": 417427,
+   "img": "img/queen-maxima.webp",
+   "credit": {
+    "author": "RVD, Jeroen van der Meyde",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Koningin-maxima-okt-15-s.jpg"
+   }
+  },
+  {
+   "id": "haakon-viii",
+   "name": "Haakon VIII",
+   "from": "King of Norway",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 10,
+   "pv": 384805,
+   "img": "img/haakon-viii.webp",
+   "credit": {
+    "author": "Birgit Fostervold",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:King_Haakon_VIII_arrives_Stortinget_03_(1x3_cropped).jpg"
+   }
+  },
+  {
+   "id": "victoria-crown-princess-of-sweden",
+   "name": "Victoria, Crown Princess of Sweden",
+   "from": "Crown Princess of Sweden",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 7,
+   "pv": 330562,
+   "img": "img/victoria-crown-princess-of-sweden.webp",
+   "credit": {
+    "author": "Steffen Prößdorf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2025-11-18_Event,_Besuch_der_Kronprinzessin_Victoria_von_Schweden_beim_deutschen_Bundespr%C3%A4sidenten_Frank-Walter_Steinmeier_im_November_2025_STP_9817-2.jpg"
+   }
+  },
+  {
+   "id": "queen-letizia",
+   "name": "Queen Letizia",
+   "from": "Queen of Spain",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 4,
+   "pv": 258765,
+   "img": "img/queen-letizia.webp",
+   "credit": {
+    "author": "Esteban González // Emiliano García-Page",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Queen_Letizia_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "albert-ii-prince-of-monaco",
+   "name": "Albert II, Prince of Monaco",
+   "from": "Prince of Monaco",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "royals"
+   ],
+   "fame": 1,
+   "pv": 28254,
+   "img": "img/albert-ii-prince-of-monaco.webp",
+   "credit": {
+    "author": "Lula Oficial",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_II_-_08.06.2025_-_Encontro_com_Sua_Alteza_o_Pr%C3%ADncipe_de_M%C3%B4naco,_Alberto_II_(54574973880).jpg"
+   }
+  }
+ ]
+}

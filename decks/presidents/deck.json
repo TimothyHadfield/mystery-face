@@ -1,0 +1,907 @@
+{
+ "id": "presidents",
+ "title": "US Presidents",
+ "cat": "politics",
+ "people": [
+  {
+   "id": "donald-trump",
+   "name": "Donald Trump",
+   "from": "45th & 47th president",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 100,
+   "pv": 19372690,
+   "img": "img/donald-trump.webp",
+   "credit": {
+    "author": "Daniel Torok",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg"
+   }
+  },
+  {
+   "id": "john-f-kennedy",
+   "name": "John F. Kennedy",
+   "from": "35th president, 1961-1963",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 98,
+   "pv": 6339358,
+   "img": "img/john-f-kennedy.webp",
+   "credit": {
+    "author": "Cecil W. Stoughton",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg"
+   }
+  },
+  {
+   "id": "barack-obama",
+   "name": "Barack Obama",
+   "from": "44th president, 2009-2017",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 95,
+   "pv": 6292290,
+   "img": "img/barack-obama.webp",
+   "credit": {
+    "author": "Official White House Photo by Pete Souza",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg"
+   }
+  },
+  {
+   "id": "joe-biden",
+   "name": "Joe Biden",
+   "from": "46th president, 2021-2025",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 93,
+   "pv": 4439045,
+   "img": "img/joe-biden.webp",
+   "credit": {
+    "author": "Adam Schultz",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg"
+   }
+  },
+  {
+   "id": "george-washington",
+   "name": "George Washington",
+   "from": "1st president, 1789-1797",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 91,
+   "pv": 4422543,
+   "img": "img/george-washington.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
+   }
+  },
+  {
+   "id": "franklin-d-roosevelt",
+   "name": "Franklin D. Roosevelt",
+   "from": "32nd president, 1933-1945",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 88,
+   "pv": 4299809,
+   "img": "img/franklin-d-roosevelt.webp",
+   "credit": {
+    "author": "Leon Perskie",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:FDR-1944-Campaign-Portrait_(3x4_retouched,_cropped).jpg"
+   }
+  },
+  {
+   "id": "george-w-bush",
+   "name": "George W. Bush",
+   "from": "43rd president, 2001-2009",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 86,
+   "pv": 4270454,
+   "img": "img/george-w-bush.webp",
+   "credit": {
+    "author": "Eric Draper",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George-W-Bush.jpeg"
+   }
+  },
+  {
+   "id": "abraham-lincoln",
+   "name": "Abraham Lincoln",
+   "from": "16th president, 1861-1865",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 84,
+   "pv": 4236295,
+   "img": "img/abraham-lincoln.webp",
+   "credit": {
+    "author": "Alexander Gardner",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+   }
+  },
+  {
+   "id": "bill-clinton",
+   "name": "Bill Clinton",
+   "from": "42nd president, 1993-2001",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 81,
+   "pv": 4184008,
+   "img": "img/bill-clinton.webp",
+   "credit": {
+    "author": "Bob McNeely, The White House[1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Clinton.jpg"
+   }
+  },
+  {
+   "id": "ronald-reagan",
+   "name": "Ronald Reagan",
+   "from": "40th president, 1981-1989",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 79,
+   "pv": 3815420,
+   "img": "img/ronald-reagan.webp",
+   "credit": {
+    "author": "Michael Evans",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg"
+   }
+  },
+  {
+   "id": "theodore-roosevelt",
+   "name": "Theodore Roosevelt",
+   "from": "26th president, 1901-1909",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 76,
+   "pv": 3761825,
+   "img": "img/theodore-roosevelt.webp",
+   "credit": {
+    "author": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros_(4x5_cropped)_(3).jpg"
+   }
+  },
+  {
+   "id": "dwight-d-eisenhower",
+   "name": "Dwight D. Eisenhower",
+   "from": "34th president, 1953-1961",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 74,
+   "pv": 3299484,
+   "img": "img/dwight-d-eisenhower.webp",
+   "credit": {
+    "author": "White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959.jpg"
+   }
+  },
+  {
+   "id": "george-h-w-bush",
+   "name": "George H. W. Bush",
+   "from": "41st president, 1989-1993",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 72,
+   "pv": 3206286,
+   "img": "img/george-h-w-bush.webp",
+   "credit": {
+    "author": "David Valdez",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_H._W._Bush_presidential_portrait_(cropped)_(2).jpg"
+   }
+  },
+  {
+   "id": "richard-nixon",
+   "name": "Richard Nixon",
+   "from": "37th president, 1969-1974",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 69,
+   "pv": 2956635,
+   "img": "img/richard-nixon.webp",
+   "credit": {
+    "author": "Department of Defense. Department of the Army. Office of the Deputy Chief of Staff for Operations. U.S. Army Audiovisual Center. (ca. 1974 - 05/15/1984)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Richard_Nixon_presidential_portrait_(2).jpg"
+   }
+  },
+  {
+   "id": "jimmy-carter",
+   "name": "Jimmy Carter",
+   "from": "39th president, 1977-1981",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 67,
+   "pv": 2684654,
+   "img": "img/jimmy-carter.webp",
+   "credit": {
+    "author": "Department of Defense. Department of the Navy. Naval Photographic Center",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "lyndon-b-johnson",
+   "name": "Lyndon B. Johnson",
+   "from": "36th president, 1963-1969",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 65,
+   "pv": 2614486,
+   "img": "img/lyndon-b-johnson.webp",
+   "credit": {
+    "author": "Arnold Newman",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_color_(3x4_cropped)(2).jpg"
+   }
+  },
+  {
+   "id": "thomas-jefferson",
+   "name": "Thomas Jefferson",
+   "from": "3rd president, 1801-1809",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 62,
+   "pv": 2474562,
+   "img": "img/thomas-jefferson.webp",
+   "credit": {
+    "author": "Rembrandt Peale",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg"
+   }
+  },
+  {
+   "id": "ulysses-s-grant",
+   "name": "Ulysses S. Grant",
+   "from": "18th president, 1869-1877",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 60,
+   "pv": 2360897,
+   "img": "img/ulysses-s-grant.webp",
+   "credit": {
+    "author": "Brady-Handy Photograph Collection, Library of Congress",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ulysses_S._Grant_1870-1880_(cropped).jpg"
+   }
+  },
+  {
+   "id": "harry-s-truman",
+   "name": "Harry S. Truman",
+   "from": "33rd president, 1945-1953",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 58,
+   "pv": 2315230,
+   "img": "img/harry-s-truman.webp",
+   "credit": {
+    "author": "National Archives and Records Administration. Office of Presidential Libraries. Harry S. Truman Library.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:TRUMAN_58-766-06_(cropped).jpg"
+   }
+  },
+  {
+   "id": "james-a-garfield",
+   "name": "James A. Garfield",
+   "from": "20th president, 1881",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 55,
+   "pv": 3792916,
+   "img": "img/james-a-garfield.webp",
+   "credit": {
+    "author": "Unknown; part of Brady-Handy Photograph Collection.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Abram_Garfield,_photo_portrait_seated.jpg"
+   }
+  },
+  {
+   "id": "gerald-ford",
+   "name": "Gerald Ford",
+   "from": "38th president, 1974-1977",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 55,
+   "pv": 2159667,
+   "img": "img/gerald-ford.webp",
+   "credit": {
+    "author": "David Hume Kennerly",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gerald_Ford_presidential_portrait_(cropped).jpg"
+   }
+  },
+  {
+   "id": "john-adams",
+   "name": "John Adams",
+   "from": "2nd president, 1797-1801",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 53,
+   "pv": 1983955,
+   "img": "img/john-adams.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart,_John_Adams,_c._1800-1815,_NGA_42933.jpg"
+   }
+  },
+  {
+   "id": "andrew-jackson",
+   "name": "Andrew Jackson",
+   "from": "7th president, 1829-1837",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 50,
+   "pv": 1734649,
+   "img": "img/andrew-jackson.webp",
+   "credit": {
+    "author": "Ralph Eleaser Whiteside Earl",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Andrew_jackson_head_(cropped).jpg"
+   }
+  },
+  {
+   "id": "grover-cleveland",
+   "name": "Grover Cleveland",
+   "from": "22nd & 24th president",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 48,
+   "pv": 1652470,
+   "img": "img/grover-cleveland.webp",
+   "credit": {
+    "author": "Napoleon Sarony",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:StephenGroverCleveland.jpg"
+   }
+  },
+  {
+   "id": "woodrow-wilson",
+   "name": "Woodrow Wilson",
+   "from": "28th president, 1913-1921",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 46,
+   "pv": 1604957,
+   "img": "img/woodrow-wilson.webp",
+   "credit": {
+    "author": "Harris & Ewing, photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Woodrow_Wilson_Harris_%26_Ewing_(3x4_cropped_b).jpg"
+   }
+  },
+  {
+   "id": "william-mckinley",
+   "name": "William McKinley",
+   "from": "25th president, 1897-1901",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 43,
+   "pv": 1603103,
+   "img": "img/william-mckinley.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:McKinley_(cropped).jpg"
+   }
+  },
+  {
+   "id": "herbert-hoover",
+   "name": "Herbert Hoover",
+   "from": "31st president, 1929-1933",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 41,
+   "pv": 1406909,
+   "img": "img/herbert-hoover.webp",
+   "credit": {
+    "author": "Underwood & Underwood",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Hoover_portrait.jpg"
+   }
+  },
+  {
+   "id": "chester-a-arthur",
+   "name": "Chester A. Arthur",
+   "from": "21st president, 1881-1885",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 40,
+   "pv": 2106869,
+   "img": "img/chester-a-arthur.webp",
+   "credit": {
+    "author": "Abraham Bogardus / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Chester_A._Arthur_by_Abraham_Bogardus_(cropped)_(2).jpg"
+   }
+  },
+  {
+   "id": "warren-g-harding",
+   "name": "Warren G. Harding",
+   "from": "29th president, 1921-1923",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 39,
+   "pv": 1321612,
+   "img": "img/warren-g-harding.webp",
+   "credit": {
+    "author": "Harris & Ewing, photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Warren_G._Harding_1920s_portrait_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "calvin-coolidge",
+   "name": "Calvin Coolidge",
+   "from": "30th president, 1923-1929",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 36,
+   "pv": 1310971,
+   "img": "img/calvin-coolidge.webp",
+   "credit": {
+    "author": "Harris & Ewing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Calvin_Coolidge,_1924_portrait_photograph_(3x4_cropped_2).jpeg"
+   }
+  },
+  {
+   "id": "william-howard-taft",
+   "name": "William Howard Taft",
+   "from": "27th president, 1909-1913",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 34,
+   "pv": 1226019,
+   "img": "img/william-howard-taft.webp",
+   "credit": {
+    "author": "Pach Brothers, restored by Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Howard_Taft_by_Pach_Brothers_(3x4_ropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "william-henry-harrison",
+   "name": "William Henry Harrison",
+   "from": "9th president, 1841",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 32,
+   "pv": 1165292,
+   "img": "img/william-henry-harrison.webp",
+   "credit": {
+    "author": "Albert Gallatin Hoit",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Henry_Harrison_crop.jpg"
+   }
+  },
+  {
+   "id": "john-quincy-adams",
+   "name": "John Quincy Adams",
+   "from": "6th president, 1825-1829",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 29,
+   "pv": 1143315,
+   "img": "img/john-quincy-adams.webp",
+   "credit": {
+    "author": "Mathew Brady",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JQA_Photo_Crop_(cropped).jpg"
+   }
+  },
+  {
+   "id": "andrew-johnson",
+   "name": "Andrew Johnson",
+   "from": "17th president, 1865-1869",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 27,
+   "pv": 1113334,
+   "img": "img/andrew-johnson.webp",
+   "credit": {
+    "author": "Mathew Benjamin Brady",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Andrew_Johnson_photo_portrait_head_and_shoulders,_c1870-1880-Edit1.jpg"
+   }
+  },
+  {
+   "id": "james-buchanan",
+   "name": "James Buchanan",
+   "from": "15th president, 1857-1861",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 25,
+   "pv": 1096839,
+   "img": "img/james-buchanan.webp",
+   "credit": {
+    "author": "From Brady daguerreotype (Mathew Brady) (1822-1896)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Buchanan_(cropped).jpg"
+   }
+  },
+  {
+   "id": "james-madison",
+   "name": "James Madison",
+   "from": "4th president, 1809-1817",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 22,
+   "pv": 1070612,
+   "img": "img/james-madison.webp",
+   "credit": {
+    "author": "John Vanderlyn",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Madison.jpg"
+   }
+  },
+  {
+   "id": "rutherford-b-hayes",
+   "name": "Rutherford B. Hayes",
+   "from": "19th president, 1877-1881",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 20,
+   "pv": 953904,
+   "img": "img/rutherford-b-hayes.webp",
+   "credit": {
+    "author": "Mathew Benjamin Brady",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg"
+   }
+  },
+  {
+   "id": "martin-van-buren",
+   "name": "Martin Van Buren",
+   "from": "8th president, 1837-1841",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 18,
+   "pv": 945891,
+   "img": "img/martin-van-buren.webp",
+   "credit": {
+    "author": "Mathew Benjamin Brady",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Martin_Van_Buren_by_Mathew_Brady_c1855-58-(4).jpg"
+   }
+  },
+  {
+   "id": "zachary-taylor",
+   "name": "Zachary Taylor",
+   "from": "12th president, 1849-1850",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 15,
+   "pv": 862076,
+   "img": "img/zachary-taylor.webp",
+   "credit": {
+    "author": "Zachary_Taylor_half_plate_daguerreotype_c1843-45.png: unknown, possibly Maguire of New Orleans derivative work: Beao",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Zachary_Taylor_restored_and_cropped_(3.5x4.5_cropped)_(2).jpg"
+   }
+  },
+  {
+   "id": "john-tyler",
+   "name": "John Tyler",
+   "from": "10th president, 1841-1845",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 13,
+   "pv": 854396,
+   "img": "img/john-tyler.webp",
+   "credit": {
+    "author": "George Peter Alexander Healy",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tyler,_John,_by_Healy_(1842,_NPG_2019_13)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "james-k-polk",
+   "name": "James K. Polk",
+   "from": "11th president, 1845-1849",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 10,
+   "pv": 848243,
+   "img": "img/james-k-polk.webp",
+   "credit": {
+    "author": "James_Polk.jpg: Brady, Mathew B., 1823 (ca.)-1896, photographer. derivative work: Superwikifan (talk)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_K._Polk_restored_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "benjamin-harrison",
+   "name": "Benjamin Harrison",
+   "from": "23rd president, 1889-1893",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 8,
+   "pv": 777932,
+   "img": "img/benjamin-harrison.webp",
+   "credit": {
+    "author": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pach_Brothers_-_Benjamin_Harrison_(cropped)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "james-monroe",
+   "name": "James Monroe",
+   "from": "5th president, 1817-1825",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 6,
+   "pv": 745380,
+   "img": "img/james-monroe.webp",
+   "credit": {
+    "author": "Samuel Finley Breese Morse",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Monroe_White_House_portrait_1819_(cropped)(2).jpg"
+   }
+  },
+  {
+   "id": "franklin-pierce",
+   "name": "Franklin Pierce",
+   "from": "14th president, 1853-1857",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 3,
+   "pv": 736285,
+   "img": "img/franklin-pierce.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Franklin_Pierce_(1858).jpg"
+   }
+  },
+  {
+   "id": "millard-fillmore",
+   "name": "Millard Fillmore",
+   "from": "13th president, 1850-1853",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "presidents"
+   ],
+   "fame": 1,
+   "pv": 709996,
+   "img": "img/millard-fillmore.webp",
+   "credit": {
+    "author": "Unknown photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Fillmore_(cropped).jpg"
+   }
+  }
+ ]
+}

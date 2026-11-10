@@ -1,0 +1,767 @@
+{
+ "id": "activists",
+ "title": "Civil Rights & Activists",
+ "cat": "politics",
+ "people": [
+  {
+   "id": "mahatma-gandhi",
+   "name": "Mahatma Gandhi",
+   "from": "Indian independence",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 100,
+   "pv": 2934387,
+   "img": "img/mahatma-gandhi.webp",
+   "credit": {
+    "author": "Elliott & Fry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg"
+   }
+  },
+  {
+   "id": "martin-luther-king-jr",
+   "name": "Martin Luther King Jr.",
+   "from": "Civil rights",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 97,
+   "pv": 2930492,
+   "img": "img/martin-luther-king-jr.webp",
+   "credit": {
+    "author": "Yoichi Okamoto",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Martin_Luther_King,_Jr._and_Lyndon_Johnson_(cropped).jpg"
+   }
+  },
+  {
+   "id": "malcolm-x",
+   "name": "Malcolm X",
+   "from": "Civil rights",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 95,
+   "pv": 2305173,
+   "img": "img/malcolm-x.webp",
+   "credit": {
+    "author": "Eddie Adams",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Malcolm_X_1964_press_photo_(cropped)_(lighting_diff).jpg"
+   }
+  },
+  {
+   "id": "helen-keller",
+   "name": "Helen Keller",
+   "from": "Disability rights",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 92,
+   "pv": 2169883,
+   "img": "img/helen-keller.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Helen_Keller_(circa_1904).jpg"
+   }
+  },
+  {
+   "id": "nelson-mandela",
+   "name": "Nelson Mandela",
+   "from": "Anti-apartheid",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 89,
+   "pv": 2053132,
+   "img": "img/nelson-mandela.webp",
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg"
+   }
+  },
+  {
+   "id": "malala-yousafzai",
+   "name": "Malala Yousafzai",
+   "from": "Girls' education",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 87,
+   "pv": 1754818,
+   "img": "img/malala-yousafzai.webp",
+   "credit": {
+    "author": "flowcomm",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_2023_portrait_2x3.jpg"
+   }
+  },
+  {
+   "id": "rosa-parks",
+   "name": "Rosa Parks",
+   "from": "Montgomery bus boycott",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 84,
+   "pv": 1405342,
+   "img": "img/rosa-parks.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosa_Parks,_November_1956_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jackie-robinson",
+   "name": "Jackie Robinson",
+   "from": "Broke baseball's color line",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 81,
+   "pv": 1398358,
+   "img": "img/jackie-robinson.webp",
+   "credit": {
+    "author": "Harry Warnecke / Frank Livia / Robert F. Cranston / William Klein",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackie_Robinson,_NPG_97_135.jpg"
+   }
+  },
+  {
+   "id": "harriet-tubman",
+   "name": "Harriet Tubman",
+   "from": "Underground Railroad",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 79,
+   "pv": 1382865,
+   "img": "img/harriet-tubman.webp",
+   "credit": {
+    "author": "Powelson, Benjamin F. 1823 - 1885",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Carte-de-visite_portrait_of_Harriet_Tubman_(cropped).jpg"
+   }
+  },
+  {
+   "id": "greta-thunberg",
+   "name": "Greta Thunberg",
+   "from": "Climate",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 76,
+   "pv": 1215265,
+   "img": "img/greta-thunberg.webp",
+   "credit": {
+    "author": "Kushal Das",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Greta_Thunberg_in_May_2026_(cropped_3x4).jpg"
+   }
+  },
+  {
+   "id": "florence-nightingale",
+   "name": "Florence Nightingale",
+   "from": "Nursing reformer",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 73,
+   "pv": 1187256,
+   "img": "img/florence-nightingale.webp",
+   "credit": {
+    "author": "Henry Hering (1814-1893)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Florence_Nightingale_(H_Hering_NPG_x82368).jpg"
+   }
+  },
+  {
+   "id": "frederick-douglass",
+   "name": "Frederick Douglass",
+   "from": "Abolitionist",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 71,
+   "pv": 1073955,
+   "img": "img/frederick-douglass.webp",
+   "credit": {
+    "author": "George Kendall Warren",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frederick_Douglass_(circa_1879)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gloria-steinem",
+   "name": "Gloria Steinem",
+   "from": "Feminist",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 68,
+   "pv": 810176,
+   "img": "img/gloria-steinem.webp",
+   "credit": {
+    "author": "Lynn Gilbert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gloria_Steinem_1977_%C2%A9Lynn_Gilbert_(cropped).jpg"
+   }
+  },
+  {
+   "id": "cesar-chavez",
+   "name": "Cesar Chavez",
+   "from": "Farm workers",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 65,
+   "pv": 759281,
+   "img": "img/cesar-chavez.webp",
+   "credit": {
+    "author": "Trikosko, Marion S., photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cesar_Chavez_40915a_(cropped2)(c).tif"
+   }
+  },
+  {
+   "id": "w-e-b-du-bois",
+   "name": "W. E. B. Du Bois",
+   "from": "NAACP",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 63,
+   "pv": 735569,
+   "img": "img/w-e-b-du-bois.webp",
+   "credit": {
+    "author": "James E. Purdy / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:W.E.B._Du_Bois_by_James_E._Purdy,_1907_(3x4).jpg"
+   }
+  },
+  {
+   "id": "thurgood-marshall",
+   "name": "Thurgood Marshall",
+   "from": "NAACP lawyer",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 60,
+   "pv": 668981,
+   "img": "img/thurgood-marshall.webp",
+   "credit": {
+    "author": "Robert S. Oakes",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Thurgood-marshall-2.jpg"
+   }
+  },
+  {
+   "id": "ruby-bridges",
+   "name": "Ruby Bridges",
+   "from": "School integration",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 57,
+   "pv": 623447,
+   "img": "img/ruby-bridges.webp",
+   "credit": {
+    "author": "Texas A&M University-Commerce Marketing Communications Photography",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ruby_Bridges_(16264182739).jpg"
+   }
+  },
+  {
+   "id": "harvey-milk",
+   "name": "Harvey Milk",
+   "from": "Gay rights",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 55,
+   "pv": 548155,
+   "img": "img/harvey-milk.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Harvey_Milk_in_front_of_camera_shop_November_1977_(cropped).jpg"
+   }
+  },
+  {
+   "id": "booker-t-washington",
+   "name": "Booker T. Washington",
+   "from": "Educator",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 52,
+   "pv": 535453,
+   "img": "img/booker-t-washington.webp",
+   "credit": {
+    "author": "Harris & Ewing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Booker_T_Washington_retouched_flattened-crop.jpg"
+   }
+  },
+  {
+   "id": "medgar-evers",
+   "name": "Medgar Evers",
+   "from": "Civil rights",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 49,
+   "pv": 529901,
+   "img": "img/medgar-evers.webp",
+   "credit": {
+    "author": "Unknown; distributed by AP",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Medgar_Evers_press_photo.jpg"
+   }
+  },
+  {
+   "id": "ralph-nader",
+   "name": "Ralph Nader",
+   "from": "Consumer rights",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 46,
+   "pv": 434952,
+   "img": "img/ralph-nader.webp",
+   "credit": {
+    "author": "Don LaVange (https://www.flickr.com/photos/wickenden/)",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Naderspeak.JPG"
+   }
+  },
+  {
+   "id": "john-lewis",
+   "name": "John Lewis",
+   "from": "Civil rights, Congress",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 44,
+   "pv": 424502,
+   "img": "img/john-lewis.webp",
+   "credit": {
+    "author": "United States House of Representatives",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Lewis-2006_(cropped).jpg"
+   }
+  },
+  {
+   "id": "susan-b-anthony",
+   "name": "Susan B. Anthony",
+   "from": "Women's suffrage",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 41,
+   "pv": 420458,
+   "img": "img/susan-b-anthony.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:SB_Anthony_from_RoRaWW.jpg"
+   }
+  },
+  {
+   "id": "desmond-tutu",
+   "name": "Desmond Tutu",
+   "from": "Anti-apartheid",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 38,
+   "pv": 389545,
+   "img": "img/desmond-tutu.webp",
+   "credit": {
+    "author": "Benny Gool",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Archbishop-Tutu-medium.jpg"
+   }
+  },
+  {
+   "id": "coretta-scott-king",
+   "name": "Coretta Scott King",
+   "from": "Civil rights",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 36,
+   "pv": 353942,
+   "img": "img/coretta-scott-king.webp",
+   "credit": {
+    "author": "Herman Hiller / New York World-Telegram & Sun",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Coretta_Scott_King_1964.jpg"
+   }
+  },
+  {
+   "id": "ida-b-wells",
+   "name": "Ida B. Wells",
+   "from": "Journalist, civil rights",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 33,
+   "pv": 342550,
+   "img": "img/ida-b-wells.webp",
+   "credit": {
+    "author": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mary_Garrity_-_Ida_B._Wells-Barnett_-_Google_Art_Project_-_restoration_crop.jpg"
+   }
+  },
+  {
+   "id": "sojourner-truth",
+   "name": "Sojourner Truth",
+   "from": "Abolitionist",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 30,
+   "pv": 322724,
+   "img": "img/sojourner-truth.webp",
+   "credit": {
+    "author": "Randall Studio",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sojourner_Truth,_1870_(cropped,_restored).jpg"
+   }
+  },
+  {
+   "id": "emmeline-pankhurst",
+   "name": "Emmeline Pankhurst",
+   "from": "Suffragette, UK",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 28,
+   "pv": 269215,
+   "img": "img/emmeline-pankhurst.webp",
+   "credit": {
+    "author": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Emmeline_Pankhurst,_seated_(1913).jpg"
+   }
+  },
+  {
+   "id": "dolores-huerta",
+   "name": "Dolores Huerta",
+   "from": "Farm workers",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 25,
+   "pv": 267755,
+   "img": "img/dolores-huerta.webp",
+   "credit": {
+    "author": "Bill Andrews for the Daily World",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rally_for_Impeachment_of_Richard_Nixon,_Whitman_Auditorim,_Brooklyn_College._Photos_by_Bill_Andrews._Apr_17,_1974_Slide_30_Edit.png"
+   }
+  },
+  {
+   "id": "clara-barton",
+   "name": "Clara Barton",
+   "from": "Red Cross",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 22,
+   "pv": 228158,
+   "img": "img/clara-barton.webp",
+   "credit": {
+    "author": "The Library of Congress",
+    "license": "No restrictions",
+    "licenseUrl": "https://www.flickr.com/commons/usage/",
+    "source": "https://commons.wikimedia.org/wiki/File:(Union_nurse_Clara_Barton)_(LOC).jpg"
+   }
+  },
+  {
+   "id": "rachel-carson",
+   "name": "Rachel Carson",
+   "from": "Environment",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 20,
+   "pv": 220795,
+   "img": "img/rachel-carson.webp",
+   "credit": {
+    "author": "U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rachel-Carson.jpg"
+   }
+  },
+  {
+   "id": "bayard-rustin",
+   "name": "Bayard Rustin",
+   "from": "March on Washington",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 17,
+   "pv": 208708,
+   "img": "img/bayard-rustin.webp",
+   "credit": {
+    "author": "Leffler, Warren K., photographer; cropped by Beyond My Ken (talk) 09:59, 25 November 2010 (UTC)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:BayardRustinAug1963-LibraryOfCongress_crop.jpg"
+   }
+  },
+  {
+   "id": "fannie-lou-hamer",
+   "name": "Fannie Lou Hamer",
+   "from": "Voting rights",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 14,
+   "pv": 165921,
+   "img": "img/fannie-lou-hamer.webp",
+   "credit": {
+    "author": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Fannie_Lou_Hamer_1964-08-22.png"
+   }
+  },
+  {
+   "id": "elizabeth-cady-stanton",
+   "name": "Elizabeth Cady Stanton",
+   "from": "Women's suffrage",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 12,
+   "pv": 160975,
+   "img": "img/elizabeth-cady-stanton.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Elizabeth_Stanton.jpg"
+   }
+  },
+  {
+   "id": "jane-addams",
+   "name": "Jane Addams",
+   "from": "Hull House",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 9,
+   "pv": 151875,
+   "img": "img/jane-addams.webp",
+   "credit": {
+    "author": "Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jane_Addams_-_Bain_News_Service.jpg"
+   }
+  },
+  {
+   "id": "william-lloyd-garrison",
+   "name": "William Lloyd Garrison",
+   "from": "Abolitionist",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 6,
+   "pv": 132744,
+   "img": "img/william-lloyd-garrison.webp",
+   "credit": {
+    "author": "Liljenquist Family Collection of Civil War Photographs",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:William_Lloyd_Garrison,_abolitionist,_journalist,_and_editor_of_The_Liberator_LCCN2017660623_(cropped).jpg"
+   }
+  },
+  {
+   "id": "wangari-maathai",
+   "name": "Wangari Maathai",
+   "from": "Environment, Kenya",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 4,
+   "pv": 118397,
+   "img": "img/wangari-maathai.webp",
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel Maryland, USA",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Wangari_Maathai_in_2001.jpg"
+   }
+  },
+  {
+   "id": "dorothy-height",
+   "name": "Dorothy Height",
+   "from": "Civil rights",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "politics",
+    "activists"
+   ],
+   "fame": 1,
+   "pv": 47801,
+   "img": "img/dorothy-height.webp",
+   "credit": {
+    "author": "Adrian Hood",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:DrDorothyHeight.jpg"
+   }
+  }
+ ]
+}

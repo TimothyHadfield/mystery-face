@@ -1,0 +1,607 @@
+{
+ "id": "first-ladies",
+ "title": "First Ladies",
+ "cat": "politics",
+ "people": [
+  {
+   "id": "melania-trump",
+   "name": "Melania Trump",
+   "from": "Donald Trump",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 100,
+   "pv": 5018726,
+   "img": "img/melania-trump.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Melania_Trump_at_Fort_Bragg,_Friday,_February_13,_2026.jpg"
+   }
+  },
+  {
+   "id": "jacqueline-kennedy-onassis",
+   "name": "Jacqueline Kennedy Onassis",
+   "from": "John F. Kennedy",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 97,
+   "pv": 4275478,
+   "img": "img/jacqueline-kennedy-onassis.webp",
+   "credit": {
+    "author": "Mark Shaw",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackie_Kennedy_Color_Portrait_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "hillary-clinton",
+   "name": "Hillary Clinton",
+   "from": "Bill Clinton",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 93,
+   "pv": 1987171,
+   "img": "img/hillary-clinton.webp",
+   "credit": {
+    "author": "U.S. Department of State",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg"
+   }
+  },
+  {
+   "id": "michelle-obama",
+   "name": "Michelle Obama",
+   "from": "Barack Obama",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 90,
+   "pv": 1277788,
+   "img": "img/michelle-obama.webp",
+   "credit": {
+    "author": "Official White House Photo by Chuck Kennedy",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Michelle_Obama_2013_official_portrait.jpg"
+   }
+  },
+  {
+   "id": "eleanor-roosevelt",
+   "name": "Eleanor Roosevelt",
+   "from": "Franklin D. Roosevelt",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 86,
+   "pv": 1069733,
+   "img": "img/eleanor-roosevelt.webp",
+   "credit": {
+    "author": "FDR Presidential Library & Museum",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_at_the_United_Nations,_circa_1946-1947_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "jill-biden",
+   "name": "Jill Biden",
+   "from": "Joe Biden",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 83,
+   "pv": 754074,
+   "img": "img/jill-biden.webp",
+   "credit": {
+    "author": "White House Photography Office",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:First_Lady_Jill_Biden_official_portrait.jpg"
+   }
+  },
+  {
+   "id": "mary-todd-lincoln",
+   "name": "Mary Todd Lincoln",
+   "from": "Abraham Lincoln",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 80,
+   "pv": 714230,
+   "img": "img/mary-todd-lincoln.webp",
+   "credit": {
+    "author": "Mary_Todd_Lincoln2.jpg: Mathew Brady derivative work: Materialscientist (talk)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mary_Todd_Lincoln2crop.jpg"
+   }
+  },
+  {
+   "id": "barbara-bush",
+   "name": "Barbara Bush",
+   "from": "George H. W. Bush",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 76,
+   "pv": 561989,
+   "img": "img/barbara-bush.webp",
+   "credit": {
+    "author": "The White House",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Barbara_Bush,_official_portrait_(1992)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "nancy-reagan",
+   "name": "Nancy Reagan",
+   "from": "Ronald Reagan",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 73,
+   "pv": 539278,
+   "img": "img/nancy-reagan.webp",
+   "credit": {
+    "author": "Official White House photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nancy_Reagan.jpg"
+   }
+  },
+  {
+   "id": "laura-bush",
+   "name": "Laura Bush",
+   "from": "George W. Bush",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 69,
+   "pv": 523347,
+   "img": "img/laura-bush.webp",
+   "credit": {
+    "author": "White House photo by Krisanne Johnson",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Laura_Bush_portrait.jpg"
+   }
+  },
+  {
+   "id": "lady-bird-johnson",
+   "name": "Lady Bird Johnson",
+   "from": "Lyndon B. Johnson",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 66,
+   "pv": 502587,
+   "img": "img/lady-bird-johnson.webp",
+   "credit": {
+    "author": "Robert Knudsen, White House Press Office (WHPO)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lady_Bird_Johnson,_photo_portrait,_standing_at_rear_of_White_House,_color,_crop.jpg"
+   }
+  },
+  {
+   "id": "martha-washington",
+   "name": "Martha Washington",
+   "from": "George Washington",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 62,
+   "pv": 483609,
+   "img": "img/martha-washington.webp",
+   "credit": {
+    "author": "Unidentified Artist, after Gilbert Stuart and Charles Willson Peale",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:NPG_70_3_Custis_Washington.tif"
+   }
+  },
+  {
+   "id": "abigail-adams",
+   "name": "Abigail Adams",
+   "from": "John Adams",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 59,
+   "pv": 408004,
+   "img": "img/abigail-adams.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Abigail_Adams_by_Gilbert_Stuart.jpg"
+   }
+  },
+  {
+   "id": "pat-nixon",
+   "name": "Pat Nixon",
+   "from": "Richard Nixon",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 56,
+   "pv": 303586,
+   "img": "img/pat-nixon.webp",
+   "credit": {
+    "author": "Richard M. Nixon Presidential Library",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Formal_Portrait_of_Pat_Nixon_Seated_Wearing_a_White_Dress_(WHPO-E0309)_(cropped_headshot).jpg"
+   }
+  },
+  {
+   "id": "mamie-eisenhower",
+   "name": "Mamie Eisenhower",
+   "from": "Dwight D. Eisenhower",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 52,
+   "pv": 274284,
+   "img": "img/mamie-eisenhower.webp",
+   "credit": {
+    "author": "White House photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mamie_Eisenhower_color_photo_portrait,_White_House,_May_1954.jpg"
+   }
+  },
+  {
+   "id": "betty-ford",
+   "name": "Betty Ford",
+   "from": "Gerald Ford",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 49,
+   "pv": 258118,
+   "img": "img/betty-ford.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author or not provided",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_First_Lady_Betty_Ford_-_NARA_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "frances-cleveland",
+   "name": "Frances Cleveland",
+   "from": "Grover Cleveland",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 45,
+   "pv": 221365,
+   "img": "img/frances-cleveland.webp",
+   "credit": {
+    "author": "Charles Milton Bell / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frances_Folsom_Cleveland,_by_Charles_Milton_Bell.jpg"
+   }
+  },
+  {
+   "id": "louisa-adams",
+   "name": "Louisa Adams",
+   "from": "John Quincy Adams",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 42,
+   "pv": 211981,
+   "img": "img/louisa-adams.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Louisa_Catherine_Johnson_Adams_by_Gilbert_Stuart,_1821-26.jpg"
+   }
+  },
+  {
+   "id": "rosalynn-carter",
+   "name": "Rosalynn Carter",
+   "from": "Jimmy Carter",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 39,
+   "pv": 200690,
+   "img": "img/rosalynn-carter.webp",
+   "credit": {
+    "author": "File:Rose Carter, official color photo, 1977.jpg: White House derivative work: Hagar (User talk:Hagar)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rose_Carter,_official_color_photo,_1977-cropped.jpg"
+   }
+  },
+  {
+   "id": "dolley-madison",
+   "name": "Dolley Madison",
+   "from": "James Madison",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 35,
+   "pv": 179645,
+   "img": "img/dolley-madison.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dolley_Madison.jpg"
+   }
+  },
+  {
+   "id": "edith-wilson",
+   "name": "Edith Wilson",
+   "from": "Woodrow Wilson",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 32,
+   "pv": 159307,
+   "img": "img/edith-wilson.webp",
+   "credit": {
+    "author": "Genthe, Arnold, 1869-1942, photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Edith_Wilson_cropped_2.jpg"
+   }
+  },
+  {
+   "id": "edith-roosevelt",
+   "name": "Edith Roosevelt",
+   "from": "Theodore Roosevelt",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 28,
+   "pv": 145777,
+   "img": "img/edith-roosevelt.webp",
+   "credit": {
+    "author": "Frances Benjamin Johnston / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Edith_Kermit_Carow_Roosevelt_by_Frances_Benjamin_Johnston_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lou-henry-hoover",
+   "name": "Lou Henry Hoover",
+   "from": "Herbert Hoover",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 25,
+   "pv": 130323,
+   "img": "img/lou-henry-hoover.webp",
+   "credit": {
+    "author": "Underwood & Underwood",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Louhenryhoover.jpg"
+   }
+  },
+  {
+   "id": "grace-coolidge",
+   "name": "Grace Coolidge",
+   "from": "Calvin Coolidge",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 21,
+   "pv": 107289,
+   "img": "img/grace-coolidge.webp",
+   "credit": {
+    "author": "Harris & Ewing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Grace_Coolidge_1924.jpg"
+   }
+  },
+  {
+   "id": "bess-truman",
+   "name": "Bess Truman",
+   "from": "Harry S. Truman",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 18,
+   "pv": 107003,
+   "img": "img/bess-truman.webp",
+   "credit": {
+    "author": "Harris & Ewing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bess_Truman_cropped.jpg"
+   }
+  },
+  {
+   "id": "ida-saxton-mckinley",
+   "name": "Ida Saxton McKinley",
+   "from": "William McKinley",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 15,
+   "pv": 78132,
+   "img": "img/ida-saxton-mckinley.webp",
+   "credit": {
+    "author": "Frances Johnston",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:ISMcKinley.jpg"
+   }
+  },
+  {
+   "id": "julia-grant",
+   "name": "Julia Grant",
+   "from": "Ulysses S. Grant",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 11,
+   "pv": 72367,
+   "img": "img/julia-grant.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Julia_Dent_Grant.jpg"
+   }
+  },
+  {
+   "id": "helen-herron-taft",
+   "name": "Helen Herron Taft",
+   "from": "William Howard Taft",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 8,
+   "pv": 68129,
+   "img": "img/helen-herron-taft.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Helen_Herron_Taft_cph.3a02670.jpg"
+   }
+  },
+  {
+   "id": "florence-harding",
+   "name": "Florence Harding",
+   "from": "Warren G. Harding",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 4,
+   "pv": 57727,
+   "img": "img/florence-harding.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Florence_Kling_Harding.jpg"
+   }
+  },
+  {
+   "id": "lucy-webb-hayes",
+   "name": "Lucy Webb Hayes",
+   "from": "Rutherford B. Hayes",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "first-ladies"
+   ],
+   "fame": 1,
+   "pv": 43318,
+   "img": "img/lucy-webb-hayes.webp",
+   "credit": {
+    "author": "Mathew Benjamin Brady / Levin Corbin Handy",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lucy_Webb_Hayes_-_Brady-Handy.jpg"
+   }
+  }
+ ]
+}

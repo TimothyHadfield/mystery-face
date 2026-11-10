@@ -1,0 +1,967 @@
+{
+ "id": "painters",
+ "title": "Painters & Artists",
+ "cat": "books",
+ "people": [
+  {
+   "id": "walt-disney",
+   "name": "Walt Disney",
+   "from": "Animation",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 100,
+   "pv": 2049347,
+   "img": "img/walt-disney.webp",
+   "credit": {
+    "author": "Boy Scouts of America",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Walt_Disney_1946_(cropped2).JPG"
+   }
+  },
+  {
+   "id": "leonardo-da-vinci",
+   "name": "Leonardo da Vinci",
+   "from": "Mona Lisa",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 98,
+   "pv": 2039234,
+   "img": "img/leonardo-da-vinci.webp",
+   "credit": {
+    "author": "Attributed to Francesco Melzi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo_(colour_correction).png"
+   }
+  },
+  {
+   "id": "vincent-van-gogh",
+   "name": "Vincent van Gogh",
+   "from": "The Starry Night",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 96,
+   "pv": 1997062,
+   "img": "img/vincent-van-gogh.webp",
+   "credit": {
+    "author": "Vincent van Gogh",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_(454045).jpg"
+   }
+  },
+  {
+   "id": "frida-kahlo",
+   "name": "Frida Kahlo",
+   "from": "Self-portraits",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 94,
+   "pv": 1918895,
+   "img": "img/frida-kahlo.webp",
+   "credit": {
+    "author": "Guillermo Kahlo",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frida_Kahlo,_by_Guillermo_Kahlo.jpg"
+   }
+  },
+  {
+   "id": "pablo-picasso",
+   "name": "Pablo Picasso",
+   "from": "Guernica",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 91,
+   "pv": 1688423,
+   "img": "img/pablo-picasso.webp",
+   "credit": {
+    "author": "Argentina. Revista Vea y Lea",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pablo_picasso_1.jpg"
+   }
+  },
+  {
+   "id": "andy-warhol",
+   "name": "Andy Warhol",
+   "from": "Campbell's Soup Cans",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 89,
+   "pv": 1672322,
+   "img": "img/andy-warhol.webp",
+   "credit": {
+    "author": "Bernard Gotfryd",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Andy_Warhol_by_Bernard_Gotfryd_1980.png"
+   }
+  },
+  {
+   "id": "bob-ross",
+   "name": "Bob Ross",
+   "from": "The Joy of Painting",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 87,
+   "pv": 1456140,
+   "img": "img/bob-ross.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bob_Ross_publicity_photo_(c._1982)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "jean-michel-basquiat",
+   "name": "Jean-Michel Basquiat",
+   "from": "Neo-expressionism",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 85,
+   "pv": 1297953,
+   "img": "img/jean-michel-basquiat.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jean-Michel_Basquiat_passport_(cropped).jpg"
+   }
+  },
+  {
+   "id": "michelangelo",
+   "name": "Michelangelo",
+   "from": "Sistine Chapel",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 83,
+   "pv": 1130144,
+   "img": "img/michelangelo.webp",
+   "credit": {
+    "author": "Attributed to Daniele da Volterra",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Michelangelo_Daniele_da_Volterra_(dettaglio).jpg"
+   }
+  },
+  {
+   "id": "salvador-dali",
+   "name": "Salvador Dalí",
+   "from": "The Persistence of Memory",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 81,
+   "pv": 1106868,
+   "img": "img/salvador-dali.webp",
+   "credit": {
+    "author": "Van Vechten, Carl, 1880-1964.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Salvador_Dal%C3%AD_1939.jpg"
+   }
+  },
+  {
+   "id": "frank-lloyd-wright",
+   "name": "Frank Lloyd Wright",
+   "from": "Architecture",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 78,
+   "pv": 801343,
+   "img": "img/frank-lloyd-wright.webp",
+   "credit": {
+    "author": "New York World-Telegram and the Sun staff photographer: Al Ravenna",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frank_Lloyd_Wright_portrait.jpg"
+   }
+  },
+  {
+   "id": "claude-monet",
+   "name": "Claude Monet",
+   "from": "Water Lilies",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 76,
+   "pv": 720102,
+   "img": "img/claude-monet.webp",
+   "credit": {
+    "author": "Nadar",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Claude_Monet_1899_Nadar_crop.jpg"
+   }
+  },
+  {
+   "id": "caravaggio",
+   "name": "Caravaggio",
+   "from": "Baroque painter",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 74,
+   "pv": 690008,
+   "img": "img/caravaggio.webp",
+   "credit": {
+    "author": "Ottavio Leoni",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Bild-Ottavio_Leoni,_Caravaggio.jpg"
+   }
+  },
+  {
+   "id": "jackson-pollock",
+   "name": "Jackson Pollock",
+   "from": "Drip paintings",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 72,
+   "pv": 652359,
+   "img": "img/jackson-pollock.webp",
+   "credit": {
+    "author": "Hans Namuth",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jackson_Pollock_by_Hans_Namuth_(cropped).jpg"
+   }
+  },
+  {
+   "id": "keith-haring",
+   "name": "Keith Haring",
+   "from": "Pop graffiti",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 70,
+   "pv": 621458,
+   "img": "img/keith-haring.webp",
+   "credit": {
+    "author": "Bernard Gotfryd",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Haringpalladium_(cropped).jpg"
+   }
+  },
+  {
+   "id": "gustav-klimt",
+   "name": "Gustav Klimt",
+   "from": "The Kiss",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 68,
+   "pv": 617105,
+   "img": "img/gustav-klimt.webp",
+   "credit": {
+    "author": "Josef Anton Trčka",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Klimt.jpg"
+   }
+  },
+  {
+   "id": "rembrandt",
+   "name": "Rembrandt",
+   "from": "The Night Watch",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 66,
+   "pv": 576833,
+   "img": "img/rembrandt.webp",
+   "credit": {
+    "author": "Rembrandt",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "yayoi-kusama",
+   "name": "Yayoi Kusama",
+   "from": "Polka dots",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 63,
+   "pv": 564616,
+   "img": "img/yayoi-kusama.webp",
+   "credit": {
+    "author": "Muriel Guingand",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yayoi_Kusama_in_2005.jpg"
+   }
+  },
+  {
+   "id": "raphael",
+   "name": "Raphael",
+   "from": "The School of Athens",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 61,
+   "pv": 561488,
+   "img": "img/raphael.webp",
+   "credit": {
+    "author": "Raphael",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg"
+   }
+  },
+  {
+   "id": "norman-rockwell",
+   "name": "Norman Rockwell",
+   "from": "Saturday Evening Post",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 59,
+   "pv": 537407,
+   "img": "img/norman-rockwell.webp",
+   "credit": {
+    "author": "en:Underwood & Underwood",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rockwell-Norman-LOC.jpg"
+   }
+  },
+  {
+   "id": "georgia-o-keeffe",
+   "name": "Georgia O'Keeffe",
+   "from": "Flowers, New Mexico",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 57,
+   "pv": 535867,
+   "img": "img/georgia-o-keeffe.webp",
+   "credit": {
+    "author": "Alfred Stieglitz",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Georgia_O%27Keeffe_MET_DP230868.jpg"
+   }
+  },
+  {
+   "id": "francisco-goya",
+   "name": "Francisco Goya",
+   "from": "Spanish painter",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 55,
+   "pv": 521816,
+   "img": "img/francisco-goya.webp",
+   "credit": {
+    "author": "Vicente López Portaña",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Vicente_L%C3%B3pez_Porta%C3%B1a_-_el_pintor_Francisco_de_Goya.jpg"
+   }
+  },
+  {
+   "id": "paul-gauguin",
+   "name": "Paul Gauguin",
+   "from": "Tahiti",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 53,
+   "pv": 453001,
+   "img": "img/paul-gauguin.webp",
+   "credit": {
+    "author": "Louis-Maurice Boutet de Monvel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_1891.png"
+   }
+  },
+  {
+   "id": "edvard-munch",
+   "name": "Edvard Munch",
+   "from": "The Scream",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 50,
+   "pv": 444436,
+   "img": "img/edvard-munch.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Edvard_Munch_(cropped).png"
+   }
+  },
+  {
+   "id": "henri-matisse",
+   "name": "Henri Matisse",
+   "from": "The Dance",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 48,
+   "pv": 417374,
+   "img": "img/henri-matisse.webp",
+   "credit": {
+    "author": "Alvin Langdon Coburn",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Henri_Matisse,_1913,_photograph_by_Alvin_Langdon_Coburn.jpg"
+   }
+  },
+  {
+   "id": "rene-magritte",
+   "name": "René Magritte",
+   "from": "The Son of Man",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 46,
+   "pv": 408657,
+   "img": "img/rene-magritte.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_en_buste_du_peintre_surr%C3%A9aliste_Ren%C3%A9_Magritte_(1898-1967)_le_18_octobre_1961_devant_une_de_ses_toiles,_PH19994.jpg"
+   }
+  },
+  {
+   "id": "henri-de-toulouse-lautrec",
+   "name": "Henri de Toulouse-Lautrec",
+   "from": "Moulin Rouge posters",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 44,
+   "pv": 404693,
+   "img": "img/henri-de-toulouse-lautrec.webp",
+   "credit": {
+    "author": "Paul Sescau",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Photolautrec.jpg"
+   }
+  },
+  {
+   "id": "wassily-kandinsky",
+   "name": "Wassily Kandinsky",
+   "from": "Abstract art",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 42,
+   "pv": 371050,
+   "img": "img/wassily-kandinsky.webp",
+   "credit": {
+    "author": "Vassily Kandinsky by Adolf Elnain Photo credits : Georges Meguerditchian - Centre Pompidou, MNAM-CCI /Dist. RMN-GP Image reference : 4N55985",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kandinsky_-_Vassily_Kandinsky_by_Adolf_Elnain_Photo_credits_-_Georges_Meguerditchian.jpg"
+   }
+  },
+  {
+   "id": "johannes-vermeer",
+   "name": "Johannes Vermeer",
+   "from": "Girl with a Pearl Earring",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 40,
+   "pv": 367062,
+   "img": "img/johannes-vermeer.webp",
+   "credit": {
+    "author": "Johannes Vermeer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg"
+   }
+  },
+  {
+   "id": "peter-paul-rubens",
+   "name": "Peter Paul Rubens",
+   "from": "Flemish Baroque",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 38,
+   "pv": 324791,
+   "img": "img/peter-paul-rubens.webp",
+   "credit": {
+    "author": "Peter Paul Rubens",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_Self-portrait_-_RH.S.180_-_Rubenshuis_(after_restoration).jpg"
+   }
+  },
+  {
+   "id": "albrecht-durer",
+   "name": "Albrecht Dürer",
+   "from": "Engravings",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 35,
+   "pv": 318523,
+   "img": "img/albrecht-durer.webp",
+   "credit": {
+    "author": "Albrecht Dürer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_Alte_Pinakothek.jpg"
+   }
+  },
+  {
+   "id": "ansel-adams",
+   "name": "Ansel Adams",
+   "from": "Photography",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 35,
+   "pv": 14764874,
+   "img": "img/ansel-adams.webp",
+   "credit": {
+    "author": "J. Malcolm Greany",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ansel_Adams_and_camera.jpg"
+   }
+  },
+  {
+   "id": "marc-chagall",
+   "name": "Marc Chagall",
+   "from": "Dreamlike villages",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 33,
+   "pv": 307092,
+   "img": "img/marc-chagall.webp",
+   "credit": {
+    "author": "Pierre Choumoff",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Shagal_Choumoff.jpg"
+   }
+  },
+  {
+   "id": "edward-hopper",
+   "name": "Edward Hopper",
+   "from": "Nighthawks",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 31,
+   "pv": 306542,
+   "img": "img/edward-hopper.webp",
+   "credit": {
+    "author": "Harris & Ewing, photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Edward_Hopper,_New_York_artist_LCCN2016871478_(cropped).jpg"
+   }
+  },
+  {
+   "id": "paul-cezanne",
+   "name": "Paul Cézanne",
+   "from": "Still lifes",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 29,
+   "pv": 295017,
+   "img": "img/paul-cezanne.webp",
+   "credit": {
+    "author": "Unknown; Cézanne was born in 1839 and died in 1906",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul-Cezanne.jpg"
+   }
+  },
+  {
+   "id": "pierre-auguste-renoir",
+   "name": "Pierre-Auguste Renoir",
+   "from": "Impressionism",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 27,
+   "pv": 293425,
+   "img": "img/pierre-auguste-renoir.webp",
+   "credit": {
+    "author": "UnknownUnknown Musée d'Orsay, Dist. RMN-Grand Palais / Patrice Schmidt",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pierre_Auguste_Renoir,_uncropped_image.jpg"
+   }
+  },
+  {
+   "id": "piet-mondrian",
+   "name": "Piet Mondrian",
+   "from": "Red, yellow, blue grids",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 25,
+   "pv": 286520,
+   "img": "img/piet-mondrian.webp",
+   "credit": {
+    "author": "AnonymousUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan.jpg"
+   }
+  },
+  {
+   "id": "sandro-botticelli",
+   "name": "Sandro Botticelli",
+   "from": "The Birth of Venus",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 23,
+   "pv": 272404,
+   "img": "img/sandro-botticelli.webp",
+   "credit": {
+    "author": "Sandro Botticelli",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_083.jpg"
+   }
+  },
+  {
+   "id": "edgar-degas",
+   "name": "Edgar Degas",
+   "from": "Ballet dancers",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 20,
+   "pv": 264791,
+   "img": "img/edgar-degas.webp",
+   "credit": {
+    "author": "Edgar Degas",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Self-portrait_by_Edgar_Degas.jpg"
+   }
+  },
+  {
+   "id": "edouard-manet",
+   "name": "Édouard Manet",
+   "from": "Olympia",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 18,
+   "pv": 257731,
+   "img": "img/edouard-manet.webp",
+   "credit": {
+    "author": "Nadar / Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Manet,_en_buste,_de_face_-_Nadar.jpg"
+   }
+  },
+  {
+   "id": "titian",
+   "name": "Titian",
+   "from": "Venetian painter",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 16,
+   "pv": 256669,
+   "img": "img/titian.webp",
+   "credit": {
+    "author": "Titian",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Titian_-_Self-portrait_(Museo_del_Prado).jpg"
+   }
+  },
+  {
+   "id": "jan-van-eyck",
+   "name": "Jan van Eyck",
+   "from": "Arnolfini Portrait",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 14,
+   "pv": 237813,
+   "img": "img/jan-van-eyck.webp",
+   "credit": {
+    "author": "Jan van Eyck",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jan_van_Eyck_-_Portrait_of_a_Man_(Self_Portrait%3F)_1433.jpg"
+   }
+  },
+  {
+   "id": "diego-velazquez",
+   "name": "Diego Velázquez",
+   "from": "Las Meninas",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 12,
+   "pv": 237773,
+   "img": "img/diego-velazquez.webp",
+   "credit": {
+    "author": "Diego Velázquez",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Diego_Vel%C3%A1zquez_Autorretrato_45_x_38_cm_-_Colecci%C3%B3n_Real_Academia_de_Bellas_Artes_de_San_Carlos_-_Museo_de_Bellas_Artes_de_Valencia.jpg"
+   }
+  },
+  {
+   "id": "roy-lichtenstein",
+   "name": "Roy Lichtenstein",
+   "from": "Comic-strip pop art",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 10,
+   "pv": 233974,
+   "img": "img/roy-lichtenstein.webp",
+   "credit": {
+    "author": "Gotfryd, Bernard, photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Roy_Lichtenstein,_painter_1969_(cropped).jpg"
+   }
+  },
+  {
+   "id": "auguste-rodin",
+   "name": "Auguste Rodin",
+   "from": "The Thinker",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 7,
+   "pv": 230985,
+   "img": "img/auguste-rodin.webp",
+   "credit": {
+    "author": "George Charles Beresford",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Auguste_Rodin_by_George_Charles_Beresford_(NPG_x6573).jpg"
+   }
+  },
+  {
+   "id": "joan-miro",
+   "name": "Joan Miró",
+   "from": "Surrealism",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 5,
+   "pv": 220970,
+   "img": "img/joan-miro.webp",
+   "credit": {
+    "author": "Carl Van Vechten",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Joan_Miro,_Barcelona_1935_June_13.jpg"
+   }
+  },
+  {
+   "id": "mary-cassatt",
+   "name": "Mary Cassatt",
+   "from": "Mothers and children",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 3,
+   "pv": 165496,
+   "img": "img/mary-cassatt.webp",
+   "credit": {
+    "author": "Durand-Ruel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mary_Cassatt_photograph_1913.jpg"
+   }
+  },
+  {
+   "id": "grant-wood",
+   "name": "Grant Wood",
+   "from": "American Gothic",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "painters"
+   ],
+   "fame": 1,
+   "pv": 121963,
+   "img": "img/grant-wood.webp",
+   "credit": {
+    "author": "Grant Wood",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Grant_Wood.jpg"
+   }
+  }
+ ]
+}

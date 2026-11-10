@@ -1,0 +1,767 @@
+{
+ "id": "world-leaders",
+ "title": "World Leaders",
+ "cat": "politics",
+ "people": [
+  {
+   "id": "keir-starmer",
+   "name": "Keir Starmer",
+   "from": "United Kingdom",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 100,
+   "pv": 4572778,
+   "img": "img/keir-starmer.webp",
+   "credit": {
+    "author": "Prime Minister's Office",
+    "license": "OGL 3",
+    "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+    "source": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_Portrait_(cropped).jpg"
+   }
+  },
+  {
+   "id": "winston-churchill",
+   "name": "Winston Churchill",
+   "from": "United Kingdom",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 97,
+   "pv": 3554644,
+   "img": "img/winston-churchill.webp",
+   "credit": {
+    "author": "Flickr: Sir Winston Churchill",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg"
+   }
+  },
+  {
+   "id": "narendra-modi",
+   "name": "Narendra Modi",
+   "from": "India",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 95,
+   "pv": 3225087,
+   "img": "img/narendra-modi.webp",
+   "credit": {
+    "author": "Narendra Modi",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Narendra_Damodardas_Modi.jpg"
+   }
+  },
+  {
+   "id": "mahatma-gandhi",
+   "name": "Mahatma Gandhi",
+   "from": "India",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 92,
+   "pv": 2934387,
+   "img": "img/mahatma-gandhi.webp",
+   "credit": {
+    "author": "Elliott & Fry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg"
+   }
+  },
+  {
+   "id": "mark-carney",
+   "name": "Mark Carney",
+   "from": "Canada",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 89,
+   "pv": 2888939,
+   "img": "img/mark-carney.webp",
+   "credit": {
+    "author": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mark_Carney_Argentina_v_Spain_19_July_2026-303_(3x4_close_up_cropped).jpg"
+   }
+  },
+  {
+   "id": "justin-trudeau",
+   "name": "Justin Trudeau",
+   "from": "Canada",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 87,
+   "pv": 2761855,
+   "img": "img/justin-trudeau.webp",
+   "credit": {
+    "author": "Justin Trudeau – Prime Minister of Canada",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Trudeau%27s_message_on_Christmas_2023_(0m29s)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "giorgia-meloni",
+   "name": "Giorgia Meloni",
+   "from": "Italy",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 84,
+   "pv": 2761552,
+   "img": "img/giorgia-meloni.webp",
+   "credit": {
+    "author": "Governo Italiano",
+    "license": "CC BY 3.0 it",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/it/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Giorgia_Meloni_Official_2024_(cropped).jpg"
+   }
+  },
+  {
+   "id": "margaret-thatcher",
+   "name": "Margaret Thatcher",
+   "from": "United Kingdom",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 81,
+   "pv": 2496651,
+   "img": "img/margaret-thatcher.webp",
+   "credit": {
+    "author": "Rob Bogaerts",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_(1983).jpg"
+   }
+  },
+  {
+   "id": "emmanuel-macron",
+   "name": "Emmanuel Macron",
+   "from": "France",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 79,
+   "pv": 2405568,
+   "img": "img/emmanuel-macron.webp",
+   "credit": {
+    "author": "Nebojša Tejić",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2025_(cropped).jpg"
+   }
+  },
+  {
+   "id": "nelson-mandela",
+   "name": "Nelson Mandela",
+   "from": "South Africa",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 76,
+   "pv": 2053132,
+   "img": "img/nelson-mandela.webp",
+   "credit": {
+    "author": "Kingkongphoto & www.celebrity-photos.com from Laurel",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nelson_Mandela_1994.jpg"
+   }
+  },
+  {
+   "id": "claudia-sheinbaum",
+   "name": "Claudia Sheinbaum",
+   "from": "Mexico",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 73,
+   "pv": 2001058,
+   "img": "img/claudia-sheinbaum.webp",
+   "credit": {
+    "author": "Eneas",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Claudia_Sheinbaum_(2025)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "rishi-sunak",
+   "name": "Rishi Sunak",
+   "from": "United Kingdom",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 71,
+   "pv": 1870009,
+   "img": "img/rishi-sunak.webp",
+   "credit": {
+    "author": "Prime Minister's Office",
+    "license": "OGL 3",
+    "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Prime_Minister_Rishi_Sunak_(cropped).jpg"
+   }
+  },
+  {
+   "id": "indira-gandhi",
+   "name": "Indira Gandhi",
+   "from": "India",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 68,
+   "pv": 1744757,
+   "img": "img/indira-gandhi.webp",
+   "credit": {
+    "author": "U.S. News & World Report photographer Warren K. Leffler",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Indira_Gandhi_1966_(cropped).jpg"
+   }
+  },
+  {
+   "id": "volodymyr-zelenskyy",
+   "name": "Volodymyr Zelenskyy",
+   "from": "Ukraine",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 65,
+   "pv": 1734967,
+   "img": "img/volodymyr-zelenskyy.webp",
+   "credit": {
+    "author": "Press Service of the President of Ukraine",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:New_Year%27s_Eve_from_President_of_Ukraine_Volodymyr_Zelensky_(31-12-2025)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "mikhail-gorbachev",
+   "name": "Mikhail Gorbachev",
+   "from": "Soviet Union",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 63,
+   "pv": 1722024,
+   "img": "img/mikhail-gorbachev.webp",
+   "credit": {
+    "author": "RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev.jpg: Vladimir Vyatkin / Владимир Вяткин derivative work: Jbarta",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg"
+   }
+  },
+  {
+   "id": "boris-johnson",
+   "name": "Boris Johnson",
+   "from": "United Kingdom",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 60,
+   "pv": 1671825,
+   "img": "img/boris-johnson.webp",
+   "credit": {
+    "author": "Ben Shread",
+    "license": "OGL 3",
+    "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+    "source": "https://commons.wikimedia.org/wiki/File:Boris_Johnson_official_portrait_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tony-blair",
+   "name": "Tony Blair",
+   "from": "United Kingdom",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 57,
+   "pv": 1611602,
+   "img": "img/tony-blair.webp",
+   "credit": {
+    "author": "Pavel Golovkin",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tony_Blair_(2010).jpg"
+   }
+  },
+  {
+   "id": "jawaharlal-nehru",
+   "name": "Jawaharlal Nehru",
+   "from": "India",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 55,
+   "pv": 1507645,
+   "img": "img/jawaharlal-nehru.webp",
+   "credit": {
+    "author": "Harry Pot",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Nehru_in_the_Netherlands,_1957.jpg"
+   }
+  },
+  {
+   "id": "charles-de-gaulle",
+   "name": "Charles de Gaulle",
+   "from": "France",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 52,
+   "pv": 1375555,
+   "img": "img/charles-de-gaulle.webp",
+   "credit": {
+    "author": "Office of War Information, Overseas Picture Division. [1] The image prefix (LC-USW3) at the Library of Congress image page matches that of pictures from the OWI collection (see prefix list here.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:De_Gaulle-OWI_(cropped)_(c)(2).jpg"
+   }
+  },
+  {
+   "id": "lee-kuan-yew",
+   "name": "Lee Kuan Yew",
+   "from": "Singapore",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 49,
+   "pv": 1235988,
+   "img": "img/lee-kuan-yew.webp",
+   "credit": {
+    "author": "White House Photographic Office. 1974-1977",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor,_1975.jpg"
+   }
+  },
+  {
+   "id": "ursula-von-der-leyen",
+   "name": "Ursula von der Leyen",
+   "from": "European Commission",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 46,
+   "pv": 1221758,
+   "img": "img/ursula-von-der-leyen.webp",
+   "credit": {
+    "author": "European People's Party",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ursula_von_der_Leyen_2024.jpg"
+   }
+  },
+  {
+   "id": "anthony-albanese",
+   "name": "Anthony Albanese",
+   "from": "Australia",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 44,
+   "pv": 1185371,
+   "img": "img/anthony-albanese.webp",
+   "credit": {
+    "author": "Australian Government",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Anthony_Albanese_portrait_(re-crop).jpg"
+   }
+  },
+  {
+   "id": "lula-da-silva",
+   "name": "Lula da Silva",
+   "from": "Brazil",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 41,
+   "pv": 1123040,
+   "img": "img/lula-da-silva.webp",
+   "credit": {
+    "author": "Palácio do Planalto from Brasilia, Brasil",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(mais_estreita).jpg"
+   }
+  },
+  {
+   "id": "pedro-sanchez",
+   "name": "Pedro Sánchez",
+   "from": "Spain",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 38,
+   "pv": 1107788,
+   "img": "img/pedro-sanchez.webp",
+   "credit": {
+    "author": "Pool Moncloa/ Carlos Spottorno de las Morenas",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pedro_S%C3%A1nchez_2026_Portrait_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "david-cameron",
+   "name": "David Cameron",
+   "from": "United Kingdom",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 36,
+   "pv": 1055791,
+   "img": "img/david-cameron.webp",
+   "credit": {
+    "author": "Lauren Hurley / No 10 Downing Street",
+    "license": "OGL 3",
+    "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+    "source": "https://commons.wikimedia.org/wiki/File:David_Cameron_Official_Portrait_2023_(cropped).jpg"
+   }
+  },
+  {
+   "id": "friedrich-merz",
+   "name": "Friedrich Merz",
+   "from": "Germany",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 33,
+   "pv": 1000786,
+   "img": "img/friedrich-merz.webp",
+   "credit": {
+    "author": "Steffen Prößdorf",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2024-08-21_Friedrich_Merz_in_Erfurt_2024_STP_3041_by_Stepro_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "shinzo-abe",
+   "name": "Shinzo Abe",
+   "from": "Japan",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 30,
+   "pv": 912400,
+   "img": "img/shinzo-abe.webp",
+   "credit": {
+    "author": "Prime Minister of Japan Official",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shinz%C5%8D_Abe_20120501.jpg"
+   }
+  },
+  {
+   "id": "theresa-may",
+   "name": "Theresa May",
+   "from": "United Kingdom",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 28,
+   "pv": 805162,
+   "img": "img/theresa-may.webp",
+   "credit": {
+    "author": "Roger Harris",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Baroness_May_of_Maidenhead_crop_2.jpg"
+   }
+  },
+  {
+   "id": "angela-merkel",
+   "name": "Angela Merkel",
+   "from": "Germany",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 25,
+   "pv": 767739,
+   "img": "img/angela-merkel.webp",
+   "credit": {
+    "author": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Angela_Merkel_2019_cropped.jpg"
+   }
+  },
+  {
+   "id": "jacinda-ardern",
+   "name": "Jacinda Ardern",
+   "from": "New Zealand",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 22,
+   "pv": 749828,
+   "img": "img/jacinda-ardern.webp",
+   "credit": {
+    "author": "Newzild",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:New_Zealand_Prime_Minister_Jacinda_Ardern_in_2018.jpg"
+   }
+  },
+  {
+   "id": "golda-meir",
+   "name": "Golda Meir",
+   "from": "Israel",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 20,
+   "pv": 718031,
+   "img": "img/golda-meir.webp",
+   "credit": {
+    "author": "Willem van de Poll",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Golda_Meir_(1964)_cropped.jpg"
+   }
+  },
+  {
+   "id": "mark-rutte",
+   "name": "Mark Rutte",
+   "from": "Netherlands, NATO",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 17,
+   "pv": 660450,
+   "img": "img/mark-rutte.webp",
+   "credit": {
+    "author": "Foreign, Commonwealth & Development Office",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mark_Rutte_NATO_Secretary_General_2026_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sanna-marin",
+   "name": "Sanna Marin",
+   "from": "Finland",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 14,
+   "pv": 446676,
+   "img": "img/sanna-marin.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:SannaMarin-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "kofi-annan",
+   "name": "Kofi Annan",
+   "from": "United Nations",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 12,
+   "pv": 371250,
+   "img": "img/kofi-annan.webp",
+   "credit": {
+    "author": "US Mission in Geneva",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Kofi_Annan_2012_(cropped).jpg"
+   }
+  },
+  {
+   "id": "konrad-adenauer",
+   "name": "Konrad Adenauer",
+   "from": "Germany",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 9,
+   "pv": 366587,
+   "img": "img/konrad-adenauer.webp",
+   "credit": {
+    "author": "Peter Bouserath",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Adenauer_Bouserath3.jpg"
+   }
+  },
+  {
+   "id": "olaf-scholz",
+   "name": "Olaf Scholz",
+   "from": "Germany",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 6,
+   "pv": 337121,
+   "img": "img/olaf-scholz.webp",
+   "credit": {
+    "author": "Lula Oficial",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Olaf_Scholz_September_2024.jpg"
+   }
+  },
+  {
+   "id": "ban-ki-moon",
+   "name": "Ban Ki-moon",
+   "from": "United Nations",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 4,
+   "pv": 238270,
+   "img": "img/ban-ki-moon.webp",
+   "credit": {
+    "author": "Chatham House",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ban_Ki-moon_February_2016.jpg"
+   }
+  },
+  {
+   "id": "jens-stoltenberg",
+   "name": "Jens Stoltenberg",
+   "from": "Norway, NATO",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "world-leaders"
+   ],
+   "fame": 1,
+   "pv": 210198,
+   "img": "img/jens-stoltenberg.webp",
+   "credit": {
+    "author": "Chairman of the Joint Chiefs of Staff from Washington D.C, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jens_Stoltenberg,_Minister_of_Finance_of_Norway,_at_the_Munich_Security_Conference_in_Munich,_Germany_on_February_14,_2025_(cropped).jpg"
+   }
+  }
+ ]
+}

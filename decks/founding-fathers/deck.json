@@ -1,0 +1,607 @@
+{
+ "id": "founding-fathers",
+ "title": "Founding Fathers",
+ "cat": "politics",
+ "people": [
+  {
+   "id": "george-washington",
+   "name": "George Washington",
+   "from": "Continental Army commander",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 100,
+   "pv": 4422543,
+   "img": "img/george-washington.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
+   }
+  },
+  {
+   "id": "alexander-hamilton",
+   "name": "Alexander Hamilton",
+   "from": "Treasury Secretary",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 97,
+   "pv": 2702617,
+   "img": "img/alexander-hamilton.webp",
+   "credit": {
+    "author": "John Trumbull / Giuseppe Ceracchi",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alexander_Hamilton_(NPG).jpg"
+   }
+  },
+  {
+   "id": "thomas-jefferson",
+   "name": "Thomas Jefferson",
+   "from": "Declaration of Independence",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 93,
+   "pv": 2474562,
+   "img": "img/thomas-jefferson.webp",
+   "credit": {
+    "author": "Rembrandt Peale",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg"
+   }
+  },
+  {
+   "id": "benjamin-franklin",
+   "name": "Benjamin Franklin",
+   "from": "Pennsylvania",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 90,
+   "pv": 2104513,
+   "img": "img/benjamin-franklin.webp",
+   "credit": {
+    "author": "Joseph-Siffred Duplessis",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "john-adams",
+   "name": "John Adams",
+   "from": "Massachusetts",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 86,
+   "pv": 1983955,
+   "img": "img/john-adams.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart,_John_Adams,_c._1800-1815,_NGA_42933.jpg"
+   }
+  },
+  {
+   "id": "james-madison",
+   "name": "James Madison",
+   "from": "Father of the Constitution",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 83,
+   "pv": 1070612,
+   "img": "img/james-madison.webp",
+   "credit": {
+    "author": "John Vanderlyn",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Madison.jpg"
+   }
+  },
+  {
+   "id": "aaron-burr",
+   "name": "Aaron Burr",
+   "from": "Third vice president",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 80,
+   "pv": 1030418,
+   "img": "img/aaron-burr.webp",
+   "credit": {
+    "author": "John Vanderlyn",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Aaron_Burr_Portrait_(cropped).jpg"
+   }
+  },
+  {
+   "id": "marquis-de-lafayette",
+   "name": "Marquis de Lafayette",
+   "from": "French ally",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 76,
+   "pv": 828417,
+   "img": "img/marquis-de-lafayette.webp",
+   "credit": {
+    "author": "Joseph-Désiré Court",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gilbert_du_Motier_Marquis_de_Lafayette.PNG"
+   }
+  },
+  {
+   "id": "james-monroe",
+   "name": "James Monroe",
+   "from": "Virginia",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 73,
+   "pv": 745380,
+   "img": "img/james-monroe.webp",
+   "credit": {
+    "author": "Samuel Finley Breese Morse",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Monroe_White_House_portrait_1819_(cropped)(2).jpg"
+   }
+  },
+  {
+   "id": "thomas-paine",
+   "name": "Thomas Paine",
+   "from": "Common Sense",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 69,
+   "pv": 625024,
+   "img": "img/thomas-paine.webp",
+   "credit": {
+    "author": "Laurent Dabos",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Laurent_Dabos_%E2%80%93_Thomas_Paine_%E2%80%93_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "paul-revere",
+   "name": "Paul Revere",
+   "from": "Midnight ride",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 66,
+   "pv": 555617,
+   "img": "img/paul-revere.webp",
+   "credit": {
+    "author": "John Singleton Copley",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:J_S_Copley_-_Paul_Revere_(cropped).jpg"
+   }
+  },
+  {
+   "id": "samuel-adams",
+   "name": "Samuel Adams",
+   "from": "Sons of Liberty",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 62,
+   "pv": 507248,
+   "img": "img/samuel-adams.webp",
+   "credit": {
+    "author": "John Singleton Copley",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Samuel_Adams_by_John_Singleton_Copley.jpg"
+   }
+  },
+  {
+   "id": "john-hancock",
+   "name": "John Hancock",
+   "from": "Signed first and biggest",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 59,
+   "pv": 439214,
+   "img": "img/john-hancock.webp",
+   "credit": {
+    "author": "John Singleton Copley",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Hancock_1770.jpg"
+   }
+  },
+  {
+   "id": "abigail-adams",
+   "name": "Abigail Adams",
+   "from": "Massachusetts",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 56,
+   "pv": 408004,
+   "img": "img/abigail-adams.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Abigail_Adams_by_Gilbert_Stuart.jpg"
+   }
+  },
+  {
+   "id": "patrick-henry",
+   "name": "Patrick Henry",
+   "from": "\"Give me liberty\"",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 52,
+   "pv": 311222,
+   "img": "img/patrick-henry.webp",
+   "credit": {
+    "author": "George Bagby Matthews (1857 - 1943), after Thomas Sully (1783-1872)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Patrick_henry.JPG"
+   }
+  },
+  {
+   "id": "john-jay",
+   "name": "John Jay",
+   "from": "First Chief Justice",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 49,
+   "pv": 265516,
+   "img": "img/john-jay.webp",
+   "credit": {
+    "author": "Gilbert Stuart",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Jay_(Gilbert_Stuart_portrait).jpg"
+   }
+  },
+  {
+   "id": "nathanael-greene",
+   "name": "Nathanael Greene",
+   "from": "Continental Army general",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 45,
+   "pv": 242542,
+   "img": "img/nathanael-greene.webp",
+   "credit": {
+    "author": "John Trumbull",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nathanael_Greene_by_John_Trumbull_1792.jpeg"
+   }
+  },
+  {
+   "id": "john-marshall",
+   "name": "John Marshall",
+   "from": "Chief Justice",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 42,
+   "pv": 238636,
+   "img": "img/john-marshall.webp",
+   "credit": {
+    "author": "Henry Inman",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Marshall_by_Henry_Inman,_1832.jpg"
+   }
+  },
+  {
+   "id": "henry-knox",
+   "name": "Henry Knox",
+   "from": "First Secretary of War",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 39,
+   "pv": 236922,
+   "img": "img/henry-knox.webp",
+   "credit": {
+    "author": "Charles Peale Polk",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Peale_Polk_-_Henry_Knox_-_NPG.73.11_-_National_Portrait_Gallery.jpg"
+   }
+  },
+  {
+   "id": "robert-morris",
+   "name": "Robert Morris",
+   "from": "Financier of the Revolution",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 35,
+   "pv": 167111,
+   "img": "img/robert-morris.webp",
+   "credit": {
+    "author": "Robert Edge Pine",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Robert_Morris,_31_Jan_1734_-_8_May_1806.jpg"
+   }
+  },
+  {
+   "id": "elbridge-gerry",
+   "name": "Elbridge Gerry",
+   "from": "Massachusetts",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 32,
+   "pv": 158370,
+   "img": "img/elbridge-gerry.webp",
+   "credit": {
+    "author": "James Bogle",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Elbridge-gerry-painting.jpg"
+   }
+  },
+  {
+   "id": "george-mason",
+   "name": "George Mason",
+   "from": "Bill of Rights",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 28,
+   "pv": 150515,
+   "img": "img/george-mason.webp",
+   "credit": {
+    "author": "After John Hesselius",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:George_Mason.jpg"
+   }
+  },
+  {
+   "id": "benjamin-rush",
+   "name": "Benjamin Rush",
+   "from": "Physician, Pennsylvania",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 25,
+   "pv": 149123,
+   "img": "img/benjamin-rush.webp",
+   "credit": {
+    "author": "Charles Willson Peale",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Benjamin_Rush_Painting_by_Peale_1783,_cropped.webp"
+   }
+  },
+  {
+   "id": "roger-sherman",
+   "name": "Roger Sherman",
+   "from": "Connecticut",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 21,
+   "pv": 146635,
+   "img": "img/roger-sherman.webp",
+   "credit": {
+    "author": "Ralph Earl",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Roger_Sherman_1721-1793_by_Ralph_Earl.jpeg"
+   }
+  },
+  {
+   "id": "charles-carroll-of-carrollton",
+   "name": "Charles Carroll of Carrollton",
+   "from": "Maryland",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 18,
+   "pv": 139677,
+   "img": "img/charles-carroll-of-carrollton.webp",
+   "credit": {
+    "author": "Chester Charles Harding",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Charles_Carroll_from_the_Collection_of_the_U.S._House_of_Representatives.jpg"
+   }
+  },
+  {
+   "id": "richard-henry-lee",
+   "name": "Richard Henry Lee",
+   "from": "Virginia",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 15,
+   "pv": 138606,
+   "img": "img/richard-henry-lee.webp",
+   "credit": {
+    "author": "Charles Willson Peale",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Willson_Peale_-_Richard_Henry_Lee_-_NPG.74.5_-_National_Portrait_Gallery_(cropped).jpg"
+   }
+  },
+  {
+   "id": "john-dickinson",
+   "name": "John Dickinson",
+   "from": "Pennsylvania",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 11,
+   "pv": 120997,
+   "img": "img/john-dickinson.webp",
+   "credit": {
+    "author": "Unknown",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JohnDickinson4.gif"
+   }
+  },
+  {
+   "id": "gouverneur-morris",
+   "name": "Gouverneur Morris",
+   "from": "Wrote the Constitution's text",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 8,
+   "pv": 107471,
+   "img": "img/gouverneur-morris.webp",
+   "credit": {
+    "author": "Creator:Exta Ames",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Gouverneur_Morris_(1752-1816),_1817_(cropped).jpg"
+   }
+  },
+  {
+   "id": "john-witherspoon",
+   "name": "John Witherspoon",
+   "from": "New Jersey",
+   "gender": "m",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 4,
+   "pv": 83906,
+   "img": "img/john-witherspoon.webp",
+   "credit": {
+    "author": "Rembrandt Peale",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:John_Witherspoon_(NPG).jpg"
+   }
+  },
+  {
+   "id": "mercy-otis-warren",
+   "name": "Mercy Otis Warren",
+   "from": "Writer of the Revolution",
+   "gender": "f",
+   "kind": "politics",
+   "tags": [
+    "politics",
+    "founding-fathers"
+   ],
+   "fame": 1,
+   "pv": 74741,
+   "img": "img/mercy-otis-warren.webp",
+   "credit": {
+    "author": "John Singleton Copley",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Mrs_James_Warren_(Mercy_Otis),_by_John_Singleton_Copley.jpg"
+   }
+  }
+ ]
+}

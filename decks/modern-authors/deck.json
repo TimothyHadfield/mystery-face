@@ -1,0 +1,867 @@
+{
+ "id": "modern-authors",
+ "title": "Modern Authors",
+ "cat": "books",
+ "people": [
+  {
+   "id": "stephen-king",
+   "name": "Stephen King",
+   "from": "It, The Shining",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 100,
+   "pv": 2778395,
+   "img": "img/stephen-king.webp",
+   "credit": {
+    "author": "Kevin Payravi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_King_at_the_2024_Toronto_International_Film_Festival_2_(cropped).jpg"
+   }
+  },
+  {
+   "id": "george-r-r-martin",
+   "name": "George R. R. Martin",
+   "from": "A Song of Ice and Fire",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 98,
+   "pv": 2298207,
+   "img": "img/george-r-r-martin.webp",
+   "credit": {
+    "author": "Gage Skidmore from Surprise, AZ, United States of America",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:George_R._R._Martin_(54743316729)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "j-k-rowling",
+   "name": "J. K. Rowling",
+   "from": "Harry Potter",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 95,
+   "pv": 2232421,
+   "img": "img/j-k-rowling.webp",
+   "credit": {
+    "author": "Daniel Ogren",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:J._K._Rowling_2010.jpg"
+   }
+  },
+  {
+   "id": "andy-weir",
+   "name": "Andy Weir",
+   "from": "The Martian",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 93,
+   "pv": 1722100,
+   "img": "img/andy-weir.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Andy_Weir_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "salman-rushdie",
+   "name": "Salman Rushdie",
+   "from": "Midnight's Children",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 91,
+   "pv": 1320357,
+   "img": "img/salman-rushdie.webp",
+   "credit": {
+    "author": "Elena Ternovaja",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Salman_Rushdie,_2024.jpg"
+   }
+  },
+  {
+   "id": "cormac-mccarthy",
+   "name": "Cormac McCarthy",
+   "from": "The Road",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 88,
+   "pv": 1261950,
+   "img": "img/cormac-mccarthy.webp",
+   "credit": {
+    "author": "From dust jacket: \"Photograph of Cormac McCarthy by David Styles\"",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Cormac_McCarthy_(Child_of_God_author_portrait_-_high-res).jpg"
+   }
+  },
+  {
+   "id": "isaac-asimov",
+   "name": "Isaac Asimov",
+   "from": "Foundation",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 86,
+   "pv": 1120153,
+   "img": "img/isaac-asimov.webp",
+   "credit": {
+    "author": "Phillip Leonian [1] from New York World-Telegram & Sun.[2]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Isaac.Asimov01.jpg"
+   }
+  },
+  {
+   "id": "brandon-sanderson",
+   "name": "Brandon Sanderson",
+   "from": "Mistborn",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 84,
+   "pv": 1037670,
+   "img": "img/brandon-sanderson.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandon_Sanderson_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "michael-crichton",
+   "name": "Michael Crichton",
+   "from": "Jurassic Park",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 81,
+   "pv": 1030618,
+   "img": "img/michael-crichton.webp",
+   "credit": {
+    "author": "Jon Chase photo/Harvard News Office",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MichaelCrichton_2.jpg"
+   }
+  },
+  {
+   "id": "margaret-atwood",
+   "name": "Margaret Atwood",
+   "from": "The Handmaid's Tale",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 79,
+   "pv": 963021,
+   "img": "img/margaret-atwood.webp",
+   "credit": {
+    "author": "Collision Conf",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Margaret_Atwood_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "maya-angelou",
+   "name": "Maya Angelou",
+   "from": "I Know Why the Caged Bird Sings",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 76,
+   "pv": 927676,
+   "img": "img/maya-angelou.webp",
+   "credit": {
+    "author": "Clinton Library",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Angelou_at_Clinton_inauguration_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "ursula-k-le-guin",
+   "name": "Ursula K. Le Guin",
+   "from": "Earthsea",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 74,
+   "pv": 854523,
+   "img": "img/ursula-k-le-guin.webp",
+   "credit": {
+    "author": "Marian Wood Kolisch, Oregon State University Restored by Adam Cuerden",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ursula_Le_Guin_(3551195631)_-_Restoration.jpg"
+   }
+  },
+  {
+   "id": "haruki-murakami",
+   "name": "Haruki Murakami",
+   "from": "Norwegian Wood",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 72,
+   "pv": 829260,
+   "img": "img/haruki-murakami.webp",
+   "credit": {
+    "author": "Ministerio Cultura y Patrimonio from Quito, Ecuador",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Conversatorio_Haruki_Murakami_(12_de_12)_(45747009452)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "kazuo-ishiguro",
+   "name": "Kazuo Ishiguro",
+   "from": "Never Let Me Go",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 69,
+   "pv": 768358,
+   "img": "img/kazuo-ishiguro.webp",
+   "credit": {
+    "author": "Martin Kraft",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MKr377543_Kazuo_Ishiguro_(A_Pale_View_of_Hills,_Cannes_2025).jpg"
+   }
+  },
+  {
+   "id": "tom-clancy",
+   "name": "Tom Clancy",
+   "from": "Jack Ryan",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 67,
+   "pv": 765975,
+   "img": "img/tom-clancy.webp",
+   "credit": {
+    "author": "Gary Wayne Gilbert",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tom_Clancy_at_Burns_Library_cropped.jpg"
+   }
+  },
+  {
+   "id": "anne-rice",
+   "name": "Anne Rice",
+   "from": "Interview with the Vampire",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 65,
+   "pv": 752094,
+   "img": "img/anne-rice.webp",
+   "credit": {
+    "author": "Anne Rice",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Anne_Rice.jpg"
+   }
+  },
+  {
+   "id": "colleen-hoover",
+   "name": "Colleen Hoover",
+   "from": "It Ends with Us",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 62,
+   "pv": 731460,
+   "img": "img/colleen-hoover.webp",
+   "credit": {
+    "author": "\"GBH\" on YouTube",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Colleen_Hoover_Video_Call.png"
+   }
+  },
+  {
+   "id": "john-grisham",
+   "name": "John Grisham",
+   "from": "The Firm",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 60,
+   "pv": 728098,
+   "img": "img/john-grisham.webp",
+   "credit": {
+    "author": "PhilipRomano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JohnGrisham-byPhilipRomano.jpg"
+   }
+  },
+  {
+   "id": "dan-brown",
+   "name": "Dan Brown",
+   "from": "The Da Vinci Code",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 58,
+   "pv": 643279,
+   "img": "img/dan-brown.webp",
+   "credit": {
+    "author": "Zuzana Homolka Fedorová",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:N%C3%A1v%C5%A1t%C4%9Bva_Dana_Browna_v_NK_%C4%8CR_17._-_18._2025_03_(cropped).jpg"
+   }
+  },
+  {
+   "id": "terry-pratchett",
+   "name": "Terry Pratchett",
+   "from": "Discworld",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 55,
+   "pv": 617358,
+   "img": "img/terry-pratchett.webp",
+   "credit": {
+    "author": "Luigi Novi",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:10.12.12TerryPratchettByLuigiNovi1.jpg"
+   }
+  },
+  {
+   "id": "john-green",
+   "name": "John Green",
+   "from": "The Fault in Our Stars",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 53,
+   "pv": 597337,
+   "img": "img/john-green.webp",
+   "credit": {
+    "author": "vlogbrothers",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Let%27s_Talk_about_Money_-_Vlogbrothers_YouTube_at_0009_(cropped).png"
+   }
+  },
+  {
+   "id": "frank-herbert",
+   "name": "Frank Herbert",
+   "from": "Dune",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 50,
+   "pv": 578027,
+   "img": "img/frank-herbert.webp",
+   "credit": {
+    "author": "Unknown photographer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Frank_Herbert_1984_(square).jpg"
+   }
+  },
+  {
+   "id": "james-patterson",
+   "name": "James Patterson",
+   "from": "Alex Cross",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 48,
+   "pv": 571980,
+   "img": "img/james-patterson.webp",
+   "credit": {
+    "author": "Library of Congress Life",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Patterson_at_the_Library_of_Congress_National_Book_Festival_on_August_24,_2024_(cropped).jpg"
+   }
+  },
+  {
+   "id": "lee-child",
+   "name": "Lee Child",
+   "from": "Jack Reacher",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 46,
+   "pv": 563034,
+   "img": "img/lee-child.webp",
+   "credit": {
+    "author": "Mark Coggins at Flickr",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lee_Child,_Bouchercon_2010.jpg"
+   }
+  },
+  {
+   "id": "suzanne-collins",
+   "name": "Suzanne Collins",
+   "from": "The Hunger Games",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 43,
+   "pv": 513276,
+   "img": "img/suzanne-collins.webp",
+   "credit": {
+    "author": "David Shankbone",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Suzanne_Collins_David_Shankbone_2010.jpg"
+   }
+  },
+  {
+   "id": "douglas-adams",
+   "name": "Douglas Adams",
+   "from": "Hitchhiker's Guide",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 41,
+   "pv": 478399,
+   "img": "img/douglas-adams.webp",
+   "credit": {
+    "author": "Michael Hughes",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Douglas_adams_portrait_cropped.jpg"
+   }
+  },
+  {
+   "id": "r-l-stine",
+   "name": "R. L. Stine",
+   "from": "Goosebumps",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 39,
+   "pv": 449689,
+   "img": "img/r-l-stine.webp",
+   "credit": {
+    "author": "Philip Romano",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:RLStine.jpg"
+   }
+  },
+  {
+   "id": "rick-riordan",
+   "name": "Rick Riordan",
+   "from": "Percy Jackson",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 36,
+   "pv": 409669,
+   "img": "img/rick-riordan.webp",
+   "credit": {
+    "author": "Rhododendrites",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rick_Riordan_(cropped).jpg"
+   }
+  },
+  {
+   "id": "sally-rooney",
+   "name": "Sally Rooney",
+   "from": "Normal People",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 34,
+   "pv": 404417,
+   "img": "img/sally-rooney.webp",
+   "credit": {
+    "author": "Frank Barat",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sally_Rooney_(cropped).png"
+   }
+  },
+  {
+   "id": "stephenie-meyer",
+   "name": "Stephenie Meyer",
+   "from": "Twilight",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 32,
+   "pv": 362618,
+   "img": "img/stephenie-meyer.webp",
+   "credit": {
+    "author": "Gage Skidmore",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephenie_Meyer_by_Gage_Skidmore.jpg"
+   }
+  },
+  {
+   "id": "chimamanda-ngozi-adichie",
+   "name": "Chimamanda Ngozi Adichie",
+   "from": "Americanah",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 29,
+   "pv": 353935,
+   "img": "img/chimamanda-ngozi-adichie.webp",
+   "credit": {
+    "author": "librairie mollat",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Chimamanda_Ngozi_Adichie_(2015).png"
+   }
+  },
+  {
+   "id": "isabel-allende",
+   "name": "Isabel Allende",
+   "from": "The House of the Spirits",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 27,
+   "pv": 348973,
+   "img": "img/isabel-allende.webp",
+   "credit": {
+    "author": "Lesekreis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Isabel_Allende_Frankfurter_Buchmesse_2015_(cropped).JPG"
+   }
+  },
+  {
+   "id": "judy-blume",
+   "name": "Judy Blume",
+   "from": "Are You There God?",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 25,
+   "pv": 317280,
+   "img": "img/judy-blume.webp",
+   "credit": {
+    "author": "JudyBlume2009.jpg: Carl Lender[1] of Flickr.com derivative work: Solid State Survivor (talk)",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:JudyBlume2009(cropped).jpg"
+   }
+  },
+  {
+   "id": "ken-follett",
+   "name": "Ken Follett",
+   "from": "The Pillars of the Earth",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 22,
+   "pv": 313549,
+   "img": "img/ken-follett.webp",
+   "credit": {
+    "author": "Ken Follett official website. Original uploader was JuergenL at de.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Ken_Follett_official.jpg"
+   }
+  },
+  {
+   "id": "danielle-steel",
+   "name": "Danielle Steel",
+   "from": "Romance novels",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 20,
+   "pv": 284420,
+   "img": "img/danielle-steel.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Danielle_Steel,_1987.jpg"
+   }
+  },
+  {
+   "id": "paulo-coelho",
+   "name": "Paulo Coelho",
+   "from": "The Alchemist",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 18,
+   "pv": 278612,
+   "img": "img/paulo-coelho.webp",
+   "credit": {
+    "author": "Lula Oficial",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Paulo_Coelho,_June_2024.jpg"
+   }
+  },
+  {
+   "id": "khaled-hosseini",
+   "name": "Khaled Hosseini",
+   "from": "The Kite Runner",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 15,
+   "pv": 270796,
+   "img": "img/khaled-hosseini.webp",
+   "credit": {
+    "author": "Counse",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Khaled_Hosseini,_2013_(cropped).jpg"
+   }
+  },
+  {
+   "id": "dav-pilkey",
+   "name": "Dav Pilkey",
+   "from": "Captain Underpants",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 13,
+   "pv": 225061,
+   "img": "img/dav-pilkey.webp",
+   "credit": {
+    "author": "Library of Congress Life",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Dav_Pilkey_2019.jpg"
+   }
+  },
+  {
+   "id": "jeff-kinney",
+   "name": "Jeff Kinney",
+   "from": "Diary of a Wimpy Kid",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 10,
+   "pv": 202734,
+   "img": "img/jeff-kinney.webp",
+   "credit": {
+    "author": "Politics and Prose Bookstore",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Jeff_Kinney_Book_Signing,_November_2011_(1)_(cropped).jpg"
+   }
+  },
+  {
+   "id": "christopher-paolini",
+   "name": "Christopher Paolini",
+   "from": "Eragon",
+   "gender": "m",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 8,
+   "pv": 189227,
+   "img": "img/christopher-paolini.webp",
+   "credit": {
+    "author": "DailyCoffee756",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Christopher_Paolini_2019.jpg"
+   }
+  },
+  {
+   "id": "nora-roberts",
+   "name": "Nora Roberts",
+   "from": "Romance novels",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 6,
+   "pv": 181910,
+   "img": "img/nora-roberts.webp",
+   "credit": {
+    "author": "Dev Librarian",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NoraRoberts.jpg"
+   }
+  },
+  {
+   "id": "lois-lowry",
+   "name": "Lois Lowry",
+   "from": "The Giver",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 3,
+   "pv": 151815,
+   "img": "img/lois-lowry.webp",
+   "credit": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lois_Lowry_2016.jpg"
+   }
+  },
+  {
+   "id": "amy-tan",
+   "name": "Amy Tan",
+   "from": "The Joy Luck Club",
+   "gender": "f",
+   "kind": "art",
+   "tags": [
+    "books",
+    "modern-authors"
+   ],
+   "fame": 1,
+   "pv": 135013,
+   "img": "img/amy-tan.webp",
+   "credit": {
+    "author": "Shawn Miller/Library of Congress",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Amy_Tan_2018_(cropped).jpg"
+   }
+  }
+ ]
+}

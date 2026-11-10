@@ -1,0 +1,1127 @@
+{
+ "id": "scientists",
+ "title": "Famous Scientists",
+ "cat": "science",
+ "people": [
+  {
+   "id": "albert-einstein",
+   "name": "Albert Einstein",
+   "from": "Relativity",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 100,
+   "pv": 4475647,
+   "img": "img/albert-einstein.webp",
+   "credit": {
+    "author": "Oren Jack Turner",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_cleaned.jpg"
+   }
+  },
+  {
+   "id": "stephen-hawking",
+   "name": "Stephen Hawking",
+   "from": "Black holes",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 98,
+   "pv": 3125679,
+   "img": "img/stephen-hawking.webp",
+   "credit": {
+    "author": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Stephen_Hawking.StarChild.jpg"
+   }
+  },
+  {
+   "id": "j-robert-oppenheimer",
+   "name": "J. Robert Oppenheimer",
+   "from": "Atomic bomb",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 96,
+   "pv": 2740355,
+   "img": "img/j-robert-oppenheimer.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author or not provided",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dr._J._Robert_Oppenheimer,_atomic_physicist_and_head_of_the_Manhattan_Project_-_NARA_-_558579_(cropped).tif"
+   }
+  },
+  {
+   "id": "isaac-newton",
+   "name": "Isaac Newton",
+   "from": "Gravity and motion",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 95,
+   "pv": 2377825,
+   "img": "img/isaac-newton.webp",
+   "credit": {
+    "author": "Godfrey Kneller",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg"
+   }
+  },
+  {
+   "id": "nikola-tesla",
+   "name": "Nikola Tesla",
+   "from": "Electricity",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 93,
+   "pv": 2358740,
+   "img": "img/nikola-tesla.webp",
+   "credit": {
+    "author": "Napoleon Sarony",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_circa_1890.jpeg"
+   }
+  },
+  {
+   "id": "alan-turing",
+   "name": "Alan Turing",
+   "from": "Computer science",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 91,
+   "pv": 2153481,
+   "img": "img/alan-turing.webp",
+   "credit": {
+    "author": "Elliott & Fry",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alan_turing_header.jpg"
+   }
+  },
+  {
+   "id": "marie-curie",
+   "name": "Marie Curie",
+   "from": "Radioactivity",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 89,
+   "pv": 2085264,
+   "img": "img/marie-curie.webp",
+   "credit": {
+    "author": "Henri Manuel",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Marie_Curie_c._1920s.jpg"
+   }
+  },
+  {
+   "id": "aristotle",
+   "name": "Aristotle",
+   "from": "Natural philosophy",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 87,
+   "pv": 1383353,
+   "img": "img/aristotle.webp",
+   "credit": {
+    "author": "After Lysippos",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg"
+   }
+  },
+  {
+   "id": "richard-feynman",
+   "name": "Richard Feynman",
+   "from": "Quantum physics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 86,
+   "pv": 1297398,
+   "img": "img/richard-feynman.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_1959.png"
+   }
+  },
+  {
+   "id": "ada-lovelace",
+   "name": "Ada Lovelace",
+   "from": "First programmer",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 84,
+   "pv": 1218995,
+   "img": "img/ada-lovelace.webp",
+   "credit": {
+    "author": "Antoine Claudet",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Ada_Lovelace_daguerreotype_by_Antoine_Claudet_1843_-_cropped.png"
+   }
+  },
+  {
+   "id": "jane-goodall",
+   "name": "Jane Goodall",
+   "from": "Chimpanzees",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 82,
+   "pv": 1203006,
+   "img": "img/jane-goodall.webp",
+   "credit": {
+    "author": "U.S. Department of State from United States",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department%27s_Global_Health_Diplomacy_Director_Jordan_in_Washington_(22365513310)_(2)_(cropped_2).jpg"
+   }
+  },
+  {
+   "id": "neil-degrasse-tyson",
+   "name": "Neil deGrasse Tyson",
+   "from": "Astrophysics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 80,
+   "pv": 1146819,
+   "img": "img/neil-degrasse-tyson.webp",
+   "credit": {
+    "author": "Maryland GovPics",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Neil_DeGrasse_Tyson_(2023).jpg"
+   }
+  },
+  {
+   "id": "charles-darwin",
+   "name": "Charles Darwin",
+   "from": "Evolution",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 78,
+   "pv": 1125354,
+   "img": "img/charles-darwin.webp",
+   "credit": {
+    "author": "Charles_Darwin_seated.jpg: Henry Maull (1829–1914) and John Fox (1832–1907) (Maull & Fox) [3] derivative work: Beao",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Charles_Darwin_seated_crop.jpg"
+   }
+  },
+  {
+   "id": "brian-cox",
+   "name": "Brian Cox",
+   "from": "Physics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 77,
+   "pv": 1077985,
+   "img": "img/brian-cox.webp",
+   "credit": {
+    "author": "Duncan.Hull",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Professor_Brian_Cox_OBE_FRS_(cropped).jpg"
+   }
+  },
+  {
+   "id": "galileo-galilei",
+   "name": "Galileo Galilei",
+   "from": "Astronomy",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 75,
+   "pv": 1027090,
+   "img": "img/galileo-galilei.webp",
+   "credit": {
+    "author": "Justus Sustermans",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff"
+   }
+  },
+  {
+   "id": "carl-sagan",
+   "name": "Carl Sagan",
+   "from": "Astronomy",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 73,
+   "pv": 988833,
+   "img": "img/carl-sagan.webp",
+   "credit": {
+    "author": "NASA/JPL",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Carl_Sagan_Planetary_Society.JPG"
+   }
+  },
+  {
+   "id": "katherine-johnson",
+   "name": "Katherine Johnson",
+   "from": "NASA mathematician",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 71,
+   "pv": 857703,
+   "img": "img/katherine-johnson.webp",
+   "credit": {
+    "author": "NASA",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Katherine_Johnson_1983.jpg"
+   }
+  },
+  {
+   "id": "john-von-neumann",
+   "name": "John von Neumann",
+   "from": "Mathematics, computing",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 69,
+   "pv": 739988,
+   "img": "img/john-von-neumann.webp",
+   "credit": {
+    "author": "LANL",
+    "license": "Attribution",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JohnvonNeumann-LosAlamos.gif"
+   }
+  },
+  {
+   "id": "werner-heisenberg",
+   "name": "Werner Heisenberg",
+   "from": "Uncertainty principle",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 68,
+   "pv": 720835,
+   "img": "img/werner-heisenberg.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Werner_Heisenberg_Portrait_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "leonhard-euler",
+   "name": "Leonhard Euler",
+   "from": "Mathematics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 66,
+   "pv": 703400,
+   "img": "img/leonhard-euler.webp",
+   "credit": {
+    "author": "Jakob Emanuel Handmann",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler_-_Jakob_Emanuel_Handmann_(Kunstmuseum_Basel).jpg"
+   }
+  },
+  {
+   "id": "nicolaus-copernicus",
+   "name": "Nicolaus Copernicus",
+   "from": "Sun-centred universe",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 64,
+   "pv": 649229,
+   "img": "img/nicolaus-copernicus.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg"
+   }
+  },
+  {
+   "id": "archimedes",
+   "name": "Archimedes",
+   "from": "Mathematics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 62,
+   "pv": 640579,
+   "img": "img/archimedes.webp",
+   "credit": {
+    "author": "Jusepe de Ribera",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Jusepe_de_Ribera_-_Portrait_of_a_mathematician_(Archimedes%3F)_(possibly_a_self-portrait).jpg"
+   }
+  },
+  {
+   "id": "bill-nye",
+   "name": "Bill Nye",
+   "from": "Science educator",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 60,
+   "pv": 577796,
+   "img": "img/bill-nye.webp",
+   "credit": {
+    "author": "Montclair Film Festival",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bill_Nye_2017.jpg"
+   }
+  },
+  {
+   "id": "alfred-nobel",
+   "name": "Alfred Nobel",
+   "from": "Chemistry, Nobel Prize",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 59,
+   "pv": 561099,
+   "img": "img/alfred-nobel.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Alfred_Nobel3.jpg"
+   }
+  },
+  {
+   "id": "pythagoras",
+   "name": "Pythagoras",
+   "from": "Mathematics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 57,
+   "pv": 534470,
+   "img": "img/pythagoras.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Pythagoras_in_the_Roman_Forum,_Colosseum.jpg"
+   }
+  },
+  {
+   "id": "niels-bohr",
+   "name": "Niels Bohr",
+   "from": "Atomic structure",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 55,
+   "pv": 522680,
+   "img": "img/niels-bohr.webp",
+   "credit": {
+    "author": "The American Institute of Physics credits the photo [1] to AB Lagrelius & Westphal, which is the Swedish company used by the Nobel Foundation for most photos of its book series Les Prix Nobel.",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg"
+   }
+  },
+  {
+   "id": "rosalind-franklin",
+   "name": "Rosalind Franklin",
+   "from": "DNA structure",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 53,
+   "pv": 517670,
+   "img": "img/rosalind-franklin.webp",
+   "credit": {
+    "author": "CSHL, derivative work Lämpel",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rosalind-franklin-in-paris_crop_(cropped).jpg"
+   }
+  },
+  {
+   "id": "louis-pasteur",
+   "name": "Louis Pasteur",
+   "from": "Germ theory",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 51,
+   "pv": 472447,
+   "img": "img/louis-pasteur.webp",
+   "credit": {
+    "author": "Paul Nadar",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Louis_Pasteur,_foto_av_Paul_Nadar,_Crisco_edit.jpg"
+   }
+  },
+  {
+   "id": "erwin-schrodinger",
+   "name": "Erwin Schrödinger",
+   "from": "Quantum mechanics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 50,
+   "pv": 454300,
+   "img": "img/erwin-schrodinger.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Erwin_Schr%C3%B6dinger_-_Narodowe_Archiwum_Cyfrowe_(1-E-939).jpg"
+   }
+  },
+  {
+   "id": "michael-faraday",
+   "name": "Michael Faraday",
+   "from": "Electromagnetism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 48,
+   "pv": 437045,
+   "img": "img/michael-faraday.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Michael_Faraday_sitting_crop.jpg"
+   }
+  },
+  {
+   "id": "carl-friedrich-gauss",
+   "name": "Carl Friedrich Gauss",
+   "from": "Mathematics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 46,
+   "pv": 431216,
+   "img": "img/carl-friedrich-gauss.webp",
+   "credit": {
+    "author": "Christian Albrecht Jensen",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Carl_Friedrich_Gauss_1840_by_Jensen.jpg"
+   }
+  },
+  {
+   "id": "enrico-fermi",
+   "name": "Enrico Fermi",
+   "from": "Nuclear reactor",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 44,
+   "pv": 392321,
+   "img": "img/enrico-fermi.webp",
+   "credit": {
+    "author": "Department of Energy-Office of Public Affairs, restored by Yann",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Enrico_Fermi_1943-49.jpg"
+   }
+  },
+  {
+   "id": "paul-dirac",
+   "name": "Paul Dirac",
+   "from": "Quantum mechanics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 42,
+   "pv": 362077,
+   "img": "img/paul-dirac.webp",
+   "credit": {
+    "author": "Nobel Foundation",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Paul_Dirac,_1933.jpg"
+   }
+  },
+  {
+   "id": "james-clerk-maxwell",
+   "name": "James Clerk Maxwell",
+   "from": "Electromagnetism",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 41,
+   "pv": 348164,
+   "img": "img/james-clerk-maxwell.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James-Clerk-Maxwell-1831-1879.jpg"
+   }
+  },
+  {
+   "id": "max-planck",
+   "name": "Max Planck",
+   "from": "Quantum theory",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 39,
+   "pv": 327455,
+   "img": "img/max-planck.webp",
+   "credit": {
+    "author": "Hugo Erfurth",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Max_Planck_by_Hugo_Erfurth_1938cr_-_restoration1.jpg"
+   }
+  },
+  {
+   "id": "johannes-kepler",
+   "name": "Johannes Kepler",
+   "from": "Planetary motion",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 37,
+   "pv": 320734,
+   "img": "img/johannes-kepler.webp",
+   "credit": {
+    "author": "August Köhler [1]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:JKepler.jpg"
+   }
+  },
+  {
+   "id": "gregor-mendel",
+   "name": "Gregor Mendel",
+   "from": "Genetics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 35,
+   "pv": 316739,
+   "img": "img/gregor-mendel.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Gregor_Mendel_2.jpg"
+   }
+  },
+  {
+   "id": "robert-hooke",
+   "name": "Robert Hooke",
+   "from": "Cells, springs",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 33,
+   "pv": 310027,
+   "img": "img/robert-hooke.webp",
+   "credit": {
+    "author": "Mary Beale",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portrait_of_a_Mathematician_1680c.jpg"
+   }
+  },
+  {
+   "id": "euclid",
+   "name": "Euclid",
+   "from": "Geometry",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 32,
+   "pv": 309307,
+   "img": "img/euclid.webp",
+   "credit": {
+    "author": "Jusepe de Ribera (Spanish / Italian, 1591 - 1652) (1591 - 1652) – artist (Spanish / Italian) Details on Google Art Project",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Italian_-_Euclid_-_Google_Art_Project.jpg"
+   }
+  },
+  {
+   "id": "james-watson",
+   "name": "James Watson",
+   "from": "DNA structure",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 30,
+   "pv": 303477,
+   "img": "img/james-watson.webp",
+   "credit": {
+    "author": "National Cancer Institute (NCI)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:James_Dewey_Watson_(cropped).jpg"
+   }
+  },
+  {
+   "id": "tycho-brahe",
+   "name": "Tycho Brahe",
+   "from": "Astronomy",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 28,
+   "pv": 296742,
+   "img": "img/tycho-brahe.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Portr%C3%A4tt_av_Tycho_Brahe_-_Skoklosters_slott_-_90153.tif"
+   }
+  },
+  {
+   "id": "ernest-rutherford",
+   "name": "Ernest Rutherford",
+   "from": "Atomic nucleus",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 26,
+   "pv": 292174,
+   "img": "img/ernest-rutherford.webp",
+   "credit": {
+    "author": "Bain News Service, publisher Restored by: Bammesk",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg"
+   }
+  },
+  {
+   "id": "linus-pauling",
+   "name": "Linus Pauling",
+   "from": "Chemistry",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 24,
+   "pv": 268881,
+   "img": "img/linus-pauling.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Linus_Pauling_in_the_1940s.jpg"
+   }
+  },
+  {
+   "id": "dmitri-mendeleev",
+   "name": "Dmitri Mendeleev",
+   "from": "Periodic table",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 23,
+   "pv": 261117,
+   "img": "img/dmitri-mendeleev.webp",
+   "credit": {
+    "author": "Original: Unknown authorUnknown author Upload: Germansociety2014",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Dmitri_Mendeleev.jpg"
+   }
+  },
+  {
+   "id": "antoine-lavoisier",
+   "name": "Antoine Lavoisier",
+   "from": "Chemistry",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 21,
+   "pv": 251662,
+   "img": "img/antoine-lavoisier.webp",
+   "credit": {
+    "author": "Jacques-Louis David",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:David_-_Portrait_of_Monsieur_Lavoisier_(cropped)2.jpg"
+   }
+  },
+  {
+   "id": "michio-kaku",
+   "name": "Michio Kaku",
+   "from": "Physics",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 19,
+   "pv": 235329,
+   "img": "img/michio-kaku.webp",
+   "credit": {
+    "author": "Jay Murdock",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Michio_Kaku_at_Miami_University_in_2020_(cropped).jpg"
+   }
+  },
+  {
+   "id": "alexander-von-humboldt",
+   "name": "Alexander von Humboldt",
+   "from": "Naturalist",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 17,
+   "pv": 231213,
+   "img": "img/alexander-von-humboldt.webp",
+   "credit": {
+    "author": "Joseph Karl Stieler",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Stieler,_Joseph_Karl_-_Alexander_von_Humboldt_-_1843.jpg"
+   }
+  },
+  {
+   "id": "rachel-carson",
+   "name": "Rachel Carson",
+   "from": "Ecology",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 15,
+   "pv": 220795,
+   "img": "img/rachel-carson.webp",
+   "credit": {
+    "author": "U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Rachel-Carson.jpg"
+   }
+  },
+  {
+   "id": "emmy-noether",
+   "name": "Emmy Noether",
+   "from": "Mathematics",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 14,
+   "pv": 203447,
+   "img": "img/emmy-noether.webp",
+   "credit": {
+    "author": "Unknown authorUnknown author Publisher: Mathematical Association of America [3], Brooklyn Museum [4], Agnes Scott College [5], [6]",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Emmy_Noether_(3x4_cropped).jpg"
+   }
+  },
+  {
+   "id": "francis-crick",
+   "name": "Francis Crick",
+   "from": "DNA structure",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 12,
+   "pv": 198205,
+   "img": "img/francis-crick.webp",
+   "credit": {
+    "author": "Francis_Crick.png: Photo: Marc Lieberman, per ticket:2015100910022707 derivative work: Materialscientist (talk)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Francis_Crick_crop.jpg"
+   }
+  },
+  {
+   "id": "lise-meitner",
+   "name": "Lise Meitner",
+   "from": "Nuclear fission",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 10,
+   "pv": 176487,
+   "img": "img/lise-meitner.webp",
+   "credit": {
+    "author": "Harris & Ewing",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Lise_Meitner_NatGeo.jpg"
+   }
+  },
+  {
+   "id": "edwin-hubble",
+   "name": "Edwin Hubble",
+   "from": "Expanding universe",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 8,
+   "pv": 159110,
+   "img": "img/edwin-hubble.webp",
+   "credit": {
+    "author": "Johan Hagemeyer",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Studio_portrait_photograph_of_Edwin_Powell_Hubble_(cropped).JPG"
+   }
+  },
+  {
+   "id": "robert-boyle",
+   "name": "Robert Boyle",
+   "from": "Chemistry",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 6,
+   "pv": 128413,
+   "img": "img/robert-boyle.webp",
+   "credit": {
+    "author": "Johann Kerseboom",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:The_Shannon_Portrait_of_the_Hon_Robert_Boyle.jpg"
+   }
+  },
+  {
+   "id": "peter-higgs",
+   "name": "Peter Higgs",
+   "from": "Higgs boson",
+   "gender": "m",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 5,
+   "pv": 101774,
+   "img": "img/peter-higgs.webp",
+   "credit": {
+    "author": "Bengt Nyman",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nobel_Prize_24_2013_(cropped).jpg"
+   }
+  },
+  {
+   "id": "dorothy-hodgkin",
+   "name": "Dorothy Hodgkin",
+   "from": "Crystallography",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 3,
+   "pv": 76171,
+   "img": "img/dorothy-hodgkin.webp",
+   "credit": {
+    "author": "University of Bristol",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Professor_Dorothy_Hodgkin.jpg"
+   }
+  },
+  {
+   "id": "barbara-mcclintock",
+   "name": "Barbara McClintock",
+   "from": "Genetics",
+   "gender": "f",
+   "kind": "history",
+   "tags": [
+    "science",
+    "scientists"
+   ],
+   "fame": 1,
+   "pv": 69104,
+   "img": "img/barbara-mcclintock.webp",
+   "credit": {
+    "author": "Smithsonian Institution/Science Service; Restored by Adam Cuerden",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "source": "https://commons.wikimedia.org/wiki/File:Barbara_McClintock_(1902-1992)_shown_in_her_laboratory_in_1947.jpg"
+   }
+  }
+ ]
+}
