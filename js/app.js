@@ -10,7 +10,7 @@ import * as PPL from './people.js';
 import * as ACCT from './account.js';
 import * as SORT from './sorter.js';
 
-const BUILD = '2026-11-19.1';
+const BUILD = '2026-11-19.2';
 const ONLINE_JS = './online.js?v=20261119a';
 const KEY = 'mystery-face:v1';
 const $ = (s, r = document) => r.querySelector(s);
@@ -415,7 +415,7 @@ function onSnap(snap) {
     const mid = was && was.pub && !game.isOver(was.pub);
     U.snap = null; prevPub = null; FC.useCustom(null); renderAll();
     // say it plainly, in a box that stays until it's read (Tim, 2026-11-19: "don't pretend like it's still connected")
-    if (!U.leaving) sheet(`<h3>${snap.status === 'closed' ? 'The room closed' : 'You're out of the room'}</h3><p class="muted">${snap.status === 'closed' ? (mid ? 'The game ended: the host left or lost the connection.' : 'The host left or lost the connection.') : 'This device is no longer in the room (the connection dropped or you were removed).'} Make a new room to play again.</p><div class="row end"><button class="btn main" data-act="sheetx">OK</button></div>`);
+    if (!U.leaving) sheet(`<h3>${snap.status === 'closed' ? 'The room closed' : 'You’re out of the room'}</h3><p class="muted">${snap.status === 'closed' ? (mid ? 'The game ended: the host left or lost the connection.' : 'The host left or lost the connection.') : 'This device is no longer in the room (the connection dropped or you were removed).'} Make a new room to play again.</p><div class="row end"><button class="btn main" data-act="sheetx">OK</button></div>`);
     U.leaving = false;
     return;
   }
@@ -511,7 +511,7 @@ function renderNetBar() {
   if (inRoom() && sn && sn.seats) {
     const friend = sn.seats[1 - sn.mySeat];
     if (sn.problem) msg = `Connection problem: ${sn.problem} Your friend may not see your moves.`;
-    else if (sn.hostAway) msg = 'Lost contact with your friend's device. Waiting for it to come back…';
+    else if (sn.hostAway) msg = 'Lost contact with your friend’s device. Waiting for it to come back…';
     else if (friend && friend.kind === 'human' && !friend.online) msg = `${friend.name || 'Your friend'} isn't connected right now.`;
   }
   if (!msg) { if (bar) bar.remove(); return; }
