@@ -21,6 +21,8 @@ Big face library: 91 groups / ~4,240 faces, group browser, smart know/don't-know
 | Tests | `node --test` 63/63; pwa-check 17/18 (known WebKit image noise) |
 | Live | https://timothyhadfield.github.io/mystery-face/ @ 990eaae |
 
+| Online fix (2026-11-19, 8130ef1 + 7b8d955) | Tim: "when I click start, my computer goes back to the main screen ... sometimes the pictures aren't synced". Cause (measured: old code reproduced it, new code doesn't): `G()` returned a SAVED same-screen game before the online room, so Start showed home / the old board. Now the online room wins; in a room with no table yet → "Loading the game…". online.js (also `_online/online.js`, uncommitted kit copy): failed Start → back to lobby + reason; failed host write → retry every 5 s; `snap.problem` (write/listener failure, cards not arriving after 6 s, offline) → red `#netbar`; room closed / removed → a box, not a toast. `two-browsers.mjs --deck` passes on live 7b8d955 |
+
 ## Authorized next steps
 - (none open) Library expansion done 2026-11-10. Worktrees `C:/Users/timha/AppData/Local/Temp/claude/wt/mystery-face-*` merged; removal failed (lock), weekly sweep cleans them.
 
