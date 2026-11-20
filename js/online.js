@@ -199,6 +199,10 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
   let presence = {};       // uid -> millis
   let heartbeat = null, staleTimer = null, claimTimer = null;
   let lastError = null;
+  // 2026-11-19: a sync problem the players must see (a host write that failed, a listener the server
+  // refused, my cards not arriving). Cleared when the next write / update gets through.
+  let syncErr = null, retryTimer = null, holdT = null;
+  const problem = (e) => { syncErr = typeof e === "string" ? e : humanError(e); ev.emit("change", snapshot()); };
   let skew = 0;            // server clock minus ours (ms), learned from our own heartbeat
   let beatSentAt = 0, lastBeat = 0, lastTick = 0;
   let backAt = 0;          // when this page last came back (visible again, or woke from sleep)
@@ -352,13 +356,28 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
       autoPlay: myAuto(),
       seatRequests: isHost ? requests.map(({ uid, name, seat: s, seatName }) => ({ uid, name, seat: s, seatName })) : [],
       v: vw.v != null ? vw.v : room.v, error: lastError,
+      problem: syncErr || (globalThis.navigator && navigator.onLine === false ? "No internet connection." : null),
     };
   }
   const uid0 = (u) => u || "-";
+  // My private doc hasn't caught up with the room for 6 s: read it directly; if that fails, say so.
+  function holdCheck() {
+    if (holdT) return;
+    holdT = setTimeout(async () => {
+      holdT = null;
+      if (actingHost || !room || !code || !(room.hv && room.hv[me] > myHandV)) return;
+      try {
+        const d = await F.getDoc(P.hand(me));
+        if (d.exists()) { const h = d.data(); try { mine = JSON.parse(h.json); } catch (e) { mine = null; } myHandV = Math.max(myHandV, h.v); }
+        if (room && room.hv && room.hv[me] > myHandV) { problem("Your game didn't load from your friend's device. Check both connections."); holdCheck(); }
+        else { syncErr = null; changed(); }
+      } catch (e) { problem(e); holdCheck(); }
+    }, 6000);
+  }
   // Hold the event until my private doc has caught up with the room version,
   // so a UI never shows the new table with the old hand.
   const changed = () => {
-    if (!actingHost && room && room.hv && room.hv[me] > myHandV && room.uids.includes(me)) return;
+    if (!actingHost && room && room.hv && room.hv[me] > myHandV && room.uids.includes(me)) { holdCheck(); return; }
     ev.emit("change", snapshot());
   };
 
@@ -568,6 +587,7 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
       return;
     }
     fail(e);
+    problem("Lost the connection to the room. " + humanError(e));
   }
 
   let memberSubs = false;
@@ -579,6 +599,7 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
       const h = d.data();
       try { mine = JSON.parse(h.json); } catch (e) { mine = null; }
       myHandV = h.v;
+      if (syncErr && !actingHost) syncErr = null;
       // v2: the host answered my move in my private doc (the room is written later).
       if (typeof h.pub === "string" && room && h.v > (room.v || 0)) {
         progress = { v: h.v, pj: h.pub, toAct: h.toAct || [] };
@@ -587,7 +608,7 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
         if (replay) stopReplay();
       }
       changed();
-    }, () => {}));
+    }, (e) => problem(e)));
     listenPresence();
     lastTick = Date.now();
     staleTimer = setInterval(() => {
@@ -764,7 +785,7 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
       await hostLoad;
     }
     hostSubs.push(F.onSnapshot(P.joins(), (snap) => { joinsSnap = snap; processJoins(); }, () => {}));
-    hostSubs.push(F.onSnapshot(P.actions(), (snap) => { processActions(snap); }, () => {}));
+    hostSubs.push(F.onSnapshot(P.actions(), (snap) => { processActions(snap); }, (e) => problem(e)));
     // A migrated host re-publishes so every hand doc is current again.
     if (hostState && room.status === "playing") { stepped(); flush().then(scheduleBots); }
     else scheduleBots();
@@ -1017,7 +1038,7 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
     hv[uid] = ver;
     try {
       await F.setDoc(P.hand(uid), { json, v: ver, pub: JSON.stringify(game.publicView(hostState) ?? null), toAct: over ? [] : game.toAct(hostState), expireAt: expireAt() });
-    } catch (e) { delete lastHand[uid]; fail(e); }
+    } catch (e) { delete lastHand[uid]; problem(e); retryFlush(); }
   }
   let hv = {};             // host: uid -> version of the hand doc last written
 
@@ -1048,8 +1069,15 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
     });
     b.update(P.room(code), upd);
     room = Object.assign({}, room, upd);
+    const unsent = frames;
     frames = []; flushedToAct = toAct.slice(); lastFlushAt = Date.now();
-    try { await b.commit(); } catch (e) { lastHand = {}; fail(e); }
+    try { await b.commit(); if (syncErr) { syncErr = null; changed(); } return true; }
+    catch (e) { lastHand = {}; frames = unsent.concat(frames); problem(e); retryFlush(); return false; }
+  }
+  /** A host write failed: try the whole table again in 5 s until it gets through (the banner stays up). */
+  function retryFlush() {
+    clearTimeout(retryTimer);
+    retryTimer = setTimeout(() => { retryTimer = null; if (actingHost && hostState && room && syncErr) flush(); }, 5000);
   }
 
   /**
@@ -1147,10 +1175,18 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
       const opts = options ? clone(options) : (room.options || {});
       const seats = room.seats.map((s, i) => (s.kind === "empty" ? { kind: "computer", name: "Computer " + (i + 1), uid: "" } : s));
       if (game.minSeats && seats.length < game.minSeats) throw new Error("Needs at least " + game.minSeats + " seats.");
+      const before = room;
       hostState = game.setup(seats.length, opts, rng, seats.map((s) => ({ kind: s.kind, name: s.name })));
       room = Object.assign({}, room, { seats, seatUids: seats.map((s) => s.uid), options: opts, status: "playing" });
       frames = []; hostView = null;
-      await flush({ seats, seatUids: room.seatUids, options: opts });
+      if (await flush({ seats, seatUids: room.seatUids, options: opts }) === false) {
+        // the game never reached the server: back to the lobby, and say why
+        const why = syncErr;
+        clearTimeout(retryTimer); retryTimer = null; syncErr = null;
+        room = before; hostState = null; frames = []; hostView = null;
+        changed();
+        return { ok: false, message: "The game didn't start: " + why };
+      }
       changed();
       scheduleBots();
       return { ok: true };
@@ -1261,6 +1297,7 @@ export function createOnline({ game, gameId = game && game.id, config = FIREBASE
     stopHost(); stopTimers(); watchTaps(false);
     room = null; mine = null; code = null; presence = {}; joinPending = false; askingHost = false; myHandV = -1;
     progress = null; shownV = -1; roomSeen = false; pendingActAt = 0; lastHandAt = 0; busySince = 0;
+    syncErr = null; clearTimeout(retryTimer); retryTimer = null; clearTimeout(holdT); holdT = null;
   }
 
   return {

@@ -9,7 +9,7 @@
 //
 // Firestore: games/mystery-face/users/{uid}/sets/{setId} = { title, people: [{ id, name, img }], updatedAt }
 // Rules (Board and Card Games/_online/firestore.rules): only that uid, never anonymous, at most 40 people.
-import { FIREBASE_CONFIG } from './online.js?v=a3d0418b';
+import { FIREBASE_CONFIG } from './online.js?v=20261119a';
 import { cleanSet } from './faces.js';
 
 const CDN = 'https://www.gstatic.com/firebasejs/12.16.0/';

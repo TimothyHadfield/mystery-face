@@ -384,3 +384,6 @@ main { min-height: 0; position: relative; }
   .set-row { flex-wrap: wrap; }
 }
 @media (prefers-reduced-motion: reduce) { .face.flipping .ph, .sheet, .so-card { animation: none; } }
+
+/* connection trouble (2026-11-19): a red bar under the top bar for as long as it lasts */
+#netbar { position: fixed; left: 50%; top: calc(64px + env(safe-area-inset-top, 0px)); transform: translateX(-50%); z-index: 60; width: min(560px, calc(100vw - 24px)); box-sizing: border-box; padding: 10px 14px; border-radius: 10px; background: var(--bad); color: #1a0b0b; font-weight: 600; font-size: 14px; line-height: 1.35; text-align: center; box-shadow: 0 6px 18px rgba(0,0,0,.45); pointer-events: none; }

@@ -10,8 +10,8 @@ import * as PPL from './people.js';
 import * as ACCT from './account.js';
 import * as SORT from './sorter.js';
 
-const BUILD = '2026-11-10.3';
-const ONLINE_JS = './online.js?v=a3d0418b';
+const BUILD = '2026-11-19.1';
+const ONLINE_JS = './online.js?v=20261119a';
 const KEY = 'mystery-face:v1';
 const $ = (s, r = document) => r.querySelector(s);
 const esc = FC.esc;
@@ -239,14 +239,17 @@ function playWithSet(id) {
 
 // ------------------------------------------------------------------ the game, as the page sees it
 // One shape for both modes: { kind, pub, names: [a, b], me (online seat | null), toAct, custom }
+// An online room always wins over a saved same-screen game (2026-11-19 fix: a saved same-screen game used
+// to take over the screen when the online game started, so the player saw the home screen or an old board).
 function G() {
+  const sn = U.snap;
+  if (U.online && sn && sn.pub && (sn.status === 'playing' || sn.status === 'finished')) {
+    return { kind: 'online', pub: sn.pub, names: sn.seats.map((s, i) => (i === sn.mySeat ? 'You' : (s.name || 'Friend').replace(/ \(computer\)$/, ''))), me: sn.mySeat, toAct: sn.toAct || [], custom: (sn.options && (sn.options.custom || sn.options.mixCustom)) || null, snap: sn };
+  }
+  if (inRoom()) return null;
   if (S.play && S.play.kind === 'local') {
     const st = S.play.state;
     return { kind: 'local', pub: st, names: ['Player 1', 'Player 2'], me: null, toAct: game.toAct(st), custom: S.play.custom || null };
-  }
-  const sn = U.snap;
-  if (U.online && sn && sn.status === 'playing' || (sn && sn.status === 'finished' && sn.pub)) {
-    return { kind: 'online', pub: sn.pub, names: sn.seats.map((s, i) => (i === sn.mySeat ? 'You' : (s.name || 'Friend').replace(/ \(computer\)$/, ''))), me: sn.mySeat, toAct: sn.toAct || [], custom: (sn.options && (sn.options.custom || sn.options.mixCustom)) || null, snap: sn };
   }
   return null;
 }
@@ -396,7 +399,9 @@ async function leaveRoom() {
   if (!U.online) return;
   const g = G();
   if (g && g.kind === 'online' && g.pub && g.pub.phase !== 'over' && g.toAct.includes(g.me) && !game.isOver(g.pub)) await U.online.act({ t: 'quit' }).catch(() => {});
+  U.leaving = true;
   await U.online.leave();
+  U.leaving = false;
   U.snap = null; FC.useCustom(null);
   renderAll();
 }
@@ -406,7 +411,14 @@ let prevPub = null;
 function onSnap(snap) {
   const was = U.snap;
   U.snap = snap;
-  if (snap.status === 'closed' || snap.status === 'left') { U.snap = null; prevPub = null; FC.useCustom(null); toast(snap.status === 'closed' ? 'Room closed' : 'You left the room'); renderAll(); return; }
+  if (snap.status === 'closed' || snap.status === 'left') {
+    const mid = was && was.pub && !game.isOver(was.pub);
+    U.snap = null; prevPub = null; FC.useCustom(null); renderAll();
+    // say it plainly, in a box that stays until it's read (Tim, 2026-11-19: "don't pretend like it's still connected")
+    if (!U.leaving) sheet(`<h3>${snap.status === 'closed' ? 'The room closed' : 'You're out of the room'}</h3><p class="muted">${snap.status === 'closed' ? (mid ? 'The game ended: the host left or lost the connection.' : 'The host left or lost the connection.') : 'This device is no longer in the room (the connection dropped or you were removed).'} Make a new room to play again.</p><div class="row end"><button class="btn main" data-act="sheetx">OK</button></div>`);
+    U.leaving = false;
+    return;
+  }
   FC.useCustom(snap.options && (snap.options.custom || snap.options.mixCustom) || null);
   const pub = snap.pub;
   if (pub) {
@@ -487,7 +499,27 @@ function renderAll() {
   if (S.tab === 'people') PPL.renderPeople($('#tab-people'));
   if (S.tab === 'settings') renderSettings();
   renderTop();
+  renderNetBar();
 }
+// Connection trouble, shown at the top for as long as it lasts (Tim, 2026-11-19: "if there's any issue that
+// happens with the connection make some sort of message that it didn't work, don't pretend like it's still
+// connected").
+function renderNetBar() {
+  let bar = document.getElementById('netbar');
+  const sn = U.snap;
+  let msg = '';
+  if (inRoom() && sn && sn.seats) {
+    const friend = sn.seats[1 - sn.mySeat];
+    if (sn.problem) msg = `Connection problem: ${sn.problem} Your friend may not see your moves.`;
+    else if (sn.hostAway) msg = 'Lost contact with your friend's device. Waiting for it to come back…';
+    else if (friend && friend.kind === 'human' && !friend.online) msg = `${friend.name || 'Your friend'} isn't connected right now.`;
+  }
+  if (!msg) { if (bar) bar.remove(); return; }
+  if (!bar) { bar = document.createElement('div'); bar.id = 'netbar'; bar.setAttribute('role', 'alert'); document.body.appendChild(bar); }
+  bar.textContent = msg;
+}
+addEventListener('online', () => renderAll());
+addEventListener('offline', () => renderAll());
 function renderTop() {
   const g = G();
   const el = $('#topInfo');
@@ -710,6 +742,8 @@ function renderPlay() {
   const sn = U.snap;
   if (U.online && sn && sn.status !== 'playing' && sn.status !== 'finished') return renderLobby(el, sn);
   const g = G();
+  // in a room whose table hasn't arrived yet: say so (never fall back to the home screen)
+  if (!g && inRoom()) { el.innerHTML = `<div class="pane center-pane"><p><b>Loading the game…</b></p><button class="btn" data-act="leaveask">Leave</button></div>`; return; }
   if (g && !(g.kind === 'local' && U.home)) keepUI(g);
   if (!g || (g.kind === 'local' && U.home)) return renderHome(el);
   if (g.kind === 'online' && !g.pub) return renderLobby(el, sn);
