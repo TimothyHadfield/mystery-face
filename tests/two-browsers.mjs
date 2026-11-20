@@ -103,6 +103,21 @@ console.log("Bob sees the nameless person as:", unnamed.join(", ") || "(not on t
 await A.click('.face[data-i="3"]'); await A.click('[data-act="lockin"]');
 await B.click('.face[data-i="7"]'); await B.click('[data-act="lockin"]');
 await phaseIs(A, "ask"); await phaseIs(B, "ask");
+// Tim, 2026-11-19: "you also have to click your hidden selected character in order to reveal them temporarily
+// ... this also includes the little star on that selected character aswell."
+{
+  const look = () => A.evaluate(() => ({ hid: !!document.querySelector(".mychip.hid"), star: document.querySelectorAll(".face.mine").length, name: document.querySelector(".mychip em")?.textContent || "" }));
+  const a0 = await look();
+  if (!a0.hid || a0.star) fail("your face shows before you tap it: " + JSON.stringify(a0));
+  await A.click(".mychip.hid");
+  const a1 = await look();
+  if (a1.hid || a1.star !== 1) fail("tapping didn't show your face + star: " + JSON.stringify(a1));
+  await A.waitForTimeout(3500);
+  const a2 = await look();
+  if (!a2.hid || a2.star) fail("your face didn't hide again: " + JSON.stringify(a2));
+  await shot(A, "face-hidden");
+  console.log(`PASS your face hidden until tapped, shown (${a1.name}) with its star, hidden again after 3 s`);
+}
 const secA = await A.evaluate((c) => JSON.parse(localStorage.getItem(`mystery-face:sec:${c}:1`)), code);
 const secB = await B.evaluate((c) => JSON.parse(localStorage.getItem(`mystery-face:sec:${c}:1`)), code);
 const s1 = await snap(B);

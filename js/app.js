@@ -892,7 +892,7 @@ function myFaceChip(g, seat) {
   // Online, the face stays covered until you tap it, then shows for a few seconds (Tim, 2026-11-19: "you also
   // have to click your hidden selected character in order to reveal them temporarily, just in case you're
   // playing in person, on seperate devices"). Tap again while it shows = the big view.
-  if (Date.now() >= (U.revealUntil || 0)) return `<button class="mychip hid" data-act="revealme" aria-label="Your face (hidden): tap to see it"><span class="nt mc-cover">?</span><em>Tap to see</em></button>`;
+  if (Date.now() >= (U.revealUntil || 0)) return `<button class="mychip hid" data-act="revealme" aria-label="Your face (hidden): tap to see it"><span class="nt mc-cover">?</span><em>Tap</em></button>`;
   const f = FC.face(sec.face);
   return `<button class="mychip" data-act="zoomme" aria-label="Your face: ${esc(f.name)}"><span class="ph">${FC.picHTML(f)}</span><em>${esc(f.name)}</em></button>`;
 }
