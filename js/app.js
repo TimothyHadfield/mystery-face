@@ -10,7 +10,7 @@ import * as PPL from './people.js';
 import * as ACCT from './account.js';
 import * as SORT from './sorter.js';
 
-const BUILD = '2026-11-19.2';
+const BUILD = '2026-11-19.3';
 const ONLINE_JS = './online.js?v=20261119a';
 const KEY = 'mystery-face:v1';
 const $ = (s, r = document) => r.querySelector(s);
@@ -889,8 +889,20 @@ function renderGame(el, g) {
 function myFaceChip(g, seat) {
   const sec = secretOf(g, seat);
   if (!sec) return `<button class="mychip none" data-act="nosecret"><span class="nt" style="--h:220">?</span><em>Your face</em></button>`;
+  // Online, the face stays covered until you tap it, then shows for a few seconds (Tim, 2026-11-19: "you also
+  // have to click your hidden selected character in order to reveal them temporarily, just in case you're
+  // playing in person, on seperate devices"). Tap again while it shows = the big view.
+  if (Date.now() >= (U.revealUntil || 0)) return `<button class="mychip hid" data-act="revealme" aria-label="Your face (hidden): tap to see it"><span class="nt mc-cover">?</span><em>Tap to see</em></button>`;
   const f = FC.face(sec.face);
   return `<button class="mychip" data-act="zoomme" aria-label="Your face: ${esc(f.name)}"><span class="ph">${FC.picHTML(f)}</span><em>${esc(f.name)}</em></button>`;
+}
+const REVEAL_MS = 3000;
+let revealT = null;
+function revealMe() {
+  U.revealUntil = Date.now() + REVEAL_MS;
+  clearTimeout(revealT);
+  revealT = setTimeout(() => { U.revealUntil = 0; renderPlay(); }, REVEAL_MS);
+  renderPlay();
 }
 
 // Small red Xs (Tim, 2026-11-06/08): small Xs left at the end of a turn are locked in. A tap cycles
@@ -919,7 +931,7 @@ function boardHTML(g, seat, st, dim) {
     if (fresh) cls.push(fresh.has(i) ? 'fresh' : 'stale');
     if (st.picking && U.pickSel === i) cls.push('sel');
     if (guessing && U.guessSel === i) cls.push('sel');
-    if (!L && p.phase !== 'dunno' && lsGet(secKey(g.snap.code, p.round))?.face === id) cls.push('mine');
+    if (!L && p.phase !== 'dunno' && Date.now() < (U.revealUntil || 0) && lsGet(secKey(g.snap.code, p.round))?.face === id) cls.push('mine');
     return `<button class="${cls.join(' ')}" data-act="tile" data-seat="${seat}" data-i="${i}" aria-label="${esc(f.name)}${down ? ' (flipped down)' : ''}" aria-pressed="${down}">
       <span class="ph">${FC.picHTML(f)}<i class="xmark" aria-hidden="true"></i>${pmarksHTML(flips, i)}</span>${S.names ? `<span class="nm">${esc(f.name)}</span>` : ''}</button>`;
   }).join('');
@@ -1192,6 +1204,7 @@ document.addEventListener('click', async (ev) => {
     case 'guessx': U.guessing = false; renderPlay(); break;
     case 'verdict': if (g) send(g.me, { t: 'verdict', ok: v === '1' }); break;
     case 'again': if (g) { if (g.kind === 'local') { await send(0, { t: 'again' }); await send(1, { t: 'again' }); S.play.secrets = [null, null]; S.play.flips = [{}, {}]; S.play.pick = null; save(); FX.play('shuffle'); renderAll(); } else send(g.me, { t: 'again' }); } break;
+    case 'revealme': revealMe(); break;
     case 'zoomme': zoomMe(g); break;
     case 'nosecret': toast('Your pick was made on another device, so this phone can\'t show it.'); break;
   }
