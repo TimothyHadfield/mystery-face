@@ -307,6 +307,18 @@ main { min-height: 0; position: relative; }
 .gtxt b { font-size: 14.5px; }
 .glinks { display: flex; gap: 12px; margin-top: 1px; }
 .glinks .link { font-size: 12.5px; }
+.glinks .muted { font-size: 12.5px; }
+/* View: every face in one group (full screen over the group browser) */
+#gview { position: fixed; inset: 0; z-index: 46; background: var(--bg); display: flex; flex-direction: column; overflow: hidden;
+  padding: calc(8px + env(safe-area-inset-top)) max(14px, env(safe-area-inset-right)) calc(8px + env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left)); }
+.gv-top { display: flex; align-items: center; gap: 8px; min-height: 44px; width: 100%; max-width: 960px; margin: 0 auto; }
+.gv-top b { font-size: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.gv-grid { flex: 1; min-height: 0; overflow-y: auto; width: 100%; max-width: 960px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); gap: 10px 8px; align-content: start; padding: 4px 0 12px; }
+.gv-face { margin: 0; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.gv-ph { position: relative; display: block; aspect-ratio: 1; border-radius: 8px; overflow: hidden; container-type: inline-size; background: #20253a; }
+.gv-ph img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.gv-face figcaption { font-size: 12px; line-height: 1.2; text-align: center; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+@media (min-width: 700px) { .gv-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); } }
 .gadd { flex: none; min-width: 78px; }
 .gadd.on { border-color: var(--warm); color: var(--warm); }
 

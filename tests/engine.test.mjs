@@ -75,6 +75,46 @@ test('swaps stop when the pool runs out (no loop, no duplicates)', () => {
   assert.deepEqual(s.board, b, 'nothing left to swap in');
 });
 
+// Tim (2026-11-24): "put a notification that says that it's ran out of characters left. you can either choose
+// to start recylcing characters or remove them entirely so there's less total characters on the board."
+test('out of spares: the swap says which faces got stuck (public, for the swapping seat)', () => {
+  let s = game.setup(2, opts({ pool: pool.slice(0, 26) }), R(), []);
+  s = act(s, 0, { t: 'swap', idx: [0, 1, 2, 3] });
+  assert.deepEqual(s.stuck, { seat: 0, idx: [2, 3], recycle: 2 }, 'two swapped, two stuck; 2 seen faces could come back');
+  assert.deepEqual(game.publicView(s).stuck, s.stuck);
+  s = act(s, 1, { t: 'ready' });
+  assert.equal(s.stuck, null, 'any next move clears it');
+});
+test('recycle: faces already swapped away come back (never the ones just marked)', () => {
+  let s = game.setup(2, opts({ pool: pool.slice(0, 26) }), R(), []);
+  const gone = [s.board[0], s.board[1]];
+  s = act(s, 0, { t: 'swap', idx: [0, 1, 2, 3] });
+  const stuck = s.stuck.idx.map((i) => s.board[i]);
+  s = act(s, 0, { t: 'swap', idx: s.stuck.idx, recycle: true });
+  assert.equal(s.stuck, null);
+  assert.equal(s.board.length, 24);
+  assert.equal(new Set(s.board).size, 24);
+  for (const id of stuck) assert.ok(!s.board.includes(id), 'the marked faces are gone');
+  for (const id of gone) assert.ok(s.board.includes(id), 'the earlier swapped-away faces are back');
+});
+test('remove: the marked faces leave the board, which gets smaller', () => {
+  let s = game.setup(2, opts({ pool: pool.slice(0, 26) }), R(), []);
+  s = act(s, 0, { t: 'swap', idx: [0, 1, 2, 3] });
+  s = act(s, 1, { t: 'ready' });
+  const out = [s.board[5], s.board[9]];
+  s = act(s, 0, { t: 'swap', idx: [5, 9], remove: true });
+  assert.equal(s.board.length, 22);
+  assert.deepEqual(s.left, [22, 22]);
+  for (const id of out) assert.ok(!s.board.includes(id));
+  assert.equal(s.stuck, null);
+  assert.deepEqual(game.toAct(s).sort(), [0, 1], 'both look again');
+});
+test('remove never leaves fewer than 2 faces', () => {
+  let s = game.setup(2, opts({ pool: pool.slice(0, 4), n: 4 }), R(), []);
+  s = act(s, 0, { t: 'swap', idx: [0, 1, 2, 3], remove: true });
+  assert.equal(s.board.length, 2);
+});
+
 test('strict turn order: P1 asks, P2 answers, P1 flips then Done, P2 asks, P1 answers', () => {
   let { s } = toPlay();
   assert.equal(s.phase, 'ask'); assert.deepEqual(game.toAct(s), [0]);

@@ -679,7 +679,9 @@ function renderGroupList() {
     const hint = hit ? esc(hit) : f && f.sorted ? `you know ~${Math.round(f.pct * 100)}%` : 'not sorted';
     // searching: groups whose name matches come first, then groups that only contain a matching person
     rows[q && hit ? 'people' : g.broad ? 'broad' : 'specific'].push(`<div class="grp">${groupMosaic(g)}<div class="gtxt"><b>${esc(g.title)}</b><span class="small muted">${g.count} · ${hint}</span>
-      <span class="glinks"><button class="link small" data-act="gsort" data-v="${esc(gid)}">Sort</button><button class="link small" data-act="gsortall" data-v="${esc(gid)}">Sort all</button></span></div>
+      <span class="glinks">${U.gSortOpen === gid
+        ? `<span class="muted small">Sort:</span><button class="link small" data-act="gsort" data-v="${esc(gid)}">Smart</button><button class="link small" data-act="gsortall" data-v="${esc(gid)}">Sort all</button>`
+        : `<button class="link small" data-act="gsortpick" data-v="${esc(gid)}">Sort</button><button class="link small" data-act="gview" data-v="${esc(gid)}">View</button>`}</span></div>
       <button class="btn small gadd${on ? ' on' : ''}" data-act="gadd" data-v="${esc(gid)}" aria-pressed="${on}">${on ? '✓ Added' : '+ Add'}</button></div>`);
   }
   const part = (t, list) => (list.length ? `<h4 class="lbl">${t}</h4><div class="ggrid">${list.join('')}</div>` : '');
@@ -696,6 +698,21 @@ async function toggleGroup(gid, btn) {
   if (on) await FC.loadGroup(gid);
   fixSrc(); save(); renderPlay();
   setTimeout(warmImages, 1200);
+}
+// Tim (2026-11-24): "another button for each group that says view, which just allows you to see all the
+// characters in that group." Full-screen over the group browser; best known (fame) first.
+async function viewGroup(gid) {
+  const g = FC.group(gid); if (!g) return;
+  await FC.loadGroup(gid).catch(() => null);
+  const people = FC.groupDecks(gid).map((d) => FC.deck(d)).filter(Boolean).flatMap((dk) => dk.people)
+    .slice().sort((a, b) => (b.fame || 0) - (a.fame || 0))
+    .filter(function (p) { const k = fold(p.name); if (this.has(k)) return false; this.add(k); return true; }, new Set());   // broad groups hold one person in several decks: once each
+  const old = $('#gview'); if (old) old.remove();
+  const el = document.createElement('div');
+  el.id = 'gview'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-label', g.title);
+  el.innerHTML = `<div class="gv-top"><b>${esc(g.title)}</b><span class="muted small">${people.length}</span><span class="grow"></span><button class="btn small" data-act="gviewx">Close</button></div>
+    <div class="gv-grid">${people.map((p) => `<figure class="gv-face"><span class="gv-ph">${FC.picHTML(p).replace('<img ', '<img loading="lazy" ')}</span><figcaption>${esc(p.name)}</figcaption></figure>`).join('')}</div>`;
+  document.body.appendChild(el);
 }
 function openSort(groups, all) {
   SORT.openSorter({ getMem: () => MEM, setMem, flushMem, FX, groups, all, onClose: () => { renderAll(); if ($('#gList')) { U.gOrder = groupOrder(); renderGroupList(); } } });
@@ -747,7 +764,26 @@ function renderPlay() {
   if (g && !(g.kind === 'local' && U.home)) keepUI(g);
   if (!g || (g.kind === 'local' && U.home)) return renderHome(el);
   if (g.kind === 'online' && !g.pub) return renderLobby(el, sn);
+  // a face removed from the board shifts every place after it: marks taken before that no longer fit
+  if (U.boardLen !== undefined && U.boardLen !== g.pub.board.length) U.marks.clear();
+  U.boardLen = g.pub.board.length;
   renderGame(el, g);
+  stuckSheet(g);
+}
+// Tim (2026-11-24): "put a notification that says that it's ran out of characters left. you can either choose
+// to start recylcing characters or remove them entirely so there's less total characters on the board."
+function stuckSheet(g) {
+  const st = g.pub.phase === 'dunno' && g.pub.stuck;
+  if (!st || (g.kind !== 'local' && st.seat !== g.me)) return;
+  const key = `${U.swapSeq || 0}:${JSON.stringify(st)}`;
+  if (U.stuckSeen === key || U.sheet) return;
+  U.stuckSeen = key;
+  const n = st.idx.length, them = n === 1 ? 'it' : 'them';
+  sheet(`<h3>Out of new faces</h3>
+    <p class="muted">Every face left in your groups has been shown, so ${n === 1 ? '1 face' : n + ' faces'} couldn't be swapped.</p>
+    ${st.recycle ? `<p class="small"><b>Recycle:</b> faces you swapped away can come back.</p>` : ''}
+    <p class="small"><b>Remove:</b> take ${them} off the board (${g.pub.board.length - Math.min(n, g.pub.board.length - 2)} faces left).</p>
+    <div class="row end"><button class="btn" data-act="sheetx">Keep ${them}</button>${st.recycle ? '<button class="btn" data-act="stuckrec">Recycle</button>' : ''}<button class="btn main" data-act="stuckrem">Remove</button></div>`);
 }
 
 const ANS = { yes: 'Yes', no: 'No', unsure: 'Not sure' };
@@ -775,7 +811,7 @@ function stepFor(g) {
       return {
         text: mine ? (fresh ? `<b>New faces are lit up.</b> Don't want one? Tap it, then Swap.` : `<b>Don't want someone this time?</b> Tap them, then Swap.`) : `Waiting for ${esc(N[opp])}…`,
         sub: mine ? `${p.spare} spare face${p.spare === 1 ? '' : 's'} left. ${waitTxt}` : '',
-        dock: mine ? `<button class="btn" data-act="swap" ${nMarked && p.spare ? '' : 'disabled'}>${nMarked ? `Swap ${nMarked} marked` : 'Swap marked'}</button><button class="btn main" data-act="ready">Ready</button>` : '',
+        dock: mine ? `<button class="btn" data-act="swap" ${nMarked ? '' : 'disabled'}>${nMarked ? `Swap ${nMarked} marked` : 'Swap marked'}</button><button class="btn main" data-act="ready">Ready</button>` : '',
       };
     }
     case 'pick': {
@@ -1145,7 +1181,11 @@ document.addEventListener('click', async (ev) => {
     case 'sort': openSort(addedGroups().filter(okGroup), false); break;
     case 'groups': groupsSheet(); break;
     case 'gadd': toggleGroup(v, b); break;
-    case 'gsort': case 'gsortall': await FC.loadGroup(v); openSort([v], a === 'gsortall'); break;
+    // Tim (2026-11-24): "just put sort and then you can choose smart or sort all"
+    case 'gsortpick': U.gSortOpen = U.gSortOpen === v ? null : v; renderGroupList(); break;
+    case 'gsort': case 'gsortall': U.gSortOpen = null; await FC.loadGroup(v); openSort([v], a === 'gsortall'); break;
+    case 'gview': await viewGroup(v); break;
+    case 'gviewx': { const el = $('#gview'); if (el) el.remove(); break; }
     case 'newset': S.tab = 'people'; save(); await PPL.onClick(Object.assign(document.createElement('button'), { dataset: { pp: 'new' } })); break;
     case 'tag': { const t = S.src.tags || []; S.src.tags = t.includes(v) ? t.filter((x) => x !== v) : t.concat(v); save(); renderAll(); break; }
     case 'size': S.n = +v; save(); renderAll(); break;
@@ -1180,7 +1220,14 @@ document.addEventListener('click', async (ev) => {
     case 'timer': S.timer = +v; save(); renderAll(); break;
     case 'view': S.play.view = +v; save(); renderPlay(); break;
     case 'tile': onTile(g, +b.dataset.seat, +b.dataset.i, b); break;
-    case 'swap': if (g) { const idx = [...U.marks]; U.marks.clear(); if (await send(g.kind === 'local' ? g.toAct[0] : g.me, { t: 'swap', idx })) FX.play('shuffle'); renderAll(); } break;
+    case 'swap': if (g) { const idx = [...U.marks]; U.marks.clear(); U.swapSeq = (U.swapSeq || 0) + 1; if (await send(g.kind === 'local' ? g.toAct[0] : g.me, { t: 'swap', idx })) FX.play('shuffle'); renderAll(); } break;
+    case 'stuckrec': case 'stuckrem': {
+      closeSheet();
+      const st = g && g.pub.stuck; if (!st) break;
+      U.swapSeq = (U.swapSeq || 0) + 1;
+      if (await send(st.seat, Object.assign({ t: 'swap', idx: st.idx }, a === 'stuckrec' ? { recycle: true } : { remove: true }))) FX.play('shuffle');
+      renderAll(); break;
+    }
     case 'ready':
       if (!g) break;
       U.marks.clear();

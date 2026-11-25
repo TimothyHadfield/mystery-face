@@ -384,6 +384,7 @@ function deal(s, rng) {
   s.spareIds = pick.rest;
   s.spare = s.spareIds.length;
   s.fresh = [];
+  s.stuck = null;
   s.marks = [[], []];
   s.ready = [false, false];
   s.commits = [null, null];
@@ -478,6 +479,7 @@ export const game = {
       case 'dunno': {
         // both ready: the round's faces count as used (memories only age, nothing becomes known/unknown)
         const toPick = () => { if (s.ready[0] && s.ready[1]) { ageMems(s); s.phase = 'pick'; } };
+        s.stuck = null;   // "out of faces" lasts until the next move
         if (a.t === 'ready') { s.ready[seat] = true; toPick(); break; }
         if (a.t !== 'swap' || !Array.isArray(a.idx)) fail('Pick faces to swap, or Ready.');
         // a.avoid: this player's remembered don't-knows (sent once a round); a.quiet: no highlight;
@@ -488,16 +490,38 @@ export const game = {
           if (dm) { s.mems = s.mems || [null, null]; s.mems[seat] = dm; }
         }
         const idx = Array.from(new Set(a.idx.map(Number))).filter((i) => Number.isInteger(i) && i >= 0 && i < s.board.length);
+        // Out of spares (Tim, 2026-11-24): "remove them entirely so there's less total characters on the board"
+        if (a.remove) {
+          const out = new Set(idx.slice(0, Math.max(0, s.board.length - 2)));
+          const fresh = new Set((s.fresh || []).map((i) => s.board[i]));
+          s.board = s.board.filter((_, i) => !out.has(i));
+          s.fresh = s.board.map((id, i) => (fresh.has(id) ? i : -1)).filter((i) => i >= 0);
+          s.left = [s.board.length, s.board.length];
+          s.ready = [false, false];
+          break;
+        }
+        // ... "or start recycling characters": every face not on the board is a spare again, except the ones
+        // being swapped away now (don't-knows stay out: bestSpare still skips them)
+        s.marks = s.marks || [[], []];
+        if (a.recycle && seat >= 0 && seat <= 1) {
+          s.marks[seat] = [];
+          const on = new Set(s.board);
+          s.spareIds = s.pool.filter((id) => !on.has(id));
+        }
         const swapped = [];
         // reshuffled = "don't want this time": gone for this round only, not remembered (Tim, 2026-11-07)
-        s.marks = s.marks || [[], []];
         if (seat >= 0 && seat <= 1) s.marks[seat] = Array.from(new Set(s.marks[seat].concat(idx.map((i) => s.board[i])))).slice(-200);
         for (const i of idx) {
           const j = bestSpare(s, s.board[i]);
-          if (j < 0) break;
+          if (j < 0) continue;
           s.board[i] = s.spareIds.splice(j, 1)[0]; swapped.push(i);
         }
         s.spare = s.spareIds.length;
+        const stuck = idx.filter((i) => !swapped.includes(i));
+        if (stuck.length && !a.quiet) {
+          const on = new Set(s.board), spare = new Set(s.spareIds);
+          s.stuck = { seat, idx: stuck, recycle: s.pool.filter((id) => !on.has(id) && !spare.has(id)).length };
+        }
         if (!swapped.length) { if (a.ready) { s.ready[seat] = true; toPick(); } break; }
         if (!a.quiet) s.fresh = swapped;
         s.ready = [false, false]; // new faces: both look again
