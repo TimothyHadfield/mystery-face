@@ -1,7 +1,7 @@
 # Mystery Face: progress
 
 ## START HERE
-Read this file, then `CLAUDE.md`, then `docs/library-plan.md` (groups + deck format + smart sort), then `js/engine.js` (the rules). Last updated: 2026-11-10 (library expansion live, 990eaae).
+Read this file, then `CLAUDE.md`, then `docs/library-plan.md` (groups + deck format + smart sort), then `js/engine.js` (the rules). Last updated: 2026-11-24 (out-of-faces box + group Sort/View live, b7b4ff7).
 
 ## Goal right now
 Big face library: 91 groups / ~4,240 faces, group browser, smart know/don't-know sorting. Live; waiting on Tim's feedback.
@@ -21,6 +21,7 @@ Big face library: 91 groups / ~4,240 faces, group browser, smart know/don't-know
 | Tests | `node --test` 63/63; pwa-check 17/18 (known WebKit image noise) |
 | Live | https://timothyhadfield.github.io/mystery-face/ @ 990eaae |
 
+| Out of faces (2026-11-24, b7b4ff7) | Tim: "sometimes when you're switching characters out it just stops letting you ... put a notification that says that it's ran out of characters left. you can either choose to start recylcing characters or remove them entirely ... just put sort and then you can choose smart or sort all. Make another button for each group that says view". Cause: Swap disabled at 0 spares, and spares all excluded (look-alike/marked) swapped nothing silently. Engine `dunno` now sets `s.stuck = {seat, idx, recycle}`; swap action takes `recycle` (clears that seat's marks, refills spares from pool) or `remove` (drops those faces, board keeps ≥2). App `stuckSheet` box: Keep them / Recycle / Remove. Groups list: Sort → Smart / Sort all; View → full-screen `#gview` face grid (deduped by name). Tests 67/67; headless WebKit flow (`scratchpad/mf/stuck.mjs`) 24→22 on Remove |
 | Online fix (2026-11-19, 8130ef1 + 7b8d955) | Tim: "when I click start, my computer goes back to the main screen ... sometimes the pictures aren't synced". Cause (measured: old code reproduced it, new code doesn't): `G()` returned a SAVED same-screen game before the online room, so Start showed home / the old board. Now the online room wins; in a room with no table yet → "Loading the game…". online.js (same change in the kit `_online/online.js` 160b244; other games still have the old copy): failed Start → back to lobby + reason; failed host write → retry every 5 s; `snap.problem` (write/listener failure, cards not arriving after 6 s, offline) → red `#netbar`; room closed / removed → a box, not a toast. `two-browsers.mjs --deck` passes on live 7b8d955 |
 
 ## Authorized next steps
@@ -61,6 +62,7 @@ Big face library: 91 groups / ~4,240 faces, group browser, smart know/don't-know
 - Plain UI choices (Tim may change): "+ Groups" link, "All <category>" names, Broad/Specific headings.
 
 ## NOT verified
+- Out-of-faces box online (two browsers), View at laptop width, View after the dedupe fix (not re-screenshotted).
 - Real iPhone (WebKit headless only), real finger swipe in the sorter, account sync of sorted faces signed in.
 - Google sign-in popup.
 - Weak pictures left: Wii Fit Trainer, Vegeta/Beavis slightly cut, Sauron small, dark Lumière/Smaug/Totoro/Chernabog, Teen Titans "WIKI" logo, Kurt Cobain blurry, some NFL helmets.
