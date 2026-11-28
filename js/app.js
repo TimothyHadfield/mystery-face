@@ -10,7 +10,7 @@ import * as PPL from './people.js';
 import * as ACCT from './account.js';
 import * as SORT from './sorter.js';
 
-const BUILD = '2026-11-19.3';
+const BUILD = '2026-11-28.1';
 const ONLINE_JS = './online.js?v=20261119a';
 const KEY = 'mystery-face:v1';
 const $ = (s, r = document) => r.querySelector(s);
@@ -972,7 +972,8 @@ function boardHTML(g, seat, st, dim) {
       <span class="ph">${FC.picHTML(f)}<i class="xmark" aria-hidden="true"></i>${pmarksHTML(flips, i)}</span>${S.names ? `<span class="nm">${esc(f.name)}</span>` : ''}</button>`;
   }).join('');
   const peek = L && playing ? `<button class="peek" data-act="peek" data-seat="${seat}" aria-label="${esc(g.names[seat])}'s face: press and hold to peek"><span class="ph">${sec ? FC.picHTML(FC.face(sec.face)) : ''}</span><span class="pk-cover"><b>?</b></span><em>${esc(g.names[seat])}'s face <span>hold</span></em></button>` : '';
-  return `<div class="boardbox${dim ? ' other' : ''}" data-seat="${seat}">${L && playing ? `<div class="bhead"><b>${esc(g.names[seat])}</b>${peek}</div>` : ''}<div class="board${S.names ? ' names' : ''}" style="--n:${p.board.length}">${tiles}</div></div>`;
+  const fit = fitAttrs(p.board.length, L && playing);
+  return `<div class="boardbox${dim ? ' other' : ''}" data-seat="${seat}">${L && playing ? `<div class="bhead"><b>${esc(g.names[seat])}</b>${peek}</div>` : ''}<div class="board${S.names ? ' names' : ''}${S.names ? fit.cls : ''}" style="--n:${p.board.length}${fit.style}">${tiles}</div></div>`;
 }
 
 function askDock(g) {
@@ -982,9 +983,9 @@ function askDock(g) {
   for (const id of p.board) for (const t of FC.face(id).tags) onBoard.add(t);
   const tagChips = tags.filter((t) => onBoard.has(t.tag)).slice(0, 8).map((t) => `<button class="chip" data-act="chip" data-tag="${esc(t.tag)}">${esc(KIT.tagQuestion(t.tag))}</button>`);
   const looks = p.custom && g.custom && g.custom.people.every((x) => !x.img) ? [] : KIT.LOOKS;
-  return `<div class="askrow"><input id="qIn" maxlength="120" placeholder="Type a yes/no question" autocomplete="off" enterkeyhint="send" aria-label="Your question"><button class="btn main" data-act="ask">Ask</button></div>
-    <div class="chips qchips">${tagChips.join('')}${looks.map((l) => `<button class="chip" data-act="chip">${esc(l)}</button>`).join('')}</div>
-    <div class="row guessrow"><button class="btn small" data-act="guess">Guess instead</button></div>`;
+  // "Guess instead" sits in the question row (fit pass 2026-11-27): a row of its own cost the board ~40 px
+  return `<div class="askrow"><input id="qIn" maxlength="120" placeholder="Type a yes/no question" autocomplete="off" enterkeyhint="send" aria-label="Your question"><button class="btn main" data-act="ask">Ask</button><button class="btn" data-act="guess">Guess instead</button></div>
+    <div class="chips qchips">${tagChips.join('')}${looks.map((l) => `<button class="chip" data-act="chip">${esc(l)}</button>`).join('')}</div>`;
 }
 
 // advisory turn timer (Settings): counts the current step on every phone; nothing happens at 0
@@ -1049,6 +1050,36 @@ function overHTML(g) {
 }
 
 // size the board so the faces are as big as the space allows (no page scroll; 30 may scroll inside)
+// Fit pass (Tim, 2026-11-27: "making sure the user can actually see the full screen and everything"):
+// names get a second line when one line would cut them (the faces give up a little height for it), and
+// the last fit is written into the board's HTML so a redraw (a flip, your face shown) never jumps to the
+// 4 x 70 px default for a frame.
+const FIT = new Map();   // `${faces}|${boards}|${viewport}` -> { c, s, gap, nameH, lines }
+const fitKey = (n, two) => `${n}|${two ? 2 : 1}|${innerWidth}x${innerHeight}`;
+function fitAttrs(n, two) {
+  const f = FIT.get(fitKey(n, two));
+  return f ? { cls: f.lines > 1 ? ' n' + f.lines : '', style: `;--cols:${f.c};--tile:${f.s}px;--gap:${f.gap}px;--nameh:${f.nameH}px` } : { cls: '', style: '' };
+}
+let measureCtx = null;
+/** How well the names show in `max` lines of `width` px, 0..1 (words wrap; a long word breaks anywhere). */
+function nameShown(names, width, font, max) {
+  measureCtx = measureCtx || document.createElement('canvas').getContext('2d');
+  measureCtx.font = font;
+  const w = (t) => measureCtx.measureText(t).width;
+  let sum = 0;
+  for (const nm of names) {
+    const total = w(nm);
+    let lines = 1, cur = 0;
+    for (const word of nm.split(/\s+/)) {
+      const ww = w(word), sp = cur ? w(' ') : 0;
+      if (cur && cur + sp + ww <= width) { cur += sp + ww; continue; }
+      if (cur) lines++;
+      if (ww > width) { lines += Math.ceil(ww / width) - 1; cur = ww % width; } else cur = ww;
+    }
+    sum += lines <= max ? 1 : 0.5 * Math.min(1, (max * width) / total);   // a cut name counts half of what shows
+  }
+  return names.length ? sum / names.length : 1;
+}
 function fitBoards() {
   document.querySelectorAll('.boardbox').forEach((box) => {
     const b = box.querySelector('.board');
@@ -1059,23 +1090,48 @@ function fitBoards() {
     const padX = parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight), padY = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
     const W = box.clientWidth - padX, H = box.clientHeight - padY - (head ? head.offsetHeight : 0);
     if (!W || !H) return;
-    const gap = W < 500 ? 4 : 6;
-    const nameH = S.names ? (W < 500 ? 14 : 17) : 0;
-    let best = { s: 0, c: 1 };
+    const small = W < 500;
+    const gap = small ? 4 : 6;
+    // one line: 14 / 17 px (font 78%); two (three on a laptop) lines: 13 / 16 px each (font 80%): names >= 10 px
+    const H1 = small ? 14 : 17, H2 = small ? 13 : 16;
+    const nmEl = S.names ? b.querySelector('.nm') : null;
+    const names = nmEl ? [...b.querySelectorAll('.nm')].map((e) => e.textContent.trim()) : [];
+    const family = nmEl ? getComputedStyle(nmEl).fontFamily : '';
+    // below this, faces get too small: keep them readable and let the board scroll (a small board, like an
+    // iPhone SE's or a phone on its side, takes 42 px so 30 faces still fit without scrolling)
+    const min = Math.min(W, H) < 340 ? 42 : 46;
+    let best = null, whole = null;
     for (let c = 2; c <= Math.min(n, 12); c++) {
       const r = Math.ceil(n / c);
       const sw = (W - gap * (c - 1)) / c;
-      const sh = (H - gap * (r - 1)) / r - nameH;
-      const s = Math.min(sw, sh);
-      if (s > best.s) best = { s, c };
+      for (const lines of !names.length ? [0] : small ? [1, 2] : [1, 2, 3]) {
+        const nameH = lines > 1 ? H2 : lines ? H1 : 0;
+        const s = Math.min(sw, (H - gap * (r - 1)) / r - nameH * Math.max(1, lines));
+        if (s <= 0) continue;
+        let shown = 1;
+        if (lines) {
+          const font = `600 ${(lines > 1 ? H2 * 0.8 : H1 * 0.78).toFixed(2)}px ${family}`;
+          shown = nameShown(names, Math.floor(s) - 4, font, lines);   // 2 px padding + 2 px for font rounding
+        }
+        // bigger faces win, but names count too: a board whose names barely show is worth up to 80% less
+        const score = (s >= min ? 1000 : 0) + s * (0.2 + 0.8 * shown);
+        const o = { score, s, c, lines, nameH, shown };        if (!best || score > best.score) best = o;
+        if (shown > 0.999 && s >= min && (!whole || s > whole.s)) whole = o;
+      }
     }
-    const min = 46;  // below this, faces get too small: keep them readable and let the board scroll
-    let s = best.s, c = best.c;
-    if (s < min) { c = Math.max(2, Math.floor((W + gap) / (min + gap))); s = (W - gap * (c - 1)) / c; }
+    if (!best) return;
+    // every name whole beats slightly bigger faces (down to 80% of their size)
+    if (whole && whole !== best && whole.s >= best.s * 0.8) best = whole;
+    let { s, c, lines, nameH } = best;
+    if (s < min) { lines = names.length ? 1 : 0; nameH = lines ? H1 : 0; c = Math.max(2, Math.floor((W + gap) / (min + gap))); s = (W - gap * (c - 1)) / c; }
+    s = Math.floor(s);
+    b.classList.toggle('n2', lines === 2);
+    b.classList.toggle('n3', lines === 3);
     b.style.setProperty('--cols', c);
-    b.style.setProperty('--tile', Math.floor(s) + 'px');
+    b.style.setProperty('--tile', s + 'px');
     b.style.setProperty('--gap', gap + 'px');
     b.style.setProperty('--nameh', nameH + 'px');
+    FIT.set(fitKey(n, !!box.closest('.boards.two')), { c, s, gap, nameH, lines });
   });
 }
 addEventListener('resize', () => requestAnimationFrame(fitBoards));
@@ -1115,6 +1171,7 @@ function logSheet() {
     ? `<li><b>${esc(N[e.by])}</b> guessed <b>${esc(FC.face(e.guess).name)}</b>: ${e.ok ? 'right' : 'wrong'}</li>`
     : `<li><b>${esc(N[e.by])}</b>: ${e.q ? esc(e.q) : '<i>asked out loud</i>'} <span class="a a-${e.a || 'x'}">${ANS[e.a] || '…'}</span></li>`).reverse().join('');
   sheet(`<h3>Questions</h3><ol class="log" reversed>${rows || '<p class="muted">No questions yet.</p>'}</ol><div class="row end"><button class="btn main" data-act="sheetx">Close</button></div>`);
+  $('#layer .sheet').classList.add('logsheet');
 }
 function menuSheet() {
   const g = G(); if (!g) return;

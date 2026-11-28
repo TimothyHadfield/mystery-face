@@ -168,6 +168,9 @@ main { min-height: 0; position: relative; }
 .face { position: relative; display: flex; flex-direction: column; width: var(--tile, 70px); min-width: 0; padding: 0; text-align: center; border-radius: 9px; }
 .face .ph { width: 100%; border-radius: 8px; box-shadow: 0 0 0 1px rgba(255,255,255,.08), 0 2px 4px rgba(0,0,0,.35); transition: filter .18s, opacity .18s; }
 .face .nm { display: block; height: var(--nameh, 14px); font-size: calc(var(--nameh, 14px) * .78); line-height: var(--nameh, 14px); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #cfd4e2; padding: 0 1px; }
+/* fit pass 2026-11-27: two lines when one would cut the names (fitBoards picks it) */
+.board.n2 .face .nm, .board.n3 .face .nm { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; height: calc(var(--nameh, 13px) * 2); font-size: calc(var(--nameh, 13px) * .8); white-space: normal; overflow-wrap: anywhere; }
+.board.n3 .face .nm { -webkit-line-clamp: 3; height: calc(var(--nameh, 16px) * 3); }
 .face:active .ph { transform: scale(.96); }
 /* flipped down: darkened, greyed, and a big X, so it reads without colour */
 .face .xmark { position: absolute; inset: 0; display: none; pointer-events: none; }
@@ -218,6 +221,14 @@ main { min-height: 0; position: relative; }
 .qchips::-webkit-scrollbar { display: none; }
 .guessrow { margin: 0; justify-content: center; }
 .guessrow .btn { max-width: none; flex: none; }
+.askrow .btn { padding: 0 12px; }
+/* tap targets >= 36 px on the game screen and the group browser (fit pass 2026-11-27) */
+.game .btn.small, .gtop .btn.small, .btn.small.gadd { min-height: 36px; }
+.game .btn.icon { width: 36px; }
+.pswitch button { min-height: 36px; }
+/* the question list scrolls inside its sheet; Close stays in view */
+.sheet.logsheet { display: flex; flex-direction: column; }
+.sheet.logsheet .log { overflow-y: auto; min-height: 0; flex: 1; }
 
 /* same screen: the look-away cover, and the press-and-hold peek */
 .cover { position: absolute; inset: 0; z-index: 5; display: grid; place-items: center; background: #0b0d13; text-align: center; padding: 20px; }
@@ -389,6 +400,9 @@ main { min-height: 0; position: relative; }
   .game > .dock { grid-column: 2; grid-row: 3; align-self: start; }
   .game > .cover, .game > .over { grid-column: 1 / -1; grid-row: 1 / -1; }
   .dock .btn { flex-basis: 40%; }
+  .askrow { flex-wrap: wrap; }
+  .askrow input { flex-basis: 100%; }
+  .askrow .btn { flex: 1; }
 }
 @media (max-width: 360px) {
   .brand span { font-size: 15px; }
@@ -400,4 +414,4 @@ main { min-height: 0; position: relative; }
 /* connection trouble (2026-11-19): a red bar under the top bar for as long as it lasts */
 #netbar { position: fixed; left: 50%; top: calc(64px + env(safe-area-inset-top, 0px)); transform: translateX(-50%); z-index: 60; width: min(560px, calc(100vw - 24px)); box-sizing: border-box; padding: 10px 14px; border-radius: 10px; background: var(--bad); color: #1a0b0b; font-weight: 600; font-size: 14px; line-height: 1.35; text-align: center; box-shadow: 0 6px 18px rgba(0,0,0,.45); pointer-events: none; }
 /* online: your face stays covered until tapped (2026-11-19) */
-.mychip .mc-cover { display: grid; place-items: center; background: repeating-linear-gradient(45deg, #2b3550 0 5px, #232b42 5px 10px); color: var(--warm); font-weight: 700; font-size: 18px; }
+.mychip .mc-cover { position: relative; display: grid; place-items: center; background: repeating-linear-gradient(45deg, #2b3550 0 5px, #232b42 5px 10px); color: var(--warm); font-weight: 700; font-size: 18px; }

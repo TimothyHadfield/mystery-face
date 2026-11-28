@@ -21,6 +21,7 @@ Big face library: 91 groups / ~4,240 faces, group browser, smart know/don't-know
 | Tests | `node --test` 63/63; pwa-check 17/18 (known WebKit image noise) |
 | Live | https://timothyhadfield.github.io/mystery-face/ @ 990eaae |
 
+| Fit pass 2026-11-27 | done 2026-11-28: names wrap to 2 lines (3 on laptop) when one would cut them; no board jump on redraw; hidden-face cover fixed; "Guess instead" in the question row; log Close stays on screen; 36 px buttons. `node tests/fit-ui.mjs [url]` (serve first; WebKit, 393x659 / 320x568 / 659x393 / 1280x800 / 1440x900, crowded 30-face board) |
 | Out of faces (2026-11-24, b7b4ff7) | Tim: "sometimes when you're switching characters out it just stops letting you ... put a notification that says that it's ran out of characters left. you can either choose to start recylcing characters or remove them entirely ... just put sort and then you can choose smart or sort all. Make another button for each group that says view". Cause: Swap disabled at 0 spares, and spares all excluded (look-alike/marked) swapped nothing silently. Engine `dunno` now sets `s.stuck = {seat, idx, recycle}`; swap action takes `recycle` (clears that seat's marks, refills spares from pool) or `remove` (drops those faces, board keeps ≥2). App `stuckSheet` box: Keep them / Recycle / Remove. Groups list: Sort → Smart / Sort all; View → full-screen `#gview` face grid (deduped by name). Tests 67/67; headless WebKit flow (`scratchpad/mf/stuck.mjs`) 24→22 on Remove |
 | Online fix (2026-11-19, 8130ef1 + 7b8d955) | Tim: "when I click start, my computer goes back to the main screen ... sometimes the pictures aren't synced". Cause (measured: old code reproduced it, new code doesn't): `G()` returned a SAVED same-screen game before the online room, so Start showed home / the old board. Now the online room wins; in a room with no table yet → "Loading the game…". online.js (same change in the kit `_online/online.js` 160b244; other games still have the old copy): failed Start → back to lobby + reason; failed host write → retry every 5 s; `snap.problem` (write/listener failure, cards not arriving after 6 s, offline) → red `#netbar`; room closed / removed → a box, not a toast. `two-browsers.mjs --deck` passes on live 7b8d955 |
 
@@ -59,9 +60,11 @@ Big face library: 91 groups / ~4,240 faces, group browser, smart know/don't-know
 - Broad groups: "All <category>" per category + the old 7 decks. Added groups saved in settings (`added`); none saved = the old 7. Pool capped at 1500.
 - Fame = 12-month English Wikipedia pageviews ranked within the group (spikes capped by the history builder; ~85 character values estimated, marked in tools/groups/characters.py output).
 - Content: no minors, dictators, people known mainly for crimes/abuse (O.J., Tyson, Kanye, Diddy, Gaiman, etc. left out). Kept (flagged to Tim): Michael Jackson, Columbus, Marx, Ayn Rand, Marjorie Taylor Greene, Valorant/Apex "hero shooters" group (mostly estimated fame).
-- Plain UI choices (Tim may change): "+ Groups" link, "All <category>" names, Broad/Specific headings.
+- Fit (2026-11-28): fitBoards scores each column count x name lines (face size x how much of the names shows; a cut name counts half); all names whole wins if faces stay >= 80% of the best size. Min face 46 px, 42 px on boards under 340 px. Last fit cached per board size + viewport and written into the HTML.
+- Plain UI choices (Tim may change): "Guess instead" now sits right of Ask (was its own row) to give the board ~40 px; "+ Groups" link, "All <category>" names, Broad/Specific headings.
 
 ## NOT verified
+- Fit pass: real iPhone; online two-browser game with the new ask row (fit-ui fakes the room in the page). Known limits: same screen at 320x568 with 30 faces scrolls the board 74 px; same screen sideways keeps 1 name line (names ~26% shown for 30+ letter names); names longer than ~25 letters end in "…" on phones (>= 45% shown).
 - Out-of-faces box online (two browsers), View at laptop width, View after the dedupe fix (not re-screenshotted).
 - Real iPhone (WebKit headless only), real finger swipe in the sorter, account sync of sorted faces signed in.
 - Google sign-in popup.
